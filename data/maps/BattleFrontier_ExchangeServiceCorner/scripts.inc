@@ -706,7 +706,7 @@ BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
 	.string "A hold item that casts a glare to\n"
-	.string "reduce accuracy.$"
+	.string "reduce Accuracy.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
 	.string "Raises a move's power, but permits\n"
@@ -722,4 +722,4 @@ BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
 	.string "A hold item that raises the\n"
-	.string "critical-hit rate.$"
+	.string "critical hit rate.$"

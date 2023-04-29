@@ -457,7 +457,7 @@ BattleFrontier_Lounge7_Text_SnoreDesc::
 BattleFrontier_Lounge7_Text_MudSlapDesc::
 	.string "Hurls mud in the\n"
 	.string "foe's face to re-\n"
-	.string "duce its accuracy.$"
+	.string "duce its Accuracy.$"
 
 BattleFrontier_Lounge7_Text_SwiftDesc::
 	.string "Sprays star-\n"
