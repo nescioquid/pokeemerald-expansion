@@ -1257,8 +1257,8 @@ static const u8 sSachetDesc[] = _(
 
 static const u8 sOvalStoneDesc[] = _(
     "Makes a certain\n"
-    "Pokémon evolve. It's\n"
-    "shaped like an egg.");
+    "Pokémon evolve.\n"
+    "Shaped like an egg.");
 
 static const u8 sStrawberrySweetDesc[] = _(
     "Strawberry-shaped\n"
