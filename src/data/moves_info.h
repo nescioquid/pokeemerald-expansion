@@ -161,7 +161,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Karate Chop"),
         .description = COMPOUND_STRING(
             "A chopping attack with a\n"
-            "high critical-hit ratio."),
+            "high critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 50,
         .type = TYPE_FIGHTING,
@@ -780,7 +780,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     {
         .name = COMPOUND_STRING("Sand Attack"),
         .description = COMPOUND_STRING(
-            "Reduces the foe's accuracy\n"
+            "Reduces the foe's Accuracy\n"
             "by hurling sand in its face."),
         .effect = EFFECT_ACCURACY_DOWN,
         .power = 0,
@@ -1887,7 +1887,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Razor Leaf"),
         .description = COMPOUND_STRING(
             "Cuts the enemy with leaves.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 55,
         .type = TYPE_GRASS,
@@ -2668,7 +2668,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     {
         .name = COMPOUND_STRING("Smokescreen"),
         .description = COMPOUND_STRING(
-            "Lowers the foe's accuracy\n"
+            "Lowers the foe's Accuracy\n"
             "using smoke, ink, etc."),
         .effect = EFFECT_ACCURACY_DOWN,
         .power = 0,
@@ -2857,7 +2857,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Focus Energy"),
         .description = COMPOUND_STRING(
             "Focuses power to raise the\n"
-            "critical-hit ratio."),
+            "critical hit ratio."),
         .effect = EFFECT_FOCUS_ENERGY,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -3296,7 +3296,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Kinesis"),
         .description = COMPOUND_STRING(
             "Distracts the foe.\n"
-            "May lower accuracy."),
+            "May lower Accuracy."),
         .effect = EFFECT_ACCURACY_DOWN,
         .power = 0,
         .type = TYPE_PSYCHIC,
@@ -3646,7 +3646,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Flash"),
         .description = COMPOUND_STRING(
             "Looses a powerful blast of\n"
-            "light that cuts accuracy."),
+            "light that cuts Accuracy."),
         .effect = EFFECT_ACCURACY_DOWN,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -3736,7 +3736,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Crabhammer"),
         .description = COMPOUND_STRING(
             "Hammers with a pincer. Has a\n"
-            "high critical-hit ratio."),
+            "high critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 100 : 90,
         .type = TYPE_WATER,
@@ -3990,7 +3990,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Slash"),
         .description = COMPOUND_STRING(
             "Slashes with claws, etc. Has\n"
-            "a high critical-hit ratio."),
+            "a high critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 70,
         .type = TYPE_NORMAL,
@@ -4346,7 +4346,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Aeroblast"),
         .description = COMPOUND_STRING(
             "Launches a vacuumed blast.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 100,
         .type = TYPE_FLYING,
@@ -4621,7 +4621,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Mud-Slap"),
         .description = COMPOUND_STRING(
             "Hurls mud in the foe's face\n"
-            "to reduce its accuracy."),
+            "to reduce its Accuracy."),
         .effect = EFFECT_HIT,
         .power = 20,
         .type = TYPE_GROUND,
@@ -4645,7 +4645,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Octazooka"),
         .description = COMPOUND_STRING(
             "Fires a lump of ink to\n"
-            "damage and cut accuracy."),
+            "damage and cut Accuracy."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_WATER,
@@ -5796,7 +5796,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Cross Chop"),
         .description = COMPOUND_STRING(
             "A double-chopping attack.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 100,
         .type = TYPE_FIGHTING,
@@ -7268,7 +7268,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     {
         .name = COMPOUND_STRING("Blaze Kick"),
         .description = COMPOUND_STRING(
-            "A kick with a high critical-\n"
+            "A kick with a high critical\n"
             "hit ratio. May cause a burn."),
         .effect = EFFECT_HIT,
         .power = 85,
@@ -7636,7 +7636,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Air Cutter"),
         .description = COMPOUND_STRING(
             "Hacks with razorlike wind.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 60 : 55,
         .type = TYPE_FLYING,
@@ -8008,7 +8008,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Muddy Water"),
         .description = COMPOUND_STRING(
             "Attacks with muddy water.\n"
-            "May lower accuracy."),
+            "May lower Accuracy."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 95,
         .type = TYPE_WATER,
@@ -8291,7 +8291,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     {
         .name = COMPOUND_STRING("Poison Tail"),
         .description = COMPOUND_STRING(
-            "Has a high critical-hit\n"
+            "Has a high critical hit\n"
             "ratio. May also poison."),
         .effect = EFFECT_HIT,
         .power = 50,
@@ -8442,7 +8442,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Leaf Blade"),
         .description = COMPOUND_STRING(
             "Slashes with a sharp leaf.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 90 : 70,
         .type = TYPE_GRASS,
@@ -9643,7 +9643,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Night Slash"),
         .description = COMPOUND_STRING(
             "Hits as soon as possible.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 70,
         .type = TYPE_DARK,
@@ -10118,7 +10118,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Shadow Claw"),
         .description = COMPOUND_STRING(
             "Strikes with a shadow claw.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 70,
         .type = TYPE_GHOST,
@@ -10255,7 +10255,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Mud Bomb"),
         .description = COMPOUND_STRING(
             "Throws a blob of mud to\n"
-            "damage and cut accuracy."),
+            "damage and cut Accuracy."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_GROUND,
@@ -10280,7 +10280,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Psycho Cut"),
         .description = COMPOUND_STRING(
             "Tears with psychic blades.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 70,
         .type = TYPE_PSYCHIC,
@@ -10327,7 +10327,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Mirror Shot"),
         .description = COMPOUND_STRING(
             "Emits a flash of energy to\n"
-            "damage and cut accuracy."),
+            "damage and cut Accuracy."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_STEEL,
@@ -10680,7 +10680,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Stone Edge"),
         .description = COMPOUND_STRING(
             "Stabs the foe with stones.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 100,
         .type = TYPE_ROCK,
@@ -10920,7 +10920,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Attack Order"),
         .description = COMPOUND_STRING(
             "Underlings pummel the foe.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 90,
         .type = TYPE_BUG,
@@ -11058,7 +11058,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Spacial Rend"),
         .description = COMPOUND_STRING(
             "Tears the foe, and space.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 100,
         .type = TYPE_DRAGON,
@@ -12637,7 +12637,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Drill Run"),
         .description = COMPOUND_STRING(
             "Spins its body like a drill.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 80,
         .type = TYPE_GROUND,
@@ -12793,7 +12793,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Leaf Tornado"),
         .description = COMPOUND_STRING(
             "Circles the foe with leaves\n"
-            "to damage and cut accuracy."),
+            "to damage and cut Accuracy."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_GRASS,
@@ -12868,7 +12868,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Night Daze"),
         .description = COMPOUND_STRING(
             "Looses a pitch-black shock\n"
-            "wave. May lower accuracy."),
+            "wave. May lower Accuracy."),
         .effect = EFFECT_HIT,
         .power = 85,
         .type = TYPE_DARK,
@@ -14371,7 +14371,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     {
         .name = HANDLE_EXPANDED_MOVE_NAME("MagneticFlux", "Magnetic Flux"),
         .description = COMPOUND_STRING(
-            "Boosts the defenses of\n"
+            "Boosts the Defenses of\n"
             "those with Plus or Minus."),
         .effect = EFFECT_MAGNETIC_FLUX,
         .power = 0,
@@ -15201,7 +15201,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     {
         .name = COMPOUND_STRING("Gear Up"),
         .description = COMPOUND_STRING(
-            "Boosts the attacks of\n"
+            "Boosts the Attacks of\n"
             "those with Plus or Minus."),
         .effect = EFFECT_GEAR_UP,
         .power = 0,
@@ -15727,7 +15727,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Fleur Cannon"),
         .description = COMPOUND_STRING(
             "A strong ray that harshly\n"
-            "lowers Sp. Attack."),
+            "lowers Sp. Atk."),
         .effect = EFFECT_HIT,
         .power = 130,
         .type = TYPE_FAIRY,
@@ -15961,7 +15961,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Tearful Look"),
         .description = COMPOUND_STRING(
             "The user tears up, dropping\n"
-            "Attack and Sp. Attack."),
+            "Attack and Sp. Atk."),
         .effect = EFFECT_NOBLE_ROAR,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -16095,7 +16095,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     {
         .name = HANDLE_EXPANDED_MOVE_NAME("PhotonGeyser", "Photon Geyser"),
         .description = COMPOUND_STRING(
-            "User's highest attack stat\n"
+            "User's highest Attack stat\n"
             "determines its category."),
         .effect = EFFECT_PHOTON_GEYSER,
         .power = 100,
@@ -17297,7 +17297,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Scale Shot"),
         .description = COMPOUND_STRING(
             "Shoots scales 2 to 5 times.\n"
-            "Ups Speed, lowers defense."),
+            "Ups Speed, lowers Defense."),
         .effect = EFFECT_MULTI_HIT,
         .power = 25,
         .type = TYPE_DRAGON,
@@ -17318,7 +17318,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Meteor Beam"),
         .description = COMPOUND_STRING(
             "A 2-turn move that raises\n"
-            "Sp. Attack before attacking."),
+            "Sp. Atk before attacking."),
         .effect = EFFECT_TWO_TURNS_ATTACK,
         .power = 120,
         .type = TYPE_ROCK,
@@ -18164,7 +18164,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = HANDLE_EXPANDED_MOVE_NAME("HeadlongRush", "Headlong Rush"),
         .description = COMPOUND_STRING(
             "Hits with a full-body tackle.\n"
-            "Lowers the users's defenses."),
+            "Lowers the users's Defenses."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_9 ? 120 : 100,
         .type = TYPE_GROUND,
@@ -19262,7 +19262,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Aqua Cutter"),
         .description = COMPOUND_STRING(
             "Pressurized water cut with a\n"
-            "high critical-hit ratio."),
+            "high critical hit ratio."),
         .effect = EFFECT_HIT,
         .power = 70,
         .type = TYPE_WATER,
@@ -19517,7 +19517,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .name = COMPOUND_STRING("Ivy Cudgel"),
         .description = COMPOUND_STRING(
             "Type changes with held mask.\n"
-            "High critical-hit ratio."),
+            "High critical hit ratio."),
         .effect = EFFECT_IVY_CUDGEL,
         .power = 100,
         .type = TYPE_GRASS,
