@@ -656,3 +656,53 @@ script Pory_EventScript_GiveBigRoot {
   release
   end
 }
+
+// removes mention of in-game trades and the Seedot/Lotad size game in Sootopolis
+
+script RustboroCity_House1_EventScript_Trader_Pory {
+  lock
+  faceplayer
+  msgbox(format("Any Pokémon can be cute if you raise\nit with care and kindness."))
+  release
+  end
+}
+
+script FortreeCity_House1_EventScript_Trader_Pory {
+  lock
+  faceplayer
+  msgbox(format("I'm going to make my Pokémon super\nstrong from this moment on!\pI hope you do the same with yours!"))
+  release
+  end
+}
+
+script PacifidlogTown_House3_EventScript_Trader_Pory {
+  lock
+  faceplayer
+  msgbox(format("I know I could go looking for them\non my own, but…\pBut I really want to get a Pokémon\nthat another Trainer's caught…"))
+  release
+  end
+}
+
+script BattleFrontier_Lounge6_EventScript_Trader_Pory {
+  lock
+  faceplayer
+  msgbox(format("Giggle!\nMy Pokémon is so much cuter than I had\limagined. I'm delighted!"))
+  release
+  end
+}
+
+script SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotBrother_Pory {
+  lock
+  faceplayer
+  msgbox(format("Do you know the Pokémon Seedot?\nIt's hardly ever seen in Sootopolis.\pAnyway, I love big Seedot.\nThe bigger the better.\pBut my younger brother, he says that\nLotad is bigger.\pThat's silly.\nSeedot has to be bigger than that!"))
+  release
+  end
+}
+
+script SootopolisCity_LotadAndSeedotHouse_EventScript_LotadBrother_Pory {
+  lock
+  faceplayer
+  msgbox(format("Do you know the Pokémon Lotad?\nIt's rarely seen in Sootopolis.\pI love, I mean love, big Lotad!\pMy big brother says that Seedot is\nbigger.\pBut that's wrong! Everyone knows that\nLotad is a lot bigger."))
+  release
+  end
+}
