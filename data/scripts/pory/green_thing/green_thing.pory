@@ -156,3 +156,261 @@ text SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum_Pory {
 text SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern_Pory {
   "Hm?\nHi, I'm Dock.\pCapt. Stern commissioned me to\ndesign a ferry.\pOh! That there…\nAre they Devon Parts?\pBut, hmm…\nThis won't do…\pCapt. Stern went off somewhere.\nHe said he had some work to do.\pCould I get you to go find Capt.\nStern and deliver that to him?"
 }
+
+// Mom now also gives you a half dozen Lucky Eggs when she gives you the Running Shoes
+
+script LittlerootTown_EventScript_GiveRunningShoes_Pory {
+  msgbox(LittlerootTown_Text_WearTheseRunningShoes, MSGBOX_DEFAULT)
+  playfanfare(MUS_OBTAIN_ITEM)
+  message(LittlerootTown_Text_SwitchShoesWithRunningShoes)
+  waitfanfare
+  setflag(FLAG_RECEIVED_RUNNING_SHOES)
+  msgbox(LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT)
+  msgbox(format("Oh, and I just went grocery shopping. Take these too, just in case you or your new Pokémon get hungry!"))
+  giveitem(ITEM_LUCKY_EGG, 6)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  msgbox(LittlerootTown_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT)
+  closemessage
+  delay(30)
+  return    
+}
+
+// changes the Silk Scarf NPC in Dewford now gives a Choice Scarf
+
+text Pory_Text_WantYouToHaveChoiceScarf {
+  format("Gorge your eyes on this!\pIt's a Choice Scarf. It's right at the cutting edge of fashion, yeah!\pOh, I can see your eyes twinkling!\nYou appreciate my dazzling style!\pOh, you're a delight!\nHere you go. I want you to have it!")
+}
+
+text Pory_Text_ExplainChoiceScarf {
+  format("The Choice Scarf raises its holder's Speed, but only allows the use of the first move selected. The effect resets when the holder is withdrawn.\pIt's a marvelous Scarf that will go\nwith almost all Pokémon!")
+}
+
+// the HM05 Flash hiker in Granite Cave now also gives an Escape Rope
+
+script GraniteCave_1F_EventScript_Hiker_Pory {
+  lock
+  faceplayer 
+  if(!flag(FLAG_RECEIVED_HM_FLASH)) {
+    msgbox(format("Hey, you.\nIt gets awfully dark ahead.\lIt'll be tough trying to explore.\pThat guy who came by earlier…\nSteven, I think it was.\pHe knew how to use Flash, so he ought\nto be all right, but…\pWell, for us Hikers, helping out those\nthat we meet is our motto.\pHere you go, I'll pass this on to you."))
+    giveitem(ITEM_HM_FLASH)
+    setflag(FLAG_RECEIVED_HM_FLASH)
+    msgbox(format("And take this too."))
+    giveitem(ITEM_ESCAPE_ROPE)
+  }
+  msgbox(format("Teach that hidden move Flash to\na Pokémon and use it.\pIt lights up even the inky darkness\nof caves.\pBut, to use it, you need the Gym Badge\nfrom Dewford's Pokémon Gym.\pThat Escape Rope though, you can use it anywhere you feel like you've gotten lost. Take care!"))
+}
+
+// the Winstrate family now gives a Muscle Band
+
+text Pory_Text_LikeYouToHaveMuscleBand {
+  format("We use this Muscle Band to strengthen our Pokémon.\pSince you've beaten all of us here, I don't know if you need it, but we would like you to have it.")
+}
+
+// the Devon Employee now gives a Net Ball, an Exp. Share and a Master Ball
+
+script Pory_EventScript_ThatWasAwfullyClose {
+  msgbox(format("Whew…\nThat was awfully close!\pThanks to you, he didn't rob me of these important papers.\pI know, I'll give you this Net Ball I found as my thanks!"))
+  giveitem(ITEM_NET_BALL)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+}
+
+script Pory_EventScript_YouGotItThankYou {
+  msgbox(format("Oh! How did it go? The Devon Parts?\pYou did!\nYou got them back!\pYou really are a great Trainer!\pI know! As my thanks, I'll give you this!"))
+  giveitem(ITEM_EXP_SHARE)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  msgbox(format("A Pokémon holding that will be given some of the Exp Points from battle, even if it didn't actually participate.\pI'd say it's quite useful for raising weak Pokémon. Anyway…"))
+}
+
+script Route116_EventScript_DevonEmployee_Pory {
+  lock
+  faceplayer
+  if(!flag(FLAG_MET_DEVON_EMPLOYEE)) {
+    msgbox(format("Oh! It's you!\pYou're that person who not only helped\nme in Petalburg Woods, but also got\lback my stolen package and then even\lgraciously delivered it to Slateport!\pCapt. Stern informed us that the\npackage arrived, too!\pI thank you very, very much!\pWhy, if I were a rain cloud, I would\nshower you with gratitude and hail\lyou as a hero!\pFor you, the most wonderful Trainer,\nI bear good news!\pRecently, our company got a few examples of a new kind of Poké Ball.\pAs a token of our appreciation, this\nis our gift to our wonderful Trainer!"))
+  } else {
+    msgbox(format("As a token of our appreciation for your delivering our package, I have a gift for our most wonderful Trainer!"))
+  }
+  setflag(FLAG_MET_DEVON_EMPLOYEE)
+  giveitem(ITEM_MASTER_BALL)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  msgbox(format("That Poké Ball will capture any and all Pokémon without fail.\pDon't go and waste it, but please do try it out!\nThank you and bye-bye!"))
+  closemessage
+  call_if_eq(VAR_FACING, DIR_NORTH, Route116_EventScript_DevonEmployeeExit)
+  call_if_eq(VAR_FACING, DIR_SOUTH, Route116_EventScript_DevonEmployeeExit)
+  call_if_eq(VAR_FACING, DIR_WEST, Route116_EventScript_DevonEmployeeExit)
+  call_if_eq(VAR_FACING, DIR_EAST, Route116_EventScript_DevonEmployeeExitEast)
+  removeobject(VAR_LAST_TALKED)
+  clearflag(FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE)
+  setflag(FLAG_RECEIVED_REPEAT_BALL)
+  release
+  end
+}
+
+// Mr. Stone now gives an Eviolite for delivering the Letter
+
+script Pory_EventScript_MrStoneGiveEviolite {
+  msgbox(RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter, MSGBOX_DEFAULT)
+  giveitem(ITEM_EVIOLITE)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  setflag(FLAG_RECEIVED_EXP_SHARE)
+  msgbox(format("Mr. Stone: That Eviolite is a rare stone indeed! Take care of it for me."))
+  closemessage
+  applymovement(VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection)
+  waitmovement(0)
+  release
+  end
+}
+
+// Steven now gives an Old Amber instead of HM08 Dive
+
+script Pory_EventScript_StevenGiveEvoGene {
+  msgbox(format("Steven: {PLAYER}{KUN}…\pAs you can see, there's not much here, but this is my home.\pThank you for all that you've done. This is my token of appreciation.\pNo need to be shy --you've earned it."))
+  giveitem(ITEM_OLD_AMBER)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  msgbox(format("Steven: That's an ancient stone formed from fossilized tree sap. \pWhile we're not certain, someone in the lab ad headquarters told me the DNA of an ancient Pokémon trapped inside it.\pI'm sure you can find the potential in it. And, thanks again."))
+}
+
+// the Gym Guide now gives you a Fresh Water in every Gym
+
+script RustboroCity_Gym_EventScript_GymGuide_Pory {
+  lock
+  faceplayer
+  if (flag(FLAG_DEFEATED_RUSTBORO_GYM)) {
+    goto(RustboroCity_Gym_EventScript_GymGuidePostVictory)
+  }
+  msgbox(format("Yo, how's it going?\pListen, my friend!\nWould you like to become the Champion?\pI'm no Trainer, not me, but I can\nsure give you winning advice.\pThat's settled, then! We'll aim for the\nPokémon Championship together!\pIt's your job as a Trainer to collect\nGym Badges, am I right?\pBut Gym Leaders aren't pushovers!\pAnd that's where I come in!\nI'm here to provide expert advice!\pRoxanne, the Gym Leader, is a user\nof Rock-type Pokémon.\pThe Rock type is very durable, but\nit can't stand Water-type and\lGrass-type moves.\pCome see me afterwards, if you beat\nthe Gym Leader."))
+  if (!flag(FLAG_TALKED_TO_GUIDE_RUSTBORO_GYM)) {
+    msgbox(format("Oh, and take this!"))
+    giveitem(ITEM_FRESH_WATER)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    setflag(FLAG_TALKED_TO_GUIDE_RUSTBORO_GYM)
+  }
+  msgbox(format("Well, go for it!"))
+  release
+  end
+}
+
+script DewfordTown_Gym_EventScript_GymGuide_Pory {
+  lock
+  faceplayer
+  if (flag(FLAG_DEFEATED_DEWFORD_GYM)) {
+    goto(DewfordTown_Gym_EventScript_GymGuidePostVictory)
+  }
+  msgbox(format("Hey, how's it going, Champion-\nbound {PLAYER}?\pDewford's Gym Leader Brawly commands\nFighting-type Pokémon.\pGoing against him with NORMAL-type\nPokémon is asking for trouble.\pFighting Pokémon will lay a serious\nsmack down on Normal Pokémon,\lso be careful!\pWhat's worse, the Gym is as dark as\nthe ocean floor.\pBut it will get brighter after defeating\nthe Trainers in your way."))
+  if (!flag(FLAG_TALKED_TO_GUIDE_DEWFORD_GYM)) {
+    msgbox(format("Oh, and take this!"))
+    giveitem(ITEM_FRESH_WATER)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    setflag(FLAG_TALKED_TO_GUIDE_DEWFORD_GYM)
+  }
+  msgbox(format("Hey, okay, go for it!"))
+  release
+  end
+}
+
+script MauvilleCity_Gym_EventScript_GymGuide_Pory {
+  lock
+  faceplayer
+  if (flag(FLAG_DEFEATED_MAUVILLE_GYM)) {
+    goto(MauvilleCity_Gym_EventScript_GymGuidePostVictory)
+  }
+  msgbox(format("Hey, how's it going, Champion-\nbound {PLAYER}?\pWATTSON, the Leader of Mauville\nGym, uses Electric-type Pokémon.\pIf you challenge him with Water-type\nPokémon, he'll zap them! Bzzt!\pAnd, he's put in switch-controlled\ndoors all over his Gym! Eccentric!"))
+  if (!flag(FLAG_TALKED_TO_GUIDE_MAUVILLE_GYM)) {
+    msgbox(format("Oh, and take this!"))
+    giveitem(ITEM_FRESH_WATER)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    setflag(FLAG_TALKED_TO_GUIDE_MAUVILLE_GYM)
+  }
+  msgbox(format("Hey, go for it!"))
+  release
+  end
+}
+
+script LavaridgeTown_Gym_1F_EventScript_GymGuide_Pory {
+  lock
+  faceplayer
+  if (flag(FLAG_DEFEATED_LAVARIDGE_GYM)) {
+    goto(LavaridgeTown_Gym_1F_EventScript_GymGuidePostVictory)
+  }
+  msgbox(format("Hey, how's it going, Champion-\nbound {PLAYER}?\pLavaridge's Gym Leader Flannery\nuses Fire-type Pokémon.\pHer passion for Pokémon burns stronger\nand hotter than a volcano.\pDon't get too close to her--you'll burn!\nHose her down with water and then\lgo for it!"))
+  if (!flag(FLAG_TALKED_TO_GUIDE_LAVARIDGE_GYM)) {
+    msgbox(format("Oh, and take this!"))
+    giveitem(ITEM_FRESH_WATER)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    setflag(FLAG_TALKED_TO_GUIDE_LAVARIDGE_GYM)
+  }
+  msgbox(format("Good luck!"))
+  release
+  end
+}
+
+script PetalburgCity_Gym_EventScript_GymGuide_Pory {
+  lock
+  faceplayer
+  if (flag(FLAG_DEFEATED_PETALBURG_GYM)) {
+    goto(PetalburgCity_Gym_EventScript_GymGuidePostVictory)
+  }
+  msgbox(format("Hey, how's it going, Champion-\nbound {PLAYER}?\pThe doors in this Gym open when you\nbeat the awaiting Trainers.\pWhoops! The doors in this room are\nalready open, so don't attack me!\pThe Trainers of Petalburg Gym\nuse all kinds of items.\pThe door at the left leads to\nthe Speed Room.\pThe door at the right leads to\nthe Accuracy Room.\pThe room's name will be on\nthe door, so choose carefully.\pOnce you've chosen the door…"))
+  if (!flag(FLAG_TALKED_TO_GUIDE_PETALBURG_GYM)) {
+    msgbox(format("Oh, and take this!"))
+    giveitem(ITEM_FRESH_WATER)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    setflag(FLAG_TALKED_TO_GUIDE_PETALBURG_GYM)
+  }
+  msgbox(format("Well, hey, go for it!"))
+  release
+  end
+}
+
+script FortreeCity_Gym_EventScript_GymGuide_Pory {
+  lock
+  faceplayer
+  if (flag(FLAG_DEFEATED_FORTREE_GYM)) {
+    goto(FortreeCity_Gym_EventScript_GymGuidePostVictory)
+  }
+  msgbox(format("Yo, how's it going, Champion-\nbound {PLAYER}?\pFortree Gym Leader Winona is\na master of Flying-type Pokémon.\pShe's waiting at the back of this Gym,\nbehind the rotating doors.\pShe's waiting for new challengers\nwho are trying to take wing!"))
+  if (!flag(FLAG_TALKED_TO_GUIDE_FORTREE_GYM)) {
+    msgbox(format("Oh, and take this!"))
+    giveitem(ITEM_FRESH_WATER)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    setflag(FLAG_TALKED_TO_GUIDE_FORTREE_GYM)
+  }
+  msgbox(format("Okay, go for it!"))
+  release
+  end
+}
+
+script MossdeepCity_Gym_EventScript_GymGuide_Pory {
+  lock
+  faceplayer
+  if (flag(FLAG_DEFEATED_MOSSDEEP_GYM)) {
+    goto(MossdeepCity_Gym_EventScript_GymGuidePostVictory)
+  }
+  msgbox(format("Yo, how's it going, Champion-bound\n{PLAYER}?\pThe Gym Leaders here use\nPsychic-type Pokémon.\pIf you go up against them with\nFighting- or Poison-type Pokémon,\lthey'll inflict horrible damage!\pPlus, they'll come at you with\noutstanding combination attacks.\pIf you want to win, you'll need to show\nthem how tight you are with your\lPokémon."))
+  if (!flag(FLAG_TALKED_TO_GUIDE_MOSSDEEP_GYM)) {
+    msgbox(format("Oh, and take this!"))
+    giveitem(ITEM_FRESH_WATER)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    setflag(FLAG_TALKED_TO_GUIDE_MOSSDEEP_GYM)
+  }
+  msgbox(format("Go for it!"))
+  release
+  end
+}
+
+script SootopolisCity_Gym_1F_EventScript_GymGuide_Pory {
+  lock
+  faceplayer
+  if (flag(FLAG_DEFEATED_SOOTOPOLIS_GYM)) {
+    goto(SootopolisCity_Gym_1F_EventScript_GymGuidePostVictory)
+  }
+  msgbox(format("Yo! How's it going, Champion-\nbound {PLAYER}?\pSootopolis's Gym Leader Juan is\na master of WATER-type Pokémon.\pAnd, to get to Juan, an icy floor\nwill hamper your progress…\pListen, I'm sorry, but that's all the\nadvice that I have for you.\pThe rest of the way, you have to\ngo for it yourself!"))
+  if (!flag(FLAG_TALKED_TO_GUIDE_SOOTOPOLIS_GYM)) {
+    msgbox(format("Oh, and take this!"))
+    giveitem(ITEM_FRESH_WATER)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    setflag(FLAG_TALKED_TO_GUIDE_SOOTOPOLIS_GYM)
+  }
+  msgbox(format("Good luck!"))
+  release
+  end
+}

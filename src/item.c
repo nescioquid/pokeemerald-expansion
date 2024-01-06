@@ -93,6 +93,13 @@ void CopyItemNameHandlePlural(u16 itemId, u8 *dst, u32 quantity)
         else
             StringCopy(dst, gText_PokeBalls);
     }
+    else if (itemId == ITEM_LUCKY_EGG)
+    {
+        if (quantity < 2)
+            StringCopy(dst, ItemId_GetName(ITEM_LUCKY_EGG));
+        else
+            StringCopy(dst, gText_LuckyEggs);
+    }
     else
     {
         if (itemId >= FIRST_BERRY_INDEX && itemId <= LAST_BERRY_INDEX)
