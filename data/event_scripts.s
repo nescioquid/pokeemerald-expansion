@@ -1069,3 +1069,4 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/birch_speech.inc"
 
 .include "data/scripts/pory/green_thing/green_thing.inc"
+.include "data/scripts/pory/green_thing/item_maniac.inc"
