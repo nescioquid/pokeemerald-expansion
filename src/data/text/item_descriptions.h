@@ -782,9 +782,9 @@ static const u8 sPearlStringDesc[] = _(
     "high price.");
 
 static const u8 sStardustDesc[] = _(
-    "Beautiful red sand.\n"
-    "Can be sold at a\n"
-    "high price.");
+    "A hold item that\n"
+    "raises the power of\n"
+    "Fairy-type moves.");
 
 static const u8 sStarPieceDesc[] = _(
     "A red gem shard.\n"
