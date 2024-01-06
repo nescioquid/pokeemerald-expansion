@@ -39,3 +39,7 @@ prefabs.json
 *.sym
 *.js
 src/data/map_group_count.h
+
+tools/poryscript/
+data/scripts/pory/*.inc
+data/scripts/pory/green_thing/*.inc

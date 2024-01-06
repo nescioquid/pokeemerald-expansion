@@ -1,0 +1,67 @@
+// swapped all overworld Skitty for Pikachu
+
+script Pory_EventScript_Pikachu {
+  lock
+  faceplayer
+  waitse
+  playmoncry(SPECIES_PIKACHU, CRY_MODE_NORMAL)
+  msgbox(format("Pikachu: Pikaaaa!"))
+  waitmoncry
+  release
+  end
+}
+
+script FallarborTown_Mart_EventScript_Woman_Pory {
+  lock
+  faceplayer
+  msgbox(format("I'm having a hard time deciding if I\nshould make my Pikachu evolve or not.\pI only have to use this Thunder Stone,\nbut it's so hard to decide…\pIf I make it evolve, it will become\nmuch stronger.\pBut it will look so different, too."))
+  release
+  end
+}
+
+// changes the text for the man who refers to Antidotes in Petalburg's Pokemart
+
+script PetalburgCity_Mart_EventScript_Man_Pory {
+  lock
+  faceplayer
+  msgbox(format("Do you have any Antidotes with you? No? Hah! Well, you better figure something out if you're gonna go anywhere near Petalburg Woods."))
+  release
+  end
+}
+
+// changes the scripts for the Gamecube in the player's and rival's rooms to say something funny
+
+script Pory_EventScript_GameCube {
+  msgbox(format("
+  It's a Nintendo GameCube.\p… … … … … … … …\n… … … … … … … …\pSeriously? I spent all this time modding this game, and you want to play a different one?"))
+  release
+  end
+}
+
+script Pory_EventScript_GameCubeOrange {
+  msgbox(format("
+  It's a Nintendo GameCube.\p… … … … … … … …\n… … … … … … … …\pYes, they came in orange.\nBut seriously? I spent all this time modding this game, and you want to play a different one?"))
+  release
+  end
+}
+
+// removes the Match Call tutorial
+
+raw`
+.set LOCALID_SCIENTIST, 15
+`
+
+script RustboroCity_EventScript_MatchCallTutorial_Pory {
+  setflag(FLAG_ADDED_MATCH_CALL_TO_POKENAV)
+  msgbox(RustboroCity_Text_IdBetterGetBackToWork, MSGBOX_DEFAULT)
+  closemessage
+  applymovement(LOCALID_SCIENTIST, RustboroCity_Movement_ScientistLeave)
+  waitmovement(0)
+  playse(SE_EXIT)
+  removeobject(LOCALID_SCIENTIST)
+  setflag(FLAG_HIDE_RUSTBORO_CITY_SCIENTIST)
+  setvar(VAR_RUSTBORO_CITY_STATE, 7)
+  clearflag(FLAG_HIDE_MAP_NAME_POPUP)
+  releaseall
+  end
+}
