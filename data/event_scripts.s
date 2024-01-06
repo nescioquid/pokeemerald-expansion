@@ -1071,3 +1071,4 @@ EventScript_VsSeekerChargingDone::
 .include "data/scripts/pory/green_thing/green_thing.inc"
 .include "data/scripts/pory/green_thing/item_maniac.inc"
 .include "data/scripts/pory/green_thing/give_mon.inc"
+.include "data/scripts/pory/green_thing/tm_hm.inc"
