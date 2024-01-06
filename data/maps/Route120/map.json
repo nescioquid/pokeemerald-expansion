@@ -230,7 +230,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route120_EventScript_ItemNugget",
+      "script": "Pory_EventScript_ItemTMGrassKnot",
       "flag": "FLAG_ITEM_ROUTE_120_NUGGET"
     },
     {
@@ -297,19 +297,6 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
       "flag": "FLAG_TEMP_11"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 7,
-      "y": 89,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route120_EventScript_ItemFullHeal",
-      "flag": "FLAG_ITEM_ROUTE_120_FULL_HEAL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
@@ -386,21 +373,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route120_EventScript_ItemNestBall",
+      "script": "Pory_EventScript_ItemPokeBall",
       "flag": "FLAG_ITEM_ROUTE_120_NEST_BALL"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 23,
-      "y": 82,
-      "elevation": 5,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route120_EventScript_ItemHyperPotion",
-      "flag": "FLAG_ITEM_ROUTE_120_HYPER_POTION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
@@ -583,19 +557,6 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route120_EventScript_Leonel",
       "flag": "0"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 24,
-      "y": 33,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route120_EventScript_ItemRevive",
-      "flag": "FLAG_ITEM_ROUTE_120_REVIVE"
     }
   ],
   "warp_events": [
@@ -853,6 +814,30 @@
       "y": 76,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_SHRUB1_4"
+    },
+    {
+      "type": "hidden_item",
+      "x": 24,
+      "y": 33,
+      "elevation": 0,
+      "item": "ITEM_REVIVE",
+      "flag": "FLAG_ITEM_ROUTE_120_REVIVE"
+    },
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 93,
+      "elevation": 0,
+      "item": "ITEM_FULL_HEAL",
+      "flag": "FLAG_ITEM_ROUTE_120_FULL_HEAL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 22,
+      "y": 84,
+      "elevation": 0,
+      "item": "ITEM_HYPER_POTION",
+      "flag": "FLAG_ITEM_ROUTE_120_HYPER_POTION"
     }
   ]
 }

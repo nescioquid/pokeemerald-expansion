@@ -54,7 +54,7 @@
       "x": 41,
       "y": 19,
       "elevation": 3,
-      "item": "ITEM_ULTRA_BALL",
+      "item": "ITEM_PEARL",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_ULTRA_BALL"
     },
     {
@@ -94,7 +94,7 @@
       "x": 65,
       "y": 60,
       "elevation": 3,
-      "item": "ITEM_BIG_PEARL",
+      "item": "ITEM_LIGHT_CLAY",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_BIG_PEARL"
     },
     {

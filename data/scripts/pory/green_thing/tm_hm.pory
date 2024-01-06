@@ -427,3 +427,129 @@ mart Pory_Pokemart_AttackTMsORAS {
   ITEM_TM15 // Hyper Beam
   ITEM_TM68 // Giga Impact
 }
+
+// TM012 Taunt
+script Pory_EventScript_ItemTMTaunt {
+  finditem(ITEM_TM_TAUNT)
+  end
+}
+
+// TM032 Double Team
+script Pory_EventScript_ItemTMDoubleTeam {
+  finditem(ITEM_TM_DOUBLE_TEAM)
+  end
+}
+
+// TM034 Sludge Wave
+script Pory_EventScript_ItemTMSludgeWave {
+  finditem(ITEM_TM_SLUDGE_WAVE)
+  end
+}
+
+// TM035 Flamethrower
+script Pory_EventScript_ItemTMFlamethrower {
+  finditem(ITEM_TM_FLAMETHROWER)
+  end
+}
+
+// TM043 Flame Charge
+script Pory_EventScript_ItemTMFlameCharge {
+  finditem(ITEM_TM_FLAME_CHARGE)
+  end
+}
+
+// TM053 Energy Ball
+script Pory_EventScript_ItemTMEnergyBall {
+  finditem(ITEM_TM_ENERGY_BALL)
+  end
+}
+
+// TM059 Incinerate
+script Pory_EventScript_ItemTMIncinerate {
+  finditem(ITEM_TM_INCINERATE)
+  end
+}
+
+// TM061 Will-O-Wisp
+script Pory_EventScript_ItemTMWillOWisp {
+  finditem(ITEM_TM_WILL_O_WISP)
+  end
+}
+
+// TM062 Acrobatics
+script Pory_EventScript_ItemTMAcrobatics {
+  finditem(ITEM_TM_ACROBATICS)
+  end
+}
+
+// TM064 Explosion
+script Pory_EventScript_ItemTMExplosion {
+  finditem(ITEM_TM_EXPLOSION)
+  end
+}
+
+// TM065 Shadow Claw
+script Pory_EventScript_ItemTMShadowClaw {
+  finditem(ITEM_TM_SHADOW_CLAW)
+  end
+}
+
+// TM066 Payback
+script Pory_EventScript_ItemTMPayback {
+  finditem(ITEM_TM_PAYBACK)
+  end
+}
+
+// TM069 Rock Polish
+script Pory_EventScript_ItemTMRockPolish {
+  finditem(ITEM_TM_ROCK_POLISH)
+  end
+}
+
+// TM074 Gyro Ball
+script Pory_EventScript_ItemTMGyroBall {
+  finditem(ITEM_TM_GYRO_BALL)
+  end
+}
+
+// TM079 Frost Breath
+script Pory_EventScript_ItemTMFrostBreath {
+  finditem(ITEM_TM_FROST_BREATH)
+  end
+}
+
+// TM080 Rock Slide
+script Pory_EventScript_ItemTMRockSlide {
+  finditem(ITEM_TM_ROCK_SLIDE)
+  end
+}
+
+// TM081 X-Scissor
+script Pory_EventScript_ItemTMXScissor {
+  finditem(ITEM_TM_X_SCISSOR)
+  end
+}
+
+// TM086 Grass Knot
+script Pory_EventScript_ItemTMGrassKnot {
+  finditem(ITEM_TM_GRASS_KNOT)
+  end
+}
+
+// TM089 U-turn
+script Pory_EventScript_ItemTMUTurn {
+  finditem(ITEM_TM_U_TURN)
+  end
+}
+
+// TM093 Wild Charge
+script Pory_EventScript_ItemTMWildCharge {
+  finditem(ITEM_TM_WILD_CHARGE)
+  end
+}
+
+// TM097 Dark Pulse
+script Pory_EventScript_ItemTMDarkPulse {
+  finditem(ITEM_TM_DARK_PULSE)
+  end
+}
