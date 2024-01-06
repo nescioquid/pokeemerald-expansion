@@ -1278,9 +1278,9 @@
 #define FLAG_UNUSED_0x4CC                                           0x4CC // Unused Flag
 #define FLAG_UNUSED_0x4CD                                           0x4CD // Unused Flag
 #define FLAG_UNUSED_0x4CE                                           0x4CE // Unused Flag
-#define FLAG_UNUSED_0x4CF                                           0x4CF // Unused Flag
-#define FLAG_UNUSED_0x4D0                                           0x4D0 // Unused Flag
-#define FLAG_UNUSED_0x4D1                                           0x4D1 // Unused Flag
+#define FLAG_RECEIVED_LINKING_CORD                                  0x4CF
+#define FLAG_META_BOY_ON_THE_BEACH                                  0x4D0
+#define FLAG_RECEIVED_JOHTO_STARTER                                 0x4D1
 #define FLAG_TALKED_TO_GUIDE_RUSTBORO_GYM                           0x4D2
 #define FLAG_TALKED_TO_GUIDE_DEWFORD_GYM                            0x4D3
 #define FLAG_TALKED_TO_GUIDE_MAUVILLE_GYM                           0x4D4

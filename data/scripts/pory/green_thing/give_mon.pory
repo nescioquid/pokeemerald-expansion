@@ -1,0 +1,209 @@
+// generic GiveMon script, can pass in the gifted mon's level as a variable
+
+script Pory_EventScript_GiveMon {
+  givemon(VAR_TEMP_1, VAR_TEMP_2)
+  playfanfare(MUS_OBTAIN_ITEM)
+  message("{PLAYER} received {STR_VAR_1}!")
+  waitmessage
+  waitfanfare
+  switch (var(VAR_RESULT)) {
+    case MON_GIVEN_TO_PARTY:
+      msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+      if (var(VAR_RESULT)) {
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+      }
+    case MON_GIVEN_TO_PC:
+      msgbox(gText_NicknameThisPokemon, MSGBOX_YESNO)
+      if (var(VAR_RESULT)) {
+        call(Common_EventScript_NameReceivedBoxMon)
+      }
+      call(Common_EventScript_TransferredToPC)
+    case MON_CANT_GIVE:
+      call(Common_EventScript_NoMoreRoomForPokemon)
+  }
+}
+
+// the Fossil Scientist now also restores gen 1 fossils
+
+script Pory_EventScript_FossilScientist {
+  lock
+  faceplayer
+  if (var(VAR_FOSSIL_RESURRECTION_STATE) == 0) {
+  msgbox(format("I've been trying to develop a device that resurrects Pokémon from fossils…\pAnd, it's working!\pDo you happen to have any? I can bring them back to life with my new regenerator!"))
+    checkitem(ITEM_HELIX_FOSSIL)
+    if (var(VAR_RESULT)) {
+      msgbox(format("How about that Helix Fossil of yours?"), MSGBOX_YESNO)
+      if (var(VAR_RESULT)) {
+        setvar(VAR_TEMP_3, ITEM_HELIX_FOSSIL)
+        bufferitemname(STR_VAR_3, ITEM_HELIX_FOSSIL)
+        setvar(VAR_WHICH_FOSSIL_REVIVED, 0)
+        goto(Pory_EventScript_GiveFossil)
+      }
+    }
+    checkitem(ITEM_DOME_FOSSIL)
+    if (var(VAR_RESULT)) {
+      msgbox(format("And what about that Dome Fossil you have?"), MSGBOX_YESNO)
+      if (var(VAR_RESULT)) {
+        setvar(VAR_TEMP_3, ITEM_DOME_FOSSIL)
+        bufferitemname(STR_VAR_3, ITEM_DOME_FOSSIL)
+        setvar(VAR_WHICH_FOSSIL_REVIVED, 1)
+        goto(Pory_EventScript_GiveFossil)
+      }
+    }
+    checkitem(ITEM_OLD_AMBER)
+    if (var(VAR_RESULT)) {
+      msgbox(format("Hey… That Old Amber would be perfect!"), MSGBOX_YESNO)
+      if (var(VAR_RESULT)) {
+        setvar(VAR_TEMP_3, ITEM_OLD_AMBER)
+        bufferitemname(STR_VAR_3, ITEM_OLD_AMBER)
+        setvar(VAR_WHICH_FOSSIL_REVIVED, 2)
+        goto(Pory_EventScript_GiveFossil)
+      }
+    }
+    checkitem(ITEM_ROOT_FOSSIL)
+    if (var(VAR_RESULT)) {
+      msgbox(format("How about that Root Fossil you have?"), MSGBOX_YESNO)
+      if (var(VAR_RESULT)) {
+        setvar(VAR_TEMP_3, ITEM_ROOT_FOSSIL)
+        bufferitemname(STR_VAR_3, ITEM_ROOT_FOSSIL)
+        setvar(VAR_WHICH_FOSSIL_REVIVED, 3)
+        goto(Pory_EventScript_GiveFossil)
+      }
+    }
+    checkitem(ITEM_CLAW_FOSSIL)
+    if (var(VAR_RESULT)) {
+      msgbox(format("And what about that Claw Fossil of yours?"), MSGBOX_YESNO)
+      if (var(VAR_RESULT)) {
+        setvar(VAR_TEMP_3, ITEM_CLAW_FOSSIL)
+        bufferitemname(STR_VAR_3, ITEM_CLAW_FOSSIL)
+        setvar(VAR_WHICH_FOSSIL_REVIVED, 4)
+        goto(Pory_EventScript_GiveFossil)
+      }
+    }
+    msgbox(format("Oh, is that so?\pOur technological expertise here at Devon is outstanding, I tell you."))
+  } elif (var(VAR_FOSSIL_RESURRECTION_STATE) == 1) {
+    msgbox(format("This fossil regenerator really is incredible, but it has one drawback --it takes a while to work.\pSo, uh… Why not go for a stroll and look around for a while?"))
+  } elif (var(VAR_FOSSIL_RESURRECTION_STATE) == 2) {
+    call(Pory_EventScript_FossilMonReady)
+  }
+  release
+  end
+}
+
+script Pory_EventScript_GiveFossil {
+  msgbox(format("Excellent!\nLet's do it right away.\p{PLAYER} handed the {STR_VAR_3} to the Devon researcher."))
+  removeitem(VAR_TEMP_3)
+  setvar(VAR_FOSSIL_RESURRECTION_STATE, 1)
+  release
+  end
+}
+
+script Pory_EventScript_FossilMonReady {
+  switch (var(VAR_WHICH_FOSSIL_REVIVED)) {
+    case 0: setvar(VAR_TEMP_1, SPECIES_OMANYTE)
+    case 1: setvar(VAR_TEMP_1, SPECIES_KABUTO)
+    case 2: setvar(VAR_TEMP_1, SPECIES_AERODACTYL)
+    case 3: setvar(VAR_TEMP_1, SPECIES_LILEEP)
+    case 4: setvar(VAR_TEMP_1, SPECIES_ANORITH)
+  }
+  setvar(VAR_TEMP_2, 20)
+  bufferspeciesname(STR_VAR_1, VAR_TEMP_1)
+  msgbox(format("Thanks for waiting! your {STR_VAR_3} came back to life!\pIt was an ancient Pokémon, {STR_VAR_1}!"))
+  call(Pory_EventScript_GiveMon)
+  setvar(VAR_FOSSIL_RESURRECTION_STATE, 0)
+  setflag(FLAG_RECEIVED_REVIVED_FOSSIL_MON)
+}
+
+// Captain Stern now trades the Scanner for a Porygon
+
+script Pory_EventScript_AskToTradeScanner {
+  msgbox(format("Capt. Stern: Oh?\n{PLAYER}{KUN}, that item you have…\pThat's a Scanner! That would sure help us on our explorations.\p{PLAYER}{KUN}, would you trade that Scanner for something?\pLike, say, this Porygon I have? A researcher friend at Devon gave it to me, but I'm not much of a Trainer."), MSGBOX_YESNO)
+  if (var(VAR_RESULT)) {
+    msgbox(format("Capt. Stern: Really? Thank you so much!"))
+    setvar(VAR_TEMP_1, SPECIES_PORYGON)
+    setvar(VAR_TEMP_2, 25)
+    bufferspeciesname(STR_VAR_1, VAR_TEMP_1)
+    call(Pory_EventScript_GiveMon)
+    removeitem(ITEM_SCANNER)
+    msgbox(SlateportCity_Harbor_Text_HandedScannerToStern, MSGBOX_DEFAULT)
+    setflag(FLAG_EXCHANGED_SCANNER)
+    goto(SlateportCity_Harbor_EventScript_TradedScanner)
+  } else {
+    goto(SlateportCity_Harbor_EventScript_DeclineTrade)
+  }
+  release
+  end
+}
+
+// adds an NPC that gives a Johto Starter in the Dewford PokeCenter and a Linking Cord on Route 109
+
+raw`
+.set LOCALID_LITTLE_BOY, 4
+`
+
+script Pory_EventScript_MetaBoy_GiveJohtoStarter {
+  lock
+  faceplayer
+  if (!flag(FLAG_TEMP_1)) {
+    if (!flag(FLAG_TEMP_2)) {
+      msgbox(format("Hmm… My parents got me this cool, rare Pokémon from Johto and everything, but I don't think I'm cut out to be a Trainer.\pI just want to go home and make mods of classic video games from the 2000s.\pI'd give it to a strong enough Trainer, if I could just find the right one…"))
+      setflag(FLAG_TEMP_2)
+    } else {
+      msgbox(format("I just don't think I'm cut out to be a Trainer.\pI'd give my Pokémon to a strong enough Trainer right now…\p{FONT_SMALL}…I could be laying on the beach right now, modding my video games…"))
+    }
+    if (flag(FLAG_BADGE02_GET)) {
+      playse(SE_PIN)
+      applymovement(LOCALID_LITTLE_BOY, Common_Movement_ExclamationMark)
+      waitmovement(0)
+      applymovement(LOCALID_LITTLE_BOY, Common_Movement_Delay48)
+      waitmovement(0)
+      msgbox(format("Wait a second…\pThat confidence…\pThat badge…\pAnd, most of all, that plot armor…\p…YOU could take care of my Pokémon!\pPlease, oh please, would you?\nPleasy please?"), MSGBOX_YESNO)
+      if (var(VAR_RESULT)) {
+        msgbox(format("Yay! you're the best!"))
+        switch (var(VAR_STARTER_MON)) {
+          case 0: setvar(VAR_TEMP_1, SPECIES_CROCONAW)
+          case 1: setvar(VAR_TEMP_1, SPECIES_BAYLEEF)
+          case 2: setvar(VAR_TEMP_1, SPECIES_QUILAVA)
+        }
+        setvar(VAR_TEMP_2, 20)
+        bufferspeciesname(STR_VAR_1, VAR_TEMP_1)
+        call(Pory_EventScript_GiveMon)
+        setflag(FLAG_RECEIVED_JOHTO_STARTER)
+        clearflag(FLAG_META_BOY_ON_THE_BEACH)
+        setflag(FLAG_TEMP_1)
+        msgbox(format("Now I can finally spend the summer at my family's beach house in peace!"))
+      } else {
+        msgbox(format("But… It's a free Pokémon! And you're the protagonist!"))
+      }
+    }
+  } else {
+    msgbox(format("Now I can finally spend the summer at my family's beach house in peace!"))
+  }
+  release
+  end
+}
+
+script Pory_EventScript_MetaBoy_WhatsUp {
+  lock
+  faceplayer
+  if (!flag(FLAG_TEMP_1)) {
+    msgbox(format("Hey, what's up? Remember me? Thanks again for taking care of my Pokémon for me.\p… … … … … … … …\n… … … … … … … …\pWhat's that? How did I get here so fast?\pWell, we can't ALL be the protagonist in this story, can we? You get plot armor and a sense of fulfillment, I get to warp instantaneously to this beach.\pI mean, technically speaking, I'm actually a completely different set of code and graphical assets than who you talked to in Dewford. You're the one personifying me and creating any sense of continuity here. That's on you."))
+    setflag(FLAG_TEMP_1)
+  } elif (!flag(FLAG_RECEIVED_LINKING_CORD)) {
+    msgbox(format("Ok fine, do you want to check out something REALLY meta?"), MSGBOX_YESNO)
+    if (var(VAR_RESULT)) {
+      msgbox(format("Have at this, then!"))
+      giveitem(ITEM_LINKING_CORD)
+      goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+      setflag(FLAG_RECEIVED_LINKING_CORD)
+      msgbox(format("Seriously, I'm not making this up. In the newer games, Game Freak has actually coded this item into the game.\pI'll let you figure out what it does on your own time."))
+    } else {
+      msgbox(format("…Why do you gotta be dumb about this?"))
+    }
+  } else {
+    msgbox(format("Hey… You don't happen to know any good mojito recipes, do you?"))
+  }
+  release
+  end
+}
