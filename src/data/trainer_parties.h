@@ -3112,7 +3112,7 @@ static const struct TrainerMon sParty_Glacia[] = {
     .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
     .lvl = 50,
     .species = SPECIES_SEALEO,
-    .moves = {MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_HAIL, MOVE_ICE_BALL}
+    .moves = {MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_SNOWSCAPE, MOVE_ICE_BALL}
     },
     {
     .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
@@ -3124,13 +3124,13 @@ static const struct TrainerMon sParty_Glacia[] = {
     .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
     .lvl = 52,
     .species = SPECIES_SEALEO,
-    .moves = {MOVE_ATTRACT, MOVE_DOUBLE_EDGE, MOVE_HAIL, MOVE_BLIZZARD}
+    .moves = {MOVE_ATTRACT, MOVE_DOUBLE_EDGE, MOVE_SNOWSCAPE, MOVE_BLIZZARD}
     },
     {
     .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
     .lvl = 52,
     .species = SPECIES_GLALIE,
-    .moves = {MOVE_SHADOW_BALL, MOVE_EXPLOSION, MOVE_HAIL, MOVE_ICE_BEAM}
+    .moves = {MOVE_SHADOW_BALL, MOVE_EXPLOSION, MOVE_SNOWSCAPE, MOVE_ICE_BEAM}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
