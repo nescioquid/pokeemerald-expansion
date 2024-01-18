@@ -1,0 +1,910 @@
+// makes Pokémart inventories be determined by gym badge count
+
+// Locations
+
+script BattleFrontier_Mart_EventScript_Clerk_Pory {
+  lock
+  faceplayer
+  msgbox(format("You're here! At the Battle Frontier! Haha!"))
+  call(Pory_EventScript_Pokemart_ClerkHellos)
+  waitmessage
+  call(Pory_EventScript_Pokemart_ByBadges)
+  call(Pory_EventScript_Pokemart_ClerkGoodbyes)
+  release
+  end
+}
+
+script EverGrandeCity_PokemonLeague_1F_EventScript_Clerk_Pory {
+  lock
+  faceplayer
+  if (!flag(FLAG_SYS_GAME_CLEAR)) {
+    msgbox(format("You made it to Ever Grande! Nice!"))
+    call(Pory_EventScript_Pokemart_ClerkHellos)
+  } else {
+    message(format("Wow, you JUST made it to Ever Grande and you're already the Champion?!\p{FONT_SMALL}I've been here three years and they haven't even given me a raise…\p{FONT_NORMAL}What did you still need exactly?"))
+  }
+  waitmessage
+  call(Pory_EventScript_Pokemart_ByBadges)
+  if (!flag(FLAG_SYS_GAME_CLEAR)) {
+    call(Pory_EventScript_Pokemart_ClerkGoodbyes)
+  } else {
+    random(2)
+    switch (var(VAR_RESULT)) {
+      case 0: msgbox(format("See you later!\n{FONT_SMALL}…Hopefully much later…"))
+      case 1: msgbox(format("Good luck!\n{FONT_SMALL}…Like you need it anyway…"))
+    }
+  }
+  release
+  end
+}
+
+script FallarborTown_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script FortreeCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script LavaridgeTown_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script MauvilleCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script MossdeepCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script OldaleTown_Mart_EventScript_Clerk_Pory {
+  lock
+  faceplayer
+  if (!flag(FLAG_ADVENTURE_STARTED)) {
+    msgbox(format("Sorry, but we're all out of Poké Balls at the moment."))
+    message(format("…anything else I can do for you?"))
+    waitmessage
+    pokemart(Pory_Pokemart_OldaleTown)
+    msgbox(format("We'll be getting more in soon. See you then!"))
+  } else {
+    if (!flag(FLAG_BADGE01_GET)) {
+      message(format("We just got some balls back in stock! Would you like to get some now?"))
+    } else {
+      call(Pory_EventScript_Pokemart_ClerkHellos)
+    }
+    waitmessage
+    call(Pory_EventScript_Pokemart_ByBadges)
+    call(Pory_EventScript_Pokemart_ClerkGoodbyes)
+  }
+  release
+  end
+}
+
+script PetalburgCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script RustboroCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script SlateportCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script SootopolisCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script TrainerHill_Entrance_EventScript_Clerk_Pory {
+  lock
+  faceplayer
+  msgbox("It's the Hill, Baby!\n{FONT_SMALL}…Why do they make me say that every time?") // format() intentionally not used here
+  call(Pory_EventScript_Pokemart_ClerkHellos)
+  waitmessage
+  call(Pory_EventScript_Pokemart_ByBadges)
+  call(Pory_EventScript_Pokemart_ClerkGoodbyes)
+  release
+  end
+}
+
+script VerdanturfTown_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+// Inventories
+
+mart Pory_Pokemart_OldaleTown {
+  ITEM_POTION
+  ITEM_FLUFFY_TAIL
+}
+
+mart Pory_Pokemart_ZeroBadges {
+  ITEM_POKE_BALL     // new
+  ITEM_POTION        // new
+  ITEM_FLUFFY_TAIL   // new
+}
+
+mart Pory_Pokemart_OneBadge {
+  ITEM_POKE_BALL
+  ITEM_POTION
+  ITEM_REPEL         // new
+  ITEM_GUARD_SPEC    // new
+  ITEM_DIRE_HIT      // new
+  ITEM_FLUFFY_TAIL
+}
+
+mart Pory_Pokemart_TwoBadges {
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION  // new
+  ITEM_FULL_HEAL     // new
+  ITEM_REVIVE        // new
+  ITEM_REPEL
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_FLUFFY_TAIL
+  ITEM_POTION        // demoted
+
+}
+
+mart Pory_Pokemart_ThreeBadges {
+  ITEM_GREAT_BALL    // new
+  ITEM_SUPER_POTION
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_SUPER_REPEL   // new
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_FLUFFY_TAIL
+  ITEM_POKE_BALL     // demoted
+  ITEM_POTION
+  ITEM_REPEL         // demoted
+}
+
+mart Pory_Pokemart_FourBadges {
+  ITEM_GREAT_BALL
+  ITEM_HYPER_POTION  // new
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_SUPER_REPEL
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_FLUFFY_TAIL
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION  // demoted
+  ITEM_POTION
+  ITEM_REPEL
+}
+
+mart Pory_Pokemart_FiveBadges {
+  ITEM_GREAT_BALL
+  ITEM_HYPER_POTION
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_MAX_REPEL     // new
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_FLUFFY_TAIL
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION
+  ITEM_POTION
+  ITEM_SUPER_REPEL   // demoted
+  ITEM_REPEL
+}
+
+mart Pory_Pokemart_SixBadges {
+  ITEM_ULTRA_BALL    // new
+  ITEM_MAX_POTION    // new
+  ITEM_HYPER_POTION
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_MAX_REPEL
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_FLUFFY_TAIL
+  ITEM_GREAT_BALL    // demoted
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION
+  ITEM_POTION
+  ITEM_SUPER_REPEL
+  ITEM_REPEL
+}
+
+mart Pory_Pokemart_SevenBadges {
+  ITEM_ULTRA_BALL
+  ITEM_MAX_POTION
+  ITEM_HYPER_POTION
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_MAX_REPEL
+  ITEM_X_ATTACK      // new
+  ITEM_X_DEFENSE     // new
+  ITEM_X_SP_ATK      // new
+  ITEM_X_SP_DEF      // new
+  ITEM_X_SPEED       // new
+  ITEM_X_ACCURACY    // new
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_FLUFFY_TAIL
+  ITEM_GREAT_BALL
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION
+  ITEM_POTION
+  ITEM_SUPER_REPEL
+  ITEM_REPEL
+}
+
+mart Pory_Pokemart_EightBadges {
+  ITEM_QUICK_BALL
+  ITEM_ULTRA_BALL
+  ITEM_FULL_RESTORE  // new
+  ITEM_MAX_POTION
+  ITEM_HYPER_POTION
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_MAX_REPEL
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SP_ATK
+  ITEM_X_SP_DEF
+  ITEM_X_SPEED
+  ITEM_X_ACCURACY
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_FLUFFY_TAIL
+  ITEM_GREAT_BALL
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION
+  ITEM_POTION
+  ITEM_SUPER_REPEL
+  ITEM_REPEL
+}
+
+mart Pory_Pokemart_Postgame {
+  ITEM_QUICK_BALL
+  ITEM_ULTRA_BALL
+  ITEM_FULL_RESTORE
+  ITEM_MAX_POTION
+  ITEM_HYPER_POTION
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_MAX_REPEL
+  ITEM_PROTEIN       // new
+  ITEM_IRON          // new
+  ITEM_CALCIUM       // new
+  ITEM_ZINC          // new
+  ITEM_CARBOS        // new
+  ITEM_HP_UP         // new
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SP_ATK
+  ITEM_X_SP_DEF
+  ITEM_X_SPEED
+  ITEM_X_ACCURACY
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_FLUFFY_TAIL
+  ITEM_GREAT_BALL
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION
+  ITEM_POTION
+  ITEM_SUPER_REPEL
+  ITEM_REPEL
+}
+
+// Helper scripts
+
+script Pory_EventScript_Pokemart_ByBadges {
+  if (flag(FLAG_SYS_GAME_CLEAR)) {
+    pokemart(Pory_Pokemart_Postgame)
+  } elif (flag(FLAG_BADGE08_GET)) {
+    pokemart(Pory_Pokemart_EightBadges)
+  } elif (flag(FLAG_BADGE07_GET)) {
+    pokemart(Pory_Pokemart_SevenBadges)
+  } elif (flag(FLAG_BADGE06_GET)) {
+    pokemart(Pory_Pokemart_SixBadges)
+  } elif (flag(FLAG_BADGE05_GET)) {
+    pokemart(Pory_Pokemart_FiveBadges)
+  } elif (flag(FLAG_BADGE04_GET)) {
+    pokemart(Pory_Pokemart_FourBadges)
+  } elif (flag(FLAG_BADGE03_GET)) {
+    pokemart(Pory_Pokemart_ThreeBadges)
+  } elif (flag(FLAG_BADGE02_GET)) {
+    pokemart(Pory_Pokemart_TwoBadges)
+  } elif (flag(FLAG_BADGE01_GET)) {
+    pokemart(Pory_Pokemart_OneBadge)
+  } else {
+    pokemart(Pory_Pokemart_ZeroBadges)
+  }
+}
+
+script Pory_EventScript_Pokemart_Clerk {
+  lock
+  faceplayer
+  call(Pory_EventScript_Pokemart_ClerkHellos)
+  waitmessage
+  call(Pory_EventScript_Pokemart_ByBadges)
+  call(Pory_EventScript_Pokemart_ClerkGoodbyes)
+  release
+  end
+}
+
+script Pory_EventScript_Pokemart_ClerkHellos {
+  if (flag(FLAG_SYS_GAME_CLEAR)) {
+    random(8)
+    switch (var(VAR_RESULT)) {
+    case 0: msgbox(format("{FONT_SMALL}…Is …Is that the league champion?!"))
+    case 1: msgbox(format("{FONT_SMALL}…I'm pretty sure that's the champion!"))
+    }
+  }
+  if (!flag(FLAG_BADGE01_GET)) {
+    random(3)
+    switch (var(VAR_RESULT)) {
+      case 0: message(format("Welcome! How may I serve you?"))
+      case 1: message(format("Hello! What can I do for you?"))
+      case 2: message(format("Hi! How can I help you?"))
+    }
+  } else {
+    random(16)
+    switch (var(VAR_RESULT)) {
+      case 0: message(format("Welcome! How may I serve you?"))
+      case 1: message(format("Welcome! How may I serve you?"))
+      case 2: message(format("Welcome! How may I serve you?"))
+      case 3: message(format("Hello! What can I do for you?"))
+      case 4: message(format("Hello! What can I do for you?"))
+      case 5: message(format("Hello! What can I do for you?"))
+      case 6: message(format("Hi! How can I help you?"))
+      case 7: message(format("Hi! How can I help you?"))
+      case 8: message(format("Hi! How can I help you?"))
+      case 9: message(format("Hey! What can I get you?"))
+      case 10: message(format("Hey! What can I get you?"))
+      case 11: message(format("How's it going? Know what you want already?"))
+      case 12: message(format("How's it going? Know what you want already?"))
+      case 13: message(format("Hello, hello! What did you need?"))
+      case 14: message(format("Hello, hello! What did you need?"))
+      case 15: message(format("{FONT_SMALL}Man, X items are so busted now, it's a joke…\p{FONT_NORMAL}Hey, what's up?"))
+    }
+  }
+}
+
+script Pory_EventScript_Pokemart_ClerkGoodbyes {
+  if (!flag(FLAG_BADGE01_GET)) {
+    random(4)
+    switch (var(VAR_RESULT)) {
+      case 0: msgbox(format("Please come again!"))
+      case 1: msgbox(format("Until next time!"))
+      case 2: msgbox(format("See you later!"))
+      case 3: msgbox(format("Goodbye!"))
+    }
+  } else {
+    random(11)
+    switch (var(VAR_RESULT)) {
+      case 0: msgbox(format("Please come again!"))
+      case 1: msgbox(format("Until next time!"))
+      case 2: msgbox(format("See you later!"))
+      case 3: msgbox(format("Goodbye!"))
+      case 4: msgbox(format("Bye bye!"))
+      case 5: msgbox(format("Bye now!"))
+      case 6: msgbox(format("Bye!"))
+      case 7: msgbox(format("Ciao!"))
+      case 8: msgbox(format("Have fun out there!"))
+      case 9: msgbox(format("Good luck!"))
+      case 10: msgbox(format("You'll do great!"))
+    }
+  }
+}
+
+// makes the Department Store have different inventories, clerk dialogues, faster vending machines and a faster elevator
+
+// 2F Left
+script LilycoveCity_DepartmentStore_2F_EventScript_ClerkLeft_Pory {
+  lock
+  faceplayer
+  random(2)
+  if (var(VAR_RESULT) == 0) {
+    switch (var(VAR_RESULT)) {
+      case 0: message(format("We got some awesome new snacks in! The crunchies are my favorite!"))
+    }
+  } else {
+    call(Pory_EventScript_Clerk_DepartmentStore_Hellos)
+  }
+  waitmessage
+  if (!flag(FLAG_BADGE06_GET)) {
+    pokemart(Pory_Pokemart_Items_Some)
+  } elif (!flag(FLAG_BADGE08_GET)) {
+    pokemart(Pory_Pokemart_Items_Most)
+  } else {
+    pokemart(Pory_Pokemart_Items_All)
+  }
+  if (var(VAR_RESULT) == 0) {
+    msgbox(format("{FONT_SHORT}…munch… …munch…"))
+  } else {
+    call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+  }
+  release
+  end
+}
+
+// 2F Right
+script LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight_Pory {
+  lock
+  faceplayer
+  random(3)
+  if (var(VAR_RESULT) == 0) {
+    switch (var(VAR_RESULT)) {
+      case 0: message(format("Sure, I'll let you touch my balls… But only if you ask nicely! Haha!"))
+    }
+  } else {
+    call(Pory_EventScript_Clerk_DepartmentStore_Hellos)
+  }
+  waitmessage
+  if (!flag(FLAG_BADGE06_GET)) {
+    pokemart(Pory_Pokemart_PokeBalls_Some)
+  } elif (!flag(FLAG_BADGE07_GET)) {
+    pokemart(Pory_Pokemart_PokeBalls_Most)
+  } else {
+    pokemart(Pory_Pokemart_PokeBalls_All)
+  }
+  if (var(VAR_RESULT) == 0) {
+    msgbox(format("Seriously though, you're not gonna tell my boss I said that, are you?"))
+  } else {
+    call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+  }
+  release
+  end
+}
+
+// 3F Left
+script LilycoveCity_DepartmentStore_3F_EventScript_ClerkLeft_Pory {
+  lock
+  faceplayer
+  checkitem(ITEM_HARBOR_MAIL)
+  if (!var(VAR_RESULT)) {
+    message(format("Let me guess… You're looking for Harbor Mail? Was I right?"))
+  } else {
+    call(Pory_EventScript_Clerk_DepartmentStore_Hellos)
+  }
+  waitmessage
+  pokemart(Pory_Pokemart_Mail)
+  checkitem(ITEM_HARBOR_MAIL)
+  if (var(VAR_RESULT)) {
+    msgbox(format("{FONT_SMALL}Enjoy gambling without me…"))
+  } else {
+    call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+  }
+  release
+  end
+}
+
+// 3F Right
+script LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight_Pory {
+  lock
+  faceplayer
+  random(3)
+  if (var(VAR_RESULT) == 0) {
+    switch (var(VAR_RESULT)) {
+      case 0: message(format("Hey kid, you wanna buy some drugs? Haha! Of course you do.\p{FONT_SMALL}It's the only reason anyone ever talks to me here…"))
+    }
+  } else {
+    call(Pory_EventScript_Clerk_DepartmentStore_Hellos)
+  }
+  waitmessage
+  if (!flag(FLAG_BADGE07_GET)) {
+    pokemart(Pory_Pokemart_StatBoosters_Most)
+  } else {
+    pokemart(Pory_Pokemart_StatBoosters_All)
+  }
+  if (var(VAR_RESULT) == 0) {
+    msgbox(format("{FONT_SMALL}…I'm so lonely… Maybe I should get a hobby or something…"))
+  } else {
+    call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+  }
+  release
+  end
+}
+
+// 4F Left
+script LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft_Pory {
+  lock
+  faceplayer
+  call(Pory_EventScript_Clerk_DepartmentStore_Hellos)
+  waitmessage
+  pokemart(Pory_Pokemart_AttackTMs)
+  checkitem(ITEM_TM38) // Fire Blast
+  if (var(VAR_RESULT)) {
+    checkitem(ITEM_TM25) // Thunder
+    if (var(VAR_RESULT)) {
+      checkitem(ITEM_TM14) // Blizzard
+      if (var(VAR_RESULT)) {
+        checkitem(ITEM_TM15) // Hyper Beam
+        if (var(VAR_RESULT)) {
+          msgbox(format("Dang, you bought them all? Nice!"))
+        } else {
+          call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+        }
+      } else {
+        call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+      }
+    } else {
+      call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+    }
+  } else {
+    call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+  }
+  release
+  end
+}
+
+// 4F Right
+script LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight_Pory {
+  lock
+  faceplayer
+  call(Pory_EventScript_Clerk_DepartmentStore_Hellos)
+  waitmessage
+  pokemart(Pory_Pokemart_DefenseTMs)
+  checkitem(ITEM_TM17) // Protect
+  if (var(VAR_RESULT)) {
+    checkitem(ITEM_TM20) // Safeguard
+    if (var(VAR_RESULT)) {
+      checkitem(ITEM_TM33) // Reflect
+      if (var(VAR_RESULT)) {
+        checkitem(ITEM_TM16) // Light Screen
+        if (var(VAR_RESULT)) {
+          msgbox(format("Wow! you have all of them! That's so cool!"))
+        } else {
+          call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+        }
+      } else {
+        call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+      }
+    } else {
+      call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+    }
+  } else {
+    call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+  }
+  release
+  end
+}
+
+// 5F Left Far
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarLeft_Pory {
+  lock
+  faceplayer
+  call(Pory_EventScript_Clerk_DepartmentStore_Hellos)
+  waitmessage
+  pokemartdecoration2(LilycoveCity_DepartmentStore_5F_Pokemart_Dolls)
+  call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+  release
+  end
+}
+
+// 5F Left Mid
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidLeft_Pory {
+  lock
+  faceplayer
+  call(Pory_EventScript_Clerk_DepartmentStore_Hellos)
+  waitmessage
+  pokemartdecoration2(LilycoveCity_DepartmentStore_5F_Pokemart_Cushions)
+  call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+  release
+  end
+}
+
+// 5F Right Mid
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidRight_Pory {
+  lock
+  faceplayer
+  call(Pory_EventScript_Clerk_DepartmentStore_Hellos)
+  waitmessage
+  pokemartdecoration2(LilycoveCity_DepartmentStore_5F_Pokemart_Posters)
+  call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+  release
+  end
+}
+
+// 5F Right Far
+script LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarRight_Pory {
+  lock
+  faceplayer
+  call(Pory_EventScript_Clerk_DepartmentStore_Hellos)
+  waitmessage
+  pokemartdecoration2(LilycoveCity_DepartmentStore_5F_Pokemart_Mats)
+  call(Pory_EventScript_Clerk_DepartmentStore_Goodbyes)
+  release
+  end
+}
+
+// 2F Left
+// was LilycoveCity_DepartmentStore_2F_Pokemart1
+mart Pory_Pokemart_Items_All {
+  ITEM_PEWTER_CRUNCHIES
+  ITEM_RAGE_CANDY_BAR
+  ITEM_POTION
+  ITEM_SUPER_POTION
+  ITEM_HYPER_POTION
+  ITEM_MAX_POTION
+  ITEM_FULL_RESTORE
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_AWAKENING
+  ITEM_BURN_HEAL
+  ITEM_ICE_HEAL
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_REPEL
+  ITEM_SUPER_REPEL
+  ITEM_MAX_REPEL
+  ITEM_POKE_DOLL
+  ITEM_POKE_TOY
+  ITEM_FLUFFY_TAIL
+}
+
+mart Pory_Pokemart_Items_Most {
+  ITEM_PEWTER_CRUNCHIES
+  ITEM_RAGE_CANDY_BAR
+  ITEM_POTION
+  ITEM_SUPER_POTION
+  ITEM_HYPER_POTION
+  ITEM_MAX_POTION
+  // ITEM_FULL_RESTORE
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_AWAKENING
+  ITEM_BURN_HEAL
+  ITEM_ICE_HEAL
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_REPEL
+  ITEM_SUPER_REPEL
+  ITEM_MAX_REPEL
+  ITEM_POKE_DOLL
+  ITEM_POKE_TOY
+  ITEM_FLUFFY_TAIL
+}
+
+mart Pory_Pokemart_Items_Some {
+  ITEM_PEWTER_CRUNCHIES
+  ITEM_RAGE_CANDY_BAR
+  ITEM_POTION
+  ITEM_SUPER_POTION
+  ITEM_HYPER_POTION
+  // ITEM_MAX_POTION
+  // ITEM_FULL_RESTORE
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_AWAKENING
+  ITEM_BURN_HEAL
+  ITEM_ICE_HEAL
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_REPEL
+  ITEM_SUPER_REPEL
+  ITEM_MAX_REPEL
+  ITEM_POKE_DOLL
+  ITEM_POKE_TOY
+  ITEM_FLUFFY_TAIL
+}
+
+// 2F RIGHT
+// was LilycoveCity_DepartmentStore_2F_Pokemart2
+mart Pory_Pokemart_PokeBalls_All {
+  ITEM_POKE_BALL
+  ITEM_GREAT_BALL
+  ITEM_ULTRA_BALL
+  ITEM_QUICK_BALL
+  ITEM_DIVE_BALL
+  ITEM_DUSK_BALL
+  ITEM_HEAL_BALL
+  ITEM_LUXURY_BALL
+  ITEM_NET_BALL
+  ITEM_NEST_BALL
+  ITEM_REPEAT_BALL
+  ITEM_TIMER_BALL
+}
+
+mart Pory_Pokemart_PokeBalls_Most {
+  ITEM_POKE_BALL
+  ITEM_GREAT_BALL
+  ITEM_ULTRA_BALL
+  // ITEM_QUICK_BALL
+  ITEM_DIVE_BALL
+  ITEM_DUSK_BALL
+  ITEM_HEAL_BALL
+  ITEM_LUXURY_BALL
+  ITEM_NET_BALL
+  ITEM_NEST_BALL
+  ITEM_REPEAT_BALL
+  ITEM_TIMER_BALL
+}
+
+mart Pory_Pokemart_PokeBalls_Some {
+  ITEM_POKE_BALL
+  ITEM_GREAT_BALL
+  // ITEM_ULTRA_BALL
+  // ITEM_QUICK_BALL
+  ITEM_DIVE_BALL
+  ITEM_DUSK_BALL
+  ITEM_HEAL_BALL
+  ITEM_LUXURY_BALL
+  ITEM_NET_BALL
+  ITEM_NEST_BALL
+  ITEM_REPEAT_BALL
+  ITEM_TIMER_BALL
+}
+
+// 3F Left
+// was LilycoveCity_DepartmentStore_3F_Pokemart_Vitamins
+mart Pory_Pokemart_Mail {
+  ITEM_ORANGE_MAIL
+  ITEM_HARBOR_MAIL
+  ITEM_GLITTER_MAIL
+  ITEM_MECH_MAIL
+  ITEM_WOOD_MAIL
+  ITEM_WAVE_MAIL
+  ITEM_BEAD_MAIL
+  ITEM_SHADOW_MAIL
+  ITEM_TROPIC_MAIL
+  ITEM_DREAM_MAIL
+  ITEM_FAB_MAIL
+  ITEM_RETRO_MAIL
+}
+
+// 3F Right
+// was LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters
+mart Pory_Pokemart_StatBoosters_All {
+  ITEM_PROTEIN
+  ITEM_IRON
+  ITEM_CALCIUM
+  ITEM_ZINC
+  ITEM_CARBOS
+  ITEM_HP_UP
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SP_ATK
+  ITEM_X_SP_DEF
+  ITEM_X_SPEED
+  ITEM_X_ACCURACY
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+}
+
+mart Pory_Pokemart_StatBoosters_Most {
+  ITEM_PROTEIN
+  ITEM_IRON
+  ITEM_CALCIUM
+  ITEM_ZINC
+  ITEM_CARBOS
+  ITEM_HP_UP
+  // ITEM_X_ATTACK
+  // ITEM_X_DEFENSE
+  // ITEM_X_SP_ATK
+  // ITEM_X_SP_DEF
+  // ITEM_X_SPEED
+  // ITEM_X_ACCURACY
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+}
+
+// 4F Left
+// was LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs
+mart Pory_Pokemart_AttackTMs {
+  ITEM_TM38 // Fire Blast
+  ITEM_TM25 // Thunder
+  ITEM_TM14 // Blizzard
+  ITEM_TM15 // Hyper Beam
+}
+
+// 4F Right
+// was LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs
+mart Pory_Pokemart_DefenseTMs {
+  ITEM_TM17 // Protect
+  ITEM_TM20 // Safeguard
+  ITEM_TM33 // Reflect
+  ITEM_TM16 // Light Screen
+}
+
+// Elevator scripts
+
+text gText_WhichFloorWouldYouLike_Pory {
+  "Hi, how are you doing?\nWhich floor would you like?"
+}
+
+// Vending Machine scripts
+
+// also changed from ¥350
+// const u8 gText_LemonadeAndPrice[] = _("Lemonade{CLEAR_TO 0x48}¥400");
+
+script LilycoveCity_DepartmentStoreRooftop_EventScript_CheckMoneyLemonade_Pory {
+  checkmoney(400)
+  return
+}
+
+script LilycoveCity_DepartmentStoreRooftop_EventScript_RemoveMoneyLemonade_Pory {
+  removemoney(400)
+  return
+}
+
+text LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike_Pory {
+  format("Which would you like?")
+}
+
+// LilycoveCity_DepartmentStoreRooftop_EventScript_FreshWater::
+// 	setvar VAR_TEMP_0, ITEM_FRESH_WATER
+// 	goto LilycoveCity_DepartmentStoreRooftop_EventScript_TryBuyDrink
+// 	end
+
+// LilycoveCity_DepartmentStoreRooftop_EventScript_SodaPop::
+// 	setvar VAR_TEMP_0, ITEM_SODA_POP
+// 	goto LilycoveCity_DepartmentStoreRooftop_EventScript_TryBuyDrink
+// 	end
+
+// LilycoveCity_DepartmentStoreRooftop_EventScript_Lemonade::
+// 	setvar VAR_TEMP_0, ITEM_LEMONADE
+
+script LilycoveCity_DepartmentStoreRooftop_EventScript_CanOfDrinkDroppedDown_Pory {
+  switch (var(VAR_TEMP_0)) {
+    case ITEM_FRESH_WATER: msgbox("Clang! A bottle of {STR_VAR_1} dropped\ndown.")
+    case ITEM_SODA_POP: msgbox("Clang! A bottle of {STR_VAR_1} dropped\ndown.")
+    case ITEM_LEMONADE: msgbox("Clang! A can of {STR_VAR_1} dropped\ndown.")
+  }
+}
+
+script LilycoveCity_DepartmentStoreRooftop_EventScript_ExtraCanOfDrinkDroppedDown_Pory {
+  switch (var(VAR_TEMP_0)) {
+    case ITEM_FRESH_WATER: msgbox("Clang!\pScore! An extra bottle of {STR_VAR_1}\ndropped down!")
+    case ITEM_SODA_POP: msgbox("Clang!\pScore! An extra bottle of {STR_VAR_1}\ndropped down!")
+    case ITEM_LEMONADE: msgbox("Clang!\pScore! An extra can of {STR_VAR_1}\ndropped down!")
+  }
+}
+
+// Helper scripts
+
+script Pory_EventScript_Clerk_DepartmentStore_Hellos {
+  if (flag(FLAG_SYS_GAME_CLEAR)) {
+    random(8)
+    switch (var(VAR_RESULT)) {
+    case 0: msgbox(format("{FONT_SMALL}…Is …Is that the League Champion?!"))
+    case 1: msgbox(format("{FONT_SMALL}…I'm pretty sure that's the Champion!"))
+    }
+  }
+  random(13)
+  switch (var(VAR_RESULT)) {
+    case 0: message(format("Welcome! How may I serve you?"))
+    case 1: message(format("Welcome! How may I serve you?"))
+    case 2: message(format("Welcome! How may I serve you?"))
+    case 3: message(format("Hello! What can I do for you?"))
+    case 4: message(format("Hello! What can I do for you?"))
+    case 5: message(format("Hello! What can I do for you?"))
+    case 6: message(format("Hi! How can I help you?"))
+    case 7: message(format("Hi! How can I help you?"))
+    case 8: message(format("Hi! How can I help you?"))
+    case 9: message(format("Hey! What can I get you?"))
+    case 10: message(format("Hey! What can I get you?"))
+    case 11: message(format("How's it going? Know what you want already?"))
+    case 12: message(format("How's it going? Know what you want already?"))
+  }
+}
+
+script Pory_EventScript_Clerk_DepartmentStore_Goodbyes {
+  random(16)
+  switch (var(VAR_RESULT)) {
+    case 0: msgbox(format("Please come again!"))
+    case 1: msgbox(format("Please come again!"))
+    case 2: msgbox(format("Please come again!"))
+    case 3: msgbox(format("Until next time!"))
+    case 4: msgbox(format("Until next time!"))
+    case 5: msgbox(format("Goodbye!"))
+    case 6: msgbox(format("Goodbye!"))
+    case 7: msgbox(format("Bye bye!"))
+    case 8: msgbox(format("Bye now!"))
+    case 9: msgbox(format("Bye now!"))
+    case 10: msgbox(format("Bye!"))
+    case 11: msgbox(format("Ciao!"))
+    case 12: msgbox(format("Enjoy your purchases!"))
+    case 13: msgbox(format("Enjoy your purchases!"))
+    case 14: msgbox(format("Enjoy your purchases!"))
+    case 15: msgbox(format("{FONT_SMALL}I {FONT_SHORT}HATE {FONT_SMALL}my job…\p{FONT_NORMAL}Wait, did you hear that?"))
+  }
+}
