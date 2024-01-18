@@ -53,6 +53,8 @@ extern const u8 gText_Key_Items[];
 extern const u8 gText_Poke_Balls[];
 extern const u8 gText_TMs_Hms[];
 extern const u8 gText_Berries2[];
+extern const u8 gText_Medicine[];
+extern const u8 gText_PowerUp[];
 
 extern const u8 gText_Single2[];
 extern const u8 gText_Double2[];
@@ -138,6 +140,7 @@ extern const u8 gText_CantThrowAwayInUse[];
 extern const u8 gText_DecorationThrownAway[];
 
 extern const u8 gText_PokeBalls[];
+extern const u8 gText_LavaCookies[];
 extern const u8 gText_Berries[];
 extern const u8 gText_Berry[];
 
@@ -934,6 +937,7 @@ extern const u8 gText_ItemFinderNearby[];
 extern const u8 gText_ItemFinderOnTop[];
 extern const u8 gText_CoinCase[];
 extern const u8 gText_PowderQty[];
+extern const u8 gText_AshQty[];
 extern const u8 gText_BootedUpHM[];
 extern const u8 gText_BootedUpTM[];
 extern const u8 gText_TMHMContainedVar1[];
@@ -1024,6 +1028,7 @@ extern const u8 gText_ThankYouIllSendItHome[];
 extern const u8 gText_ThanksIllSendItHome[];
 extern const u8 gText_SpaceForVar1Full[];
 extern const u8 gText_ThrowInPremierBall[];
+extern const u8 gText_ThrowInPremierBalls[];
 extern const u8 gText_ShopBuy[];
 extern const u8 gText_ShopSell[];
 extern const u8 gText_ShopQuit[];
@@ -3054,5 +3059,10 @@ extern const u8 gText_ExpShareOn[];
 extern const u8 gText_ExpShareOff[];
 
 extern const u8 gText_BasePointsResetToZero[];
+
+extern const u8 gMenuText_Move[];
+extern const u8 gText_MoveItemWhere[];
+extern const u8 gText_XsYAnd[];
+extern const u8 gText_XsYWereSwapped[];
 
 #endif // GUARD_STRINGS_H

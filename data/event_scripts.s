@@ -1070,3 +1070,4 @@ EventScript_VsSeekerChargingDone::
 
 .include "data/scripts/pory/marts_by_badges.inc"
 .include "data/scripts/pory/good_berries.inc"
+.include "data/scripts/pory/quality_of_life.inc"

@@ -691,17 +691,17 @@ static const u8 sXSpeedDesc[] = _(
 static const u8 sXAccuracyDesc[] = _(
 #if B_X_ITEMS_BUFF >= GEN_7
     "Sharply raises move\n"
-    "accuracy during\n"
+    "Accuracy during\n"
     "one battle.");
 #else
-    "Raises accuracy\n"
+    "Raises Accuracy\n"
     "of attack moves\n"
     "during one battle.");
 #endif
 
 static const u8 sDireHitDesc[] = _(
     "Raises the\n"
-    "critical-hit ratio\n"
+    "critical hit ratio\n"
     "during one battle.");
 
 static const u8 sGuardSpecDesc[] = _(
@@ -2052,7 +2052,7 @@ static const u8 sLightBallDesc[] = _(
 static const u8 sLeekDesc[] = _(
     "A hold item that\n"
     "raises Farfetch'd's\n"
-    "critical-hit ratio.");
+    "critical hit ratio.");
 
 static const u8 sThickClubDesc[] = _(
     "A hold item that \n"
@@ -2062,7 +2062,7 @@ static const u8 sThickClubDesc[] = _(
 static const u8 sLuckyPunchDesc[] = _(
     "A hold item that\n"
     "raises Chansey's\n"
-    "critical-hit rate.");
+    "critical hit rate.");
 
 static const u8 sMetalPowderDesc[] = _(
     "A hold item that\n"
@@ -2119,7 +2119,7 @@ static const u8 sSeaIncenseDesc[] = _(
 static const u8 sLaxIncenseDesc[] = _(
     "A hold item that\n"
     "slightly lowers the\n"
-    "foe's accuracy.");
+    "foe's Accuracy.");
 
 static const u8 sOddIncenseDesc[] = _(
     "A hold item that\n"
@@ -2398,7 +2398,7 @@ static const u8 sSnowballDesc[] = _(
 static const u8 sBrightPowderDesc[] = _(
     "A hold item that\n"
     "casts a glare to\n"
-    "reduce accuracy.");
+    "reduce Accuracy.");
 
 static const u8 sWhiteHerbDesc[] = _(
     "A hold item that\n"
@@ -2471,7 +2471,7 @@ static const u8 sLuckyEggDesc[] = _(
 static const u8 sScopeLensDesc[] = _(
     "A hold item that\n"
     "improves the\n"
-    "critical-hit rate.");
+    "critical hit rate.");
 
 static const u8 sLeftoversDesc[] = _(
     "A hold item that\n"
@@ -2486,7 +2486,7 @@ static const u8 sShellBellDesc[] = _(
 static const u8 sWideLensDesc[] = _(
     "A magnifying lens\n"
     "that boosts the\n"
-    "accuracy of moves.");
+    "Accuracy of moves.");
 
 static const u8 sMuscleBandDesc[] = _(
     "A headband that\n"
@@ -2526,7 +2526,7 @@ static const u8 sFocusSashDesc[] = _(
 static const u8 sZoomLensDesc[] = _(
     "If the holder moves\n"
     "after the foe, it'll\n"
-    "boost accuracy.");
+    "boost Accuracy.");
 
 static const u8 sMetronomeDesc[] = _(
     "A held item that\n"
@@ -2576,7 +2576,7 @@ static const u8 sBigRootDesc[] = _(
 static const u8 sRazorClawDesc[] = _(
     "A hooked claw that\n"
     "ups the holder's\n"
-    "critical-hit ratio.");
+    "critical hit ratio.");
 
 static const u8 sRazorFangDesc[] = _(
     "A hold item that\n"
@@ -2982,7 +2982,7 @@ static const u8 sApicotBerryDesc[] = _(
 
 static const u8 sLansatBerryDesc[] = _(
     "A hold item that\n"
-    "ups the critical-\n"
+    "ups the critical\n"
     "hit rate in a pinch.");
 
 static const u8 sStarfBerryDesc[] = _(
@@ -3454,7 +3454,7 @@ static const u8 sHM04Desc[] = _(
 static const u8 sHM05Desc[] = _(
     "Looses a powerful\n"
     "blast of light that\n"
-    "reduces accuracy.");
+    "reduces Accuracy.");
 
 static const u8 sHM06Desc[] = _(
     "A rock-crushingly\n"
