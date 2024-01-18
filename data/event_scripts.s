@@ -1069,3 +1069,4 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/birch_speech.inc"
 
 .include "data/scripts/pory/marts_by_badges.inc"
+.include "data/scripts/pory/good_berries.inc"
