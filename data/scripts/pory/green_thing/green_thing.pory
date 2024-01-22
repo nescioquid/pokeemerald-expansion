@@ -716,3 +716,13 @@ text VerdanturfTown_WandasHouse_Text_StrongerSpeech_Pory {
 text MatchCall_Text_Wally5_Pory {
   format("Wally: {PLAYER}? It's awesome!\nThat Pokémon we caught together? It evolved, {PLAYER}!\pMaybe I'm talented…\pOh, but I shouldn't get a big head like that!\pAfter all, it's the Pokémon that should be praised!")
 }
+
+// changes the egg given in Lavaridge to include other possible mons
+
+script Pory_EventScript_GiveEgg {
+  random(2)
+  switch (var(VAR_RESULT)) {
+    case 0: giveegg(SPECIES_TOGEPI)
+    case 1: giveegg(SPECIES_WYNAUT)
+  }
+}
