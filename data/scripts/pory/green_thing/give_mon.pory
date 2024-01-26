@@ -138,9 +138,7 @@ script Pory_EventScript_AskToTradeScanner {
 
 // adds an NPC that gives a Johto Starter in the Dewford PokeCenter and a Linking Cord on Route 109
 
-raw`
-.set LOCALID_LITTLE_BOY, 4
-`
+const META_BOY_ID = 4
 
 script Pory_EventScript_MetaBoy_GiveJohtoStarter {
   lock
@@ -154,9 +152,9 @@ script Pory_EventScript_MetaBoy_GiveJohtoStarter {
     }
     if (flag(FLAG_BADGE02_GET)) {
       playse(SE_PIN)
-      applymovement(LOCALID_LITTLE_BOY, Common_Movement_ExclamationMark)
+      applymovement(META_BOY_ID, Common_Movement_ExclamationMark)
       waitmovement(0)
-      applymovement(LOCALID_LITTLE_BOY, Common_Movement_Delay48)
+      applymovement(META_BOY_ID, Common_Movement_Delay48)
       waitmovement(0)
       msgbox(format("Wait a second…\pThat confidence…\pThat badge…\pAnd, most of all, that plot armor…\p…YOU could take care of my Pokémon!\pPlease, oh please, would you?\nPleasy please?"), MSGBOX_YESNO)
       if (var(VAR_RESULT)) {

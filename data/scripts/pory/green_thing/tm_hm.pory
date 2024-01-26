@@ -204,9 +204,8 @@ script Pory_EventScript_GiveTMDreamEater {
 
 
 // TM087 Swagger
-raw`
-.set LOCALID_RICH_LADY, 5
-`
+
+const RICH_LADY_ID = 5
 
 script Pory_EventScript_GiveTMSwagger {
   lock
@@ -214,9 +213,9 @@ script Pory_EventScript_GiveTMSwagger {
   if (!flag(FLAG_RECEIVED_TM_SWAGGER)) {
     msgbox(format("{FONT_SMALL}How might I have been so heedless…"))
     playse(SE_PIN)
-    applymovement(LOCALID_RICH_LADY, Common_Movement_ExclamationMark)
+    applymovement(RICH_LADY_ID, Common_Movement_ExclamationMark)
     waitmovement(0)
-    applymovement(LOCALID_RICH_LADY, Common_Movement_Delay48)
+    applymovement(RICH_LADY_ID, Common_Movement_Delay48)
     waitmovement(0)
     msgbox(format("You there!\nI've left my purse back on the yacht, and I find myself in somewhat compromised circumstances."))
     showmoneybox(0, 0)
@@ -246,18 +245,17 @@ script Pory_EventScript_GiveTMSwagger {
 }
 
 // TM096 Nature Power
-raw`
-.set LOCALID_LOST_HIKER, 9
-`
+
+const LOST_HIKER_ID = 9
 
 script Pory_EventScript_GiveTMNaturePower {
   lock
   faceplayer
   if (!flag(FLAG_RECEIVED_TM_NATURE_POWER)) {
     playse(SE_PIN)
-    applymovement(LOCALID_LOST_HIKER, Common_Movement_ExclamationMark)
+    applymovement(LOST_HIKER_ID, Common_Movement_ExclamationMark)
     waitmovement(0)
-    applymovement(LOCALID_LOST_HIKER, Common_Movement_Delay48)
+    applymovement(LOST_HIKER_ID, Common_Movement_Delay48)
     waitmovement(0)
     msgbox(format("Oh?!"))
     giveitem(ITEM_TM_NATURE_POWER)

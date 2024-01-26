@@ -82,9 +82,7 @@ script Pory_EventScript_TreasureHunter_DoPearls {
 
 // adds a maniac in Slateport who trades evo stones for fossils
 
-raw`
-.set LOCALID_EVO_STONE_MANIAC, 36
-`
+const EVO_STONE_MANIAC_ID = 36
 
 script Pory_EventScript_EvoStoneManiac {
   lock
@@ -127,9 +125,9 @@ script Pory_EventScript_EvoStoneManiac {
 script Pory_EventScript_EvoStoneManiac_GiveEvoStones {
   if (var(VAR_RESULT)) {
     playse(SE_PIN)
-    applymovement(LOCALID_EVO_STONE_MANIAC, Common_Movement_ExclamationMark)
+    applymovement(EVO_STONE_MANIAC_ID, Common_Movement_ExclamationMark)
     waitmovement(0)
-    applymovement(LOCALID_EVO_STONE_MANIAC, Common_Movement_Delay48)
+    applymovement(EVO_STONE_MANIAC_ID, Common_Movement_Delay48)
     waitmovement(0)
     if (var(VAR_TEMP_3) == ITEM_HELIX_FOSSIL) {
       msgbox(format("Hey, is that a {STR_VAR_3}?\nPraise Helix!\pDo you wanna trade something for it? I'll give you three of my rocks if you let me have it. I get to choose which ones though!"), MSGBOX_YESNO)
