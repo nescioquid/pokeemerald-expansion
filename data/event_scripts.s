@@ -1071,3 +1071,8 @@ EventScript_VsSeekerChargingDone::
 .include "data/scripts/pory/marts_by_badges.inc"
 .include "data/scripts/pory/good_berries.inc"
 .include "data/scripts/pory/quality_of_life.inc"
+.include "data/scripts/pory/green_thing/green_thing.inc"
+.include "data/scripts/pory/green_thing/item_maniac.inc"
+.include "data/scripts/pory/green_thing/give_mon.inc"
+.include "data/scripts/pory/green_thing/tm_hm.inc"
+.include "data/scripts/pory/green_thing/random_item.inc"

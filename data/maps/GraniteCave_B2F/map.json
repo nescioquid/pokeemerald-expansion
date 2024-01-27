@@ -16,19 +16,6 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 4,
-      "y": 4,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "GraniteCave_B2F_EventScript_ItemRepel",
-      "flag": "FLAG_ITEM_GRANITE_CAVE_B2F_REPEL"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 29,
       "y": 4,
       "elevation": 3,
@@ -37,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "GraniteCave_B2F_EventScript_ItemRareCandy",
+      "script": "Pory_EventScript_ItemTMShadowClaw",
       "flag": "FLAG_ITEM_GRANITE_CAVE_B2F_RARE_CANDY"
     },
     {
@@ -176,7 +163,7 @@
       "x": 28,
       "y": 6,
       "elevation": 3,
-      "item": "ITEM_EVERSTONE",
+      "item": "ITEM_TINY_MUSHROOM",
       "flag": "FLAG_HIDDEN_ITEM_GRANITE_CAVE_B2F_EVERSTONE_1"
     },
     {
@@ -186,6 +173,14 @@
       "elevation": 3,
       "item": "ITEM_EVERSTONE",
       "flag": "FLAG_HIDDEN_ITEM_GRANITE_CAVE_B2F_EVERSTONE_2"
+    },
+    {
+      "type": "hidden_item",
+      "x": 4,
+      "y": 4,
+      "elevation": 0,
+      "item": "ITEM_RARE_CANDY",
+      "flag": "FLAG_ITEM_GRANITE_CAVE_B2F_REPEL"
     }
   ]
 }

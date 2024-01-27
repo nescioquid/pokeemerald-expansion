@@ -379,7 +379,7 @@ FieryPath_EventScript_ItemTMToxic::
 	end
 
 MeteorFalls_1F_1R_EventScript_ItemTMIronTail::
-	finditem ITEM_TM_IRON_TAIL
+	@ finditem ITEM_TM_IRON_TAIL
 	end
 
 MeteorFalls_1F_1R_EventScript_ItemFullHeal::
@@ -507,7 +507,7 @@ MtPyre_Exterior_EventScript_ItemMaxPotion::
 	end
 
 MtPyre_Exterior_EventScript_ItemTMSkillSwap::
-	finditem ITEM_TM_SKILL_SWAP
+	@ finditem ITEM_TM_SKILL_SWAP
 	end
 
 AquaHideout_B1F_EventScript_ItemMasterBall::

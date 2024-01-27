@@ -141,6 +141,7 @@ extern const u8 gText_DecorationThrownAway[];
 
 extern const u8 gText_PokeBalls[];
 extern const u8 gText_LavaCookies[];
+extern const u8 gText_LuckyEggs[];
 extern const u8 gText_Berries[];
 extern const u8 gText_Berry[];
 
@@ -1212,6 +1213,10 @@ extern const u8 gText_TM29AndPrice[];
 extern const u8 gText_TM35AndPrice[];
 extern const u8 gText_TM24AndPrice[];
 extern const u8 gText_TM13AndPrice[];
+extern const u8 gText_SilkScarfAndPrice[];
+extern const u8 gText_WideLensAndPrice[];
+extern const u8 gText_ZoomLensAndPrice[];
+extern const u8 gText_MetronomeAndPrice[];
 extern const u8 gText_50CoinsAndPrice[];
 extern const u8 gText_500CoinsAndPrice[];
 extern const u8 gText_Excellent2[];
