@@ -6349,9 +6349,8 @@ static const struct TrainerMon sParty_WallyVR1[] = {
 
 static const struct TrainerMon sParty_BrendanRoute103Mudkip[] = {
     {
-    .lvl = 5,
+    .lvl = 0,
     .species = SPECIES_TREECKO,
-    .heldItem = ITEM_MIRACLE_SEED
     }
 };
 
@@ -6404,9 +6403,8 @@ static const struct TrainerMon sParty_BrendanRoute119Mudkip[] = {
 
 static const struct TrainerMon sParty_BrendanRoute103Treecko[] = {
     {
-    .lvl = 5,
+    .lvl = 0,
     .species = SPECIES_TORCHIC,
-    .heldItem = ITEM_CHARCOAL
     }
 };
 
@@ -6459,9 +6457,8 @@ static const struct TrainerMon sParty_BrendanRoute119Treecko[] = {
 
 static const struct TrainerMon sParty_BrendanRoute103Torchic[] = {
     {
-    .lvl = 5,
+    .lvl = 0,
     .species = SPECIES_MUDKIP,
-    .heldItem = ITEM_MYSTIC_WATER
     }
 };
 
@@ -6514,9 +6511,8 @@ static const struct TrainerMon sParty_BrendanRoute119Torchic[] = {
 
 static const struct TrainerMon sParty_MayRoute103Mudkip[] = {
     {
-    .lvl = 5,
+    .lvl = 0,
     .species = SPECIES_TREECKO,
-    .heldItem = ITEM_MIRACLE_SEED
     }
 };
 
@@ -6569,9 +6565,8 @@ static const struct TrainerMon sParty_MayRoute119Mudkip[] = {
 
 static const struct TrainerMon sParty_MayRoute103Treecko[] = {
     {
-    .lvl = 5,
+    .lvl = 0,
     .species = SPECIES_TORCHIC,
-    .heldItem = ITEM_CHARCOAL
     }
 };
 
@@ -6624,9 +6619,8 @@ static const struct TrainerMon sParty_MayRoute119Treecko[] = {
 
 static const struct TrainerMon sParty_MayRoute103Torchic[] = {
     {
-    .lvl = 5,
+    .lvl = 0,
     .species = SPECIES_MUDKIP,
-    .heldItem = ITEM_MYSTIC_WATER
     }
 };
 
@@ -7427,14 +7421,14 @@ static const struct TrainerMon sParty_BrendanRustboroTreecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
     .lvl = 13,
-    .species = SPECIES_SPEAROW,
-    .heldItem = ITEM_ORAN_BERRY
+    .species = SPECIES_DODUO,
+    .heldItem = ITEM_CHILAN_BERRY
     },
     {
     .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
     .lvl = 15,
     .species = SPECIES_TORCHIC,
-    .heldItem = ITEM_CHARCOAL
+    .heldItem = ITEM_ORAN_BERRY
     }
 };
 
@@ -7442,14 +7436,14 @@ static const struct TrainerMon sParty_BrendanRustboroMudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
     .lvl = 13,
-    .species = SPECIES_SPEAROW,
-    .heldItem = ITEM_ORAN_BERRY
+    .species = SPECIES_DODUO,
+    .heldItem = ITEM_CHILAN_BERRY
     },
     {
     .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
     .lvl = 15,
     .species = SPECIES_TREECKO,
-    .heldItem = ITEM_MIRACLE_SEED
+    .heldItem = ITEM_ORAN_BERRY
     }
 };
 
@@ -7520,14 +7514,14 @@ static const struct TrainerMon sParty_BrendanRustboroTorchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
     .lvl = 13,
-    .species = SPECIES_SPEAROW,
-    .heldItem = ITEM_ORAN_BERRY
+    .species = SPECIES_DODUO,
+    .heldItem = ITEM_CHILAN_BERRY
     },
     {
     .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
     .lvl = 15,
     .species = SPECIES_MUDKIP,
-    .heldItem = ITEM_MYSTIC_WATER
+    .heldItem = ITEM_ORAN_BERRY
     }
 };
 
@@ -7536,13 +7530,13 @@ static const struct TrainerMon sParty_MayRustboroMudkip[] = {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
     .lvl = 13,
     .species = SPECIES_DODUO,
-    .heldItem = ITEM_ORAN_BERRY
+    .heldItem = ITEM_CHILAN_BERRY
     },
     {
     .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
     .lvl = 15,
     .species = SPECIES_TREECKO,
-    .heldItem = ITEM_MIRACLE_SEED
+    .heldItem = ITEM_ORAN_BERRY
     }
 };
 
@@ -9769,13 +9763,12 @@ static const struct TrainerMon sParty_MayRustboroTreecko[] = {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
     .lvl = 13,
     .species = SPECIES_DODUO,
-    .heldItem = ITEM_ORAN_BERRY
+    .heldItem = ITEM_CHILAN_BERRY
     },
     {
     .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
     .lvl = 15,
     .species = SPECIES_TORCHIC,
-    .heldItem = ITEM_CHARCOAL
     }
 };
 
@@ -9784,13 +9777,13 @@ static const struct TrainerMon sParty_MayRustboroTorchic[] = {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
     .lvl = 13,
     .species = SPECIES_DODUO,
-    .heldItem = ITEM_ORAN_BERRY
+    .heldItem = ITEM_CHILAN_BERRY
     },
     {
     .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
     .lvl = 15,
     .species = SPECIES_MUDKIP,
-    .heldItem = ITEM_MYSTIC_WATER
+    .heldItem = ITEM_ORAN_BERRY
     }
 };
 
