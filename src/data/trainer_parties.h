@@ -3972,7 +3972,8 @@ static const struct TrainerMon sParty_Calvin1[] = {
 static const struct TrainerMon sParty_Billy[] = {
     {
     .lvl = 5,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_FARFETCHD,
+    .moves = {MOVE_LEER, MOVE_FURY_CUTTER, MOVE_FURY_ATTACK, MOVE_AERIAL_ACE}
     },
     {
     .lvl = 7,
@@ -7589,7 +7590,7 @@ static const struct TrainerMon sParty_MaxieMtChimney[] = {
 static const struct TrainerMon sParty_Tiana[] = {
     {
     .lvl = 4,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_SENTRET,
     },
     {
     .lvl = 4,
