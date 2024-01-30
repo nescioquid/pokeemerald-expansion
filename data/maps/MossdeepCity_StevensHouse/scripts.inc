@@ -44,7 +44,7 @@ MossdeepCity_StevensHouse_EventScript_StevenGivesDive::
 	@ setflag FLAG_RECEIVED_HM08
 	@ setflag FLAG_OMIT_DIVE_FROM_STEVEN_LETTER
 	@ msgbox MossdeepCity_StevensHouse_Text_ExplainDive, MSGBOX_DEFAULT
-	call Pory_EventScript_StevenGiveEvoGene
+	call Pory_EventScript_StevenGiveOldAmber
 	closemessage
 	delay 20
 	applymovement LOCALID_STEVEN, MossdeepCity_StevensHouse_Movement_StevenReturn

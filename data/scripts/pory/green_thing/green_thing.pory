@@ -241,14 +241,18 @@ script Route116_EventScript_DevonEmployee_Pory {
   end
 }
 
-// Mr. Stone now gives an Eviolite for delivering the Letter
+// Mr. Stone now gives a gen 1 Fossil for delivering the Letter
 
-script Pory_EventScript_MrStoneGiveEviolite {
+script Pory_EventScript_MrStoneGiveFossil {
   msgbox(RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter, MSGBOX_DEFAULT)
-  giveitem(ITEM_EVIOLITE)
+  random(2)
+  switch (var(VAR_RESULT)) {
+    case 0: giveitem(ITEM_HELIX_FOSSIL)
+    case 1: giveitem(ITEM_DOME_FOSSIL)
+  }
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
   setflag(FLAG_RECEIVED_EXP_SHARE)
-  msgbox(format("Mr. Stone: That Eviolite is a rare stone indeed! Take care of it for me."))
+  msgbox(format("Mr. Stone: That Fossil is a rare one indeed! Take care of it for me."))
   closemessage
   applymovement(VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection)
   waitmovement(0)
@@ -258,7 +262,7 @@ script Pory_EventScript_MrStoneGiveEviolite {
 
 // Steven now gives an Old Amber instead of HM08 Dive
 
-script Pory_EventScript_StevenGiveEvoGene {
+script Pory_EventScript_StevenGiveOldAmber {
   msgbox(format("Steven: {PLAYER}{KUN}…\pAs you can see, there's not much here, but this is my home.\pThank you for all that you've done. This is my token of appreciation.\pNo need to be shy --you've earned it."))
   giveitem(ITEM_OLD_AMBER)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
