@@ -10928,12 +10928,27 @@ void TryRestoreHeldItems(void)
     u16 lostItem = ITEM_NONE;
 
     for (i = 0; i < PARTY_SIZE; i++)
+    if (B_RESTORE_HELD_BATTLE_ITEMS == TRUE || gBattleStruct->itemLost[i].stolen)
     {
-        if (B_RESTORE_HELD_BATTLE_ITEMS == TRUE || gBattleStruct->itemLost[i].stolen)
         {
+            if (gBattleStruct->itemLost[i].originalItem != ITEM_NONE
+                && GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, NULL) != gBattleStruct->itemLost[i].originalItem)
+            {
+                lostItem = gBattleStruct->itemLost[i].originalItem;
+                SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &lostItem);
+            }
+        }
+    }
+    else
+    {
+        for (i = 0; i < PARTY_SIZE; i++)
+        {
+            if (gBattleStruct->itemLost[i].stolen)
+            {
             lostItem = gBattleStruct->itemLost[i].originalItem;
             if (lostItem != ITEM_NONE && ItemId_GetPocket(lostItem) != POCKET_BERRIES)
                 SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &lostItem);  // Restore stolen non-berry items
+            }
         }
     }
 }
