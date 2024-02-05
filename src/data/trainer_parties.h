@@ -2049,6 +2049,7 @@ static const struct TrainerMon sParty_Takao[] = {
     .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
     .lvl = 13,
     .species = SPECIES_MACHOP,
+    .moves = {MOVE_LOW_SWEEP, MOVE_SEISMIC_TOSS, MOVE_REVENGE, MOVE_KNOCK_OFF}
     }
 };
 
@@ -3215,7 +3216,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .lvl = 15,
     .species = SPECIES_SUDOWOODO,
     .heldItem = ITEM_NOMEL_BERRY,
-    .moves = {MOVE_COPYCAT, MOVE_TEARFUL_LOOK, MOVE_ROCK_TOMB, MOVE_GRASS_KNOT}
+    .moves = {MOVE_COPYCAT, MOVE_TEARFUL_LOOK, MOVE_GRASS_KNOT, MOVE_ROCK_TOMB}
     }
 };
 
@@ -3223,21 +3224,29 @@ static const struct TrainerMon sParty_Brawly1[] = {
     {
     .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
     .lvl = 16,
-    .species = SPECIES_MACHOP,
-    .moves = {MOVE_KARATE_CHOP, MOVE_LOW_KICK, MOVE_SEISMIC_TOSS, MOVE_BULK_UP}
+    .ability = ABILITY_VITAL_SPIRIT,
+    .species = SPECIES_MANKEY,
+    .moves = {MOVE_COVET, MOVE_CROSS_CHOP, MOVE_THUNDER_PUNCH, MOVE_BULK_UP}
     },
     {
     .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
     .lvl = 16,
-    .species = SPECIES_MANKEY,
-    .moves = {MOVE_KARATE_CHOP, MOVE_LOW_KICK, MOVE_SEISMIC_TOSS, MOVE_BULK_UP}
+    .ability = ABILITY_NO_GUARD,
+    .species = SPECIES_MACHOP,
+    .moves = {MOVE_DYNAMIC_PUNCH, MOVE_STONE_EDGE, MOVE_KNOCK_OFF, MOVE_BULK_UP}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+    .lvl = 16,
+    .species = SPECIES_BRELOOM,
+    .moves = {MOVE_MACH_PUNCH, MOVE_MEGA_DRAIN, MOVE_ROCK_SLIDE, MOVE_BULK_UP}
     },
     {
     .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
     .lvl = 19,
     .species = SPECIES_HITMONTOP,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_PURSUIT, MOVE_COUNTER, MOVE_ROLLING_KICK, MOVE_BULK_UP}
+    .moves = {MOVE_PURSUIT, MOVE_ROLLING_KICK, MOVE_COUNTER, MOVE_BULK_UP}
     },
 };
 
@@ -5274,6 +5283,7 @@ static const struct TrainerMon sParty_Jocelyn[] = {
     .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
     .lvl = 13,
     .species = SPECIES_MANKEY,
+    .moves = {MOVE_COVET, MOVE_PURSUIT, MOVE_SWAGGER, MOVE_CROSS_CHOP}
     }
 };
 
@@ -5282,6 +5292,7 @@ static const struct TrainerMon sParty_Laura[] = {
     .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
     .lvl = 13,
     .species = SPECIES_MANKEY,
+    .moves = {MOVE_COVET, MOVE_PURSUIT, MOVE_SWAGGER, MOVE_CROSS_CHOP}
     }
 };
 
@@ -7295,6 +7306,7 @@ static const struct TrainerMon sParty_Brenden[] = {
     .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
     .lvl = 13,
     .species = SPECIES_MACHOP,
+    .moves = {MOVE_LOW_SWEEP, MOVE_SEISMIC_TOSS, MOVE_REVENGE, MOVE_KNOCK_OFF}
     }
 };
 
@@ -7303,6 +7315,8 @@ static const struct TrainerMon sParty_Lilith[] = {
     .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
     .lvl = 13,
     .species = SPECIES_MANKEY,
+    .moves = {MOVE_COVET, MOVE_PURSUIT, MOVE_SWAGGER, MOVE_CROSS_CHOP}
+
     }
 };
 
@@ -7310,7 +7324,8 @@ static const struct TrainerMon sParty_Cristian[] = {
     {
     .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
     .lvl = 13,
-    .species = SPECIES_TYROGUE,
+    .species = SPECIES_BRELOOM,
+    .moves = {MOVE_MACH_PUNCH, MOVE_MEGA_DRAIN, MOVE_STUN_SPORE, MOVE_COUNTER}
     }
 };
 
