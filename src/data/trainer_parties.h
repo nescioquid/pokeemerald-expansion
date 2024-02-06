@@ -729,7 +729,7 @@ static const struct TrainerMon sParty_Ricky1[] = {
     .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
     .lvl = 13,
     .species = SPECIES_ZIGZAGOON,
-    .moves = {MOVE_SAND_ATTACK, MOVE_HEADBUTT, MOVE_TAIL_WHIP, MOVE_SURF}
+    .moves = {MOVE_TAIL_WHIP, MOVE_HEADBUTT, MOVE_BABY_DOLL_EYES, MOVE_SURF}
     }
 };
 
@@ -737,10 +737,12 @@ static const struct TrainerMon sParty_Simon[] = {
     {
     .lvl = 12,
     .species = SPECIES_AZURILL,
+    .moves = {MOVE_TAIL_WHIP, MOVE_CHARM, MOVE_BUBBLE_BEAM, MOVE_SLAM}
     },
     {
     .lvl = 12,
     .species = SPECIES_MARILL,
+    .moves = {MOVE_DEFENSE_CURL, MOVE_ROLLOUT, MOVE_BUBBLE_BEAM, MOVE_AQUA_TAIL}
     }
 };
 
