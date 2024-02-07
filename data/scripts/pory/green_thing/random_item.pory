@@ -11,12 +11,12 @@ script Pory_EventScript_RandomizedHiddenItem {
       var(VAR_0x8005) == ITEM_TIMER_BALL) {
     call(Pory_EventScript_HiddenItemOrganic)
   }
-  if (var(VAR_0x8005) == ITEM_POTION       ||
-      var(VAR_0x8005) == ITEM_SUPER_POTION ||
-      var(VAR_0x8005) == ITEM_HYPER_POTION ||
-      var(VAR_0x8005) == ITEM_MAX_POTION   ||
-      var(VAR_0x8005) == ITEM_FULL_RESTORE ||
-      var(VAR_0x8005) == ITEM_ENERGY_POWDER||
+  if (var(VAR_0x8005) == ITEM_POTION        ||
+      var(VAR_0x8005) == ITEM_SUPER_POTION  ||
+      var(VAR_0x8005) == ITEM_HYPER_POTION  ||
+      var(VAR_0x8005) == ITEM_MAX_POTION    ||
+      var(VAR_0x8005) == ITEM_FULL_RESTORE  ||
+      var(VAR_0x8005) == ITEM_ENERGY_POWDER ||
       var(VAR_0x8005) == ITEM_ENERGY_ROOT) {
     call(Pory_EventScript_HiddenItemHP)
   }
@@ -29,8 +29,8 @@ script Pory_EventScript_RandomizedHiddenItem {
       var(VAR_0x8005) == ITEM_HEAL_POWDER) {
     call(Pory_EventScript_HiddenItemStatus)
   }
-  if (var(VAR_0x8005) == ITEM_REVIVE       ||
-      var(VAR_0x8005) == ITEM_MAX_REVIVE   ||
+  if (var(VAR_0x8005) == ITEM_REVIVE     ||
+      var(VAR_0x8005) == ITEM_MAX_REVIVE ||
       var(VAR_0x8005) == ITEM_REVIVAL_HERB) {
     call(Pory_EventScript_HiddenItemRevive)
   }
@@ -95,10 +95,14 @@ script Pory_EventScript_HiddenItemOrganic {
 }
 
 script Pory_EventScript_HiddenItemBambooShoot {
-  random(2)
+  random(6)
   switch (var(VAR_RESULT)) {
     case 0: setvar(VAR_0x8005, ITEM_TINY_BAMBOO_SHOOT)
     case 1: setvar(VAR_0x8005, ITEM_BIG_BAMBOO_SHOOT)
+    case 2: setvar(VAR_0x8005, ITEM_BIG_BAMBOO_SHOOT)
+    case 3: setvar(VAR_0x8005, ITEM_BIG_BAMBOO_SHOOT)
+    case 4: setvar(VAR_0x8005, ITEM_BIG_BAMBOO_SHOOT)
+    case 5: setvar(VAR_0x8005, ITEM_BIG_BAMBOO_SHOOT)
   }
 }
 
@@ -106,8 +110,8 @@ script Pory_EventScript_HiddenItemMushroom {
   random(6)
   switch (var(VAR_RESULT)) {
     case 0: setvar(VAR_0x8005, ITEM_TINY_MUSHROOM)
-    case 1: setvar(VAR_0x8005, ITEM_TINY_MUSHROOM)
-    case 2: setvar(VAR_0x8005, ITEM_TINY_MUSHROOM)
+    case 1: setvar(VAR_0x8005, ITEM_BIG_MUSHROOM)
+    case 2: setvar(VAR_0x8005, ITEM_BIG_MUSHROOM)
     case 3: setvar(VAR_0x8005, ITEM_BIG_MUSHROOM)
     case 4: setvar(VAR_0x8005, ITEM_BIG_MUSHROOM)
     case 5: setvar(VAR_0x8005, ITEM_BALM_MUSHROOM)
@@ -133,7 +137,7 @@ script Pory_EventScript_HiddenItemNugget {
     case 0: setvar(VAR_0x8005, ITEM_NUGGET)
     case 1: setvar(VAR_0x8005, ITEM_NUGGET)
     case 2: setvar(VAR_0x8005, ITEM_NUGGET)
-    case 3: setvar(VAR_0x8005, ITEM_BIG_NUGGET)
+    case 3: setvar(VAR_0x8005, ITEM_NUGGET)
     case 4: setvar(VAR_0x8005, ITEM_BIG_NUGGET)
     case 5: call(Pory_EventScript_HiddenItemEvoStone)
   }
@@ -145,7 +149,7 @@ script Pory_EventScript_HiddenItemPearl {
     case 0: setvar(VAR_0x8005, ITEM_PEARL)
     case 1: setvar(VAR_0x8005, ITEM_PEARL)
     case 2: setvar(VAR_0x8005, ITEM_PEARL)
-    case 3: setvar(VAR_0x8005, ITEM_BIG_PEARL)
+    case 3: setvar(VAR_0x8005, ITEM_PEARL)
     case 4: setvar(VAR_0x8005, ITEM_BIG_PEARL)
     case 5: call(Pory_EventScript_HiddenItemFossil)
   }
@@ -158,7 +162,7 @@ script Pory_EventScript_HiddenItemStarPiece {
     case 1: setvar(VAR_0x8005, ITEM_STAR_PIECE)
     case 2: setvar(VAR_0x8005, ITEM_STAR_PIECE)
     case 3: setvar(VAR_0x8005, ITEM_STAR_PIECE)
-    case 4: setvar(VAR_0x8005, ITEM_COMET_SHARD)
+    case 4: setvar(VAR_0x8005, ITEM_STAR_PIECE)
     case 5: setvar(VAR_0x8005, ITEM_COMET_SHARD)
   }
 }
@@ -236,16 +240,16 @@ script Pory_EventScript_HiddenItemHP {
 script Pory_EventScript_HiddenItemPP {
   random(20)
   switch (var(VAR_RESULT)) {
-    case 0:  setvar(VAR_0x8005, ITEM_ETHER)
-    case 1:  setvar(VAR_0x8005, ITEM_ETHER)
-    case 2:  setvar(VAR_0x8005, ITEM_ETHER)
-    case 3:  setvar(VAR_0x8005, ITEM_ETHER)
-    case 4:  setvar(VAR_0x8005, ITEM_ETHER)
-    case 5:  setvar(VAR_0x8005, ITEM_ELIXIR)
-    case 6:  setvar(VAR_0x8005, ITEM_ELIXIR)
-    case 7:  setvar(VAR_0x8005, ITEM_ELIXIR)
-    case 8:  setvar(VAR_0x8005, ITEM_ELIXIR)
-    case 9:  setvar(VAR_0x8005, ITEM_ELIXIR)
+    case  0: setvar(VAR_0x8005, ITEM_ETHER)
+    case  1: setvar(VAR_0x8005, ITEM_ETHER)
+    case  2: setvar(VAR_0x8005, ITEM_ETHER)
+    case  3: setvar(VAR_0x8005, ITEM_ETHER)
+    case  4: setvar(VAR_0x8005, ITEM_ETHER)
+    case  5: setvar(VAR_0x8005, ITEM_ELIXIR)
+    case  6: setvar(VAR_0x8005, ITEM_ELIXIR)
+    case  7: setvar(VAR_0x8005, ITEM_ELIXIR)
+    case  8: setvar(VAR_0x8005, ITEM_ELIXIR)
+    case  9: setvar(VAR_0x8005, ITEM_ELIXIR)
     case 10: setvar(VAR_0x8005, ITEM_MAX_ETHER)
     case 11: setvar(VAR_0x8005, ITEM_MAX_ETHER)
     case 12: setvar(VAR_0x8005, ITEM_MAX_ETHER)
@@ -299,16 +303,22 @@ script Pory_EventScript_ItemXItem {
       case 1: finditem(ITEM_GUARD_SPEC)
     }
   } else {
-    random(8)
+    random(14)
     switch (var(VAR_RESULT)) {
-      case 0: finditem(ITEM_X_ATTACK)
-      case 1: finditem(ITEM_X_DEFENSE)
-      case 2: finditem(ITEM_X_SP_ATK)
-      case 3: finditem(ITEM_X_SP_DEF)
-      case 4: finditem(ITEM_X_SPEED)
-      case 5: finditem(ITEM_X_ACCURACY)
-      case 6: finditem(ITEM_DIRE_HIT)
-      case 7: finditem(ITEM_GUARD_SPEC)
+      case  0: finditem(ITEM_X_ATTACK)
+      case  1: finditem(ITEM_X_DEFENSE)
+      case  2: finditem(ITEM_X_SP_ATK)
+      case  3: finditem(ITEM_X_SP_DEF)
+      case  4: finditem(ITEM_X_SPEED)
+      case  5: finditem(ITEM_X_ACCURACY)
+      case  6: finditem(ITEM_X_ATTACK)
+      case  7: finditem(ITEM_X_DEFENSE)
+      case  8: finditem(ITEM_X_SP_ATK)
+      case  9: finditem(ITEM_X_SP_DEF)
+      case 10: finditem(ITEM_X_SPEED)
+      case 11: finditem(ITEM_X_ACCURACY)
+      case 12: finditem(ITEM_DIRE_HIT)
+      case 13: finditem(ITEM_GUARD_SPEC)
     }
   }
   end
