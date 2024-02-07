@@ -204,19 +204,38 @@ static const struct TrainerMon sParty_GruntWeatherInst3[] = {
 
 static const struct TrainerMon sParty_GruntMuseum1[] = {
     {
+    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
     .lvl = 15,
     .species = SPECIES_CARVANHA,
+    .moves = {MOVE_ASSURANCE, MOVE_SCREECH, MOVE_SWAGGER, MOVE_ICE_FANG}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
+    .lvl = 15,
+    .species = SPECIES_GOLBAT,
+    .moves = {MOVE_CONFUSE_RAY, MOVE_AIR_CUTTER, MOVE_SWIFT, MOVE_POISON_FANG}
     }
 };
 
 static const struct TrainerMon sParty_GruntMuseum2[] = {
     {
+    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
     .lvl = 14,
-    .species = SPECIES_ZUBAT,
+    .ability = ABILITY_STENCH,
+    .species = SPECIES_GRIMER,
+    .moves = {MOVE_POISON_GAS, MOVE_DISABLE, MOVE_SLUDGE, MOVE_MUD_BOMB}
     },
     {
+    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
+    .lvl = 14,
+    .species = SPECIES_GOLBAT,
+    .moves = {MOVE_CONFUSE_RAY, MOVE_AIR_CUTTER, MOVE_SWIFT, MOVE_POISON_FANG}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
     .lvl = 14,
     .species = SPECIES_CARVANHA,
+    .moves = {MOVE_AQUA_JET, MOVE_ASSURANCE, MOVE_SCREECH, MOVE_SWAGGER}
     }
 };
 
@@ -8369,7 +8388,9 @@ static const struct TrainerMon sParty_WallyMauville[] = {
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
     .lvl = 16,
+    .ability = ABILITY_ADAPTABILITY,
     .species = SPECIES_EEVEE,
+    .moves = {MOVE_QUICK_ATTACK, MOVE_BITE, MOVE_SWIFT, MOVE_REFRESH}
     }
 };
 
