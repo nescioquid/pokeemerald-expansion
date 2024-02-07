@@ -732,3 +732,9 @@ script Pory_EventScript_GiveEgg {
     case 1: giveegg(SPECIES_WYNAUT)
   }
 }
+
+// replaces mention of the Zigzagoon Wally borrows from Norman with a Chansey
+
+text PetalburgCity_Gym_Text_IllLoanYouMyChansey_Pory {
+  format("Wally, here, I'll loan you my Pokémon.\pWally received a Chansey!")
+}
