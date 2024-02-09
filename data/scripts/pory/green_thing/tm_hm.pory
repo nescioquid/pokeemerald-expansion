@@ -432,9 +432,9 @@ script Pory_EventScript_ItemTMTaunt {
   end
 }
 
-// TM032 Double Team
-script Pory_EventScript_ItemTMDoubleTeam {
-  finditem(ITEM_TM_DOUBLE_TEAM)
+// TM032 Double Team => Skill Swap
+script Pory_EventScript_ItemTMSkillSwap {
+  finditem(ITEM_TM_SKILL_SWAP)
   end
 }
 

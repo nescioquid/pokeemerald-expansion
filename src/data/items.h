@@ -7519,7 +7519,7 @@ const struct Item gItems[] =
         .secondaryId = MOVE_BRICK_BREAK,
     },
 
-    [ITEM_TM_DOUBLE_TEAM] =
+    [ITEM_TM_SKILL_SWAP] =
     {
         .name = _("TM032"),
         .price = 10000,
@@ -7528,7 +7528,7 @@ const struct Item gItems[] =
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_DOUBLE_TEAM,
+        .secondaryId = MOVE_SKILL_SWAP,
     },
 
     [ITEM_TM_REFLECT] =
