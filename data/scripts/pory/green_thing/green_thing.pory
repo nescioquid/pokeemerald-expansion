@@ -627,20 +627,20 @@ script LavaridgeTown_HerbShop_EventScript_OldMan_Pory {
 }
 
 // Miracle Seed => Balm Mushroom
-script PetalburgWoods_EventScript_Girl_Pory {
-  lock
-  faceplayer
-  if (!flag(FLAG_RECEIVED_BALM_MUSHROOM)) {
-    msgbox(format("Oh, neat!\nThat's the Badge from Rustboro Gym!\pYou must be a Trainer.\nI want you to have this."))
-    giveitem(ITEM_BALM_MUSHROOM)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-    setflag(FLAG_RECEIVED_BALM_MUSHROOM)
-  } else {
-    msgbox(format("It's a Balm Mushroom.\nSome people really love eating them, and would trade anything to have some.\pBesides those, there's all kinds of fun stuff hiding around on the groud, you just have to know where to look."))
-  }
-  release
-  end
-}
+// script PetalburgWoods_EventScript_Girl_Pory {
+//   lock
+//   faceplayer
+//   if (!flag(FLAG_RECEIVED_BALM_MUSHROOM)) {
+//     msgbox(format("Oh, neat!\nThat's the Badge from Rustboro Gym!\pYou must be a Trainer.\nI want you to have this."))
+//     giveitem(ITEM_BALM_MUSHROOM)
+//     goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+//     setflag(FLAG_RECEIVED_BALM_MUSHROOM)
+//   } else {
+//     msgbox(format("It's a Balm Mushroom.\nSome people really love eating them, and would trade anything to have some.\pBesides those, there's all kinds of fun stuff hiding around on the groud, you just have to know where to look."))
+//   }
+//   release
+//   end
+// }
 
 // TM19 Giga Drain => Big Root
 script Pory_EventScript_GiveBigRoot {

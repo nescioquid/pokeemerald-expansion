@@ -1,0 +1,49 @@
+// Miracle Seed => Balm Mushroom
+// Balm Mushroom => Experience Charm
+script PetalburgWoods_EventScript_Girl_Pory {
+  lock
+  faceplayer
+  // if (!flag(FLAG_RECEIVED_BALM_MUSHROOM)) {
+  if (!flag(FLAG_RECEIVED_EXP_CHARM)) {
+    msgbox(format("Oh, neat!\nThat's the Badge from Rustboro Gym!\pYou must be a Trainer.\nI want you to have this!"))
+    // giveitem(ITEM_BALM_MUSHROOM)
+    giveitem(ITEM_EXP_CHARM)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    // msgbox(format("It's a Balm Mushroom.\nSome people really love eating them, and would trade anything to have some.\pBesides those, there's all kinds of fun stuff hiding around on the groud, you just have to know where to look."))
+    msgbox(format("That's an Experience Charm.\nIt helps your Pokémon grow big and strong a lot faster. I'm sure a Trainer like you can make better use of it than me."))
+    // setflag(FLAG_RECEIVED_BALM_MUSHROOM)
+    setflag(FLAG_RECEIVED_EXP_CHARM)
+  } else {
+    msgbox(format("So, are your Pokémon growing big and strong?"))
+  }
+  release
+  end
+}
+
+// White Herb NPC now also heals your mons
+script Route104_EventScript_WhiteHerbFlorist_Pory {
+  lock
+  faceplayer
+  if (!flag(FLAG_TEMP_1)) {
+    msgbox(format("This Flower Shop started selling saplings recently.\pIt made me so happy, I went overboard shopping.\pI don't need so many of these berries, could I heal your Pokémon with some of them please?"), MSGBOX_YESNO)
+    call(Route104_EventScript_WhiteHerbFlorist_HealMons_Pory)
+    setflag(FLAG_TEMP_1)
+    release
+    end
+  }
+  msgbox(format("Hey there! I still have too many berries, can I heal your Pokémon for you again?"), MSGBOX_YESNO)
+  call(Route104_EventScript_WhiteHerbFlorist_HealMons_Pory)
+  release
+  end
+}
+
+script Route104_EventScript_WhiteHerbFlorist_HealMons_Pory {
+  if (var(VAR_RESULT)) {
+    msgbox(format("Oh, thank you so much!"))
+    closemessage
+    call(Common_EventScript_OutOfCenterPartyHeal)
+    msgbox(format("All healed up!\nThere's lots of icky bugs in Petalburg Woods, so make sure your Pokémon stay healthy!"))
+  } else {
+    msgbox(format("Well, what am I gonna do with all these berries then?"))
+  }
+}
