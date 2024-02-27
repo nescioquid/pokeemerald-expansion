@@ -725,13 +725,13 @@ text MatchCall_Text_Wally5_Pory {
 
 // changes the egg given in Lavaridge to include other possible mons
 
-script Pory_EventScript_GiveEgg {
-  random(2)
-  switch (var(VAR_RESULT)) {
-    case 0: giveegg(SPECIES_TOGEPI)
-    case 1: giveegg(SPECIES_WYNAUT)
-  }
-}
+// script Pory_EventScript_GiveEgg {
+//   random(2)
+//   switch (var(VAR_RESULT)) {
+//     case 0: giveegg(SPECIES_TOGEPI)
+//     case 1: giveegg(SPECIES_WYNAUT)
+//   }
+// }
 
 // replaces mention of the Zigzagoon Wally borrows from Norman with a Chansey
 
