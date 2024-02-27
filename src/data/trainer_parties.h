@@ -4198,11 +4198,11 @@ static const struct TrainerMon sParty_Allen[] = {
 static const struct TrainerMon sParty_Timmy[] = {
     {
     .lvl = 15,
-    .species = SPECIES_DIGLETT,
+    .species = SPECIES_FARFETCHD,
     },
     {
     .lvl = 13,
-    .species = SPECIES_MANKEY,
+    .species = SPECIES_LICKITUNG,
     }
 };
 
