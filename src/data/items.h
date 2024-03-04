@@ -6525,10 +6525,13 @@ const struct Item gItems[] =
     {
         .name = _("Nanab Berry"),
         .price = 20,
+        .holdEffect = HOLD_EFFECT_RESTORE_HP,
+        .holdEffectParam = 50,
         .description = sNanabBerryDesc,
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = EFFECT_ITEM_RESTORE_HP,
         .flingPower = 10,
     },
 
@@ -6547,10 +6550,13 @@ const struct Item gItems[] =
     {
         .name = _("Pinap Berry"),
         .price = 20,
+        .holdEffect = HOLD_EFFECT_RESTORE_HP,
+        .holdEffectParam = 50,
         .description = sPinapBerryDesc,
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .battleUsage = EFFECT_ITEM_RESTORE_HP,
         .flingPower = 10,
     },
 
@@ -6657,13 +6663,10 @@ const struct Item gItems[] =
     {
         .name = _("Nomel Berry"),
         .price = 20,
-        .holdEffect = HOLD_EFFECT_RESTORE_HP,
-        .holdEffectParam = 50,
         .description = sNomelBerryDesc,
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
-        .battleUsage = EFFECT_ITEM_RESTORE_HP,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 10,
     },
 
@@ -6693,13 +6696,10 @@ const struct Item gItems[] =
     {
         .name = _("Watmel Berry"),
         .price = 20,
-        .holdEffect = HOLD_EFFECT_RESTORE_HP,
-        .holdEffectParam = 70,
         .description = sWatmelBerryDesc,
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
-        .battleUsage = EFFECT_ITEM_RESTORE_HP,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 10,
     },
 

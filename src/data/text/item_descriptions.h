@@ -2776,9 +2776,9 @@ static const u8 sBlukBerryDesc[] = _(
     "to grow Bluk.");
 
 static const u8 sNanabBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow Nanab.");
+    "A hold item that\n"
+    "restores 50 HP in\n"
+    "battle.");
 
 static const u8 sWepearBerryDesc[] = _(
     "{POKEBLOCK} ingredient.\n"
@@ -2786,9 +2786,9 @@ static const u8 sWepearBerryDesc[] = _(
     "to grow Wepear.");
 
 static const u8 sPinapBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow Pinap.");
+    "A hold item that\n"
+    "restores 70 HP in\n"
+    "battle.");
 
 static const u8 sPomegBerryDesc[] = _(
     "Makes a Pokémon\n"
@@ -2836,9 +2836,9 @@ static const u8 sRabutaBerryDesc[] = _(
     "to grow Rabuta.");
 
 static const u8 sNomelBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 50 HP in\n"
-    "battle.");
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow Nomel.");
 
 static const u8 sSpelonBerryDesc[] = _(
     "{POKEBLOCK} ingredient.\n"
@@ -2851,9 +2851,9 @@ static const u8 sPamtreBerryDesc[] = _(
     "to grow Pamtre.");
 
 static const u8 sWatmelBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 70 HP in\n"
-    "battle.");
+    "{POKEBLOCK} ingredient.\n"
+    "Plant in loamy soil\n"
+    "to grow Watmel.");
 
 static const u8 sDurinBerryDesc[] = _(
     "{POKEBLOCK} ingredient.\n"
