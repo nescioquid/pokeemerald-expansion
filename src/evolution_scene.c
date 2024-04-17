@@ -986,22 +986,12 @@ static void Task_EvolutionScene(u8 taskId)
                 {
                     // Selected move to forget
                     u16 move = GetMonData(mon, var + MON_DATA_MOVE1);
-                    if (IsMoveHM(move))
-                    {
-                        // Can't forget HMs
-                        BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_HMMOVESCANTBEFORGOTTEN - BATTLESTRINGS_TABLE_START]);
-                        BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
-                        gTasks[taskId].tLearnMoveState = MVSTATE_RETRY_AFTER_HM;
-                    }
-                    else
-                    {
-                        // Forget move
-                        PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
+                    // Forget move
+                    PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
 
-                        RemoveMonPPBonus(mon, var);
-                        SetMonMoveSlot(mon, gMoveToLearn, var);
-                        gTasks[taskId].tLearnMoveState++;
-                    }
+                    RemoveMonPPBonus(mon, var);
+                    SetMonMoveSlot(mon, gMoveToLearn, var);
+                    gTasks[taskId].tLearnMoveState++;
                 }
             }
             break;
