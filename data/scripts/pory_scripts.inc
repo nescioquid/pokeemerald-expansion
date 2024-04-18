@@ -5,3 +5,4 @@
 
 .include "data/scripts/pory_scripts/maps/FallarborTown.inc"
 .include "data/scripts/pory_scripts/maps/FallarborTown_MoveRelearnersHouse.inc"
+.include "data/scripts/pory_scripts/maps/MtChimney.inc"
