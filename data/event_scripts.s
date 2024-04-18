@@ -1072,3 +1072,4 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+.include "data/scripts/pory/quality_of_life/move_reminder.inc"
