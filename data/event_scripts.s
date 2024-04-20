@@ -1077,3 +1077,4 @@ EventScript_VsSeekerChargingDone::
 .include "data/scripts/pory/green_thing/tm_hm.inc"
 .include "data/scripts/pory/green_thing/random_item.inc"
 .include "data/scripts/pory/feat/feat.inc"
+.include "data/scripts/pory/feat/meta_boy_boss_mode.inc"

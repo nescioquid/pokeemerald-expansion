@@ -1,0 +1,10 @@
+// adds a Meta Boy boss battle in Mossdeep
+
+script Pory_EventScript_MetaBoy_BossMode {
+  lock
+  faceplayer
+  trainerbattle_single(TRAINER_META_BOY, format("Hey, I remember you! Thanks to you I not only finished my mod of Pokémon Emerald for the Game Boy Advance, but was able to catch and train some way cooler Pokémon than that lame one I ditched you with back in Dewford. Wanna see?"), format("Hey, you actually beat me!"))
+  msgbox(format("Nice battling! I guess you're that much more powerful than the guy that literally made the game you're playing!"), MSGBOX_AUTOCLOSE)
+  release
+  end
+}

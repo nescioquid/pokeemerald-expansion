@@ -11885,7 +11885,15 @@ static const struct TrainerMon sParty_MayLinkPlaceholder[] = {
 
 static const struct TrainerMon sParty_MetaBoy[] = {
     {
-    .lvl = 89,
-    .species = SPECIES_MAGIKARP,
-    }
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 90,
+    .species = SPECIES_MEW,
+    .moves = {MOVE_PSYCHIC, MOVE_MEGA_PUNCH, MOVE_AURA_SPHERE, MOVE_ANCIENT_POWER}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 90,
+    .species = SPECIES_MEWTWO,
+    .moves = {MOVE_PSYCHIC, MOVE_PSYSTRIKE, MOVE_AURA_SPHERE, MOVE_RECOVER}
+    },
 };
