@@ -7566,7 +7566,7 @@ static u32 GetTrainerMoneyToGive(u16 trainerId)
             moneyReward = 4 * lastMonLevel * gBattleStruct->moneyMultiplier * trainerMoney;
     }
 
-    return moneyReward;
+    return moneyReward / 2;
 }
 
 static void Cmd_getmoneyreward(void)
@@ -9027,7 +9027,7 @@ static void Cmd_various(void)
     {
         VARIOUS_ARGS(const u8 *failInstr);
         bits = 0;
-        for (i = STAT_ATK; i < NUM_BATTLE_STATS; i++)
+        for (i = STAT_ATK; i < NUM_STATS; i++)
         {
             if (CompareStat(battler, i, MAX_STAT_STAGE, CMP_LESS_THAN))
                 bits |= gBitTable[i];
@@ -9037,7 +9037,7 @@ static void Cmd_various(void)
             u32 statId;
             do
             {
-                statId = (Random() % (NUM_BATTLE_STATS - 1)) + 1;
+                statId = (Random() % (NUM_STATS - 1)) + 1;
             } while (!(bits & gBitTable[statId]));
 
             SET_STATCHANGER(statId, 2, FALSE);
@@ -15133,7 +15133,7 @@ static void Cmd_handleballthrow(void)
         else
             catchRate = catchRate + ballAddition;
 
-        odds = (catchRate * ballMultiplier / 100)
+        odds = (catchRate * ballMultiplier / 75)
             * (gBattleMons[gBattlerTarget].maxHP * 3 - gBattleMons[gBattlerTarget].hp * 2)
             / (3 * gBattleMons[gBattlerTarget].maxHP);
 
