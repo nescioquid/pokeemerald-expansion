@@ -1112,3 +1112,5 @@ EventScript_VsSeekerChargingDone::
 .include "data/scripts/pory/gt/capt_stern.inc"
 .include "data/scripts/pory/gt/meta_boy.inc"
 .include "data/scripts/pory/gt/champion.inc"
+.include "data/maps/Route104North/scripts.inc"
+.include "data/maps/Route104South/scripts.inc"
