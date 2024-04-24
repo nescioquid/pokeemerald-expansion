@@ -9055,19 +9055,19 @@ static const struct TrainerMon sParty_LisaAndRay[] = {
 static const struct TrainerMon sParty_Chris[] = {
     {
     .lvl = 29,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_POLIWHIRL,
     },
     {
     .lvl = 20,
-    .species = SPECIES_TENTACOOL,
+    .species = SPECIES_SEAKING,
     },
     {
     .lvl = 26,
-    .species = SPECIES_KRABBY,
+    .species = SPECIES_SEAKING,
     },
     {
     .lvl = 23,
-    .species = SPECIES_REMORAID,
+    .species = SPECIES_WHISCASH,
     }
 };
 
