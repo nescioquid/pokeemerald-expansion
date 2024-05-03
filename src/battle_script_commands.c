@@ -1064,7 +1064,7 @@ static const struct PickupItem sPickupTable[] =
     { ITEM_BIG_BAMBOO_SHOOT,  {   9,  14,  10,   _,   _,   _,   _,   _,   _,   _, } },
     { ITEM_STARDUST,          {   8,   9,  10,   _,   _,   _,   _,   _,   _,   _, } },
     { ITEM_BIG_MUSHROOM,      {   9,  14,  10,   _,   _,   _,   _,   _,   _,   _, } },
-    { ITEM_FLUFFY_TAIL,       {   8,  10,   9,  20,   _,   _,   _,   _,   _,   _, } },
+    { ITEM_POKE_DOLL,         {   8,  10,   9,  20,   _,   _,   _,   _,   _,   _, } },
     { ITEM_STICKY_BARB,       {   3,  10,   9,   _,   _,   _,   _,   _,   _,   _, } },
     { ITEM_ENERGY_POWDER,     {   3,  10,   9,   9,  16,   _,   _,   _,   _,   _, } },
     { ITEM_HEAL_POWDER,       {   3,   3,   9,   8,   9,  16,   _,   _,   _,   _, } },
