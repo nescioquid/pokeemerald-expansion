@@ -3242,9 +3242,9 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 10,
-    .ability = ABILITY_LIGHTNING_ROD,
+    .ability = ABILITY_ROCK_HEAD,
     .species = SPECIES_RHYHORN,
-    .moves = {MOVE_TAIL_WHIP, MOVE_BULLDOZE, MOVE_POISON_JAB, MOVE_ROCK_TOMB}
+    .moves = {MOVE_TAIL_WHIP, MOVE_BULLDOZE, MOVE_ICE_FANG, MOVE_ROCK_TOMB}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -3265,7 +3265,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .lvl = 10,
     .ability = ABILITY_STURDY,
     .species = SPECIES_SUDOWOODO,
-    .heldItem = ITEM_NANAB_BERRY,
+    .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_BLOCK, MOVE_LOW_KICK, MOVE_WOOD_HAMMER, MOVE_ROCK_TOMB}
     }
 };
@@ -3276,29 +3276,32 @@ static const struct TrainerMon sParty_Brawly1[] = {
     .lvl = 15,
     .ability = ABILITY_VITAL_SPIRIT,
     .species = SPECIES_PRIMEAPE,
-    .moves = {MOVE_THIEF, MOVE_KARATE_CHOP, MOVE_U_TURN, MOVE_THUNDER_PUNCH}
+    .heldItem = ITEM_LUM_BERRY,
+    .moves = {MOVE_KARATE_CHOP, MOVE_SCREECH, MOVE_STONE_EDGE, MOVE_U_TURN}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 15,
     .ability = ABILITY_NO_GUARD,
     .species = SPECIES_MACHOKE,
-    .moves = {MOVE_DYNAMIC_PUNCH, MOVE_STONE_EDGE, MOVE_KNOCK_OFF, MOVE_BULK_UP}
+    .heldItem = ITEM_LUM_BERRY,
+    .moves = {MOVE_REVENGE, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_BULK_UP}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 15,
     .ability = ABILITY_EFFECT_SPORE,
     .species = SPECIES_BRELOOM,
-    .moves = {MOVE_MACH_PUNCH, MOVE_MEGA_DRAIN, MOVE_ROCK_SLIDE, MOVE_BULK_UP}
+    .heldItem = ITEM_LUM_BERRY,
+    .moves = {MOVE_MACH_PUNCH, MOVE_LEECH_SEED, MOVE_MEGA_DRAIN, MOVE_STONE_EDGE}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 15,
     .ability = ABILITY_TECHNICIAN,
     .species = SPECIES_HITMONTOP,
-    .heldItem = ITEM_PINAP_BERRY,
-    .moves = {MOVE_PURSUIT, MOVE_TRIPLE_KICK, MOVE_COUNTER, MOVE_BULK_UP}
+    .heldItem = ITEM_LUM_BERRY,
+    .moves = {MOVE_TRIPLE_KICK, MOVE_COUNTER, MOVE_STONE_EDGE, MOVE_BULK_UP}
     },
 };
 
