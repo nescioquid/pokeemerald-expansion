@@ -7527,34 +7527,50 @@ static const struct TrainerMon sParty_Macey[] = {
 static const struct TrainerMon sParty_BrendanRustboroTreecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
     .species = SPECIES_FEAROW,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_AERIAL_ACE, MOVE_PURSUIT}
+    .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_PURSUIT, MOVE_AGILITY}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINO,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = {MOVE_DOUBLE_KICK, MOVE_POISON_STING, MOVE_HORN_ATTACK, MOVE_SHADOW_CLAW}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
     .species = SPECIES_COMBUSKEN,
     .heldItem = ITEM_ORAN_BERRY,
-    .moves = {MOVE_DOUBLE_KICK, MOVE_FLAME_CHARGE, MOVE_QUICK_ATTACK, MOVE_BULK_UP}
+    .moves = {MOVE_DOUBLE_KICK, MOVE_FLAME_CHARGE, MOVE_QUICK_ATTACK, MOVE_ROCK_SLIDE}
     }
 };
 
 static const struct TrainerMon sParty_BrendanRustboroMudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
     .species = SPECIES_FEAROW,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_AERIAL_ACE, MOVE_PURSUIT}
+    .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_PURSUIT, MOVE_AGILITY}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINO,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = {MOVE_DOUBLE_KICK, MOVE_POISON_STING, MOVE_HORN_ATTACK, MOVE_SHADOW_CLAW}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
     .species = SPECIES_GROVYLE,
     .heldItem = ITEM_ORAN_BERRY,
-    .moves = {MOVE_QUICK_ATTACK, MOVE_MEGA_DRAIN, MOVE_FURY_CUTTER, MOVE_PURSUIT}
+    .moves = {MOVE_QUICK_ATTACK, MOVE_PURSUIT, MOVE_LEAF_BLADE, MOVE_ROCK_SLIDE}
     }
 };
 
@@ -7629,14 +7645,22 @@ static const struct TrainerMon sParty_Jonathan[] = {
 static const struct TrainerMon sParty_BrendanRustboroTorchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
     .species = SPECIES_FEAROW,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_AERIAL_ACE, MOVE_PURSUIT}
+    .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_PURSUIT, MOVE_AGILITY}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINO,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = {MOVE_DOUBLE_KICK, MOVE_POISON_STING, MOVE_HORN_ATTACK, MOVE_SHADOW_CLAW}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
     .species = SPECIES_MARSHTOMP,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_WATER_GUN, MOVE_MUD_SLAP, MOVE_MUD_SHOT, MOVE_ROCK_SLIDE}
@@ -7646,17 +7670,25 @@ static const struct TrainerMon sParty_BrendanRustboroTorchic[] = {
 static const struct TrainerMon sParty_MayRustboroMudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
     .species = SPECIES_DODRIO,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACUPRESSURE, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_PURSUIT}
+    .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_ACUPRESSURE}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINA,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = {MOVE_DOUBLE_KICK, MOVE_POISON_STING, MOVE_BITE, MOVE_SHADOW_CLAW}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
     .species = SPECIES_GROVYLE,
     .heldItem = ITEM_ORAN_BERRY,
-    .moves = {MOVE_QUICK_ATTACK, MOVE_MEGA_DRAIN, MOVE_FURY_CUTTER, MOVE_PURSUIT}
+    .moves = {MOVE_QUICK_ATTACK, MOVE_PURSUIT, MOVE_LEAF_BLADE, MOVE_ROCK_SLIDE}
     }
 };
 
@@ -9892,31 +9924,47 @@ static const struct TrainerMon sParty_Cristin1[] = {
 static const struct TrainerMon sParty_MayRustboroTreecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
     .species = SPECIES_DODRIO,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACUPRESSURE, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_PURSUIT}
+    .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_ACUPRESSURE}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINA,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = {MOVE_DOUBLE_KICK, MOVE_POISON_STING, MOVE_BITE, MOVE_SHADOW_CLAW}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
     .species = SPECIES_COMBUSKEN,
     .heldItem = ITEM_ORAN_BERRY,
-    .moves = {MOVE_DOUBLE_KICK, MOVE_FLAME_CHARGE, MOVE_QUICK_ATTACK, MOVE_BULK_UP}
+    .moves = {MOVE_DOUBLE_KICK, MOVE_FLAME_CHARGE, MOVE_QUICK_ATTACK, MOVE_ROCK_SLIDE}
     }
 };
 
 static const struct TrainerMon sParty_MayRustboroTorchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
     .species = SPECIES_DODRIO,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACUPRESSURE, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_PURSUIT}
+    .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_ACUPRESSURE}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 15,
+    .lvl = 10,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINA,
+    .heldItem = ITEM_ORAN_BERRY,
+    .moves = {MOVE_DOUBLE_KICK, MOVE_POISON_STING, MOVE_BITE, MOVE_SHADOW_CLAW}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
     .species = SPECIES_MARSHTOMP,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_WATER_GUN, MOVE_MUD_SLAP, MOVE_MUD_SHOT, MOVE_ROCK_SLIDE}
