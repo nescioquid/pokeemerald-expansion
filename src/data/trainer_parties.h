@@ -87,11 +87,25 @@ static const struct TrainerMon sParty_Gabrielle1[] = {
 
 static const struct TrainerMon sParty_GruntPetalburgWoods[] = {
     {
-    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
-    .lvl = 9,
-    .ability = ABILITY_QUICK_FEET,
-    .species = SPECIES_POOCHYENA,
-    .moves = {MOVE_HOWL, MOVE_BITE, MOVE_ROAR, MOVE_SWAGGER}
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
+    .ability = ABILITY_INTIMIDATE,
+    .species = SPECIES_MIGHTYENA,
+    .moves = {MOVE_HOWL, MOVE_BITE, MOVE_ROAR, MOVE_FIRE_FANG}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
+    .ability = ABILITY_STENCH,
+    .species = SPECIES_GRIMER,
+    .moves = {MOVE_DISABLE, MOVE_MUD_BOMB, MOVE_SLUDGE_BOMB, MOVE_SHADOW_SNEAK}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
+    .ability = ABILITY_INNER_FOCUS,
+    .species = SPECIES_GOLBAT,
+    .moves = {MOVE_LEECH_LIFE, MOVE_WING_ATTACK, MOVE_CONFUSE_RAY, MOVE_POISON_FANG}
     }
 };
 
@@ -150,18 +164,25 @@ static const struct TrainerMon sParty_Declan[] = {
 
 static const struct TrainerMon sParty_GruntRusturfTunnel[] = {
     {
-    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
-    .lvl = 15,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_HOWL, MOVE_CRUNCH, MOVE_DIG, MOVE_SWAGGER}
+    .moves = {MOVE_HOWL, MOVE_BITE, MOVE_ROAR, MOVE_FIRE_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
-    .lvl = 15,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
     .ability = ABILITY_STENCH,
     .species = SPECIES_GRIMER,
-    .moves = {MOVE_POISON_GAS, MOVE_DISABLE, MOVE_SLUDGE_BOMB, MOVE_MUD_BOMB}
+    .moves = {MOVE_DISABLE, MOVE_MUD_BOMB, MOVE_SLUDGE_BOMB, MOVE_SHADOW_SNEAK}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
+    .ability = ABILITY_INNER_FOCUS,
+    .species = SPECIES_GOLBAT,
+    .moves = {MOVE_LEECH_LIFE, MOVE_WING_ATTACK, MOVE_CONFUSE_RAY, MOVE_POISON_FANG}
     }
 };
 
