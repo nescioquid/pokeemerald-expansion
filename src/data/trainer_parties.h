@@ -91,21 +91,21 @@ static const struct TrainerMon sParty_GruntPetalburgWoods[] = {
     .lvl = 10,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_HOWL, MOVE_BITE, MOVE_ROAR, MOVE_FIRE_FANG}
+    .moves = {MOVE_BITE, MOVE_SWAGGER, MOVE_SCARY_FACE, MOVE_FIRE_FANG}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 10,
     .ability = ABILITY_STENCH,
     .species = SPECIES_GRIMER,
-    .moves = {MOVE_DISABLE, MOVE_MUD_BOMB, MOVE_SLUDGE_BOMB, MOVE_SHADOW_SNEAK}
+    .moves = {MOVE_DISABLE, MOVE_MUD_BOMB, MOVE_SLUDGE_BOMB, MOVE_SHADOW_PUNCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 10,
     .ability = ABILITY_INNER_FOCUS,
     .species = SPECIES_GOLBAT,
-    .moves = {MOVE_LEECH_LIFE, MOVE_WING_ATTACK, MOVE_CONFUSE_RAY, MOVE_POISON_FANG}
+    .moves = {MOVE_BITE, MOVE_WING_ATTACK, MOVE_CONFUSE_RAY, MOVE_POISON_FANG}
     }
 };
 
@@ -168,21 +168,28 @@ static const struct TrainerMon sParty_GruntRusturfTunnel[] = {
     .lvl = 10,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_HOWL, MOVE_BITE, MOVE_ROAR, MOVE_FIRE_FANG}
+    .moves = {MOVE_BITE, MOVE_SWAGGER, MOVE_SCARY_FACE, MOVE_FIRE_FANG}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 10,
     .ability = ABILITY_STENCH,
     .species = SPECIES_GRIMER,
-    .moves = {MOVE_DISABLE, MOVE_MUD_BOMB, MOVE_SLUDGE_BOMB, MOVE_SHADOW_SNEAK}
+    .moves = {MOVE_DISABLE, MOVE_MUD_BOMB, MOVE_SLUDGE_BOMB, MOVE_SHADOW_PUNCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 10,
     .ability = ABILITY_INNER_FOCUS,
     .species = SPECIES_GOLBAT,
-    .moves = {MOVE_LEECH_LIFE, MOVE_WING_ATTACK, MOVE_CONFUSE_RAY, MOVE_POISON_FANG}
+    .moves = {MOVE_BITE, MOVE_WING_ATTACK, MOVE_CONFUSE_RAY, MOVE_POISON_FANG}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 10,
+    .ability = ABILITY_ROUGH_SKIN,
+    .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_BITE, MOVE_SWAGGER, MOVE_ICE_FANG, MOVE_SCARY_FACE}
     }
 };
 
