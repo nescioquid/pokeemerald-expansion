@@ -8502,11 +8502,11 @@ static const struct TrainerMon sParty_Ashley[] = {
 
 static const struct TrainerMon sParty_WallyMauville[] = {
     {
-    .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 16,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 20,
     .ability = ABILITY_ADAPTABILITY,
     .species = SPECIES_EEVEE,
-    .moves = {MOVE_QUICK_ATTACK, MOVE_BITE, MOVE_SWIFT, MOVE_REFRESH}
+    .moves = {MOVE_QUICK_ATTACK, MOVE_REFRESH, MOVE_CHARM, MOVE_DOUBLE_EDGE}
     }
 };
 
