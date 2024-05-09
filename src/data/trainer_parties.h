@@ -7726,29 +7726,32 @@ static const struct TrainerMon sParty_GruntWeatherInst5[] = {
 
 static const struct TrainerMon sParty_TabithaMtChimney[] = {
     {
-    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
-    .lvl = 18,
-    .species = SPECIES_NUMEL,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 25,
+    .ability = ABILITY_INTIMIDATE,
+    .species = SPECIES_MIGHTYENA,
+    .moves = {MOVE_SAND_ATTACK, MOVE_SWAGGER, MOVE_ASSURANCE, MOVE_TAUNT}
     },
     {
-    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
-    .lvl = 20,
-    .ability = ABILITY_QUICK_FEET,
-    .species = SPECIES_POOCHYENA,
-    .moves = {MOVE_SCARY_FACE, MOVE_ASSURANCE, MOVE_SWAGGER, MOVE_COUNTER}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
-    .lvl = 22,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 25,
     .ability = ABILITY_NEUTRALIZING_GAS,
     .species = SPECIES_KOFFING,
     .moves = {MOVE_SLUDGE, MOVE_SMOKESCREEN, MOVE_FLAMETHROWER, MOVE_SELF_DESTRUCT}
     },
     {
-    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
-    .lvl = 22,
-    .species = SPECIES_ZUBAT,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 25,
+    .ability = ABILITY_INNER_FOCUS,
+    .species = SPECIES_GOLBAT,
     .moves = {MOVE_POISON_FANG, MOVE_ASTONISH, MOVE_CONFUSE_RAY, MOVE_WING_ATTACK}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 25,
+    .ability = ABILITY_WHITE_SMOKE,
+    .species = SPECIES_TORKOAL,
+    .moves = {MOVE_SMOKESCREEN, MOVE_CURSE, MOVE_HEAT_WAVE, MOVE_GYRO_BALL}
     }
 };
 
@@ -7842,31 +7845,32 @@ static const struct TrainerMon sParty_MaxieMagmaHideout[] = {
 
 static const struct TrainerMon sParty_MaxieMtChimney[] = {
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 24,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 25,
+    .ability = ABILITY_INNER_FOCUS,
+    .species = SPECIES_CROBAT,
+    .moves = {MOVE_CONFUSE_RAY, MOVE_ACROBATICS, MOVE_VENOSHOCK, MOVE_U_TURN}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 25,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_SNARL, MOVE_CRUNCH, MOVE_SWAGGER, MOVE_FIRE_FANG}
+    .moves = {MOVE_SNARL, MOVE_SWAGGER, MOVE_CRUNCH, MOVE_FIRE_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 24,
-    .species = SPECIES_GOLBAT,
-    .moves = {MOVE_MEAN_LOOK, MOVE_TOXIC, MOVE_CONFUSE_RAY, MOVE_AIR_CUTTER}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 25,
     .ability = ABILITY_NEUTRALIZING_GAS,
     .species = SPECIES_WEEZING,
-    .moves = {MOVE_SLUDGE_BOMB, MOVE_SMOKESCREEN, MOVE_SHADOW_BALL, MOVE_SELF_DESTRUCT}
+    .moves = {MOVE_SMOKESCREEN, MOVE_SLUDGE_BOMB, MOVE_SELF_DESTRUCT, MOVE_SHADOW_BALL}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 25,
     .ability = ABILITY_SOLID_ROCK,
     .species = SPECIES_CAMERUPT,
-    .moves = {MOVE_EARTH_POWER, MOVE_LAVA_PLUME, MOVE_FISSURE, MOVE_ROAR}
+    .moves = {MOVE_MAGNITUDE, MOVE_ROCK_SLIDE, MOVE_YAWN, MOVE_FLAME_CHARGE}
     }
 };
 
