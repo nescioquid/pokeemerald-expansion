@@ -4121,6 +4121,10 @@ static const struct TrainerMon sParty_Joey[] = {
     {
     .lvl = 9,
     .species = SPECIES_MACHOP,
+    },
+    {
+    .lvl = 9,
+    .species = SPECIES_RATTATA,
     }
 };
 
@@ -9868,11 +9872,11 @@ static const struct TrainerMon sParty_Devan[] = {
 static const struct TrainerMon sParty_Johnson[] = {
     {
     .lvl = 8,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_EKANS,
     },
     {
     .lvl = 8,
-    .species = SPECIES_EKANS,
+    .species = SPECIES_SANDSHREW,
     }
 };
 
