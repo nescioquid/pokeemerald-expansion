@@ -91,7 +91,7 @@ static const struct TrainerMon sParty_GruntPetalburgWoods[] = {
     .lvl = 10,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_BITE, MOVE_SWAGGER, MOVE_SCARY_FACE, MOVE_FIRE_FANG}
+    .moves = {MOVE_BITE, MOVE_SNARL, MOVE_SCARY_FACE, MOVE_FIRE_FANG}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -168,7 +168,7 @@ static const struct TrainerMon sParty_GruntRusturfTunnel[] = {
     .lvl = 10,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_BITE, MOVE_SWAGGER, MOVE_SCARY_FACE, MOVE_FIRE_FANG}
+    .moves = {MOVE_BITE, MOVE_SNARL, MOVE_SCARY_FACE, MOVE_FIRE_FANG}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -189,7 +189,7 @@ static const struct TrainerMon sParty_GruntRusturfTunnel[] = {
     .lvl = 10,
     .ability = ABILITY_ROUGH_SKIN,
     .species = SPECIES_SHARPEDO,
-    .moves = {MOVE_BITE, MOVE_SWAGGER, MOVE_ICE_FANG, MOVE_SCARY_FACE}
+    .moves = {MOVE_BITE, MOVE_SCREECH, MOVE_ICE_FANG, MOVE_SCARY_FACE}
     }
 };
 
