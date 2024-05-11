@@ -3287,7 +3287,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     .ability = ABILITY_VITAL_SPIRIT,
     .species = SPECIES_PRIMEAPE,
     .heldItem = ITEM_LUM_BERRY,
-    .moves = {MOVE_FOCUS_ENERGY, MOVE_KARATE_CHOP, MOVE_STONE_EDGE, MOVE_U_TURN}
+    .moves = {MOVE_KARATE_CHOP, MOVE_SCREECH, MOVE_SMACK_DOWN, MOVE_U_TURN}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -3295,7 +3295,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     .ability = ABILITY_GUTS,
     .species = SPECIES_MACHOKE,
     .heldItem = ITEM_LUM_BERRY,
-    .moves = {MOVE_FOCUS_ENERGY, MOVE_KARATE_CHOP, MOVE_STONE_EDGE, MOVE_BULK_UP}
+    .moves = {MOVE_FOCUS_ENERGY, MOVE_KARATE_CHOP, MOVE_BULK_UP, MOVE_STONE_EDGE}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -3311,7 +3311,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     .ability = ABILITY_TECHNICIAN,
     .species = SPECIES_HITMONTOP,
     .heldItem = ITEM_LUM_BERRY,
-    .moves = {MOVE_TRIPLE_KICK, MOVE_COUNTER, MOVE_STONE_EDGE, MOVE_BULK_UP}
+    .moves = {MOVE_TRIPLE_KICK, MOVE_COUNTER, MOVE_BULK_UP, MOVE_ROCK_SLIDE}
     },
 };
 
