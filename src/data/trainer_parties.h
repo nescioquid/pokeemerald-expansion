@@ -87,21 +87,21 @@ static const struct TrainerMon sParty_Gabrielle1[] = {
 
 static const struct TrainerMon sParty_GruntPetalburgWoods[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
     .moves = {MOVE_BITE, MOVE_SNARL, MOVE_SCARY_FACE, MOVE_FIRE_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_STENCH,
     .species = SPECIES_GRIMER,
     .moves = {MOVE_DISABLE, MOVE_MUD_BOMB, MOVE_SLUDGE_BOMB, MOVE_SHADOW_PUNCH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_INNER_FOCUS,
     .species = SPECIES_GOLBAT,
@@ -164,28 +164,28 @@ static const struct TrainerMon sParty_Declan[] = {
 
 static const struct TrainerMon sParty_GruntRusturfTunnel[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
     .moves = {MOVE_BITE, MOVE_SNARL, MOVE_SCARY_FACE, MOVE_FIRE_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_STENCH,
     .species = SPECIES_GRIMER,
     .moves = {MOVE_DISABLE, MOVE_MUD_BOMB, MOVE_SLUDGE_BOMB, MOVE_SHADOW_PUNCH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_INNER_FOCUS,
     .species = SPECIES_GOLBAT,
     .moves = {MOVE_BITE, MOVE_WING_ATTACK, MOVE_CONFUSE_RAY, MOVE_POISON_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_ROUGH_SKIN,
     .species = SPECIES_SHARPEDO,
@@ -3247,7 +3247,7 @@ static const struct TrainerMon sParty_Drake[] = {
 
 static const struct TrainerMon sParty_Roxanne1[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_ROCK_HEAD,
     .species = SPECIES_RHYHORN,
@@ -3255,7 +3255,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .moves = {MOVE_TAIL_WHIP, MOVE_SCARY_FACE, MOVE_BULLDOZE, MOVE_ROCK_TOMB}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_SUCTION_CUPS,
     .species = SPECIES_LILEEP,
@@ -3263,7 +3263,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .moves = {MOVE_INGRAIN, MOVE_ANCIENT_POWER, MOVE_GIGA_DRAIN, MOVE_TICKLE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_BATTLE_ARMOR,
     .species = SPECIES_ANORITH,
@@ -3271,7 +3271,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .moves = {MOVE_FURY_CUTTER, MOVE_ROCK_TOMB, MOVE_ROCK_POLISH, MOVE_SCREECH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_STURDY,
     .species = SPECIES_SUDOWOODO,
@@ -3282,7 +3282,7 @@ static const struct TrainerMon sParty_Roxanne1[] = {
 
 static const struct TrainerMon sParty_Brawly1[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 15,
     .ability = ABILITY_VITAL_SPIRIT,
     .species = SPECIES_PRIMEAPE,
@@ -3290,7 +3290,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     .moves = {MOVE_KARATE_CHOP, MOVE_SCREECH, MOVE_SMACK_DOWN, MOVE_U_TURN}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 15,
     .ability = ABILITY_GUTS,
     .species = SPECIES_MACHOKE,
@@ -3298,7 +3298,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     .moves = {MOVE_FOCUS_ENERGY, MOVE_KARATE_CHOP, MOVE_BULK_UP, MOVE_STONE_EDGE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 15,
     .ability = ABILITY_POISON_HEAL,
     .species = SPECIES_BRELOOM,
@@ -3306,7 +3306,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     .moves = {MOVE_MEGA_DRAIN, MOVE_COUNTER, MOVE_MACH_PUNCH, MOVE_ROCK_SLIDE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 15,
     .ability = ABILITY_TECHNICIAN,
     .species = SPECIES_HITMONTOP,
@@ -3317,7 +3317,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
 
 static const struct TrainerMon sParty_Wattson1[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_STATIC,
     .species = SPECIES_ELECTRODE,
@@ -3325,7 +3325,7 @@ static const struct TrainerMon sParty_Wattson1[] = {
     .moves = {MOVE_THUNDER_WAVE, MOVE_MAGNET_RISE, MOVE_SELF_DESTRUCT, MOVE_VOLT_SWITCH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_STATIC,
     .species = SPECIES_AMPHAROS,
@@ -3333,7 +3333,7 @@ static const struct TrainerMon sParty_Wattson1[] = {
     .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDER_PUNCH, MOVE_POWER_GEM, MOVE_VOLT_SWITCH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_STURDY,
     .species = SPECIES_MAGNEZONE,
@@ -3341,7 +3341,7 @@ static const struct TrainerMon sParty_Wattson1[] = {
     .moves = {MOVE_THUNDER_WAVE, MOVE_METAL_SOUND, MOVE_FLASH_CANNON, MOVE_VOLT_SWITCH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_MOTOR_DRIVE,
     .species = SPECIES_ELECTIVIRE,
@@ -3352,7 +3352,7 @@ static const struct TrainerMon sParty_Wattson1[] = {
 
 static const struct TrainerMon sParty_Flannery1[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .gender = TRAINER_MON_FEMALE,
     .ability = ABILITY_DROUGHT,
@@ -3361,7 +3361,7 @@ static const struct TrainerMon sParty_Flannery1[] = {
     .moves = {MOVE_NASTY_PLOT, MOVE_SOLAR_BEAM, MOVE_OVERHEAT, MOVE_ATTRACT}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_FLASH_FIRE,
     .species = SPECIES_RAPIDASH,
@@ -3369,7 +3369,7 @@ static const struct TrainerMon sParty_Flannery1[] = {
     .moves = {MOVE_MEGAHORN, MOVE_FLAME_CHARGE, MOVE_SUNNY_DAY, MOVE_WILD_CHARGE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_FLAME_BODY,
     .species = SPECIES_MAGCARGO,
@@ -3377,7 +3377,7 @@ static const struct TrainerMon sParty_Flannery1[] = {
     .moves = {MOVE_ANCIENT_POWER, MOVE_LAVA_PLUME, MOVE_SHELL_SMASH, MOVE_ROCK_POLISH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .gender = TRAINER_MON_MALE,
     .ability = ABILITY_FLAME_BODY,
@@ -3389,7 +3389,7 @@ static const struct TrainerMon sParty_Flannery1[] = {
 
 static const struct TrainerMon sParty_Norman1[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_STANTLER,
@@ -3397,7 +3397,7 @@ static const struct TrainerMon sParty_Norman1[] = {
     .moves = {MOVE_CONFUSE_RAY, MOVE_ZEN_HEADBUTT, MOVE_JUMP_KICK, MOVE_RETALIATE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_GUTS,
     .species = SPECIES_URSARING,
@@ -3405,7 +3405,7 @@ static const struct TrainerMon sParty_Norman1[] = {
     .moves = {MOVE_FACADE, MOVE_SWORDS_DANCE, MOVE_CLOSE_COMBAT, MOVE_CRUNCH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_GLUTTONY,
     .species = SPECIES_LINOONE,
@@ -3413,7 +3413,7 @@ static const struct TrainerMon sParty_Norman1[] = {
     .moves = {MOVE_PLAY_ROUGH, MOVE_BELLY_DRUM, MOVE_RETALIATE, MOVE_PURSUIT}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_TRUANT,
     .species = SPECIES_SLAKING,
@@ -3424,28 +3424,28 @@ static const struct TrainerMon sParty_Norman1[] = {
 
 static const struct TrainerMon sParty_Winona1[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 29,
     .ability = ABILITY_TANGLED_FEET,
     .species = SPECIES_PIDGEOT,
     .moves = {MOVE_AERIAL_ACE, MOVE_ROOST, MOVE_TAILWIND, MOVE_U_TURN}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 30,
     .ability = ABILITY_SERENE_GRACE,
     .species = SPECIES_TOGEKISS,
     .moves = {MOVE_AIR_SLASH, MOVE_ROOST, MOVE_DAZZLING_GLEAM, MOVE_NASTY_PLOT}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 31,
     .ability = ABILITY_STURDY,
     .species = SPECIES_SKARMORY,
     .moves = {MOVE_SPIKES, MOVE_STEEL_WING, MOVE_DRILL_PECK, MOVE_WHIRLWIND}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 33,
     .ability = ABILITY_NATURAL_CURE,
     .species = SPECIES_ALTARIA,
@@ -6479,7 +6479,7 @@ static const struct TrainerMon sParty_BrendanRoute103Mudkip[] = {
 
 static const struct TrainerMon sParty_BrendanRoute110Mudkip[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_HYPER_CUTTER,
     .species = SPECIES_GLIGAR,
@@ -6487,7 +6487,7 @@ static const struct TrainerMon sParty_BrendanRoute110Mudkip[] = {
     .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_KEEN_EYE,
     .species = SPECIES_FEAROW,
@@ -6495,7 +6495,7 @@ static const struct TrainerMon sParty_BrendanRoute110Mudkip[] = {
     .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_PURSUIT, MOVE_STEEL_WING}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -6503,7 +6503,7 @@ static const struct TrainerMon sParty_BrendanRoute110Mudkip[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_SCEPTILE,
@@ -6549,7 +6549,7 @@ static const struct TrainerMon sParty_BrendanRoute103Treecko[] = {
 
 static const struct TrainerMon sParty_BrendanRoute110Treecko[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_HYPER_CUTTER,
     .species = SPECIES_GLIGAR,
@@ -6557,7 +6557,7 @@ static const struct TrainerMon sParty_BrendanRoute110Treecko[] = {
     .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_KEEN_EYE,
     .species = SPECIES_FEAROW,
@@ -6565,7 +6565,7 @@ static const struct TrainerMon sParty_BrendanRoute110Treecko[] = {
     .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_PURSUIT, MOVE_STEEL_WING}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -6573,7 +6573,7 @@ static const struct TrainerMon sParty_BrendanRoute110Treecko[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_BLAZE,
     .species = SPECIES_BLAZIKEN,
@@ -6619,7 +6619,7 @@ static const struct TrainerMon sParty_BrendanRoute103Torchic[] = {
 
 static const struct TrainerMon sParty_BrendanRoute110Torchic[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_HYPER_CUTTER,
     .species = SPECIES_GLIGAR,
@@ -6627,7 +6627,7 @@ static const struct TrainerMon sParty_BrendanRoute110Torchic[] = {
     .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_KEEN_EYE,
     .species = SPECIES_FEAROW,
@@ -6635,7 +6635,7 @@ static const struct TrainerMon sParty_BrendanRoute110Torchic[] = {
     .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_PURSUIT, MOVE_STEEL_WING}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -6643,7 +6643,7 @@ static const struct TrainerMon sParty_BrendanRoute110Torchic[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_TORRENT,
     .species = SPECIES_SWAMPERT,
@@ -6689,7 +6689,7 @@ static const struct TrainerMon sParty_MayRoute103Mudkip[] = {
 
 static const struct TrainerMon sParty_MayRoute110Mudkip[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_HYPER_CUTTER,
     .species = SPECIES_GLIGAR,
@@ -6697,7 +6697,7 @@ static const struct TrainerMon sParty_MayRoute110Mudkip[] = {
     .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_EARLY_BIRD,
     .species = SPECIES_DODRIO,
@@ -6705,7 +6705,7 @@ static const struct TrainerMon sParty_MayRoute110Mudkip[] = {
     .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_STEEL_WING}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -6713,7 +6713,7 @@ static const struct TrainerMon sParty_MayRoute110Mudkip[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_SCEPTILE,
@@ -6759,7 +6759,7 @@ static const struct TrainerMon sParty_MayRoute103Treecko[] = {
 
 static const struct TrainerMon sParty_MayRoute110Treecko[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_HYPER_CUTTER,
     .species = SPECIES_GLIGAR,
@@ -6767,7 +6767,7 @@ static const struct TrainerMon sParty_MayRoute110Treecko[] = {
     .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_EARLY_BIRD,
     .species = SPECIES_DODRIO,
@@ -6775,7 +6775,7 @@ static const struct TrainerMon sParty_MayRoute110Treecko[] = {
     .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_STEEL_WING}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -6783,7 +6783,7 @@ static const struct TrainerMon sParty_MayRoute110Treecko[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_BLAZE,
     .species = SPECIES_BLAZIKEN,
@@ -6829,7 +6829,7 @@ static const struct TrainerMon sParty_MayRoute103Torchic[] = {
 
 static const struct TrainerMon sParty_MayRoute110Torchic[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_HYPER_CUTTER,
     .species = SPECIES_GLIGAR,
@@ -6837,7 +6837,7 @@ static const struct TrainerMon sParty_MayRoute110Torchic[] = {
     .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_EARLY_BIRD,
     .species = SPECIES_DODRIO,
@@ -6845,7 +6845,7 @@ static const struct TrainerMon sParty_MayRoute110Torchic[] = {
     .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_STEEL_WING}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -6853,7 +6853,7 @@ static const struct TrainerMon sParty_MayRoute110Torchic[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_TORRENT,
     .species = SPECIES_SWAMPERT,
@@ -7643,7 +7643,7 @@ static const struct TrainerMon sParty_Macey[] = {
 
 static const struct TrainerMon sParty_BrendanRustboroTreecko[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_KEEN_EYE,
     .species = SPECIES_FEAROW,
@@ -7651,7 +7651,7 @@ static const struct TrainerMon sParty_BrendanRustboroTreecko[] = {
     .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_PURSUIT, MOVE_AGILITY}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -7659,7 +7659,7 @@ static const struct TrainerMon sParty_BrendanRustboroTreecko[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_SING, MOVE_WAKE_UP_SLAP}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_BLAZE,
     .species = SPECIES_COMBUSKEN,
@@ -7670,7 +7670,7 @@ static const struct TrainerMon sParty_BrendanRustboroTreecko[] = {
 
 static const struct TrainerMon sParty_BrendanRustboroMudkip[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_KEEN_EYE,
     .species = SPECIES_FEAROW,
@@ -7678,7 +7678,7 @@ static const struct TrainerMon sParty_BrendanRustboroMudkip[] = {
     .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_PURSUIT, MOVE_AGILITY}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -7686,7 +7686,7 @@ static const struct TrainerMon sParty_BrendanRustboroMudkip[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_SING, MOVE_WAKE_UP_SLAP}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_GROVYLE,
@@ -7768,7 +7768,7 @@ static const struct TrainerMon sParty_Jonathan[] = {
 
 static const struct TrainerMon sParty_BrendanRustboroTorchic[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_KEEN_EYE,
     .species = SPECIES_FEAROW,
@@ -7776,7 +7776,7 @@ static const struct TrainerMon sParty_BrendanRustboroTorchic[] = {
     .moves = {MOVE_DRILL_RUN, MOVE_PLUCK, MOVE_PURSUIT, MOVE_AGILITY}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -7784,7 +7784,7 @@ static const struct TrainerMon sParty_BrendanRustboroTorchic[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_SING, MOVE_WAKE_UP_SLAP}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_TORRENT,
     .species = SPECIES_MARSHTOMP,
@@ -7795,7 +7795,7 @@ static const struct TrainerMon sParty_BrendanRustboroTorchic[] = {
 
 static const struct TrainerMon sParty_MayRustboroMudkip[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_EARLY_BIRD,
     .species = SPECIES_DODRIO,
@@ -7803,7 +7803,7 @@ static const struct TrainerMon sParty_MayRustboroMudkip[] = {
     .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_ACUPRESSURE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -7811,7 +7811,7 @@ static const struct TrainerMon sParty_MayRustboroMudkip[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_SING, MOVE_WAKE_UP_SLAP}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_GROVYLE,
@@ -8608,7 +8608,7 @@ static const struct TrainerMon sParty_Ashley[] = {
 
 static const struct TrainerMon sParty_WallyMauville[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_ADAPTABILITY,
     .species = SPECIES_EEVEE,
@@ -10052,7 +10052,7 @@ static const struct TrainerMon sParty_Cristin1[] = {
 
 static const struct TrainerMon sParty_MayRustboroTreecko[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_EARLY_BIRD,
     .species = SPECIES_DODRIO,
@@ -10060,7 +10060,7 @@ static const struct TrainerMon sParty_MayRustboroTreecko[] = {
     .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_ACUPRESSURE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -10068,7 +10068,7 @@ static const struct TrainerMon sParty_MayRustboroTreecko[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_SING, MOVE_WAKE_UP_SLAP}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_BLAZE,
     .species = SPECIES_COMBUSKEN,
@@ -10079,7 +10079,7 @@ static const struct TrainerMon sParty_MayRustboroTreecko[] = {
 
 static const struct TrainerMon sParty_MayRustboroTorchic[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_EARLY_BIRD,
     .species = SPECIES_DODRIO,
@@ -10087,7 +10087,7 @@ static const struct TrainerMon sParty_MayRustboroTorchic[] = {
     .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_ACUPRESSURE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
@@ -10095,7 +10095,7 @@ static const struct TrainerMon sParty_MayRustboroTorchic[] = {
     .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_SING, MOVE_WAKE_UP_SLAP}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
     .ability = ABILITY_TORRENT,
     .species = SPECIES_MARSHTOMP,
