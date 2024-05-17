@@ -8612,6 +8612,7 @@ static const struct TrainerMon sParty_WallyMauville[] = {
     .lvl = 20,
     .ability = ABILITY_ADAPTABILITY,
     .species = SPECIES_EEVEE,
+    .heldItem = ITEM_NANAB_BERRY,
     .moves = {MOVE_QUICK_ATTACK, MOVE_REFRESH, MOVE_CHARM, MOVE_DOUBLE_EDGE}
     }
 };
