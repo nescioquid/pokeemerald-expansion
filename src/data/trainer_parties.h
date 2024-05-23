@@ -235,7 +235,7 @@ static const struct TrainerMon sParty_GruntMuseum1[] = {
     .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
     .lvl = 15,
     .species = SPECIES_CARVANHA,
-    .moves = {MOVE_ASSURANCE, MOVE_SCREECH, MOVE_SWAGGER, MOVE_ICE_FANG}
+    .moves = {MOVE_ASSURANCE, MOVE_SCREECH, MOVE_NONE, MOVE_ICE_FANG}
     },
     {
     .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
@@ -263,7 +263,7 @@ static const struct TrainerMon sParty_GruntMuseum2[] = {
     .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
     .lvl = 14,
     .species = SPECIES_CARVANHA,
-    .moves = {MOVE_AQUA_JET, MOVE_ASSURANCE, MOVE_SCREECH, MOVE_SWAGGER}
+    .moves = {MOVE_AQUA_JET, MOVE_ASSURANCE, MOVE_SCREECH, MOVE_NONE}
     }
 };
 
@@ -5372,7 +5372,7 @@ static const struct TrainerMon sParty_Jocelyn[] = {
     .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
     .lvl = 13,
     .species = SPECIES_MANKEY,
-    .moves = {MOVE_COVET, MOVE_PURSUIT, MOVE_SWAGGER, MOVE_KARATE_CHOP}
+    .moves = {MOVE_COVET, MOVE_KARATE_CHOP, MOVE_SEISMIC_TOSS, MOVE_SCREECH}
     }
 };
 
@@ -5381,7 +5381,7 @@ static const struct TrainerMon sParty_Laura[] = {
     .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
     .lvl = 13,
     .species = SPECIES_MANKEY,
-    .moves = {MOVE_COVET, MOVE_PURSUIT, MOVE_SWAGGER, MOVE_KARATE_CHOP}
+    .moves = {MOVE_COVET, MOVE_KARATE_CHOP, MOVE_SEISMIC_TOSS, MOVE_SCREECH}
     }
 };
 
@@ -7494,7 +7494,7 @@ static const struct TrainerMon sParty_Lilith[] = {
     .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
     .lvl = 13,
     .species = SPECIES_MANKEY,
-    .moves = {MOVE_COVET, MOVE_PURSUIT, MOVE_SWAGGER, MOVE_KARATE_CHOP}
+    .moves = {MOVE_COVET, MOVE_KARATE_CHOP, MOVE_SEISMIC_TOSS, MOVE_SCREECH}
 
     }
 };
@@ -7730,7 +7730,7 @@ static const struct TrainerMon sParty_TabithaMtChimney[] = {
     .lvl = 25,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_SAND_ATTACK, MOVE_SWAGGER, MOVE_ASSURANCE, MOVE_TAUNT}
+    .moves = {MOVE_SAND_ATTACK, MOVE_ASSURANCE, MOVE_TAUNT, MOVE_FIRE_FANG}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -7856,7 +7856,7 @@ static const struct TrainerMon sParty_MaxieMtChimney[] = {
     .lvl = 25,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_SNARL, MOVE_SWAGGER, MOVE_CRUNCH, MOVE_FIRE_FANG}
+    .moves = {MOVE_SNARL, MOVE_SCARY_FACE, MOVE_CRUNCH, MOVE_FIRE_FANG}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -10257,7 +10257,7 @@ static const struct TrainerMon sParty_Brawly2[] = {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 33,
     .species = SPECIES_PRIMEAPE,
-    .moves = {MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_SWAGGER, MOVE_BULK_UP}
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_BULK_UP, MOVE_U_TURN}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -10286,7 +10286,7 @@ static const struct TrainerMon sParty_Brawly3[] = {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 38,
     .species = SPECIES_PRIMEAPE,
-    .moves = {MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_SWAGGER, MOVE_BULK_UP}
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_BULK_UP, MOVE_U_TURN}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -10321,7 +10321,7 @@ static const struct TrainerMon sParty_Brawly4[] = {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 43,
     .species = SPECIES_PRIMEAPE,
-    .moves = {MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_SWAGGER, MOVE_BULK_UP}
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_BULK_UP, MOVE_U_TURN}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -10362,7 +10362,7 @@ static const struct TrainerMon sParty_Brawly5[] = {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 48,
     .species = SPECIES_PRIMEAPE,
-    .moves = {MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_SWAGGER, MOVE_BULK_UP}
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_BULK_UP, MOVE_U_TURN}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
