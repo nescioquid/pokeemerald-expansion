@@ -7744,28 +7744,28 @@ static const struct TrainerMon sParty_GruntWeatherInst5[] = {
 
 static const struct TrainerMon sParty_TabithaMtChimney[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
     .moves = {MOVE_SAND_ATTACK, MOVE_ASSURANCE, MOVE_TAUNT, MOVE_FIRE_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_NEUTRALIZING_GAS,
     .species = SPECIES_KOFFING,
     .moves = {MOVE_SLUDGE, MOVE_SMOKESCREEN, MOVE_FLAMETHROWER, MOVE_SELF_DESTRUCT}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_INNER_FOCUS,
     .species = SPECIES_GOLBAT,
     .moves = {MOVE_POISON_FANG, MOVE_ASTONISH, MOVE_CONFUSE_RAY, MOVE_WING_ATTACK}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_WHITE_SMOKE,
     .species = SPECIES_TORKOAL,
@@ -7863,28 +7863,28 @@ static const struct TrainerMon sParty_MaxieMagmaHideout[] = {
 
 static const struct TrainerMon sParty_MaxieMtChimney[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_INNER_FOCUS,
     .species = SPECIES_CROBAT,
     .moves = {MOVE_CONFUSE_RAY, MOVE_ACROBATICS, MOVE_VENOSHOCK, MOVE_U_TURN}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
     .moves = {MOVE_SNARL, MOVE_SCARY_FACE, MOVE_CRUNCH, MOVE_FIRE_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_NEUTRALIZING_GAS,
     .species = SPECIES_WEEZING,
     .moves = {MOVE_SMOKESCREEN, MOVE_SLUDGE_BOMB, MOVE_SELF_DESTRUCT, MOVE_SHADOW_BALL}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_SOLID_ROCK,
     .species = SPECIES_CAMERUPT,
