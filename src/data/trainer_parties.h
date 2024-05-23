@@ -232,38 +232,56 @@ static const struct TrainerMon sParty_GruntWeatherInst3[] = {
 
 static const struct TrainerMon sParty_GruntMuseum1[] = {
     {
-    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 15,
-    .species = SPECIES_CARVANHA,
-    .moves = {MOVE_ASSURANCE, MOVE_SCREECH, MOVE_NONE, MOVE_ICE_FANG}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
-    .lvl = 15,
+    .ability = ABILITY_INNER_FOCUS,
     .species = SPECIES_GOLBAT,
     .moves = {MOVE_CONFUSE_RAY, MOVE_AIR_CUTTER, MOVE_SWIFT, MOVE_POISON_FANG}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 15,
+    .ability = ABILITY_ROUGH_SKIN,
+    .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_BITE, MOVE_AQUA_JET, MOVE_SCREECH, MOVE_POISON_FANG}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 15,
+    .ability = ABILITY_STENCH,
+    .species = SPECIES_GRIMER,
+    .moves = {MOVE_POISON_GAS, MOVE_DISABLE, MOVE_SLUDGE, MOVE_MUD_BOMB}
     }
 };
 
 static const struct TrainerMon sParty_GruntMuseum2[] = {
     {
-    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
-    .lvl = 14,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 15,
+    .ability = ABILITY_INTIMIDATE,
+    .species = SPECIES_MIGHTYENA,
+    .moves = {MOVE_BITE, MOVE_SNARL, MOVE_EMBARGO, MOVE_FIRE_FANG}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 15,
     .ability = ABILITY_STENCH,
     .species = SPECIES_GRIMER,
     .moves = {MOVE_POISON_GAS, MOVE_DISABLE, MOVE_SLUDGE, MOVE_MUD_BOMB}
     },
     {
-    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
-    .lvl = 14,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 15,
+    .ability = ABILITY_INNER_FOCUS,
     .species = SPECIES_GOLBAT,
     .moves = {MOVE_CONFUSE_RAY, MOVE_AIR_CUTTER, MOVE_SWIFT, MOVE_POISON_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
-    .lvl = 14,
-    .species = SPECIES_CARVANHA,
-    .moves = {MOVE_AQUA_JET, MOVE_ASSURANCE, MOVE_SCREECH, MOVE_NONE}
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 15,
+    .ability = ABILITY_ROUGH_SKIN,
+    .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_BITE, MOVE_AQUA_JET, MOVE_SCREECH, MOVE_POISON_FANG}
     }
 };
 
