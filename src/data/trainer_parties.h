@@ -3443,7 +3443,7 @@ static const struct TrainerMon sParty_Norman1[] = {
 static const struct TrainerMon sParty_Winona1[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 29,
+    .lvl = 30,
     .ability = ABILITY_TANGLED_FEET,
     .species = SPECIES_PIDGEOT,
     .moves = {MOVE_AERIAL_ACE, MOVE_ROOST, MOVE_TAILWIND, MOVE_U_TURN}
@@ -3457,14 +3457,14 @@ static const struct TrainerMon sParty_Winona1[] = {
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 31,
+    .lvl = 30,
     .ability = ABILITY_STURDY,
     .species = SPECIES_SKARMORY,
     .moves = {MOVE_SPIKES, MOVE_STEEL_WING, MOVE_DRILL_PECK, MOVE_WHIRLWIND}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 33,
+    .lvl = 30,
     .ability = ABILITY_NATURAL_CURE,
     .species = SPECIES_ALTARIA,
     .heldItem = ITEM_PINAP_BERRY,
