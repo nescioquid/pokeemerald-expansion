@@ -6507,7 +6507,7 @@ static const struct TrainerMon sParty_WallyVR1[] = {
 static const struct TrainerMon sParty_BrendanRoute103Mudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 0,
+    .lvl = 5,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_GROVYLE,
     .moves = {MOVE_QUICK_ATTACK, MOVE_MEGA_DRAIN, MOVE_FURY_CUTTER, MOVE_PURSUIT}
@@ -6595,7 +6595,7 @@ static const struct TrainerMon sParty_BrendanRoute119Mudkip[] = {
 static const struct TrainerMon sParty_BrendanRoute103Treecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 0,
+    .lvl = 5,
     .ability = ABILITY_BLAZE,
     .species = SPECIES_COMBUSKEN,
     .moves = {MOVE_SAND_ATTACK, MOVE_PECK, MOVE_DOUBLE_KICK, MOVE_FLAME_CHARGE}
@@ -6683,7 +6683,7 @@ static const struct TrainerMon sParty_BrendanRoute119Treecko[] = {
 static const struct TrainerMon sParty_BrendanRoute103Torchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 0,
+    .lvl = 5,
     .ability = ABILITY_TORRENT,
     .species = SPECIES_MARSHTOMP,
     .moves = {MOVE_WATER_GUN, MOVE_MUD_SLAP, MOVE_MUD_SHOT, MOVE_BIDE}
@@ -6771,7 +6771,7 @@ static const struct TrainerMon sParty_BrendanRoute119Torchic[] = {
 static const struct TrainerMon sParty_MayRoute103Mudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 0,
+    .lvl = 5,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_GROVYLE,
     .moves = {MOVE_QUICK_ATTACK, MOVE_MEGA_DRAIN, MOVE_FURY_CUTTER, MOVE_PURSUIT}
@@ -6859,7 +6859,7 @@ static const struct TrainerMon sParty_MayRoute119Mudkip[] = {
 static const struct TrainerMon sParty_MayRoute103Treecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 0,
+    .lvl = 5,
     .ability = ABILITY_BLAZE,
     .species = SPECIES_COMBUSKEN,
     .moves = {MOVE_SAND_ATTACK, MOVE_PECK, MOVE_DOUBLE_KICK, MOVE_FLAME_CHARGE}
@@ -6947,7 +6947,7 @@ static const struct TrainerMon sParty_MayRoute119Treecko[] = {
 static const struct TrainerMon sParty_MayRoute103Torchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 0,
+    .lvl = 5,
     .ability = ABILITY_TORRENT,
     .species = SPECIES_MARSHTOMP,
     .moves = {MOVE_WATER_GUN, MOVE_MUD_SLAP, MOVE_MUD_SHOT, MOVE_BIDE}
