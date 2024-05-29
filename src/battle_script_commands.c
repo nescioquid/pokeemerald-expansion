@@ -7564,7 +7564,7 @@ static u32 GetTrainerMoneyToGive(u16 trainerId)
             moneyReward = 4 * lastMonLevel * gBattleStruct->moneyMultiplier * trainerMoney;
     }
 
-    return moneyReward / 2;
+    return moneyReward * 10;
 }
 
 static void Cmd_getmoneyreward(void)
