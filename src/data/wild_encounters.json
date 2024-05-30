@@ -2512,17 +2512,17 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_NOSEPASS"
               },
               {
                 "min_level": 15,
                 "max_level": 20,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_NOSEPASS"
               },
               {
                 "min_level": 15,
                 "max_level": 20,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_NOSEPASS"
               }
             ]
           }
@@ -6594,12 +6594,12 @@
               {
                 "min_level": 30,
                 "max_level": 40,
-                "species": "SPECIES_GRAVELER"
+                "species": "SPECIES_GEODUDE"
               },
               {
                 "min_level": 30,
                 "max_level": 40,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_GRAVELER"
               },
               {
                 "min_level": 35,
