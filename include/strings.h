@@ -53,6 +53,7 @@ extern const u8 gText_Key_Items[];
 extern const u8 gText_Poke_Balls[];
 extern const u8 gText_TMs_Hms[];
 extern const u8 gText_Berries2[];
+extern const u8 gText_Medicine[];
 
 extern const u8 gText_Single2[];
 extern const u8 gText_Double2[];
@@ -936,6 +937,7 @@ extern const u8 gText_ItemFinderNearby[];
 extern const u8 gText_ItemFinderOnTop[];
 extern const u8 gText_CoinCase[];
 extern const u8 gText_PowderQty[];
+extern const u8 gText_AshQty[];
 extern const u8 gText_BootedUpHM[];
 extern const u8 gText_BootedUpTM[];
 extern const u8 gText_TMHMContainedVar1[];
@@ -3060,5 +3062,10 @@ extern const u8 gText_BasePointsResetToZero[];
 
 extern const u8 gText_Fertilize[];
 extern const u8 gText_PlantBerry[];
+
+extern const u8 gMenuText_Move[];
+extern const u8 gText_MoveItemWhere[];
+extern const u8 gText_XsYAnd[];
+extern const u8 gText_XsYWereSwapped[];
 
 #endif // GUARD_STRINGS_H
