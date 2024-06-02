@@ -875,7 +875,7 @@ static const struct TrainerMon sParty_Ricky5[] = {
 static const struct TrainerMon sParty_Randall[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 26,
+    .lvl = 25,
     .species = SPECIES_SWELLOW,
     .moves = {MOVE_QUICK_ATTACK, MOVE_AGILITY, MOVE_WING_ATTACK, MOVE_NONE}
     }
@@ -884,7 +884,7 @@ static const struct TrainerMon sParty_Randall[] = {
 static const struct TrainerMon sParty_Parker[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 26,
+    .lvl = 25,
     .species = SPECIES_STANTLER,
     .moves = {MOVE_CONFUSE_RAY, MOVE_ZEN_HEADBUTT, MOVE_JUMP_KICK, MOVE_SHADOW_BALL}
     }
@@ -893,7 +893,7 @@ static const struct TrainerMon sParty_Parker[] = {
 static const struct TrainerMon sParty_George[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 26,
+    .lvl = 25,
     .species = SPECIES_SLAKOTH,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SLACK_OFF, MOVE_COUNTER, MOVE_SHADOW_BALL, MOVE_NONE}
@@ -903,7 +903,7 @@ static const struct TrainerMon sParty_George[] = {
 static const struct TrainerMon sParty_Berke[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 26,
+    .lvl = 25,
     .species = SPECIES_VIGOROTH,
     .moves = {MOVE_FOCUS_ENERGY, MOVE_SLASH, MOVE_NONE, MOVE_NONE}
     }
@@ -1163,7 +1163,7 @@ static const struct TrainerMon sParty_Warren[] = {
 static const struct TrainerMon sParty_Mary[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 26,
+    .lvl = 25,
     .species = SPECIES_PERSIAN,
     .moves = {MOVE_SWIFT, MOVE_FEINT_ATTACK, MOVE_AERIAL_ACE, MOVE_NONE}
     }
@@ -1172,7 +1172,7 @@ static const struct TrainerMon sParty_Mary[] = {
 static const struct TrainerMon sParty_Alexia[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 26,
+    .lvl = 25,
     .species = SPECIES_WIGGLYTUFF,
     .moves = {MOVE_DEFENSE_CURL, MOVE_DOUBLE_EDGE, MOVE_SHADOW_BALL, MOVE_NONE}
     }
@@ -1181,7 +1181,7 @@ static const struct TrainerMon sParty_Alexia[] = {
 static const struct TrainerMon sParty_Jody[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 26,
+    .lvl = 25,
     .species = SPECIES_URSARING,
     .moves = {MOVE_SWORDS_DANCE, MOVE_SLASH, MOVE_SHADOW_CLAW, MOVE_NONE}
     }
