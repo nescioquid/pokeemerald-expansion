@@ -121,6 +121,7 @@ mart Pory_Pokemart_AdventureNotStarted {
   ITEM_ANTIDOTE
   ITEM_PARALYZE_HEAL
   ITEM_AWAKENING
+  ITEM_FLUFFY_TAIL
 }
 
 mart Pory_Pokemart_VisitedOldale {
@@ -129,6 +130,7 @@ mart Pory_Pokemart_VisitedOldale {
   ITEM_ANTIDOTE
   ITEM_PARALYZE_HEAL
   ITEM_AWAKENING
+  ITEM_FLUFFY_TAIL
 }
 
 mart Pory_Pokemart_VisitedPetalburg {
@@ -138,6 +140,7 @@ mart Pory_Pokemart_VisitedPetalburg {
   ITEM_PARALYZE_HEAL
   ITEM_AWAKENING
   ITEM_ESCAPE_ROPE   // new
+  ITEM_FLUFFY_TAIL
   ITEM_REPEL         // new
   ITEM_X_ATTACK      // new
   ITEM_X_DEFENSE     // new
@@ -153,6 +156,7 @@ mart Pory_Pokemart_VisitedRustboro {
   ITEM_PARALYZE_HEAL
   ITEM_AWAKENING
   ITEM_ESCAPE_ROPE
+  ITEM_FLUFFY_TAIL
   ITEM_REPEL
   ITEM_X_ATTACK
   ITEM_X_DEFENSE
@@ -167,6 +171,7 @@ mart Pory_Pokemart_VisitedSlateport {
   ITEM_PARALYZE_HEAL
   ITEM_AWAKENING
   ITEM_ESCAPE_ROPE
+  ITEM_FLUFFY_TAIL
   ITEM_REPEL
   ITEM_X_ATTACK
   ITEM_X_DEFENSE
@@ -184,6 +189,7 @@ mart Pory_Pokemart_VisitedMauville {
   ITEM_PARALYZE_HEAL
   ITEM_AWAKENING
   ITEM_ESCAPE_ROPE
+  ITEM_FLUFFY_TAIL
   ITEM_REPEL
   ITEM_X_ATTACK
   ITEM_X_DEFENSE
@@ -207,6 +213,7 @@ mart Pory_Pokemart_VisitedVerdanturf {
   ITEM_ICE_HEAL      // new
   ITEM_AWAKENING
   ITEM_ESCAPE_ROPE
+  ITEM_FLUFFY_TAIL
   ITEM_REPEL
   ITEM_X_ATTACK
   ITEM_X_DEFENSE
@@ -231,6 +238,7 @@ mart Pory_Pokemart_VisitedFallarbor {
   ITEM_ICE_HEAL
   ITEM_AWAKENING
   ITEM_ESCAPE_ROPE
+  ITEM_FLUFFY_TAIL
   ITEM_SUPER_REPEL   // new
   ITEM_X_ATTACK
   ITEM_X_DEFENSE
@@ -258,6 +266,7 @@ mart Pory_Pokemart_VisitedLavaridge {
   ITEM_AWAKENING
   ITEM_REVIVE        // new
   ITEM_ESCAPE_ROPE
+  ITEM_FLUFFY_TAIL
   ITEM_SUPER_REPEL
   ITEM_X_ATTACK
   ITEM_X_DEFENSE
@@ -285,6 +294,7 @@ mart Pory_Pokemart_VisitedFortree {
   ITEM_AWAKENING
   ITEM_REVIVE
   ITEM_ESCAPE_ROPE
+  ITEM_FLUFFY_TAIL
   ITEM_SUPER_REPEL
   ITEM_X_ATTACK
   ITEM_X_DEFENSE
@@ -312,6 +322,7 @@ mart Pory_Pokemart_VisitedMossdeep {
   ITEM_FULL_HEAL     // new
   ITEM_REVIVE
   ITEM_ESCAPE_ROPE
+  ITEM_FLUFFY_TAIL
   ITEM_MAX_REPEL     // new
   ITEM_X_ATTACK
   ITEM_X_DEFENSE
@@ -344,6 +355,7 @@ mart Pory_Pokemart_VisitedSootopolis {
   ITEM_FULL_HEAL
   ITEM_REVIVE
   ITEM_ESCAPE_ROPE
+  ITEM_FLUFFY_TAIL
   ITEM_MAX_REPEL
   ITEM_X_ATTACK
   ITEM_X_DEFENSE
@@ -379,6 +391,7 @@ mart Pory_Pokemart_VisitedEverGrande {
   ITEM_FULL_HEAL
   ITEM_REVIVE
   ITEM_ESCAPE_ROPE
+  ITEM_FLUFFY_TAIL
   ITEM_MAX_REPEL
   ITEM_X_ATTACK
   ITEM_X_DEFENSE
