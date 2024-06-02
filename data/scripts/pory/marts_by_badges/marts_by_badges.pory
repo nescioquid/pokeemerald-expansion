@@ -1,0 +1,513 @@
+// makes Pokémart inventories be determined by where you've visited
+
+// Locations
+
+script BattleFrontier_Mart_EventScript_Clerk_Pory {
+  lock
+  faceplayer
+  msgbox(format("You're here! At the Battle Frontier! Haha!"))
+  call(Pory_EventScript_Pokemart_ClerkHellos)
+  waitmessage
+  call(Pory_EventScript_Pokemart_ByVisited)
+  call(Pory_EventScript_Pokemart_ClerkGoodbyes)
+  release
+  end
+}
+
+script EverGrandeCity_PokemonLeague_1F_EventScript_Clerk_Pory {
+  lock
+  faceplayer
+  if (!flag(FLAG_SYS_GAME_CLEAR)) {
+    msgbox(format("You made it to Ever Grande! Nice!"))
+    call(Pory_EventScript_Pokemart_ClerkHellos)
+  } else {
+    message(format("Wow, you JUST made it to Ever Grande and you're already the Champion?!\p{FONT_SMALL}I've been here three years and they haven't even given me a raise…\p{FONT_NORMAL}What did you still need exactly?"))
+  }
+  waitmessage
+  call(Pory_EventScript_Pokemart_ByVisited)
+  if (!flag(FLAG_SYS_GAME_CLEAR)) {
+    call(Pory_EventScript_Pokemart_ClerkGoodbyes)
+  } else {
+    random(2)
+    switch (var(VAR_RESULT)) {
+      case 0: msgbox(format("See you later!\n{FONT_SMALL}…Hopefully much later…"))
+      case 1: msgbox(format("Good luck!\n{FONT_SMALL}…Like you need it anyway…"))
+    }
+  }
+  release
+  end
+}
+
+script FallarborTown_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script FortreeCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script LavaridgeTown_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script MauvilleCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script MossdeepCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script OldaleTown_Mart_EventScript_Clerk_Pory {
+  lock
+  faceplayer
+  if (!flag(FLAG_ADVENTURE_STARTED)) {
+    msgbox(format("Sorry, but we're all out of Poké Balls at the moment."))
+    message(format("…anything else I can do for you?"))
+    waitmessage
+    pokemart(Pory_Pokemart_AdventureNotStarted)
+    msgbox(format("We'll be getting more in soon. See you then!"))
+  } else {
+    if (!flag(FLAG_BADGE01_GET)) {
+      message(format("We just got some balls back in stock! Would you like to get some now?"))
+    } else {
+      call(Pory_EventScript_Pokemart_ClerkHellos)
+    }
+    waitmessage
+    call(Pory_EventScript_Pokemart_ByVisited)
+    call(Pory_EventScript_Pokemart_ClerkGoodbyes)
+  }
+  release
+  end
+}
+
+script PetalburgCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script RustboroCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script SlateportCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script SootopolisCity_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+script TrainerHill_Entrance_EventScript_Clerk_Pory {
+  lock
+  faceplayer
+  // format() intentionally not used here
+  msgbox("It's the Hill, Baby!\n{FONT_SMALL}…Why do they make me say that every time?")
+  call(Pory_EventScript_Pokemart_ClerkHellos)
+  waitmessage
+  call(Pory_EventScript_Pokemart_ByVisited)
+  call(Pory_EventScript_Pokemart_ClerkGoodbyes)
+  release
+  end
+}
+
+script VerdanturfTown_Mart_EventScript_Clerk_Pory {
+  call(Pory_EventScript_Pokemart_Clerk)
+}
+
+// Inventories
+
+mart Pory_Pokemart_AdventureNotStarted {
+  ITEM_POTION
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_AWAKENING
+}
+
+mart Pory_Pokemart_VisitedOldale {
+  ITEM_POKE_BALL     // new
+  ITEM_POTION
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_AWAKENING
+}
+
+mart Pory_Pokemart_VisitedPetalburg {
+  ITEM_POKE_BALL
+  ITEM_POTION
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_AWAKENING
+  ITEM_ESCAPE_ROPE   // new
+  ITEM_REPEL         // new
+  ITEM_X_ATTACK      // new
+  ITEM_X_DEFENSE     // new
+  ITEM_X_SPEED       // new
+}
+
+mart Pory_Pokemart_VisitedRustboro {
+  ITEM_POKE_BALL
+  ITEM_TIMER_BALL    // new
+  ITEM_REPEAT_BALL   // new
+  ITEM_SUPER_POTION  // new
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_AWAKENING
+  ITEM_ESCAPE_ROPE
+  ITEM_REPEL
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SPEED
+  ITEM_POTION        // demoted
+}
+
+mart Pory_Pokemart_VisitedSlateport {
+  ITEM_GREAT_BALL    // new
+  ITEM_SUPER_POTION
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_AWAKENING
+  ITEM_ESCAPE_ROPE
+  ITEM_REPEL
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SPEED
+  ITEM_TIMER_BALL    // demoted
+  ITEM_REPEAT_BALL   // demoted
+  ITEM_POKE_BALL     // demoted
+  ITEM_POTION
+}
+
+mart Pory_Pokemart_VisitedMauville {
+  ITEM_GREAT_BALL
+  ITEM_SUPER_POTION
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_AWAKENING
+  ITEM_ESCAPE_ROPE
+  ITEM_REPEL
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SPEED
+  ITEM_X_ACCURACY    // new
+  ITEM_GUARD_SPEC    // new
+  ITEM_DIRE_HIT      // new
+  ITEM_TIMER_BALL
+  ITEM_REPEAT_BALL
+  ITEM_POKE_BALL
+  ITEM_POTION
+}
+
+mart Pory_Pokemart_VisitedVerdanturf {
+  ITEM_GREAT_BALL
+  ITEM_NEST_BALL     // new
+  ITEM_SUPER_POTION
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_BURN_HEAL     // new
+  ITEM_ICE_HEAL      // new
+  ITEM_AWAKENING
+  ITEM_ESCAPE_ROPE
+  ITEM_REPEL
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SP_ATK      // new
+  ITEM_X_SP_DEF      // new
+  ITEM_X_SPEED
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_X_ACCURACY
+  ITEM_TIMER_BALL
+  ITEM_REPEAT_BALL
+  ITEM_POKE_BALL
+  ITEM_POTION
+}
+
+mart Pory_Pokemart_VisitedFallarbor {
+  ITEM_GREAT_BALL
+  ITEM_SUPER_POTION
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_BURN_HEAL
+  ITEM_ICE_HEAL
+  ITEM_AWAKENING
+  ITEM_ESCAPE_ROPE
+  ITEM_SUPER_REPEL   // new
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SP_ATK
+  ITEM_X_SP_DEF
+  ITEM_X_SPEED
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_X_ACCURACY
+  ITEM_TIMER_BALL
+  ITEM_REPEAT_BALL
+  ITEM_NEST_BALL     // demoted
+  ITEM_POKE_BALL
+  ITEM_POTION
+  ITEM_REPEL         // demoted
+}
+
+mart Pory_Pokemart_VisitedLavaridge {
+  ITEM_GREAT_BALL
+  ITEM_SUPER_POTION
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_BURN_HEAL
+  ITEM_ICE_HEAL
+  ITEM_AWAKENING
+  ITEM_REVIVE        // new
+  ITEM_ESCAPE_ROPE
+  ITEM_SUPER_REPEL
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SP_ATK
+  ITEM_X_SP_DEF
+  ITEM_X_SPEED
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_X_ACCURACY
+  ITEM_TIMER_BALL
+  ITEM_REPEAT_BALL
+  ITEM_NEST_BALL
+  ITEM_POKE_BALL
+  ITEM_POTION
+  ITEM_REPEL
+}
+
+mart Pory_Pokemart_VisitedFortree {
+  ITEM_ULTRA_BALL    // new
+  ITEM_HYPER_POTION  // new
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_BURN_HEAL
+  ITEM_ICE_HEAL
+  ITEM_AWAKENING
+  ITEM_REVIVE
+  ITEM_ESCAPE_ROPE
+  ITEM_SUPER_REPEL
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SP_ATK
+  ITEM_X_SP_DEF
+  ITEM_X_SPEED
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_X_ACCURACY
+  ITEM_TIMER_BALL
+  ITEM_REPEAT_BALL
+  ITEM_NEST_BALL
+  ITEM_GREAT_BALL    // demoted
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION  // demoted
+  ITEM_POTION
+  ITEM_REPEL
+}
+
+mart Pory_Pokemart_VisitedMossdeep {
+  ITEM_ULTRA_BALL
+  ITEM_NET_BALL      // new
+  ITEM_DIVE_BALL     // new
+  ITEM_HYPER_POTION
+  ITEM_FULL_HEAL     // new
+  ITEM_REVIVE
+  ITEM_ESCAPE_ROPE
+  ITEM_MAX_REPEL     // new
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SP_ATK
+  ITEM_X_SP_DEF
+  ITEM_X_SPEED
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_X_ACCURACY
+  ITEM_TIMER_BALL
+  ITEM_REPEAT_BALL
+  ITEM_NEST_BALL
+  ITEM_GREAT_BALL
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION
+  ITEM_POTION
+  ITEM_ANTIDOTE      // demoted
+  ITEM_PARALYZE_HEAL // demoted
+  ITEM_BURN_HEAL     // demoted
+  ITEM_ICE_HEAL      // demoted
+  ITEM_AWAKENING     // demoted
+  ITEM_SUPER_REPEL   // demoted
+  ITEM_REPEL
+}
+
+mart Pory_Pokemart_VisitedSootopolis {
+  ITEM_ULTRA_BALL
+  ITEM_HYPER_POTION
+  ITEM_MAX_POTION    // new
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_ESCAPE_ROPE
+  ITEM_MAX_REPEL
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SP_ATK
+  ITEM_X_SP_DEF
+  ITEM_X_SPEED
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_X_ACCURACY
+  ITEM_TIMER_BALL
+  ITEM_REPEAT_BALL
+  ITEM_NEST_BALL
+  ITEM_NET_BALL
+  ITEM_DIVE_BALL
+  ITEM_GREAT_BALL
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION
+  ITEM_POTION
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_BURN_HEAL
+  ITEM_ICE_HEAL
+  ITEM_AWAKENING
+  ITEM_SUPER_REPEL
+  ITEM_REPEL
+}
+
+mart Pory_Pokemart_VisitedEverGrande {
+  ITEM_ULTRA_BALL
+  ITEM_HYPER_POTION
+  ITEM_MAX_POTION
+  ITEM_FULL_RESTORE  // new
+  ITEM_FULL_HEAL
+  ITEM_REVIVE
+  ITEM_ESCAPE_ROPE
+  ITEM_MAX_REPEL
+  ITEM_X_ATTACK
+  ITEM_X_DEFENSE
+  ITEM_X_SP_ATK
+  ITEM_X_SP_DEF
+  ITEM_X_SPEED
+  ITEM_GUARD_SPEC
+  ITEM_DIRE_HIT
+  ITEM_X_ACCURACY
+  ITEM_TIMER_BALL
+  ITEM_REPEAT_BALL
+  ITEM_NEST_BALL
+  ITEM_NET_BALL
+  ITEM_DIVE_BALL
+  ITEM_GREAT_BALL
+  ITEM_POKE_BALL
+  ITEM_SUPER_POTION
+  ITEM_POTION
+  ITEM_ANTIDOTE
+  ITEM_PARALYZE_HEAL
+  ITEM_BURN_HEAL
+  ITEM_ICE_HEAL
+  ITEM_AWAKENING
+  ITEM_SUPER_REPEL
+  ITEM_REPEL
+}
+
+// Helper scripts
+
+script Pory_EventScript_Pokemart_ByVisited {
+  if (flag(FLAG_VISITED_EVER_GRANDE_CITY)) {
+    pokemart(Pory_Pokemart_VisitedEverGrande)
+  } elif (flag(FLAG_VISITED_SOOTOPOLIS_CITY)) {
+    pokemart(Pory_Pokemart_VisitedSootopolis)
+  } elif (flag(FLAG_VISITED_MOSSDEEP_CITY)) {
+    pokemart(Pory_Pokemart_VisitedMossdeep)
+  } elif (flag(FLAG_VISITED_FORTREE_CITY)) {
+    pokemart(Pory_Pokemart_VisitedFortree)
+  } elif (flag(FLAG_VISITED_LAVARIDGE_TOWN)) {
+    pokemart(Pory_Pokemart_VisitedLavaridge)
+  } elif (flag(FLAG_VISITED_FALLARBOR_TOWN)) {
+    pokemart(Pory_Pokemart_VisitedFallarbor)
+  } elif (flag(FLAG_VISITED_VERDANTURF_TOWN)) {
+    pokemart(Pory_Pokemart_VisitedVerdanturf)
+  } elif (flag(FLAG_VISITED_MAUVILLE_CITY)) {
+    pokemart(Pory_Pokemart_VisitedMauville)
+  } elif (flag(FLAG_VISITED_SLATEPORT_CITY)) {
+    pokemart(Pory_Pokemart_VisitedSlateport)
+  } elif (flag(FLAG_VISITED_RUSTBORO_CITY)) {
+    pokemart(Pory_Pokemart_VisitedRustboro)
+  } elif (flag(FLAG_VISITED_PETALBURG_CITY)) {
+    pokemart(Pory_Pokemart_VisitedPetalburg)
+  } else {
+    pokemart(Pory_Pokemart_VisitedOldale)
+  }
+}
+
+script Pory_EventScript_Pokemart_Clerk {
+  lock
+  faceplayer
+  call(Pory_EventScript_Pokemart_ClerkHellos)
+  waitmessage
+  call(Pory_EventScript_Pokemart_ByVisited)
+  call(Pory_EventScript_Pokemart_ClerkGoodbyes)
+  release
+  end
+}
+
+script Pory_EventScript_Pokemart_ClerkHellos {
+  if (flag(FLAG_SYS_GAME_CLEAR)) {
+    random(8)
+    switch (var(VAR_RESULT)) {
+      case 0: msgbox(format("{FONT_SMALL}…Is …Is that the league champion?!"))
+      case 1: msgbox(format("{FONT_SMALL}…I'm pretty sure that's the champion!"))
+    }
+  }
+  if (!flag(FLAG_BADGE01_GET)) {
+    random(3)
+    switch (var(VAR_RESULT)) {
+      case 0: message(format("Welcome! How may I serve you?"))
+      case 1: message(format("Hello! What can I do for you?"))
+      case 2: message(format("Hi! How can I help you?"))
+    }
+  } else {
+    random(16)
+    switch (var(VAR_RESULT)) {
+      case  0: message(format("Welcome! How may I serve you?"))
+      case  1: message(format("Welcome! How may I serve you?"))
+      case  2: message(format("Welcome! How may I serve you?"))
+      case  3: message(format("Hello! What can I do for you?"))
+      case  4: message(format("Hello! What can I do for you?"))
+      case  5: message(format("Hello! What can I do for you?"))
+      case  6: message(format("Hi! How can I help you?"))
+      case  7: message(format("Hi! How can I help you?"))
+      case  8: message(format("Hi! How can I help you?"))
+      case  9: message(format("Hey! What can I get you?"))
+      case 10: message(format("Hey! What can I get you?"))
+      case 11: message(format("How's it going? Know what you want already?"))
+      case 12: message(format("How's it going? Know what you want already?"))
+      case 13: message(format("Hello, hello! What did you need?"))
+      case 14: message(format("Hello, hello! What did you need?"))
+      case 15: message(format("{FONT_SMALL}Man, X items are so busted now, it's a joke…\p{FONT_NORMAL}Hey, what's up?"))
+    }
+  }
+}
+
+script Pory_EventScript_Pokemart_ClerkGoodbyes {
+  if (!flag(FLAG_BADGE01_GET)) {
+    random(4)
+    switch (var(VAR_RESULT)) {
+      case 0: msgbox(format("Please come again!"))
+      case 1: msgbox(format("Until next time!"))
+      case 2: msgbox(format("See you later!"))
+      case 3: msgbox(format("Goodbye!"))
+    }
+  } else {
+    random(11)
+    switch (var(VAR_RESULT)) {
+      case  0: msgbox(format("Please come again!"))
+      case  1: msgbox(format("Until next time!"))
+      case  2: msgbox(format("See you later!"))
+      case  3: msgbox(format("Goodbye!"))
+      case  4: msgbox(format("Bye bye!"))
+      case  5: msgbox(format("Bye now!"))
+      case  6: msgbox(format("Bye!"))
+      case  7: msgbox(format("Ciao!"))
+      case  8: msgbox(format("Have fun out there!"))
+      case  9: msgbox(format("Good luck!"))
+      case 10: msgbox(format("You'll do great!"))
+    }
+  }
+}
