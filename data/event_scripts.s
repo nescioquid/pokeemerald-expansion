@@ -1080,3 +1080,4 @@ EventScript_VsSeekerChargingDone::
 .include "data/scripts/pory/quality_of_life/seashore_house.inc"
 .include "data/scripts/pory/quality_of_life/nurse_joy.inc"
 .include "data/scripts/pory/items/mom.inc"
+.include "data/scripts/pory/marts_by_badges/mail_salesman.inc"

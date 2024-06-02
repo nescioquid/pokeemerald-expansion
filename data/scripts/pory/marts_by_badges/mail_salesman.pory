@@ -1,0 +1,37 @@
+// adds an NPC that sells mail in the Slateport Market
+
+script Pory_EventScript_MailSalesman {
+  lock
+  faceplayer
+  checkitem(ITEM_HARBOR_MAIL)
+  if (!var(VAR_RESULT)) {
+    message(format("I sell you Harbor Mail. You buy my Harbor Mail. We never speak again. Sound good?"))
+  } else {
+    message(format("Why are you talking to me again?"))
+  }
+  waitmessage
+  pokemart(Pory_Pokemart_Mail)
+  checkitem(ITEM_HARBOR_MAIL)
+  if (var(VAR_RESULT)) {
+    msgbox(format("{FONT_SMALL}Enjoy gambling without me…"))
+  } else {
+    msgbox(format("Mail your dreams come to pass."))
+  }
+  release
+  end
+}
+
+mart Pory_Pokemart_Mail {
+  ITEM_ORANGE_MAIL
+  ITEM_HARBOR_MAIL
+  ITEM_GLITTER_MAIL
+  ITEM_MECH_MAIL
+  ITEM_WOOD_MAIL
+  ITEM_WAVE_MAIL
+  ITEM_BEAD_MAIL
+  ITEM_SHADOW_MAIL
+  ITEM_TROPIC_MAIL
+  ITEM_DREAM_MAIL
+  ITEM_FAB_MAIL
+  ITEM_RETRO_MAIL
+}
