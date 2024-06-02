@@ -126,6 +126,7 @@ mart Pory_Pokemart_AdventureNotStarted {
 
 mart Pory_Pokemart_VisitedOldale {
   ITEM_POKE_BALL     // new
+  ITEM_QUICK_BALL    // new
   ITEM_POTION
   ITEM_ANTIDOTE
   ITEM_PARALYZE_HEAL
@@ -135,6 +136,7 @@ mart Pory_Pokemart_VisitedOldale {
 
 mart Pory_Pokemart_VisitedPetalburg {
   ITEM_POKE_BALL
+  ITEM_QUICK_BALL
   ITEM_POTION
   ITEM_ANTIDOTE
   ITEM_PARALYZE_HEAL
@@ -149,6 +151,7 @@ mart Pory_Pokemart_VisitedPetalburg {
 
 mart Pory_Pokemart_VisitedRustboro {
   ITEM_POKE_BALL
+  ITEM_QUICK_BALL
   ITEM_TIMER_BALL    // new
   ITEM_REPEAT_BALL   // new
   ITEM_SUPER_POTION  // new
@@ -166,6 +169,7 @@ mart Pory_Pokemart_VisitedRustboro {
 
 mart Pory_Pokemart_VisitedSlateport {
   ITEM_GREAT_BALL    // new
+  ITEM_QUICK_BALL
   ITEM_SUPER_POTION
   ITEM_ANTIDOTE
   ITEM_PARALYZE_HEAL
@@ -184,6 +188,7 @@ mart Pory_Pokemart_VisitedSlateport {
 
 mart Pory_Pokemart_VisitedMauville {
   ITEM_GREAT_BALL
+  ITEM_QUICK_BALL
   ITEM_SUPER_POTION
   ITEM_ANTIDOTE
   ITEM_PARALYZE_HEAL
@@ -205,6 +210,7 @@ mart Pory_Pokemart_VisitedMauville {
 
 mart Pory_Pokemart_VisitedVerdanturf {
   ITEM_GREAT_BALL
+  ITEM_QUICK_BALL
   ITEM_NEST_BALL     // new
   ITEM_SUPER_POTION
   ITEM_ANTIDOTE
@@ -231,6 +237,7 @@ mart Pory_Pokemart_VisitedVerdanturf {
 
 mart Pory_Pokemart_VisitedFallarbor {
   ITEM_GREAT_BALL
+  ITEM_QUICK_BALL
   ITEM_SUPER_POTION
   ITEM_ANTIDOTE
   ITEM_PARALYZE_HEAL
@@ -258,6 +265,7 @@ mart Pory_Pokemart_VisitedFallarbor {
 
 mart Pory_Pokemart_VisitedLavaridge {
   ITEM_GREAT_BALL
+  ITEM_QUICK_BALL
   ITEM_SUPER_POTION
   ITEM_ANTIDOTE
   ITEM_PARALYZE_HEAL
@@ -286,6 +294,7 @@ mart Pory_Pokemart_VisitedLavaridge {
 
 mart Pory_Pokemart_VisitedFortree {
   ITEM_ULTRA_BALL    // new
+  ITEM_QUICK_BALL
   ITEM_HYPER_POTION  // new
   ITEM_ANTIDOTE
   ITEM_PARALYZE_HEAL
@@ -316,6 +325,7 @@ mart Pory_Pokemart_VisitedFortree {
 
 mart Pory_Pokemart_VisitedMossdeep {
   ITEM_ULTRA_BALL
+  ITEM_QUICK_BALL
   ITEM_NET_BALL      // new
   ITEM_DIVE_BALL     // new
   ITEM_HYPER_POTION
@@ -350,6 +360,7 @@ mart Pory_Pokemart_VisitedMossdeep {
 
 mart Pory_Pokemart_VisitedSootopolis {
   ITEM_ULTRA_BALL
+  ITEM_QUICK_BALL
   ITEM_HYPER_POTION
   ITEM_MAX_POTION    // new
   ITEM_FULL_HEAL
@@ -385,6 +396,7 @@ mart Pory_Pokemart_VisitedSootopolis {
 
 mart Pory_Pokemart_VisitedEverGrande {
   ITEM_ULTRA_BALL
+  ITEM_QUICK_BALL
   ITEM_HYPER_POTION
   ITEM_MAX_POTION
   ITEM_FULL_RESTORE  // new
