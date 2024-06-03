@@ -1114,6 +1114,7 @@ EventScript_VsSeekerChargingDone::
 .include "data/scripts/pory/gt/champion.inc"
 .include "data/scripts/pory/gt/rival_route_104.inc"
 .include "data/scripts/pory/gt/rival_route_103.inc"
+.include "data/scripts/pory/gt/wallace.inc"
 .include "data/scripts/pory/quality_of_life/running_shoes.inc"
 .include "data/maps/Route104North/scripts.inc"
 .include "data/maps/Route104South/scripts.inc"
