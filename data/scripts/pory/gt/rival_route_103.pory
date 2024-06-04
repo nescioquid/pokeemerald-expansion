@@ -1,6 +1,6 @@
 // adds a battle with the Rival in the postgame
 
-script Pory_EventScript_UnhideRival103 {
+script Pory_EventScript_UnhideRivalRoute103 {
   clearflag(FLAG_HIDE_ROUTE_103_RIVAL)
 }
 
