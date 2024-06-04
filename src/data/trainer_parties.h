@@ -12368,3 +12368,41 @@ static const struct TrainerMon sParty_MayLinkPlaceholder[] = {
     .species = SPECIES_KYOGRE,
     }
 };
+
+static const struct TrainerMon sParty_BrendanRoute103Postgame[] = {
+    {
+    .lvl = 60,
+    .species = SPECIES_TOGEPI,
+    },
+    {
+    .lvl = 60,
+    .species = SPECIES_TREECKO,
+    },
+    {
+    .lvl = 60,
+    .species = SPECIES_TORCHIC,
+    },
+    {
+    .lvl = 60,
+    .species = SPECIES_MUDKIP,
+    }
+};
+
+static const struct TrainerMon sParty_MayRoute103Postgame[] = {
+    {
+    .lvl = 60,
+    .species = SPECIES_WYNAUT,
+    },
+    {
+    .lvl = 60,
+    .species = SPECIES_TREECKO,
+    },
+    {
+    .lvl = 60,
+    .species = SPECIES_TORCHIC,
+    },
+    {
+    .lvl = 60,
+    .species = SPECIES_MUDKIP,
+    }
+};
