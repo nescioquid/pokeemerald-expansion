@@ -1268,14 +1268,14 @@
 #define FLAG_UNUSED_0x4C2                                           0x4C2 // Unused Flag
 #define FLAG_UNUSED_0x4C3                                           0x4C3 // Unused Flag
 #define FLAG_UNUSED_0x4C4                                           0x4C4 // Unused Flag
-#define FLAG_RECEIVED_RARE_CANDIES_RUSTBORO_GYM                     0x4C5
-#define FLAG_RECEIVED_RARE_CANDIES_DEWFORD_GYM                      0x4C6
-#define FLAG_RECEIVED_RARE_CANDIES_MAUVILLE_GYM                     0x4C7
-#define FLAG_RECEIVED_RARE_CANDIES_LAVARIDGE_GYM                    0x4C8
-#define FLAG_RECEIVED_RARE_CANDIES_PETALBURG_GYM                    0x4C9
-#define FLAG_RECEIVED_RARE_CANDIES_FORTREE_GYM                      0x4CA
-#define FLAG_RECEIVED_RARE_CANDIES_MOSSDEEP_GYM                     0x4CB
-#define FLAG_RECEIVED_RARE_CANDIES_SOOTOPOLIS_GYM                   0x4CC
+#define FLAG_RECEIVED_RARE_CANDY_RUSTBORO_GYM                       0x4C5
+#define FLAG_RECEIVED_RARE_CANDY_DEWFORD_GYM                        0x4C6
+#define FLAG_RECEIVED_RARE_CANDY_MAUVILLE_GYM                       0x4C7
+#define FLAG_RECEIVED_RARE_CANDY_LAVARIDGE_GYM                      0x4C8
+#define FLAG_RECEIVED_RARE_CANDY_PETALBURG_GYM                      0x4C9
+#define FLAG_RECEIVED_RARE_CANDY_FORTREE_GYM                        0x4CA
+#define FLAG_RECEIVED_RARE_CANDY_MOSSDEEP_GYM                       0x4CB
+#define FLAG_RECEIVED_RARE_CANDY_SOOTOPOLIS_GYM                     0x4CC
 #define FLAG_ROCK_ROUTE111_1                                        0x4CD
 #define FLAG_ROCK_ROUTE111_2                                        0x4CE
 #define FLAG_RECEIVED_LINKING_CORD                                  0x4CF
