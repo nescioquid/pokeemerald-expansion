@@ -1279,7 +1279,7 @@
 #define FLAG_ROCK_ROUTE111_1                                        0x4CD
 #define FLAG_ROCK_ROUTE111_2                                        0x4CE
 #define FLAG_RECEIVED_LINKING_CORD                                  0x4CF
-#define FLAG_META_BOY_ON_THE_BEACH                                  0x4D0
+#define FLAG_HIDE_ROUTE_109_META_BOY                                0x4D0
 #define FLAG_RECEIVED_JOHTO_STARTER                                 0x4D1
 #define FLAG_RECEIVED_FRESH_WATER_RUSTBORO_GYM                      0x4D2
 #define FLAG_RECEIVED_FRESH_WATER_DEWFORD_GYM                       0x4D3
