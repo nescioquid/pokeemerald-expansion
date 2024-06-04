@@ -12406,3 +12406,10 @@ static const struct TrainerMon sParty_MayRoute103Postgame[] = {
     .species = SPECIES_MUDKIP,
     }
 };
+
+static const struct TrainerMon sParty_MetaBoy[] = {
+    {
+    .lvl = 60,
+    .species = SPECIES_MAGIKARP,
+    }
+};
