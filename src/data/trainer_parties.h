@@ -7891,14 +7891,14 @@ static const struct TrainerMon sParty_TabithaMtChimney[] = {
     .lvl = 25,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_SAND_ATTACK, MOVE_ASSURANCE, MOVE_TAUNT, MOVE_FIRE_FANG}
+    .moves = {MOVE_SNARL, MOVE_SCARY_FACE, MOVE_CRUNCH, MOVE_FIRE_FANG}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_NEUTRALIZING_GAS,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_SLUDGE, MOVE_SMOKESCREEN, MOVE_FLAMETHROWER, MOVE_SELF_DESTRUCT}
+    .species = SPECIES_WEEZING,
+    .moves = {MOVE_SMOKESCREEN, MOVE_SLUDGE_BOMB, MOVE_SELF_DESTRUCT, MOVE_SHADOW_BALL}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -8015,16 +8015,16 @@ static const struct TrainerMon sParty_MaxieMtChimney[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
-    .ability = ABILITY_INTIMIDATE,
-    .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_SNARL, MOVE_SCARY_FACE, MOVE_CRUNCH, MOVE_FIRE_FANG}
+    .ability = ABILITY_ROCK_HEAD,
+    .species = SPECIES_MAROWAK,
+    .moves = {MOVE_FOCUS_ENERGY, MOVE_BONE_RUSH, MOVE_AERIAL_ACE, MOVE_THIEF}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
-    .ability = ABILITY_NEUTRALIZING_GAS,
-    .species = SPECIES_WEEZING,
-    .moves = {MOVE_SMOKESCREEN, MOVE_SLUDGE_BOMB, MOVE_SELF_DESTRUCT, MOVE_SHADOW_BALL}
+    .ability = ABILITY_PRESSURE,
+    .species = SPECIES_DUSCLOPS,
+    .moves = {MOVE_PURSUIT, MOVE_WILL_O_WISP, MOVE_CURSE, MOVE_HEX}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
