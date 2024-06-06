@@ -3508,28 +3508,35 @@ static const struct TrainerMon sParty_Winona1[] = {
 
 static const struct TrainerMon sParty_TateAndLiza1[] = {
     {
-    .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
-    .lvl = 41,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_CHLOROPHYLL,
     .species = SPECIES_EXEGGUTOR,
-    .moves = {MOVE_PSYCHIC, MOVE_SLEEP_POWDER, MOVE_SOLAR_BEAM, MOVE_DREAM_EATER}
+    .heldItem = ITEM_MARANGA_BERRY,
+    .moves = {MOVE_PSYCHIC, MOVE_SLEEP_POWDER, MOVE_ENERGY_BALL, MOVE_DREAM_EATER}
     },
     {
-    .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
-    .lvl = 41,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_SYNCHRONIZE,
     .species = SPECIES_XATU,
-    .moves = {MOVE_PSYCHIC, MOVE_SUNNY_DAY, MOVE_CONFUSE_RAY, MOVE_CALM_MIND}
+    .heldItem = ITEM_JABOCA_BERRY,
+    .moves = {MOVE_PSYCHIC, MOVE_CONFUSE_RAY, MOVE_CALM_MIND, MOVE_TRICK_ROOM}
     },
     {
-    .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
-    .lvl = 42,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_NATURAL_CURE,
     .species = SPECIES_STARMIE,
+    .heldItem = ITEM_ROWAP_BERRY,
     .moves = {MOVE_PSYCHIC, MOVE_SURF, MOVE_ICE_BEAM, MOVE_THUNDERBOLT}
     },
     {
-    .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
-    .lvl = 42,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_SYNCHRONIZE,
     .species = SPECIES_ALAKAZAM,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_KEE_BERRY,
     .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_FOCUS_BLAST, MOVE_CALM_MIND}
     }
 };
