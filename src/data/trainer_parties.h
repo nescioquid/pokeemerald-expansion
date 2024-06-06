@@ -3190,7 +3190,7 @@ static const struct TrainerMon sParty_Phoebe[] = {
     .lvl = 50,
     .ability = ABILITY_INSOMNIA,
     .species = SPECIES_BANETTE,
-    .moves = {MOVE_SHADOW_CLAW, MOVE_SUCKER_PUNCH, MOVE_DESTINY_BOND, MOVE_WILL_O_WISP}
+    .moves = {MOVE_SHADOW_FORCE, MOVE_SUCKER_PUNCH, MOVE_DESTINY_BOND, MOVE_WILL_O_WISP}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
