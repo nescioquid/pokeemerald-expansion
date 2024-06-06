@@ -353,19 +353,32 @@ static const struct TrainerMon sParty_Fredrick[] = {
 
 static const struct TrainerMon sParty_Matt[] = {
     {
-    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
-    .lvl = 34,
-    .species = SPECIES_MIGHTYENA,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_HYPER_CUTTER,
+    .species = SPECIES_KINGLER,
+    .moves = {MOVE_CRABHAMMER, MOVE_DIG, MOVE_X_SCISSOR, MOVE_SWORDS_DANCE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
-    .lvl = 34,
-    .species = SPECIES_GOLBAT,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_INNER_FOCUS,
+    .species = SPECIES_CROBAT,
+    .moves = {MOVE_CROSS_POISON, MOVE_WING_ATTACK, MOVE_HAZE, MOVE_U_TURN}
     },
     {
-    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
-    .lvl = 34,
-    .species = SPECIES_GRIMER,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_INSOMNIA,
+    .species = SPECIES_BANETTE,
+    .moves = {MOVE_KNOCK_OFF, MOVE_SHADOW_SNEAK, MOVE_EMBARGO, MOVE_SHADOW_CLAW}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 30,
+    .ability = ABILITY_ROUGH_SKIN,
+    .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_AQUA_JET, MOVE_POISON_FANG, MOVE_CRUNCH, MOVE_TAUNT}
     }
 };
 
