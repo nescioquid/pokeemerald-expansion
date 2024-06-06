@@ -3477,6 +3477,7 @@ static const struct TrainerMon sParty_Winona1[] = {
     .lvl = 30,
     .ability = ABILITY_TANGLED_FEET,
     .species = SPECIES_PIDGEOT,
+    .heldItem = ITEM_CHARTI_BERRY,
     .moves = {MOVE_AERIAL_ACE, MOVE_ROOST, MOVE_TAILWIND, MOVE_U_TURN}
     },
     {
@@ -3484,6 +3485,7 @@ static const struct TrainerMon sParty_Winona1[] = {
     .lvl = 30,
     .ability = ABILITY_SERENE_GRACE,
     .species = SPECIES_TOGEKISS,
+    .heldItem = ITEM_KEBIA_BERRY,
     .moves = {MOVE_AIR_SLASH, MOVE_ROOST, MOVE_DAZZLING_GLEAM, MOVE_NASTY_PLOT}
     },
     {
@@ -3491,6 +3493,7 @@ static const struct TrainerMon sParty_Winona1[] = {
     .lvl = 30,
     .ability = ABILITY_STURDY,
     .species = SPECIES_SKARMORY,
+    .heldItem = ITEM_WACAN_BERRY,
     .moves = {MOVE_SPIKES, MOVE_STEEL_WING, MOVE_DRILL_PECK, MOVE_WHIRLWIND}
     },
     {
@@ -3498,7 +3501,7 @@ static const struct TrainerMon sParty_Winona1[] = {
     .lvl = 30,
     .ability = ABILITY_NATURAL_CURE,
     .species = SPECIES_ALTARIA,
-    .heldItem = ITEM_PINAP_BERRY,
+    .heldItem = ITEM_YACHE_BERRY,
     .moves = {MOVE_PLUCK, MOVE_DRAGON_DANCE, MOVE_DRAGON_PULSE, MOVE_EARTHQUAKE}
     }
 };
