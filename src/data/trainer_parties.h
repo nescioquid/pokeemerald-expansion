@@ -380,16 +380,16 @@ static const struct TrainerMon sParty_ShellyWeatherInstitute[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 30,
-    .ability = ABILITY_INNER_FOCUS,
-    .species = SPECIES_GOLBAT,
-    .moves = {MOVE_CONFUSE_RAY, MOVE_POISON_FANG, MOVE_ACROBATICS, MOVE_U_TURN}
+    .ability = ABILITY_INTIMIDATE,
+    .species = SPECIES_MIGHTYENA,
+    .moves = {MOVE_SCARY_FACE, MOVE_CRUNCH, MOVE_SUCKER_PUNCH, MOVE_FIRE_FANG}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 30,
-    .ability = ABILITY_INTIMIDATE,
-    .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_EMBARGO, MOVE_CRUNCH, MOVE_SUCKER_PUNCH, MOVE_FIRE_FANG}
+    .ability = ABILITY_GUTS,
+    .species = SPECIES_MACHOKE,
+    .moves = {MOVE_LOW_SWEEP, MOVE_KNOCK_OFF, MOVE_ROCK_TOMB, MOVE_POISON_JAB}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -403,7 +403,7 @@ static const struct TrainerMon sParty_ShellyWeatherInstitute[] = {
     .lvl = 30,
     .ability = ABILITY_ROUGH_SKIN,
     .species = SPECIES_SHARPEDO,
-    .moves = {MOVE_AQUA_JET, MOVE_SCREECH, MOVE_POISON_FANG, MOVE_CRUNCH}
+    .moves = {MOVE_AQUA_JET, MOVE_SCARY_FACE, MOVE_POISON_FANG, MOVE_CRUNCH}
     }
 };
 
