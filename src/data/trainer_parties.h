@@ -6512,35 +6512,44 @@ static const struct TrainerMon sParty_Edwin5[] = {
 
 static const struct TrainerMon sParty_WallyVR1[] = {
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 44,
-    .species = SPECIES_ALTARIA,
-    .moves = {MOVE_AERIAL_ACE, MOVE_SAFEGUARD, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE}
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 50,
+    .ability = ABILITY_VOLT_ABSORB,
+    .species = SPECIES_JOLTEON,
+    .heldItem = ITEM_MAGNET,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_SHADOW_BALL, MOVE_VOLT_SWITCH, MOVE_WISH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 43,
-    .ability = ABILITY_TECHNICIAN,
-    .species = SPECIES_AMBIPOM,
-    .moves = {MOVE_FAKE_OUT, MOVE_RETALIATE, MOVE_LOW_KICK, MOVE_SHADOW_CLAW}
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 50,
+    .ability = ABILITY_WATER_ABSORB,
+    .species = SPECIES_VAPOREON,
+    .heldItem = ITEM_MYSTIC_WATER,
+    .moves = {MOVE_AURORA_BEAM, MOVE_ACID_ARMOR, MOVE_MUDDY_WATER, MOVE_WISH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 44,
-    .species = SPECIES_JUMPLUFF,
-    .moves = {MOVE_ENERGY_BALL, MOVE_ACROBATICS, MOVE_SLEEP_POWDER, MOVE_LEECH_SEED}
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 50,
+    .ability = ABILITY_FLASH_FIRE,
+    .species = SPECIES_FLAREON,
+    .heldItem = ITEM_CHARCOAL,
+    .moves = {MOVE_QUICK_ATTACK, MOVE_FLARE_BLITZ, MOVE_RETALIATE, MOVE_WISH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 41,
-    .species = SPECIES_MAGNEZONE,
-    .moves = {MOVE_SUPERSONIC, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_SCREECH}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
-    .lvl = 45,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 50,
+    .ability = ABILITY_SYNCHRONIZE,
     .species = SPECIES_ESPEON,
-    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_MORNING_SUN, MOVE_CALM_MIND}
+    .heldItem = ITEM_TWISTED_SPOON,
+    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_CALM_MIND, MOVE_WISH}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 50,
+    .ability = ABILITY_SYNCHRONIZE,
+    .species = SPECIES_UMBREON,
+    .heldItem = ITEM_BLACK_GLASSES,
+    .moves = {MOVE_CONFUSE_RAY, MOVE_SNARL, MOVE_CHARM, MOVE_WISH}
     }
 };
 
