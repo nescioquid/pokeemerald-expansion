@@ -3170,13 +3170,6 @@ static const struct TrainerMon sParty_Sidney[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 50,
-    .ability = ABILITY_EARLY_BIRD,
-    .species = SPECIES_HOUNDOOM,
-    .moves = {MOVE_DARK_PULSE, MOVE_FLAMETHROWER, MOVE_SLUDGE_BOMB, MOVE_NASTY_PLOT}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 50,
     .ability = ABILITY_UNNERVE,
     .species = SPECIES_TYRANITAR,
     .heldItem = ITEM_SITRUS_BERRY,
@@ -3185,13 +3178,6 @@ static const struct TrainerMon sParty_Sidney[] = {
 };
 
 static const struct TrainerMon sParty_Phoebe[] = {
-    {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 50,
-    .species = SPECIES_SHEDINJA,
-    .heldItem = ITEM_FOCUS_SASH,
-    .moves = {MOVE_SHADOW_SNEAK, MOVE_X_SCISSOR, MOVE_SWORDS_DANCE, MOVE_WILL_O_WISP}
-    },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 50,
@@ -3231,13 +3217,6 @@ static const struct TrainerMon sParty_Glacia[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 50,
-    .ability = ABILITY_SKILL_LINK,
-    .species = SPECIES_CLOYSTER,
-    .moves = {MOVE_ICICLE_SPEAR, MOVE_RAZOR_SHELL, MOVE_EXPLOSION, MOVE_SHELL_SMASH}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 50,
     .species = SPECIES_JYNX,
     .moves = {MOVE_ICE_BEAM, MOVE_PSYCHIC, MOVE_NASTY_PLOT, MOVE_LOVELY_KISS}
     },
@@ -3270,13 +3249,6 @@ static const struct TrainerMon sParty_Drake[] = {
     .lvl = 50,
     .species = SPECIES_ALTARIA,
     .moves = {MOVE_DRAGON_PULSE, MOVE_ACROBATICS, MOVE_FLAMETHROWER, MOVE_ROOST}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 50,
-    .ability = ABILITY_SNIPER,
-    .species = SPECIES_KINGDRA,
-    .moves = {MOVE_SCALD, MOVE_WATERFALL, MOVE_ICE_BEAM, MOVE_FLASH_CANNON}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -11607,21 +11579,6 @@ static const struct TrainerMon sParty_Steven[] = {
     .species = SPECIES_SCIZOR,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BULLET_PUNCH, MOVE_U_TURN, MOVE_ROOST, MOVE_SWORDS_DANCE}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 50,
-    .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_BRAVE_BIRD, MOVE_COUNTER, MOVE_SANDSTORM, MOVE_ROOST}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 50,
-    .ability = ABILITY_STURDY,
-    .species = SPECIES_MAGNEZONE,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_FLASH_CANNON, MOVE_THUNDERBOLT, MOVE_VOLT_SWITCH, MOVE_EXPLOSION}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
