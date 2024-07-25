@@ -11589,31 +11589,31 @@ static const struct TrainerMon sParty_Steven[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 50,
+    .ability = ABILITY_STURDY,
+    .species = SPECIES_FORRETRESS,
+    .heldItem = ITEM_METAL_COAT,
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_EXPLOSION, MOVE_GYRO_BALL, MOVE_VOLT_SWITCH}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
     .ability = ABILITY_TECHNICIAN,
     .species = SPECIES_SCIZOR,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_METAL_COAT,
     .moves = {MOVE_BULLET_PUNCH, MOVE_U_TURN, MOVE_ROOST, MOVE_SWORDS_DANCE}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 50,
-    .ability = ABILITY_SOLID_ROCK,
-    .species = SPECIES_RHYPERIOR,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_DRILL_RUN, MOVE_STONE_EDGE, MOVE_MEGAHORN, MOVE_ICE_PUNCH}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 50,
     .species = SPECIES_STEELIX,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_METAL_COAT,
     .moves = {MOVE_GYRO_BALL, MOVE_EARTHQUAKE, MOVE_CURSE, MOVE_ROAR}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
     .lvl = 50,
     .species = SPECIES_METAGROSS,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_METAL_COAT,
     .moves = {MOVE_METEOR_MASH, MOVE_ZEN_HEADBUTT, MOVE_HAMMER_ARM, MOVE_ROCK_POLISH}
     }
 };
