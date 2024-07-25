@@ -3376,17 +3376,17 @@ static const struct TrainerMon sParty_Flannery1[] = {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .gender = TRAINER_MON_FEMALE,
-    .ability = ABILITY_DROUGHT,
+    .ability = ABILITY_FLASH_FIRE,
     .species = SPECIES_NINETALES,
     .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_NASTY_PLOT, MOVE_SOLAR_BEAM, MOVE_OVERHEAT, MOVE_ATTRACT}
+    .moves = {MOVE_SUNNY_DAY, MOVE_SOLAR_BEAM, MOVE_OVERHEAT, MOVE_ATTRACT}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_FLASH_FIRE,
     .species = SPECIES_RAPIDASH,
-    .heldItem = ITEM_PINAP_BERRY,
+    .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_MEGAHORN, MOVE_FLAME_CHARGE, MOVE_SUNNY_DAY, MOVE_WILD_CHARGE}
     },
     {
