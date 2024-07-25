@@ -453,6 +453,7 @@ static const struct TrainerMon sParty_Archie[] = {
     .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
     .lvl = 43,
     .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_AQUA_JET, MOVE_POISON_FANG, MOVE_CRUNCH, MOVE_TAUNT}
     }
 };
 
@@ -4326,45 +4327,36 @@ static const struct TrainerMon sParty_Timmy[] = {
 static const struct TrainerMon sParty_Wallace[] = {
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 60,
+    .lvl = 50,
+    .ability = ABILITY_SWIFT_SWIM,
+    .species = SPECIES_LUDICOLO,
+    .heldItem = ITEM_MYSTIC_WATER,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_FAKE_OUT, MOVE_HYDRO_PUMP, MOVE_RAIN_DANCE}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_OBLIVIOUS,
     .species = SPECIES_WAILORD,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_WATER_SPOUT, MOVE_ICE_BEAM, MOVE_AQUA_RING, MOVE_RAIN_DANCE}
+    .heldItem = ITEM_MYSTIC_WATER,
+    .moves = {MOVE_HEAVY_SLAM, MOVE_WATER_SPOUT, MOVE_ICE_BEAM, MOVE_AQUA_RING}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 60,
-    .species = SPECIES_TENTACRUEL,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SCALD, MOVE_SLUDGE_BOMB, MOVE_ICE_BEAM, MOVE_TOXIC}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 60,
-    .species = SPECIES_GYARADOS,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .lvl = 50,
+    .ability = ABILITY_OBLIVIOUS,
+    .species = SPECIES_WHISCASH,
+    .heldItem = ITEM_MYSTIC_WATER,
     .moves = {MOVE_WATERFALL, MOVE_HURRICANE, MOVE_EARTHQUAKE, MOVE_DRAGON_DANCE}
     },
     {
     .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 60,
-    .species = SPECIES_BLASTOISE,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SCALD, MOVE_ICE_BEAM, MOVE_PROTECT, MOVE_RAIN_DANCE}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 60,
-    .species = SPECIES_FERALIGATR,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_WATERFALL, MOVE_ICE_PUNCH, MOVE_CRUNCH, MOVE_DRAGON_DANCE}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-    .lvl = 60,
-    .species = SPECIES_SWAMPERT,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_WATERFALL, MOVE_EARTHQUAKE, MOVE_ICE_PUNCH, MOVE_RAIN_DANCE}
+    .lvl = 50,
+    .gender = TRAINER_MON_FEMALE,
+    .ability = ABILITY_MARVEL_SCALE,
+    .species = SPECIES_MILOTIC,
+    .heldItem = ITEM_MYSTIC_WATER,
+    .moves = {MOVE_RECOVER, MOVE_ATTRACT, MOVE_ICE_BEAM, MOVE_SCALD}
     }
 };
 
