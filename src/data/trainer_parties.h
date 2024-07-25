@@ -435,25 +435,33 @@ static const struct TrainerMon sParty_ShellySeafloorCavern[] = {
 
 static const struct TrainerMon sParty_Archie[] = {
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 41,
-    .species = SPECIES_MIGHTYENA,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_DRIZZLE,
+    .species = SPECIES_PELIPPER,
+    .heldItem = ITEM_DAMP_ROCK,
+    .moves = {MOVE_HURRICANE, MOVE_TAILWIND, MOVE_U_TURN, MOVE_SURF}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 41,
-    .species = SPECIES_CROBAT,
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 41,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_STENCH,
     .species = SPECIES_MUK,
+    .moves = {MOVE_GUNK_SHOT, MOVE_ACID_ARMOR, MOVE_SHADOW_SNEAK, MOVE_DIG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 43,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_HYPER_CUTTER,
+    .species = SPECIES_KINGLER,
+    .moves = {MOVE_CRABHAMMER, MOVE_DIG, MOVE_X_SCISSOR, MOVE_SWORDS_DANCE}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_SPEED_BOOST,
     .species = SPECIES_SHARPEDO,
-    .moves = {MOVE_AQUA_JET, MOVE_POISON_FANG, MOVE_CRUNCH, MOVE_TAUNT}
+    .moves = {MOVE_ICE_FANG, MOVE_POISON_FANG, MOVE_CRUNCH, MOVE_WATERFALL}
     }
 };
 
