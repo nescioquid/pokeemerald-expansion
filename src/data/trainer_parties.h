@@ -3149,20 +3149,20 @@ static const struct TrainerMon sParty_Walter5[] = {
 
 static const struct TrainerMon sParty_Sidney[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .ability = ABILITY_SUPER_LUCK,
     .species = SPECIES_HONCHKROW,
     .moves = {MOVE_BRAVE_BIRD, MOVE_SUCKER_PUNCH, MOVE_NIGHT_SLASH, MOVE_U_TURN}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .species = SPECIES_WEAVILE,
     .moves = {MOVE_ICICLE_CRASH, MOVE_ICE_SHARD, MOVE_NIGHT_SLASH, MOVE_SCREECH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .species = SPECIES_CACTURNE,
     .moves = {MOVE_SEED_BOMB, MOVE_SUCKER_PUNCH, MOVE_SUPERPOWER, MOVE_SWORDS_DANCE}
@@ -3179,20 +3179,20 @@ static const struct TrainerMon sParty_Sidney[] = {
 
 static const struct TrainerMon sParty_Phoebe[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .species = SPECIES_MISMAGIUS,
     .moves = {MOVE_SHADOW_BALL, MOVE_CURSE, MOVE_PAIN_SPLIT, MOVE_WILL_O_WISP}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .ability = ABILITY_INSOMNIA,
     .species = SPECIES_BANETTE,
     .moves = {MOVE_SHADOW_FORCE, MOVE_SUCKER_PUNCH, MOVE_DESTINY_BOND, MOVE_WILL_O_WISP}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .species = SPECIES_DUSKNOIR,
     .moves = {MOVE_SHADOW_SNEAK, MOVE_POWER_UP_PUNCH, MOVE_CONFUSE_RAY, MOVE_WILL_O_WISP}
@@ -3208,20 +3208,20 @@ static const struct TrainerMon sParty_Phoebe[] = {
 
 static const struct TrainerMon sParty_Glacia[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .ability = ABILITY_SHELL_ARMOR,
     .species = SPECIES_LAPRAS,
     .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_PERISH_SONG, MOVE_SNOWSCAPE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .species = SPECIES_JYNX,
     .moves = {MOVE_ICE_BEAM, MOVE_PSYCHIC, MOVE_NASTY_PLOT, MOVE_LOVELY_KISS}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .ability = ABILITY_SNOW_CLOAK,
     .species = SPECIES_MAMOSWINE,
@@ -3239,19 +3239,19 @@ static const struct TrainerMon sParty_Glacia[] = {
 
 static const struct TrainerMon sParty_Drake[] = {
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .species = SPECIES_FLYGON,
     .moves = {MOVE_DRAGON_CLAW, MOVE_STONE_EDGE, MOVE_EARTHQUAKE, MOVE_U_TURN}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .species = SPECIES_ALTARIA,
     .moves = {MOVE_DRAGON_PULSE, MOVE_ACROBATICS, MOVE_FLAMETHROWER, MOVE_ROOST}
     },
     {
-    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 50,
     .species = SPECIES_DRAGONITE,
     .heldItem = ITEM_SITRUS_BERRY,
