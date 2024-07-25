@@ -3515,35 +3515,36 @@ static const struct TrainerMon sParty_TateAndLiza1[] = {
 
 static const struct TrainerMon sParty_Juan1[] = {
     {
-    .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
-    .lvl = 41,
-    .species = SPECIES_POLIWAG,
-    .moves = {MOVE_HYPNOSIS, MOVE_RAIN_DANCE, MOVE_PROTECT, MOVE_SCALD}
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_VOLT_ABSORB,
+    .species = SPECIES_LANTURN,
+    .heldItem = ITEM_SALAC_BERRY,
+    .moves = {MOVE_SIGNAL_BEAM, MOVE_RAIN_DANCE, MOVE_THUNDER, MOVE_VOLT_SWITCH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
-    .lvl = 41,
-    .species = SPECIES_WHISCASH,
-    .moves = {MOVE_RAIN_DANCE, MOVE_AMNESIA, MOVE_EARTHQUAKE, MOVE_SCALD}
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_SWIFT_SWIM,
+    .species = SPECIES_HUNTAIL,
+    .heldItem = ITEM_GANLON_BERRY,
+    .moves = {MOVE_ICE_FANG, MOVE_SUCKER_PUNCH, MOVE_AQUA_TAIL, MOVE_SHELL_SMASH}
     },
     {
-    .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
-    .lvl = 43,
-    .species = SPECIES_SEALEO,
-    .moves = {MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_AURORA_BEAM, MOVE_WATER_PULSE}
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_SWIFT_SWIM,
+    .species = SPECIES_GOREBYSS,
+    .heldItem = ITEM_APICOT_BERRY,
+    .moves = {MOVE_PSYCHIC, MOVE_SHELL_SMASH, MOVE_ICE_BEAM, MOVE_SCALD}
     },
     {
-    .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
-    .lvl = 43,
-    .species = SPECIES_KINGLER,
-    .moves = {MOVE_CRABHAMMER, MOVE_PROTECT, MOVE_LEER, MOVE_SCALD}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
-    .lvl = 46,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_SWIFT_SWIM,
     .species = SPECIES_KINGDRA,
     .heldItem = ITEM_CHESTO_BERRY,
-    .moves = {MOVE_NONE, MOVE_ICE_BEAM, MOVE_REST, MOVE_SCALD}
+    .moves = {MOVE_ICE_BEAM, MOVE_REST, MOVE_SCALD, MOVE_WATERFALL}
     }
 };
 
