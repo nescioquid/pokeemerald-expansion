@@ -362,23 +362,23 @@ static const struct TrainerMon sParty_Matt[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_INNER_FOCUS,
-    .species = SPECIES_CROBAT,
-    .moves = {MOVE_CROSS_POISON, MOVE_WING_ATTACK, MOVE_HAZE, MOVE_U_TURN}
+    .ability = ABILITY_STENCH,
+    .species = SPECIES_MUK,
+    .moves = {MOVE_VENOM_DRENCH, MOVE_GUNK_SHOT, MOVE_ACID_ARMOR, MOVE_SHADOW_SNEAK}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_INSOMNIA,
-    .species = SPECIES_BANETTE,
-    .moves = {MOVE_KNOCK_OFF, MOVE_SHADOW_SNEAK, MOVE_EMBARGO, MOVE_SHADOW_CLAW}
+    .ability = ABILITY_INNER_FOCUS,
+    .species = SPECIES_CROBAT,
+    .moves = {MOVE_CROSS_POISON, MOVE_ACROBATICS, MOVE_CONFUSE_RAY, MOVE_U_TURN}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 30,
-    .ability = ABILITY_ROUGH_SKIN,
-    .species = SPECIES_SHARPEDO,
-    .moves = {MOVE_AQUA_JET, MOVE_POISON_FANG, MOVE_CRUNCH, MOVE_TAUNT}
+    .lvl = 40,
+    .ability = ABILITY_NO_GUARD,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_DYNAMIC_PUNCH, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_POISON_JAB}
     }
 };
 
