@@ -9924,24 +9924,32 @@ static const struct TrainerMon sParty_GruntMagmaHideout16[] = {
 
 static const struct TrainerMon sParty_TabithaMagmaHideout[] = {
     {
-    .iv = TRAINER_PARTY_IVS(9, 9, 9, 9, 9, 9),
-    .lvl = 26,
-    .species = SPECIES_NUMEL,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_INNER_FOCUS,
+    .species = SPECIES_CROBAT,
+    .moves = {MOVE_CROSS_POISON, MOVE_CONFUSE_RAY, MOVE_ACROBATICS, MOVE_U_TURN}
     },
     {
-    .iv = TRAINER_PARTY_IVS(9, 9, 9, 9, 9, 9),
-    .lvl = 28,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
+    .moves = {MOVE_TAUNT, MOVE_SUCKER_PUNCH, MOVE_CRUNCH, MOVE_FIRE_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(9, 9, 9, 9, 9, 9),
-    .lvl = 30,
-    .species = SPECIES_ZUBAT,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_PRESSURE,
+    .species = SPECIES_DUSCLOPS,
+    .moves = {MOVE_PURSUIT, MOVE_WILL_O_WISP, MOVE_CURSE, MOVE_HEX}
     },
     {
-    .iv = TRAINER_PARTY_IVS(9, 9, 9, 9, 9, 9),
-    .lvl = 33,
-    .species = SPECIES_CAMERUPT,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_GUTS,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_CROSS_CHOP, MOVE_KNOCK_OFF, MOVE_ROCK_SLIDE, MOVE_POISON_JAB}
     }
 };
 
