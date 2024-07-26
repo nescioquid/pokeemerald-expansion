@@ -8034,30 +8034,30 @@ static const struct TrainerMon sParty_MaxieMtChimney[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
-    .ability = ABILITY_INNER_FOCUS,
-    .species = SPECIES_CROBAT,
-    .moves = {MOVE_CONFUSE_RAY, MOVE_ACROBATICS, MOVE_VENOSHOCK, MOVE_U_TURN}
+    .ability = ABILITY_DROUGHT,
+    .species = SPECIES_TORKOAL,
+    .moves = {MOVE_SMOKESCREEN, MOVE_LAVA_PLUME, MOVE_ERUPTION, MOVE_GYRO_BALL}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 25,
+    .ability = ABILITY_LEVITATE,
+    .species = SPECIES_WEEZING,
+    .moves = {MOVE_SMOKESCREEN, MOVE_SLUDGE_BOMB, MOVE_EXPLOSION, MOVE_DARK_PULSE}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_ROCK_HEAD,
     .species = SPECIES_MAROWAK,
-    .moves = {MOVE_FOCUS_ENERGY, MOVE_BONE_RUSH, MOVE_AERIAL_ACE, MOVE_THIEF}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 25,
-    .ability = ABILITY_PRESSURE,
-    .species = SPECIES_DUSCLOPS,
-    .moves = {MOVE_PURSUIT, MOVE_WILL_O_WISP, MOVE_CURSE, MOVE_HEX}
+    .moves = {MOVE_HEADBUTT, MOVE_BONE_RUSH, MOVE_AERIAL_ACE, MOVE_THIEF}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
     .ability = ABILITY_SOLID_ROCK,
     .species = SPECIES_CAMERUPT,
-    .moves = {MOVE_MAGNITUDE, MOVE_ROCK_SLIDE, MOVE_YAWN, MOVE_FLAME_CHARGE}
+    .moves = {MOVE_ERUPTION, MOVE_LAVA_PLUME, MOVE_YAWN, MOVE_BULLDOZE}
     }
 };
 
