@@ -8009,24 +8009,33 @@ static const struct TrainerMon sParty_MayRustboroMudkip[] = {
 
 static const struct TrainerMon sParty_MaxieMagmaHideout[] = {
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 37,
-    .species = SPECIES_MIGHTYENA,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_DROUGHT,
+    .species = SPECIES_TORKOAL,
+    .heldItem = ITEM_HEAT_ROCK,
+    .moves = {MOVE_LAVA_PLUME, MOVE_ERUPTION, MOVE_SOLAR_BEAM, MOVE_EXPLOSION}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 38,
-    .species = SPECIES_CROBAT,
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 38,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_LEVITATE,
     .species = SPECIES_WEEZING,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_EXPLOSION, MOVE_THUNDERBOLT, MOVE_DARK_PULSE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 39,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_ROCK_HEAD,
+    .species = SPECIES_MAROWAK,
+    .moves = {MOVE_DOUBLE_EDGE, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 40,
+    .ability = ABILITY_SOLID_ROCK,
     .species = SPECIES_CAMERUPT,
+    .moves = {MOVE_ERUPTION, MOVE_LAVA_PLUME, MOVE_EARTHQUAKE, MOVE_SOLAR_BEAM}
     }
 };
 
