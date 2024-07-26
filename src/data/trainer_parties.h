@@ -422,14 +422,32 @@ static const struct TrainerMon sParty_ShellyWeatherInstitute[] = {
 
 static const struct TrainerMon sParty_ShellySeafloorCavern[] = {
     {
-    .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
-    .lvl = 37,
-    .species = SPECIES_SHARPEDO,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_INTIMIDATE,
+    .species = SPECIES_MIGHTYENA,
+    .moves = {MOVE_HOWL, MOVE_CRUNCH, MOVE_EMBARGO, MOVE_FIRE_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
-    .lvl = 37,
-    .species = SPECIES_MIGHTYENA,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_INNER_FOCUS,
+    .species = SPECIES_CROBAT,
+    .moves = {MOVE_CROSS_POISON, MOVE_ACROBATICS, MOVE_MEAN_LOOK, MOVE_U_TURN}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_INSOMNIA,
+    .species = SPECIES_BANETTE,
+    .moves = {MOVE_KNOCK_OFF, MOVE_SHADOW_SNEAK, MOVE_EMBARGO, MOVE_SHADOW_CLAW}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_GUTS,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_CROSS_CHOP, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_POISON_JAB}
     }
 };
 
