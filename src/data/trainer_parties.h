@@ -7915,6 +7915,13 @@ static const struct TrainerMon sParty_TabithaMtChimney[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
+    .ability = ABILITY_INNER_FOCUS,
+    .species = SPECIES_GOLBAT,
+    .moves = {MOVE_WING_ATTACK, MOVE_CONFUSE_RAY, MOVE_POISON_FANG, MOVE_U_TURN}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 25,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
     .moves = {MOVE_SNARL, MOVE_SCARY_FACE, MOVE_CRUNCH, MOVE_FIRE_FANG}
@@ -7922,23 +7929,16 @@ static const struct TrainerMon sParty_TabithaMtChimney[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
-    .ability = ABILITY_NEUTRALIZING_GAS,
-    .species = SPECIES_WEEZING,
-    .moves = {MOVE_SMOKESCREEN, MOVE_SLUDGE_BOMB, MOVE_SELF_DESTRUCT, MOVE_SHADOW_BALL}
+    .ability = ABILITY_PRESSURE,
+    .species = SPECIES_DUSCLOPS,
+    .moves = {MOVE_PURSUIT, MOVE_WILL_O_WISP, MOVE_CURSE, MOVE_HEX}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 25,
-    .ability = ABILITY_INNER_FOCUS,
-    .species = SPECIES_GOLBAT,
-    .moves = {MOVE_POISON_FANG, MOVE_ASTONISH, MOVE_CONFUSE_RAY, MOVE_WING_ATTACK}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 25,
-    .ability = ABILITY_WHITE_SMOKE,
-    .species = SPECIES_TORKOAL,
-    .moves = {MOVE_SMOKESCREEN, MOVE_CURSE, MOVE_HEAT_WAVE, MOVE_GYRO_BALL}
+    .ability = ABILITY_GUTS,
+    .species = SPECIES_MACHOKE,
+    .moves = {MOVE_LOW_SWEEP, MOVE_KNOCK_OFF, MOVE_ROCK_SLIDE, MOVE_POISON_JAB}
     }
 };
 
