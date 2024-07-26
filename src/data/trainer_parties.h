@@ -9958,19 +9958,26 @@ static const struct TrainerMon sParty_Darcy[] = {
 
 static const struct TrainerMon sParty_MaxieMossdeep[] = {
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 42,
-    .species = SPECIES_MIGHTYENA,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_DROUGHT,
+    .species = SPECIES_TORKOAL,
+    .heldItem = ITEM_HEAT_ROCK,
+    .moves = {MOVE_LAVA_PLUME, MOVE_ERUPTION, MOVE_SOLAR_BEAM, MOVE_EXPLOSION}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 43,
-    .species = SPECIES_CROBAT,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_LEVITATE,
+    .species = SPECIES_WEEZING,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_EXPLOSION, MOVE_THUNDERBOLT, MOVE_DARK_PULSE}
     },
     {
-    .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
-    .lvl = 44,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_SOLID_ROCK,
     .species = SPECIES_CAMERUPT,
+    .moves = {MOVE_ERUPTION, MOVE_LAVA_PLUME, MOVE_EARTHQUAKE, MOVE_SOLAR_BEAM}
     }
 };
 
