@@ -395,28 +395,28 @@ static const struct TrainerMon sParty_ShellyWeatherInstitute[] = {
     .lvl = 30,
     .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
-    .moves = {MOVE_SCARY_FACE, MOVE_CRUNCH, MOVE_SUCKER_PUNCH, MOVE_FIRE_FANG}
+    .moves = {MOVE_HOWL, MOVE_CRUNCH, MOVE_EMBARGO, MOVE_FIRE_FANG}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 30,
+    .ability = ABILITY_INNER_FOCUS,
+    .species = SPECIES_GOLBAT,
+    .moves = {MOVE_VENOSHOCK, MOVE_ACROBATICS, MOVE_MEAN_LOOK, MOVE_U_TURN}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 30,
+    .ability = ABILITY_INSOMNIA,
+    .species = SPECIES_BANETTE,
+    .moves = {MOVE_KNOCK_OFF, MOVE_SHADOW_SNEAK, MOVE_EMBARGO, MOVE_SHADOW_CLAW}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 30,
     .ability = ABILITY_GUTS,
     .species = SPECIES_MACHOKE,
-    .moves = {MOVE_LOW_SWEEP, MOVE_KNOCK_OFF, MOVE_ROCK_TOMB, MOVE_POISON_JAB}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 30,
-    .ability = ABILITY_STENCH,
-    .species = SPECIES_MUK,
-    .moves = {MOVE_SCREECH, MOVE_GUNK_SHOT, MOVE_ACID_ARMOR, MOVE_SHADOW_SNEAK}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 30,
-    .ability = ABILITY_ROUGH_SKIN,
-    .species = SPECIES_SHARPEDO,
-    .moves = {MOVE_AQUA_JET, MOVE_SCARY_FACE, MOVE_POISON_FANG, MOVE_CRUNCH}
+    .moves = {MOVE_CROSS_CHOP, MOVE_KNOCK_OFF, MOVE_ROCK_TOMB, MOVE_POISON_JAB}
     }
 };
 
