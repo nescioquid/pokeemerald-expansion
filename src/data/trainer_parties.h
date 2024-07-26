@@ -6428,19 +6428,25 @@ static const struct TrainerMon sParty_Hector[] = {
 
 static const struct TrainerMon sParty_TabithaMossdeep[] = {
     {
-    .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
-    .lvl = 36,
-    .species = SPECIES_CAMERUPT,
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
-    .lvl = 38,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_INTIMIDATE,
     .species = SPECIES_MIGHTYENA,
+    .moves = {MOVE_TAUNT, MOVE_SUCKER_PUNCH, MOVE_CRUNCH, MOVE_FIRE_FANG}
     },
     {
-    .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
-    .lvl = 40,
-    .species = SPECIES_GOLBAT,
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_PRESSURE,
+    .species = SPECIES_DUSCLOPS,
+    .moves = {MOVE_PURSUIT, MOVE_WILL_O_WISP, MOVE_CURSE, MOVE_HEX}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 45,
+    .ability = ABILITY_GUTS,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_CROSS_CHOP, MOVE_KNOCK_OFF, MOVE_ROCK_SLIDE, MOVE_POISON_JAB}
     }
 };
 
