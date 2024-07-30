@@ -12558,7 +12558,35 @@ static const struct TrainerMon sParty_MayRoute103Postgame[] = {
 
 static const struct TrainerMon sParty_MetaBoy[] = {
     {
-    .lvl = 60,
-    .species = SPECIES_MAGIKARP,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_POISON_HEAL,
+    .species = SPECIES_GLISCOR,
+    .heldItem = ITEM_TOXIC_ORB,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_ROOST, MOVE_EARTHQUAKE, MOVE_FACADE}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_REGENERATOR,
+    .species = SPECIES_TANGROWTH,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SLEEP_POWDER, MOVE_KNOCK_OFF, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_INTIMIDATE,
+    .species = SPECIES_ARCANINE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_EXTREME_SPEED, MOVE_WILD_CHARGE, MOVE_MORNING_SUN}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_HUGE_POWER,
+    .species = SPECIES_AZUMARILL,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_PLAY_ROUGH, MOVE_SUPERPOWER, MOVE_AQUA_JET, MOVE_BELLY_DRUM}
     }
 };
