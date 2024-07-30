@@ -6629,7 +6629,7 @@ static const struct TrainerMon sParty_BrendanRoute103Mudkip[] = {
     .lvl = 5,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_TREECKO,
-    .moves = {MOVE_LEER, MOVE_QUICK_ATTACK, MOVE_PURSUIT, MOVE_GIGA_DRAIN}
+    .moves = {MOVE_LEER, MOVE_QUICK_ATTACK, MOVE_MEGA_DRAIN, MOVE_PURSUIT}
     }
 };
 
@@ -6893,7 +6893,7 @@ static const struct TrainerMon sParty_MayRoute103Mudkip[] = {
     .lvl = 5,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_TREECKO,
-    .moves = {MOVE_LEER, MOVE_QUICK_ATTACK, MOVE_PURSUIT, MOVE_GIGA_DRAIN}
+    .moves = {MOVE_LEER, MOVE_QUICK_ATTACK, MOVE_MEGA_DRAIN, MOVE_PURSUIT}
     }
 };
 
