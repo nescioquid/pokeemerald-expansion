@@ -9042,49 +9042,33 @@ static const struct TrainerMon sParty_BrendanLilycoveMudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLISCOR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOKING,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_SWORDS_DANCE, MOVE_EARTHQUAKE, MOVE_U_TURN}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_MAGIC_GUARD,
-    .species = SPECIES_CLEFABLE,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ENCORE, MOVE_MOONBLAST, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_SHADOW_CLAW}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_IMMUNITY,
     .species = SPECIES_SNORLAX,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_BODY_SLAM, MOVE_BELCH, MOVE_BELLY_DRUM, MOVE_RECYCLE}
+    .heldItem = ITEM_PINAP_BERRY,
+    .moves = {MOVE_RECYCLE, MOVE_BODY_SLAM, MOVE_BELLY_DRUM, MOVE_CRUNCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_INTIMIDATE,
-    .species = SPECIES_ARCANINE,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_THUNDER_FANG, MOVE_EXTREME_SPEED, MOVE_CRUNCH, MOVE_FLARE_BLITZ}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_HUGE_POWER,
-    .species = SPECIES_AZUMARILL,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_AQUA_TAIL, MOVE_PLAY_ROUGH, MOVE_AQUA_RING, MOVE_SUPERPOWER}
+    .ability = ABILITY_TORRENT,
+    .species = SPECIES_SWAMPERT,
+    .heldItem = ITEM_RINDO_BERRY,
+    .moves = {MOVE_ROCK_SLIDE, MOVE_MUDDY_WATER, MOVE_TAKE_DOWN, MOVE_EARTHQUAKE}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_SCEPTILE,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_OCCA_BERRY,
     .moves = {MOVE_NIGHT_SLASH, MOVE_LEAF_BLADE, MOVE_X_SCISSOR, MOVE_ROCK_SLIDE}
     }
 };
@@ -9093,49 +9077,33 @@ static const struct TrainerMon sParty_BrendanLilycoveTreecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLISCOR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOKING,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_SWORDS_DANCE, MOVE_EARTHQUAKE, MOVE_U_TURN}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_MAGIC_GUARD,
-    .species = SPECIES_CLEFABLE,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ENCORE, MOVE_MOONBLAST, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_SHADOW_CLAW}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_IMMUNITY,
     .species = SPECIES_SNORLAX,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_BODY_SLAM, MOVE_BELCH, MOVE_BELLY_DRUM, MOVE_RECYCLE}
+    .heldItem = ITEM_PINAP_BERRY,
+    .moves = {MOVE_RECYCLE, MOVE_BODY_SLAM, MOVE_BELLY_DRUM, MOVE_CRUNCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_CHLOROPHYLL,
-    .species = SPECIES_TANGROWTH,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_SLEEP_POWDER, MOVE_KNOCK_OFF, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_HUGE_POWER,
-    .species = SPECIES_AZUMARILL,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_AQUA_TAIL, MOVE_PLAY_ROUGH, MOVE_AQUA_RING, MOVE_SUPERPOWER}
+    .ability = ABILITY_OVERGROW,
+    .species = SPECIES_SCEPTILE,
+    .heldItem = ITEM_OCCA_BERRY,
+    .moves = {MOVE_NIGHT_SLASH, MOVE_LEAF_BLADE, MOVE_X_SCISSOR, MOVE_ROCK_SLIDE}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_BLAZE,
     .species = SPECIES_BLAZIKEN,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_PASSHO_BERRY,
     .moves = {MOVE_BLAZE_KICK, MOVE_SKY_UPPERCUT, MOVE_SWORDS_DANCE, MOVE_ROCK_SLIDE}
     }
 };
@@ -9144,49 +9112,33 @@ static const struct TrainerMon sParty_BrendanLilycoveTorchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLISCOR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOKING,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_SWORDS_DANCE, MOVE_EARTHQUAKE, MOVE_U_TURN}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_MAGIC_GUARD,
-    .species = SPECIES_CLEFABLE,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ENCORE, MOVE_MOONBLAST, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_SHADOW_CLAW}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_IMMUNITY,
     .species = SPECIES_SNORLAX,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_BODY_SLAM, MOVE_BELCH, MOVE_BELLY_DRUM, MOVE_RECYCLE}
+    .heldItem = ITEM_PINAP_BERRY,
+    .moves = {MOVE_RECYCLE, MOVE_BODY_SLAM, MOVE_BELLY_DRUM, MOVE_CRUNCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_CHLOROPHYLL,
-    .species = SPECIES_TANGROWTH,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_SLEEP_POWDER, MOVE_KNOCK_OFF, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_INTIMIDATE,
-    .species = SPECIES_ARCANINE,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_THUNDER_FANG, MOVE_EXTREME_SPEED, MOVE_CRUNCH, MOVE_FLARE_BLITZ}
+    .ability = ABILITY_BLAZE,
+    .species = SPECIES_BLAZIKEN,
+    .heldItem = ITEM_PASSHO_BERRY,
+    .moves = {MOVE_BLAZE_KICK, MOVE_SKY_UPPERCUT, MOVE_SWORDS_DANCE, MOVE_ROCK_SLIDE}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_TORRENT,
     .species = SPECIES_SWAMPERT,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_RINDO_BERRY,
     .moves = {MOVE_ROCK_SLIDE, MOVE_MUDDY_WATER, MOVE_TAKE_DOWN, MOVE_EARTHQUAKE}
     }
 };
@@ -9195,49 +9147,33 @@ static const struct TrainerMon sParty_MayLilycoveMudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLISCOR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOQUEEN,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_SWORDS_DANCE, MOVE_EARTHQUAKE, MOVE_U_TURN}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_SUPERPOWER, MOVE_EARTHQUAKE, MOVE_SHADOW_CLAW}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFABLE,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ENCORE, MOVE_MOONBLAST, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
+    .heldItem = ITEM_PINAP_BERRY,
+    .moves = {MOVE_ENCORE, MOVE_MOONBLAST, MOVE_CALM_MIND, MOVE_PSYCHIC}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_IMMUNITY,
-    .species = SPECIES_SNORLAX,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_BODY_SLAM, MOVE_BELCH, MOVE_BELLY_DRUM, MOVE_RECYCLE}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_INTIMIDATE,
-    .species = SPECIES_ARCANINE,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_THUNDER_FANG, MOVE_EXTREME_SPEED, MOVE_CRUNCH, MOVE_FLARE_BLITZ}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_HUGE_POWER,
-    .species = SPECIES_AZUMARILL,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_AQUA_TAIL, MOVE_PLAY_ROUGH, MOVE_AQUA_RING, MOVE_SUPERPOWER}
+    .ability = ABILITY_TORRENT,
+    .species = SPECIES_SWAMPERT,
+    .heldItem = ITEM_RINDO_BERRY,
+    .moves = {MOVE_ROCK_SLIDE, MOVE_MUDDY_WATER, MOVE_TAKE_DOWN, MOVE_EARTHQUAKE}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_SCEPTILE,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_OCCA_BERRY,
     .moves = {MOVE_NIGHT_SLASH, MOVE_LEAF_BLADE, MOVE_X_SCISSOR, MOVE_ROCK_SLIDE}
     }
 };
@@ -9246,49 +9182,33 @@ static const struct TrainerMon sParty_MayLilycoveTreecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLISCOR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOQUEEN,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_SWORDS_DANCE, MOVE_EARTHQUAKE, MOVE_U_TURN}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_SUPERPOWER, MOVE_EARTHQUAKE, MOVE_SHADOW_CLAW}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFABLE,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ENCORE, MOVE_MOONBLAST, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
+    .heldItem = ITEM_PINAP_BERRY,
+    .moves = {MOVE_ENCORE, MOVE_MOONBLAST, MOVE_CALM_MIND, MOVE_PSYCHIC}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_IMMUNITY,
-    .species = SPECIES_SNORLAX,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_BODY_SLAM, MOVE_BELCH, MOVE_BELLY_DRUM, MOVE_RECYCLE}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_CHLOROPHYLL,
-    .species = SPECIES_TANGROWTH,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_SLEEP_POWDER, MOVE_KNOCK_OFF, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_HUGE_POWER,
-    .species = SPECIES_AZUMARILL,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_AQUA_TAIL, MOVE_PLAY_ROUGH, MOVE_AQUA_RING, MOVE_SUPERPOWER}
+    .ability = ABILITY_OVERGROW,
+    .species = SPECIES_SCEPTILE,
+    .heldItem = ITEM_OCCA_BERRY,
+    .moves = {MOVE_NIGHT_SLASH, MOVE_LEAF_BLADE, MOVE_X_SCISSOR, MOVE_ROCK_SLIDE}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_BLAZE,
     .species = SPECIES_BLAZIKEN,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_PASSHO_BERRY,
     .moves = {MOVE_BLAZE_KICK, MOVE_SKY_UPPERCUT, MOVE_SWORDS_DANCE, MOVE_ROCK_SLIDE}
     }
 };
@@ -9297,49 +9217,33 @@ static const struct TrainerMon sParty_MayLilycoveTorchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLISCOR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOQUEEN,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_SWORDS_DANCE, MOVE_EARTHQUAKE, MOVE_U_TURN}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_SUPERPOWER, MOVE_EARTHQUAKE, MOVE_SHADOW_CLAW}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFABLE,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ENCORE, MOVE_MOONBLAST, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
+    .heldItem = ITEM_PINAP_BERRY,
+    .moves = {MOVE_ENCORE, MOVE_MOONBLAST, MOVE_CALM_MIND, MOVE_PSYCHIC}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
-    .ability = ABILITY_IMMUNITY,
-    .species = SPECIES_SNORLAX,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_BODY_SLAM, MOVE_BELCH, MOVE_BELLY_DRUM, MOVE_RECYCLE}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_CHLOROPHYLL,
-    .species = SPECIES_TANGROWTH,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_SLEEP_POWDER, MOVE_KNOCK_OFF, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED}
-    },
-    {
-    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
-    .lvl = 40,
-    .ability = ABILITY_INTIMIDATE,
-    .species = SPECIES_ARCANINE,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_THUNDER_FANG, MOVE_EXTREME_SPEED, MOVE_CRUNCH, MOVE_FLARE_BLITZ}
+    .ability = ABILITY_BLAZE,
+    .species = SPECIES_BLAZIKEN,
+    .heldItem = ITEM_PASSHO_BERRY,
+    .moves = {MOVE_BLAZE_KICK, MOVE_SKY_UPPERCUT, MOVE_SWORDS_DANCE, MOVE_ROCK_SLIDE}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 40,
     .ability = ABILITY_TORRENT,
     .species = SPECIES_SWAMPERT,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_RINDO_BERRY,
     .moves = {MOVE_ROCK_SLIDE, MOVE_MUDDY_WATER, MOVE_TAKE_DOWN, MOVE_EARTHQUAKE}
     }
 };
