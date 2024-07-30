@@ -7936,10 +7936,18 @@ static const struct TrainerMon sParty_BrendanRustboroTreecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
-    .ability = ABILITY_MAGIC_GUARD,
-    .species = SPECIES_CLEFAIRY,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINO,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_SING, MOVE_WAKE_UP_SLAP}
+    .moves = {MOVE_LEER, MOVE_DOUBLE_KICK, MOVE_DIG, MOVE_POISON_JAB}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 10,
+    .ability = ABILITY_PICKUP,
+    .species = SPECIES_MUNCHLAX,
+    .heldItem = ITEM_CHILAN_BERRY,
+    .moves = {MOVE_RECYCLE, MOVE_LICK, MOVE_BODY_SLAM, MOVE_BELCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -7963,10 +7971,18 @@ static const struct TrainerMon sParty_BrendanRustboroMudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
-    .ability = ABILITY_MAGIC_GUARD,
-    .species = SPECIES_CLEFAIRY,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINO,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_SING, MOVE_WAKE_UP_SLAP}
+    .moves = {MOVE_LEER, MOVE_DOUBLE_KICK, MOVE_DIG, MOVE_POISON_JAB}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 10,
+    .ability = ABILITY_PICKUP,
+    .species = SPECIES_MUNCHLAX,
+    .heldItem = ITEM_CHILAN_BERRY,
+    .moves = {MOVE_RECYCLE, MOVE_LICK, MOVE_BODY_SLAM, MOVE_BELCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -8061,10 +8077,18 @@ static const struct TrainerMon sParty_BrendanRustboroTorchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
-    .ability = ABILITY_MAGIC_GUARD,
-    .species = SPECIES_CLEFAIRY,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINO,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_SING, MOVE_WAKE_UP_SLAP}
+    .moves = {MOVE_LEER, MOVE_DOUBLE_KICK, MOVE_DIG, MOVE_POISON_JAB}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 10,
+    .ability = ABILITY_PICKUP,
+    .species = SPECIES_MUNCHLAX,
+    .heldItem = ITEM_CHILAN_BERRY,
+    .moves = {MOVE_RECYCLE, MOVE_LICK, MOVE_BODY_SLAM, MOVE_BELCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -8084,6 +8108,14 @@ static const struct TrainerMon sParty_MayRustboroMudkip[] = {
     .species = SPECIES_DODRIO,
     .heldItem = ITEM_CHILAN_BERRY,
     .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_ACUPRESSURE}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 10,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINA,
+    .heldItem = ITEM_CHILAN_BERRY,
+    .moves = {MOVE_TAIL_WHIP, MOVE_DOUBLE_KICK, MOVE_DIG, MOVE_POISON_JAB}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -10542,6 +10574,14 @@ static const struct TrainerMon sParty_MayRustboroTreecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 10,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINA,
+    .heldItem = ITEM_CHILAN_BERRY,
+    .moves = {MOVE_TAIL_WHIP, MOVE_DOUBLE_KICK, MOVE_DIG, MOVE_POISON_JAB}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 10,
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
     .heldItem = ITEM_CHILAN_BERRY,
@@ -10565,6 +10605,14 @@ static const struct TrainerMon sParty_MayRustboroTorchic[] = {
     .species = SPECIES_DODRIO,
     .heldItem = ITEM_CHILAN_BERRY,
     .moves = {MOVE_PURSUIT, MOVE_PLUCK, MOVE_TRI_ATTACK, MOVE_ACUPRESSURE}
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
+    .lvl = 10,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDORINA,
+    .heldItem = ITEM_CHILAN_BERRY,
+    .moves = {MOVE_TAIL_WHIP, MOVE_DOUBLE_KICK, MOVE_DIG, MOVE_POISON_JAB}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
