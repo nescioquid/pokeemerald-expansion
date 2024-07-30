@@ -12488,39 +12488,71 @@ static const struct TrainerMon sParty_MayLinkPlaceholder[] = {
 
 static const struct TrainerMon sParty_BrendanRoute103Postgame[] = {
     {
-    .lvl = 60,
-    .species = SPECIES_TOGEPI,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_IMMUNITY,
+    .species = SPECIES_SNORLAX,
+    .heldItem = ITEM_PINAP_BERRY,
+    .moves = {MOVE_RECYCLE, MOVE_BODY_SLAM, MOVE_BELLY_DRUM, MOVE_CRUNCH}
     },
     {
-    .lvl = 60,
-    .species = SPECIES_TREECKO,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_OVERGROW,
+    .species = SPECIES_SCEPTILE,
+    .heldItem = ITEM_OCCA_BERRY,
+    .moves = {MOVE_LEAF_STORM, MOVE_FOCUS_BLAST, MOVE_ENERGY_BALL, MOVE_ROCK_SLIDE}
     },
     {
-    .lvl = 60,
-    .species = SPECIES_TORCHIC,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_BLAZE,
+    .species = SPECIES_BLAZIKEN,
+    .heldItem = ITEM_PASSHO_BERRY,
+    .moves = {MOVE_HIGH_JUMP_KICK, MOVE_FLARE_BLITZ, MOVE_SWORDS_DANCE, MOVE_ROCK_SLIDE}
     },
     {
-    .lvl = 60,
-    .species = SPECIES_MUDKIP,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_TORRENT,
+    .species = SPECIES_SWAMPERT,
+    .heldItem = ITEM_RINDO_BERRY,
+    .moves = {MOVE_ROCK_SLIDE, MOVE_ICE_BEAM, MOVE_EARTHQUAKE, MOVE_WATERFALL}
     }
 };
 
 static const struct TrainerMon sParty_MayRoute103Postgame[] = {
     {
-    .lvl = 60,
-    .species = SPECIES_WYNAUT,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_MAGIC_GUARD,
+    .species = SPECIES_CLEFABLE,
+    .heldItem = ITEM_PINAP_BERRY,
+    .moves = {MOVE_ENCORE, MOVE_MOONBLAST, MOVE_CALM_MIND, MOVE_PSYCHIC}
     },
     {
-    .lvl = 60,
-    .species = SPECIES_TREECKO,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_OVERGROW,
+    .species = SPECIES_SCEPTILE,
+    .heldItem = ITEM_OCCA_BERRY,
+    .moves = {MOVE_LEAF_STORM, MOVE_FOCUS_BLAST, MOVE_ENERGY_BALL, MOVE_ROCK_SLIDE}
     },
     {
-    .lvl = 60,
-    .species = SPECIES_TORCHIC,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_BLAZE,
+    .species = SPECIES_BLAZIKEN,
+    .heldItem = ITEM_PASSHO_BERRY,
+    .moves = {MOVE_HIGH_JUMP_KICK, MOVE_FLARE_BLITZ, MOVE_SWORDS_DANCE, MOVE_ROCK_SLIDE}
     },
     {
-    .lvl = 60,
-    .species = SPECIES_MUDKIP,
+    .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+    .lvl = 50,
+    .ability = ABILITY_TORRENT,
+    .species = SPECIES_SWAMPERT,
+    .heldItem = ITEM_RINDO_BERRY,
+    .moves = {MOVE_ROCK_SLIDE, MOVE_ICE_BEAM, MOVE_EARTHQUAKE, MOVE_WATERFALL}
     }
 };
 
