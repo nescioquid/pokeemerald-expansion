@@ -6637,10 +6637,10 @@ static const struct TrainerMon sParty_BrendanRoute110Mudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLIGAR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOKING,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_THRASH, MOVE_BULLDOZE, MOVE_POISON_JAB}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -6653,17 +6653,17 @@ static const struct TrainerMon sParty_BrendanRoute110Mudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
-    .ability = ABILITY_MAGIC_GUARD,
-    .species = SPECIES_CLEFAIRY,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
+    .ability = ABILITY_PICKUP,
+    .species = SPECIES_MUNCHLAX,
+    .heldItem = ITEM_NANAB_BERRY,
+    .moves = {MOVE_RECYCLE, MOVE_LICK, MOVE_BODY_SLAM, MOVE_BELCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_SCEPTILE,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_OCCA_BERRY,
     .moves = {MOVE_NIGHT_SLASH, MOVE_LEAF_BLADE, MOVE_DUAL_CHOP, MOVE_ROCK_SLIDE}
     }
 };
@@ -6725,10 +6725,10 @@ static const struct TrainerMon sParty_BrendanRoute110Treecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLIGAR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOKING,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_THRASH, MOVE_BULLDOZE, MOVE_POISON_JAB}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -6741,17 +6741,17 @@ static const struct TrainerMon sParty_BrendanRoute110Treecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
-    .ability = ABILITY_MAGIC_GUARD,
-    .species = SPECIES_CLEFAIRY,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
+    .ability = ABILITY_PICKUP,
+    .species = SPECIES_MUNCHLAX,
+    .heldItem = ITEM_NANAB_BERRY,
+    .moves = {MOVE_RECYCLE, MOVE_LICK, MOVE_BODY_SLAM, MOVE_BELCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_BLAZE,
     .species = SPECIES_BLAZIKEN,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_PASSHO_BERRY,
     .moves = {MOVE_DOUBLE_KICK, MOVE_BULK_UP, MOVE_BLAZE_KICK, MOVE_ROCK_SLIDE}
     }
 };
@@ -6813,10 +6813,10 @@ static const struct TrainerMon sParty_BrendanRoute110Torchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLIGAR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOKING,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_THRASH, MOVE_BULLDOZE, MOVE_POISON_JAB}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -6829,17 +6829,17 @@ static const struct TrainerMon sParty_BrendanRoute110Torchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
-    .ability = ABILITY_MAGIC_GUARD,
-    .species = SPECIES_CLEFAIRY,
-    .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
+    .ability = ABILITY_PICKUP,
+    .species = SPECIES_MUNCHLAX,
+    .heldItem = ITEM_NANAB_BERRY,
+    .moves = {MOVE_RECYCLE, MOVE_LICK, MOVE_BODY_SLAM, MOVE_BELCH}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_TORRENT,
     .species = SPECIES_SWAMPERT,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_RINDO_BERRY,
     .moves = {MOVE_MUD_SHOT, MOVE_MUD_BOMB, MOVE_ROCK_SLIDE, MOVE_MUDDY_WATER}
     }
 };
@@ -6901,10 +6901,10 @@ static const struct TrainerMon sParty_MayRoute110Mudkip[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLIGAR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOQUEEN,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_BODY_SLAM, MOVE_BULLDOZE, MOVE_POISON_JAB}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -6920,14 +6920,14 @@ static const struct TrainerMon sParty_MayRoute110Mudkip[] = {
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
+    .moves = {MOVE_ENCORE, MOVE_COSMIC_POWER, MOVE_THUNDER_WAVE, MOVE_DAZZLING_GLEAM}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_OVERGROW,
     .species = SPECIES_SCEPTILE,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_OCCA_BERRY,
     .moves = {MOVE_NIGHT_SLASH, MOVE_LEAF_BLADE, MOVE_DUAL_CHOP, MOVE_ROCK_SLIDE}
     }
 };
@@ -6989,10 +6989,10 @@ static const struct TrainerMon sParty_MayRoute110Treecko[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLIGAR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOQUEEN,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_BODY_SLAM, MOVE_BULLDOZE, MOVE_POISON_JAB}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -7008,14 +7008,14 @@ static const struct TrainerMon sParty_MayRoute110Treecko[] = {
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
+    .moves = {MOVE_ENCORE, MOVE_COSMIC_POWER, MOVE_THUNDER_WAVE, MOVE_DAZZLING_GLEAM}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_BLAZE,
     .species = SPECIES_BLAZIKEN,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_PASSHO_BERRY,
     .moves = {MOVE_DOUBLE_KICK, MOVE_BULK_UP, MOVE_BLAZE_KICK, MOVE_ROCK_SLIDE}
     }
 };
@@ -7077,10 +7077,10 @@ static const struct TrainerMon sParty_MayRoute110Torchic[] = {
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
-    .ability = ABILITY_HYPER_CUTTER,
-    .species = SPECIES_GLIGAR,
+    .ability = ABILITY_POISON_POINT,
+    .species = SPECIES_NIDOQUEEN,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_ACROBATICS, MOVE_U_TURN, MOVE_X_SCISSOR, MOVE_BULLDOZE}
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_BODY_SLAM, MOVE_BULLDOZE, MOVE_POISON_JAB}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
@@ -7096,14 +7096,14 @@ static const struct TrainerMon sParty_MayRoute110Torchic[] = {
     .ability = ABILITY_MAGIC_GUARD,
     .species = SPECIES_CLEFAIRY,
     .heldItem = ITEM_CHILAN_BERRY,
-    .moves = {MOVE_DISARMING_VOICE, MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_THUNDER_WAVE}
+    .moves = {MOVE_ENCORE, MOVE_COSMIC_POWER, MOVE_THUNDER_WAVE, MOVE_DAZZLING_GLEAM}
     },
     {
     .iv = TRAINER_PARTY_IVS(21, 21, 21, 21, 21, 21),
     .lvl = 20,
     .ability = ABILITY_TORRENT,
     .species = SPECIES_SWAMPERT,
-    .heldItem = ITEM_CHILAN_BERRY,
+    .heldItem = ITEM_RINDO_BERRY,
     .moves = {MOVE_MUD_SHOT, MOVE_MUD_BOMB, MOVE_ROCK_SLIDE, MOVE_MUDDY_WATER}
     }
 };
