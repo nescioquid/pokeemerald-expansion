@@ -2,6 +2,7 @@
 .include "data/maps/Route104South/scripts.inc"
 
 .include "data/scripts/pory_scripts/move_reminder.inc"
+.include "data/scripts/pory_scripts/players_house.inc"
 
 .include "data/scripts/pory_scripts/maps/DewfordTown.inc"
 .include "data/scripts/pory_scripts/maps/FallarborTown.inc"
