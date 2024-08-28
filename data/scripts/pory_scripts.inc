@@ -35,6 +35,7 @@
 .include "data/scripts/pory_scripts/maps/PacifidlogTown_House3.inc"
 .include "data/scripts/pory_scripts/maps/PacifidlogTown_House4.inc"
 .include "data/scripts/pory_scripts/maps/PacifidlogTown_House5.inc"
+.include "data/scripts/pory_scripts/maps/PetalburgCity_Gym.inc"
 .include "data/scripts/pory_scripts/maps/PetalburgCity_Mart.inc"
 .include "data/scripts/pory_scripts/maps/PetalburgWoods.inc"
 .include "data/scripts/pory_scripts/maps/Route103.inc"
