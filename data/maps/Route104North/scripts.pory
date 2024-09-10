@@ -21,7 +21,7 @@ script Route104North_EventScript_WhiteHerbFlorist {
       msgbox(format("Oh, thank you so much!"))
       closemessage
       call(Common_EventScript_OutOfCenterPartyHeal)
-      msgbox(format("All healed up!\NThere's lots of icky bugs in Petalburg Woods, so make sure your Pokémon stay healthy!"))
+      msgbox(format("All healed up!\nThere's lots of icky bugs in Petalburg Woods, so make sure your Pokémon stay healthy!"))
     } else {
       msgbox(format("Well, what am I gonna do with all these berries then?"))
     }
