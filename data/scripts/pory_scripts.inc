@@ -3,13 +3,13 @@
 
 .include "data/scripts/pory_scripts/getbadgecount.inc"
 .include "data/scripts/pory_scripts/move_reminder.inc"
-.include "data/scripts/pory_scripts/players_house.inc"
 .include "data/scripts/pory_scripts/pokecenter.inc"
 
 .include "data/scripts/pory_scripts/maps/DewfordTown.inc"
 .include "data/scripts/pory_scripts/maps/FallarborTown.inc"
 .include "data/scripts/pory_scripts/maps/FallarborTown_MoveRelearnersHouse.inc"
 .include "data/scripts/pory_scripts/maps/MtChimney.inc"
+.include "data/scripts/pory_scripts/maps/PlayersHouse_1F.inc"
 .include "data/scripts/pory_scripts/maps/Route109.inc"
 .include "data/scripts/pory_scripts/maps/Route109_SeashoreHouse.inc"
 .include "data/scripts/pory_scripts/maps/Route111_OldLadysRestStop.inc"
