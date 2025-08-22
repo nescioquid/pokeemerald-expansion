@@ -205,7 +205,7 @@ GabbyAndTy_EventScript_TyBattle6::
 
 GabbyAndTy_EventScript_FirstInterview::
 	special GabbyAndTyBeforeInterview
-	special GetGabbyAndTyLocalIds
+	@ special GetGabbyAndTyLocalIds
 	call_if_eq VAR_FACING, DIR_NORTH, GabbyAndTy_EventScript_FacePlayerNorth
 	call_if_eq VAR_FACING, DIR_SOUTH, GabbyAndTy_EventScript_FacePlayerSouth
 	call_if_eq VAR_FACING, DIR_EAST, GabbyAndTy_EventScript_FacePlayerEast
@@ -233,7 +233,7 @@ GabbyAndTy_EventScript_FacePlayerEast::
 
 GabbyAndTy_EventScript_RequestInterview::
 	special GabbyAndTyBeforeInterview
-	special GetGabbyAndTyLocalIds
+	@ special GetGabbyAndTyLocalIds
 	call_if_eq VAR_FACING, DIR_NORTH, GabbyAndTy_EventScript_FacePlayerNorth
 	call_if_eq VAR_FACING, DIR_SOUTH, GabbyAndTy_EventScript_FacePlayerSouth
 	call_if_eq VAR_FACING, DIR_EAST, GabbyAndTy_EventScript_FacePlayerEast
