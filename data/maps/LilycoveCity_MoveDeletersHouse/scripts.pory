@@ -1,0 +1,316 @@
+raw `
+LilycoveCity_MoveDeletersHouse_MapScripts::
+    .byte 0
+
+HyperTrainer_EventScript_Trainer::
+    lock
+    faceplayer
+    msgbox HyperTrainer_Text_Intro, MSGBOX_DEFAULT
+
+    multichoice 0, 0, MULTI_HYPER_TRAIN_TYPE, 0
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_ChooseSilver
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_ChooseGold
+    goto HyperTrainer_End
+
+HyperTrainer_ChooseSilver:
+    setvar VAR_TEMP_0, 0 // 0 = Bottle Cap
+    goto HyperTrainer_CheckBottleCap
+
+HyperTrainer_ChooseGold:
+    setvar VAR_TEMP_0, 1 // 1 = Gold Bottle Cap
+    goto HyperTrainer_CheckGoldCap
+
+// ---- Item checks ----
+HyperTrainer_CheckBottleCap:
+    checkitem ITEM_BOTTLE_CAP, 1
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_NoBottleCap
+    goto HyperTrainer_SelectPokemon
+
+HyperTrainer_CheckGoldCap:
+    checkitem ITEM_GOLD_BOTTLE_CAP, 1
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_NoGoldBottleCap
+    // fall through to select Pokémon
+
+// ---- Select a Pokémon ----
+HyperTrainer_SelectPokemon:
+    msgbox HyperTrainer_Text_SelectPokemon, MSGBOX_DEFAULT
+    closemessage
+    specialvar VAR_RESULT, ChoosePartyMon
+    waitstate
+    compare VAR_RESULT, 255
+    goto_if_eq HyperTrainer_End
+    copyvar VAR_TEMP_1, VAR_RESULT // party index
+
+    compare VAR_TEMP_0, 1
+    goto_if_eq HyperTrainer_GoldCapPath
+    goto HyperTrainer_SelectStat_Start
+
+// ---- Bottle Cap Path (one stat) ----
+HyperTrainer_SelectStat_Start:
+    multichoice 0, 0, MULTI_HYPER_STAT, 0
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_ChooseHP
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_ChooseAtk
+    compare VAR_RESULT, 2
+    goto_if_eq HyperTrainer_ChooseDef
+    compare VAR_RESULT, 3
+    goto_if_eq HyperTrainer_ChooseSpAtk
+    compare VAR_RESULT, 4
+    goto_if_eq HyperTrainer_ChooseSpDef
+    compare VAR_RESULT, 5
+    goto_if_eq HyperTrainer_ChooseSpe
+    compare VAR_RESULT, 127
+    goto_if_eq HyperTrainer_End
+    goto HyperTrainer_End
+
+HyperTrainer_ChooseHP:
+    msgbox HyperTrainer_Text_AskHP, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_HP
+    closemessage
+    goto HyperTrainer_SelectStat_Start
+
+HyperTrainer_HP:
+    canhypertrain STAT_HP, VAR_TEMP_1
+    waitstate
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_AlreadyMaxed_One
+    hypertrain STAT_HP, VAR_TEMP_1
+    waitstate
+    removeitem ITEM_BOTTLE_CAP, 1
+    msgbox HyperTrainer_Text_SingleDone, MSGBOX_DEFAULT
+    msgbox HyperTrainer_Text_TrainAnother, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_CheckAnotherBottleCap
+    closemessage
+    goto HyperTrainer_End
+
+HyperTrainer_ChooseAtk:
+    msgbox HyperTrainer_Text_AskAtk, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_Atk
+    closemessage
+    goto HyperTrainer_SelectStat_Start
+
+HyperTrainer_Atk:
+    canhypertrain STAT_ATK, VAR_TEMP_1
+    waitstate
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_AlreadyMaxed_One
+    hypertrain STAT_ATK, VAR_TEMP_1
+    waitstate
+    removeitem ITEM_BOTTLE_CAP, 1
+    msgbox HyperTrainer_Text_SingleDone, MSGBOX_DEFAULT
+    msgbox HyperTrainer_Text_TrainAnother, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_CheckAnotherBottleCap
+    closemessage
+    goto HyperTrainer_End
+
+HyperTrainer_ChooseDef:
+    msgbox HyperTrainer_Text_AskDef, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_Def
+    closemessage
+    goto HyperTrainer_SelectStat_Start
+
+HyperTrainer_Def:
+    canhypertrain STAT_DEF, VAR_TEMP_1
+    waitstate
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_AlreadyMaxed_One
+    hypertrain STAT_DEF, VAR_TEMP_1
+    waitstate
+    removeitem ITEM_BOTTLE_CAP, 1
+    msgbox HyperTrainer_Text_SingleDone, MSGBOX_DEFAULT
+    msgbox HyperTrainer_Text_TrainAnother, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_CheckAnotherBottleCap
+    closemessage
+    goto HyperTrainer_End
+
+HyperTrainer_ChooseSpAtk:
+    msgbox HyperTrainer_Text_AskSpAtk, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_SpAtk
+    closemessage
+    goto HyperTrainer_SelectStat_Start
+
+HyperTrainer_SpAtk:
+    canhypertrain STAT_SPATK, VAR_TEMP_1
+    waitstate
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_AlreadyMaxed_One
+    hypertrain STAT_SPATK, VAR_TEMP_1
+    waitstate
+    removeitem ITEM_BOTTLE_CAP, 1
+    msgbox HyperTrainer_Text_SingleDone, MSGBOX_DEFAULT
+    msgbox HyperTrainer_Text_TrainAnother, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_CheckAnotherBottleCap
+    closemessage
+    goto HyperTrainer_End
+
+HyperTrainer_ChooseSpDef:
+    msgbox HyperTrainer_Text_AskSpDef, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_SpDef
+    closemessage
+    goto HyperTrainer_SelectStat_Start
+
+HyperTrainer_SpDef:
+    canhypertrain STAT_SPDEF, VAR_TEMP_1
+    waitstate
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_AlreadyMaxed_One
+    hypertrain STAT_SPDEF, VAR_TEMP_1
+    waitstate
+    removeitem ITEM_BOTTLE_CAP, 1
+    msgbox HyperTrainer_Text_SingleDone, MSGBOX_DEFAULT
+    msgbox HyperTrainer_Text_TrainAnother, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_CheckAnotherBottleCap
+    closemessage
+    goto HyperTrainer_End
+
+HyperTrainer_ChooseSpe:
+    msgbox HyperTrainer_Text_AskSpe, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_Spe
+    closemessage
+    goto HyperTrainer_SelectStat_Start
+
+HyperTrainer_Spe:
+    canhypertrain STAT_SPEED, VAR_TEMP_1
+    waitstate
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_AlreadyMaxed_One
+    hypertrain STAT_SPEED, VAR_TEMP_1
+    waitstate
+    removeitem ITEM_BOTTLE_CAP, 1
+    msgbox HyperTrainer_Text_SingleDone, MSGBOX_DEFAULT
+    msgbox HyperTrainer_Text_TrainAnother, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_CheckAnotherBottleCap
+    closemessage
+    goto HyperTrainer_End
+
+HyperTrainer_AlreadyMaxed_One:
+    msgbox HyperTrainer_Text_AlreadyMaxed, MSGBOX_DEFAULT
+    msgbox HyperTrainer_Text_TrainAnother, MSGBOX_YESNO
+    compare VAR_RESULT, 1
+    goto_if_eq HyperTrainer_CheckAnotherBottleCap
+    closemessage
+    goto HyperTrainer_End
+
+HyperTrainer_CheckAnotherBottleCap:
+    closemessage
+    checkitem ITEM_BOTTLE_CAP, 1
+    compare VAR_RESULT, 0
+    goto_if_eq HyperTrainer_NoBottleCap
+    goto HyperTrainer_SelectStat_Start
+
+// ---- Gold Bottle Cap Path (all applicable stats) ----
+HyperTrainer_GoldCapPath:
+    setvar VAR_TEMP_2, 0 // stat index
+    setvar VAR_TEMP_3, 0 // count trained
+HyperTrainer_LoopStats:
+    canhypertrain VAR_TEMP_2, VAR_TEMP_1     // stat, slot
+    waitstate
+    compare VAR_RESULT, 1                    // 1 = can train
+    goto_if_ne HyperTrainer_SkipTrain
+    hypertrain VAR_TEMP_2, VAR_TEMP_1        // stat, slot
+    waitstate
+    addvar VAR_TEMP_3, 1
+HyperTrainer_SkipTrain:
+    addvar VAR_TEMP_2, 1
+    compare VAR_TEMP_2, 6
+    goto_if_lt HyperTrainer_LoopStats
+
+    compare VAR_TEMP_3, 0
+    goto_if_eq HyperTrainer_NothingToDo
+    removeitem ITEM_GOLD_BOTTLE_CAP, 1
+    msgbox HyperTrainer_Text_AllDone, MSGBOX_DEFAULT
+    goto HyperTrainer_End
+
+HyperTrainer_NothingToDo:
+    msgbox HyperTrainer_Text_AllMaxed, MSGBOX_DEFAULT
+    goto HyperTrainer_End
+
+// ---- Messages / early exits ----
+HyperTrainer_NoBottleCap:
+    msgbox HyperTrainer_Text_NoBottleCap, MSGBOX_DEFAULT
+    goto HyperTrainer_End
+
+HyperTrainer_NoGoldBottleCap:
+    msgbox HyperTrainer_Text_NoGoldBottleCap, MSGBOX_DEFAULT
+    goto HyperTrainer_End
+
+HyperTrainer_End:
+    closemessage      // ensure any box (including YES/NO) is closed
+    release
+    end
+
+// ---- Text blocks ----
+HyperTrainer_Text_Intro:
+    .string "Hey there! I can\n"
+    .string "Hyper Train your Pokémon.\p"
+    .string "With a Bottle Cap,\n"
+    .string "I can max one stat of your choice.\p"
+    .string "With a Gold Bottle Cap,\n"
+    .string "I can max all stats at once!\p"
+    .string "Which will it be?$"
+
+HyperTrainer_Text_SelectPokemon:
+    .string "Choose a Pokémon for Hyper Training.$"
+
+HyperTrainer_Text_AskHP:
+    .string "Hyper Train HP?$"
+
+HyperTrainer_Text_AskAtk:
+    .string "Hyper Train Attack?$"
+
+HyperTrainer_Text_AskDef:
+    .string "Hyper Train Defense?$"
+
+HyperTrainer_Text_AskSpAtk:
+    .string "Hyper Train Sp. Atk?$"
+
+HyperTrainer_Text_AskSpDef:
+    .string "Hyper Train Sp. Def?$"
+
+HyperTrainer_Text_AskSpe:
+    .string "Hyper Train Speed?$"
+
+HyperTrainer_Text_AlreadyMaxed:
+    .string "That stat is already at its maximum.\p"
+    .string "No need to waste a Bottle Cap.$"
+
+HyperTrainer_Text_TrainAnother:
+    .string "Train another stat?$"
+
+HyperTrainer_Text_SingleDone:
+    .string "All done! That stat is now\n"
+    .string "as strong as it can be.$"
+
+HyperTrainer_Text_AllDone:
+    .string "Incredible! I hyper trained\n"
+    .string "every stat that needed it.$"
+
+HyperTrainer_Text_AllMaxed:
+    .string "All of that Pokémon’s stats are already maxed.\p"
+    .string "We won't use your Gold Bottle Cap.$"
+
+HyperTrainer_Text_NoBottleCap:
+    .string "You don’t have a Bottle Cap.\p"
+    .string "Come back when you find one.$"
+
+HyperTrainer_Text_NoGoldBottleCap:
+    .string "You don’t have a Gold Bottle Cap.\p"
+    .string "Come back when you find one.$"
+`

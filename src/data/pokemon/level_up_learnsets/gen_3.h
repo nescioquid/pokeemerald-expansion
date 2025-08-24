@@ -6326,6 +6326,7 @@ static const struct LevelUpMove sAggronLevelUpLearnset[] = {
     LEVEL_UP_MOVE(37, MOVE_PROTECT),
     LEVEL_UP_MOVE(50, MOVE_METAL_SOUND),
     LEVEL_UP_MOVE(63, MOVE_DOUBLE_EDGE),
+    LEVEL_UP_MOVE(72, MOVE_HEAD_SMASH),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_ARON

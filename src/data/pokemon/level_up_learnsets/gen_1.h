@@ -127,6 +127,7 @@ static const struct LevelUpMove sBlastoiseLevelUpLearnset[] = {
     LEVEL_UP_MOVE(24, MOVE_BITE),
     LEVEL_UP_MOVE(31, MOVE_WITHDRAW),
     LEVEL_UP_MOVE(42, MOVE_SKULL_BASH),
+    LEVEL_UP_MOVE(45, MOVE_HYDRO_STEAM),
     LEVEL_UP_MOVE(52, MOVE_HYDRO_PUMP),
     LEVEL_UP_END
 };

@@ -1,0 +1,126 @@
+// This script is for an NPC that gives a specific Pokémon based on the player's starter.
+//
+// IMPORTANT: "DewfordTown_House3" is the actual name of your map.
+// This applies to all script and text labels.
+// - Your NPC's unique flag is defined in include/constants/flags.h:
+//     - FLAG_GIVEN_GEN4_STARTER (0x54)
+// - Species, items (ITEM_LUM_BERRY, ITEM_CHERISH_BALL), and gender (MON_MALE)
+// - The 'givemon' command supports the full parameter list (item, ball, gender, ability).
+// - Gender Codes: Male = 0, Female = 1, Unknown = 2
+// IMPORTANT NOTE ON IVs:
+// The standard 'givemon' command in Poryscript typically sets ALL IVs to the value
+// provided in the 'ivs' parameter. Setting it to 31 makes all IVs perfect.
+// If the 'ivs' parameter is omitted or set to 0, IVs will be randomized.
+// To guarantee "at least 3 perfect IVs" (without making all 6 perfect), you would
+// generally need a custom assembly (ASM) routine, which is beyond this script.
+// For this script, IVs will be randomized.
+
+raw `
+DewfordTown_House3_MapScripts::
+    .byte 0
+
+DewfordTown_House3_EventScript_PokemonGiver::
+    lock
+    faceplayer
+    goto_if_set FLAG_GIVEN_GEN4_STARTER, DewfordTown_House3_EventScript_AlreadyReceivedPokemon // Check if already received
+
+    msgbox DewfordTown_House3_Text_HelloTrainer, MSGBOX_DEFAULT
+
+    switch VAR_STARTER_MON
+    case 0, DewfordTown_House3_EventScript_GivePiplup
+    case 1, DewfordTown_House3_EventScript_GiveTurtwig
+    case 2, DewfordTown_House3_EventScript_GiveChimchar
+
+    msgbox DewfordTown_House3_Text_ComeBackLater, MSGBOX_DEFAULT
+    release
+    end
+
+// --- Script branches for giving specific Pokémon ---
+DewfordTown_House3_EventScript_GivePiplup::
+    msgbox DewfordTown_House3_Text_YouChoseTreeckoHereIsPiplup, MSGBOX_DEFAULT
+    // givemon(species, level, item, ball, gender, ability, ivs, evs, moves, shiny, nickname, otid, personality, friendship, eggmoves, metlocation, metlevel, metgame, otname, otgender, otid)
+    getpartysize
+    goto_if_eq VAR_RESULT, PARTY_SIZE, DewfordTown_House3_EventScript_PartyFull
+    givemon SPECIES_PIPLUP, 10, ITEM_LUM_BERRY, ITEM_CHERISH_BALL, 0, 2 // Piplup, Level 5, Lum Berry, Cherish Ball, Male, Hidden Ability (slot 2)
+    setflag FLAG_GIVEN_GEN4_STARTER // Mark as received
+    waitmessage
+	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
+    msgbox DewfordTown_House3_Text_EnjoyYourNewPokemon, MSGBOX_DEFAULT
+    release
+    end
+
+DewfordTown_House3_EventScript_GiveTurtwig::
+    msgbox DewfordTown_House3_Text_YouChoseTorchicHereIsTurtwig, MSGBOX_DEFAULT
+    getpartysize
+    goto_if_eq VAR_RESULT, PARTY_SIZE, DewfordTown_House3_EventScript_PartyFull
+    givemon SPECIES_TURTWIG, 10, ITEM_LUM_BERRY, ITEM_CHERISH_BALL, 0, 2 // Turtwig, Level 5, Lum Berry, Cherish Ball, Male, Hidden Ability (slot 2)
+    setflag FLAG_GIVEN_GEN4_STARTER
+    waitmessage
+	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
+    msgbox DewfordTown_House3_Text_EnjoyYourNewPokemon, MSGBOX_DEFAULT
+    release
+    end
+
+DewfordTown_House3_EventScript_GiveChimchar::
+    msgbox DewfordTown_House3_Text_YouChoseMudkipHereIsChimchar, MSGBOX_DEFAULT
+    getpartysize
+    goto_if_eq VAR_RESULT, PARTY_SIZE, DewfordTown_House3_EventScript_PartyFull
+    givemon SPECIES_CHIMCHAR, 10, ITEM_LUM_BERRY, ITEM_CHERISH_BALL, 0, 2 // Chimchar, Level 5, Lum Berry, Cherish Ball, Male, Hidden Ability (slot 2)
+    setflag FLAG_GIVEN_GEN4_STARTER
+    waitmessage
+	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
+    msgbox DewfordTown_House3_Text_EnjoyYourNewPokemon, MSGBOX_DEFAULT
+    release
+    end
+
+// --- Script branches for various outcomes ---
+DewfordTown_House3_EventScript_PartyFull::
+    msgbox DewfordTown_House3_Text_PartyIsFull, MSGBOX_DEFAULT
+    release
+    end
+
+DewfordTown_House3_EventScript_AlreadyReceivedPokemon::
+    msgbox DewfordTown_House3_Text_AlreadyReceivedPokemon, MSGBOX_DEFAULT
+    release
+    end
+
+// =============================================================================
+// Text Definitions (add these to your data/text/dewford_house3_text.inc file)
+// =============================================================================
+DewfordTown_House3_Text_HelloTrainer:
+    .string "Hello, trainer! I've been waiting for you!\n"
+    .string "I have a special gift for you,\l"
+    .string "based on your journey so far.$"
+
+DewfordTown_House3_Text_YouChoseTreeckoHereIsPiplup:
+    .string "Ah, you chose Treecko! A wise choice.\n"
+    .string "Here, take this Piplup to accompany you!$"
+
+DewfordTown_House3_Text_YouChoseTorchicHereIsTurtwig:
+    .string "So, you picked Torchic! Excellent!\n"
+    .string "This Turtwig will be a great addition\l"
+    .string "to your team!$"
+
+DewfordTown_House3_Text_YouChoseMudkipHereIsChimchar:
+    .string "Mudkip, huh? A strong start!\n"
+    .string "Allow me to give you this Chimchar!$"
+
+DewfordTown_House3_Text_EnjoyYourNewPokemon:
+    .string "I hope you and your new Pokémon\n"
+    .string "become great friends!$"
+
+DewfordTown_House3_Text_PartyIsFull:
+    .string "Oh, it looks like your party is full!\n"
+    .string "Please make some space and come back.$"
+
+DewfordTown_House3_Text_AlreadyReceivedPokemon:
+    .string "You've already received your special\n"
+    .string "Pokémon from me. Train it well!$"
+
+DewfordTown_House3_Text_ComeBackLater:
+    .string "Hmm, it seems your journey is\n"
+    .string "just beginning. Come back to me\l"
+    .string "once you've truly started your adventure!$"

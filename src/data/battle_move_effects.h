@@ -2031,7 +2031,7 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
     [EFFECT_HYDRO_STEAM] =
     {
         .battleScript = BattleScript_EffectHit,
-        .battleTvScore = 0, // TODO: Assign points
+        .battleTvScore = 4 ,
     },
 
     [EFFECT_REVIVAL_BLESSING] =

@@ -123,6 +123,8 @@
 #define MULTI_FALLARBOR_TENT_RULES         112
 #define MULTI_TAG_MATCH_TYPE               113
 #define MULTI_BERRY_PLOT                   114
+#define MULTI_HYPER_TRAIN_TYPE             115 // Added to run Hyper Train script
+#define MULTI_HYPER_STAT                   116 // Added to run Hyper Train script
 
 // Lilycove SS Tidal Multichoice Selections
 #define SSTIDAL_SELECTION_SLATEPORT        0

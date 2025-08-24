@@ -229,11 +229,31 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Poochyena
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 12
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bite
+- Poison Fang
+- Howl
+- Sand Attack
+
+Rattata
+Level: 12
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bite
+- Flame Wheel
+- Dig
+- Quick Attack
+
+Zubat
+Level: 12
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Poison Fang
+- Aerial Ace
+- Supersonic
+- Mean Look
 
 === TRAINER_MARCEL ===
 Name: MARCEL
@@ -323,8 +343,28 @@ Double Battle: No
 AI: Check Bad Move
 
 Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 17
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+-Super Fang
+- Bite
+- Howl
+- Poison Fang
+
+Ekans
+Level: 17
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bite
+- Mega Drain
+- Knock Off
+- Poison Tail
+
+Krabby
+Level: 17
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Metal Claw
+- Protect
+- Dig
+- Water Pulse
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -2528,7 +2568,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon @ Nugget
-Level: 7
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MOLLIE ===
@@ -2573,7 +2613,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
-Level: 27
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WINSTON_3 ===
@@ -2587,7 +2627,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
-Level: 30
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WINSTON_4 ===
@@ -2601,7 +2641,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
-Level: 33
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WINSTON_5 ===
@@ -2615,12 +2655,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
-Level: 36
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Fury Swipes
-- Mud Sport
-- Odor Sleuth
-- Sand Attack
+- Shadow Claw
+- Slash
+- Cut
+- Extreme Speed
 
 === TRAINER_STEVE_1 ===
 Name: STEVE
@@ -4794,32 +4834,72 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Potion / Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Geodude
-Level: 12
+Geodude (M) @ Quick Claw
+Ability: Sturdy
+Level: 14
+Nature: Impish
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+- Spikes
+- Self-Destruct
 - Defense Curl
-- Rock Throw
 - Rock Tomb
 
-Geodude
-Level: 12
+Onix (F) @ Oran Berry
+Ability: Sturdy
+Level: 14
+Nature: Impish
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
+- Sandstorm
 - Rock Tomb
+- Protect
+- Iron Defense
 
-Nosepass @ Oran Berry
+Cranidos (M) @ Shell Bell
+Ability: Mold Breaker
+Level: 14
+Ball: Heavy Ball
+Nature: Adamant
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fire Punch
+- Rock Tomb
+- Bulldoze
+- Sandstorm
+
+Lileep (F) @ Leftovers
+Ability: Storm Drain
+Level: 14
+Ball: Premier Ball
+Nature: Relaxed
+Shiny: Yes
+IVs: 15 HP / 12 Atk / 15 Def / 12 SpA / 15 SpD / 0 Spe
+- Ingrain
+- Rock Tomb
+- Toxic
+- Mega Drain
+
+Sudowoodo (M) @ Lum Berry
+Ability: Sturdy
 Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
+Ball: Great Ball
+Nature: Relaxed
+IVs: 15 HP / 15 Atk / 18 Def / 15 SpA / 18 SpD / 15 Spe
+- Low Kick
+- Rock Tomb
+- Ice Punch
+- Defense Curl
+
+Nosepass (F) @ Magnet
+Ability: Sand Force
+Level: 15
+Ball: Luxury Ball
+Nature: Relaxed
+IVs: 20 HP / 18 Atk / 20 Def / 18 SpA / 20 SpD / 18 Spe
+- Spark
+- Ice Punch
+- Thunder Wave
 - Rock Tomb
 
 === TRAINER_BRAWLY_1 ===
@@ -4828,33 +4908,74 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Machop
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
-
-Meditite
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
+Meditite (M) @ Brightpowder
+Level: 22
+Ball: Friend Ball
+Nature: Careful
+IVs: 18 HP / 15 Atk / 18 Def / 15 SpA / 18 SpD / 18 Spe
+- Brick Break
 - Light Screen
-- Reflect
 - Bulk Up
+- Baton Pass
 
-Makuhita @ Sitrus Berry
-Level: 19
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
+Hitmontop (M) @ Black Belt
+Ability: Technician
+Level: 22
+Ball: Quick Ball
+Nature: Adamant
+IVs: 15 HP / 18 Atk / 18 Def / 15 SpA / 18 SpD / 18 Spe
+- Triple Kick
 - Bulk Up
+- Ice Punch
+- Mach Punch
+
+Combusken (M) @ King's Rock
+Ability: Speed Boost
+Level: 22
+Ball: Dream Ball
+Nature: Adamant
+IVs: 15 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Fire Punch
+- Shadow Punch
+- Thunder Punch
+- Double Kick
+
+Heracross (M) @ Toxic Orb
+Ability: Guts
+Level: 22
+Ball: Sport Ball
+Nature: Adamant
+Shiny: Yes
+IVs: 18 HP / 18 Atk / 16 Def / 18 SpA / 16 SpD / 18 Spe
+- Aerial Ace
+- Bulk Up
+- Rock Smash
+- Rock Slide
+
+POLIWRATH (M) @ Shell Bell
+Ability: Water Absorb
+Level: 23
+Ball: Net Ball
+Nature: Brave
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Drain Punch
+- Bulk Up
+- Waterfall
+- Bulldoze
+
+Hariyama (M) @ Focus Band
+Ability: Thick Fat
+Level: 24
+Ball: Cherish Ball
+Nature: Adamant
+IVs: 20 HP / 20 Atk / 20 Def / 18 SpA / 20 SpD / 15 Spe
+- Drain Punch
+- Bulk Up
+- Ice Punch
+- Knock Off
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
@@ -4862,41 +4983,68 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Voltorb
-Level: 20
+Electrode @ Quick Claw
+Ability: Static
+Level: 32
+Ball: Poke Ball
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
+- Shock Wave
+- Energy Ball
 - Self Destruct
-- Shock Wave
+- Light Screen
 
-Electrike
-Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
-
-Magneton
-Level: 22
+Magneton @ Eviolite
+Ability: Sturdy
+Level: 32
+Ball: Heavy Ball
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
+- Thunderbolt
+- Energy Ball
 - Thunder Wave
-- Sonic Boom
+- Flash Cannon
 
-Manectric @ Sitrus Berry
-Level: 24
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
+Electabuzz (M) @ Eviolite
+Ability: Static
+Level: 33
+Ball: Ultra Ball
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Shock Wave
-- Howl
+- Ice Punch
+- Barrier
+- Brick Break
+
+Lanturn (F) @ Leftovers
+Ability: Volt Absorb
+Level: 33
+Ball: Dive Ball
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Shock Wave
+- Ice Beam
+- Signal Beam
+- Water Pulse
+
+Ampharos (M) @ Focus Sash
+Ability: Static
+Level: 33
+Ball: Love Ball
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Charge Beam
+- Power Gem
+- Cotton Spore
+- Dragon Pulse
+
+Luxray (M) @ King's Rock
+Ability: Intimidate
+Level: 34
+Ball: Luxury Ball
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Thunder Fang
+- Crunch
+- Fire Fang
+- Trailblaze
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -4904,41 +5052,64 @@ Class: Leader
 Pic: Leader Flannery
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Numel
-Level: 24
+Arcanine (M) @ Sitrus Berry
+Level: 43
+Ball: Great Ball
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Iron Head
+- Flamethrower
+- Thunder Fang
+- Extreme Speed
+
+Ninetales (F) @ White Herb
+Ability: Drought
+Ball: Dream Ball
+Level: 43
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Overheat
-- Take Down
-- Magnitude
-- Sunny Day
+- Shadow Ball
+- Flamethrower
+- Solar Beam
 
-Slugma
-Level: 24
+Infernape (M) @ King's Rock
+Ability: Iron Fist
+Level: 44
+Ball: Dream Ball
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunder Punch
+- Fire Punch
+- Swords Dance
+- Mach Punch
+
+Typhlosion (M) @ White Herb
+Level: 44
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Overheat
-- Smog
-- Light Screen
 - Sunny Day
+- Flamethrower
+- Solar Beam
 
-Camerupt
-Level: 26
+Camerupt (M) @ Leftovers
+Level: 44
+Ball: Timer Ball
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Overheat
-- Tackle
-- Sunny Day
-- Attract
+- Rock Slide
+- Solar Beam
+- Earthquake
 
-Torkoal @ White Herb
-Level: 29
+Torkoal (F) @ White Herb
+Ability: Drought
+Level: 45
+Ball: Cherish Ball
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Overheat
-- Sunny Day
-- Body Slam
-- Attract
+- Solar Beam
+- Earthquake
+- Ancient Power
 
 === TRAINER_NORMAN_1 ===
 Name: NORMAN
@@ -4946,41 +5117,56 @@ Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Spinda
-Level: 27
+Spinda @ Sitrus Berry
+Level: 45
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Teeter Dance
-- Psybeam
-- Facade
-- Encore
+- Drain Punch
+- Psychic
+- Water Pulse
 
-Vigoroth
-Level: 27
+Vigoroth @ Eviolite
+Level: 45
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Slash
-- Facade
-- Encore
-- Feint Attack
+- Bulk Up
+- Bulldoze
+- Zen Headbutt
 
 Linoone
-Level: 29
+Level: 45
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
 - Headbutt
+- Shadow Claw
+- Thunder Wave
+- Double Team
 
-Slaking @ Sitrus Berry
-Level: 31
+Exploud @ Scope Lens
+Level: 46
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
+- Thunderbolt
+- Uproar
+- Psychic
+- Flamethrower
+
+Snorlax (M) @ Chesto Berry
+Level: 48
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Body Slam
+- Recycle
+- Rest
 - Yawn
+
+Slaking (M) @ Leftovers
+Level: 48
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Aerial Ace
+- Skill Swap
 - Facade
-- Feint Attack
+- Drain Punch
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
@@ -4988,49 +5174,60 @@ Class: Leader
 Pic: Leader Winona
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Basic Trainer / Risky
+AI: Smart Trainer / Risky
 
-Swablu
-Level: 29
+Skarmory (F) @ Rocky Helmet
+Ability: Sturdy
+Level: 54
+Ball: Heavy Ball
+Nature: Bold
+IVs: 31 HP / 26 Atk / 31 Def / 26 SpA / 31 SpD / 26 Spe
+- Roost
+- Spikes
+- Whirlwind
+- Toxic
+
+Aerodactyl (M) @ Kings Rock
+Level: 54
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Perish Song
-- Mirror Move
-- Safeguard
+- Head Smash
 - Aerial Ace
+- Iron Head
+- Earthquake
 
-Tropius
-Level: 29
+Tropius (F) @ Lum Berry
+Level: 54
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sunny Day
 - Aerial Ace
 - Solar Beam
 - Synthesis
 
-Pelipper
-Level: 30
+Charizard (M) @ Lum Berry
+Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Supersonic
-- Protect
-- Aerial Ace
-
-Skarmory
-Level: 31
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
-- Fury Attack
-- Steel Wing
-- Aerial Ace
-
-Altaria @ Oran Berry
-Level: 33
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder Punch
 - Earthquake
-- Dragon Breath
-- Dragon Dance
+- Flamethrower
 - Aerial Ace
+
+Dragonite (M) @ Life Orb
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Dance
+- Thunderbolt
+- Earthquake
+- Ice Beam
+
+Altaria (F) @ Lum Berry
+Level: 56
+Shiny: Yes
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sky Attack
+- Dragon Dance
+- Dragon Pulse
+- Earthquake
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -5038,9 +5235,8 @@ Class: Leader
 Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
-Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Claydol
 Level: 41
@@ -5080,9 +5276,8 @@ Class: Leader
 Pic: Leader Juan
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Luvdisc
 Level: 41
@@ -5133,8 +5328,9 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
-Level: 9
+Ralts (F)
+Ball: Love Ball
+Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_TED ===
@@ -5180,12 +5376,14 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
+Ralts (F)
 Level: 26
+Ball: Love Ball
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-Meditite
+Meditite (M)
 Level: 26
+Ball: Friend Ball
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_JERRY_3 ===
@@ -5197,12 +5395,14 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Kirlia
-Level: 29
+Gardevoir (F)
+Level: 33
+Ball: Love Ball
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Meditite
-Level: 29
+Meditite (M)
+Level: 33
+Ball: Friend Ball
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_JERRY_4 ===
@@ -5214,12 +5414,14 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Kirlia
-Level: 32
+Gardevoir (F)
+Level: 40
+Ball: Love Ball
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Medicham
-Level: 32
+Medicham (M)
+Level: 40
+Ball: Friend Ball
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_JERRY_5 ===
@@ -5231,16 +5433,19 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Kirlia
-Level: 34
+Gardevoir (F)
+Level: 47
+Ball: Love Ball
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Banette
-Level: 34
+Banette (M)
+Level: 47
+Ball: Moon Ball
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Medicham
-Level: 34
+Medicham (M)
+Level: 47
+Ball: Friend Ball
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_KAREN_1 ===
@@ -5253,7 +5458,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
-Level: 9
+Level: 12
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Buneary
+Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_GEORGIA ===
@@ -5286,6 +5495,10 @@ Shroomish
 Level: 26
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
+Buneary
+Level: 26
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
 Whismur
 Level: 26
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
@@ -5300,6 +5513,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
+Level: 29
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Buneary
 Level: 29
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -5320,6 +5537,10 @@ Breloom
 Level: 32
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
+Lopunny
+Level: 32
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
 Loudred
 Level: 32
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
@@ -5334,6 +5555,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Breloom
+Level: 35
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Lopunny
 Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -5980,9 +6205,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 10
+Level: 11
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+
+Larvitar
+Level: 12
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -5994,11 +6222,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 8
+Level: 10
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 Geodude
-Level: 8
+Level: 10
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+
+Aron
+Level: 10
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JOEY ===
@@ -6011,7 +6243,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Machop
-Level: 9
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Aipom
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEN ===
@@ -6330,15 +6566,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Magikarp
-Level: 5
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 6
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 7
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CLAUDE ===
@@ -8807,11 +9043,11 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Seedot
-Level: 6
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Lotad
-Level: 6
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MIU_AND_YUKI ===
@@ -8858,13 +9094,13 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Duskull
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Night Shade
 - Disable
 
 Shroomish
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Absorb
 - Leech Seed
@@ -10561,11 +10797,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 8
+Level: 10
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Geodude
-Level: 8
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Larvitar
+Level: 10
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_BRENDEN ===
@@ -10851,12 +11091,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 13
+Lombre
+Level: 18
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Torchic
-Level: 15
+Combusken
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
@@ -10869,11 +11109,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Wingull
-Level: 13
+Level: 18
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Treecko
-Level: 15
+Grovyle
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_PAXTON ===
@@ -10976,11 +11216,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Slugma
-Level: 13
+Level: 18
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Mudkip
-Level: 15
+Marshtomp
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
@@ -10993,11 +11233,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
 Wingull
-Level: 13
+Level: 18
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Treecko
-Level: 15
+Grovyle
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
@@ -11071,11 +11311,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Lotad
-Level: 6
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shroomish
-Level: 6
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+SPECIES_NIDORAN_F
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JANICE ===
@@ -11088,7 +11332,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Marill
-Level: 9
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_VIVI ===
@@ -11122,11 +11366,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Lombre
-Level: 26
+Level: 32
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Shroomish
-Level: 26
+Level: 32
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Nidorina
+Level: 32
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_HALEY_3 ===
@@ -11139,11 +11387,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Lombre
-Level: 29
+Level: 36
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 Breloom
-Level: 29
+Level: 36
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Nidorina
+Level: 36
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_HALEY_4 ===
@@ -11155,12 +11407,16 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Lombre
-Level: 32
+Ludicolo
+Level: 40
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Breloom
-Level: 32
+Level: 40
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Nidoqueen
+Level: 40
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_HALEY_5 ===
@@ -11173,15 +11429,19 @@ Double Battle: No
 AI: Check Bad Move
 
 Swellow
-Level: 34
+Level: 44
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Lombre
-Level: 34
+Ludicolo
+Level: 44
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Breloom
-Level: 34
+Level: 44
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Nidoqueen
+Level: 44
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_SALLY ===
@@ -11274,21 +11534,33 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
-Level: 3
+Silcoon
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Harden
+- String Shot
 
-Wurmple
-Level: 3
+Cascoon
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Harden
+- String Shot
 
-Wurmple
-Level: 3
+Metapod
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+- Harden
 
-Wurmple
-Level: 3
+Kakuna
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
+- Harden
 
 === TRAINER_JOSE ===
 Name: JOSE
@@ -11300,11 +11572,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Wurmple
-Level: 8
+Level: 11
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Nincada
-Level: 8
+Level: 11
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_DOUG ===
@@ -11364,11 +11636,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Nincada
-Level: 6
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nincada
-Level: 6
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JAMES_2 ===
@@ -11381,7 +11653,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Ninjask
-Level: 27
+Level: 31
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Shedinja
+Level: 31
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_JAMES_3 ===
@@ -11394,11 +11670,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Dustox
-Level: 29
+Level: 32
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 Ninjask
-Level: 29
+Level: 33
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+
+Shedinja
+Level: 33
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_JAMES_4 ===
@@ -11411,15 +11691,19 @@ Double Battle: No
 AI: Check Bad Move
 
 Surskit
-Level: 31
+Level: 34
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Dustox
-Level: 31
+Level: 34
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Ninjask
-Level: 31
+Level: 35
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Shedinja
+Level: 35
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_JAMES_5 ===
@@ -11431,20 +11715,20 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Surskit
-Level: 33
+Masquerain
+Level: 36
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Ninjask
-Level: 33
+Level: 38
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Dustox
-Level: 33
+Level: 36
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Ninjask
-Level: 33
+Shedinja
+Level: 38
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_BRICE ===
@@ -11550,7 +11834,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 8
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Rhyhorn
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Aron
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ERIC ===
@@ -12941,13 +13233,24 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Phanpy @ Nugget
+Level: 18
+Ball: Luxury Ball
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bulldoze
+- Rollout
+- Trailblaze
+- Defense Curl
 
-Poochyena
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mightyena
+Ability: Intimidate
+Level: 18
+Ball: Luxury Ball
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunder Fang
+- Fire Fang
+- Ice Fang
+- Poison Fang
 
 === TRAINER_SARAH ===
 Name: SARAH
@@ -12959,13 +13262,23 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lombre @ Nugget
+Level: 18
+Ball: Luxury Ball
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Knock Off
+- Fake Out
+- Mega Drain
 
-Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Aipom
+Level: 18
+Ball: Luxury Ball
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Acrobatics
+- Fire Punch
+- Knock Off
+- Trailblaze
 
 === TRAINER_DARIAN ===
 Name: DARIAN
@@ -13859,12 +14172,20 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
+Geodude (M)
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Geodude
-Level: 8
+Larvitar (M)
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bonsly (M)
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Riolu (M)
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOHNSON ===
@@ -13877,11 +14198,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
-Level: 8
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Lotad
-Level: 8
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MELINA ===
@@ -14128,12 +14449,12 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Lotad
-Level: 13
+Lombre
+Level: 18
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Torchic
-Level: 15
+Combusken
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
@@ -14145,12 +14466,12 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torkoal
-Level: 13
+Slugma
+Level: 18
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Mudkip
-Level: 15
+Marshtomp
+Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_ROXANNE_2 ===
