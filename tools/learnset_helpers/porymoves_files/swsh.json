@@ -10876,12 +10876,14 @@
       "MOVE_ZEN_HEADBUTT",
       "MOVE_GRASS_KNOT",
       "MOVE_STORED_POWER",
-      "MOVE_ALLY_SWITCH"
+      "MOVE_ALLY_SWITCH",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_FAKE_OUT",
       "MOVE_ROLE_PLAY",
-      "MOVE_WISH"
+      "MOVE_WISH",
+      "MOVE_FREEZE_DRY"
     ],
     "TutorMoves": [
       "MOVE_TRIPLE_AXEL",
@@ -11625,7 +11627,8 @@
       "MOVE_IRON_HEAD",
       "MOVE_DRILL_RUN",
       "MOVE_LIQUIDATION",
-      "MOVE_BODY_PRESS"
+      "MOVE_BODY_PRESS",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -18639,7 +18642,8 @@
       "MOVE_SEED_BOMB",
       "MOVE_BRAVE_BIRD",
       "MOVE_GUNK_SHOT",
-      "MOVE_DRILL_RUN"
+      "MOVE_DRILL_RUN",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_AURORA_BEAM",
@@ -29482,7 +29486,8 @@
       "MOVE_STOCKPILE",
       "MOVE_SWALLOW",
       "MOVE_WATER_PULSE",
-      "MOVE_YAWN"
+      "MOVE_YAWN",
+      "MOVE_FREEZE_DRY"
     ],
     "TutorMoves": [
       "MOVE_STEEL_ROLLER"
@@ -29598,7 +29603,8 @@
       "MOVE_STOCKPILE",
       "MOVE_SWALLOW",
       "MOVE_WATER_PULSE",
-      "MOVE_YAWN"
+      "MOVE_YAWN",
+      "MOVE_FREEZE_DRY"
     ],
     "TutorMoves": [
       "MOVE_STEEL_ROLLER"
@@ -29719,7 +29725,8 @@
       "MOVE_IRON_HEAD",
       "MOVE_HEAVY_SLAM",
       "MOVE_LIQUIDATION",
-      "MOVE_BODY_PRESS"
+      "MOVE_BODY_PRESS",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -29730,7 +29737,8 @@
       "MOVE_STOCKPILE",
       "MOVE_SWALLOW",
       "MOVE_WATER_PULSE",
-      "MOVE_YAWN"
+      "MOVE_YAWN",
+      "MOVE_FREEZE_DRY"
     ],
     "TutorMoves": [
       "MOVE_STEEL_ROLLER"
@@ -37475,7 +37483,8 @@
       "MOVE_STEALTH_ROCK",
       "MOVE_HEAVY_SLAM",
       "MOVE_HIGH_HORSEPOWER",
-      "MOVE_BODY_PRESS"
+      "MOVE_BODY_PRESS",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
