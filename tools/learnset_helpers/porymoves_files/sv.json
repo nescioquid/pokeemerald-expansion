@@ -1021,7 +1021,8 @@
       "MOVE_FLIP_TURN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_WHIRLPOOL",
-      "MOVE_MUDDY_WATER"
+      "MOVE_MUDDY_WATER",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7092,7 +7093,8 @@
       "MOVE_MUDDY_WATER",
       "MOVE_TRIPLE_AXEL",
       "MOVE_CURSE",
-      "MOVE_ALLURING_VOICE"
+      "MOVE_ALLURING_VOICE",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -10686,7 +10688,8 @@
       "MOVE_CURSE",
       "MOVE_DRAGON_CHEER",
       "MOVE_ALLURING_VOICE",
-      "MOVE_PSYCHIC_NOISE"
+      "MOVE_PSYCHIC_NOISE",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_HORN_DRILL",
@@ -20378,7 +20381,8 @@
       "MOVE_DUAL_WINGBEAT",
       "MOVE_ENDEAVOR",
       "MOVE_TRIPLE_AXEL",
-      "MOVE_FEATHER_DANCE"
+      "MOVE_FEATHER_DANCE",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_AURORA_BEAM",
@@ -22347,7 +22351,8 @@
       "MOVE_SCALD",
       "MOVE_WEATHER_BALL",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_WHIRLPOOL"
+      "MOVE_WHIRLPOOL",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -33377,7 +33382,8 @@
       "MOVE_GRAVITY",
       "MOVE_ICICLE_SPEAR",
       "MOVE_FOCUS_PUNCH",
-      "MOVE_CURSE"
+      "MOVE_CURSE",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -42287,7 +42293,8 @@
       "MOVE_ENDEAVOR",
       "MOVE_THROAT_CHOP",
       "MOVE_CURSE",
-      "MOVE_HARD_PRESS"
+      "MOVE_HARD_PRESS",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -85709,7 +85716,8 @@
       "MOVE_OUTRAGE",
       "MOVE_DRACO_METEOR",
       "MOVE_TERA_BLAST",
-      "MOVE_ICICLE_SPEAR"
+      "MOVE_ICICLE_SPEAR",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_AQUA_TAIL",
@@ -85801,7 +85809,8 @@
       "MOVE_OUTRAGE",
       "MOVE_DRACO_METEOR",
       "MOVE_TERA_BLAST",
-      "MOVE_ICICLE_SPEAR"
+      "MOVE_ICICLE_SPEAR",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_AQUA_TAIL",
@@ -85928,7 +85937,8 @@
       "MOVE_SCALE_SHOT",
       "MOVE_DOUBLE_EDGE",
       "MOVE_BREAKING_SWIPE",
-      "MOVE_DRAGON_CHEER"
+      "MOVE_DRAGON_CHEER",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_AQUA_TAIL",
@@ -89821,7 +89831,8 @@
       "MOVE_PAIN_SPLIT",
       "MOVE_PSYCH_UP",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_TRIPLE_AXEL"
+      "MOVE_TRIPLE_AXEL",
+      "MOVE_FREEZE_DRY"
     ],
     "EggMoves": [
       "MOVE_BABY_DOLL_EYES",
