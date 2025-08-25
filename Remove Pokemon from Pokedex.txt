@@ -1,0 +1,6 @@
+Remove a Pokemon
+
+include/config/species_enabled.h -- disable species
+include/constants/pokedex.h ------- comment out species
+data/pokemon/pokedex_orders.h ----- comment out species
+src/pokemon.c --------------------- comment out species
