@@ -22,13 +22,13 @@
     F(RAIN_DANCE) \
     F(GIGA_DRAIN) \
     F(SAFEGUARD) \
-    F(FRUSTRATION) \
+    F(DAZZLING_GLEAM) \
     F(SOLAR_BEAM) \
     F(IRON_TAIL) \
     F(THUNDERBOLT) \
     F(THUNDER) \
     F(EARTHQUAKE) \
-    F(RETURN) \
+    F(LOW_SWEEP) \
     F(DIG) \
     F(PSYCHIC) \
     F(SHADOW_BALL) \
@@ -50,8 +50,58 @@
     F(THIEF) \
     F(STEEL_WING) \
     F(SKILL_SWAP) \
-    F(SNATCH) \
-    F(OVERHEAT)
+    F(SCALD) \
+    F(OVERHEAT)\
+    F(ROOST)\
+    F(FOCUS_BLAST)\
+    F(ENERGY_BALL)\
+    F(FALSE_SWIPE)\
+    F(BRINE)\
+    F(FLING)\
+    F(CHARGE_BEAM)\
+    F(CHILLING_WATER)\
+    F(DRAGON_PULSE)\
+    F(DRAIN_PUNCH)\
+    F(WILL_O_WISP)\
+    F(BUG_BUZZ)\
+    F(STEEL_BEAM)\
+    F(EXPLOSION)\
+    F(SHADOW_CLAW)\
+    F(PAYBACK)\
+    F(RECYCLE)\
+    F(GIGA_IMPACT)\
+    F(ROCK_POLISH)\
+    F(FREEZE_DRY)\
+    F(STONE_EDGE)\
+    F(AVALANCHE)\
+    F(THUNDER_WAVE)\
+    F(GYRO_BALL)\
+    F(SWORDS_DANCE)\
+    F(STEALTH_ROCK)\
+    F(PLAY_ROUGH)\
+    F(FLIP_TURN)\
+    F(DARK_PULSE)\
+    F(ROCK_SLIDE)\
+    F(X_SCISSOR)\
+    F(SLEEP_TALK)\
+    F(BULLDOZE)\
+    F(POISON_JAB)\
+    F(DREAM_EATER)\
+    F(GRASS_KNOT)\
+    F(SWAGGER)\
+    F(PLUCK)\
+    F(U_TURN)\
+    F(SUBSTITUTE)\
+    F(FLASH_CANNON)\
+    F(TRICK_ROOM)\
+    F(WILD_CHARGE)\
+    F(AIR_SLASH)\
+    F(SNARL)\
+    F(VOLT_SWITCH)\
+    F(DRACO_METEOR)\
+    F(GUNK_SHOT)\
+    F(FLARE_BLITZ)\
+    F(BRAVE_BIRD)\
 
 #define FOREACH_HM(F) \
     F(CUT) \
