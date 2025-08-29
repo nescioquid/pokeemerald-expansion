@@ -72,5 +72,22 @@
       "script": "Route114_FossilManiacsTunnel_EventScript_ManiacMentionCaveIn"
     }
   ],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 4,
+      "y": 5,
+      "elevation": 0,
+      "item": "ITEM_SKULL_FOSSIL",
+      "flag": "FLAG_HIDDEN_ITEM_FOSSIL_MANIACS_TUNNEL_SKULL_FOSSIL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 6,
+      "elevation": 0,
+      "item": "ITEM_ARMOR_FOSSIL",
+      "flag": "FLAG_HIDDEN_ITEM_FOSSIL_MANIACS_TUNNEL_ARMOR_FOSSIL"
+    }
+  ]
 }
