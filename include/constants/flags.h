@@ -1325,7 +1325,7 @@
 #define FLAG_DEFEATED_SOOTOPOLIS_GYM                                0x4F7
 #define FLAG_DEFEATED_METEOR_FALLS_STEVEN                           0x4F8
 
-#define FLAG_UNUSED_0x4F9                                           0x4F9 // Unused Flag
+#define FLAG_RUSTUNGRUNT                                            0x4F9 // Beat Aqua Grunt in Rusturf Tunnel (for Level Caps)
 #define FLAG_UNUSED_0x4FA                                           0x4FA // Unused Flag
 
 #define FLAG_DEFEATED_ELITE_4_SIDNEY                                0x4FB
@@ -1344,7 +1344,7 @@
 
 // System Flags
 
-#define SYSTEM_FLAGS                                   (TRAINER_FLAGS_END + 1) // 0x860
+#define SYSTEM_FLAGS                                 (TRAINER_FLAGS_END + 1) // 0x860
 
 #define FLAG_SYS_POKEMON_GET                         (SYSTEM_FLAGS + 0x0) // FLAG_0x860
 #define FLAG_SYS_POKEDEX_GET                         (SYSTEM_FLAGS + 0x1)
