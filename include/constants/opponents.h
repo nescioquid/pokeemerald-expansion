@@ -724,15 +724,64 @@
 #define TRAINER_LEAF                        718
 #define TRAINER_BRENDAN_PLACEHOLDER         719
 #define TRAINER_MAY_PLACEHOLDER             720
+
+// Added trainers
 #define TRAINER_BRENDAN_ROUTE_103_POSTGAME  721
 #define TRAINER_MAY_ROUTE_103_POSTGAME      722
 #define TRAINER_META_BOY                    723
+
+// Trainer pools
+#define POOL_AROMA_LADY                     724
+#define POOL_BATTLE_GIRL                    725
+#define POOL_BEAUTY                         726
+#define POOL_BIRD_KEEPER                    727
+#define POOL_BLACK_BELT                     728
+#define POOL_BUG_CATCHER                    729
+#define POOL_BUG_MANIAC                     730
+#define POOL_CAMPER                         731
+#define POOL_COLLECTOR                      732
+#define POOL_COOLTRAINER                    733
+#define POOL_DRAGON_TAMER                   734
+#define POOL_EXPERT                         735
+#define POOL_FISHERMAN                      736
+#define POOL_GENTLEMAN                      737
+#define POOL_GUITARIST                      738
+#define POOL_HEX_MANIAC                     739
+#define POOL_HIKER                          740
+#define POOL_KINDLER                        741
+#define POOL_LADY                           742
+#define POOL_LASS                           743
+#define POOL_NINJA_BOY                      744
+#define POOL_OLD_COUPLE                     745
+#define POOL_PARASOL_LADY                   746
+#define POOL_PICNICKER                      747
+#define POOL_POKEMON_BREEDER                748
+#define POOL_PKMN_RANGER                    749
+#define POOL_POKEFAN                        750
+#define POOL_POKEMANIAC                     751
+#define POOL_PSYCHIC                        752
+#define POOL_RICH_BOY                       753
+#define POOL_RUIN_MANIAC                    754
+#define POOL_SAILOR                         755
+#define POOL_SCHOOL_KID                     756
+#define POOL_SIS_AND_BRO                    757
+#define POOL_SR_AND_JR                      758
+#define POOL_SWIMMER                        759
+#define POOL_TRIATHLETE_CYCLING             760
+#define POOL_TRIATHLETE_RUNNING             761
+#define POOL_TRIATHLETE_SWIMMING            762
+#define POOL_TUBER                          763
+#define POOL_TWINS                          764
+#define POOL_YOUNG_COUPLE                   765
+#define POOL_YOUNGSTER                      766
+#define POOL_TEAM_AQUA                      767
+#define POOL_TEAM_MAGMA                     768
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      724
+#define TRAINERS_COUNT                      769
 #define MAX_TRAINERS_COUNT                  864
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 
