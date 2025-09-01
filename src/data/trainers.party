@@ -12107,16 +12107,10 @@ Level: 5
 Primeape
 Level: 5
 
-Machop /* (derived) */
-Level: 5
-
 Machoke
 Level: 5
 
 Machamp /* (rematches) */
-Level: 5
-
-Tyrogue /* (derived) */
 Level: 5
 
 Hitmonlee
@@ -12126,9 +12120,6 @@ Hitmonchan
 Level: 5
 
 Hitmontop
-Level: 5
-
-Shroomish /* (derived) */
 Level: 5
 
 Breloom
@@ -12193,9 +12184,6 @@ Rattata
 Level: 5
 
 Caterpie
-Level: 5
-
-Metapod /* (derived) */
 Level: 5
 
 Butterfree
@@ -12346,9 +12334,6 @@ Skiploom
 Level: 5
 
 Corsola
-Level: 5
-
-Lotad /* (derived) */
 Level: 5
 
 Lombre
@@ -12503,12 +12488,6 @@ Name: Pool
 Pic: Black Belt
 Party Size: 1
 
-Nidoran M /* (derived) */
-Level: 5
-
-Nidorino /* (derived) */
-Level: 5
-
 Nidoking /* (ORAS) */
 Level: 5
 
@@ -12516,9 +12495,6 @@ Mankey
 Level: 5
 
 Primeape
-Level: 5
-
-Poliwag /* (derived) */
 Level: 5
 
 Poliwhirl /* (LGPE) */
@@ -12534,9 +12510,6 @@ Machoke
 Level: 5
 
 Machamp /* (RSE rematches, ORAS) */
-Level: 5
-
-Geodude /* (derived) */
 Level: 5
 
 Graveler
@@ -12563,12 +12536,6 @@ Level: 5
 Hariyama
 Level: 5
 */
-
-Aron /* (derived) */
-Level: 5
-
-Lairon /* (derived) */
-Level: 5
 
 Aggron /* (ORAS) */
 Level: 5
@@ -12633,9 +12600,6 @@ Level: 5
 Ledian /* (rematches) */
 Level: 5
 
-Spinarak /* (derived) */
-Level: 5
-
 Ariados
 Level: 5
 
@@ -12652,9 +12616,6 @@ Silcoon
 Level: 5
 
 Beautifly
-Level: 5
-
-Cascoon /* (derived) */
 Level: 5
 
 Dustox /* (rematches) */
@@ -12817,12 +12778,6 @@ Level: 5
 Arcanine /* (rematches) */
 Level: 5
 
-Poliwag /* (derived) */
-Level: 5
-
-Poliwhirl /* (derived) */
-Level: 5
-
 Poliwrath
 Level: 5
 
@@ -12842,9 +12797,6 @@ Doduo /* (ORAS) */
 Level: 5
 
 Krabby /* (LGPE) */
-Level: 5
-
-Rhyhorn /* (derived) */
 Level: 5
 
 Rhydon
@@ -12868,9 +12820,6 @@ Level: 5
 Lanturn /* (rematches) */
 Level: 5
 
-Natu /* (derived) */
-Level: 5
-
 Xatu
 Level: 5
 
@@ -12878,9 +12827,6 @@ Marill
 Level: 5
 
 Sudowoodo
-Level: 5
-
-Hoppip /* (derived) */
 Level: 5
 
 Skiploom
@@ -12901,9 +12847,6 @@ Level: 5
 Linoone /* (rematches) */
 Level: 5
 
-Seedot /* (derived) */
-Level: 5
-
 Nuzleaf
 Level: 5
 
@@ -12911,9 +12854,6 @@ Taillow
 Level: 5
 
 Swellow
-Level: 5
-
-Wingull /* (derived) */
 Level: 5
 
 Pelipper /* (ORAS) */
@@ -12965,16 +12905,10 @@ Name: Pool
 Pic: Collector
 Party Size: 1
 
-Lotad /* (derived) */
-Level: 5
-
 Lombre
 Level: 5
 
 Ludicolo /* (rematches) */
-Level: 5
-
-Seedot /* (derived) */
 Level: 5
 
 Nuzleaf
@@ -13052,35 +12986,11 @@ Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 */
 
-Caterpie /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Metapod /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Butterfree
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Weedle /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Kakuna /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Beedrill /* (LGPE) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Pidgey /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Pidgeotto /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13097,10 +13007,6 @@ Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
 Raichu /* (ORAS) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Sandshrew /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13140,15 +13046,7 @@ Ninetales
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Jigglypuff /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Wigglytuff /* (LGPE) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Zubat /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13188,23 +13086,11 @@ Dugtrio
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Meowth /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Persian
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Psyduck /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Golduck
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Mankey /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13220,28 +13106,15 @@ Arcanine
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Poliwag /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Poliwhirl
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Abra /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Hidden Power
 
 Kadabra
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
 Alakazam /* (ORAS) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Machop /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13265,15 +13138,7 @@ Victreebel
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Tentacool /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Tentacruel
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Geodude /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13293,10 +13158,6 @@ Rapidash
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Slowpoke /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Slowbro
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
@@ -13305,15 +13166,7 @@ Slowking
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Magnemite /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Magneton
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Doduo /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13321,15 +13174,7 @@ Dodrio
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Seel /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Dewgong
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Grimer /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13342,10 +13187,6 @@ Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
 Cloyster
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Gastly /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13365,10 +13206,6 @@ Kingler
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Voltorb /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Electrode
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
@@ -13381,10 +13218,6 @@ Exeggutor
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Cubone /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Marowak
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
@@ -13393,15 +13226,7 @@ Hitmonchan /* (LGPE) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Lickitung /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Lickilicky
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Koffing /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13522,31 +13347,7 @@ Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
 /*
-Chikorita (derived)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
-Bayleef (derived)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
 Meganium
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
-Cyndaquil (derived)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
-Quilava (derived)
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 */
@@ -13558,26 +13359,10 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 */
 
 /*
-Totodile (derived)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
-Croconaw (derived)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
 Feraligatr
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 */
-
-Chinchou /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
 Lanturn
 Level: 5
@@ -13603,15 +13388,7 @@ Sudowoodo
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Hoppip /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Skiploom
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Wooper /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13623,15 +13400,7 @@ Girafarig
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Teddiursa /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Ursaring
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Slugma /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13651,19 +13420,7 @@ Larvitar
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Zigzagoon /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Linoone
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Lotad /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Lombre /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13671,19 +13428,7 @@ Ludicolo
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Seedot /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Nuzleaf /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Shiftry
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Taillow /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13700,40 +13445,16 @@ Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
 /*
-Ralts (derived)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
-Kirlia (derived)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
 Gardevoir
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 */
 
-Surskit /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Masquerain /* (ORAS) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Shroomish /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Breloom /* (ORAS) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Nincada /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13809,28 +13530,12 @@ Mawile
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Aron /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Lairon
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
 /*
-Meditite (derived)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
 Medicham
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
-Electrike (derived)
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 */
@@ -13854,19 +13559,7 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 */
 
 /*
-Gulpin (derived)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
 Swalot (ORAS)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
-Carvanha (derived)
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 */
@@ -13905,15 +13598,7 @@ Spinda
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
-Trapinch /* (derived) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
 Vibrava /* (ORAS) */
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Cacnea /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -13946,19 +13631,7 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 */
 
 /*
-Baltoy (derived)
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
 Claydol
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-*/
-
-/*
-Feebas (derived)
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 */
@@ -13968,10 +13641,6 @@ Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
 Kecleon
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Duskull /* (derived) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 
@@ -14072,25 +13741,10 @@ Name: Pool
 Pic: Dragon Tamer
 Party Size: 1
 
-Horsea /* (derived) */
-Level: 5
-
-Seadra /* (derived) */
-Level: 5
-
 Kingdra /* (ORAS) */
 Level: 5
 
-Trapinch /* (derived) */
-Level: 5
-
-Vibrava /* (derived) */
-Level: 5
-
 Flygon /* (ORAS) */
-Level: 5
-
-Swablu /* (derived) */
 Level: 5
 
 Altaria
@@ -14117,9 +13771,6 @@ Name: Pool
 Pic: Expert M
 Party Size: 1
 
-Machop /* (derived) */
-Level: 5
-
 Machoke
 Level: 5
 
@@ -14132,13 +13783,7 @@ Level: 5
 Chinchou
 Level: 5
 
-Taillow /* (derived) */
-Level: 5
-
 Swellow
-Level: 5
-
-Shroomish /* (derived) */
 Level: 5
 
 Breloom
@@ -14165,11 +13810,6 @@ Level: 5
 */
 
 /*
-Electrike (derived)
-Level: 5
-*/
-
-/*
 Manectric
 Level: 5
 */
@@ -14178,9 +13818,6 @@ Level: 5
 Roselia
 Level: 5
 */
-
-Barboach /* (derived) */
-Level: 5
 
 Whiscash
 Level: 5
@@ -14273,13 +13910,7 @@ Level: 5
 Gyarados
 Level: 5
 
-Chinchou /* (derived) */
-Level: 5
-
 Lanturn
-Level: 5
-
-Wooper /* (derived) */
 Level: 5
 
 Quagsire
@@ -14362,13 +13993,7 @@ Level: 5
 Vulpix /* (LGPE) */
 Level: 5
 
-Meowth /* (derived) */
-Level: 5
-
 Persian
-Level: 5
-
-Psyduck /* (derived) */
 Level: 5
 
 Golduck
@@ -14389,22 +14014,13 @@ Level: 5
 Voltorb
 Level: 5
 
-Cubone /* (derived) */
-Level: 5
-
 Marowak
 Level: 5
 
 Eevee /* (LGPE) */
 Level: 5
 
-Hoothoot /* (derived) */
-Level: 5
-
 Noctowl
-Level: 5
-
-Mareep /* (derived) */
 Level: 5
 
 Flaaffy
@@ -14414,9 +14030,6 @@ Wobbuffet
 Level: 5
 
 Girafarig
-Level: 5
-
-Zigzagoon /* (derived) */
 Level: 5
 
 Linoone
@@ -14477,9 +14090,6 @@ Level: 5
 Electabuzz
 Level: 5
 
-Eevee /* (derived) */
-Level: 5
-
 Jolteon
 Level: 5
 
@@ -14518,14 +14128,7 @@ Name: Pool
 Pic: Hex Maniac
 Party Size: 1
 
-Abra /* (derived) */
-Level: 5
-- Hidden Power
-
 Kadabra
-Level: 5
-
-Natu /* (derived) */
 Level: 5
 
 Xatu /* (ORAS) */
@@ -14620,9 +14223,6 @@ Graveler
 Level: 5
 
 Golem
-Level: 5
-
-Magnemite /* (derived) */
 Level: 5
 
 Magneton
@@ -14727,13 +14327,7 @@ Party Size: 1
 
 /* all or nearly all mons hold Nuggets */
 
-Meowth @ Nugget /* (derived) */
-Level: 5
-
 Persian @ Nugget
-Level: 5
-
-Goldeen @ Nugget /* (derived) */
 Level: 5
 
 Seaking @ Nugget
@@ -14749,9 +14343,6 @@ Hoppip @ Nugget
 Level: 5
 
 Skiploom @ Nugget
-Level: 5
-
-Misdreavus @ Nugget /* (derived) */
 Level: 5
 
 Mismagius @ Nugget /* (ORAS) */
@@ -14928,9 +14519,6 @@ Level: 5
 Tangela /* (LGPE) */
 Level: 5
 
-Horsea /* (derived) */
-Level: 5
-
 Seadra /* (ORAS) */
 Level: 5
 
@@ -14947,9 +14535,6 @@ Vaporeon
 Level: 5
 
 Flareon /* (LGPE) */
-Level: 5
-
-Mareep /* (derived) */
 Level: 5
 
 Flaaffy
@@ -14986,9 +14571,6 @@ Lombre /* (rematches) */
 Level: 5
 
 Ludicolo /* (ORAS) */
-Level: 5
-
-Taillow /* (derived) */
 Level: 5
 
 Swellow /* (rematches) */
@@ -15064,17 +14646,7 @@ Ditto
 Level: 5
 
 /*
-Makuhita (derived)
-Level: 5
-*/
-
-/*
 Hariyama
-Level: 5
-*/
-
-/*
-Meditite (derived)
 Level: 5
 */
 
@@ -15196,9 +14768,6 @@ Level: 5
 Nidoqueen
 Level: 5
 
-Nidoran M /* (derived) */
-Level: 5
-
 Nidorino /* (rematches) */
 Level: 5
 
@@ -15274,9 +14843,6 @@ Level: 5
 Seel
 Level: 5
 
-Exeggcute /* (derived) */
-Level: 5
-
 Exeggutor
 Level: 5
 
@@ -15307,13 +14873,7 @@ Level: 5
 Jolteon /* (LGPE) */
 Level: 5
 
-Sentret /* (derived) */
-Level: 5
-
 Furret
-Level: 5
-
-Mareep /* (derived) */
 Level: 5
 
 Flaaffy
@@ -15331,19 +14891,10 @@ Level: 5
 Jumpluff /* (rematches) */
 Level: 5
 
-Sunkern /* (derived) */
-Level: 5
-
 Sunflora /* (rematches) */
 Level: 5
 
-Lotad /* (derived) */
-Level: 5
-
 Lombre
-Level: 5
-
-Seedot /* (derived) */
 Level: 5
 
 Nuzleaf
@@ -15576,9 +15127,6 @@ Level: 5
 Raichu /* (ORAS rematches) */
 Level: 5
 
-Oddish /* (derived) */
-Level: 5
-
 Gloom
 Level: 5
 
@@ -15621,13 +15169,7 @@ Level: 5
 Nuzleaf
 Level: 5
 
-Shroomish /* (derived) */
-Level: 5
-
 Breloom
-Level: 5
-
-Slakoth /* (derived) */
 Level: 5
 
 Vigoroth /* (ORAS) */
@@ -15640,22 +15182,12 @@ Aron
 Level: 5
 
 /*
-Electrike (derived)
-Level: 5
-*/
-
-/*
 Manectric (ORAS)
 Level: 5
 */
 
 /*
 Roselia
-Level: 5
-*/
-
-/*
-Spoink (derived)
 Level: 5
 */
 
@@ -15750,9 +15282,6 @@ Marill @ Sitrus Berry
 Level: 5
 
 Azumarill @ Sitrus Berry
-Level: 5
-
-Wooper @ Sitrus Berry /* (derived) */
 Level: 5
 
 Quagsire @ Sitrus Berry
@@ -15887,9 +15416,6 @@ Level: 5
 Kangaskhan
 Level: 5
 
-Magikarp /* (derived) */
-Level: 5
-
 Gyarados /* (rematches) */
 Level: 5
 
@@ -15897,12 +15423,6 @@ Lapras
 Level: 5
 
 Porygon /* (rematches) */
-Level: 5
-
-Mareep /* (derived) */
-Level: 5
-
-Flaaffy /* (derived) */
 Level: 5
 
 Ampharos /* (ORAS rematches) */
@@ -15971,9 +15491,6 @@ Level: 5
 Jynx /* (LGPE master trainer) */
 Level: 5
 
-Eevee /* (derived) */
-Level: 5
-
 Espeon
 Level: 5
 
@@ -16030,17 +15547,9 @@ Level: 5
 */
 
 /*
-Baltoy (derived)
-Level: 5
-*/
-
-/*
 Claydol (ORAS)
 Level: 5
 */
-
-Shuppet /* (derived) */
-Level: 5
 
 Banette
 Level: 5
@@ -16057,19 +15566,10 @@ Party Size: 1
 
 /* all or nearly all mons hold Nuggets */
 
-Eevee @ Nugget /* (derived) */
-Level: 5
-
 Jolteon @ Nugget /* (ORAS) */
 Level: 5
 
-Chinchou @ Nugget /* (derived) */
-Level: 5
-
 Lanturn @ Nugget /* (ORAS) */
-Level: 5
-
-Marill @ Nugget /* (derived) */
 Level: 5
 
 Azumarill @ Nugget
@@ -16107,9 +15607,6 @@ Level: 5
 Sandslash
 Level: 5
 
-Machop /* (derived) */
-Level: 5
-
 Machoke
 Level: 5
 
@@ -16120,9 +15617,6 @@ Graveler
 Level: 5
 
 Onix
-Level: 5
-
-Cubone /* (derived) */
 Level: 5
 
 Marowak
@@ -16160,9 +15654,6 @@ Level: 5
 Name: Pool
 Pic: Sailor
 Party Size: 1
-
-Rattata /* (derived) */
-Level: 5
 
 Raticate
 Level: 5
@@ -16230,9 +15721,6 @@ Level: 5
 Staryu
 Level: 5
 
-Marill /* (derived) */
-Level: 5
-
 Azumarill
 Level: 5
 
@@ -16272,25 +15760,13 @@ Name: Pool
 Pic: School Kid M
 Party Size: 1
 
-Pidgey /* (derived) */
-Level: 5
-
-Pidgeotto /* (derived) */
-Level: 5
-
 Pidgeot
-Level: 5
-
-Sandshrew /* (derived) */
 Level: 5
 
 Sandslash
 Level: 5
 
 Vulpix /* (rematches) */
-Level: 5
-
-Zubat /* (derived) */
 Level: 5
 
 Golbat
@@ -16314,19 +15790,8 @@ Level: 5
 Growlithe /* (rematches) */
 Level: 5
 
-Poliwag /* (derived) */
-Level: 5
-
 Poliwhirl
 Level: 5
-
-Abra /* (derived) */
-Level: 5
-- Hidden Power
-
-Kadabra /* (derived) */
-Level: 5
-- Hidden Power
 
 Alakazam
 Level: 5
@@ -16349,9 +15814,6 @@ Level: 5
 Magneton
 Level: 5
 
-Seel /* (derived) */
-Level: 5
-
 Dewgong /* (ORAS rematches) */
 Level: 5
 
@@ -16359,9 +15821,6 @@ Voltorb
 Level: 5
 
 Electrode /* (rematches) */
-Level: 5
-
-Exeggcute /* (derived) */
 Level: 5
 
 Exeggutor
@@ -16391,25 +15850,13 @@ Level: 5
 Ditto
 Level: 5
 
-Eevee /* (derived) */
-Level: 5
-
 Vaporeon
-Level: 5
-
-Sentret /* (derived) */
 Level: 5
 
 Furret
 Level: 5
 
-Ledyba /* (derived) */
-Level: 5
-
 Ledian
-Level: 5
-
-Natu /* (derived) */
 Level: 5
 
 Xatu
@@ -16424,19 +15871,10 @@ Level: 5
 Yanmega /* (rematches) */
 Level: 5
 
-Wooper /* (derived) */
-Level: 5
-
 Quagsire /* (rematches) */
 Level: 5
 
 Zigzagoon
-Level: 5
-
-Wurmple /* (derived) */
-Level: 5
-
-Silcoon /* (derived) */
 Level: 5
 
 Beautifly
@@ -16496,9 +15934,6 @@ Numel
 Level: 5
 */
 
-Shuppet /* (derived) */
-Level: 5
-
 Banette /* (rematches) */
 Level: 5
 
@@ -16517,16 +15952,10 @@ Name: Pool
 Pic: Sis And Bro
 Party Size: 1
 
-Poliwag /* (derived) */
-Level: 5
-
 Poliwhirl
 Level: 5
 
 Tentacool
-Level: 5
-
-Horsea /* (derived) */
 Level: 5
 
 Seadra
@@ -16538,19 +15967,10 @@ Level: 5
 Seaking
 Level: 5
 
-Staryu /* (derived) */
-Level: 5
-
 Starmie
 Level: 5
 
 Chinchou
-Level: 5
-
-Lanturn /* (derived) */
-Level: 5
-
-Marill /* (derived) */
 Level: 5
 
 Azumarill
@@ -16575,9 +15995,6 @@ Sharpedo (rematches)
 Level: 5
 */
 
-Barboach /* (derived) */
-Level: 5
-
 Whiscash /* (ORAS) */
 Level: 5
 
@@ -16585,9 +16002,6 @@ Level: 5
 Corphish (ORAS)
 Level: 5
 */
-
-Spheal /* (derived) */
-Level: 5
 
 Sealeo /* (ORAS) */
 Level: 5
@@ -16597,13 +16011,7 @@ Name: Pool
 Pic: Sr And Jr
 Party Size: 1
 
-Geodude /* (derived) */
-Level: 5
-
 Graveler
-Level: 5
-
-Marill /* (derived) */
 Level: 5
 
 Azumarill /* (ORAS) */
@@ -16613,12 +16021,6 @@ Zigzagoon
 Level: 5
 
 Linoone /* (rematches) */
-Level: 5
-
-Slakoth /* (derived) */
-Level: 5
-
-Vigoroth /* (derived) */
 Level: 5
 
 Slaking
@@ -16652,9 +16054,6 @@ Level: 5
 Spinda
 Level: 5
 
-Swablu /* (derived) */
-Level: 5
-
 Altaria
 Level: 5
 
@@ -16664,12 +16063,7 @@ Pic: Swimmer M
 Party Size: 1
 
 /*
-Squirtle (derived)
-Level: 5
-*/
-
-/*
-Wartortle (derived)
+Wartortle
 Level: 5
 */
 
@@ -16689,9 +16083,6 @@ Tentacool
 Level: 5
 
 Tentacruel
-Level: 5
-
-Slowpoke /* (derived) */
 Level: 5
 
 Slowbro /* (LGPE) */
@@ -16742,9 +16133,6 @@ Level: 5
 Lapras
 Level: 5
 
-Kabuto /* (derived) */
-Level: 5
-
 Kabutops
 Level: 5
 
@@ -16779,9 +16167,6 @@ Octillery
 Level: 5
 
 Corsola /* (ORAS) */
-Level: 5
-
-Lotad /* (derived) */
 Level: 5
 
 Lombre /* (ORAS) */
@@ -16898,9 +16283,6 @@ Name: Pool
 Pic: Running Triathlete M
 Party Size: 1
 
-Growlithe /* (derived) */
-Level: 5
-
 Arcanine /* (ORAS rematches) */
 Level: 5
 
@@ -16915,19 +16297,10 @@ Name: Pool
 Pic: Swimming Triathlete M
 Party Size: 1
 
-Psyduck /* (derived) */
-Level: 5
-
 Golduck /* (ORAS) */
 Level: 5
 
-Tentacool /* (derived) */
-Level: 5
-
 Tentacruel /* (ORAS) */
-Level: 5
-
-Horsea /* (derived) */
 Level: 5
 
 Seadra /* (ORAS) */
@@ -16937,9 +16310,6 @@ Staryu
 Level: 5
 
 Starmie /* (rematches) */
-Level: 5
-
-Marill /* (derived) */
 Level: 5
 
 Azumarill /* (ORAS) */
@@ -17028,19 +16398,7 @@ Level: 5
 Jigglypuff
 Level: 5
 
-Oddish /* (derived) */
-Level: 5
-
-Gloom /* (derived) */
-Level: 5
-
 Vileplume
-Level: 5
-
-Bellsprout /* (derived) */
-Level: 5
-
-Weepinbell /* (derived) */
 Level: 5
 
 Victreebel
@@ -17061,9 +16419,6 @@ Level: 5
 Marill
 Level: 5
 
-Wooper /* (derived) */
-Level: 5
-
 Quagsire
 Level: 5
 
@@ -17073,16 +16428,7 @@ Level: 5
 Phanpy
 Level: 5
 
-Wurmple /* (derived) */
-Level: 5
-
-Silcoon /* (derived) */
-Level: 5
-
 Beautifly
-Level: 5
-
-Cascoon /* (derived) */
 Level: 5
 
 Dustox
@@ -17118,9 +16464,6 @@ Level: 5
 Nidoran M
 Level: 5
 
-Vulpix /* (derived) */
-Level: 5
-
 Ninetales
 Level: 5
 
@@ -17130,20 +16473,10 @@ Level: 5
 Golduck
 Level: 5
 
-Abra /* (derived) */
-Level: 5
-- Hidden Power
-
 Kadabra
 Level: 5
 
-Ponyta /* (derived) */
-Level: 5
-
 Rapidash
-Level: 5
-
-Shellder /* (derived) */
 Level: 5
 
 Cloyster
@@ -17158,25 +16491,13 @@ Level: 5
 Tauros
 Level: 5
 
-Sunkern /* (derived) */
-Level: 5
-
 Sunflora
 Level: 5
 
 Miltank
 Level: 5
 
-Wurmple /* (derived) */
-Level: 5
-
-Silcoon /* (derived) */
-Level: 5
-
 Beautifly
-Level: 5
-
-Cascoon /* (derived) */
 Level: 5
 
 Dustox
@@ -17189,17 +16510,7 @@ Seedot
 Level: 5
 
 /*
-Skitty (derived)
-Level: 5
-*/
-
-/*
 Delcatty
-Level: 5
-*/
-
-/*
-Electrike (derived)
 Level: 5
 */
 
@@ -17276,9 +16587,6 @@ Level: 5
 Crobat
 Level: 5
 
-Paras /* (derived) */
-Level: 5
-
 Parasect
 Level: 5
 
@@ -17316,9 +16624,6 @@ Slowpoke
 Level: 5
 
 Farfetchd
-Level: 5
-
-Voltorb /* (derived) */
 Level: 5
 
 Electrode
