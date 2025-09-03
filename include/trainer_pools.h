@@ -22,6 +22,8 @@ enum PoolRulesets {
 enum PoolPickFunctions {
     POOL_PICK_DEFAULT,
     POOL_PICK_LOWEST,
+    POOL_PICK_MODES,
+    POOL_PICK_SELECTIONS,
 };
 
 enum PoolPruneOptions {
@@ -38,11 +40,16 @@ enum PoolTags {
     POOL_TAG_WEATHER_SETTER = 2,
     POOL_TAG_WEATHER_ABUSER = 3,
     POOL_TAG_SUPPORT = 4,
-    POOL_TAG_TAG6 = 5,
-    POOL_TAG_TAG7 = 6,
-    POOL_TAG_TAG8 = 7,
+    POOL_TAG_SET_1 = 5,
+    POOL_TAG_SET_2 = 6,
+    POOL_TAG_SET_3 = 7,
+    POOL_TAG_SET_4 = 8,
+    POOL_TAG_SET_5 = 9,
+    POOL_TAG_SET_6 = 10,
+    POOL_TAG_SET_7 = 11,
+    POOL_TAG_SET_8 = 12,
     //  Must be the last element
-    POOL_NUM_TAGS = 8
+    POOL_NUM_TAGS = 13
 };
 
 #define MON_POOL_TAG_LEAD           1 << POOL_TAG_LEAD
@@ -50,9 +57,14 @@ enum PoolTags {
 #define MON_POOL_TAG_WEATHER_SETTER 1 << POOL_TAG_WEATHER_SETTER
 #define MON_POOL_TAG_WEATHER_ABUSER 1 << POOL_TAG_WEATHER_ABUSER
 #define MON_POOL_TAG_SUPPORT        1 << POOL_TAG_SUPPORT
-#define MON_POOL_TAG_TAG6           1 << POOL_TAG_TAG6
-#define MON_POOL_TAG_TAG7           1 << POOL_TAG_TAG7
-#define MON_POOL_TAG_TAG8           1 << POOL_TAG_TAG8
+#define MON_POOL_TAG_SET_1          1 << POOL_TAG_SET_1
+#define MON_POOL_TAG_SET_2          1 << POOL_TAG_SET_2
+#define MON_POOL_TAG_SET_3          1 << POOL_TAG_SET_3
+#define MON_POOL_TAG_SET_4          1 << POOL_TAG_SET_4
+#define MON_POOL_TAG_SET_5          1 << POOL_TAG_SET_5
+#define MON_POOL_TAG_SET_6          1 << POOL_TAG_SET_6
+#define MON_POOL_TAG_SET_7          1 << POOL_TAG_SET_7
+#define MON_POOL_TAG_SET_8          1 << POOL_TAG_SET_8
 
 struct PoolRules
 {

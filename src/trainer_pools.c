@@ -154,6 +154,157 @@ static u32 PickLowest(const struct Trainer *trainer, u8 *poolIndexArray, u32 par
     return monIndex;
 }
 
+static u32 PickModes(const struct Trainer *trainer, u8 *poolIndexArray, u32 partyIndex, u32 monsCount, u32 battleTypeFlags, struct PoolRules *rules)
+{
+    u32 arrayIndex = 0;
+    u32 monIndex = POOL_SLOT_DISABLED;
+    //  monIndex is set to 255 if nothing has been chosen yet, this gives an upper limit on pool size of 255
+    //  Find required tag
+    bool32 foundRequiredTag = FALSE;
+    u32 firstModeIndex = POOL_SLOT_DISABLED;
+    // Persist which set tag (if any) is currently active
+    static u32 activeSetTag = 0;
+    for (u32 currIndex = 0; currIndex < trainer->poolSize; currIndex++)
+    {
+        if (poolIndexArray[currIndex] != POOL_SLOT_DISABLED
+         && !(trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_LEAD))
+         && !(trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_ACE)))
+        {
+            // Check if this mon has any of the set tags
+            u32 thisSetTag = 0;
+            if (trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_SET_1))
+                thisSetTag = (1u << POOL_TAG_SET_1);
+            else if (trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_SET_2))
+                thisSetTag = (1u << POOL_TAG_SET_2);
+            else if (trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_SET_3))
+                thisSetTag = (1u << POOL_TAG_SET_3);
+            else if (trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_SET_4))
+                thisSetTag = (1u << POOL_TAG_SET_4);
+            else if (trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_SET_5))
+                thisSetTag = (1u << POOL_TAG_SET_5);
+            else if (trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_SET_6))
+                thisSetTag = (1u << POOL_TAG_SET_6);
+            else if (trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_SET_7))
+                thisSetTag = (1u << POOL_TAG_SET_7);
+            else if (trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_SET_8))
+                thisSetTag = (1u << POOL_TAG_SET_8);
+            if (thisSetTag != 0)
+            {
+                // If no set has been locked in yet, lock this one
+                if (activeSetTag == 0)
+                    activeSetTag = thisSetTag;
+                // Only allow mons that match the locked set tag
+                if (thisSetTag == activeSetTag)
+                {
+                    if (firstModeIndex == POOL_SLOT_DISABLED)
+                        firstModeIndex = currIndex;
+                    HasRequiredTag(trainer, poolIndexArray, rules, &arrayIndex, &foundRequiredTag, currIndex);
+                }
+            }
+        }
+        if (foundRequiredTag)
+            break;
+    }
+    // Pick the mon
+    if (foundRequiredTag)
+    {
+        monIndex = poolIndexArray[arrayIndex];
+        poolIndexArray[arrayIndex] = POOL_SLOT_DISABLED;
+    }
+    else if (firstModeIndex != POOL_SLOT_DISABLED)
+    {
+        monIndex = poolIndexArray[firstModeIndex];
+        poolIndexArray[firstModeIndex] = POOL_SLOT_DISABLED;
+    }
+    // If we picked something, check if there are any mons left with the same set tag
+    if (monIndex != POOL_SLOT_DISABLED && activeSetTag != 0)
+    {
+        bool32 anyLeft = FALSE;
+        for (u32 currIndex = 0; currIndex < trainer->poolSize; currIndex++)
+        {
+            if (poolIndexArray[currIndex] != POOL_SLOT_DISABLED &&
+                (trainer->party[poolIndexArray[currIndex]].tags & activeSetTag))
+            {
+                anyLeft = TRUE;
+                break;
+            }
+        }
+        // If no more mons with that set tag are left, reset so another set can be chosen
+        if (!anyLeft)
+            activeSetTag = 0;
+    }
+    return monIndex;
+}
+
+static u32 PickSelections(const struct Trainer *trainer, u8 *poolIndexArray, u32 partyIndex, u32 monsCount, u32 battleTypeFlags, struct PoolRules *rules)
+{
+    u32 arrayIndex = 0;
+    u32 monIndex = POOL_SLOT_DISABLED;
+    //  monIndex is set to 255 if nothing has been chosen yet, this gives an upper limit on pool size of 255
+    //  Find required tag
+    bool32 foundRequiredTag = FALSE;
+    u32 firstSelectionIndex = POOL_SLOT_DISABLED;
+    // Look for mons that are not lead or ace, but do have a set tag
+    for (u32 currIndex = 0; currIndex < trainer->poolSize; currIndex++)
+    {
+        if (poolIndexArray[currIndex] != POOL_SLOT_DISABLED
+         && !(trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_LEAD))
+         && !(trainer->party[poolIndexArray[currIndex]].tags & (1u << POOL_TAG_ACE))
+         && (trainer->party[poolIndexArray[currIndex]].tags & (
+                (1u << POOL_TAG_SET_1) |
+                (1u << POOL_TAG_SET_2) |
+                (1u << POOL_TAG_SET_3) |
+                (1u << POOL_TAG_SET_4) |
+                (1u << POOL_TAG_SET_5) |
+                (1u << POOL_TAG_SET_6) |
+                (1u << POOL_TAG_SET_7) |
+                (1u << POOL_TAG_SET_8))))
+        {
+            if (firstSelectionIndex == POOL_SLOT_DISABLED)
+                firstSelectionIndex = currIndex;
+            HasRequiredTag(trainer, poolIndexArray, rules, &arrayIndex, &foundRequiredTag, currIndex);
+        }
+        if (foundRequiredTag)
+            break;
+    }
+    // If a combination of required + set was found, pick it; otherwise, apply the first found lead
+    if (foundRequiredTag)
+    {
+        monIndex = poolIndexArray[arrayIndex];
+        poolIndexArray[arrayIndex] = POOL_SLOT_DISABLED;
+    }
+    else if (firstSelectionIndex != POOL_SLOT_DISABLED)
+    {
+        monIndex = poolIndexArray[firstSelectionIndex];
+        poolIndexArray[firstSelectionIndex] = POOL_SLOT_DISABLED;
+    }
+    // If something was picked, disable all other mons in the same set
+    if (monIndex != POOL_SLOT_DISABLED)
+    {
+        u32 pickedTags = trainer->party[monIndex].tags & (
+            (1u << POOL_TAG_SET_1) |
+            (1u << POOL_TAG_SET_2) |
+            (1u << POOL_TAG_SET_3) |
+            (1u << POOL_TAG_SET_4) |
+            (1u << POOL_TAG_SET_5) |
+            (1u << POOL_TAG_SET_6) |
+            (1u << POOL_TAG_SET_7) |
+            (1u << POOL_TAG_SET_8));
+        if (pickedTags != 0)
+        {
+            for (u32 i = 0; i < trainer->poolSize; i++)
+            {
+                if (poolIndexArray[i] != POOL_SLOT_DISABLED &&
+                    (trainer->party[poolIndexArray[i]].tags & pickedTags))
+                {
+                    poolIndexArray[i] = POOL_SLOT_DISABLED;
+                }
+            }
+        }
+    }
+    return monIndex;
+}
+
 static u32 PickMonFromPool(const struct Trainer *trainer, u8 *poolIndexArray, u32 partyIndex, u32 monsCount, u32 battleTypeFlags, struct PoolRules *rules, struct PickFunctions pickFunctions)
 {
     u32 monIndex = POOL_SLOT_DISABLED;
@@ -313,6 +464,16 @@ static struct PickFunctions GetPickFunctions(const struct Trainer *trainer)
             pickFunctions.LeadFunction = &PickLowest;
             pickFunctions.AceFunction = &PickLowest;
             pickFunctions.OtherFunction = &PickLowest;
+            break;
+        case POOL_PICK_MODES:
+            pickFunctions.LeadFunction = &DefaultLeadPickFunction;
+            pickFunctions.AceFunction = &DefaultAcePickFunction;
+            pickFunctions.OtherFunction = &PickModes;
+            break;
+        case POOL_PICK_SELECTIONS:
+            pickFunctions.LeadFunction = &DefaultLeadPickFunction;
+            pickFunctions.AceFunction = &DefaultAcePickFunction;
+            pickFunctions.OtherFunction = &PickSelections;
             break;
         default:
             pickFunctions.LeadFunction = &DefaultLeadPickFunction;
