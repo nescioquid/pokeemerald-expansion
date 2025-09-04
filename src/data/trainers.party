@@ -180,7 +180,7 @@ Music: Female
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_GRUNT_PETALBURG_WOODS ===
 Name: Grunt
@@ -249,7 +249,8 @@ Music: Suspicious
 Double Battle: No
 AI: Collector
 Party Size: 3
-Copy Pool: POOL_COLLECTOR
+Copy Pool: POOL_COLLECTOR_OF_SETS
+Pool Pick Functions: Modes
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
 Name: Grunt
@@ -2491,7 +2492,7 @@ Music: Male
 Double Battle: No
 AI: Camper
 Party Size: 1
-Copy Pool: POOL_CAMPER
+Copy Pool: POOL_CAMPER_IN_THE_SANDS
 
 === TRAINER_BEAU ===
 Name: Beau
@@ -2502,7 +2503,7 @@ Music: Male
 Double Battle: No
 AI: Camper
 Party Size: 3
-Copy Pool: POOL_CAMPER
+Copy Pool: POOL_CAMPER_IN_THE_SANDS
 
 === TRAINER_LARRY ===
 Name: Larry
@@ -4307,7 +4308,7 @@ Music: Male
 Double Battle: No
 AI: Triathlete
 Party Size: 3
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_ANTHONY ===
 Name: Anthony
@@ -4318,7 +4319,7 @@ Music: Male
 Double Battle: No
 AI: Triathlete
 Party Size: 2
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_BENJAMIN_1 ===
 Name: Benjamin
@@ -4329,7 +4330,7 @@ Music: Male
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_BENJAMIN_2 ===
 Name: Benjamin
@@ -4340,7 +4341,7 @@ Music: Male
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_BENJAMIN_3 ===
 Name: Benjamin
@@ -4351,7 +4352,7 @@ Music: Male
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_ABIGAIL_1 ===
 Name: Abigail
@@ -4362,7 +4363,7 @@ Music: Female
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_JASMINE ===
 Name: Jasmine
@@ -4373,7 +4374,7 @@ Music: Female
 Double Battle: No
 AI: Triathlete
 Party Size: 3
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_ABIGAIL_2 ===
 Name: Abigail
@@ -4384,7 +4385,7 @@ Music: Female
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_ABIGAIL_3===
 Name: Abigail
@@ -4395,7 +4396,7 @@ Music: Female
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_DYLAN_1 ===
 Name: Dylan
@@ -4406,7 +4407,7 @@ Music: Male
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_RUNNING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_DYLAN_2 ===
 Name: Dylan
@@ -4417,7 +4418,7 @@ Music: Male
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_RUNNING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_DYLAN_3 ===
 Name: Dylan
@@ -4428,7 +4429,7 @@ Music: Male
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_RUNNING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_MARIA_1 ===
 Name: Maria
@@ -4439,7 +4440,7 @@ Music: Female
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_RUNNING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_MARIA_2 ===
 Name: Maria
@@ -4450,7 +4451,7 @@ Music: Female
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_RUNNING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_MARIA_3 ===
 Name: Maria
@@ -4461,7 +4462,7 @@ Music: Female
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_RUNNING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_CAMDEN ===
 Name: Camden
@@ -5381,7 +5382,7 @@ Music: Girl
 Double Battle: No
 AI: Picnicker
 Party Size: 2
-Copy Pool: POOL_PICNICKER
+Copy Pool: POOL_PICNICKER_IN_THE_SANDS
 
 === TRAINER_BECKY ===
 Name: Becky
@@ -5392,7 +5393,7 @@ Music: Girl
 Double Battle: No
 AI: Picnicker
 Party Size: 2
-Copy Pool: POOL_PICNICKER
+Copy Pool: POOL_PICNICKER_IN_THE_SANDS
 
 === TRAINER_CAROL ===
 Name: Carol
@@ -5796,7 +5797,8 @@ Music: Suspicious
 Double Battle: No
 AI: Collector
 Party Size: 3
-Copy Pool: POOL_COLLECTOR
+Copy Pool: POOL_COLLECTOR_OF_SETS
+Pool Pick Functions: Modes
 
 === TRAINER_HECTOR ===
 Name: Hector
@@ -5807,7 +5809,8 @@ Music: Suspicious
 Double Battle: No
 AI: Collector
 Party Size: 3
-Copy Pool: POOL_COLLECTOR
+Copy Pool: POOL_COLLECTOR_OF_SETS
+Pool Pick Functions: Modes
 
 === TRAINER_TABITHA_MOSSDEEP ===
 Name: Mitch
@@ -5854,7 +5857,8 @@ Music: Suspicious
 Double Battle: No
 AI: Collector
 Party Size: 3
-Copy Pool: POOL_COLLECTOR
+Copy Pool: POOL_COLLECTOR_OF_SETS
+Pool Pick Functions: Modes
 
 === TRAINER_EDWIN_3 ===
 Name: Edwin
@@ -5865,7 +5869,8 @@ Music: Suspicious
 Double Battle: No
 AI: Collector
 Party Size: 3
-Copy Pool: POOL_COLLECTOR
+Copy Pool: POOL_COLLECTOR_OF_SETS
+Pool Pick Functions: Modes
 
 === TRAINER_WALLY_VR_1 ===
 Name: Wally
@@ -6579,7 +6584,7 @@ Music: Male
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_DAVIS ===
 Name: Davis
@@ -6612,7 +6617,7 @@ Music: Male
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_ISAAC_3 ===
 Name: Isaac
@@ -6623,7 +6628,7 @@ Music: Male
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_LYDIA_1 ===
 Name: Lydia
@@ -6634,7 +6639,7 @@ Music: Female
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_HALLE ===
 Name: Halle
@@ -6667,7 +6672,7 @@ Music: Female
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_LYDIA_3 ===
 Name: Lydia
@@ -6678,7 +6683,7 @@ Music: Female
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_JACKSON_1 ===
 Name: Jackson
@@ -6799,7 +6804,7 @@ Music: Male
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_5 ===
 Name: Grunt
@@ -8884,7 +8889,7 @@ Music: Female
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_CYCLING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_MARCOS ===
 Name: Marcos
@@ -9405,7 +9410,7 @@ Music: Girl
 Double Battle: No
 AI: Picnicker
 Party Size: 2
-Copy Pool: POOL_PICNICKER
+Copy Pool: POOL_PICNICKER_IN_THE_SANDS
 
 === TRAINER_BRYAN ===
 Name: Bryan
@@ -9427,7 +9432,7 @@ Music: Male
 Double Battle: No
 AI: Camper
 Party Size: 2
-Copy Pool: POOL_CAMPER
+Copy Pool: POOL_CAMPER_IN_THE_SANDS
 
 === TRAINER_BRYANT ===
 Name: Bryant
@@ -9460,7 +9465,7 @@ Music: Female
 Double Battle: No
 AI: Triathlete
 Party Size: 2
-Copy Pool: POOL_TRIATHLETE_RUNNING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_JAIDEN ===
 Name: Jaiden
@@ -9537,7 +9542,7 @@ Music: Female
 Double Battle: No
 AI: Triathlete
 Party Size: 1
-Copy Pool: POOL_TRIATHLETE_RUNNING
+Copy Pool: POOL_TRIATHLETE_ON_THE_LAND
 
 === TRAINER_BRANDI ===
 Name: Brandi
@@ -9648,7 +9653,7 @@ Music: Male
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_PAT ===
 Name: Pat
@@ -9659,7 +9664,7 @@ Music: Female
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_CRISTIN_1 ===
 Name: Cristin
@@ -11783,7 +11788,7 @@ Music: Female
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_GABRIELLE_3 ===
 Name: Gabrielle
@@ -11794,7 +11799,7 @@ Music: Female
 Double Battle: No
 AI: Pkmn Breeder
 Party Size: 6
-Copy Pool: POOL_POKEMON_BREEDER
+Copy Pool: POOL_POKEMON_BREEDER_OF_BABIES
 
 === TRAINER_THALIA_2 ===
 Name: Thalia
@@ -18414,3 +18419,279 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 Dusclops /* (added) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+
+/* Utility pools */
+
+=== POOL_CAMPER_IN_THE_SANDS ===
+Name: Pool
+Pic: Camper
+Party Size: 1
+
+Sandshrew
+Level: 5
+
+Sandslash
+Level: 5
+
+Nidoking
+Level: 5
+
+Diglett
+Level: 5
+
+Dugtrio
+Level: 5
+
+Geodude
+Level: 5
+
+Graveler
+Level: 5
+
+Rhydon
+Level: 5
+
+Sudowoodo
+Level: 5
+
+Slugma
+Level: 5
+
+Magcargo
+Level: 5
+
+=== POOL_PICNICKER_IN_THE_SANDS ===
+Name: Pool
+Pic: Picnicker
+Party Size: 1
+
+Sandshrew
+Level: 5
+
+Sandslash
+Level: 5
+
+Nidoqueen
+Level: 5
+
+Nidoking
+Level: 5
+
+Geodude
+Level: 5
+
+Cubone
+Level: 5
+
+Marowak
+Level: 5
+
+Cacnea
+Level: 5
+
+=== POOL_TRIATHLETE_ON_THE_LAND ===
+Name: Pool
+Pic: Running Triathlete M
+Party Size: 1
+
+Growlithe
+Level: 5
+
+Arcanine
+Level: 5
+
+Ponyta
+Level: 5
+
+Rapidash
+Level: 5
+
+Magnemite
+Level: 5
+
+Magneton
+Level: 5
+
+Doduo
+Level: 5
+
+Dodrio
+Level: 5
+
+Voltorb
+Level: 5
+
+Electrode
+Level: 5
+
+Phanpy
+Level: 5
+
+Donphan
+Level: 5
+
+=== POOL_POKEMON_BREEDER_OF_BABIES ===
+Name: Pool
+Pic: Pokemon Breeder M
+Party Size: 1
+
+Pichu
+Level: 5
+
+Cleffa
+Level: 5
+
+Igglybuff
+Level: 5
+
+Togepi
+Level: 5
+
+Tyrogue
+Level: 5
+
+Smoochum
+Level: 5
+
+Elekid
+Level: 5
+
+Magby
+Level: 5
+
+Azurill
+Level: 5
+
+Wynaut
+Level: 5
+
+/*
+Budew
+Level: 5
+*/
+
+/*
+Chingling
+Level: 5
+*/
+
+Bonsly
+Level: 5
+
+Mime Jr
+Level: 5
+
+Happiny
+Level: 5
+
+Munchlax
+Level: 5
+
+/*
+Riolu
+Level: 5
+*/
+
+Mantyke
+Level: 5
+
+=== POOL_COLLECTOR_OF_SETS ===
+Name: Pool
+Pic: Collector
+Party Size: 1
+
+Ivysaur
+Level: 5
+Tags: Set 1
+
+Ivysaur
+Level: 5
+Tags: Set 4
+
+Charmeleon
+Level: 5
+Tags: Set 1
+
+Charmeleon
+Level: 5
+Tags: Set 5
+
+Wartortle
+Level: 5
+Tags: Set 1
+
+Wartortle
+Level: 5
+Tags: Set 6
+
+Bayleef
+Level: 5
+Tags: Set 2
+
+Bayleef
+Level: 5
+Tags: Set 4
+
+Quilava
+Level: 5
+Tags: Set 2
+
+Quilava
+Level: 5
+Tags: Set 5
+
+Croconaw
+Level: 5
+Tags: Set 2
+
+Croconaw
+Level: 5
+Tags: Set 6
+
+Grovyle
+Level: 5
+Tags: Set 3
+
+Grovyle
+Level: 5
+Tags: Set 4
+
+Combusken
+Level: 5
+Tags: Set 3
+
+Combusken
+Level: 5
+Tags: Set 5
+
+Marshtomp
+Level: 5
+Tags: Set 3
+
+Marshtomp
+Level: 5
+Tags: Set 6
+
+Porygon
+Level: 5
+Tags: Set 7
+
+Porygon2
+Level: 5
+Tags: Set 7
+
+Porygon Z
+Level: 5
+Tags: Set 7
+
+Dragonair
+Level: 5
+Tags: Set 8
+
+Pupitar
+Level: 5
+Tags: Set 8
+
+Shelgon
+Level: 5
+Tags: Set 8

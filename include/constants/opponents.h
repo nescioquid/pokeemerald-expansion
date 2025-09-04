@@ -777,11 +777,18 @@
 #define POOL_TEAM_AQUA                      767
 #define POOL_TEAM_MAGMA                     768
 
+// Utility pools
+#define POOL_CAMPER_IN_THE_SANDS            769
+#define POOL_PICNICKER_IN_THE_SANDS         770
+#define POOL_TRIATHLETE_ON_THE_LAND         771
+#define POOL_POKEMON_BREEDER_OF_BABIES      772
+#define POOL_COLLECTOR_OF_SETS              773
+
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      769
+#define TRAINERS_COUNT                      774
 #define MAX_TRAINERS_COUNT                  864
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 
