@@ -1313,7 +1313,6 @@
 #define FLAG_UNUSED_0x4EC                                           0x4EC // Unused Flag
 #define FLAG_UNUSED_0x4ED                                           0x4ED // Unused Flag
 #define FLAG_UNUSED_0x4EE                                           0x4EE // Unused Flag
-#define FLAG_UNUSED_0x4EF                                           0x4EF // Unused Flag
 
 #define FLAG_DEFEATED_RUSTBORO_GYM                                  0x4F0
 #define FLAG_DEFEATED_DEWFORD_GYM                                   0x4F1
@@ -1326,7 +1325,8 @@
 #define FLAG_DEFEATED_METEOR_FALLS_STEVEN                           0x4F8
 
 #define FLAG_RUSTUNGRUNT                                            0x4F9 // Beat Aqua Grunt in Rusturf Tunnel (for Level Caps)
-#define FLAG_UNUSED_0x4FA                                           0x4FA // Unused Flag
+#define FLAG_RIVAL3_BEAT                                            0x4FA // Beat Rival on Route 110 (for Level Caps)
+#define FLAG_MUSEUMGRUNT                                            0x4EF // Beat Team Aqua in Slateport Museum (for Level Caps)
 
 #define FLAG_DEFEATED_ELITE_4_SIDNEY                                0x4FB
 #define FLAG_DEFEATED_ELITE_4_PHOEBE                                0x4FC

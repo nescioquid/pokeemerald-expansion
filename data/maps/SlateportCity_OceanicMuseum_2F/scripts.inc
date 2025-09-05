@@ -62,6 +62,7 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 	removeobject LOCALID_OCEANIC_MUSEUM_2F_GRUNT_2
 	fadescreen FADE_FROM_BLACK
 	delay 30
+	setflag FLAG_MUSEUMGRUNT
 	setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
