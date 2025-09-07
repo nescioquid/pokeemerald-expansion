@@ -4659,7 +4659,7 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Dragon Tamer
-Party Size: 1
+Party Size: 2
 Copy Pool: POOL_DRAGON_TAMER
 
 === TRAINER_PERRY ===
@@ -5040,7 +5040,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Parasol Lady
-Party Size: 1
+Party Size: 2
 Copy Pool: POOL_PARASOL_LADY
 
 === TRAINER_CLARISSA ===
@@ -5062,7 +5062,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Parasol Lady
-Party Size: 1
+Party Size: 2
 Copy Pool: POOL_PARASOL_LADY
 
 === TRAINER_MADELINE_2 ===
@@ -5073,7 +5073,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Parasol Lady
-Party Size: 1
+Party Size: 2
 Copy Pool: POOL_PARASOL_LADY
 
 === TRAINER_MADELINE_3 ===
@@ -5717,7 +5717,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Parasol Lady
-Party Size: 1
+Party Size: 2
 Copy Pool: POOL_PARASOL_LADY
 
 === TRAINER_AURON ===
@@ -8932,7 +8932,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Aroma Lady
-Party Size: 1
+Party Size: 2
 Copy Pool: POOL_AROMA_LADY
 
 === TRAINER_BIANCA ===
@@ -9608,7 +9608,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Parasol Lady
-Party Size: 1
+Party Size: 2
 Copy Pool: POOL_PARASOL_LADY
 
 === TRAINER_LEONEL ===
