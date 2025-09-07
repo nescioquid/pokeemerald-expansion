@@ -24,7 +24,11 @@ Route109_SeashoreHouse_EventScript_AlreadyGaveIntroduction::
 
 Route109_SeashoreHouse_EventScript_DefeatedTrainers::
 	msgbox Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles, MSGBOX_DEFAULT
-	giveitem ITEM_SODA_POP, 6
+	giveitem ITEM_QUICK_BALL, 10
+	giveitem ITEM_CHERISH_BALL, 10
+	giveitem ITEM_PP_MAX, 4
+	giveitem ITEM_BOTTLE_CAP, 2
+	giveitem ITEM_BIG_NUGGET, 1
 	goto_if_eq VAR_RESULT, FALSE, Route109_SeashoreHouse_EventScript_BagFull
 	setflag FLAG_RECEIVED_6_SODA_POP
 	release
@@ -120,8 +124,7 @@ Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
 	.string "Those battles blazed!\l"
 	.string "I'm more than just satisfied!\p"
 	.string "As thanks for showing me your hot\n"
-	.string "streak, I want you to take these.\p"
-	.string "It's half a dozen bottles of Soda Pop!$"
+	.string "streak, I want you to take these!$"
 
 Route109_SeashoreHouse_Text_BagFull:
 	.string "Oh, but hey, your Bag's jammed full.\n"
