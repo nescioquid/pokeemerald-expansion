@@ -1,0 +1,24 @@
+script _PlayersHouse_1F_EventScript_MomHealsParty {
+  if (!flag(FLAG_BADGE01_GET)) {
+    msgbox(PlayersHouse_1F_Text_YouShouldRestABit)
+    goto(PlayersHouse_1F_EventScript_HealParty)
+  }
+  msgbox(format("Mom: How are you doing, {PLAYER}?\pIt's so good to see you!"))
+  end
+}
+
+script _PlayersHouse_2F_EventScript_GameCube {
+  msgbox(format("It's a Nintendo GameCube.\p… … … … … … … …\n… … … … … … … …\pSeriously? I spent all this time modding this game, and you want to play a different one?"), MSGBOX_SIGN)
+  release
+  end
+}
+
+script _PlayersHouse_2F_EventScript_GameCube_Orange {
+  msgbox(format("It's a Nintendo GameCube.\p… … … … … … … …\n… … … … … … … …\pYes, they came in orange.\nBut seriously? I spent all this time modding this game, and you want to play a different one?"), MSGBOX_SIGN)
+  release
+  end
+}
+
+text _PlayersHouse_1F_Text_RunningShoesManual {
+  format("It's the instruction booklet for the Running Shoes.\p“RUN!\p“Press the B Button to walk while wearing your Running Shoes.\p“Lace up your Running Shoes and hit the road running!”")
+}
