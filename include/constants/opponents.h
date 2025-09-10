@@ -777,18 +777,51 @@
 #define POOL_TEAM_AQUA                      767
 #define POOL_TEAM_MAGMA                     768
 
+// Gym pools
+#define POOL_ROXANNES_BOULDER               769
+#define POOL_ROXANNES_PEBBLE                770
+#define POOL_ROXANNE_OF_RUSTBORO            771
+#define POOL_BRAWLYS_BREAK                  772
+#define POOL_BRAWLYS_RIPTIDE                773
+#define POOL_BRAWLYS_UNDERTOW               774
+#define POOL_BRAWLY_OF_DEWFORD              775
+#define POOL_WATTSONS_AMPLIFIER             776
+#define POOL_WATTSONS_CURRENT               777
+#define POOL_WATTSONS_RESISTANCE            778
+#define POOL_WATTSONS_SPARK                 779
+#define POOL_WATTSON_OF_MAUVILLE            780
+#define POOL_FLANNERYS_ASHES                781
+#define POOL_FLANNERYS_BLAZE                782
+#define POOL_FLANNERYS_EMBERS               783
+#define POOL_FLANNERYS_SMOKE                784
+#define POOL_FLANNERY_OF_LAVARIDGE          785
+#define POOL_NORMAN_OF_PETALBURG            786
+#define POOL_WINONAS_BREEZE                 787
+#define POOL_WINONAS_GUSTS                  788
+#define POOL_WINONAS_STORM                  789
+#define POOL_WINONA_OF_FORTREE              790
+#define POOL_TATE_AND_LIZAS_ECLIPSE         791
+#define POOL_TATE_AND_LIZAS_MOON            792
+#define POOL_TATE_AND_LIZAS_SUN             793
+#define POOL_TATE_AND_LIZA_OF_MOSSDEEP      794
+#define POOL_JUANS_COMPOSURE                795
+#define POOL_JUANS_ELEGANCE                 796
+#define POOL_JUANS_POISE                    797
+#define POOL_JUANS_SERENITY                 798
+#define POOL_JUAN_OF_SOOTOPOLIS             799
+
 // Utility pools
-#define POOL_CAMPER_IN_THE_SANDS            769
-#define POOL_PICNICKER_IN_THE_SANDS         770
-#define POOL_TRIATHLETE_ON_THE_LAND         771
-#define POOL_POKEMON_BREEDER_OF_BABIES      772
-#define POOL_COLLECTOR_OF_SETS              773
+#define POOL_CAMPER_IN_THE_SANDS            800
+#define POOL_PICNICKER_IN_THE_SANDS         801
+#define POOL_TRIATHLETE_ON_THE_LAND         802
+#define POOL_POKEMON_BREEDER_OF_BABIES      803
+#define POOL_COLLECTOR_OF_SETS              804
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      774
+#define TRAINERS_COUNT                      805
 #define MAX_TRAINERS_COUNT                  864
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 

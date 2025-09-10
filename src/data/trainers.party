@@ -1081,15 +1081,83 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Cooltrainer
+Party Size: 1
 
 /* #PetalburgGym #SpeedRoom */
 
+/*
+Original set:
+
 Swellow
-Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Level: 26
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 - Agility
 - Wing Attack
+*/
+
+Raticate
+Level: 9
+Ability: Hustle
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Quick Attack
+- Sucker Punch
+- Protect
+- Sleep Talk
+
+Kangaskhan
+Level: 9
+Ability: Scrappy
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fake Out
+- Sucker Punch
+- Protect
+- Sleep Talk
+
+Eevee
+Level: 9
+Ability: Adaptability
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Baby Doll Eyes
+- Quick Attack
+- Protect
+- Sleep Talk
+
+Furret
+Level: 9
+Ability: Keen Eye
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Quick Attack
+- Sucker Punch
+- Protect
+- Sleep Talk
+
+Linoone
+Level: 9
+Ability: Quick Feet
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Baby Doll Eyes
+- Odor Sleuth
+- Extreme Speed
+- Protect
+
+Spinda
+Level: 9
+Ability: Contrary
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fake Out
+- Sucker Punch
+- Protect
+- Sleep Talk
+
+Kecleon
+Level: 9
+Ability: Protean
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Shadow Sneak
+- Protect
+- Sleep Talk
+- Fake Out
 
 === TRAINER_PARKER ===
 Name: Parker
@@ -1099,16 +1167,38 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Cooltrainer
+Party Size: 1
 
 /* #PetalburgGym #ConfusionRoom */
 
+/*
+Original set:
+
 Spinda
-Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Level: 26
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Teeter Dance
 - Dizzy Punch
 - Focus Punch
-- Sucker Punch
+*/
+
+Stantler
+Level: 9
+Ability: Intimidate
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Astonish
+- Confuse Ray
+- Zen Headbutt
+- Jump Kick
+
+Spinda
+Level: 9
+Ability: Tangled Feet
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Feint Attack
+- Psybeam
+- Brick Break
+- Teeter Dance
 
 === TRAINER_GEORGE ===
 Name: George
@@ -1118,15 +1208,65 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Cooltrainer
+Party Size: 1
 
 /* #PetalburgGym #RecoveryRoom */
 
+/*
+Original set:
+
 Slakoth @ Sitrus Berry
-Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Level: 26
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slack Off
 - Counter
 - Shadow Ball
+*/
+
+Blissey @ Sitrus Berry
+Level: 9
+Ability: Serene Grace
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Soft Boiled
+- Shadow Ball
+- Focus Blast
+- Dazzling Gleam
+
+Dunsparce @ Sitrus Berry
+Level: 9
+Ability: Serene Grace
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Roost
+- Rock Smash
+- Astonish
+- Headbutt
+
+Miltank @ Sitrus Berry
+Level: 9
+Ability: Scrappy
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Milk Drink
+- Body Slam
+- Zen Headbutt
+- Wake Up Slap
+
+Vigoroth @ Sitrus Berry
+Level: 9
+Ability: Vital Spirit
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Slack Off
+- Play Rough
+- Brick Break
+- Shadow Claw
+
+Kecleon @ Sitrus Berry
+Level: 9
+Ability: Protean
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Recover
+- Shadow Claw
+- Brick Break
+- Aerial Ace
 
 === TRAINER_BERKE ===
 Name: Berke
@@ -1135,15 +1275,46 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Cooltrainer
+AI: Cooltrainer / Force Setup First Turn
+Party Size: 1
 
 /* #PetalburgGym #OneHitKORoom */
 
+/*
+Original set:
+
 Vigoroth
-Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Level: 26
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Energy
 - Slash
+*/
+
+Kangaskhan @ Scope Lens
+Level: 9
+Ability: Inner Focus
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Focus Energy
+- Shadow Claw
+- Sleep Talk
+
+Furret @ Scope Lens
+Level: 9
+Ability: Keen Eye
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Shadow Claw
+- Sleep Talk
+- Focus Energy
+- Slash
+
+Vigoroth @ Scope Lens
+Level: 9
+Ability: Vital Spirit
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Focus Energy
+- Slash
+- Night Slash
+- Shadow Claw
 
 === TRAINER_BRAXTON ===
 Name: Braxton
@@ -1285,15 +1456,109 @@ Gender: Female
 Music: Cool
 Double Battle: No
 AI: Cooltrainer
+Party Size: 1
 
 /* #PetalburgGym #AccuracyRoom */
 
+/*
+Original set:
+
+Delcatty
+Level: 26
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Feint Attack
+- Shock Wave
+*/
+
+Wigglytuff
+Level: 9
+Ability: Cute Charm
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Play Nice
+- Disarming Voice
+- Feint Attack
+- Confide
+
 Persian
-Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Level: 9
+Ability: Technician
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Swift
 - Feint Attack
+- Roar
 - Aerial Ace
+
+Kangaskhan
+Level: 9
+Ability: Scrappy
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Aerial Ace
+- Roar
+- Confide
+- Trump Card
+
+Eevee
+Level: 9
+Ability: Adaptability
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Swift
+- Trump Card
+- Confide
+- Yawn
+
+Ambipom
+Level: 9
+Ability: Technician
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Swift
+- Aerial Ace
+- Sleep Talk
+- Confide
+
+Dunsparce
+Level: 9
+Ability: Serene Grace
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Yawn
+- Psych Up
+- Confide
+- Trump Card
+
+Ursaring
+Level: 9
+Ability: Guts
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Feint Attack
+- Roar
+- Aerial Ace
+- Yawn
+
+Vigoroth
+Level: 9
+Ability: Vital Spirit
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Yawn
+- Feint Attack
+- Roar
+- Aerial Ace
+
+Spinda
+Level: 9
+Ability: Own Tempo
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Feint Attack
+- Psych Up
+- Sleep Talk
+- Confide
+
+Kecleon
+Level: 9
+Ability: Protean
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Feint Attack
+- Psych Up
+- Sleep Talk
+- Confide
 
 === TRAINER_ALEXIA ===
 Name: Alexia
@@ -1302,16 +1567,39 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Cooltrainer
+AI: Cooltrainer / Force Setup First Turn
+Party Size: 1
 
 /* #PetalburgGym #DefenseRoom */
 
+/*
+Original set:
+
 Wigglytuff
-Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Level: 26
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Defense Curl
 - Double Edge
 - Shadow Ball
+*/
+
+Lickilicky @ Kee Berry
+Level: 9
+Ability: Own Tempo
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Defense Curl
+- Rest
+- Amnesia
+- Snore
+
+Snorlax @ Kee Berry
+Level: 9
+Ability: Immunity
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Defense Curl
+- Amnesia
+- Rest
+- Snore
 
 === TRAINER_JODY ===
 Name: Jody
@@ -1321,15 +1609,82 @@ Gender: Female
 Music: Cool
 Double Battle: No
 AI: Cooltrainer / Force Setup First Turn
+Party Size: 1
 
 /* #PetalburgGym #StrengthRoom */
 
-Ursaring
-Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+/*
+Original set:
+
+Zangoose
+Level: 26
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - Slash
-- Shadow Claw
+*/
+
+Raticate @ Liechi Berry
+Level: 9
+Ability: Guts
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Swords Dance
+- Hyper Fang
+- Crunch
+- Dig
+
+Persian @ Petaya Berry
+Level: 9
+Ability: Technician
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Swift
+- Power Gem
+- Nasty Plot
+- Shadow Ball
+
+Lickilicky @ Liechi Berry
+Level: 9
+Ability: Oblivious
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Knock Off
+- Chip Away
+- Swords Dance
+- Hammer Arm
+
+Ambipom @ Petaya Berry
+Level: 9
+Ability: Technician
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Swift
+- Nasty Plot
+- Shadow Ball
+- Sleep Talk
+
+Girafarig @ Petaya Berry
+Level: 9
+Ability: Inner Focus
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Nasty Plot
+- Psychic
+- Echoed Voice
+- Dazzling Gleam
+
+Ursaring @ Petaya Berry
+Level: 9
+Ability: Guts
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hammer Arm
+- Slash
+- Swords Dance
+- Crunch
+
+Kecleon @ Petaya Berry
+Level: 9
+Ability: Protean
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Psybeam
+- Ancient Power
+- Shadow Ball
+- Nasty Plot
 
 === TRAINER_WENDY ===
 Name: Wendy
@@ -1550,16 +1905,9 @@ Music: Female
 Items: Full Restore
 Double Battle: No
 AI: Lady
-
-/* Exception: Sootopolis Gym */
-
-Goldeen @ Nugget
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Corsola @ Nugget
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_JUANS_ELEGANCE
+Pool Pick Functions: Modes
 
 === TRAINER_GRUNT_SPACE_CENTER_2 ===
 Name: Grunt
@@ -1581,12 +1929,9 @@ Music: Female
 Items: Full Restore
 Double Battle: No
 AI: Lady
-
-/* Exception: Sootopolis Gym */
-
-Seaking @ Nugget
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_JUANS_ELEGANCE
+Pool Pick Functions: Modes
 
 === TRAINER_NAOMI ===
 Name: Naomi
@@ -1676,12 +2021,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Beauty
-
-/* Exception: Sootopolis Gym */
-
-Goldeen
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 3
+Copy Pool: POOL_JUANS_SERENITY
+Pool Pick Functions: Modes
 
 === TRAINER_BRIDGET ===
 Name: Bridget
@@ -1691,12 +2033,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Beauty
-
-/* Exception: Sootopolis Gym */
-
-Azumarill
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 3
+Copy Pool: POOL_JUANS_SERENITY
+Pool Pick Functions: Modes
 
 === TRAINER_OLIVIA ===
 Name: Olivia
@@ -1706,20 +2045,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Beauty
-
-/* Exception: Sootopolis Gym */
-
-Shellder
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Shellder
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Cloyster
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 3
+Copy Pool: POOL_JUANS_SERENITY
+Pool Pick Functions: Modes
 
 === TRAINER_TIFFANY ===
 Name: Tiffany
@@ -1729,16 +2057,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Beauty
-
-/* Exception: Sootopolis Gym */
-
-Seel
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Dewgong
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 3
+Copy Pool: POOL_JUANS_SERENITY
+Pool Pick Functions: Modes
 
 === TRAINER_JESSICA_2 ===
 Name: Jessica
@@ -2182,16 +2503,8 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Black Belt
-
-/* Exception: Dewford Gym */
-
-Machop
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Low Sweep
-- Seismic Toss
-- Revenge
-- Knock Off
+Party Size: 2
+Copy Pool: POOL_BRAWLYS_BREAK
 
 === TRAINER_HITOSHI ===
 Name: Hitoshi
@@ -2300,19 +2613,9 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Guitarist
-
-/* Exception: Mauville Gym */
-
-Electabuzz
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Voltorb
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Charge
-- Shock Wave
-- Screech
+Party Size: 2
+Copy Pool: POOL_WATTSONS_AMPLIFIER
+Pool Pick Functions: Selections
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: Grunt
@@ -2344,16 +2647,9 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Guitarist
-
-/* Exception: Mauville Gym */
-
-Voltorb
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Magnemite
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_WATTSONS_AMPLIFIER
+Pool Pick Functions: Selections
 
 === TRAINER_FERNANDO_1 ===
 Name: Fernando
@@ -2407,12 +2703,8 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Kindler
-
-/* Exception: Lavaridge Gym */
-
-Houndoom
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_FLANNERYS_BLAZE
 
 === TRAINER_JEFF ===
 Name: Jeff
@@ -2422,16 +2714,8 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Kindler
-
-/* Exception: Lavaridge Gym */
-
-Slugma
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Slugma
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_FLANNERYS_BLAZE
 
 === TRAINER_AXLE ===
 Name: Axle
@@ -2441,12 +2725,8 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Kindler
-
-/* Exception: Lavaridge Gym */
-
-Magmar
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_FLANNERYS_BLAZE
 
 === TRAINER_JACE ===
 Name: Jace
@@ -2456,12 +2736,8 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Kindler
-
-/* Exception: Lavaridge Gym */
-
-Slugma
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_FLANNERYS_BLAZE
 
 === TRAINER_KEEGAN ===
 Name: Keegan
@@ -2471,12 +2747,8 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Kindler
-
-/* Exception: Lavaridge Gym */
-
-Slugma
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_FLANNERYS_BLAZE
 
 === TRAINER_BERNIE_1 ===
 Name: Bernie
@@ -2717,12 +2989,8 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Psychic
-
-/* Exception: Mossdeep Gym */
-
-Slowbro
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_ECLIPSE
 
 === TRAINER_VIRGIL ===
 Name: Virgil
@@ -2732,12 +3000,8 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Psychic
-
-/* Exception: Mossdeep Gym */
-
-Mr Mime
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_ECLIPSE
 
 === TRAINER_BLAKE ===
 Name: Blake
@@ -2747,12 +3011,8 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Psychic
-
-/* Exception: Mossdeep Gym */
-
-Girafarig
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_ECLIPSE
 
 === TRAINER_WILLIAM ===
 Name: William
@@ -2828,12 +3088,8 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Psychic
-
-/* Exception: Mossdeep Gym */
-
-Slowking
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_ECLIPSE
 
 === TRAINER_SAMANTHA ===
 Name: Samantha
@@ -2843,12 +3099,8 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Psychic
-
-/* Exception: Mossdeep Gym */
-
-Xatu
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_ECLIPSE
 
 === TRAINER_MAURA ===
 Name: Maura
@@ -2858,12 +3110,8 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Psychic
-
-/* Exception: Mossdeep Gym */
-
-Kadabra
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_ECLIPSE
 
 === TRAINER_KAYLA ===
 Name: Kayla
@@ -3176,42 +3424,9 @@ Music: Female
 Double Battle: No
 AI: Roxanne
 Mugshot: Pink
-
-Rhyhorn @ Oran Berry
-Level: 10
-Ability: Rock Head
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Tail Whip
-- Scary Face
-- Bulldoze
-- Rock Tomb
-
-Lileep @ Oran Berry
-Level: 10
-Ability: Suction Cups
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Ingrain
-- Ancient Power
-- Giga Drain
-- Tickle
-
-Anorith @ Oran Berry
-Level: 10
-Ability: Battle Armor
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Fury Cutter
-- Rock Tomb
-- Rock Polish
-- Screech
-
-Sudowoodo @ Oran Berry
-Level: 10
-Ability: Sturdy
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Flail
-- Rock Tomb
-- Block
-- Rock Polish
+Party Size: 4
+Copy Pool: POOL_ROXANNE_OF_RUSTBORO
+Pool Pick Functions: Selections
 
 === TRAINER_BRAWLY_1 ===
 Name: Brawly
@@ -3222,42 +3437,9 @@ Music: Male
 Double Battle: No
 AI: Brawly
 Mugshot: Blue
-
-Primeape @ Lum Berry
-Level: 10
-Ability: Vital Spirit
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Karate Chop
-- Screech
-- Smack Down
-- U Turn
-
-Machoke @ Lum Berry
-Level: 10
-Ability: Guts
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Revenge
-- Knock Off
-- Bulk Up
-- Rock Slide
-
-Breloom @ Lum Berry
-Level: 10
-Ability: Poison Heal
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Mega Drain
-- Counter
-- Mach Punch
-- Rock Slide
-
-Hitmontop @ Lum Berry
-Level: 10
-Ability: Technician
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Triple Kick
-- Counter
-- Bulk Up
-- Stone Edge
+Party Size: 4
+Copy Pool: POOL_BRAWLY_OF_DEWFORD
+Pool Pick Functions: Selections
 
 === TRAINER_WATTSON_1 ===
 Name: Wattson
@@ -3268,42 +3450,9 @@ Music: Male
 Double Battle: No
 AI: Wattson
 Mugshot: Yellow
-
-Electrode @ Shuca Berry
-Level: 10
-Ability: Static
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Thunder Wave
-- Magnet Rise
-- Self Destruct
-- Volt Switch
-
-Ampharos @ Shuca Berry
-Level: 10
-Ability: Static
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Thunder Wave
-- Thunder Punch
-- Power Gem
-- Volt Switch
-
-Magnezone @ Shuca Berry
-Level: 10
-Ability: Sturdy
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Thunder Wave
-- Metal Sound
-- Flash Cannon
-- Volt Switch
-
-Electivire @ Shuca Berry
-Level: 10
-Ability: Motor Drive
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Thunder Wave
-- Thunder Punch
-- Volt Switch
-- Ice Punch
+Party Size: 4
+Copy Pool: POOL_WATTSON_OF_MAUVILLE
+Pool Pick Functions: Selections
 
 === TRAINER_FLANNERY_1 ===
 Name: Flannery
@@ -3314,42 +3463,9 @@ Music: Female
 Double Battle: No
 AI: Flannery
 Mugshot: Purple
-
-Ninetales (F) @ White Herb
-Level: 10
-Ability: Flash Fire
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Sunny Day
-- Solar Beam
-- Overheat
-- Attract
-
-Rapidash @ White Herb
-Level: 10
-Ability: Flash Fire
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Megahorn
-- Flame Charge
-- Sunny Day
-- Wild Charge
-
-Magcargo @ White Herb
-Level: 10
-Ability: Flame Body
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Ancient Power
-- Lava Plume
-- Shell Smash
-- Rock Polish
-
-Magmortar (M) @ White Herb
-Level: 10
-Ability: Flame Body
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Sunny Day
-- Solar Beam
-- Overheat
-- Attract
+Party Size: 4
+Copy Pool: POOL_FLANNERY_OF_LAVARIDGE
+Pool Pick Functions: Selections
 
 === TRAINER_NORMAN_1 ===
 Name: Norman
@@ -3360,42 +3476,9 @@ Music: Male
 Double Battle: No
 AI: Norman
 Mugshot: Green
-
-Stantler @ Pinap Berry
-Level: 10
-Ability: Intimidate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Confuse Ray
-- Zen Headbutt
-- Jump Kick
-- Retaliate
-
-Ursaring @ Pinap Berry
-Level: 10
-Ability: Guts
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Facade
-- Swords Dance
-- Close Combat
-- Crunch
-
-Linoone @ Pinap Berry
-Level: 10
-Ability: Gluttony
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Play Rough
-- Belly Drum
-- Retaliate
-- Pursuit
-
-Slaking @ Pinap Berry
-Level: 10
-Ability: Truant
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Slack Off
-- Counter
-- Retaliate
-- Pursuit
+Party Size: 4
+Copy Pool: POOL_NORMAN_OF_PETALBURG
+Pool Pick Functions: Selections
 
 === TRAINER_WINONA_1 ===
 Name: Winona
@@ -3406,42 +3489,9 @@ Music: Female
 Double Battle: No
 AI: Winona
 Mugshot: Pink
-
-Pidgeot @ Charti Berry
-Level: 10
-Ability: Tangled Feet
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Aerial Ace
-- Roost
-- Tailwind
-- U Turn
-
-Togekiss @ Kebia Berry
-Level: 10
-Ability: Serene Grace
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Air Slash
-- Roost
-- Dazzling Gleam
-- Nasty Plot
-
-Skarmory @ Wacan Berry
-Level: 10
-Ability: Sturdy
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Spikes
-- Steel Wing
-- Drill Peck
-- Whirlwind
-
-Altaria @ Yache Berry
-Level: 10
-Ability: Natural Cure
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Pluck
-- Dragon Dance
-- Dragon Pulse
-- Earthquake
+Party Size: 4
+Copy Pool: POOL_WINONA_OF_FORTREE
+Pool Pick Functions: Selections
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: Tate&Liza
@@ -3452,42 +3502,9 @@ Music: Female
 Double Battle: Yes
 AI: Tate And Liza
 Mugshot: Purple
-
-Exeggutor @ Maranga Berry
-Level: 10
-Ability: Harvest
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Psychic
-- Sleep Powder
-- Energy Ball
-- Dream Eater
-
-Xatu @ Jaboca Berry
-Level: 10
-Ability: Synchronize
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Psychic
-- Confuse Ray
-- Calm Mind
-- Trick Room
-
-Starmie @ Rowap Berry
-Level: 10
-Ability: Natural Cure
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Psychic
-- Surf
-- Ice Beam
-- Thunderbolt
-
-Alakazam @ Kee Berry
-Level: 10
-Ability: Synchronize
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Psyshock
-- Shadow Ball
-- Focus Blast
-- Calm Mind
+Party Size: 4
+Copy Pool: POOL_TATE_AND_LIZA_OF_MOSSDEEP
+Pool Pick Functions: Modes
 
 === TRAINER_JUAN_1 ===
 Name: Juan
@@ -3498,42 +3515,9 @@ Music: Male
 Double Battle: No
 AI: Juan
 Mugshot: Blue
-
-Lanturn @ Salac Berry
-Level: 10
-Ability: Volt Absorb
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Signal Beam
-- Rain Dance
-- Thunder
-- Volt Switch
-
-Huntail @ Ganlon Berry
-Level: 10
-Ability: Swift Swim
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Ice Fang
-- Sucker Punch
-- Aqua Tail
-- Shell Smash
-
-Gorebyss @ Apicot Berry
-Level: 10
-Ability: Swift Swim
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Psychic
-- Shell Smash
-- Ice Beam
-- Scald
-
-Kingdra @ Chesto Berry
-Level: 10
-Ability: Swift Swim
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Ice Beam
-- Rest
-- Scald
-- Waterfall
+Party Size: 4
+Copy Pool: POOL_JUAN_OF_SOOTOPOLIS
+Pool Pick Functions: Selections
 
 === TRAINER_JERRY_1 ===
 Name: Jerry
@@ -3812,20 +3796,9 @@ Gender: Female
 Music: Twins
 Double Battle: No
 AI: Pokefan
-
-/* Exception: Sootopolis Gym */
-
-Azurill @ Oran Berry
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Marill @ Oran Berry
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Azumarill @ Oran Berry
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_JUANS_POISE
+Pool Pick Functions: Modes
 
 === TRAINER_ISABEL_1 ===
 Name: Isabel
@@ -3982,17 +3955,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Youngster
-
-/* Exception: Rustboro Gym */
-
-Geodude
-Level: 5
-Ability: Sturdy
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Defense Curl
-- Magnitude
-- Rock Throw
-- Smack Down
+Party Size: 2
+Copy Pool: POOL_ROXANNES_PEBBLE
 
 === TRAINER_TOMMY ===
 Name: Tommy
@@ -4002,26 +3966,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Youngster
-
-/* Exception: Rustboro Gym */
-
-Geodude
-Level: 5
-Ability: Sturdy
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Defense Curl
-- Magnitude
-- Rock Throw
-- Smack Down
-
-Geodude
-Level: 5
-Ability: Sturdy
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Rock Polish
-- Magnitude
-- Rock Throw
-- Smack Down
+Party Size: 2
+Copy Pool: POOL_ROXANNES_PEBBLE
 
 === TRAINER_JOEY ===
 Name: Joey
@@ -4042,16 +3988,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Youngster
-
-/* Exception: Mauville Gym */
-
-Voltorb
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Voltorb
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_WATTSONS_SPARK
 
 === TRAINER_QUINCY ===
 Name: Quincy
@@ -4747,20 +4685,8 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Bird Keeper
-
-/* Exception: Fortree Gym */
-
-Doduo
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Skarmory
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Farfetchd
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_WINONAS_STORM
 
 === TRAINER_HUMBERTO ===
 Name: Humberto
@@ -4770,12 +4696,8 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Bird Keeper
-
-/* Exception: Fortree Gym */
-
-Noctowl
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_WINONAS_STORM
 
 === TRAINER_PRESLEY ===
 Name: Presley
@@ -4796,16 +4718,8 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Bird Keeper
-
-/* Exception: Fortree Gym */
-
-Doduo
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Pelipper
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_WINONAS_STORM
 
 === TRAINER_COLIN ===
 Name: Colin
@@ -4991,16 +4905,8 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Battle Girl
-
-/* Exception: Dewford Gym */
-
-Mankey
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Covet
-- Karate Chop
-- Seismic Toss
-- Screech
+Party Size: 2
+Copy Pool: POOL_BRAWLYS_UNDERTOW
 
 === TRAINER_LAURA ===
 Name: Laura
@@ -5010,16 +4916,8 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Battle Girl
-
-/* Exception: Dewford Gym */
-
-Mankey
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Covet
-- Karate Chop
-- Seismic Toss
-- Screech
+Party Size: 2
+Copy Pool: POOL_BRAWLYS_UNDERTOW
 
 === TRAINER_CYNDY_1 ===
 Name: Cyndy
@@ -5694,15 +5592,9 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Hiker
-
-/* Exception: Lavaridge Gym */
-
-Machop
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Fire Punch
-- Bulk Up
-- Smack Down
+Party Size: 2
+Copy Pool: POOL_FLANNERYS_ASHES
+Pool Pick Functions: Selections
 
 === TRAINER_ANNIKA ===
 Name: Annika
@@ -5712,24 +5604,9 @@ Gender: Female
 Music: Twins
 Double Battle: No
 AI: Pokefan
-
-/* Exception: Sootopolis Gym */
-
-Wooper @ Oran Berry
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Flail
-- Water Pulse
-- Return
-- Attract
-
-Wooper @ Oran Berry
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Flail
-- Water Pulse
-- Return
-- Attract
+Party Size: 2
+Copy Pool: POOL_JUANS_POISE
+Pool Pick Functions: Modes
 
 === TRAINER_JAZMYN ===
 Name: Jazmyn
@@ -6931,25 +6808,9 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Hiker
-
-/* Exception: Rustboro Gym */
-
-Geodude
-Level: 5
-Ability: Sturdy
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Rock Polish
-- Magnitude
-- Rock Throw
-- Smack Down
-
-Rhyhorn
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Fury Attack
-- Scary Face
-- Smack Down
-- Stomp
+Party Size: 2
+Copy Pool: POOL_ROXANNES_BOULDER
+Pool Pick Functions: Selections
 
 === TRAINER_BRENDEN ===
 Name: Brenden
@@ -6959,16 +6820,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Sailor
-
-/* Exception: Dewford Gym */
-
-Machop
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Low Sweep
-- Seismic Toss
-- Revenge
-- Knock Off
+Party Size: 2
+Copy Pool: POOL_BRAWLYS_RIPTIDE
 
 === TRAINER_LILITH ===
 Name: Lilith
@@ -6978,16 +6831,8 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Battle Girl
-
-/* Exception: Dewford Gym */
-
-Mankey
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Covet
-- Karate Chop
-- Seismic Toss
-- Screech
+Party Size: 2
+Copy Pool: POOL_BRAWLYS_UNDERTOW
 
 === TRAINER_CRISTIAN ===
 Name: Cristian
@@ -6997,16 +6842,8 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Black Belt
-
-/* Exception: Dewford Gym */
-
-Breloom
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Mach Punch
-- Mega Drain
-- Stun Spore
-- Counter
+Party Size: 2
+Copy Pool: POOL_BRAWLYS_BREAK
 
 === TRAINER_SYLVIA ===
 Name: Sylvia
@@ -7016,12 +6853,8 @@ Gender: Female
 Music: Suspicious
 Double Battle: No
 AI: Hex Maniac
-
-/* Exception: Mossdeep Gym */
-
-Xatu
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_MOON
 
 === TRAINER_LEONARDO ===
 Name: Leonardo
@@ -7097,12 +6930,8 @@ Gender: Male
 Music: Rich
 Double Battle: No
 AI: Gentleman
-
-/* Exception: Mossdeep Gym */
-
-Girafarig
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_SUN
 
 === TRAINER_KATHLEEN ===
 Name: Kathleen
@@ -7112,12 +6941,8 @@ Gender: Female
 Music: Suspicious
 Double Battle: No
 AI: Hex Maniac
-
-/* Exception: Mossdeep Gym */
-
-Kadabra
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_MOON
 
 === TRAINER_CLIFFORD ===
 Name: Clifford
@@ -7127,11 +6952,8 @@ Gender: Male
 Music: Rich
 Double Battle: No
 AI: Gentleman
-
-/* Exception: Mossdeep Gym */
-
-Girafarig
-Level: 5
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_SUN
 
 === TRAINER_NICHOLAS ===
 Name: Nicholas
@@ -7141,11 +6963,8 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Psychic
-
-/* Exception: Mossdeep Gym */
-
-Wobbuffet
-Level: 5
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_ECLIPSE
 
 === TRAINER_GRUNT_SPACE_CENTER_3 ===
 Name: Grunt
@@ -7210,11 +7029,8 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Psychic
-
-/* Exception: Mossdeep Gym */
-
-Natu
-Level: 5
+Party Size: 1
+Copy Pool: POOL_TATE_AND_LIZAS_ECLIPSE
 
 === TRAINER_BRENDAN_RUSTBORO_TREECKO ===
 Name: Brendan
@@ -7713,12 +7529,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Lass
-
-/* Exception: Sootopolis Gym */
-
-Golduck
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 4
+Copy Pool: POOL_JUANS_COMPOSURE
+Pool Pick Functions: Modes
 
 === TRAINER_CRISSY ===
 Name: Crissy
@@ -7728,16 +7541,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Lass
-
-/* Exception: Sootopolis Gym */
-
-Goldeen
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Wailmer
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 4
+Copy Pool: POOL_JUANS_COMPOSURE
+Pool Pick Functions: Modes
 
 === TRAINER_RICK ===
 Name: Rick
@@ -8027,16 +7833,8 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Cooltrainer
-
-/* Exception: Lavaridge Gym */
-
-Kecleon
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Flamethrower
-- Fury Swipes
-- Feint Attack
-- Bind
+Party Size: 2
+Copy Pool: POOL_FLANNERYS_SMOKE
 
 === TRAINER_VIVIAN ===
 Name: Vivian
@@ -8046,20 +7844,8 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Battle Girl
-
-/* Exception: Mauville Gym */
-
-Mankey
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Thunder Punch
-- Focus Energy
-
-Hitmonchan
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Thunder Punch
-- Agility
+Party Size: 2
+Copy Pool: POOL_WATTSONS_CURRENT
 
 === TRAINER_DANIELLE ===
 Name: Danielle
@@ -8069,14 +7855,8 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Battle Girl
-
-/* Exception: Lavaridge Gym */
-
-Primeape
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Fire Punch
-- Focus Energy
+Party Size: 2
+Copy Pool: POOL_FLANNERYS_EMBERS
 
 === TRAINER_HIDEO ===
 Name: Hideo
@@ -8119,16 +7899,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Camper
-
-/* Exception: Fortree Gym */
-
-Swellow
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Xatu
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 3
+Copy Pool: POOL_WINONAS_GUSTS
 
 === TRAINER_ASHLEY ===
 Name: Ashley
@@ -8138,20 +7910,8 @@ Gender: Female
 Music: Girl
 Double Battle: No
 AI: Picnicker
-
-/* Exception: Fortree Gym */
-
-Swablu
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Swablu
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Swablu
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 3
+Copy Pool: POOL_WINONAS_BREEZE
 
 === TRAINER_WALLY_MAUVILLE ===
 Name: Wally
@@ -11665,16 +11425,8 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 AI: Bug Maniac
-
-/* Exception: Mauville Gym */
-
-Scyther
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-
-Pinsir
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_WATTSONS_RESISTANCE
 
 === TRAINER_DARIUS ===
 Name: Darius
@@ -11684,12 +11436,8 @@ Gender: Male
 Music: Cool
 Double Battle: No
 AI: Bird Keeper
-
-/* Exception: Fortree Gym */
-
-Fearow
-Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+Party Size: 2
+Copy Pool: POOL_WINONAS_STORM
 
 === TRAINER_STEVEN ===
 Name: Steven
@@ -18621,6 +18369,3077 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 Dusclops /* (added) */
 Level: 5
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+
+/* Gym pools */
+
+/* Rustboro Gym */
+
+=== POOL_ROXANNES_BOULDER ===
+Name: Pool
+Pic: Hiker
+Party Size: 1
+
+Geodude
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Rock Polish
+- Smack Down
+- Bulldoze
+- Stealth Rock
+
+Geodude
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Defense Curl
+- Rollout
+
+Graveler
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Rock Polish
+- Smack Down
+- Bulldoze
+- Stealth Rock
+
+Graveler
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Defense Curl
+- Rollout
+
+Onix
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Stealth Rock
+- Smack Down
+- Taunt
+- Bulldoze
+
+Onix
+Level: 9
+Ability: Weak Armor
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Stealth Rock
+- Smack Down
+- Taunt
+- Bulldoze
+
+Rhyhorn
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 4
+- Chip Away
+- Smack Down
+- Bulldoze
+- Rock Polish
+
+Larvitar
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 5
+- Bite
+- Rock Slide
+- Bulldoze
+- Stealth Rock
+
+=== POOL_ROXANNES_PEBBLE ===
+Name: Pool
+Pic: Youngster
+Party Size: 1
+
+Geodude
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Polish
+- Smack Down
+- Bulldoze
+- Stealth Rock
+
+Geodude
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Defense Curl
+- Rollout
+
+Aron
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Roar
+- Iron Head
+- Rock Slide
+- Rock Polish
+
+=== POOL_ROXANNE_OF_RUSTBORO ===
+Name: Pool
+Pic: Leader Roxanne
+Party Size: 1
+
+Graveler @ Oran Berry
+Level: 10
+Ability: Sturdy
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Rollout
+- Bulldoze
+- Stealth Rock
+- Rock Tomb
+
+Onix @ Oran Berry
+Level: 10
+Ability: Sturdy
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Rock Tomb
+- Stealth Rock
+- Taunt
+- Bulldoze
+
+Rhyhorn @ Oran Berry
+Level: 10
+Ability: Lightning Rod
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Bulldoze
+- Rock Tomb
+- Poison Jab
+- Thunder Fang
+
+Omanyte @ Oran Berry
+Level: 10
+Ability: Weak Armor
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Mud Shot
+- Ancient Power
+- Bubble Beam
+- Rock Polish
+
+Kabuto @ Oran Berry
+Level: 10
+Ability: Weak Armor
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Aqua Jet
+- Rock Tomb
+- Aerial Ace
+- Rock Polish
+
+Lileep @ Oran Berry
+Level: 10
+Ability: Storm Drain
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Ingrain
+- Ancient Power
+- Giga Drain
+- Rock Polish
+
+Anorith @ Oran Berry
+Level: 10
+Ability: Battle Armor
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Bug Bite
+- Metal Claw
+- Rock Tomb
+- Rock Polish
+
+Sudowoodo @ Oran Berry
+Level: 10
+Ability: Rock Head
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Wood Hammer
+- Low Kick
+- Sucker Punch
+- Rock Tomb
+
+Magcargo @ Oran Berry
+Level: 10
+Ability: Weak Armor
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Yawn
+- Ancient Power
+- Lava Plume
+- Rock Polish
+
+Corsola @ Oran Berry
+Level: 10
+Ability: Regenerator
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Bubble Beam
+- Ancient Power
+- Rock Tomb
+- Icicle Spear
+
+Pupitar @ Oran Berry
+Level: 10
+Ability: Shed Skin
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Bite
+- Taunt
+- Rock Tomb
+- Bulldoze
+
+Lairon @ Oran Berry
+Level: 10
+Ability: Sturdy
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Roar
+- Iron Head
+- Rock Tomb
+- Rock Polish
+
+/* #DewfordGym */
+
+=== POOL_BRAWLYS_BREAK ===
+Name: Pool
+Pic: Black Belt
+Party Size: 1
+
+Mankey
+Level: 9
+Ability: Defiant
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Thief
+- Sleep Talk
+
+Primeape
+Level: 9
+Ability: Defiant
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Thief
+- Sleep Talk
+
+Poliwhirl
+Level: 9
+Ability: Water Absorb
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Double Slap
+- Brick Break
+- Thief
+- Sleep Talk
+
+Machop
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Knock Off
+- Sleep Talk
+
+Machoke
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Knock Off
+- Sleep Talk
+
+=== POOL_BRAWLYS_RIPTIDE ===
+Name: Pool
+Pic: Sailor
+Party Size: 1
+
+Mankey
+Level: 9
+Ability: Defiant
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Thief
+- Sleep Talk
+
+Primeape
+Level: 9
+Ability: Defiant
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Thief
+- Sleep Talk
+
+Poliwhirl
+Level: 9
+Ability: Water Absorb
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Body Slam
+- Brick Break
+- Thief
+- Sleep Talk
+
+Machop
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Knock Off
+- Sleep Talk
+
+Machoke
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Knock Off
+- Sleep Talk
+
+Krabby
+Level: 9
+Ability: Hyper Cutter
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hone Claws
+- Brick Break
+- Sleep Talk
+- Knock Off
+
+Kingler
+Level: 9
+Ability: Hyper Cutter
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hone Claws
+- Brick Break
+- Sleep Talk
+- Knock Off
+
+=== POOL_BRAWLYS_UNDERTOW ===
+Name: Pool
+Pic: Battle Girl
+Party Size: 1
+
+Mankey
+Level: 9
+Ability: Defiant
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Thief
+- Sleep Talk
+
+Primeape
+Level: 9
+Ability: Defiant
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Thief
+- Sleep Talk
+
+Machop
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Knock Off
+- Sleep Talk
+
+Machoke
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Focus Energy
+- Karate Chop
+- Knock Off
+- Sleep Talk
+
+Breloom @ Lum Berry
+Level: 9
+Ability: Poison Heal
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Growth
+- Headbutt
+- Sky Uppercut
+- Sleep Talk
+
+=== POOL_BRAWLY_OF_DEWFORD ===
+Name: Pool
+Pic: Leader Brawly
+Party Size: 1
+
+Primeape @ Lum Berry
+Level: 10
+Ability: Defiant
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Cross Chop
+- Taunt
+- Thief
+- U Turn
+
+Machoke @ Lum Berry
+Level: 10
+Ability: Guts
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Wake Up Slap
+- Knock Off
+- Bulk Up
+- Ice Punch
+
+Breloom @ Lum Berry
+Level: 10
+Ability: Poison Heal
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Mach Punch
+- Bulk Up
+- Rock Slide
+- Drain Punch
+
+Breloom @ Lum Berry
+Level: 10
+Ability: Poison Heal
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Spore
+- Leech Seed
+- Focus Punch
+- Substitute
+
+Hitmonlee @ Lum Berry
+Level: 10
+Ability: Unburden
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Fake Out
+- Hi Jump Kick
+- Bulk Up
+- Pursuit
+
+Hitmonchan @ Lum Berry
+Level: 10
+Ability: Iron Fist
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Pursuit
+- Mach Punch
+- Ice Punch
+- Bulk Up
+
+Hitmontop @ Lum Berry
+Level: 10
+Ability: Technician
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Fake Out
+- Rolling Kick
+- Pursuit
+- Bulk Up
+
+Poliwrath @ Lum Berry
+Level: 10
+Ability: Water Absorb
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Circle Throw
+- Dynamic Punch
+- Bulk Up
+- Thief
+
+Machamp @ Lum Berry
+Level: 10
+Ability: Guts
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Knock Off
+- Power Up Punch
+- Encore
+- Ice Punch
+
+Heracross @ Lum Berry
+Level: 10
+Ability: Moxie
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Night Slash
+- Brick Break
+- Bulk Up
+- Rock Slide
+
+=== POOL_WATTSONS_AMPLIFIER ===
+Name: Pool
+Pic: Guitarist
+Party Size: 1
+
+Pikachu
+Level: 9
+Ability: Static
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Quick Attack
+- Nuzzle
+- Discharge
+- Light Screen
+
+Magnemite
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Thunder Wave
+- Flash Cannon
+- Discharge
+- Light Screen
+
+Magnemite
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Metal Sound
+- Flash Cannon
+- Charge Beam
+- Light Screen
+
+Magneton
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Thunder Wave
+- Flash Cannon
+- Discharge
+- Light Screen
+
+Magneton
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Metal Sound
+- Flash Cannon
+- Charge Beam
+- Light Screen
+
+Voltorb
+Level: 9
+Ability: Static
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Eerie Impulse
+- Charge Beam
+- Light Screen
+- Magnet Rise
+
+Voltorb
+Level: 9
+Ability: Aftermath
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Magnet Rise
+- Discharge
+- Taunt
+- Thunder Wave
+
+Electrode
+Level: 9
+Ability: Static
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Eerie Impulse
+- Charge Beam
+- Light Screen
+- Magnet Rise
+
+Electrode
+Level: 3
+Ability: Aftermath
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 5
+- Magnet Rise
+- Discharge
+- Taunt
+- Thunder Wave
+
+Electabuzz
+Level: 4
+Ability: Static
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 6
+- Thunder Wave
+- Light Screen
+- Thunder Punch
+- Discharge
+
+=== POOL_WATTSONS_CURRENT ===
+Name: Pool
+Pic: Battle Girl
+Party Size: 1
+
+Mankey
+Level: 9
+Ability: Vital Spirit
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Seismic Toss
+- Rain Dance
+- Thunder
+- Encore
+
+Primeape
+Level: 9
+Ability: Vital Spirit
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Seismic Toss
+- Rain Dance
+- Thunder
+- Encore
+
+Hitmonchan
+Level: 9
+Ability: Iron Fist
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Mach Punch
+- Thunder Punch
+- Rain Dance
+- Sleep Talk
+
+=== POOL_WATTSONS_RESISTANCE ===
+Name: Pool
+Pic: Bug Maniac
+Party Size: 1
+
+Forretress
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Zap Cannon
+- Magnet Rise
+- Mirror Shot
+- Light Screen
+
+Forretress
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Zap Cannon
+- Magnet Rise
+- Light Screen
+- Flash Cannon
+
+=== POOL_WATTSONS_SPARK ===
+Name: Pool
+Pic: Youngster
+Party Size: 1
+
+Voltorb
+Level: 9
+Ability: Static
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Eerie Impulse
+- Charge Beam
+- Light Screen
+- Magnet Rise
+
+Voltorb
+Level: 9
+Ability: Aftermath
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Magnet Rise
+- Discharge
+- Taunt
+- Thunder Wave
+
+Meowth
+Level: 9
+Ability: Technician
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Pay Day
+- Nasty Plot
+- Thunderbolt
+- Sleep Talk
+
+Lickitung
+Level: 9
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Lick
+- Disable
+- Thunderbolt
+- Sleep Talk
+
+=== POOL_WATTSON_OF_MAUVILLE ===
+Name: Pool
+Pic: Leader Wattson
+Party Size: 1
+
+Electrode @ Shuca Berry
+Level: 10
+Ability: Static
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Self Destruct
+- Light Screen
+- Taunt
+- Volt Switch
+
+Raichu @ Shuca Berry
+Level: 10
+Ability: Static
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Nuzzle
+- Discharge
+- Volt Switch
+- Grass Knot
+
+Ampharos @ Shuca Berry
+Level: 10
+Ability: Static
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Fire Punch
+- Thunder Wave
+- Discharge
+- Volt Switch
+
+Magnezone @ Shuca Berry
+Level: 10
+Ability: Sturdy
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Thunder Wave
+- Metal Sound
+- Flash Cannon
+- Volt Switch
+
+Lanturn @ Shuca Berry
+Level: 10
+Ability: Water Absorb
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Thunder Wave
+- Bubble Beam
+- Volt Switch
+- Ice Beam
+
+Electivire @ Shuca Berry
+Level: 10
+Ability: Vital Spirit
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Thunder Wave
+- Wild Charge
+- Volt Switch
+- Ice Punch
+
+=== POOL_FLANNERYS_ASHES ===
+Name: Pool
+Pic: Hiker
+Party Size: 1
+
+Clefairy
+Level: 9
+Ability: Magic Guard
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Encore
+- Cosmic Power
+- Sunny Day
+- Flamethrower
+
+Machop
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Seismic Toss
+- Bulk Up
+- Sunny Day
+- Fire Punch
+
+Machoke
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Seismic Toss
+- Bulk Up
+- Sunny Day
+- Fire Punch
+
+Machamp
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Seismic Toss
+- Bulk Up
+- Sunny Day
+- Fire Punch
+
+Geodude
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Defense Curl
+- Sunny Day
+- Flamethrower
+- Sleep Talk
+
+Graveler
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Defense Curl
+- Sunny Day
+- Flamethrower
+- Sleep Talk
+
+Golem
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Defense Curl
+- Sunny Day
+- Flamethrower
+- Sleep Talk
+
+Steelix
+Level: 9
+Ability: Sturdy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 4
+- Fire Fang
+- Curse
+- Sunny Day
+- Sleep Talk
+
+Rhyhorn
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 5
+- Sunny Day
+- Swords Dance
+- Sleep Talk
+- Fire Fang
+
+Rhydon
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 5
+- Sunny Day
+- Swords Dance
+- Sleep Talk
+- Fire Fang
+ 
+Rhyperior
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 5
+- Sunny Day
+- Swords Dance
+- Sleep Talk
+- Fire Fang
+
+Dunsparce
+Level: 9
+Ability: Serene Grace
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 6
+- Coil
+- Sunny Day
+- Flamethrower
+- Sleep Talk
+
+Tyranitar
+Level: 9
+Ability: Unnerve
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 7
+- Fire Fang
+- Sunny Day
+- Sleep Talk
+- Dragon Dance
+
+=== POOL_FLANNERYS_BLAZE ===
+Name: Pool
+Pic: Kindler
+Party Size: 1
+
+Growlithe
+Level: 9
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flare Blitz
+- Will O Wisp
+- Sleep Talk
+- Howl
+
+Magmar
+Level: 9
+Ability: Flame Body
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fire Punch
+- Lava Plume
+- Will O Wisp
+- Sleep Talk
+
+Slugma
+Level: 9
+Ability: Flame Body
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Lava Plume
+- Amnesia
+- Will O Wisp
+- Sleep Talk
+
+Houndour
+Level: 9
+Ability: Unnerve
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Nasty Plot
+- Dark Pulse
+- Sleep Talk
+
+=== POOL_FLANNERYS_EMBERS ===
+Name: Pool
+Pic: Battle Girl
+Party Size: 1
+
+Machoke
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Seismic Toss
+- Bulk Up
+- Sunny Day
+- Fire Punch
+
+Machamp
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Seismic Toss
+- Bulk Up
+- Sunny Day
+- Fire Punch
+
+Hitmonlee
+Level: 9
+Ability: Limber
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Blaze Kick
+- Bulk Up
+- Sunny Day
+- Sleep Talk
+
+Hitmonchan
+Level: 9
+Ability: Iron Fist
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fire Punch
+- Bulk Up
+- Sunny Day
+- Sleep Talk
+
+=== POOL_FLANNERYS_SMOKE ===
+Name: Pool
+Pic: Cooltrainer M
+Party Size: 1
+
+Ninetales
+Level: 9
+Ability: Flash Fire
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Roar
+- Flamethrower
+- Will O Wisp
+- Sleep Talk
+
+Arcanine
+Level: 9
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flare Blitz
+- Extreme Speed
+- Will O Wisp
+- Howl
+ 
+Rapidash
+Level: 9
+Ability: Flame Body
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Quick Attack
+- Flare Blitz
+- Will O Wisp
+- Sleep Talk
+
+Magmar
+Level: 9
+Ability: Flame Body
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Fire Punch
+- Lava Plume
+- Will O Wisp
+- Sleep Talk
+
+Magcargo
+Level: 9
+Ability: Flame Body
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ancient Power
+- Lava Plume
+- Body Slam
+- Sleep Talk
+
+Torkoal
+Level: 9
+Ability: White Smoke
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flame Wheel
+- Lava Plume
+- Iron Defense
+- Sleep Talk
+
+=== POOL_FLANNERY_OF_LAVARIDGE ===
+Name: Pool
+Pic: Leader Flannery
+Party Size: 1
+
+Ninetales @ Heat Rock
+Level: 10
+Ability: Drought
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Hex
+- Flamethrower
+- Solar Beam
+- Will O Wisp
+
+Torkoal @ Heat Rock
+Level: 10
+Ability: Drought
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Flame Wheel
+- Lava Plume
+- Solar Beam
+- Gyro Ball
+
+Arcanine @ White Herb
+Level: 10
+Ability: Intimidate
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Wild Charge
+- Flare Blitz
+- Extreme Speed
+- Iron Tail
+
+Rapidash @ White Herb
+Level: 10
+Ability: Flame Body
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Megahorn
+- Flame Charge
+- Wild Charge
+- Low Kick
+
+Magcargo @ White Herb
+Level: 10
+Ability: Flame Body
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Ancient Power
+- Lava Plume
+- Shell Smash
+- Solar Beam
+
+Houndoom @ White Herb
+Level: 10
+Ability: Unnerve
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Nasty Plot
+- Solar Beam
+- Overheat
+- Dark Pulse
+
+Magmortar @ White Herb
+Level: 10
+Ability: Flame Body
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Sunny Day
+- Taunt
+- Solar Beam
+- Overheat
+
+=== POOL_NORMAN_OF_PETALBURG ===
+Name: Pool
+Pic: Leader Norman
+Party Size: 1
+
+Stantler @ Sitrus Berry
+Level: 10
+Ability: Intimidate
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Confuse Ray
+- Zen Headbutt
+- Jump Kick
+- Disable
+
+Spinda @ Sitrus Berry
+Level: 10
+Ability: Own Tempo
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Teeter Dance
+- Encore
+- Fake Out
+- Wish
+
+Lickilicky @ Sitrus Berry
+Level: 10
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Power Whip
+- Knock Off
+- Swords Dance
+- Zen Headbutt
+
+Lickilicky @ Sitrus Berry
+Level: 10
+Ability: Own Tempo
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Ice Beam
+- Thunderbolt
+- Shadow Ball
+- Flamethrower
+
+Girafarig @ Sitrus Berry
+Level: 10
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Nasty Plot
+- Psychic
+- Shadow Ball
+- Dazzling Gleam
+
+Kangaskhan @ Sitrus Berry
+Level: 10
+Ability: Scrappy
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Fake Out
+- Dizzy Punch
+- Power Up Punch
+- Circle Throw
+
+Tauros @ Sitrus Berry
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Pursuit
+- Zen Headbutt
+- Earthquake
+- Retaliate
+
+Snorlax @ Sitrus Berry
+Level: 10
+Ability: Thick Fat
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Rest
+- Retaliate
+- Sleep Talk
+- Curse
+
+Ursaring @ Sitrus Berry
+Level: 10
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Hammer Arm
+- Swords Dance
+- Crunch
+- Play Rough
+
+Miltank @ Sitrus Berry
+Level: 10
+Ability: Thick Fat
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Defense Curl
+- Milk Drink
+- Rollout
+- Zen Headbutt
+
+Linoone @ Sitrus Berry
+Level: 10
+Ability: Gluttony
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Play Rough
+- Belly Drum
+- Retaliate
+- Shadow Claw
+
+Slaking @ Sitrus Berry
+Level: 10
+Ability: Truant
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Hammer Arm
+- Taunt
+- Retaliate
+- Night Slash
+
+=== POOL_WINONAS_BREEZE ===
+Name: Pool
+Pic: Picnicker
+Party Size: 1
+
+Pidgeotto
+Level: 9
+Ability:
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Quick Attack
+- Steel Wing
+- Brave Bird
+- Hurricane
+
+Golduck
+Level: 9
+Ability: Cloud Nine
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Hone Claws
+- Aerial Ace
+- Sleep Talk
+
+Skiploom
+Level: 9
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Synthesis
+- Acrobatics
+- Giga Drain
+- Encore
+
+Jumpluff
+Level: 9
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Synthesis
+- Acrobatics
+- Giga Drain
+- Encore
+
+Taillow
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Quick Attack
+- Facade
+- Steel Wing
+- Brave Bird
+
+Swablu
+Level: 9
+Ability: Natural Cure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Cotton Guard
+- Perish Song
+- Moonblast
+- Hyper Voice
+
+=== POOL_WINONAS_GUSTS ===
+Name: Pool
+Pic: Camper
+Party Size: 1
+
+Fearow
+Level: 9
+Ability: Sniper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Drill Run
+- Drill Peck
+- Steel Wing
+- Quick Attack
+
+Golbat
+Level: 9
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Leech Life
+- Acrobatics
+- Steel Wing
+- Taunt
+
+Crobat
+Level: 9
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Leech Life
+- Acrobatics
+- Steel Wing
+- Taunt
+
+Golduck
+Level: 9
+Ability: Cloud Nine
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Hone Claws
+- Aerial Ace
+- Sleep Talk
+
+Doduo
+Level: 9
+Ability: Tangled Feet
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Quick Attack
+- Drill Peck
+- Steel Wing
+- Sleep Talk
+
+Skiploom
+Level: 9
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Synthesis
+- Acrobatics
+- Giga Drain
+- Encore
+
+Swellow
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Brave Bird
+- Quick Attack
+- Facade
+- Steel Wing
+
+=== POOL_WINONAS_STORM ===
+Name: Pool
+Pic: Bird Keeper
+Party Size: 1
+
+Pidgeotto
+Level: 9
+Ability:
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Quick Attack
+- Steel Wing
+- Brave Bird
+- Hurricane
+
+Fearow
+Level: 9
+Ability: Sniper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Drill Run
+- Drill Peck
+- Steel Wing
+- Quick Attack
+
+Farfetchd
+Level: 9
+Ability: Defiant
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Swords Dance
+- Acrobatics
+- Steel Wing
+- Leaf Blade
+
+Dodrio
+Level: 9
+Ability: Tangled Feet
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Quick Attack
+- Drill Peck
+- Taunt
+- Steel Wing
+
+Noctowl
+Level: 9
+Ability: Tinted Lens
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Reflect
+- Echoed Voice
+- Air Slash
+- Extrasensory
+
+Murkrow
+Level: 9
+Ability: Prankster
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Taunt
+- Dark Pulse
+- Steel Wing
+- Drill Peck
+
+Delibird
+Level: 9
+Ability: Vital Spirit
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Present
+- Aerial Ace
+- Ice Beam
+- Fake Out
+
+Swellow
+Level: 9
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Brave Bird
+- Quick Attack
+- Facade
+- Steel Wing
+
+Swablu
+Level: 9
+Ability: Natural Cure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Cotton Guard
+- Perish Song
+- Moonblast
+- Hyper Voice
+
+=== POOL_WINONA_OF_FORTREE ===
+Name: Pool
+Pic: Leader Winona
+Party Size: 1
+
+Pidgeot @ Charti Berry
+Level: 10
+Ability: Tangled Feet
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Tailwind
+- Steel Wing
+- U Turn
+- Brave Bird
+
+Xatu @ Colbur Berry
+Level: 10
+Ability: Synchronize
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Tailwind
+- Psychic
+- Wish
+- U Turn
+
+/*
+Pelipper @ Wacan Berry
+Level: 10
+Ability: Drizzle
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Hurricane
+- Hydro Pump
+- Tailwind
+- U Turn
+*/
+
+Honchkrow @ Roseli Berry
+Level: 10
+Ability: Super Luck
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Tailwind
+- Night Slash
+- Taunt
+- Steel Wing
+
+Skarmory @ Wacan Berry
+Level: 10
+Ability: Sturdy
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Steel Wing
+- Roost
+- Rock Slide
+- Brave Bird
+
+Aerodactyl @ Babiri Berry
+Level: 10
+Ability: Unnerve
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Iron Head
+- Rock Slide
+- Roost
+- Tailwind
+
+Togekiss @ Kebia Berry
+Level: 10
+Ability: Serene Grace
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Air Slash
+- Roost
+- Dazzling Gleam
+- Nasty Plot
+
+Gliscor @ Passho Berry
+Level: 10
+Ability: Hyper Cutter
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Swords Dance
+- Roost
+- Earthquake
+- Rock Slide
+
+Altaria @ Yache Berry
+Level: 10
+Ability: Natural Cure
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Dragon Dance
+- Dragon Pulse
+- Roost
+- Earthquake
+
+=== POOL_TATE_AND_LIZAS_ECLIPSE ===
+Name: Pool
+Pic: Psychic M
+Party Size: 1
+
+Kadabra
+Level: 9
+Ability: Magic Guard
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Psychic
+- Shadow Ball
+- Dazzling Gleam
+
+/*
+Alakazam
+Level: 9
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+*/
+
+/*
+Slowpoke
+Level: 9
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+*/
+
+/*
+Drowzee
+Level: 9
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+*/
+
+Hypno
+Level: 9
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Nasty Plot
+- Psyshock
+- Shadow Ball
+- Focus Blast
+
+/*
+Exeggcute
+Level: 9
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+*/
+
+/*
+Natu
+Level: 9
+Ability: Synchronize
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ominous Wind
+- Wish
+- Psychic
+- Aerial Ace
+*/
+
+Xatu
+Level: 9
+Ability: Synchronize
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ominous Wind
+- Air Slash
+- Wish
+- Psychic
+
+Girafarig
+Level: 9
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Crunch
+- Nasty Plot
+- Psychic
+- Dazzling Gleam
+
+=== POOL_TATE_AND_LIZAS_MOON ===
+Name: Pool
+Pic: Hex Maniac
+Party Size: 1
+
+/*
+Vulpix
+Level: 9
+Ability: Flash Fire
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Will O Wisp
+- Hex
+- Extrasensory
+- Safeguard
+*/
+
+Ninetales
+Level: 9
+Ability: Flash Fire
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Will O Wisp
+- Hex
+- Extrasensory
+- Nasty Plot
+
+Kadabra
+Level: 9
+Ability: Magic Guard
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Psyshock
+- Shadow Ball
+- Dazzling Gleam
+
+/*
+Natu
+Level: 9
+Ability: Synchronize
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ominous Wind
+- Wish
+- Psychic
+- Aerial Ace
+*/
+
+Xatu
+Level: 9
+Ability: Synchronize
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ominous Wind
+- Air Slash
+- Wish
+- Psychic
+
+=== POOL_TATE_AND_LIZAS_SUN ===
+Name: Pool
+Pic: Gentleman
+Party Size: 1
+
+/*
+Vulpix
+Level: 9
+Ability: Flash Fire
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Roar
+- Extrasensory
+- Safeguard
+- Dark Pulse
+*/
+
+Ninetales
+Level: 9
+Ability: Flash Fire
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Roar
+- Extrasensory
+- Nasty Plot
+- Dark Pulse
+
+Golduck
+Level: 9
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Aqua Jet
+- Disable
+- Zen Headbutt
+- Light Screen
+
+Noctowl
+Level: 9
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Reflect
+- Air Slash
+- Extrasensory
+- Whirlwind
+
+Girafarig
+Level: 9
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Zen Headbutt
+- Crunch
+- Nasty Plot
+- Dazzling Gleam
+
+=== POOL_TATE_AND_LIZA_OF_MOSSDEEP ===
+Name: Pool
+Pic: Leader Tate And Liza
+Party Size: 1
+
+/*
+Base stats:
+065 Alakazam  Def  45 / SpD  85 / 120 Spe
+121 Starmie   Def  85 / SpD  85 / 115 Spe
+124 Jynx      Def  35 / SpD  95 /  95 Spe
+178 Xatu      Def  70 / SpD  70 /  95 Spe
+122 Mr Mime   Def  65 / SpD 120 /  90 Spe
+203 Girafarig Def  65 / SpD  65 /  85 Spe
+097 Hypno     Def  70 / SpD 115 /  67 Spe
+103 Exeggutor Def  85 / SpD  65 /  55 Spe
+080 Slowbro   Def 110 / SpD  80 /  30 Spe
+199 Slowking  Def  80 / SpD 110 /  30 Spe
+
+Kee Berry raises Def, Maranga Berry raises SpD
+*/
+
+Slowbro @ Custap Berry
+Level: 10
+Ability: Regenerator
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 1
+- Psychic
+- Calm Mind
+- Focus Blast
+- Light Screen
+
+/*
+- Disable
+- Psychic
+- Calm Mind
+- Focus Blast
+*/
+
+Slowking @ Custap Berry
+Level: 10
+Ability: Regenerator
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 1
+- Psyshock
+- Calm Mind
+- Shadow Ball
+- Trick Room
+
+/*
+- Disable
+- Psyshock
+- Shadow Ball
+- Trick Room
+*/
+
+Starmie @ Custap Berry
+Level: 10
+Ability: Analytic
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Psychic
+- Ice Beam
+- Thunderbolt
+- Reflect
+
+Exeggutor @ Custap Berry
+Level: 10
+Ability: Harvest
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Leech Seed
+- Psyshock
+- Calm Mind
+- Trick Room
+
+Mr Mime (M) @ Light Clay
+Level: 10
+Ability: Filter
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Psychic
+- Shadow Ball
+- Reflect
+- Encore
+
+Jynx @ Light Clay
+Level: 10
+Ability: Oblivious
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Psyshock
+- Taunt
+- Light Screen
+- Focus Blast
+
+/*
+Alakazam @ Custap Berry
+Level: 10
+Ability: Magic Guard
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 4
+- Psyshock
+- Calm Mind
+- Shadow Ball
+- Focus Blast
+*/
+
+/*
+Hypno @ Custap Berry
+Level: 10
+Ability: Inner Focus
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 4
+- Psychic
+- Calm Mind
+- Shadow Ball
+- Focus Blast
+*/
+
+/*
+Xatu @ Custap Berry
+Level: 10
+Ability: Synchronize
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 4
+- Confuse Ray
+- Psychic
+- Calm Mind
+- Tailwind
+*/
+
+/*
+Girafarig @ Custap Berry
+Level: 10
+Ability: Sap Sipper
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 4
+- Psychic
+- Calm Mind
+- Trick Room
+- Dazzling Gleam
+*/
+
+=== POOL_JUANS_COMPOSURE ===
+Name: Pool
+Pic: Lass
+Party Size: 1
+
+/* Party Size: 4 */
+
+Psyduck (F)
+Level: 9
+Ability: Cloud Nine
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Water Pulse
+- Aerial Ace
+- Attract
+- Mud Bomb
+
+Psyduck (M)
+Level: 9
+Ability: Cloud Nine
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Water Pulse
+- Aerial Ace
+- Attract
+- Mud Bomb
+
+/*
+- Water Pulse
+- Disable
+- Hydro Pump
+
+- Calm Mind
+- Ice Beam
+- Dig
+- Aerial Ace
+- Attract
+- Surf
+
+- Encore
+- Mud Bomb
+- Yawn
+*/
+
+Poliwag (F)
+Level: 9
+Ability: Damp
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Belly Drum
+- Dig
+- Attract
+- Waterfall
+
+Poliwag (M)
+Level: 9
+Ability: Damp
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Belly Drum
+- Dig
+- Attract
+- Waterfall
+
+/*
+- Rain Dance
+- Body Slam
+- Bubble Beam
+- Mud Shot
+- Belly Drum
+- Wake Up Slap
+- Hydro Pump
+- Mud Bomb
+
+- Dig
+- Attract
+- Surf
+- Waterfall
+
+- Water Pulse
+- Encore
+*/
+
+Horsea (F)
+Level: 9
+Ability: Sniper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Brine
+- Agility
+- Dragon Pulse
+- Attract
+
+Horsea (M)
+Level: 9
+Ability: Sniper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Brine
+- Agility
+- Dragon Pulse
+- Attract
+
+/*
+- Twister
+- Bubble Beam
+- Brine
+- Agility
+- Dragon Pulse
+- Dragon Dance
+- Hydro Pump
+
+- Ice Beam
+- Attract
+- Surf
+
+- Signal Beam
+- Dragon Breath
+- Water Pulse
+*/
+
+Goldeen (F)
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Waterfall
+- Megahorn
+- Attract
+- Mud Shot
+
+Goldeen (M)
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Waterfall
+- Megahorn
+- Attract
+- Mud Shot
+
+/*
+- Peck
+- Agility
+- Waterfall
+- Megahorn
+
+- Ice Beam
+- Attract
+- Poison Jab
+- Sleep Talk
+- Surf
+
+- Body Slam
+- Aqua Tail
+- Mud Shot
+*/
+
+Marill (F)
+Level: 9
+Ability: Huge Power
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Play Rough
+- Attract
+- Aqua Jet
+- Belly Drum
+
+Marill (M)
+Level: 9
+Ability: Sap Sipper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Aqua Tail
+- Play Rough
+- Ice Beam
+- Attract
+
+/*
+- Charm
+- Bounce
+
+- Defense Curl
+- Rollout
+- Aqua Tail
+- Play Rough
+- Aqua Ring
+- Rain Dance
+- Double Edge
+- Superpower
+
+- Ice Beam
+- Dig
+- Attract
+- Waterfall
+
+- Body Slam
+- Aqua Jet
+- Fake Tears
+- Belly Drum
+- Encore
+- Perish Song
+- Refresh
+- Sing
+- Tickle
+- Amnesia
+*/
+
+Lotad (F)
+Level: 9
+Ability: Own Tempo
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Giga Drain
+- Attract
+- Surf
+- Leech Seed
+
+Lotad (M)
+Level: 9
+Ability: Own Tempo
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Energy Ball
+- Ice Beam
+- Attract
+- Surf
+
+/*
+- Bubble Beam
+- Rain Dance
+- Giga Drain
+- Zen Headbutt
+- Energy Ball
+
+- Ice Beam
+- Attract
+- Swords Dance
+- Sleep Talk
+- Surf
+
+- Leech Seed
+- Synthesis
+- Teeter Dance
+- Tickle
+*/
+
+Wailmer (F)
+Level: 9
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Water Spout
+- Ice Beam
+- Earthquake
+- Attract
+
+Wailmer (M)
+Level: 9
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Water Spout
+- Ice Beam
+- Earthquake
+- Attract
+
+/*
+- Rollout
+- Water Pulse
+- Brine
+- Rest
+- Dive
+- Amnesia
+- Water Spout
+- Bounce
+- Hydro Pump
+- Heavy Slam
+
+- Roar
+- Ice Beam
+- Earthquake
+- Rock Tomb
+- Attract
+- Bulldoze
+- Sleep Talk
+- Surf
+- Waterfall
+
+- Body Slam
+- Zen Headbutt
+- Curse
+- Defense Curl
+- Tickle
+- Aqua Ring
+*/
+
+=== POOL_JUANS_ELEGANCE ===
+Name: Pool
+Pic: Lady
+Party Size: 1
+
+/* Party Size: 1 */
+
+Goldeen (F) @ Nugget
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Waterfall
+- Megahorn
+- Attract
+- Mud Shot
+
+Goldeen (M) @ Nugget
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Waterfall
+- Megahorn
+- Attract
+- Mud Shot
+
+Seaking (F) @ Nugget
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Waterfall
+- Megahorn
+- Attract
+- Mud Shot
+
+Seaking (M) @ Nugget
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Waterfall
+- Megahorn
+- Attract
+- Mud Shot
+
+Corsola (F) @ Nugget
+Level: 9
+Ability: Regenerator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Recover
+- Power Gem
+- Surf
+- Attract
+
+Corsola (M) @ Nugget
+Level: 9
+Ability: Natural Cure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Recover
+- Power Gem
+- Surf
+- Attract
+
+/*
+- Recover
+- Bubble Beam
+- Refresh
+- Ancient Power
+- Brine
+- Iron Defense
+- Aqua Ring
+- Power Gem
+- Earth Power
+
+- Earthquake
+- Explosion
+- Ice Beam
+- Psychic
+- Surf
+- Attract
+- Calm Mind
+
+- Icicle Spear
+- Head Smash
+- Water Pulse
+- Confuse Ray
+- Curse
+- Ingrain
+*/
+
+Lotad (F)
+Level: 9
+Ability: Own Tempo
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Giga Drain
+- Attract
+- Surf
+- Leech Seed
+
+Lotad (M)
+Level: 9
+Ability: Own Tempo
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Energy Ball
+- Ice Beam
+- Attract
+- Surf
+
+=== POOL_JUANS_POISE ===
+Name: Pool
+Pic: Pokefan F
+Party Size: 1
+
+/* Party Size: 2 */
+
+Marill (F) @ Sitrus Berry
+Level: 9
+Ability: Sap Sipper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Charm
+- Aqua Jet
+- Attract
+- Encore
+
+Marill (M) @ Sitrus Berry
+Level: 9
+Ability: Sap Sipper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Charm
+- Aqua Jet
+- Attract
+- Encore
+
+/*
+- Aqua Tail
+- Play Rough
+- Superpower
+- Dig
+- Attract
+- Waterfall
+
+- Body Slam
+- Aqua Jet
+- Belly Drum
+- Encore
+*/
+
+Azumarill (F) @ Sitrus Berry
+Level: 9
+Ability: Huge Power
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Play Rough
+- Attract
+- Aqua Jet
+- Belly Drum
+
+Azumarill (M) @ Sitrus Berry
+Level: 9
+Ability: Huge Power
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Play Rough
+- Attract
+- Aqua Jet
+- Belly Drum
+
+=== POOL_JUANS_SERENITY ===
+Name: Pool
+Pic: Beauty
+Party Size: 1
+
+/* Party Size: 3 */
+
+Psyduck (F)
+Level: 9
+Ability: Cloud Nine
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Water Pulse
+- Aerial Ace
+- Attract
+- Mud Bomb
+
+Psyduck (M)
+Level: 9
+Ability: Cloud Nine
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Water Pulse
+- Aerial Ace
+- Attract
+- Mud Bomb
+
+Golduck (F)
+Level: 9
+Ability: Cloud Nine
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Aqua Jet
+- Aerial Ace
+- Attract
+- Mud Bomb
+
+Golduck (M)
+Level: 9
+Ability: Cloud Nine
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Aqua Jet
+- Aerial Ace
+- Attract
+- Mud Bomb
+
+Poliwag (F)
+Level: 9
+Ability: Damp
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Belly Drum
+- Dig
+- Attract
+- Waterfall
+
+Poliwag (M)
+Level: 9
+Ability: Damp
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Belly Drum
+- Dig
+- Attract
+- Waterfall
+
+Slowpoke (F)
+Level: 9
+Ability: Regenerator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Curse
+- Zen Headbutt
+- Slack Off
+- Attract
+
+Slowbro (M)
+Level: 9
+Ability: Regenerator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Slack Off
+- Psychic
+- Attract
+- Surf
+
+Seel (F)
+Level: 9
+Ability: Thick Fat
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Encore
+- Aqua Jet
+- Attract
+- Surf
+
+Seel (M)
+Level: 9
+Ability: Thick Fat
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Aqua Jet
+- Attract
+- Surf
+- Fake Out
+
+Dewgong (F)
+Level: 9
+Ability: Thick Fat
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Encore
+- Aqua Jet
+- Ice Beam
+- Attract
+
+Dewgong (M)
+Level: 9
+Ability: Thick Fat
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Ice Shard
+- Surf
+- Attract
+- Fake Out
+
+Shellder (F)
+Level: 9
+Ability: Skill Link
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Ice Shard
+- Razor Shell
+- Attract
+- Rock Blast
+
+Shellder (M)
+Level: 9
+Ability: Overcoat
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Ice Shard
+- Razor Shell
+- Iron Defense
+- Attract
+
+Cloyster (F)
+Level: 9
+Ability: Skill Link
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Icicle Spear
+- Ice Shard
+- Razor Shell
+- Attract
+
+Cloyster (M)
+Level: 9
+Ability: Overcoat
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Ice Shard
+- Razor Shell
+- Iron Defense
+- Attract
+
+Horsea (F)
+Level: 9
+Ability: Sniper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Brine
+- Agility
+- Dragon Pulse
+- Attract
+
+Horsea (M)
+Level: 9
+Ability: Sniper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Brine
+- Agility
+- Dragon Pulse
+- Attract
+
+Seadra (F)
+Level: 9
+Ability: Sniper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Brine
+- Agility
+- Dragon Pulse
+- Attract
+
+Seadra (M)
+Level: 9
+Ability: Sniper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Brine
+- Agility
+- Dragon Pulse
+- Attract
+
+/*
+Kingdra
+Level: 9
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+*/
+
+Goldeen (F)
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Waterfall
+- Megahorn
+- Attract
+- Mud Shot
+
+Goldeen (M) @ Nugget
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Waterfall
+- Megahorn
+- Attract
+- Mud Shot
+
+Seaking (F) @ Nugget
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Waterfall
+- Megahorn
+- Attract
+- Mud Shot
+
+Seaking (M) @ Nugget
+Level: 9
+Ability: Lightning Rod
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Waterfall
+- Megahorn
+- Attract
+- Mud Shot
+
+/*
+Staryu
+Level: 9
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+*/
+
+/*
+Starmie
+Level: 9
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+*/
+
+Marill (F)
+Level: 9
+Ability: Huge Power
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Play Rough
+- Attract
+- Aqua Jet
+- Belly Drum
+
+Marill (M)
+Level: 9
+Ability: Sap Sipper
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Charm
+- Aqua Jet
+- Attract
+- Encore
+
+Azumarill (F) @ Sitrus Berry
+Level: 9
+Ability: Huge Power
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Play Rough
+- Attract
+- Aqua Jet
+- Belly Drum
+
+Azumarill (M) @ Sitrus Berry
+Level: 9
+Ability: Huge Power
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Play Rough
+- Attract
+- Aqua Jet
+- Belly Drum
+
+Corsola (F) @ Nugget
+Level: 9
+Ability: Regenerator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Recover
+- Power Gem
+- Surf
+- Attract
+
+Corsola (M) @ Nugget
+Level: 9
+Ability: Natural Cure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Recover
+- Power Gem
+- Surf
+- Attract
+
+Lombre (F)
+Level: 9
+Ability: Own Tempo
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Giga Drain
+- Fake Out
+- Attract
+- Surf
+
+Lombre (M)
+Level: 9
+Ability: Own Tempo
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Energy Ball
+- Knock Off
+- Attract
+- Surf
+
+Wailmer (F)
+Level: 9
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Water Spout
+- Ice Beam
+- Earthquake
+- Attract
+
+Wailmer (M)
+Level: 9
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Water Spout
+- Ice Beam
+- Earthquake
+- Attract
+
+Wailord (F)
+Level: 9
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Water Spout
+- Ice Beam
+- Earthquake
+- Attract
+
+Wailord (M)
+Level: 9
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Water Spout
+- Ice Beam
+- Earthquake
+- Attract
+
+=== POOL_JUAN_OF_SOOTOPOLIS ===
+Name: Pool
+Pic: Leader Juan
+Party Size: 1
+
+Politoed @ Damp Rock
+Level: 10
+Ability: Drizzle
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Mud Bomb
+- Scald
+- Ice Beam
+- Encore
+
+Pelipper @ Damp Rock
+Level: 10
+Ability: Drizzle
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Hurricane
+- Tailwind
+- Scald
+- U Turn
+
+Poliwrath @ Salac Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Body Slam
+- Belly Drum
+- Dynamic Punch
+- Waterfall
+
+Tentacruel @ Petaya Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Hex
+- Sludge Bomb
+- Scald
+- Knock Off
+
+Slowbro @ Ganlon Berry
+Level: 10
+Ability: Regenerator
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Slack Off
+- Amnesia
+- Psyshock
+- Scald
+
+Slowking @ Apicot Berry
+Level: 10
+Ability: Regenerator
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Slack Off
+- Nasty Plot
+- Psychic
+- Scald
+
+Dewgong @ Salac Berry
+Level: 10
+Ability: Hydration
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Encore
+- Aqua Jet
+- Ice Beam
+- Fake Out
+
+Dewgong @ Salac Berry
+Level: 10
+Ability: Hydration
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Encore
+- Ice Shard
+- Surf
+- Fake Out
+
+/*
+- Icy Wind
+- Encore
+- Ice Shard
+- Aqua Jet
+- Brine
+- Aqua Tail
+- Ice Beam
+
+- Surf
+
+- Fake Out
+- Disable
+- Perish Song
+*/
+
+Starmie @ Petaya Berry
+Level: 10
+Ability: Analytic
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Ice Beam
+- Thunderbolt
+- Psychic
+- Scald
+
+Starmie @ Petaya Berry
+Level: 10
+Ability: Natural Cure
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Power Gem
+- Recover
+- Psyshock
+- Scald
+
+Azumarill @ Salac Berry
+Level: 10
+Ability: Huge Power
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Play Rough
+- Superpower
+- Aqua Jet
+- Belly Drum
+
+Quagsire @ Liechi Berry
+Level: 10
+Ability: Unaware
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Earthquake
+- Waterfall
+- Encore
+- Recover
+
+Octillery @ Petaya Berry
+Level: 10
+Ability: Sniper
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Signal Beam
+- Scald
+- Charge Beam
+- Mud Shot
+
+Qwilfish @ Liechi Berry
+Level: 10
+Ability: Intimidate
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Spikes
+- Aqua Tail
+- Poison Jab
+- Taunt
+
+Mantine @ Petaya Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Air Slash
+- Scald
+- Tailwind
+- Amnesia
+
+Ludicolo @ Petaya Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Giga Drain
+- Fake Out
+- Knock off
+- Scald
+
+Wailord @ Salac Berry
+Level: 10
+Ability: Oblivious
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Water Spout
+- Ice Beam
+- Earthquake
+- Scald
+
+Whiscash @ Liechi Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Aqua Tail
+- Zen Headbutt
+- Earthquake
+- Dragon Dance
+
+Whiscash @ Petaya Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Future Sight
+- Ice Beam
+- Scald
+- Earth Power
+
+Walrein @ Petaya Berry
+Level: 10
+Ability: Oblivious
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Encore
+- Roar
+- Ice Beam
+- Surf
+
+Cloyster @ Salac Berry
+Level: 10
+Ability: Skill Link
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Icicle Spear
+- Ice Shard
+- Razor Shell
+- Shell Smash
+
+Lanturn @ Salac Berry
+Level: 10
+Ability: Volt Absorb
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Signal Beam
+- Thunder
+- Scald
+- Volt Switch
+
+Huntail (M) @ Liechi Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Ice Fang
+- Sucker Punch
+- Aqua Tail
+- Shell Smash
+
+Gorebyss (F) @ Petaya Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Psychic
+- Shell Smash
+- Ice Beam
+- Scald
+
+Relicanth @ Liechi Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Head Smash
+- Earthquake
+- Zen Headbutt
+- Aqua Tail
+
+Gyarados @ Liechi Berry
+Level: 10
+Ability: Intimidate
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Aqua Tail
+- Dragon Dance
+- Earthquake
+- Dragon Tail
+
+Lapras @ Liechi Berry
+Level: 10
+Ability: Hydration
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Ice Shard
+- Bulldoze
+- Waterfall
+- Curse
+
+Lapras @ Petaya Berry
+Level: 10
+Ability: Hydration
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Ice Beam
+- Roar
+- Psychic
+- Surf
+
+Kingdra @ Chesto Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Dragon Pulse
+- Ice Beam
+- Rest
+- Scald
+
+Kingdra @ Chesto Berry
+Level: 10
+Ability: Swift Swim
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Dragon Dance
+- Rest
+- Waterfall
+- Outrage
 
 /* Utility pools */
 
