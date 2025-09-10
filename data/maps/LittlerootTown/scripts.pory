@@ -1,3 +1,4 @@
+raw`
 LittlerootTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_OnFrame
@@ -477,7 +478,7 @@ LittlerootTown_EventScript_GiveRunningShoesTrigger::
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_MomApproachPlayerMale
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_MomApproachPlayerFemale
-	call LittlerootTown_EventScript_GiveRunningShoes
+	call _LittlerootTown_EventScript_GiveRunningShoes
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_MomReturnHomeMale
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_MomReturnHomeFemale
@@ -872,7 +873,7 @@ LittlerootTown_EventScript_Mom::
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_SetHomeDoorCoordsMale
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_SetHomeDoorCoordsFemale
-	call LittlerootTown_EventScript_GiveRunningShoes
+	call _LittlerootTown_EventScript_GiveRunningShoes
 	applymovement LOCALID_LITTLEROOT_MOM, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	opendoor VAR_0x8009, VAR_0x800A
@@ -1014,3 +1015,13 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 	.string "Let's go to my Lab.$"
 
+`
+
+script _LittlerootTown_EventScript_GiveRunningShoes {
+  msgbox(format("{PLAYER}! {PLAYER}! Did you introduce yourself to Prof. Birch?\pOh! What an adorable Pokémon! You must have gotten it from him. How nice!\pYou're your father's child, all right. You look good together with your Pokémon!\pHere, honey!\nIf you're going out on an adventure, take these with you, just in case you or your new Pokémon get hungry!"))
+  giveitem(ITEM_LUCKY_EGG, 6)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  msgbox(LittlerootTown_Text_ComeHomeIfAnythingHappens)
+  delay(30)
+  return
+}
