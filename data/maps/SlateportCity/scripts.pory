@@ -313,13 +313,13 @@ SlateportCity_EventScript_Maniac::
 	lock
 	faceplayer
 	call_if_eq VAR_SLATEPORT_CITY_STATE, 1, SlateportCity_EventScript_ManiacSternInterview
-	msgbox SlateportCity_Text_GetNameRaterToHelpYou, MSGBOX_DEFAULT
+	msgbox _SlateportCity_Text_GetNameRaterToHelpYou, MSGBOX_DEFAULT
 	release
 	end
 
 @ Unclear if the text here was meant to be different, but its not
 SlateportCity_EventScript_ManiacSternInterview::
-	msgbox SlateportCity_Text_GetNameRaterToHelpYou, MSGBOX_DEFAULT
+	msgbox _SlateportCity_Text_GetNameRaterToHelpYou, MSGBOX_DEFAULT
 	release
 	end
 
@@ -1536,4 +1536,8 @@ text _SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum {
 
 text _SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern {
   "Hm?\nHi, I'm Dock.\pCapt. Stern commissioned me to\ndesign a ferry.\pOh! That there…\nAre they Devon Parts?\pBut, hmm…\nThis won't do…\pCapt. Stern went off somewhere.\nHe said he had some work to do.\pCould I get you to go find Capt.\nStern and deliver that to him?"
+}
+
+text _SlateportCity_Text_GetNameRaterToHelpYou {
+	format("If you want to change your Pokémon's nickname, you'll have to go to their Summary screen and change it whenever you feel like something new.")
 }

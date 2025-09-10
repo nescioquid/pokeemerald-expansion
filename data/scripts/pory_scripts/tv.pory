@@ -1,7 +1,7 @@
 text _gTVHoennTreasureInvestigatorsText01 {
-  format("Wow, we'd better check this letter out! Let me read it to you.\p…Dear INVESTIGATORS, I hope you are well.\pI recently saw {STR_VAR_2} somewhere around {STR_VAR_3}.\pThe TRAINER found the item {STR_VAR_1}. It made me envious.\p…Well, good going, {STR_VAR_2}!\pViewers, let that motivate you to fire up your Dowsing Machines and search!\pI'll be waiting for exciting news from all of you!")
+  format("Wow, we'd better check this letter out! Let me read it to you.\p …Dear Investigators,\N I hope you are well.\p I recently saw {STR_VAR_2} somewhere around {STR_VAR_3}.\p The Trainer found the item\N {STR_VAR_1}. It made me envious.\p …Well, good going, {STR_VAR_2}!\p Viewers, let that motivate you to fire up your Dowsing Machines and search!\p I'll be waiting for exciting news from all of you!")
 }
 
 text _gTVHoennTreasureInvestigatorsText02 {
-  format("Wow, we'd better check this letter out! Let me read it to you.\p…Dear INVESTIGATORS, I hope you are well.\pI recently saw {STR_VAR_2} on a ferry.\pThe TRAINER found the item {STR_VAR_1}. It made me envious.\p…Well, good going, {STR_VAR_2}!\pViewers, let that motivate you to fire up your Dowsing Machines and search!\pI'll be waiting for exciting news from all of you!")
+  format("Wow, we'd better check this letter out! Let me read it to you.\p …Dear Investigators,\N I hope you are well.\p I recently saw {STR_VAR_2} on a ferry.\p The Trainer found the item\N {STR_VAR_1}. It made me envious.\p …Well, good going, {STR_VAR_2}!\p Viewers, let that motivate you to fire up your Dowsing Machines and search!\p I'll be waiting for exciting news from all of you!")
 }
