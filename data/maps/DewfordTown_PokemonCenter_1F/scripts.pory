@@ -71,15 +71,15 @@ script _DewfordTown_PokemonCenter_1F_EventScript_MetaBoy {
         case STARTER_GRASS:
           setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CROCONAW)
           setvar(GIVEMON_HELPER_ARTICLE, 1)
-          givemon(SPECIES_CROCONAW, 30)
+          givemon(SPECIES_CROCONAW, 35, ITEM_ASSAULT_VEST, ITEM_GREAT_BALL,, 2)
         case STARTER_FIRE:
           setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_BAYLEEF)
           setvar(GIVEMON_HELPER_ARTICLE, 1)
-          givemon(SPECIES_BAYLEEF, 30)
+          givemon(SPECIES_BAYLEEF, 35, ITEM_ASSAULT_VEST, ITEM_GREAT_BALL,, 2)
         case STARTER_WATER:
           setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_QUILAVA)
           setvar(GIVEMON_HELPER_ARTICLE, 1)
-          givemon(SPECIES_QUILAVA, 30)
+          givemon(SPECIES_QUILAVA, 35, ITEM_ASSAULT_VEST, ITEM_GREAT_BALL,, 2)
       }
       call(_Common_EventScript_GivemonHelper)
       setflag(FLAG_RECEIVED_JOHTO_STARTER)
