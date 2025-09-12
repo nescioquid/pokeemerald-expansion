@@ -478,7 +478,7 @@ LittlerootTown_EventScript_GiveRunningShoesTrigger::
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_MomApproachPlayerMale
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_MomApproachPlayerFemale
-	call _LittlerootTown_EventScript_GiveRunningShoes
+	call _LittlerootTown_EventScript_GiveAdventureStartItems
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_MomReturnHomeMale
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_MomReturnHomeFemale
@@ -873,7 +873,7 @@ LittlerootTown_EventScript_Mom::
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_SetHomeDoorCoordsMale
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_SetHomeDoorCoordsFemale
-	call _LittlerootTown_EventScript_GiveRunningShoes
+	call _LittlerootTown_EventScript_GiveAdventureStartItems
 	applymovement LOCALID_LITTLEROOT_MOM, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	opendoor VAR_0x8009, VAR_0x800A
@@ -1016,13 +1016,67 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "Let's go to my Lab.$"
 
 `
+const RARE_CANDY_AMOUNT = 36
 
-script _LittlerootTown_EventScript_GiveRunningShoes {
-  // msgbox(LittlerootTown_Text_WearTheseRunningShoes)
-  msgbox(format("{PLAYER}! {PLAYER}! Did you introduce yourself to Prof. Birch?\pOh! What an adorable Pokémon! You must have gotten it from him. How nice!\pYou're your father's child, all right. You look good together with your Pokémon!\pHere, honey!\nIf you're going out on an adventure, take these with you, just in case you or your new Pokémon get hungry!"))
-  giveitem(ITEM_RARE_CANDY, 36)
+script _LittlerootTown_EventScript_GiveAdventureStartItems {
+  msgbox(format("{PLAYER}! {PLAYER}! Did you introduce yourself to Prof. Birch?\p Oh! What an adorable Pokémon! You must have gotten it from him. How nice!\p You're your father's child, all right. You look good together with your Pokémon!\p Here, honey!\N If you're going out on an adventure, take these with you, just in case you or your new Pokémon get hungry!"))
+  additem(ITEM_RARE_CANDY, RARE_CANDY_AMOUNT)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  random(5)
+  switch (var(VAR_RESULT)) {
+    case 0: additem(ITEM_FRESH_WATER, 12)
+    case 1: additem(ITEM_FRESH_WATER, 6)
+    case 2: additem(ITEM_FRESH_WATER, 4)
+    case 3: additem(ITEM_FRESH_WATER, 2)
+    case 4: additem(ITEM_FRESH_WATER)
+  }
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  random(6)
+  switch (var(VAR_RESULT)) {
+    case 0: additem(ITEM_SODA_POP, 12)
+    case 1: additem(ITEM_SODA_POP, 6)
+    case 2: additem(ITEM_SODA_POP, 4)
+    case 3: additem(ITEM_SODA_POP, 2)
+    case 4: additem(ITEM_SODA_POP)
+  }
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  random(5)
+  switch (var(VAR_RESULT)) {
+    case 0: additem(ITEM_LEMONADE, 6)
+    case 1: additem(ITEM_LEMONADE, 4)
+    case 2: additem(ITEM_LEMONADE, 2)
+    case 3: additem(ITEM_LEMONADE)
+  }
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  random(6)
+  switch (var(VAR_RESULT)) {
+    case 0: additem(ITEM_MOOMOO_MILK, 6)
+    case 1: additem(ITEM_MOOMOO_MILK, 4)
+    case 2: additem(ITEM_MOOMOO_MILK, 2)
+    case 3: additem(ITEM_MOOMOO_MILK)
+  }
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  random(8)
+  switch (var(VAR_RESULT)) {
+    case 0: additem(ITEM_PEWTER_CRUNCHIES)
+    case 1: additem(ITEM_RAGE_CANDY_BAR)
+    case 2: additem(ITEM_LAVA_COOKIE, 12)
+    case 4: additem(ITEM_LAVA_COOKIE, 6)
+    case 5: additem(ITEM_LAVA_COOKIE, 4)
+    case 6: additem(ITEM_LAVA_COOKIE, 2)
+    case 7: additem(ITEM_LAVA_COOKIE)
+  }
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  // call(_EventScript_ObtainItemMessage)
+  playfanfare(MUS_OBTAIN_ITEM)
+  message(format("Obtained assorted snacks from Mom!"))
+  delay(10)
+  waitfanfare
+  msgbox(format("{PLAYER} put away the assorted snacks in the Bag."))
+  msgbox(format("Oh! And I almost forgot!\p I found this fancy new video game thing at the store too.\p I thought you might have fun playing with it? Take it!"))
+  giveitem(ITEM_POKEMON_BOX_LINK)
   msgbox(LittlerootTown_Text_ComeHomeIfAnythingHappens)
+  closemessage
   delay(30)
   return
 }
