@@ -151,7 +151,7 @@ RustboroCity_DevonCorp_3F_EventScript_MrStone::
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_EXP_SHARE, RustboroCity_DevonCorp_3F_EventScript_MrStoneAfterFavor
-	goto_if_set FLAG_DELIVERED_STEVEN_LETTER, _RustboroCity_DevonCorp_3F_EventScript_GiveFossil
+	goto_if_set FLAG_DELIVERED_STEVEN_LETTER, _RustboroCity_DevonCorp_3F_EventScript_GiveThankYouItem
 	msgbox RustboroCity_DevonCorp_3F_Text_CountingOnYou, MSGBOX_DEFAULT
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
@@ -307,16 +307,12 @@ RustboroCity_DevonCorp_3F_Text_RareRocksDisplay:
 
 `
 
-script _RustboroCity_DevonCorp_3F_EventScript_GiveFossil {
+script _RustboroCity_DevonCorp_3F_EventScript_GiveThankYouItem {
   msgbox(RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter)
-  random(2)
-  switch (var(VAR_RESULT)) {
-    case 0: giveitem(ITEM_HELIX_FOSSIL)
-    case 1: giveitem(ITEM_DOME_FOSSIL)
-  }
+  giveitem(ITEM_ABILITY_CAPSULE, 6)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
   setflag(FLAG_RECEIVED_EXP_SHARE)
-  msgbox(format("Mr. Stone: That Fossil is a rare one indeed! Take care of it for me."))
+  msgbox(format("Mr. Stone: A Pokémon that has one of those Ability Capsules used on it will have its ability changed, if it has another ability change to.\p They don't bring out their hidden abilities though.\p I would say that they're still quite useful for training Pokémon."))
   closemessage
   applymovement(VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection)
   waitmovement(0)
