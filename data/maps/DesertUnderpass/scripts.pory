@@ -1,3 +1,4 @@
+raw`
 DesertUnderpass_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, DesertUnderpass_OnTransition
 	.byte 0
@@ -36,3 +37,14 @@ DesertUnderpass_Text_FoundRootFossil::
 DesertUnderpass_Text_FoundClawFossil::
 	.string "{PLAYER} found the Claw Fossil.$"
 
+`
+
+script _DesertUnderpass_EventScript_Fossil {
+  lock
+  faceplayer
+  giveitem(VAR_REMAINING_FOSSIL)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  removeobject(LOCALID_UNDERPASS_FOSSIL)
+  release
+  end
+}

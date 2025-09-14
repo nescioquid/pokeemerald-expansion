@@ -40,6 +40,7 @@ MauvilleCity_Gym/scripts.inc
 MauvilleCity_House2/scripts.inc
 MauvilleCity_Mart/scripts.inc
 MauvilleCity_PokemonCenter_1F/scripts.inc
+MirageTower_4F/scripts.inc
 MeteorFalls_StevensCave/scripts.inc
 MossdeepCity_Gym/scripts.inc
 MossdeepCity_House3/scripts.inc
@@ -95,3 +96,4 @@ TrainerHill_Entrance/scripts.inc
 VerdanturfTown_Mart/scripts.inc
 VerdanturfTown_WandasHouse/scripts.inc
 VictoryRoad_1F/scripts.inc
+DesertUnderpass/scripts.inc

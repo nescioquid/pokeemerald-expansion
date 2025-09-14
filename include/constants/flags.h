@@ -1011,8 +1011,8 @@
 #define FLAG_HIDE_ROUTE_111_SECRET_POWER_MAN                        0x3C0
 #define FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION                       0x3C1
 #define FLAG_HIDE_LILYCOVE_DEPARTMENT_STORE_ROOFTOP_SALE_WOMAN      0x3C2
-#define FLAG_HIDE_MIRAGE_TOWER_ROOT_FOSSIL                          0x3C3
-#define FLAG_HIDE_MIRAGE_TOWER_CLAW_FOSSIL                          0x3C4
+#define FLAG_HIDE_MIRAGE_TOWER_LEFT_FOSSIL                          0x3C3
+#define FLAG_HIDE_MIRAGE_TOWER_RIGHT_FOSSIL                         0x3C4
 #define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_FAMILIAR_AQUA_GRUNT 0x3C5
 #define FLAG_HIDE_ROUTE_118_STEVEN                                  0x3C6
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN                0x3C7
@@ -1244,7 +1244,7 @@
 #define FLAG_HIDE_ROUTE_109_META_BOY                                0x4A6
 #define FLAG_RECEIVED_JOHTO_STARTER                                 0x4A7
 #define FLAG_HIDE_DEWFORD_POKEMON_CENTER_META_BOY                   0x4A8
-#define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
+#define FLAG_MIRAGE_TOWER_FOSSILS_RANDOMIZED                        0x4A9
 #define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
 #define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
 #define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag

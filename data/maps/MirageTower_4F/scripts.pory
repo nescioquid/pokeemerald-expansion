@@ -1,0 +1,163 @@
+raw`
+MirageTower_4F_MapScripts::
+	.byte 0
+
+MirageTower_4F_EventScript_RootFossil::
+	lock
+	faceplayer
+	msgbox MirageTower_4F_Text_TakeRootFossil, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MirageTower_4F_EventScript_LeaveRootFossil
+	giveitem ITEM_ROOT_FOSSIL
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	closemessage
+	setflag FLAG_HIDE_MIRAGE_TOWER_LEFT_FOSSIL
+	setflag FLAG_HIDE_MIRAGE_TOWER_RIGHT_FOSSIL
+	removeobject LOCALID_MIRAGE_LEFT_FOSSIL
+	delay 30
+	setflag FLAG_CHOSE_ROOT_FOSSIL
+	goto MirageTower_4F_EventScript_CollapseMirageTower
+	end
+
+MirageTower_4F_EventScript_LeaveRootFossil::
+	msgbox MirageTower_4F_Text_LeftRootFossilAlone, MSGBOX_DEFAULT
+	release
+	end
+
+MirageTower_4F_EventScript_ClawFossil::
+	lock
+	faceplayer
+	msgbox MirageTower_4F_Text_TakeClawFossil, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MirageTower_4F_EventScript_LeaveClawFossil
+	giveitem ITEM_CLAW_FOSSIL
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	closemessage
+	setflag FLAG_HIDE_MIRAGE_TOWER_RIGHT_FOSSIL
+	setflag FLAG_HIDE_MIRAGE_TOWER_LEFT_FOSSIL
+	removeobject LOCALID_MIRAGE_RIGHT_FOSSIL
+	delay 30
+	setflag FLAG_CHOSE_CLAW_FOSSIL
+	goto MirageTower_4F_EventScript_CollapseMirageTower
+	end
+
+MirageTower_4F_EventScript_LeaveClawFossil::
+	msgbox MirageTower_4F_Text_LeaveClawFossilAlone, MSGBOX_DEFAULT
+	release
+	end
+
+MirageTower_4F_EventScript_CollapseMirageTower::
+	setvar VAR_0x8004, 1   @ vertical pan
+	setvar VAR_0x8005, 1   @ horizontal pan
+	setvar VAR_0x8006, 32  @ num shakes
+	setvar VAR_0x8007, 2   @ shake delay
+	special ShakeCamera
+	waitstate
+	special DoMirageTowerCeilingCrumble
+	waitstate
+	setvar VAR_MIRAGE_TOWER_STATE, 1
+	clearflag FLAG_LANDMARK_MIRAGE_TOWER
+	warp MAP_ROUTE111, 19, 59
+	waitstate
+	release
+	end
+
+MirageTower_4F_Text_TakeRootFossil:
+	.string "You found the Root Fossil.\p"
+	.string "If this Fossil is taken, the ground\n"
+	.string "around it will likely crumble away…\p"
+	.string "Take the Root Fossil anyway?$"
+
+MirageTower_4F_Text_LeftRootFossilAlone:
+	.string "{PLAYER} left the Root Fossil alone.$"
+
+MirageTower_4F_Text_TakeClawFossil:
+	.string "You found the Claw Fossil.\p"
+	.string "If this Fossil is taken, the ground\n"
+	.string "around it will likely crumble away…\p"
+	.string "Take the Claw Fossil anyway?$"
+
+MirageTower_4F_Text_LeaveClawFossilAlone:
+	.string "{PLAYER} left the Claw Fossil alone.$"
+
+`
+
+script _MirageTower_4F_EventScript_LeftFossil {
+  lock
+  faceplayer
+  if (!flag(FLAG_MIRAGE_TOWER_FOSSILS_RANDOMIZED)) {
+    call(_MirageTower_4F_EventScript_RandomFossilGenerator)
+    setflag(FLAG_MIRAGE_TOWER_FOSSILS_RANDOMIZED)
+  }
+  bufferitemname(STR_VAR_1, VAR_LEFT_FOSSIL)
+  msgbox(format("You found the {STR_VAR_1}.\p If this Fossil is taken, the ground around it will likely crumble away…\p Take the {STR_VAR_1} anyway?"), MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    msgbox(format("{PLAYER} chose to leave the {STR_VAR_1} alone."))
+    release
+    end
+  }
+  giveitem(VAR_LEFT_FOSSIL)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  closemessage
+  setflag(FLAG_HIDE_MIRAGE_TOWER_LEFT_FOSSIL)
+  setflag(FLAG_HIDE_MIRAGE_TOWER_RIGHT_FOSSIL)
+  removeobject(LOCALID_MIRAGE_LEFT_FOSSIL)
+  delay(30)
+  copyvar(VAR_REMAINING_FOSSIL, VAR_RIGHT_FOSSIL)
+  goto(MirageTower_4F_EventScript_CollapseMirageTower)
+  end
+}
+
+script _MirageTower_4F_EventScript_RightFossil {
+  lock
+  faceplayer
+    if (!flag(FLAG_MIRAGE_TOWER_FOSSILS_RANDOMIZED)) {
+    call(_MirageTower_4F_EventScript_RandomFossilGenerator)
+    setflag(FLAG_MIRAGE_TOWER_FOSSILS_RANDOMIZED)
+  }
+  bufferitemname(STR_VAR_1, VAR_RIGHT_FOSSIL)
+  msgbox(format("You found the {STR_VAR_1}.\p If this Fossil is taken, the ground around it will likely crumble away…\p Take the {STR_VAR_1} anyway?"), MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    msgbox(format("{PLAYER} chose to leave the {STR_VAR_1} alone."))
+    release
+    end
+  }
+  giveitem(VAR_RIGHT_FOSSIL)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  closemessage
+  setflag(FLAG_HIDE_MIRAGE_TOWER_RIGHT_FOSSIL)
+  setflag(FLAG_HIDE_MIRAGE_TOWER_LEFT_FOSSIL)
+  removeobject(LOCALID_MIRAGE_RIGHT_FOSSIL)
+  delay(30)
+  copyvar(VAR_REMAINING_FOSSIL, VAR_LEFT_FOSSIL)
+  goto(MirageTower_4F_EventScript_CollapseMirageTower)
+  end
+}
+
+script _MirageTower_4F_EventScript_RandomFossilGenerator {
+  random(9)
+  switch (var(VAR_RESULT)) {
+    case 0: setvar(VAR_LEFT_FOSSIL, ITEM_HELIX_FOSSIL)
+    case 1: setvar(VAR_LEFT_FOSSIL, ITEM_HELIX_FOSSIL)
+    case 2: setvar(VAR_LEFT_FOSSIL, ITEM_DOME_FOSSIL)
+    case 3: setvar(VAR_LEFT_FOSSIL, ITEM_DOME_FOSSIL)
+    case 4: setvar(VAR_LEFT_FOSSIL, ITEM_OLD_AMBER)
+    case 5: setvar(VAR_LEFT_FOSSIL, ITEM_ROOT_FOSSIL)
+    case 6: setvar(VAR_LEFT_FOSSIL, ITEM_ROOT_FOSSIL)
+    case 7: setvar(VAR_LEFT_FOSSIL, ITEM_CLAW_FOSSIL)
+    case 8: setvar(VAR_LEFT_FOSSIL, ITEM_CLAW_FOSSIL)
+  }
+  random(9)
+  switch (var(VAR_RESULT)) {
+    case 0: setvar(VAR_RIGHT_FOSSIL, ITEM_HELIX_FOSSIL)
+    case 1: setvar(VAR_RIGHT_FOSSIL, ITEM_HELIX_FOSSIL)
+    case 2: setvar(VAR_RIGHT_FOSSIL, ITEM_DOME_FOSSIL)
+    case 3: setvar(VAR_RIGHT_FOSSIL, ITEM_DOME_FOSSIL)
+    case 4: setvar(VAR_RIGHT_FOSSIL, ITEM_OLD_AMBER)
+    case 5: setvar(VAR_RIGHT_FOSSIL, ITEM_ROOT_FOSSIL)
+    case 6: setvar(VAR_RIGHT_FOSSIL, ITEM_ROOT_FOSSIL)
+    case 7: setvar(VAR_RIGHT_FOSSIL, ITEM_CLAW_FOSSIL)
+    case 8: setvar(VAR_RIGHT_FOSSIL, ITEM_CLAW_FOSSIL)
+  }
+  if (var(VAR_LEFT_FOSSIL) == VAR_RIGHT_FOSSIL) {
+    call(_MirageTower_4F_EventScript_RandomFossilGenerator)
+  }
+}
