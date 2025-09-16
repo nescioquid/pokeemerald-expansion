@@ -256,6 +256,32 @@ script _PacifidlogTown_PokemonCenter_1F_EventScript_MoveTutor {
   end
 }
 
+// Added in parallel with ORAS
+script _SootopolisCity_House2_EventScript_DracoMeteorTutor {
+  lock
+  faceplayer
+  if (!flag(FLAG_TEMP_1)) {
+  msgbox(format("If you wish, I can teach your Pokémon the strongest Dragon type move.\p Would you like your Pokémon to learn that move?"), MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    msgbox(format("That is fine.\N Come back when you want them to wield true power."))
+    release
+    end
+  }
+  msgbox(format("Which Pokémon should learn this move?"))
+  setvar(VAR_0x8005, MOVE_DRACO_METEOR)
+  call(MoveTutor_EventScript_OpenPartyMenu)
+  if (var(VAR_RESULT) == 0) {
+    msgbox(format("That is fine.\N Come back when you want them to wield true power."))
+    release
+    end
+  }
+  setflag(FLAG_TEMP_1)
+  }
+  msgbox(format("Draco Meteor's power is exceptional, but using it lowers the user's Sp. Atk stat."))
+  release
+  end
+}
+
 // Originally TM03
 script _Common_EventScript_WaterPulseTutor {
   if (!flag(FLAG_TEMP_1)) {
