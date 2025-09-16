@@ -445,3 +445,44 @@ script _Route120_EventScript_BerryBeauty {
   release
   end
 }
+
+script _Route120_EventScript_Steven {
+  lock
+  faceplayer
+  if (!flag(FLAG_BADGE06_GET)) {
+    if (!flag(FLAG_SPOKE_TO_STEVEN_ROUTE_120)) {
+      msgbox(format("Steven: Hm? {PLAYER}, hi.\N It's been a while.\p There's something here that you can't see, right?\p Now, if I were to use a certain device on the invisible obstacle…\p No, no. Rather than describing it,\N I should just show you, that would be more fun.\p While I go and get the device, I think you should challenge Winona, the Gym Leader in Fortree. It's a better use of your time than sitting around and waiting for me."))
+      setflag(FLAG_SPOKE_TO_STEVEN_ROUTE_120)
+    } else {
+      msgbox(format("Steven: While I go and get the device, I think you should challenge Winona's gym in Fortree. It's a better use of your time than sitting around and waiting for me."))
+    }
+    release
+    end
+  }
+  if (!flag(FLAG_SPOKE_TO_STEVEN_ROUTE_120)) {
+    if (!flag(FLAG_NOT_READY_FOR_BATTLE_ROUTE_120)) {
+      msgbox(Route120_Text_StevenGreeting, MSGBOX_YESNO)
+      if (!var(VAR_RESULT)) {
+        goto(Route120_EventScript_StevenNotReady)
+      }
+      goto(Route120_EventScript_StevenBattleKecleon)
+    }
+    msgbox(Route120_Text_StevenReadyForBattle, MSGBOX_YESNO)
+    if (!var(VAR_RESULT)) {
+      goto(Route120_EventScript_StevenNotReady)
+    }
+    goto(Route120_EventScript_StevenBattleKecleon)
+  }
+  if (!flag(FLAG_NOT_READY_FOR_BATTLE_ROUTE_120)) {
+    msgbox(format("Steven: Hm? {PLAYER}! That's a nice Feather Badge you have there, congratulations on your success.\p I have the device that will solve our mystery here with me now.\p {PLAYER}, are you ready to have some fun?\p Are your Pokémon ready for battle?"), MSGBOX_YESNO)
+    if (!var(VAR_RESULT)) {
+      goto(Route120_EventScript_StevenNotReady)
+    }
+    goto(Route120_EventScript_StevenBattleKecleon)
+  }
+  msgbox(Route120_Text_StevenReadyForBattle, MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    goto(Route120_EventScript_StevenNotReady)
+  }
+  goto(Route120_EventScript_StevenBattleKecleon)
+}

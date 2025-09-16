@@ -1250,7 +1250,7 @@
 #define FLAG_HIDE_GRANITE_CAVE_B1F_HIKER                            0x4AC
 #define FLAG_HIDE_GRANITE_CAVE_1F_HIKER                             0x4AD
 #define FLAG_RECEIVED_ESCAPE_ROPE                                   0x4AE
-#define FLAG_UNUSED_0x4AF                                           0x4AF // Unused Flag
+#define FLAG_SPOKE_TO_STEVEN_ROUTE_120                              0x4AF
 #define FLAG_UNUSED_0x4B0                                           0x4B0 // Unused Flag
 #define FLAG_UNUSED_0x4B1                                           0x4B1 // Unused Flag
 #define FLAG_UNUSED_0x4B2                                           0x4B2 // Unused Flag
