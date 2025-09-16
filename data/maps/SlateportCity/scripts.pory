@@ -1530,6 +1530,152 @@ script _SlateportCity_EventScript_RockCollector {
   end
 }
 
+const ITEM_TO_TRADE = VAR_TEMP_7
+const SHADY_ITEM_CHOSEN = VAR_TEMP_6
+
+script _SlateportCity_EventScript_ShadySeller {
+  lock
+  faceplayer
+  if (!flag(FLAG_TEMP_1)) {
+    random(2)
+    switch (var(VAR_RESULT)) {
+      case 0: msgbox(format("Hey… psst, kid.\p You look like the type who appreciates rare stuff.\p Straight off the docks, no questions asked.\N Pokémon accessories you can't find in stores."))
+      case 1: msgbox(format("Hey, kid…\p You look like you carry little treasures.\N Nuggets, baubles, shiny things…\N Perfect for a quiet trade.\N No paper trail."))
+    }
+  } else {
+    random(2)
+    switch (var(VAR_RESULT)) {
+      case 0: msgbox(format("Back again, huh?\N Got your eye on more gear?"))
+      case 1: msgbox(format("Back so soon?\N You got another shiny for me?\p I only take valuables. Nuggets, not receipts."))
+    }
+  }
+  checkitem(ITEM_NUGGET)
+  if (!var(VAR_RESULT)) {
+    checkitem(ITEM_BIG_NUGGET)
+    if (!var(VAR_RESULT)) {
+      checkitem(ITEM_STAR_PIECE)
+      if (!var(VAR_RESULT)) {
+        checkitem(ITEM_COMET_SHARD)
+        if (!var(VAR_RESULT)) {
+          msgbox(format("Empty pockets?\N I only deal in shine. Valuable items. the kind you can move easily."))
+          release
+          end
+        }
+      }
+    }
+  }
+  if (!flag(FLAG_TEMP_1)) {
+    playse(SE_PIN)
+    applymovement(LOCALID_SLATEPORT_SHADY_SELLER, Common_Movement_ExclamationMark)
+    waitmovement(0)
+    applymovement(LOCALID_SLATEPORT_SHADY_SELLER, Common_Movement_Delay48)
+    waitmovement(0)
+    setflag(FLAG_TEMP_1)
+    random(3)
+    switch (var(VAR_RESULT)) {
+      case 0: message(format("What can I take off you?"))
+      case 1: message(format("How much lighter you want to be?"))
+      case 2: message(format("Is that something you want to let go of?"))
+    }
+  } else {
+    random(3)
+    switch (var(VAR_RESULT)) {
+      case 0: message(format("What else can I take off you?"))
+      case 1: message(format("How much lighter you want to be?"))
+      case 2: message(format("Is that something you want to let go of?"))
+    }
+  }
+  waitmessage
+  setvar(PUSH_TO_DYNMULTISTACK_IF_OWNED, ITEM_NUGGET)
+  call(_Common_EventScript_PushItemToDynmultistackIfOwned)
+  setvar(PUSH_TO_DYNMULTISTACK_IF_OWNED, ITEM_BIG_NUGGET)
+  call(_Common_EventScript_PushItemToDynmultistackIfOwned)
+  setvar(PUSH_TO_DYNMULTISTACK_IF_OWNED, ITEM_STAR_PIECE)
+  call(_Common_EventScript_PushItemToDynmultistackIfOwned)
+  setvar(PUSH_TO_DYNMULTISTACK_IF_OWNED, ITEM_COMET_SHARD)
+  call(_Common_EventScript_PushItemToDynmultistackIfOwned)
+  dynmultistack(0, 0, FALSE, 6, TRUE, 0, DYN_MULTICHOICE_CB_SHOW_ITEM)
+  if (var(VAR_RESULT) == MULTI_B_PRESSED) {
+    random(2)
+    switch (var(VAR_RESULT)) {
+      case 0: msgbox(format("What, cold feet?\N Relax, nobody's watching us…"))
+      case 1: msgbox(format("Cold feet, huh?\N All right, don't worry. Our secret stays safe."))
+    }
+    release
+    end
+  }
+  copyvar(ITEM_TO_TRADE, VAR_RESULT)
+  bufferitemname(STR_VAR_1, ITEM_TO_TRADE)
+  random(4)
+  switch (var(VAR_RESULT)) {
+    case 0: message(format("Oooh, nice. That'll fetch a price.\N All right, I'll make you a deal.\p Which accessory do you want in exchange?"))
+    case 1: message(format("Oho! A shiny, is it?\N Nice and quiet. I can put that to good use.\p What do you want in return?"))
+    case 2: message(format("Perfect. See, a man in my line of work doesn't touch paper money.\N Too easy to trace. Gold, pieces of the stars… Those are the real currency.\p And what catches your eye of mine?"))
+    case 3: message(format("Now that's the good kind of payment. Nothing they can sniff out.\N You and me, we understand each other.\p And what do you want for your understanding?"))
+  }
+  waitmessage
+  bufferitemname(STR_VAR_2,   ITEM_ABILITY_SHIELD)
+  dynmultipush("{STR_VAR_2}", ITEM_ABILITY_SHIELD)
+  bufferitemname(STR_VAR_2,   ITEM_BLUNDER_POLICY)
+  dynmultipush("{STR_VAR_2}", ITEM_BLUNDER_POLICY)
+  // bufferitemname(STR_VAR_2,   ITEM_CHOICE_BAND)
+  // dynmultipush("{STR_VAR_2}", ITEM_CHOICE_BAND)
+  // bufferitemname(STR_VAR_2,   ITEM_CHOICE_SPECS)
+  // dynmultipush("{STR_VAR_2}", ITEM_CHOICE_SPECS)
+  bufferitemname(STR_VAR_2,   ITEM_CLEAR_AMULET)
+  dynmultipush("{STR_VAR_2}", ITEM_CLEAR_AMULET)
+  bufferitemname(STR_VAR_2,   ITEM_COVERT_CLOAK)
+  dynmultipush("{STR_VAR_2}", ITEM_COVERT_CLOAK)
+  bufferitemname(STR_VAR_2,   ITEM_EJECT_BUTTON)
+  dynmultipush("{STR_VAR_2}", ITEM_EJECT_BUTTON)
+  bufferitemname(STR_VAR_2,   ITEM_EJECT_PACK)
+  dynmultipush("{STR_VAR_2}", ITEM_EJECT_PACK)
+  bufferitemname(STR_VAR_2,   ITEM_FLAME_ORB)
+  dynmultipush("{STR_VAR_2}", ITEM_FLAME_ORB)
+  bufferitemname(STR_VAR_2,   ITEM_HEAVY_DUTY_BOOTS)
+  dynmultipush("{STR_VAR_2}", ITEM_HEAVY_DUTY_BOOTS)
+  bufferitemname(STR_VAR_2,   ITEM_LOADED_DICE)
+  dynmultipush("{STR_VAR_2}", ITEM_LOADED_DICE)
+  bufferitemname(STR_VAR_2,   ITEM_PROTECTIVE_PADS)
+  dynmultipush("{STR_VAR_2}", ITEM_PROTECTIVE_PADS)
+  bufferitemname(STR_VAR_2,   ITEM_PUNCHING_GLOVE)
+  dynmultipush("{STR_VAR_2}", ITEM_PUNCHING_GLOVE)
+  bufferitemname(STR_VAR_2,   ITEM_RED_CARD)
+  dynmultipush("{STR_VAR_2}", ITEM_RED_CARD)
+  bufferitemname(STR_VAR_2,   ITEM_RING_TARGET)
+  dynmultipush("{STR_VAR_2}", ITEM_RING_TARGET)
+  bufferitemname(STR_VAR_2,   ITEM_ROCKY_HELMET)
+  dynmultipush("{STR_VAR_2}", ITEM_ROCKY_HELMET)
+  bufferitemname(STR_VAR_2,   ITEM_ROOM_SERVICE)
+  dynmultipush("{STR_VAR_2}", ITEM_ROOM_SERVICE)
+  bufferitemname(STR_VAR_2,   ITEM_THROAT_SPRAY)
+  dynmultipush("{STR_VAR_2}", ITEM_THROAT_SPRAY)
+  bufferitemname(STR_VAR_2,   ITEM_TOXIC_ORB)
+  dynmultipush("{STR_VAR_2}", ITEM_TOXIC_ORB)
+  bufferitemname(STR_VAR_2,   ITEM_WEAKNESS_POLICY)
+  dynmultipush("{STR_VAR_2}", ITEM_WEAKNESS_POLICY)
+  dynmultistack(0, 0, FALSE, 6, TRUE, 0, DYN_MULTICHOICE_CB_SHOW_ITEM)
+  if (var(VAR_RESULT) == MULTI_B_PRESSED) {
+    msgbox(format("Changed your mind, friend?\N Fine… But next time, come ready or don't come at all."))
+    release
+    end
+  }
+  copyvar(SHADY_ITEM_CHOSEN, VAR_RESULT)
+  msgbox(format("{PLAYER} handed the {STR_VAR_1} to the shady man."))
+  removeitem(ITEM_TO_TRADE)
+  giveitem(SHADY_ITEM_CHOSEN)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  random(4)
+  switch (var(VAR_RESULT)) {
+    case 0: msgbox(format("Pleasure doing business.\N And keep it quiet. Nobody needs to know where that item came from."))
+    case 1: msgbox(format("Keep your mouth shut about our little deal.\N If you shout about it, folks will start asking where you got your luck.\N And that's bad."))
+    case 2: msgbox(format("I'll always have new stock off the boats.\N Bring more shine when you want another toy.\p Remember: quiet, quick, no paper trail."))
+    case 3: msgbox(format("Heh. Curious, are ya?\N Doesn't matter where they came from.\N They're here now, and that's all that counts."))
+  }
+  release
+  end
+}
+
 text _SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum {
   format("Capt. Stern: Those thugs…\p They're the same lot who tried to rob the Devon Parts at the Museum.")
 }
