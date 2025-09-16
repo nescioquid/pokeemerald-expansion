@@ -1246,7 +1246,7 @@
 #define FLAG_HIDE_DEWFORD_POKEMON_CENTER_META_BOY                   0x4A8
 #define FLAG_MIRAGE_TOWER_FOSSILS_RANDOMIZED                        0x4A9
 #define FLAG_MOVE_TUTOR_MOVES_RANDOMIZED                            0x4AA
-#define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
+#define FLAG_RECEIVED_SAFETY_GOGGLES                                0x4AB
 #define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
 #define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
 #define FLAG_UNUSED_0x4AE                                           0x4AE // Unused Flag

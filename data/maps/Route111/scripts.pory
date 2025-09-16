@@ -737,6 +737,20 @@ script _Route111_EventScript_BerryGirl {
   end
 }
 
+script _Route111_EventScript_Maniac {
+  lock
+  faceplayer
+  if(!flag(FLAG_RECEIVED_SAFETY_GOGGLES)) {
+    msgbox(format("I get it, OK?!\p You're trying to show me how much you like goggles, right?!\N I get it, OK?!"))
+    giveitem(ITEM_SAFETY_GOGGLES)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    setflag(FLAG_RECEIVED_SAFETY_GOGGLES)
+  }
+  msgbox(format("You can protect yourself from all kinds of stuff with Safety Goggles!\p Even though these things that I'm wearing look like glasses, they're actually goggles, too!"))
+  release
+  end
+}
+
 text _Route111_Text_OtherFossilDisappeared {
   format("The other fossil disappeared into the sand…")
 }
