@@ -4,6 +4,7 @@
 .include "data/scripts/pory_scripts/givemon.inc"
 .include "data/scripts/pory_scripts/gym_guide.inc"
 .include "data/scripts/pory_scripts/match_call.inc"
+.include "data/scripts/pory_scripts/move_tutors.inc"
 .include "data/scripts/pory_scripts/players_house.inc"
 .include "data/scripts/pory_scripts/pokecenter.inc"
 .include "data/scripts/pory_scripts/pokemart.inc"

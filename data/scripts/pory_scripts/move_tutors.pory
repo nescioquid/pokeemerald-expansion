@@ -1,0 +1,296 @@
+// Originally Swagger
+script _SlateportCity_PokemonFanClub_EventScript_MoveTutor {
+  lock
+  faceplayer
+  if (!flag(FLAG_MOVE_TUTOR_MOVES_RANDOMIZED)) {
+    call(_Common_EventScript_RandomMoveTutorMoveGenerator)
+    setflag(FLAG_MOVE_TUTOR_MOVES_RANDOMIZED)
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_WATER_PULSE) {
+    call(_Common_EventScript_WaterPulseTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_BULLET_SEED) {
+    call(_Common_EventScript_BulletSeedTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_GIGA_DRAIN) {
+    call(_Common_EventScript_GigaDrainTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_IRON_TAIL) {
+    call(_Common_EventScript_IronTailTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_SHOCK_WAVE) {
+    call(_Common_EventScript_ShockWaveTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_SNATCH) {
+    call(_Common_EventScript_SnatchTutor)
+  } else {
+    return
+  }
+  release
+  end
+}
+
+// Originally Sleep Talk
+script _FortreeCity_House2_EventScript_MoveTutor {
+  lock
+  faceplayer
+  if (!flag(FLAG_MOVE_TUTOR_MOVES_RANDOMIZED)) {
+    call(_Common_EventScript_RandomMoveTutorMoveGenerator)
+    setflag(FLAG_MOVE_TUTOR_MOVES_RANDOMIZED)
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_WATER_PULSE) {
+    call(_Common_EventScript_WaterPulseTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_BULLET_SEED) {
+    call(_Common_EventScript_BulletSeedTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_GIGA_DRAIN) {
+    call(_Common_EventScript_GigaDrainTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_IRON_TAIL) {
+    call(_Common_EventScript_IronTailTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_SHOCK_WAVE) {
+    call(_Common_EventScript_ShockWaveTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_SNATCH) {
+    call(_Common_EventScript_SnatchTutor)
+  } else {
+    return
+  }
+  release
+  end
+}
+
+// Originally Substitute
+script _LilycoveCity_DepartmentStoreRooftop_EventScript_MoveTutor {
+  lock
+  faceplayer
+  if (!flag(FLAG_MOVE_TUTOR_MOVES_RANDOMIZED)) {
+    call(_Common_EventScript_RandomMoveTutorMoveGenerator)
+    setflag(FLAG_MOVE_TUTOR_MOVES_RANDOMIZED)
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_WATER_PULSE) {
+    call(_Common_EventScript_WaterPulseTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_BULLET_SEED) {
+    call(_Common_EventScript_BulletSeedTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_GIGA_DRAIN) {
+    call(_Common_EventScript_GigaDrainTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_IRON_TAIL) {
+    call(_Common_EventScript_IronTailTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_SHOCK_WAVE) {
+    call(_Common_EventScript_ShockWaveTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_SNATCH) {
+    call(_Common_EventScript_SnatchTutor)
+  } else {
+    return
+  }
+  release
+  end
+}
+
+// Originally Explosion
+script _PacifidlogTown_PokemonCenter_1F_EventScript_MoveTutor {
+  lock
+  faceplayer
+  if (!flag(FLAG_MOVE_TUTOR_MOVES_RANDOMIZED)) {
+    call(_Common_EventScript_RandomMoveTutorMoveGenerator)
+    setflag(FLAG_MOVE_TUTOR_MOVES_RANDOMIZED)
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_WATER_PULSE) {
+    call(_Common_EventScript_WaterPulseTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_BULLET_SEED) {
+    call(_Common_EventScript_BulletSeedTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_GIGA_DRAIN) {
+    call(_Common_EventScript_GigaDrainTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_IRON_TAIL) {
+    call(_Common_EventScript_IronTailTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_SHOCK_WAVE) {
+    call(_Common_EventScript_ShockWaveTutor)
+  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_SNATCH) {
+    call(_Common_EventScript_SnatchTutor)
+  } else {
+    return
+  }
+  release
+  end
+}
+
+// Originally TM03
+script _Common_EventScript_WaterPulseTutor {
+  if (!flag(FLAG_TEMP_1)) {
+  msgbox(format("The sound of the sea… It calms me.\p But sometimes, the crashing waves pound like a drum in my head.\p I call it a Water Pulse. Would your Pokémon like to hear it?"), MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    msgbox(format("No?\N Then the ocean keeps its song to me."))
+    release
+    end
+  }
+  msgbox(format("Show me, then.\N Which Pokémon will learn the sea's beat?"))
+  setvar(VAR_0x8005, MOVE_WATER_PULSE)
+  call(MoveTutor_EventScript_OpenPartyMenu)
+  if (var(VAR_RESULT) == 0) {
+    msgbox(format("No?\N Then the ocean keeps its song to me."))
+    release
+    end
+  }
+  setflag(FLAG_TEMP_1)
+  }
+  msgbox(format("When your Pokémon sends ripples,\N remember the ocean is always nearby."))
+}
+
+// Originally TM09 
+script _Common_EventScript_BulletSeedTutor {
+  if (!flag(FLAG_TEMP_1)) {
+  msgbox(format("I like filling my mouth with watermelon seeds, then spitting them out really fast!\p I call it my secret move, Bullet Seed!\p Want me to pass it to your Pokémon?"), MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    msgbox(format("Hmph!\N Maybe you just can't handle my seedy technique!"))
+    release
+    end
+  }
+  msgbox(format("All right!\N Which Pokémon wants to learn?"))
+  setvar(VAR_0x8005, MOVE_BULLET_SEED)
+  call(MoveTutor_EventScript_OpenPartyMenu)
+  if (var(VAR_RESULT) == 0) {
+    msgbox(format("Hmph!\N Maybe you just can't handle my seedy technique!"))
+    release
+    end
+  }
+  setflag(FLAG_TEMP_1)
+  }
+  msgbox(format("Hehe! Next time you eat watermelon,\N spit the seeds far and proud!"))
+}
+
+// Originally TM19
+script _Common_EventScript_GigaDrainTutor {
+  if (!flag(FLAG_TEMP_1)) {
+  msgbox(format("I always get sleepy after lunch.\p It feels like the food just drains the strength out of me.\p Would you like me to teach your Pokémon Giga Drain, a move that drains energy instead?"), MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    msgbox(format("Oh, fine.\N I'll just nap and let the food win again…"))
+    release
+    end
+  }
+  msgbox(format("Then who will learn it?\N Show me your Pokémon."))
+  setvar(VAR_0x8005, MOVE_GIGA_DRAIN)
+  call(MoveTutor_EventScript_OpenPartyMenu)
+  if (var(VAR_RESULT) == 0) {
+    msgbox(format("Oh, fine.\N I'll just nap and let the food win again…"))
+    release
+    end
+  }
+  setflag(FLAG_TEMP_1)
+  }
+  msgbox(format("When your Pokémon uses Giga Drain,\N they'll never feel as sluggish as me."))
+}
+
+// Originally TM23
+script _Common_EventScript_IronTailTutor {
+  if (!flag(FLAG_TEMP_1)) {
+  msgbox(format("I broke my broom sweeping my room.\p If only I had a tail made of iron, I could smash rocks instead!\p Want me to teach your Pokémon the move Iron Tail?"), MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    msgbox(format("Bah!\N Weak broom, weak answer!"))
+    release
+    end
+  }
+  msgbox(format("All right, then!\N Which Pokémon should I toughen up?"))
+  setvar(VAR_0x8005, MOVE_IRON_TAIL)
+  call(MoveTutor_EventScript_OpenPartyMenu)
+  if (var(VAR_RESULT) == 0) {
+    msgbox(format("Bah!\N Weak broom, weak answer!"))
+    release
+    end
+  }
+  setflag(FLAG_TEMP_1)
+  }
+  msgbox(format("Now that's a tail with bite!\n Careful not to break the floor with it."))
+}
+
+// Originally TM34
+script _Common_EventScript_ShockWaveTutor {
+  if (!flag(FLAG_TEMP_1)) {
+  msgbox(format("Do you ever get a static shock when you touch a doorknob?\p I practiced until I could make that zap happen whenever I want!\p It's a Shock Wave. Want your Pokémon to learn it?"), MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    msgbox(format("Oh, scared of a little zap?\N Don't wear wool, then!"))
+    release
+    end
+  }
+  msgbox(format("Heheh… Which Pokémon should I give the jolt to?"))
+  setvar(VAR_0x8005, MOVE_SHOCK_WAVE)
+  call(MoveTutor_EventScript_OpenPartyMenu)
+  if (var(VAR_RESULT) == 0) {
+    msgbox(format("Oh, scared of a little zap?\N Don't wear wool, then!"))
+    release
+    end
+  }
+  setflag(FLAG_TEMP_1)
+  }
+  msgbox(format("Did I mention it never misses?\N Just like when I touch a doorknob!"))
+}
+
+// Originally TM49
+script _Common_EventScript_SnatchTutor {
+  if (!flag(FLAG_TEMP_1)) {
+  msgbox(format("You ever seen a snack you wanted so badly, you just… took it?\p That's the art of the Snatch. No shame, just speed!\p Want your Pokémon to learn it?"), MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    msgbox(format("Hmph!\N Guess you've never been hungry."))
+    release
+    end
+  }
+  msgbox(format("All right, then!\N Which Pokémon's got the sticky fingers?"))
+  setvar(VAR_0x8005, MOVE_SNATCH)
+  call(MoveTutor_EventScript_OpenPartyMenu)
+  if (var(VAR_RESULT) == 0) {
+    msgbox(format("Hmph!\N Guess you've never been hungry."))
+    release
+    end
+  }
+  setflag(FLAG_TEMP_1)
+  }
+  msgbox(format("Heheh! Don't get caught now.\N That's rule number one!"))
+}
+
+script _Common_EventScript_RandomMoveTutorMoveGenerator {
+  random(6)
+  switch (var(VAR_RESULT)) {
+    case 0: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_WATER_PULSE)
+    case 1: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_BULLET_SEED)
+    case 2: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_GIGA_DRAIN)
+    case 3: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_IRON_TAIL)
+    case 4: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_SHOCK_WAVE)
+    case 5: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_SNATCH)
+  }
+  random(6)
+  switch (var(VAR_RESULT)) {
+    case 0: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_WATER_PULSE)
+    case 1: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_BULLET_SEED)
+    case 2: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_GIGA_DRAIN)
+    case 3: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_IRON_TAIL)
+    case 4: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_SHOCK_WAVE)
+    case 5: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_SNATCH)
+  }
+  random(6)
+  switch (var(VAR_RESULT)) {
+    case 0: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_WATER_PULSE)
+    case 1: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_BULLET_SEED)
+    case 2: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_GIGA_DRAIN)
+    case 3: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_IRON_TAIL)
+    case 4: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_SHOCK_WAVE)
+    case 5: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_SNATCH)
+  }
+  random(6)
+  switch (var(VAR_RESULT)) {
+    case 0: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_WATER_PULSE)
+    case 1: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_BULLET_SEED)
+    case 2: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_GIGA_DRAIN)
+    case 3: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_IRON_TAIL)
+    case 4: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_SHOCK_WAVE)
+    case 5: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_SNATCH)
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) {
+    call(_Common_EventScript_RandomMoveTutorMoveGenerator)
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) {
+    call(_Common_EventScript_RandomMoveTutorMoveGenerator)
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) {
+    call(_Common_EventScript_RandomMoveTutorMoveGenerator)
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) {
+    call(_Common_EventScript_RandomMoveTutorMoveGenerator)
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) {
+    call(_Common_EventScript_RandomMoveTutorMoveGenerator)
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) {
+    call(_Common_EventScript_RandomMoveTutorMoveGenerator)
+  }
+}

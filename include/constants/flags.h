@@ -468,16 +468,16 @@
 #define FLAG_SHOWN_EON_TICKET                0x1AE
 #define FLAG_SHOWN_AURORA_TICKET             0x1AF
 #define FLAG_SHOWN_OLD_SEA_MAP               0x1B0
-#define FLAG_MOVE_TUTOR_TAUGHT_SWAGGER       0x1B1
+#define FLAG_MOVE_TUTOR_TAUGHT_SWAGGER       0x1B1 // Unreached Flag
 #define FLAG_MOVE_TUTOR_TAUGHT_ROLLOUT       0x1B2
 #define FLAG_MOVE_TUTOR_TAUGHT_FURY_CUTTER   0x1B3
 #define FLAG_MOVE_TUTOR_TAUGHT_MIMIC         0x1B4
 #define FLAG_MOVE_TUTOR_TAUGHT_METRONOME     0x1B5
-#define FLAG_MOVE_TUTOR_TAUGHT_SLEEP_TALK    0x1B6
-#define FLAG_MOVE_TUTOR_TAUGHT_SUBSTITUTE    0x1B7
+#define FLAG_MOVE_TUTOR_TAUGHT_SLEEP_TALK    0x1B6 // Unreached Flag
+#define FLAG_MOVE_TUTOR_TAUGHT_SUBSTITUTE    0x1B7 // Unreached Flag
 #define FLAG_MOVE_TUTOR_TAUGHT_DYNAMICPUNCH  0x1B8
 #define FLAG_MOVE_TUTOR_TAUGHT_DOUBLE_EDGE   0x1B9
-#define FLAG_MOVE_TUTOR_TAUGHT_EXPLOSION     0x1BA
+#define FLAG_MOVE_TUTOR_TAUGHT_EXPLOSION     0x1BA // Unreached Flag
 #define FLAG_DEFEATED_REGIROCK               0x1BB
 #define FLAG_DEFEATED_REGICE                 0x1BC
 #define FLAG_DEFEATED_REGISTEEL              0x1BD
@@ -1245,7 +1245,7 @@
 #define FLAG_RECEIVED_JOHTO_STARTER                                 0x4A7
 #define FLAG_HIDE_DEWFORD_POKEMON_CENTER_META_BOY                   0x4A8
 #define FLAG_MIRAGE_TOWER_FOSSILS_RANDOMIZED                        0x4A9
-#define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
+#define FLAG_MOVE_TUTOR_MOVES_RANDOMIZED                            0x4AA
 #define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
 #define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
 #define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
