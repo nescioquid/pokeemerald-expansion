@@ -53,8 +53,7 @@ script _DewfordTown_PokemonCenter_1F_EventScript_MetaBoy {
     } else {
       msgbox(format("I just don't think I'm cut out to be a Trainer.\pI'd give my Pokémon to a strong enough Trainer right now…\p{FONT_SMALL}…I could be laying on the beach right now, modding my video games…"))
     }
-    call(_Common_EventScript_GetBadgeCount)
-    if (var(VAR_RESULT) >= 2) {
+    if (flag(FLAG_BADGE02_GET)) {
       playse(SE_PIN)
       applymovement(LOCALID_DEWFORD_META_BOY, Common_Movement_ExclamationMark)
       waitmovement(0)

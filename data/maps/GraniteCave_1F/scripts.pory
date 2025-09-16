@@ -43,14 +43,19 @@ GraniteCave_1F_Text_ExplainFlash:
 script _GraniteCave_1F_EventScript_Hiker {
   lock
   faceplayer
-  if(!flag(FLAG_RECEIVED_HM_FLASH)) {
-    msgbox(format("Hey, you.\nIt gets awfully dark ahead.\lIt'll be tough trying to explore.\pThat guy who came by earlier…\nSteven, I think it was.\pHe knew how to use Flash, so he ought\nto be all right, but…\pWell, for us Hikers, helping out those\nthat we meet is our motto.\pHere you go, I'll pass this on to you."))
-    giveitem(ITEM_HM_FLASH)
-    setflag(FLAG_RECEIVED_HM_FLASH)
-    msgbox(format("And take this too."))
+  if(!flag(FLAG_RECEIVED_ESCAPE_ROPE)) {
+    msgbox(format("Hey, you.\N It gets awfully dark ahead…"))
+    playse(SE_PIN)
+    applymovement(LOCALID_GRANITE_CAVE_HIKER, Common_Movement_ExclamationMark)
+    waitmovement(0)
+    applymovement(LOCALID_GRANITE_CAVE_HIKER, Common_Movement_Delay48)
+    waitmovement(0)
+    msgbox(format("You beat Brawly!\N Nice work, kid.\p Have fun exploring down there, and take this too."))
     giveitem(ITEM_ESCAPE_ROPE)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    setflag(FLAG_RECEIVED_ESCAPE_ROPE)
   }
-  msgbox(format("Teach that hidden move Flash to\na Pokémon and use it.\pIt lights up even the inky darkness\nof caves.\pBut, to use it, you need the Gym Badge\nfrom Dewford's Pokémon Gym.\pThat Escape Rope though, you can use it anywhere you feel like you've gotten lost. Take care!"))
+  msgbox(format("That Escape Rope, you can use it anywhere you feel like you've gotten lost.\N Take care!"))
   release
   end
 }

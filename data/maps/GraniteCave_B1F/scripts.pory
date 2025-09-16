@@ -1,0 +1,26 @@
+raw`
+GraniteCave_B1F_MapScripts::
+  map_script MAP_SCRIPT_ON_FRAME_TABLE, CaveHole_CheckFallDownHole
+  map_script MAP_SCRIPT_ON_TRANSITION, CaveHole_FixCrackedGround
+  map_script MAP_SCRIPT_ON_RESUME, GraniteCave_B1F_SetHoleWarp
+  .byte 0
+
+GraniteCave_B1F_SetHoleWarp:
+  setstepcallback STEP_CB_CRACKED_FLOOR
+  setholewarp MAP_GRANITE_CAVE_B2F
+  end
+
+`
+
+script _GraniteCave_B1F_EventScript_Hiker {
+  lock
+  faceplayer
+  if(!flag(FLAG_RECEIVED_HM_FLASH)) {
+    msgbox(format("Hey, you.\N It gets awfully dark ahead, it'll be tough trying to explore.\p That guy who came by earlier…\N Steven, I think it was.\p He knew how to use Flash, so he ought to be all right, but…\p Well, for us Hikers, helping out those that we meet is our motto.\p Here you go, I'll pass this on to you."))
+    giveitem(ITEM_HM_FLASH)
+    setflag(FLAG_RECEIVED_HM_FLASH)
+  }
+  msgbox(format("Teach that hidden move Flash to a Pokémon and use it.\p It lights up even the inky darkness of caves, but you need the Gym Badge from Dewford's Pokémon Gym to use it.\p I'm afraid I can't let you pass if you don't have one, it's just too dangerous."))
+  release
+  end
+}

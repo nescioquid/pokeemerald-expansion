@@ -166,6 +166,8 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
   setflag FLAG_ENABLE_BRAWLY_MATCH_CALL
   setvar VAR_ROXANNE_CALL_STEP_COUNTER, 0
   setflag FLAG_ENABLE_ROXANNE_FIRST_CALL
+  setflag FLAG_HIDE_GRANITE_CAVE_B1F_HIKER
+  clearflag FLAG_HIDE_GRANITE_CAVE_1F_HIKER
   release
   end
 

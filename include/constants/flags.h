@@ -1247,9 +1247,9 @@
 #define FLAG_MIRAGE_TOWER_FOSSILS_RANDOMIZED                        0x4A9
 #define FLAG_MOVE_TUTOR_MOVES_RANDOMIZED                            0x4AA
 #define FLAG_RECEIVED_SAFETY_GOGGLES                                0x4AB
-#define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
-#define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
-#define FLAG_UNUSED_0x4AE                                           0x4AE // Unused Flag
+#define FLAG_HIDE_GRANITE_CAVE_B1F_HIKER                            0x4AC
+#define FLAG_HIDE_GRANITE_CAVE_1F_HIKER                             0x4AD
+#define FLAG_RECEIVED_ESCAPE_ROPE                                   0x4AE
 #define FLAG_UNUSED_0x4AF                                           0x4AF // Unused Flag
 #define FLAG_UNUSED_0x4B0                                           0x4B0 // Unused Flag
 #define FLAG_UNUSED_0x4B1                                           0x4B1 // Unused Flag
