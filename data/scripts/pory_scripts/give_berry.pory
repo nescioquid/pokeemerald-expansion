@@ -1,16 +1,13 @@
 script _Common_EventScript_GiveBerry_Generic {
-  random(10)
+  random(7)
   switch (var(VAR_RESULT)) {
-    case 0: giveitem(ITEM_LEPPA_BERRY,  3)
-    case 1: giveitem(ITEM_LEPPA_BERRY,  3)
-    case 2: giveitem(ITEM_LEPPA_BERRY,  3)
-    case 3: giveitem(ITEM_LUM_BERRY,    3)
-    case 4: giveitem(ITEM_CHILAN_BERRY, 3)
-    case 5: call(_Common_EventScript_GiveBerry_Status)
-    case 6: call(_Common_EventScript_GiveBerry_Status)
-    case 7: call(_Common_EventScript_GiveBerry_HP)
-    case 8: call(_Common_EventScript_GiveBerry_HP)
-    case 9: call(_Common_EventScript_GiveBerry_Confuse)
+    case 0: giveitem(ITEM_LEPPA_BERRY, 3)
+    case 1: giveitem(ITEM_LUM_BERRY,   3)
+    case 2: call(_Common_EventScript_GiveBerry_Status)
+    case 3: call(_Common_EventScript_GiveBerry_HP)
+    case 4: call(_Common_EventScript_GiveBerry_Resistance)
+    case 5: call(_Common_EventScript_GiveBerry_RaiseStats)
+    case 6: call(_Common_EventScript_GiveBerry_Retaliatory)
   }
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
 }
@@ -29,12 +26,11 @@ script _Common_EventScript_GiveBerry_Status {
 }
 
 script _Common_EventScript_GiveBerry_HP {
-  random(4)
+  random(3)
   switch (var(VAR_RESULT)) {
     case 0: giveitem(ITEM_ORAN_BERRY,   3)
     case 1: giveitem(ITEM_SITRUS_BERRY, 3)
-    case 2: giveitem(ITEM_NANAB_BERRY,  3)
-    case 3: giveitem(ITEM_PINAP_BERRY,  3)
+    case 2: call(_Common_EventScript_GiveBerry_Confuse)
   }
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
 }
@@ -51,19 +47,8 @@ script _Common_EventScript_GiveBerry_Confuse {
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
 }
 
-script _Common_EventScript_GiveBerry_Retaliatory {
-  random(4)
-  switch (var(VAR_RESULT)) {
-    case 0: giveitem(ITEM_JABOCA_BERRY,  3)
-    case 1: giveitem(ITEM_ROWAP_BERRY,   3)
-    case 2: giveitem(ITEM_KEE_BERRY,     3)
-    case 3: giveitem(ITEM_MARANGA_BERRY, 3)
-  }
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-}
-
 script _Common_EventScript_GiveBerry_Resistance {
-  random(17)
+  random(18)
   switch (var(VAR_RESULT)) {
     case  0: giveitem(ITEM_OCCA_BERRY,   3)
     case  1: giveitem(ITEM_PASSHO_BERRY, 3)
@@ -81,74 +66,32 @@ script _Common_EventScript_GiveBerry_Resistance {
     case 13: giveitem(ITEM_HABAN_BERRY,  3)
     case 14: giveitem(ITEM_COLBUR_BERRY, 3)
     case 15: giveitem(ITEM_BABIRI_BERRY, 3)
-    case 16: giveitem(ITEM_ROSELI_BERRY, 3)
+    case 16: giveitem(ITEM_CHILAN_BERRY, 3)
+    case 17: giveitem(ITEM_ROSELI_BERRY, 3)
   }
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
 }
 
 script _Common_EventScript_GiveBerry_RaiseStats {
-  specialvar(VAR_RESULT, GetPlayerTrainerIdOnesDigit)
+  random(5)
   switch (var(VAR_RESULT)) {
-    case 0:
-      random(2)
-      switch (var(VAR_RESULT)) {
-        case 0: giveitem(ITEM_LIECHI_BERRY, 3)
-        case 1: giveitem(ITEM_GANLON_BERRY, 3)
-      }
-    case 1:
-      random(2)
-      switch (var(VAR_RESULT)) {
-        case 0: giveitem(ITEM_LIECHI_BERRY, 3)
-        case 1: giveitem(ITEM_SALAC_BERRY,  3)
-      }
-    case 2:
-      random(2)
-      switch (var(VAR_RESULT)) {
-        case 0: giveitem(ITEM_LIECHI_BERRY, 3)
-        case 1: giveitem(ITEM_PETAYA_BERRY, 3)
-      }
-    case 3:
-      random(2)
-      switch (var(VAR_RESULT)) {
-        case 0: giveitem(ITEM_LIECHI_BERRY, 3)
-        case 1: giveitem(ITEM_APICOT_BERRY, 3)
-      }
-    case 4:
-      random(2)
-      switch (var(VAR_RESULT)) {
-        case 0: giveitem(ITEM_GANLON_BERRY, 3)
-        case 1: giveitem(ITEM_SALAC_BERRY,  3)
-      }
-    case 5:
-      random(2)
-      switch (var(VAR_RESULT)) {
-        case 0: giveitem(ITEM_GANLON_BERRY, 3)
-        case 1: giveitem(ITEM_PETAYA_BERRY, 3)
-      }
-    case 6:
-      random(2)
-      switch (var(VAR_RESULT)) {
-        case 0: giveitem(ITEM_GANLON_BERRY, 3)
-        case 1: giveitem(ITEM_APICOT_BERRY, 3)
-      }
-    case 7:
-      random(2)
-      switch (var(VAR_RESULT)) {
-        case 0: giveitem(ITEM_SALAC_BERRY,  3)
-        case 1: giveitem(ITEM_PETAYA_BERRY, 3)
-      }
-    case 8:
-      random(2)
-      switch (var(VAR_RESULT)) {
-        case 0: giveitem(ITEM_SALAC_BERRY,  3)
-        case 1: giveitem(ITEM_APICOT_BERRY, 3)
-      }
-    case 9:
-      random(2)
-      switch (var(VAR_RESULT)) {
-        case 0: giveitem(ITEM_PETAYA_BERRY, 3)
-        case 1: giveitem(ITEM_APICOT_BERRY, 3)
-      }
+    case 0: giveitem(ITEM_LIECHI_BERRY, 3)
+    case 1: giveitem(ITEM_GANLON_BERRY, 3)
+    case 2: giveitem(ITEM_SALAC_BERRY,  3)
+    case 3: giveitem(ITEM_PETAYA_BERRY, 3)
+    case 4: giveitem(ITEM_APICOT_BERRY, 3)
+  }
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+}
+
+script _Common_EventScript_GiveBerry_Retaliatory {
+  random(3)
+  switch (var(VAR_RESULT)) {
+    case 0: giveitem(ITEM_CUSTAP_BERRY,  3)
+    // case 1: giveitem(ITEM_JABOCA_BERRY,  3)
+    // case 2: giveitem(ITEM_ROWAP_BERRY,   3)
+    case 1: giveitem(ITEM_KEE_BERRY,     3)
+    case 2: giveitem(ITEM_MARANGA_BERRY, 3)
   }
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
 }

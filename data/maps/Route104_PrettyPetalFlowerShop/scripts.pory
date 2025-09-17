@@ -125,10 +125,11 @@ script _Route104_PrettyPetalFlowerShop_EventScript_RandomBerryGirl {
   dotimebasedevents
   if (!flag(FLAG_DAILY_FLOWER_SHOP_RECEIVED_BERRY)) {
     msgbox(format("I'm trying to be like my big sisters. I'm growing flowers, too!\pHere you go! They're for you!"))
-    if (!flag(FLAG_BADGE02_GET)) {
-      call(_Common_EventScript_GiveBerry_Status)
+    if (!flag(FLAG_BADGE01_GET)) {
+      giveitem(ITEM_CHILAN_BERRY, 3)
+      goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
     } else {
-      call(_Common_EventScript_GiveBerry_Generic)
+      call(_Common_EventScript_GiveBerry_Resistance)
     }
     setflag(FLAG_DAILY_FLOWER_SHOP_RECEIVED_BERRY)
   }
