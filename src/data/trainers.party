@@ -191,6 +191,8 @@ Music: Aqua
 Double Battle: No
 AI: Team Aqua
 
+/* #BadGuys #TeamAquaOne */
+
 Mightyena
 Level: 10
 Ability: Intimidate
@@ -283,6 +285,8 @@ Music: Aqua
 Double Battle: No
 AI: Team Aqua
 
+/* #BadGuys #TeamAquaTwo */
+
 Mightyena
 Level: 10
 Ability: Intimidate
@@ -361,6 +365,8 @@ Music: Aqua
 Double Battle: No
 AI: Team Aqua
 
+/* #BadGuys #TeamAquaThreeA */
+
 Golbat
 Level: 10
 Ability: Inner Focus
@@ -396,6 +402,8 @@ Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Team Aqua
+
+/* #BadGuys #TeamAquaThreeB */
 
 Mightyena
 Level: 10
@@ -531,6 +539,8 @@ Music: Aqua
 Double Battle: No
 AI: Aqua Admin
 
+/* #BadGuys #TeamAquaFive */
+
 Kingler
 Level: 10
 Ability: Hyper Cutter
@@ -587,6 +597,8 @@ Music: Aqua
 Double Battle: No
 AI: Aqua Admin
 
+/* #BadGuys #TeamAquaFour */
+
 Mightyena
 Level: 10
 Ability: Intimidate
@@ -632,6 +644,8 @@ Music: Aqua
 Double Battle: No
 AI: Aqua Admin
 
+/* #BadGuys #TeamAquaSixA */
+
 Mightyena
 Level: 10
 Ability: Intimidate
@@ -676,6 +690,8 @@ Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Aqua Leader
+
+/* #BadGuys #TeamAquaSixB */
 
 Pelipper @ Damp Rock
 Level: 10
@@ -854,6 +870,8 @@ Music: Interviewer
 Double Battle: Yes
 AI: Interviewer
 
+/* #Other */
+
 Magnemite
 Level: 5
 
@@ -868,6 +886,8 @@ Gender: Male
 Music: Interviewer
 Double Battle: Yes
 AI: Interviewer
+
+/* #Other */
 
 Magnemite
 Level: 5
@@ -884,6 +904,8 @@ Music: Interviewer
 Double Battle: Yes
 AI: Interviewer
 
+/* #Other */
+
 Magneton
 Level: 5
 
@@ -898,6 +920,8 @@ Gender: Male
 Music: Interviewer
 Double Battle: Yes
 AI: Interviewer
+
+/* #Other */
 
 Magneton
 Level: 5
@@ -914,6 +938,8 @@ Music: Interviewer
 Double Battle: Yes
 AI: Interviewer
 
+/* #Other */
+
 Magnezone
 Level: 5
 
@@ -928,6 +954,8 @@ Gender: Male
 Music: Interviewer
 Double Battle: Yes
 AI: Interviewer
+
+/* #Other */
 
 Magnezone
 Level: 5
@@ -1054,7 +1082,7 @@ Music: Cool
 Double Battle: No
 AI: Cooltrainer
 
-/* Exception: Petalburg Gym */
+/* #PetalburgGym #SpeedRoom */
 
 Swellow
 Level: 5
@@ -1072,7 +1100,7 @@ Music: Cool
 Double Battle: No
 AI: Cooltrainer
 
-/* Exception: Petalburg Gym */
+/* #PetalburgGym #ConfusionRoom */
 
 Spinda
 Level: 5
@@ -1091,7 +1119,7 @@ Music: Cool
 Double Battle: No
 AI: Cooltrainer
 
-/* Exception: Petalburg Gym */
+/* #PetalburgGym #RecoveryRoom */
 
 Slakoth @ Sitrus Berry
 Level: 5
@@ -1109,7 +1137,7 @@ Music: Cool
 Double Battle: No
 AI: Cooltrainer
 
-/* Exception: Petalburg Gym */
+/* #PetalburgGym #OneHitKORoom */
 
 Vigoroth
 Level: 5
@@ -1258,7 +1286,7 @@ Music: Cool
 Double Battle: No
 AI: Cooltrainer
 
-/* Exception: Petalburg Gym */
+/* #PetalburgGym #AccuracyRoom */
 
 Persian
 Level: 5
@@ -1276,7 +1304,7 @@ Music: Cool
 Double Battle: No
 AI: Cooltrainer
 
-/* Exception: Petalburg Gym */
+/* #PetalburgGym #DefenseRoom */
 
 Wigglytuff
 Level: 5
@@ -1294,7 +1322,7 @@ Music: Cool
 Double Battle: No
 AI: Cooltrainer / Force Setup First Turn
 
-/* Exception: Petalburg Gym */
+/* #PetalburgGym #StrengthRoom */
 
 Ursaring
 Level: 5
@@ -2957,6 +2985,8 @@ Double Battle: No
 AI: Sidney
 Mugshot: Purple
 
+/* #EliteFour */
+
 Honchkrow @ Black Glasses
 Level: 10
 Ability: Super Luck
@@ -3002,6 +3032,8 @@ Music: Elite Four
 Double Battle: No
 AI: Phoebe
 Mugshot: Green
+
+/* #EliteFour */
 
 Mismagius @ Spell Tag
 Level: 10
@@ -3049,6 +3081,8 @@ Double Battle: No
 AI: Glacia
 Mugshot: Pink
 
+/* #EliteFour */
+
 Lapras @ Never Melt Ice
 Level: 10
 Ability: Shell Armor
@@ -3094,6 +3128,8 @@ Music: Elite Four
 Double Battle: No
 AI: Drake
 Mugshot: Blue
+
+/* #EliteFour */
 
 Flygon @ Dragon Fang
 Level: 10
@@ -3664,6 +3700,8 @@ Music: Twins
 Double Battle: No
 AI: Winstrate
 
+/* #Other */
+
 Swellow @ Oran Berry
 Level: 10
 Ability: Guts
@@ -3734,6 +3772,8 @@ Gender: Female
 Music: Twins
 Double Battle: No
 AI: Winstrate
+
+/* #Other */
 
 Sunflora @ Oran Berry
 Level: 10
@@ -3864,6 +3904,8 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Winstrate
+
+/* #Other */
 
 Heracross @ Oran Berry
 Level: 10
@@ -4119,6 +4161,8 @@ Music: Male
 Double Battle: No
 AI: Wallace
 Mugshot: Blue
+
+/* #Postgame */
 
 Ludicolo @ Mystic Water
 Level: 10
@@ -5821,6 +5865,8 @@ Music: Magma
 Double Battle: No
 AI: Magma Admin
 
+/* #BadGuys #TeamMagmaThreeA */
+
 Mightyena
 Level: 10
 Ability: Intimidate
@@ -5882,6 +5928,8 @@ Double Battle: No
 AI: Medium Wally
 Party Size: 4
 
+/* #WallyTwo */
+
 Jolteon @ Magnet
 Level: 10
 Ability: Volt Absorb
@@ -5936,6 +5984,8 @@ Music: Male
 Double Battle: No
 AI: Very Easy Rival
 
+/* #RivalOne */
+
 Treecko
 Level: 5
 Ability: Overgrow
@@ -5953,6 +6003,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
+
+/* #RivalThree */
 
 Nidoking @ Chilan Berry
 Level: 10
@@ -5999,6 +6051,8 @@ Music: Male
 Double Battle: No
 AI: Medium Rival
 
+/* #RivalFour */
+
 Nidoking @ Chilan Berry
 Level: 10
 Ability: Poison Point
@@ -6044,6 +6098,8 @@ Music: Male
 Double Battle: No
 AI: Very Easy Rival
 
+/* #RivalOne */
+
 Torchic
 Level: 5
 Ability: Blaze
@@ -6061,6 +6117,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
+
+/* #RivalThree */
 
 Nidoking @ Chilan Berry
 Level: 10
@@ -6107,6 +6165,8 @@ Music: Male
 Double Battle: No
 AI: Medium Rival
 
+/* #RivalFour */
+
 Nidoking @ Chilan Berry
 Level: 10
 Ability: Poison Point
@@ -6152,6 +6212,8 @@ Music: Male
 Double Battle: No
 AI: Very Easy Rival
 
+/* #RivalOne */
+
 Mudkip
 Level: 5
 Ability: Torrent
@@ -6169,6 +6231,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
+
+/* #RivalThree */
 
 Nidoking @ Chilan Berry
 Level: 10
@@ -6215,6 +6279,8 @@ Music: Male
 Double Battle: No
 AI: Medium Rival
 
+/* #RivalFour */
+
 Nidoking @ Chilan Berry
 Level: 10
 Ability: Poison Point
@@ -6260,6 +6326,8 @@ Music: Female
 Double Battle: No
 AI: Very Easy Rival
 
+/* #RivalOne */
+
 Treecko
 Level: 5
 Ability: Overgrow
@@ -6277,6 +6345,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
+
+/* #RivalThree */
 
 Nidoqueen @ Chilan Berry
 Level: 10
@@ -6323,6 +6393,8 @@ Music: Female
 Double Battle: No
 AI: Medium Rival
 
+/* #RivalFour */
+
 Nidoqueen @ Chilan Berry
 Level: 10
 Ability: Poison Point
@@ -6368,6 +6440,8 @@ Music: Female
 Double Battle: No
 AI: Very Easy Rival
 
+/* #RivalOne */
+
 Torchic
 Level: 5
 Ability: Blaze
@@ -6385,6 +6459,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
+
+/* #RivalThree */
 
 Nidoqueen @ Chilan Berry
 Level: 10
@@ -6431,6 +6507,8 @@ Music: Female
 Double Battle: No
 AI: Medium Rival
 
+/* #RivalFour */
+
 Nidoqueen @ Chilan Berry
 Level: 10
 Ability: Poison Point
@@ -6476,6 +6554,8 @@ Music: Female
 Double Battle: No
 AI: Very Easy Rival
 
+/* #RivalOne */
+
 Mudkip
 Level: 5
 Ability: Torrent
@@ -6493,6 +6573,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
+
+/* #RivalThree */
 
 Nidoqueen @ Chilan Berry
 Level: 10
@@ -6538,6 +6620,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
+
+/* #RivalFour */
 
 Nidoqueen @ Chilan Berry
 Level: 10
@@ -7141,6 +7225,8 @@ Music: Male
 Double Battle: No
 AI: Easy Rival
 
+/* #RivalTwo */
+
 Fearow @ Chilan Berry
 Level: 10
 Ability: Keen Eye
@@ -7185,6 +7271,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Easy Rival
+
+/* #RivalTwo */
 
 Fearow @ Chilan Berry
 Level: 10
@@ -7265,6 +7353,8 @@ Music: Magma
 Double Battle: No
 AI: Magma Admin
 
+/* #BadGuys #TeamMagmaOneA */
+
 Golbat
 Level: 10
 Ability: Inner Focus
@@ -7321,6 +7411,8 @@ Music: Male
 Double Battle: No
 AI: Easy Rival
 
+/* #RivalTwo */
+
 Fearow @ Chilan Berry
 Level: 10
 Ability: Keen Eye
@@ -7365,6 +7457,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Easy Rival
+
+/* #RivalTwo */
 
 Dodrio @ Chilan Berry
 Level: 10
@@ -7411,6 +7505,8 @@ Music: Magma
 Double Battle: No
 AI: Magma Leader
 
+/* #BadGuys #TeamMagmaTwoB */
+
 Torkoal @ Heat Rock
 Level: 10
 Ability: Drought
@@ -7455,6 +7551,8 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Magma Leader
+
+/* #BadGuys #TeamMagmaOneB */
 
 Torkoal
 Level: 10
@@ -7533,6 +7631,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Winstrate
+
+/* #Other */
 
 Azumarill @ Oran Berry
 Level: 10
@@ -8062,6 +8162,8 @@ Music: Male
 Double Battle: No
 AI: Easy Wally
 
+/* #WallyOne */
+
 Eevee @ Nanab Berry
 Level: 10
 Ability: Adaptability
@@ -8080,6 +8182,8 @@ Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Hard Wally
+
+/* #Rematch */
 
 Altaria
 Level: 47
@@ -8131,6 +8235,8 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Hard Wally
 
+/* #Rematch */
+
 Altaria
 Level: 50
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8180,6 +8286,8 @@ Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Hard Wally
+
+/* #Rematch */
 
 Altaria
 Level: 53
@@ -8231,6 +8339,8 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Hard Wally
 
+/* #Rematch */
+
 Altaria
 Level: 56
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8280,6 +8390,8 @@ Music: Male
 Double Battle: No
 AI: Medium Rival
 
+/* #RivalFive */
+
 Nidoking @ Chilan Berry
 Level: 10
 Ability: Poison Point
@@ -8324,6 +8436,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
+
+/* #RivalFive */
 
 Nidoking @ Chilan Berry
 Level: 10
@@ -8370,6 +8484,8 @@ Music: Male
 Double Battle: No
 AI: Medium Rival
 
+/* #RivalFive */
+
 Nidoking @ Chilan Berry
 Level: 10
 Ability: Poison Point
@@ -8414,6 +8530,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
+
+/* #RivalFive */
 
 Nidoqueen @ Chilan Berry
 Level: 10
@@ -8460,6 +8578,8 @@ Music: Female
 Double Battle: No
 AI: Medium Rival
 
+/* #RivalFive */
+
 Nidoqueen @ Chilan Berry
 Level: 10
 Ability: Poison Point
@@ -8504,6 +8624,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
+
+/* #RivalFive */
 
 Nidoqueen @ Chilan Berry
 Level: 10
@@ -9230,6 +9352,8 @@ Music: Magma
 Double Battle: No
 AI: Magma Admin
 
+/* #BadGuys #TeamMagmaTwoA */
+
 Crobat
 Level: 10
 Ability: Inner Focus
@@ -9285,6 +9409,8 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Magma Leader
+
+/* #BadGuys #TeamMagmaThreeB */
 
 Torkoal @ Heat Rock
 Level: 10
@@ -9686,6 +9812,8 @@ Music: Female
 Double Battle: No
 AI: Easy Rival
 
+/* #RivalTwo */
+
 Dodrio @ Chilan Berry
 Level: 10
 Ability: Early Bird
@@ -9730,6 +9858,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Easy Rival
+
+/* #RivalTwo */
 
 Dodrio @ Chilan Berry
 Level: 10
@@ -9778,6 +9908,8 @@ Double Battle: Yes
 AI: Roxanne
 Mugshot: Pink
 
+/* #Rematch */
+
 Golem
 Level: 32
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -9820,6 +9952,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Roxanne
 Mugshot: Pink
+
+/* #Rematch */
 
 Omanyte
 Level: 37
@@ -9872,6 +10006,8 @@ Double Battle: Yes
 AI: Roxanne
 Mugshot: Pink
 
+/* #Rematch */
+
 Omastar
 Level: 42
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -9922,6 +10058,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Roxanne
 Mugshot: Pink
+
+/* #Rematch */
 
 Aerodactyl
 Level: 47
@@ -9982,6 +10120,8 @@ Double Battle: Yes
 AI: Brawly
 Mugshot: Blue
 
+/* #Rematch */
+
 Machamp @ Sitrus Berry
 Level: 33
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10025,6 +10165,8 @@ Double Battle: Yes
 AI: Brawly
 Mugshot: Blue
 
+/* #Rematch */
+
 Machamp @ Sitrus Berry
 Level: 38
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10067,6 +10209,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Brawly
 Mugshot: Blue
+
+/* #Rematch */
 
 Hitmonchan
 Level: 40
@@ -10118,6 +10262,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Brawly
 Mugshot: Blue
+
+/* #Rematch */
 
 Hitmonlee
 Level: 46
@@ -10178,6 +10324,8 @@ Double Battle: Yes
 AI: Wattson
 Mugshot: Yellow
 
+/* #Rematch */
+
 Mareep
 Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10220,6 +10368,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Wattson
 Mugshot: Yellow
+
+/* #Rematch */
 
 Pikachu
 Level: 39
@@ -10272,6 +10422,8 @@ Double Battle: Yes
 AI: Wattson
 Mugshot: Yellow
 
+/* #Rematch */
+
 Raichu
 Level: 44
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10322,6 +10474,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Wattson
 Mugshot: Yellow
+
+/* #Rematch */
 
 Electabuzz
 Level: 50
@@ -10382,6 +10536,8 @@ Double Battle: Yes
 AI: Flannery
 Mugshot: Purple
 
+/* #Rematch */
+
 Magcargo @ White Herb
 Level: 38
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10424,6 +10580,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Flannery
 Mugshot: Purple
+
+/* #Rematch */
 
 Growlithe
 Level: 41
@@ -10475,6 +10633,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Flannery
 Mugshot: Purple
+
+/* #Rematch */
 
 Houndour
 Level: 46
@@ -10535,6 +10695,8 @@ Double Battle: Yes
 AI: Flannery
 Mugshot: Purple
 
+/* #Rematch */
+
 Arcanine
 Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10594,6 +10756,8 @@ Double Battle: Yes
 AI: Norman
 Mugshot: Green
 
+/* #Rematch */
+
 Chansey
 Level: 42
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10636,6 +10800,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Norman
 Mugshot: Green
+
+/* #Rematch */
 
 Slaking @ Sitrus Berry
 Level: 47
@@ -10688,6 +10854,8 @@ Double Battle: Yes
 AI: Norman
 Mugshot: Green
 
+/* #Rematch */
+
 Slaking @ Sitrus Berry
 Level: 52
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10738,6 +10906,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Norman
 Mugshot: Green
+
+/* #Rematch */
 
 Slaking @ Sitrus Berry
 Level: 57
@@ -10798,6 +10968,8 @@ Double Battle: Yes
 AI: Winona
 Mugshot: Pink
 
+/* #Rematch */
+
 Dratini @ Sitrus Berry
 Level: 40
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10848,6 +11020,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Winona
 Mugshot: Pink
+
+/* #Rematch */
 
 Hoothoot
 Level: 43
@@ -10908,6 +11082,8 @@ Double Battle: Yes
 AI: Winona
 Mugshot: Pink
 
+/* #Rematch */
+
 Noctowl
 Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10966,6 +11142,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Winona
 Mugshot: Pink
+
+/* #Rematch */
 
 Noctowl
 Level: 53
@@ -11026,6 +11204,8 @@ Double Battle: Yes
 AI: Tate And Liza
 Mugshot: Purple
 
+/* #Rematch */
+
 Slowpoke
 Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -11076,6 +11256,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Tate And Liza
 Mugshot: Purple
+
+/* #Rematch */
 
 Drowzee
 Level: 53
@@ -11136,6 +11318,8 @@ Double Battle: Yes
 AI: Tate And Liza
 Mugshot: Purple
 
+/* #Rematch */
+
 Hypno
 Level: 58
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -11194,6 +11378,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Tate And Liza
 Mugshot: Purple
+
+/* #Rematch */
 
 Hypno
 Level: 63
@@ -11254,6 +11440,8 @@ Double Battle: Yes
 AI: Juan
 Mugshot: Blue
 
+/* #Rematch */
+
 Poliwag
 Level: 46
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -11305,6 +11493,8 @@ Double Battle: Yes
 AI: Juan
 Mugshot: Blue
 
+/* #Rematch */
+
 Poliwhirl
 Level: 50
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -11355,6 +11545,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Juan
 Mugshot: Blue
+
+/* #Rematch */
 
 Lapras
 Level: 56
@@ -11414,6 +11606,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Juan
 Mugshot: Blue
+
+/* #Rematch */
 
 Lapras
 Level: 61
@@ -11506,6 +11700,8 @@ Music: Male
 Double Battle: No
 AI: Champion
 Mugshot: Yellow
+
+/* #EliteFour #Champion */
 
 Forretress @ Metal Coat
 Level: 10
@@ -11916,6 +12112,8 @@ Double Battle: No
 AI: Hard Rival
 Mugshot: Green
 
+/* #RivalSix #Postgame */
+
 Snorlax @ Pinap Berry
 Level: 10
 Ability: Immunity
@@ -11962,6 +12160,8 @@ Double Battle: No
 AI: Hard Rival
 Mugshot: Green
 
+/* #RivalSix #Postgame */
+
 Clefable @ Pinap Berry
 Level: 10
 Ability: Magic Guard
@@ -12007,6 +12207,8 @@ Music: Male
 Double Battle: No
 AI: Hard Rival
 Mugshot: Yellow
+
+/* #Postgame */
 
 Gliscor @ Toxic Orb
 Level: 10
