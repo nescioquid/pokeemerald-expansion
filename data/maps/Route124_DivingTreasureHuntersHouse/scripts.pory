@@ -346,11 +346,11 @@ script _Route124_DivingTreasureHuntersHouse_EventScript_TreasureHunter {
   lock
   faceplayer
   if (!flag(FLAG_MET_DIVING_TREASURE_HUNTER)) {
-    msgbox(format("I'm the Diving Treasure Hunter!\pI'm the awesome dude who makes deep-sea dives to gather all the Pearls resting at the bottom.\pTell me, have you ever gone diving with your Pokémon?\pNo? That's a downer. Well, I'll tell you what. Take this!"))
+    msgbox(format("I'm the Diving Treasure Hunter!\p I'm the awesome dude who makes deep-sea dives to gather all the Pearls resting at the bottom.\p Tell me, have you ever gone diving with your Pokémon?\p No? That's a downer. Well, I'll tell you what. Take this!"))
     giveitem(ITEM_HM_DIVE)
     setflag(FLAG_RECEIVED_HM_DIVE)
     setflag(FLAG_OMIT_DIVE_FROM_STEVEN_LETTER)
-    msgbox(format("That's the Hidden Machine Dive. While you're using Surf, you may notice darker patches of water.\pUse Dive in those places, and you'll drop to the seafloor. When you want to come back up, use Dive again. You won't be able to surface in some places, though.\pHope you bring me back some sweet Pearls you find down there diving with your Pokémon.\pRemember, I pay cash!"))
+    msgbox(format("That's the Hidden Machine Dive. While you're using Surf, you may notice darker patches of water.\p Use Dive in those places, and you'll drop to the seafloor. When you want to come back up, use Dive again. You won't be able to surface in some places, though.\p Hope you bring me back some sweet Pearls you find down there diving with your Pokémon.\p Remember, I pay cash!"))
     setflag(FLAG_MET_DIVING_TREASURE_HUNTER)
     release
     end
@@ -410,7 +410,28 @@ script _Route124_DivingTreasureHuntersHouse_EventScript_TreasureHunter {
 }
 
 script _Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard {
-  msgbox(format("A sign that looks like it should say\n“We accept Visa” but actually used to be a menu of different items for trade."), MSGBOX_SIGN)
+  msgbox(format("A sign that looks like it should say\N “We accept Visa” but actually used to be a menu of different items for trade."), MSGBOX_SIGN)
+  release
+  end
+}
+
+script _Route110_TrickHouseEntrance_EventScript_NoteSparkle {
+  if (flag(FLAG_HIDE_ROUTE_124_HOUSE_DIVING_TREASURE_HUNTER)) {
+    lockall
+    delay(20)
+    // .macro dofieldeffectsparkle x:req, y:req, priority:req
+    dofieldeffectsparkle(4, 4, 0)
+    waitfieldeffect(FLDEFF_SPARKLE)
+    setvar(VAR_TEMP_0, 1)
+  }
+  releaseall
+  end
+}
+
+script _Route124_DivingTreasureHuntersHouse_EventScript_Note {
+  if (flag(FLAG_HIDE_ROUTE_124_HOUSE_DIVING_TREASURE_HUNTER)) {
+    msgbox(format("There's a note here. It says:\N Went out diving. Be back soon!"), MSGBOX_SIGN)
+  }
   release
   end
 }

@@ -275,4 +275,5 @@ EventScript_ResetAllMapFlags::
 	call EventScript_ResetAllBerries
 	setflag FLAG_HIDE_ROUTE_109_META_BOY
 	setflag FLAG_HIDE_GRANITE_CAVE_1F_HIKER
+	setflag FLAG_HIDE_ROUTE_124_HOUSE_DIVING_TREASURE_HUNTER
 	end
