@@ -10003,17 +10003,13 @@ const struct Item gItemsInfo[] =
         .name = ITEM_NAME("Nanab Berry"),
         .pluralName = ITEM_PLURAL_NAME("Nanab Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
-        .holdEffect = HOLD_EFFECT_RESTORE_HP,
-        .holdEffectParam = 50,
         .description = COMPOUND_STRING(
-            "A hold item that\n"
-            "restores 50 HP in\n"
-            "battle."),
+            "{POKEBLOCK} ingredient.\n"
+            "Plant in loamy soil\n"
+            "to grow Nanab."),
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
-        .battleUsage = EFFECT_ITEM_RESTORE_HP,
-        .effect = gItemEffect_SodaPop,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 10,
         .iconPic = gItemIcon_NanabBerry,
         .iconPalette = gItemIconPalette_NanabBerry,
@@ -10041,17 +10037,13 @@ const struct Item gItemsInfo[] =
         .name = ITEM_NAME("Pinap Berry"),
         .pluralName = ITEM_PLURAL_NAME("Pinap Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
-        .holdEffect = HOLD_EFFECT_RESTORE_HP,
-        .holdEffectParam = 70,
         .description = COMPOUND_STRING(
-            "A hold item that\n"
-            "restores 70 HP in\n"
-            "battle."),
+            "{POKEBLOCK} ingredient.\n"
+            "Plant in loamy soil\n"
+            "to grow Pinap."),
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
-        .battleUsage = EFFECT_ITEM_RESTORE_HP,
-        .effect = gItemEffect_Lemonade,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 10,
         .iconPic = gItemIcon_PinapBerry,
         .iconPalette = gItemIconPalette_PinapBerry,
