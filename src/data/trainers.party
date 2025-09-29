@@ -3232,43 +3232,55 @@ Music: Elite Four
 Double Battle: No
 AI: Sidney
 Mugshot: Purple
+Party Size: 4
 
 /* #EliteFour */
 
 Honchkrow @ Black Glasses
 Level: 10
-Ability: Super Luck
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Brave Bird
+Ability: Moxie
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Tailwind
 - Sucker Punch
-- Night Slash
-- U Turn
+- Taunt
+- Drill Peck
 
 Weavile @ Black Glasses
 Level: 10
 Ability: Pressure
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Icicle Crash
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 - Ice Shard
 - Night Slash
-- Screech
+- Swords Dance
+- Fake Out
+
+Houndoom @ Black Glasses
+Level: 10
+Ability: Unnerve
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Nasty Plot
+- Flamethrower
+- Sludge Bomb
+- Dark Pulse
 
 Cacturne @ Black Glasses
 Level: 10
-Ability: Sand Veil
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Seed Bomb
+Ability: Water Absorb
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Leech Seed
+- Spiky Shield
 - Sucker Punch
-- Superpower
-- Swords Dance
+- Energy Ball
 
 Tyranitar @ Black Glasses
 Level: 10
 Ability: Unnerve
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Stone Edge
+Tags: Ace
 - Crunch
-- Fire Punch
+- Stone Edge
+- Roar
 - Dragon Dance
 
 === TRAINER_PHOEBE ===
@@ -3280,26 +3292,46 @@ Music: Elite Four
 Double Battle: No
 AI: Phoebe
 Mugshot: Green
+Party Size: 4
 
 /* #EliteFour */
+
+Sableye @ Spell Tag
+Level: 10
+Ability: Prankster
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Knock Off
+- Confuse Ray
+- Taunt
+- Will O Wisp
 
 Mismagius @ Spell Tag
 Level: 10
 Ability: Levitate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Shadow Ball
-- Curse
-- Pain Split
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Confuse Ray
+- Hex
+- Will O Wisp
+- Dazzling Gleam
+
+Shedinja @ Spell Tag
+Level: 10
+Ability: Wonder Guard
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Shadow Sneak
+- Confuse Ray
+- X Scissor
 - Will O Wisp
 
 Banette @ Spell Tag
 Level: 10
-Ability: Insomnia
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Shadow Force
-- Sucker Punch
-- Destiny Bond
+Ability: Cursed Body
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Phantom Force
+- Power Up Punch
 - Will O Wisp
+- Confuse Ray
 
 Dusknoir @ Spell Tag
 Level: 10
@@ -3314,8 +3346,9 @@ Gengar @ Spell Tag
 Level: 10
 Ability: Cursed Body
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Ace
+- Confuse Ray
 - Hex
-- Sludge Bomb
 - Focus Blast
 - Will O Wisp
 
@@ -3328,8 +3361,37 @@ Music: Elite Four
 Double Battle: No
 AI: Glacia
 Mugshot: Pink
+Party Size: 4
 
 /* #EliteFour */
+
+Weavile @ Never Melt Ice
+Level: 10
+Ability: Pressure
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Ice Shard
+- Snowscape
+- Taunt
+- Fake Out
+
+Cloyster @ Never Melt Ice
+Level: 10
+Ability: Skill Link
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Icicle Spear
+- Razor Shell
+- Shell Smash
+- Snowscape
+
+Jynx @ Never Melt Ice
+Level: 10
+Ability: Oblivious
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Psyshock
+- Snowscape
+- Frost Breath
+- Nasty Plot
 
 Lapras @ Never Melt Ice
 Level: 10
@@ -3337,35 +3399,27 @@ Ability: Shell Armor
 IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Surf
 - Ice Beam
-- Perish Song
 - Snowscape
+- Bulldoze
 
-Jynx @ Never Melt Ice
+Walrein @ Never Melt Ice
 Level: 10
-Ability: Oblivious
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+Ability: Ice Body
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Encore
+- Snowscape
 - Ice Beam
-- Psychic
-- Nasty Plot
-- Lovely Kiss
+- Surf
 
 Mamoswine @ Never Melt Ice
 Level: 10
 Ability: Snow Cloak
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
 - Ice Shard
 - Earthquake
-- Superpower
 - Snowscape
-
-Walrein @ Never Melt Ice
-Level: 10
-Ability: Thick Fat
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Body Slam
-- Ice Beam
-- Sheer Cold
+- Icicle Crash
 
 === TRAINER_DRAKE ===
 Name: Drake
@@ -3376,43 +3430,59 @@ Music: Elite Four
 Double Battle: No
 AI: Drake
 Mugshot: Blue
+Party Size: 4
+Pool Pick Functions: Selections
 
 /* #EliteFour */
 
 Flygon @ Dragon Fang
 Level: 10
 Ability: Levitate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Dragon Claw
-- Stone Edge
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Dragon Tail
 - Earthquake
+- Roost
 - U Turn
+
+Kingdra @ Dragon Fang
+Level: 10
+Ability: Sniper
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Yawn
+- Ice Beam
+- Flash Cannon
+- Waterfall
 
 Altaria @ Dragon Fang
 Level: 10
 Ability: Natural Cure
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Dragon Pulse
-- Acrobatics
-- Flamethrower
-- Roost
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Pluck
+- Perish Song
+- Steel Wing
+- Pursuit
 
 Dragonite @ Dragon Fang
 Level: 10
 Ability: Multiscale
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Dragon Claw
-- Extreme Speed
-- Earthquake
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Dragon Rush
 - Dragon Dance
+- Roost
+- Power Up Punch
 
 Salamence @ Dragon Fang
 Level: 10
 Ability: Intimidate
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 4
 - Dragon Claw
-- Fly
-- Fire Fang
+- Roost
+- Brick Break
 - Dragon Dance
 
 === TRAINER_ROXANNE_1 ===
@@ -4099,44 +4169,119 @@ Music: Male
 Double Battle: No
 AI: Wallace
 Mugshot: Blue
+Party Size: 4
 
 /* #Postgame */
+
+Politoed @ Damp Rock
+Level: 10
+Ability: Drizzle
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Mud Bomb
+- Scald
+- Ice Beam
+- Encore
+
+Pelipper @ Damp Rock
+Level: 10
+Ability: Drizzle
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Hurricane
+- Tailwind
+- Scald
+- U Turn
 
 Ludicolo @ Mystic Water
 Level: 10
 Ability: Swift Swim
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
+Tags: Set 2
+- Energy Ball
 - Fake Out
+- Knock off
 - Hydro Pump
-- Rain Dance
 
 Wailord @ Mystic Water
 Level: 10
 Ability: Oblivious
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Heavy Slam
+Tags: Set 2
 - Water Spout
+- Heavy Slam
 - Ice Beam
-- Aqua Ring
+- Earthquake
+
+Tentacruel @ Mystic Water
+Level: 10
+Ability: Rain Dish
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 2
+- Sludge Wave
+- Toxic
+- Ice Beam
+- Scald
+
+Gyarados @ Mystic Water
+Level: 10
+Ability: Intimidate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 2
+- Dragon Dance
+- Taunt
+- Earthquake
+- Waterfall
 
 Whiscash @ Mystic Water
 Level: 10
 Ability: Oblivious
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Waterfall
-- Hurricane
+Tags: Set 2
 - Earthquake
+- Stone Edge
+- Waterfall
 - Dragon Dance
+
+Blastoise @ Mystic Water
+Level: 10
+Ability: Rain Dish
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 3
+- Flash Cannon
+- Iron Defense
+- Scald
+- Ice Beam
+
+Feraligatr @ Mystic Water
+Level: 10
+Ability: Sheer Force
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 3
+- Crunch
+- Waterfall
+- Dragon Dance
+- Ice Punch
+
+Swampert @ Mystic Water
+Level: 10
+Ability: Damp
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 3
+- Hammer Arm
+- Rock Slide
+- Earthquake
+- Waterfall
 
 Milotic (F) @ Mystic Water
 Level: 10
 Ability: Marvel Scale
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Ace
 - Recover
-- Attract
 - Ice Beam
 - Scald
+- Dragon Breath
 
 === TRAINER_ANDREW ===
 Name: Andrew
@@ -5807,50 +5952,68 @@ Party Size: 4
 
 /* #WallyTwo */
 
-Jolteon @ Magnet
-Level: 10
-Ability: Volt Absorb
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Thunder Wave
-- Shadow Ball
-- Volt Switch
-- Wish
-
 Vaporeon @ Mystic Water
 Level: 10
 Ability: Water Absorb
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Aurora Beam
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 - Acid Armor
-- Muddy Water
-- Wish
+- Ice Beam
+- Scald
+- Yawn
+
+Jolteon @ Magnet
+Level: 10
+Ability: Volt Absorb
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Discharge
+- Shadow Ball
+- Volt Switch
+- Yawn
 
 Flareon @ Charcoal
 Level: 10
 Ability: Flash Fire
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 - Quick Attack
 - Flare Blitz
 - Retaliate
-- Wish
+- Yawn
 
 Espeon @ Twisted Spoon
 Level: 10
 Ability: Synchronize
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 - Psychic
 - Dazzling Gleam
 - Calm Mind
-- Wish
+- Yawn
 
 Umbreon @ Black Glasses
 Level: 10
 Ability: Synchronize
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 - Confuse Ray
 - Snarl
-- Charm
-- Wish
+- Taunt
+- Yawn
+
+Leafeon @ Miracle Seed
+Level: 10
+Ability: Leaf Guard
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Quick Attack
+- Swords Dance
+- Leaf Blade
+- Yawn
+
+Glaceon @ Never Melt Ice
+Level: 10
+Ability: Snow Cloak
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Icy Wind
+- Ice Beam
+- Shadow Ball
+- Yawn
 
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
 Name: Brendan
@@ -7310,7 +7473,7 @@ AI: Easy Wally
 
 /* #WallyOne */
 
-Eevee @ Nanab Berry
+Eevee @ Sitrus Berry
 Level: 10
 Ability: Adaptability
 IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
@@ -10554,6 +10717,7 @@ Music: Male
 Double Battle: No
 AI: Champion
 Mugshot: Yellow
+Party Size: 4
 
 /* #EliteFour #Champion */
 
@@ -10561,35 +10725,88 @@ Forretress @ Metal Coat
 Level: 10
 Ability: Sturdy
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Lead
 - Toxic Spikes
 - Explosion
 - Gyro Ball
 - Volt Switch
+
+Magnezone @ Metal Coat
+Level: 10
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flash Cannon
+- Thunderbolt
+- Explosion
+- Volt Switch
+
+Steelix @ Metal Coat
+Level: 10
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stealth Rock
+- Roar
+- Earthquake
+- Heavy Slam
+
+/*
+Rhyperior @ Sitrus Berry
+Level: 10
+Ability: Solid Rock
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Drill Run
+- Stone Edge
+- Megahorn
+- Ice Punch
+*/
 
 Scizor @ Metal Coat
 Level: 10
 Ability: Technician
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bullet Punch
-- U Turn
-- Roost
+- Pursuit
 - Swords Dance
+- U Turn
 
-Steelix @ Metal Coat
+Skarmory @ Metal Coat
 Level: 10
+Ability: Sturdy
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Gyro Ball
-- Earthquake
-- Curse
+- Spikes
+- Sandstorm
 - Roar
+- Drill Peck
+
+/*
+Tyranitar @ Sitrus Berry
+Level: 10
+Ability: Sand Stream
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crunch
+- Stone Edge
+- Aerial Ace
+- Pursuit
+*/
+
+Aggron @ Metal Coat
+Level: 10
+Ability: Rock Head
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Roar
+- Iron Tail
+- Double Edge
+- Head Smash
 
 Metagross @ Metal Coat
 Level: 10
+Ability: Clear Body
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Meteor Mash
+Tags: Ace
+- Bullet Punch
 - Zen Headbutt
+- Meteor Mash
 - Hammer Arm
-- Rock Polish
 
 === TRAINER_ANABEL ===
 Name: Anabel
@@ -20291,7 +20508,7 @@ Ability: Swift Swim
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Set 2
 - Hex
-- Sludge Bomb
+- Sludge Wave
 - Scald
 - Knock Off
 
