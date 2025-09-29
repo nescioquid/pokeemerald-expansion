@@ -5860,17 +5860,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Very Easy Rival
-
-/* #RivalOne */
-
-Treecko
-Level: 5
-Ability: Overgrow
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Leer
-- Quick Attack
-- Mega Drain
-- Pursuit
+Party Size: 1
+Copy Pool: POOL_RIVAL_ROUTE_103
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
 Name: Brendan
@@ -5880,44 +5871,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalThree */
-
-Nidoking @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Thrash
-- Bulldoze
-- Poison Jab
-
-Fearow @ Chilan Berry
-Level: 10
-Ability: Keen Eye
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Drill Run
-- Pluck
-- Pursuit
-- Steel Wing
-
-Munchlax @ Nanab Berry
-Level: 10
-Ability: Pickup
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Lick
-- Body Slam
-- Belch
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Night Slash
-- Leaf Blade
-- Dual Chop
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_110
+Pool Pick Functions: Selections
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: Brendan
@@ -5927,44 +5883,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFour */
-
-Nidoking @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Thrash
-- Earthquake
-- Shadow Claw
-
-Snorlax @ Pinap Berry
-Level: 10
-Ability: Immunity
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Yawn
-- Body Slam
-- Belch
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Mud Bomb
-- Rock Slide
-- Muddy Water
-- Take Down
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Night Slash
-- Leaf Blade
-- X Scissor
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_119
+Pool Pick Functions: Selections
 
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
 Name: Brendan
@@ -5974,17 +5895,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Very Easy Rival
-
-/* #RivalOne */
-
-Torchic
-Level: 5
-Ability: Blaze
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Ember
-- Peck
-- Sand Attack
-- Quick Attack
+Party Size: 1
+Copy Pool: POOL_RIVAL_ROUTE_103
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
 Name: Brendan
@@ -5994,44 +5906,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalThree */
-
-Nidoking @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Thrash
-- Bulldoze
-- Poison Jab
-
-Fearow @ Chilan Berry
-Level: 10
-Ability: Keen Eye
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Drill Run
-- Pluck
-- Pursuit
-- Steel Wing
-
-Munchlax @ Nanab Berry
-Level: 10
-Ability: Pickup
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Lick
-- Body Slam
-- Belch
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Double Kick
-- Bulk Up
-- Blaze Kick
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_110
+Pool Pick Functions: Selections
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: Brendan
@@ -6041,44 +5918,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFour */
-
-Nidoking @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Thrash
-- Earthquake
-- Shadow Claw
-
-Snorlax @ Pinap Berry
-Level: 10
-Ability: Immunity
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Yawn
-- Body Slam
-- Belch
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Night Slash
-- Leaf Blade
-- X Scissor
-- Rock Slide
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Double Kick
-- Bulk Up
-- Blaze Kick
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_119
+Pool Pick Functions: Selections
 
 === TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
 Name: Brendan
@@ -6088,17 +5930,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Very Easy Rival
-
-/* #RivalOne */
-
-Mudkip
-Level: 5
-Ability: Torrent
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Water Gun
-- Mud Slap
-- Bide
-- Rock Throw
+Party Size: 1
+Copy Pool: POOL_RIVAL_ROUTE_103
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
 Name: Brendan
@@ -6108,44 +5941,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalThree */
-
-Nidoking @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Thrash
-- Bulldoze
-- Poison Jab
-
-Fearow @ Chilan Berry
-Level: 10
-Ability: Keen Eye
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Drill Run
-- Pluck
-- Pursuit
-- Steel Wing
-
-Munchlax @ Nanab Berry
-Level: 10
-Ability: Pickup
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Lick
-- Body Slam
-- Belch
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Mud Shot
-- Mud Bomb
-- Rock Slide
-- Muddy Water
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_110
+Pool Pick Functions: Selections
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
 Name: Brendan
@@ -6155,44 +5953,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFour */
-
-Nidoking @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Thrash
-- Earthquake
-- Shadow Claw
-
-Snorlax @ Pinap Berry
-Level: 10
-Ability: Immunity
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Yawn
-- Body Slam
-- Belch
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Double Kick
-- Bulk Up
-- Blaze Kick
-- Rock Slide
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Mud Bomb
-- Rock Slide
-- Muddy Water
-- Take Down
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_119
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_ROUTE_103_MUDKIP ===
 Name: May
@@ -6202,17 +5965,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Very Easy Rival
-
-/* #RivalOne */
-
-Treecko
-Level: 5
-Ability: Overgrow
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Leer
-- Quick Attack
-- Mega Drain
-- Pursuit
+Party Size: 1
+Copy Pool: POOL_RIVAL_ROUTE_103
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
 Name: May
@@ -6222,44 +5976,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalThree */
-
-Nidoqueen @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Body Slam
-- Bulldoze
-- Poison Jab
-
-Dodrio @ Chilan Berry
-Level: 10
-Ability: Early Bird
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Pursuit
-- Pluck
-- Tri Attack
-- Steel Wing
-
-Clefairy @ Chilan Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Encore
-- Cosmic Power
-- Thunder Wave
-- Dazzling Gleam
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Night Slash
-- Leaf Blade
-- Dual Chop
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_110
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: May
@@ -6269,44 +5988,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFour */
-
-Nidoqueen @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Body Slam
-- Earthquake
-- Shadow Claw
-
-Clefable @ Pinap Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Encore
-- Moonblast
-- Psychic
-- Thunder Wave
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Mud Bomb
-- Rock Slide
-- Muddy Water
-- Take Down
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Night Slash
-- Leaf Blade
-- X Scissor
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_119
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_ROUTE_103_TREECKO ===
 Name: May
@@ -6316,17 +6000,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Very Easy Rival
-
-/* #RivalOne */
-
-Torchic
-Level: 5
-Ability: Blaze
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Ember
-- Peck
-- Sand Attack
-- Quick Attack
+Party Size: 1
+Copy Pool: POOL_RIVAL_ROUTE_103
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
 Name: May
@@ -6336,44 +6011,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalThree */
-
-Nidoqueen @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Body Slam
-- Bulldoze
-- Poison Jab
-
-Dodrio @ Chilan Berry
-Level: 10
-Ability: Early Bird
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Pursuit
-- Pluck
-- Tri Attack
-- Steel Wing
-
-Clefairy @ Chilan Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Encore
-- Cosmic Power
-- Thunder Wave
-- Dazzling Gleam
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Double Kick
-- Bulk Up
-- Blaze Kick
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_110
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
 Name: May
@@ -6383,44 +6023,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFour */
-
-Nidoqueen @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Body Slam
-- Earthquake
-- Shadow Claw
-
-Clefable @ Pinap Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Encore
-- Moonblast
-- Psychic
-- Thunder Wave
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Night Slash
-- Leaf Blade
-- X Scissor
-- Rock Slide
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Double Kick
-- Bulk Up
-- Blaze Kick
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_119
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_ROUTE_103_TORCHIC ===
 Name: May
@@ -6430,17 +6035,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Very Easy Rival
-
-/* #RivalOne */
-
-Mudkip
-Level: 5
-Ability: Torrent
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Water Gun
-- Mud Slap
-- Bide
-- Rock Throw
+Party Size: 1
+Copy Pool: POOL_RIVAL_ROUTE_103
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
 Name: May
@@ -6450,44 +6046,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalThree */
-
-Nidoqueen @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Body Slam
-- Bulldoze
-- Poison Jab
-
-Dodrio @ Chilan Berry
-Level: 10
-Ability: Early Bird
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Pursuit
-- Pluck
-- Tri Attack
-- Steel Wing
-
-Clefairy @ Chilan Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Encore
-- Cosmic Power
-- Thunder Wave
-- Dazzling Gleam
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Mud Shot
-- Mud Bomb
-- Rock Slide
-- Muddy Water
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_110
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: May
@@ -6497,44 +6058,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFour */
-
-Nidoqueen @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Body Slam
-- Earthquake
-- Shadow Claw
-
-Clefable @ Pinap Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Encore
-- Moonblast
-- Psychic
-- Thunder Wave
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Double Kick
-- Bulk Up
-- Blaze Kick
-- Rock Slide
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Mud Bomb
-- Rock Slide
-- Muddy Water
-- Take Down
+Party Size: 4
+Copy Pool: POOL_RIVAL_ROUTE_119
+Pool Pick Functions: Selections
 
 === TRAINER_ISAAC_1 ===
 Name: Isaac
@@ -7040,44 +6566,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Easy Rival
-
-/* #RivalTwo */
-
-Fearow @ Chilan Berry
-Level: 10
-Ability: Keen Eye
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Drill Run
-- Pluck
-- Pursuit
-- Agility
-
-Nidorino @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Leer
-- Double Kick
-- Dig
-- Poison Jab
-
-Munchlax @ Chilan Berry
-Level: 10
-Ability: Pickup
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Lick
-- Body Slam
-- Belch
-
-Combusken @ Chilan Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Double Kick
-- Flame Charge
-- Quick Attack
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_RUSTBORO
+Pool Pick Functions: Selections
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: Brendan
@@ -7087,44 +6578,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Easy Rival
-
-/* #RivalTwo */
-
-Fearow @ Chilan Berry
-Level: 10
-Ability: Keen Eye
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Drill Run
-- Pluck
-- Pursuit
-- Agility
-
-Nidorino @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Leer
-- Double Kick
-- Dig
-- Poison Jab
-
-Munchlax @ Chilan Berry
-Level: 10
-Ability: Pickup
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Lick
-- Body Slam
-- Belch
-
-Grovyle @ Chilan Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Quick Attack
-- Pursuit
-- Leaf Blade
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_RUSTBORO
+Pool Pick Functions: Selections
 
 === TRAINER_PAXTON ===
 Name: Paxton
@@ -7226,44 +6682,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Easy Rival
-
-/* #RivalTwo */
-
-Fearow @ Chilan Berry
-Level: 10
-Ability: Keen Eye
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Drill Run
-- Pluck
-- Pursuit
-- Agility
-
-Nidorino @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Leer
-- Double Kick
-- Dig
-- Poison Jab
-
-Munchlax @ Chilan Berry
-Level: 10
-Ability: Pickup
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Lick
-- Body Slam
-- Belch
-
-Marshtomp @ Chilan Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Water Gun
-- Mud Shot
-- Mud Bomb
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_RUSTBORO
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
 Name: May
@@ -7273,44 +6694,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Easy Rival
-
-/* #RivalTwo */
-
-Dodrio @ Chilan Berry
-Level: 10
-Ability: Early Bird
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Pursuit
-- Pluck
-- Tri Attack
-- Acupressure
-
-Nidorina @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Tail Whip
-- Double Kick
-- Dig
-- Poison Jab
-
-Clefairy @ Chilan Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Disarming Voice
-- Encore
-- Sing
-- Wake Up Slap
-
-Grovyle @ Chilan Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Quick Attack
-- Pursuit
-- Leaf Blade
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_RUSTBORO
+Pool Pick Functions: Selections
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
 Name: Maxie
@@ -8149,44 +7535,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFive */
-
-Nidoking @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Megahorn
-- Earthquake
-- Shadow Claw
-
-Snorlax @ Pinap Berry
-Level: 10
-Ability: Immunity
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Body Slam
-- Belly Drum
-- Crunch
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Rock Slide
-- Muddy Water
-- Take Down
-- Earthquake
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Night Slash
-- Leaf Blade
-- X Scissor
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_LILYCOVE
+Pool Pick Functions: Selections
 
 === TRAINER_BRENDAN_LILYCOVE_TREECKO ===
 Name: Brendan
@@ -8196,44 +7547,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFive */
-
-Nidoking @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Megahorn
-- Earthquake
-- Shadow Claw
-
-Snorlax @ Pinap Berry
-Level: 10
-Ability: Immunity
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Body Slam
-- Belly Drum
-- Crunch
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Night Slash
-- Leaf Blade
-- X Scissor
-- Rock Slide
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Blaze Kick
-- Sky Uppercut
-- Swords Dance
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_LILYCOVE
+Pool Pick Functions: Selections
 
 === TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
 Name: Brendan
@@ -8243,44 +7559,9 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFive */
-
-Nidoking @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Megahorn
-- Earthquake
-- Shadow Claw
-
-Snorlax @ Pinap Berry
-Level: 10
-Ability: Immunity
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Recycle
-- Body Slam
-- Belly Drum
-- Crunch
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Blaze Kick
-- Sky Uppercut
-- Swords Dance
-- Rock Slide
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Rock Slide
-- Muddy Water
-- Take Down
-- Earthquake
+Party Size: 4
+Copy Pool: POOL_RIVAL_LILYCOVE
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_LILYCOVE_MUDKIP ===
 Name: May
@@ -8290,44 +7571,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFive */
-
-Nidoqueen @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Superpower
-- Earthquake
-- Shadow Claw
-
-Clefable @ Pinap Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Encore
-- Moonblast
-- Calm Mind
-- Psychic
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Rock Slide
-- Muddy Water
-- Take Down
-- Earthquake
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Night Slash
-- Leaf Blade
-- X Scissor
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_LILYCOVE
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_LILYCOVE_TREECKO ===
 Name: May
@@ -8337,44 +7583,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFive */
-
-Nidoqueen @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Superpower
-- Earthquake
-- Shadow Claw
-
-Clefable @ Pinap Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Encore
-- Moonblast
-- Calm Mind
-- Psychic
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Night Slash
-- Leaf Blade
-- X Scissor
-- Rock Slide
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Blaze Kick
-- Sky Uppercut
-- Swords Dance
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_LILYCOVE
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_LILYCOVE_TORCHIC ===
 Name: May
@@ -8384,44 +7595,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Medium Rival
-
-/* #RivalFive */
-
-Nidoqueen @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Toxic Spikes
-- Superpower
-- Earthquake
-- Shadow Claw
-
-Clefable @ Pinap Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Encore
-- Moonblast
-- Calm Mind
-- Psychic
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Blaze Kick
-- Sky Uppercut
-- Swords Dance
-- Rock Slide
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Rock Slide
-- Muddy Water
-- Take Down
-- Earthquake
+Party Size: 4
+Copy Pool: POOL_RIVAL_LILYCOVE
+Pool Pick Functions: Selections
 
 === TRAINER_JONAH ===
 Name: Jonah
@@ -9571,44 +8747,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Easy Rival
-
-/* #RivalTwo */
-
-Dodrio @ Chilan Berry
-Level: 10
-Ability: Early Bird
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Pursuit
-- Pluck
-- Tri Attack
-- Acupressure
-
-Nidorina @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Tail Whip
-- Double Kick
-- Dig
-- Poison Jab
-
-Clefairy @ Chilan Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Disarming Voice
-- Encore
-- Sing
-- Wake Up Slap
-
-Combusken @ Chilan Berry
-Level: 10
-Ability: Blaze
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Double Kick
-- Flame Charge
-- Quick Attack
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_RUSTBORO
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
 Name: May
@@ -9618,44 +8759,9 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Easy Rival
-
-/* #RivalTwo */
-
-Dodrio @ Chilan Berry
-Level: 10
-Ability: Early Bird
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Pursuit
-- Pluck
-- Tri Attack
-- Acupressure
-
-Nidorina @ Chilan Berry
-Level: 10
-Ability: Poison Point
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Tail Whip
-- Double Kick
-- Dig
-- Poison Jab
-
-Clefairy @ Chilan Berry
-Level: 10
-Ability: Magic Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Disarming Voice
-- Encore
-- Sing
-- Wake Up Slap
-
-Marshtomp @ Chilan Berry
-Level: 10
-Ability: Torrent
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Water Gun
-- Mud Shot
-- Mud Bomb
-- Rock Slide
+Party Size: 4
+Copy Pool: POOL_RIVAL_RUSTBORO
+Pool Pick Functions: Selections
 
 === TRAINER_ROXANNE_2 ===
 Name: Roxanne
@@ -11859,13 +10965,25 @@ Music: Male
 Double Battle: No
 AI: Hard Rival
 Mugshot: Green
+Party Size: 4
 
 /* #RivalSix #Postgame */
 
-Snorlax @ Pinap Berry
+Clefable @ Sitrus Berry
+Level: 10
+Ability: Magic Guard
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Lead
+- Encore
+- Moonblast
+- Calm Mind
+- Psychic
+
+Snorlax @ Sitrus Berry
 Level: 10
 Ability: Immunity
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Lead
 - Recycle
 - Body Slam
 - Belly Drum
@@ -11907,17 +11025,29 @@ Music: Female
 Double Battle: No
 AI: Hard Rival
 Mugshot: Green
+Party Size: 4
 
 /* #RivalSix #Postgame */
 
-Clefable @ Pinap Berry
+Clefable @ Sitrus Berry
 Level: 10
 Ability: Magic Guard
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Lead
 - Encore
 - Moonblast
 - Calm Mind
 - Psychic
+
+Snorlax @ Sitrus Berry
+Level: 10
+Ability: Immunity
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Lead
+- Recycle
+- Body Slam
+- Belly Drum
+- Crunch
 
 Sceptile @ Occa Berry
 Level: 10
@@ -21440,6 +20570,427 @@ Tags: Ace
 - Rest
 - Waterfall
 - Outrage
+
+/* Rival pools */
+
+=== POOL_RIVAL_ROUTE_103 ===
+Name: Pool
+Pic: Brendan
+Party Size: 1
+
+/* #RivalOne */
+
+/*
+405 Kanto Stage 1 Starters
+390 Munchlax
+385 Lickitung
+377 Farfetchd
+360 Aipom
+360 Spinda
+349 Pidgeotto
+330 Teddiursa
+325 Eevee
+323 Clefairy
+320 Pikachu
+318 Grass Starters
+314 Water Starters
+310 Hoenn Starters
+310 Doduo
+310 Swablu
+309 Fire Starters
+300 Dratini
+300 Snubbull
+300 Larvitar
+300 Bagon
+290 Meowth
+288 Ditto
+280 Slakoth
+270 Jigglypuff
+270 Taillow
+262 Spearow
+262 Hoothoot
+253 Rattata
+251 Pidgey
+250 Smeargle
+245 Togepi
+240 Zigzagoon
+215 Sentret
+*/
+
+Treecko @ Occa Berry
+Level: 5
+Ability: Overgrow
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Leer
+- Quick Attack
+- Pursuit
+- Giga Drain
+
+Torchic @ Passho Berry
+Level: 5
+Ability: Blaze
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Growl
+- Ember
+- Peck
+- Quick Attack
+
+Mudkip @ Rindo Berry
+Level: 5
+Ability: Torrent
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Growl
+- Water Gun
+- Mud Slap
+- Rock Throw
+
+=== POOL_RIVAL_RUSTBORO ===
+Name: Pool
+Pic: Brendan
+Party Size: 1
+
+/* #RivalTwo */
+
+Fearow @ Chilan Berry
+Level: 10
+Ability: Keen Eye
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Drill Run
+- Pluck
+- Pursuit
+- Agility
+
+Dodrio @ Chilan Berry
+Level: 10
+Ability: Early Bird
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Pursuit
+- Pluck
+- Tri Attack
+- Acupressure
+
+Nidorina @ Chilan Berry
+Level: 10
+Ability: Poison Point
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Tail Whip
+- Double Kick
+- Dig
+- Poison Jab
+
+Nidorino @ Chilan Berry
+Level: 10
+Ability: Poison Point
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Leer
+- Double Kick
+- Dig
+- Poison Jab
+
+Clefairy @ Chilan Berry
+Level: 10
+Ability: Magic Guard
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Disarming Voice
+- Encore
+- Sing
+- Wake Up Slap
+
+Munchlax @ Chilan Berry
+Level: 10
+Ability: Pickup
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Recycle
+- Lick
+- Body Slam
+- Belch
+
+Grovyle @ Occa Berry
+Level: 10
+Ability: Overgrow
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Quick Attack
+- Pursuit
+- Leaf Blade
+- Rock Slide
+
+Combusken @ Passho Berry
+Level: 10
+Ability: Blaze
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Double Kick
+- Flame Charge
+- Quick Attack
+- Rock Slide
+
+Marshtomp @ Rindo Berry
+Level: 10
+Ability: Torrent
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Water Gun
+- Mud Shot
+- Mud Bomb
+- Rock Slide
+
+=== POOL_RIVAL_ROUTE_110 ===
+Name: Pool
+Pic: Brendan
+Party Size: 1
+
+/* #RivalThree */
+
+Nidoqueen @ Chilan Berry
+Level: 10
+Ability: Poison Point
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Toxic Spikes
+- Body Slam
+- Bulldoze
+- Poison Jab
+
+Nidoking @ Chilan Berry
+Level: 10
+Ability: Poison Point
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Toxic Spikes
+- Thrash
+- Bulldoze
+- Poison Jab
+
+Fearow @ Chilan Berry
+Level: 10
+Ability: Keen Eye
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Drill Run
+- Pluck
+- Pursuit
+- Steel Wing
+
+Dodrio @ Chilan Berry
+Level: 10
+Ability: Early Bird
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Pursuit
+- Pluck
+- Tri Attack
+- Steel Wing
+
+Clefairy @ Sitrus Berry
+Level: 10
+Ability: Magic Guard
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Encore
+- Cosmic Power
+- Thunder Wave
+- Dazzling Gleam
+
+Munchlax @ Sitrus Berry
+Level: 10
+Ability: Pickup
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Recycle
+- Lick
+- Body Slam
+- Belch
+
+Sceptile @ Occa Berry
+Level: 10
+Ability: Overgrow
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Night Slash
+- Leaf Blade
+- Dual Chop
+- Rock Slide
+
+Blaziken @ Passho Berry
+Level: 10
+Ability: Blaze
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Double Kick
+- Bulk Up
+- Blaze Kick
+- Rock Slide
+
+Swampert @ Rindo Berry
+Level: 10
+Ability: Torrent
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Mud Shot
+- Mud Bomb
+- Rock Slide
+- Muddy Water
+
+=== POOL_RIVAL_ROUTE_119 ===
+Name: Pool
+Pic: Brendan
+Party Size: 1
+
+/* #RivalFour */
+
+Nidoqueen @ Chilan Berry
+Level: 10
+Ability: Poison Point
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Toxic Spikes
+- Body Slam
+- Earthquake
+- Shadow Claw
+
+Nidoking @ Chilan Berry
+Level: 10
+Ability: Poison Point
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Toxic Spikes
+- Thrash
+- Earthquake
+- Shadow Claw
+
+Clefable @ Sitrus Berry
+Level: 10
+Ability: Magic Guard
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Encore
+- Moonblast
+- Psychic
+- Thunder Wave
+
+Snorlax @ Sitrus Berry
+Level: 10
+Ability: Immunity
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Recycle
+- Yawn
+- Body Slam
+- Belch
+
+Sceptile @ Occa Berry
+Level: 10
+Ability: Overgrow
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Night Slash
+- Leaf Blade
+- X Scissor
+- Rock Slide
+
+Blaziken @ Passho Berry
+Level: 10
+Ability: Blaze
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Double Kick
+- Bulk Up
+- Blaze Kick
+- Rock Slide
+
+Swampert @ Rindo Berry
+Level: 10
+Ability: Torrent
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Mud Bomb
+- Rock Slide
+- Muddy Water
+- Take Down
+
+=== POOL_RIVAL_LILYCOVE ===
+Name: Pool
+Pic: Brendan
+Party Size: 1
+
+/* #RivalFive */
+
+Nidoqueen @ Chilan Berry
+Level: 10
+Ability: Poison Point
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Toxic Spikes
+- Superpower
+- Earthquake
+- Shadow Claw
+
+Nidoking @ Chilan Berry
+Level: 10
+Ability: Poison Point
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Lead
+- Toxic Spikes
+- Megahorn
+- Earthquake
+- Shadow Claw
+
+Clefable @ Sitrus Berry
+Level: 10
+Ability: Magic Guard
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 2
+- Encore
+- Moonblast
+- Calm Mind
+- Psychic
+
+Snorlax @ Sitrus Berry
+Level: 10
+Ability: Immunity
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Set 3
+- Recycle
+- Body Slam
+- Belly Drum
+- Crunch
+
+Sceptile @ Occa Berry
+Level: 10
+Ability: Overgrow
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Night Slash
+- Leaf Blade
+- X Scissor
+- Rock Slide
+
+Blaziken @ Passho Berry
+Level: 10
+Ability: Blaze
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Blaze Kick
+- Sky Uppercut
+- Swords Dance
+- Rock Slide
+
+Swampert @ Rindo Berry
+Level: 10
+Ability: Torrent
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Tags: Ace
+- Rock Slide
+- Muddy Water
+- Take Down
+- Earthquake
 
 /* Utility pools */
 
