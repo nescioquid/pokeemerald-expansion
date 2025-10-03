@@ -196,7 +196,7 @@ AI: Team Aqua
 Mightyena
 Level: 10
 Ability: Intimidate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Bite
 - Snarl
 - Scary Face
@@ -205,7 +205,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Grimer
 Level: 10
 Ability: Stench
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Disable
 - Mud Bomb
 - Sludge Bomb
@@ -214,7 +214,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Golbat
 Level: 10
 Ability: Inner Focus
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Bite
 - Wing Attack
 - Confuse Ray
@@ -290,7 +290,7 @@ AI: Team Aqua
 Mightyena
 Level: 10
 Ability: Intimidate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Bite
 - Snarl
 - Scary Face
@@ -299,7 +299,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Grimer
 Level: 10
 Ability: Stench
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Disable
 - Mud Bomb
 - Sludge Bomb
@@ -308,7 +308,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Golbat
 Level: 10
 Ability: Inner Focus
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Bite
 - Wing Attack
 - Confuse Ray
@@ -317,7 +317,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Sharpedo
 Level: 10
 Ability: Rough Skin
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Bite
 - Screech
 - Ice Fang
@@ -370,7 +370,7 @@ AI: Team Aqua
 Golbat
 Level: 10
 Ability: Inner Focus
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Confuse Ray
 - Air Cutter
 - Swift
@@ -379,7 +379,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Sharpedo
 Level: 10
 Ability: Rough Skin
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Bite
 - Aqua Jet
 - Screech
@@ -388,7 +388,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Grimer
 Level: 10
 Ability: Stench
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Poison Gas
 - Disable
 - Sludge
@@ -408,7 +408,7 @@ AI: Team Aqua
 Mightyena
 Level: 10
 Ability: Intimidate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Bite
 - Snarl
 - Embargo
@@ -417,7 +417,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Kingler
 Level: 10
 Ability: Shell Armor
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Harden
 - Bubble Beam
 - Mud Shot
@@ -426,7 +426,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Shuppet
 Level: 10
 Ability: Insomnia
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Shadow Sneak
 - Will O Wisp
 - Hex
@@ -435,7 +435,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Sharpedo
 Level: 10
 Ability: Rough Skin
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Bite
 - Aqua Jet
 - Screech
@@ -544,7 +544,7 @@ AI: Aqua Admin
 Kingler
 Level: 10
 Ability: Hyper Cutter
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Crabhammer
 - Dig
 - X Scissor
@@ -553,7 +553,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Muk
 Level: 10
 Ability: Stench
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Venom Drench
 - Gunk Shot
 - Acid Armor
@@ -562,7 +562,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Crobat
 Level: 10
 Ability: Inner Focus
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Cross Poison
 - Acrobatics
 - Confuse Ray
@@ -571,7 +571,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Machamp
 Level: 10
 Ability: No Guard
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dynamic Punch
 - Knock Off
 - Stone Edge
@@ -602,7 +602,7 @@ AI: Aqua Admin
 Mightyena
 Level: 10
 Ability: Intimidate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Howl
 - Crunch
 - Embargo
@@ -611,7 +611,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Golbat
 Level: 10
 Ability: Inner Focus
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Venoshock
 - Acrobatics
 - Mean Look
@@ -620,7 +620,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Banette
 Level: 10
 Ability: Insomnia
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Knock Off
 - Shadow Sneak
 - Embargo
@@ -629,7 +629,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Machoke
 Level: 10
 Ability: Guts
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Cross Chop
 - Knock Off
 - Rock Tomb
@@ -649,7 +649,7 @@ AI: Aqua Admin
 Mightyena
 Level: 10
 Ability: Intimidate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Howl
 - Crunch
 - Embargo
@@ -658,7 +658,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Crobat
 Level: 10
 Ability: Inner Focus
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Cross Poison
 - Acrobatics
 - Mean Look
@@ -667,7 +667,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Banette
 Level: 10
 Ability: Insomnia
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Knock Off
 - Shadow Sneak
 - Embargo
@@ -676,7 +676,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Machamp
 Level: 10
 Ability: Guts
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Cross Chop
 - Knock Off
 - Stone Edge
@@ -696,7 +696,7 @@ AI: Aqua Leader
 Pelipper @ Damp Rock
 Level: 10
 Ability: Drizzle
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Hurricane
 - Tailwind
 - U Turn
@@ -705,7 +705,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Muk
 Level: 10
 Ability: Stench
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Gunk Shot
 - Acid Armor
 - Shadow Sneak
@@ -714,7 +714,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Kingler
 Level: 10
 Ability: Hyper Cutter
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Crabhammer
 - Dig
 - X Scissor
@@ -723,7 +723,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Sharpedo
 Level: 10
 Ability: Speed Boost
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Ice Fang
 - Poison Fang
 - Crunch
@@ -3285,7 +3285,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tyranitar @ Black Glasses
 Level: 10
 Ability: Unnerve
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 Tags: Ace
 - Crunch
 - Stone Edge
@@ -3414,7 +3414,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Walrein @ Never Melt Ice
 Level: 10
 Ability: Ice Body
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 - Encore
 - Snowscape
 - Ice Beam
@@ -3423,7 +3423,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Mamoswine @ Never Melt Ice
 Level: 10
 Ability: Snow Cloak
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 Tags: Ace
 - Ice Shard
 - Earthquake
@@ -3477,7 +3477,7 @@ Tags: Set 2
 Dragonite @ Dragon Fang
 Level: 10
 Ability: Multiscale
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 Tags: Set 3
 - Dragon Rush
 - Dragon Dance
@@ -3487,7 +3487,7 @@ Tags: Set 3
 Salamence @ Dragon Fang
 Level: 10
 Ability: Intimidate
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 Tags: Set 4
 - Dragon Claw
 - Roost
@@ -3768,7 +3768,7 @@ AI: Winstrate
 Swellow @ Oran Berry
 Level: 10
 Ability: Guts
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Growl
 - Focus Energy
 - Quick Attack
@@ -3777,7 +3777,7 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 Linoone @ Oran Berry
 Level: 10
 Ability: Gluttony
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Play Rough
 - Tail Whip
 - Headbutt
@@ -3841,7 +3841,7 @@ AI: Winstrate
 Sunflora @ Oran Berry
 Level: 10
 Ability: Chlorophyll
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ingrain
 - Giga Drain
 - Petal Dance
@@ -3850,7 +3850,7 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 Jumpluff @ Oran Berry
 Level: 10
 Ability: Chlorophyll
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Fairy Wind
 - Poison Powder
 - Mega Drain
@@ -3962,7 +3962,7 @@ AI: Winstrate
 Heracross @ Oran Berry
 Level: 10
 Ability: Swarm
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Bullet Seed
 - Aerial Ace
 - Brick Break
@@ -5901,7 +5901,7 @@ AI: Magma Admin
 Mightyena
 Level: 10
 Ability: Intimidate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Taunt
 - Sucker Punch
 - Crunch
@@ -5910,7 +5910,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Dusclops
 Level: 10
 Ability: Pressure
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Pursuit
 - Will O Wisp
 - Curse
@@ -5919,7 +5919,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Machamp
 Level: 10
 Ability: Guts
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Cross Chop
 - Knock Off
 - Rock Slide
@@ -5964,7 +5964,7 @@ Party Size: 4
 Vaporeon @ Mystic Water
 Level: 10
 Ability: Water Absorb
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Acid Armor
 - Ice Beam
 - Scald
@@ -5973,7 +5973,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Jolteon @ Magnet
 Level: 10
 Ability: Volt Absorb
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Discharge
 - Shadow Ball
 - Volt Switch
@@ -5982,7 +5982,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Flareon @ Charcoal
 Level: 10
 Ability: Flash Fire
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Quick Attack
 - Flare Blitz
 - Retaliate
@@ -5991,7 +5991,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Espeon @ Twisted Spoon
 Level: 10
 Ability: Synchronize
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
 - Dazzling Gleam
 - Calm Mind
@@ -6000,7 +6000,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Umbreon @ Black Glasses
 Level: 10
 Ability: Synchronize
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Confuse Ray
 - Snarl
 - Taunt
@@ -6009,7 +6009,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Leafeon @ Miracle Seed
 Level: 10
 Ability: Leaf Guard
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Quick Attack
 - Swords Dance
 - Leaf Blade
@@ -6018,7 +6018,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Glaceon @ Never Melt Ice
 Level: 10
 Ability: Snow Cloak
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Icy Wind
 - Ice Beam
 - Shadow Ball
@@ -6802,7 +6802,7 @@ AI: Magma Admin
 Golbat
 Level: 10
 Ability: Inner Focus
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Wing Attack
 - Confuse Ray
 - Poison Fang
@@ -6811,7 +6811,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Mightyena
 Level: 10
 Ability: Intimidate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Snarl
 - Scary Face
 - Crunch
@@ -6820,7 +6820,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Dusclops
 Level: 10
 Ability: Pressure
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Pursuit
 - Will O Wisp
 - Curse
@@ -6829,7 +6829,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Machoke
 Level: 10
 Ability: Guts
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Low Sweep
 - Knock Off
 - Rock Slide
@@ -6884,7 +6884,7 @@ AI: Magma Leader
 Torkoal @ Heat Rock
 Level: 10
 Ability: Drought
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Lava Plume
 - Eruption
 - Solar Beam
@@ -6893,7 +6893,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Weezing
 Level: 10
 Ability: Levitate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sludge Bomb
 - Explosion
 - Thunderbolt
@@ -6902,7 +6902,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Marowak
 Level: 10
 Ability: Rock Head
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Double Edge
 - Belly Drum
 - Earthquake
@@ -6911,7 +6911,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Camerupt
 Level: 10
 Ability: Solid Rock
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Eruption
 - Lava Plume
 - Earthquake
@@ -6931,7 +6931,7 @@ AI: Magma Leader
 Torkoal
 Level: 10
 Ability: Drought
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Smokescreen
 - Lava Plume
 - Eruption
@@ -6940,7 +6940,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Weezing
 Level: 10
 Ability: Levitate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Smokescreen
 - Sludge Bomb
 - Explosion
@@ -6949,7 +6949,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Marowak
 Level: 10
 Ability: Rock Head
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Headbutt
 - Bone Rush
 - Aerial Ace
@@ -6958,7 +6958,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Camerupt
 Level: 10
 Ability: Solid Rock
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Eruption
 - Lava Plume
 - Yawn
@@ -7011,7 +7011,7 @@ AI: Winstrate
 Azumarill @ Oran Berry
 Level: 10
 Ability: Thick Fat
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Tail Whip
 - Aqua Tail
 - Play Rough
@@ -7020,7 +7020,7 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 Breloom @ Oran Berry
 Level: 10
 Ability: Effect Spore
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Stun Spore
 - Mega Drain
 - Headbutt
@@ -7029,7 +7029,7 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 Magcargo @ Oran Berry
 Level: 10
 Ability: Flame Body
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Yawn
 - Smog
 - Incinerate
@@ -7485,7 +7485,7 @@ AI: Easy Wally
 Eevee @ Sitrus Berry
 Level: 10
 Ability: Adaptability
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Quick Attack
 - Refresh
 - Charm
@@ -8465,7 +8465,7 @@ AI: Magma Admin
 Crobat
 Level: 10
 Ability: Inner Focus
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Cross Poison
 - Confuse Ray
 - Acrobatics
@@ -8474,7 +8474,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Mightyena
 Level: 10
 Ability: Intimidate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Taunt
 - Sucker Punch
 - Crunch
@@ -8483,7 +8483,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Dusclops
 Level: 10
 Ability: Pressure
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Pursuit
 - Will O Wisp
 - Curse
@@ -8492,7 +8492,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Machamp
 Level: 10
 Ability: Guts
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Cross Chop
 - Knock Off
 - Rock Slide
@@ -8523,7 +8523,7 @@ AI: Magma Leader
 Torkoal @ Heat Rock
 Level: 10
 Ability: Drought
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Lava Plume
 - Eruption
 - Solar Beam
@@ -8532,7 +8532,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Weezing
 Level: 10
 Ability: Levitate
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sludge Bomb
 - Explosion
 - Thunderbolt
@@ -8541,7 +8541,7 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 Camerupt
 Level: 10
 Ability: Solid Rock
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Eruption
 - Lava Plume
 - Earthquake
@@ -10733,7 +10733,7 @@ Party Size: 4
 Forretress @ Metal Coat
 Level: 10
 Ability: Sturdy
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 Tags: Lead
 - Toxic Spikes
 - Explosion
@@ -10743,7 +10743,7 @@ Tags: Lead
 Magnezone @ Metal Coat
 Level: 10
 Ability: Sturdy
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Flash Cannon
 - Thunderbolt
 - Explosion
@@ -10752,7 +10752,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Steelix @ Metal Coat
 Level: 10
 Ability: Sturdy
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Stealth Rock
 - Roar
 - Earthquake
@@ -10762,7 +10762,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Rhyperior @ Sitrus Berry
 Level: 10
 Ability: Solid Rock
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Drill Run
 - Stone Edge
 - Megahorn
@@ -10772,7 +10772,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Scizor @ Metal Coat
 Level: 10
 Ability: Technician
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Bullet Punch
 - Pursuit
 - Swords Dance
@@ -10781,7 +10781,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Skarmory @ Metal Coat
 Level: 10
 Ability: Sturdy
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Spikes
 - Sandstorm
 - Roar
@@ -10791,7 +10791,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Tyranitar @ Sitrus Berry
 Level: 10
 Ability: Sand Stream
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Crunch
 - Stone Edge
 - Aerial Ace
@@ -10801,7 +10801,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Aggron @ Metal Coat
 Level: 10
 Ability: Rock Head
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Roar
 - Iron Tail
 - Double Edge
@@ -12441,879 +12441,879 @@ Party Size: 1
 /*
 Bulbasaur
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Ivysaur
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Venusaur
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Charmander
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Charmeleon
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Charizard
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Squirtle
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Wartortle
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Blastoise
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Butterfree
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Beedrill /* (LGPE) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Pidgeot
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Rattata
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Pikachu
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Raichu /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Sandslash
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Nidoran F
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Nidorina
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Nidoqueen
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Nidoran M
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Nidorino
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Nidoking
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Vulpix
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Ninetales
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Wigglytuff /* (LGPE) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Golbat /* (LGPE) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Crobat
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Oddish
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Gloom
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Bellossom
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Paras
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Parasect
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Diglett (LGPE)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Dugtrio
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Persian
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Golduck
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Primeape /* (LGPE) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Growlithe
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Arcanine
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Poliwhirl
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Kadabra
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Alakazam /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Machoke
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Machamp /* (rematches) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Bellsprout
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Weepinbell
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Victreebel
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Tentacruel
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Graveler
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Golem /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Ponyta
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Rapidash
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Slowbro
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Slowking
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Magneton
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dodrio
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dewgong
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Muk
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Shellder
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Cloyster
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Haunter /* (LGPE) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Onix
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Krabby (LGPE master trainer)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Kingler
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Electrode
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Exeggcute
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Exeggutor
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Marowak
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Hitmonchan /* (LGPE) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Lickilicky
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Weezing /* (LGPE) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Rhyhorn
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Rhydon
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Rhyperior /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Chansey
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Tangela
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Kangaskhan
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Horsea
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Seadra
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Goldeen
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Seaking
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Staryu
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Starmie
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Scyther /* (LGPE) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Jynx /* (LGPE) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Electabuzz
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Magmar /* (LGPE master trainer) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Pinsir /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Tauros
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Magikarp
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Lapras /* (ORAS rematches) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Eevee
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Vaporeon
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Jolteon
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Flareon
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Snorlax /* (LGPE master trainer) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Dratini
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Dragonair
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dragonite /* (LGPE master trainer) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Meganium
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Typhlosion
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Feraligatr
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Lanturn
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Flaaffy
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Ampharos /* (rematches) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Marill
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Azumarill
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Sudowoodo
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Skiploom
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Quagsire
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Girafarig
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Ursaring
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Magcargo
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Skarmory
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Stantler
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Larvitar
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Linoone
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Ludicolo
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Shiftry
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Swellow
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Wingull
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Pelipper
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Gardevoir
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Masquerain /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Breloom /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Shedinja (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Slakoth
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Vigoroth
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Slaking
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Whismur
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Loudred
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Exploud (rematches)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Makuhita
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Hariyama (rematches)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Nosepass
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Skitty
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Delcatty
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Sableye
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Mawile
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Lairon
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Medicham
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Manectric
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Roselia
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Roserade (ORAS rematches)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Swalot (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Sharpedo
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Wailmer
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Wailord
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Numel
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Camerupt
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Torkoal
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Spinda
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Vibrava /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Cacturne
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Zangoose
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Seviper (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Lunatone
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Solrock
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Claydol
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Milotic
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Kecleon
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dusclops
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Tropius
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Absol
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Snorunt (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Froslass (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Bagon (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Purugly (ORAS rematches)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Darmanitan (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Sigilyph (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Vanillish (ORAS rematches)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Vanilluxe (ORAS rematches)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Chandelure (ORAS rematches)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Fraxure (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Haxorus (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Heatmor (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Talonflame (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 === POOL_DRAGON_TAMER ===
@@ -13395,296 +13395,296 @@ Party Size: 1
 
 Pidgeot /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Raichu /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Nidoqueen /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Nidoking /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Crobat /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Vileplume /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Bellossom /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Poliwrath /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Politoed /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Alakazam /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 
 /*
 Machoke
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Machamp
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 
 Victreebel /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Golem /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 
 Gengar /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 
 /*
 Hitmontop (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Rhyperior /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Blissey /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Kingdra /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Electivire /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Magmortar /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Porygon Z /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Dragonite /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 
 /*
 Chinchou
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Togekiss /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Ampharos /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Azumarill /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Jumpluff /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Mamoswine /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Tyranitar /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 
 /*
 Swellow
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Ludicolo /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Shiftry /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 /*
 Breloom
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Slaking /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Aggron /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 /*
 Makuhita
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Hariyama
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Meditite
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Medicham
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Manectric
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Roselia
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Flygon /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 /*
 Whiscash
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Dusknoir /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Walrein /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Salamence /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 
 Metagross /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 
 /*
 Riolu (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Lucario (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Gurdurr (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Conkeldurr (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Throh (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Sawk (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Hawlucha (ORAS)
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 === POOL_FISHERMAN ===
@@ -17571,81 +17571,81 @@ Party Size: 1
 
 Zubat
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Golbat
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Machop /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Machoke /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Grimer /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Muk /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Drowzee /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Hypno /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Krabby /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Kingler /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Poochyena
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Mightyena
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Wingull /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Pelipper /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Carvanha
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Sharpedo /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Wailmer
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Shuppet /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Banette /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === POOL_TEAM_MAGMA ===
 Name: Pool
@@ -17654,77 +17654,77 @@ Party Size: 1
 
 Zubat
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Golbat /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Machop /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Machoke /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Drowzee /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Hypno /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Cubone /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Marowak /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Koffing /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Weezing /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Poochyena
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Mightyena
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Numel
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Camerupt /* (ORAS) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Baltoy
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Torkoal /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Duskull /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dusclops /* (added) */
 Level: 5
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /* Gym pools */
 
@@ -17738,7 +17738,7 @@ Party Size: 1
 Geodude
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Rock Polish
 - Smack Down
@@ -17748,7 +17748,7 @@ Tags: Set 1
 Geodude
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Defense Curl
 - Rollout
@@ -17756,7 +17756,7 @@ Tags: Set 1
 Graveler
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Rock Polish
 - Smack Down
@@ -17766,7 +17766,7 @@ Tags: Set 2
 Graveler
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Defense Curl
 - Rollout
@@ -17774,7 +17774,7 @@ Tags: Set 2
 Onix
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 - Stealth Rock
 - Smack Down
@@ -17784,7 +17784,7 @@ Tags: Set 3
 Onix
 Level: 9
 Ability: Weak Armor
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 - Stealth Rock
 - Smack Down
@@ -17794,7 +17794,7 @@ Tags: Set 3
 Rhyhorn
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 - Chip Away
 - Smack Down
@@ -17804,7 +17804,7 @@ Tags: Set 4
 Larvitar
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 - Bite
 - Rock Slide
@@ -17819,7 +17819,7 @@ Party Size: 1
 Geodude
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Rock Polish
 - Smack Down
 - Bulldoze
@@ -17828,14 +17828,14 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Geodude
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Defense Curl
 - Rollout
 
 Aron
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Roar
 - Iron Head
 - Rock Slide
@@ -17849,7 +17849,7 @@ Party Size: 1
 Graveler @ Oran Berry
 Level: 10
 Ability: Sturdy
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Rollout
 - Bulldoze
@@ -17859,7 +17859,7 @@ Tags: Lead
 Onix @ Oran Berry
 Level: 10
 Ability: Sturdy
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Rock Tomb
 - Stealth Rock
@@ -17869,7 +17869,7 @@ Tags: Lead
 Rhyhorn @ Oran Berry
 Level: 10
 Ability: Lightning Rod
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Bulldoze
 - Rock Tomb
@@ -17879,7 +17879,7 @@ Tags: Lead
 Omanyte @ Oran Berry
 Level: 10
 Ability: Weak Armor
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Mud Shot
 - Ancient Power
@@ -17889,7 +17889,7 @@ Tags: Set 2
 Kabuto @ Oran Berry
 Level: 10
 Ability: Weak Armor
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Aqua Jet
 - Rock Tomb
@@ -17899,7 +17899,7 @@ Tags: Set 2
 Lileep @ Oran Berry
 Level: 10
 Ability: Storm Drain
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Ingrain
 - Ancient Power
@@ -17909,7 +17909,7 @@ Tags: Set 3
 Anorith @ Oran Berry
 Level: 10
 Ability: Battle Armor
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Bug Bite
 - Metal Claw
@@ -17976,7 +17976,7 @@ Party Size: 1
 Mankey
 Level: 9
 Ability: Defiant
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Thief
@@ -17985,7 +17985,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Primeape
 Level: 9
 Ability: Defiant
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Thief
@@ -17994,7 +17994,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Poliwhirl
 Level: 9
 Ability: Water Absorb
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Double Slap
 - Brick Break
 - Thief
@@ -18003,7 +18003,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Machop
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Knock Off
@@ -18012,7 +18012,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Machoke
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Knock Off
@@ -18026,7 +18026,7 @@ Party Size: 1
 Mankey
 Level: 9
 Ability: Defiant
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Thief
@@ -18035,7 +18035,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Primeape
 Level: 9
 Ability: Defiant
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Thief
@@ -18044,7 +18044,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Poliwhirl
 Level: 9
 Ability: Water Absorb
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Body Slam
 - Brick Break
 - Thief
@@ -18053,7 +18053,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Machop
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Knock Off
@@ -18062,7 +18062,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Machoke
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Knock Off
@@ -18071,7 +18071,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Krabby
 Level: 9
 Ability: Hyper Cutter
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Hone Claws
 - Brick Break
 - Sleep Talk
@@ -18080,7 +18080,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Kingler
 Level: 9
 Ability: Hyper Cutter
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Hone Claws
 - Brick Break
 - Sleep Talk
@@ -18094,7 +18094,7 @@ Party Size: 1
 Mankey
 Level: 9
 Ability: Defiant
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Thief
@@ -18103,7 +18103,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Primeape
 Level: 9
 Ability: Defiant
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Thief
@@ -18112,7 +18112,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Machop
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Knock Off
@@ -18121,7 +18121,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Machoke
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Focus Energy
 - Karate Chop
 - Knock Off
@@ -18144,7 +18144,7 @@ Party Size: 1
 Primeape @ Lum Berry
 Level: 10
 Ability: Defiant
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Cross Chop
 - Taunt
@@ -18154,7 +18154,7 @@ Tags: Lead
 Machoke @ Lum Berry
 Level: 10
 Ability: Guts
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Wake Up Slap
 - Knock Off
@@ -18164,7 +18164,7 @@ Tags: Set 2
 Breloom @ Lum Berry
 Level: 10
 Ability: Poison Heal
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Mach Punch
 - Bulk Up
@@ -18174,7 +18174,7 @@ Tags: Set 2
 Breloom @ Lum Berry
 Level: 10
 Ability: Poison Heal
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Spore
 - Leech Seed
@@ -18184,7 +18184,7 @@ Tags: Set 2
 Hitmonlee @ Lum Berry
 Level: 10
 Ability: Unburden
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Fake Out
 - Hi Jump Kick
@@ -18194,7 +18194,7 @@ Tags: Set 3
 Hitmonchan @ Lum Berry
 Level: 10
 Ability: Iron Fist
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Pursuit
 - Mach Punch
@@ -18204,7 +18204,7 @@ Tags: Set 3
 Hitmontop @ Lum Berry
 Level: 10
 Ability: Technician
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Fake Out
 - Rolling Kick
@@ -18249,7 +18249,7 @@ Party Size: 1
 Pikachu
 Level: 9
 Ability: Static
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Quick Attack
 - Nuzzle
@@ -18259,7 +18259,7 @@ Tags: Set 1
 Magnemite
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Thunder Wave
 - Flash Cannon
@@ -18269,7 +18269,7 @@ Tags: Set 2
 Magnemite
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Metal Sound
 - Flash Cannon
@@ -18279,7 +18279,7 @@ Tags: Set 2
 Magneton
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Thunder Wave
 - Flash Cannon
@@ -18289,7 +18289,7 @@ Tags: Set 2
 Magneton
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Metal Sound
 - Flash Cannon
@@ -18299,7 +18299,7 @@ Tags: Set 2
 Voltorb
 Level: 9
 Ability: Static
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 - Eerie Impulse
 - Charge Beam
@@ -18309,7 +18309,7 @@ Tags: Set 3
 Voltorb
 Level: 9
 Ability: Aftermath
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 - Magnet Rise
 - Discharge
@@ -18319,7 +18319,7 @@ Tags: Set 3
 Electrode
 Level: 9
 Ability: Static
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 - Eerie Impulse
 - Charge Beam
@@ -18329,7 +18329,7 @@ Tags: Set 3
 Electrode
 Level: 3
 Ability: Aftermath
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 - Magnet Rise
 - Discharge
@@ -18339,7 +18339,7 @@ Tags: Set 5
 Electabuzz
 Level: 4
 Ability: Static
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 6
 - Thunder Wave
 - Light Screen
@@ -18354,7 +18354,7 @@ Party Size: 1
 Mankey
 Level: 9
 Ability: Vital Spirit
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Lead
 - Seismic Toss
 - Rain Dance
@@ -18364,7 +18364,7 @@ Tags: Lead
 Primeape
 Level: 9
 Ability: Vital Spirit
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Seismic Toss
 - Rain Dance
 - Thunder
@@ -18373,7 +18373,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Hitmonchan
 Level: 9
 Ability: Iron Fist
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Mach Punch
 - Thunder Punch
 - Rain Dance
@@ -18387,7 +18387,7 @@ Party Size: 1
 Forretress
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Zap Cannon
 - Magnet Rise
 - Mirror Shot
@@ -18396,7 +18396,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Forretress
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Zap Cannon
 - Magnet Rise
 - Light Screen
@@ -18410,7 +18410,7 @@ Party Size: 1
 Voltorb
 Level: 9
 Ability: Static
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Lead
 - Eerie Impulse
 - Charge Beam
@@ -18420,7 +18420,7 @@ Tags: Lead
 Voltorb
 Level: 9
 Ability: Aftermath
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Lead
 - Magnet Rise
 - Discharge
@@ -18430,7 +18430,7 @@ Tags: Lead
 Meowth
 Level: 9
 Ability: Technician
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Pay Day
 - Nasty Plot
 - Thunderbolt
@@ -18439,7 +18439,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Lickitung
 Level: 9
 Ability: Oblivious
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Lick
 - Disable
 - Thunderbolt
@@ -18453,7 +18453,7 @@ Party Size: 1
 Electrode @ Shuca Berry
 Level: 10
 Ability: Static
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Self Destruct
 - Light Screen
@@ -18463,7 +18463,7 @@ Tags: Lead
 Raichu @ Shuca Berry
 Level: 10
 Ability: Static
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Nuzzle
 - Discharge
@@ -18473,7 +18473,7 @@ Tags: Set 2
 Ampharos @ Shuca Berry
 Level: 10
 Ability: Static
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Fire Punch
 - Thunder Wave
@@ -18483,7 +18483,7 @@ Tags: Set 2
 Magnezone @ Shuca Berry
 Level: 10
 Ability: Sturdy
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Thunder Wave
 - Metal Sound
@@ -18493,7 +18493,7 @@ Tags: Set 3
 Lanturn @ Shuca Berry
 Level: 10
 Ability: Water Absorb
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Thunder Wave
 - Bubble Beam
@@ -18518,7 +18518,7 @@ Party Size: 1
 Clefairy
 Level: 9
 Ability: Magic Guard
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Encore
 - Cosmic Power
@@ -18528,7 +18528,7 @@ Tags: Set 1
 Machop
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Seismic Toss
 - Bulk Up
@@ -18538,7 +18538,7 @@ Tags: Set 2
 Machoke
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Seismic Toss
 - Bulk Up
@@ -18548,7 +18548,7 @@ Tags: Set 2
 Machamp
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Seismic Toss
 - Bulk Up
@@ -18558,7 +18558,7 @@ Tags: Set 2
 Geodude
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 - Defense Curl
 - Sunny Day
@@ -18568,7 +18568,7 @@ Tags: Set 3
 Graveler
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 - Defense Curl
 - Sunny Day
@@ -18578,7 +18578,7 @@ Tags: Set 3
 Golem
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 - Defense Curl
 - Sunny Day
@@ -18588,7 +18588,7 @@ Tags: Set 3
 Steelix
 Level: 9
 Ability: Sturdy
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 - Fire Fang
 - Curse
@@ -18598,7 +18598,7 @@ Tags: Set 4
 Rhyhorn
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 - Sunny Day
 - Swords Dance
@@ -18608,7 +18608,7 @@ Tags: Set 5
 Rhydon
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 - Sunny Day
 - Swords Dance
@@ -18618,7 +18618,7 @@ Tags: Set 5
 Rhyperior
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 - Sunny Day
 - Swords Dance
@@ -18628,7 +18628,7 @@ Tags: Set 5
 Dunsparce
 Level: 9
 Ability: Serene Grace
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 6
 - Coil
 - Sunny Day
@@ -18638,7 +18638,7 @@ Tags: Set 6
 Tyranitar
 Level: 9
 Ability: Unnerve
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 7
 - Fire Fang
 - Sunny Day
@@ -18653,7 +18653,7 @@ Party Size: 1
 Growlithe
 Level: 9
 Ability: Intimidate
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Flare Blitz
 - Will O Wisp
 - Sleep Talk
@@ -18662,7 +18662,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Magmar
 Level: 9
 Ability: Flame Body
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Fire Punch
 - Lava Plume
 - Will O Wisp
@@ -18671,7 +18671,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Slugma
 Level: 9
 Ability: Flame Body
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Lava Plume
 - Amnesia
 - Will O Wisp
@@ -18680,7 +18680,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Houndour
 Level: 9
 Ability: Unnerve
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Flamethrower
 - Nasty Plot
 - Dark Pulse
@@ -18694,7 +18694,7 @@ Party Size: 1
 Machoke
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Seismic Toss
 - Bulk Up
 - Sunny Day
@@ -18703,7 +18703,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Machamp
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Seismic Toss
 - Bulk Up
 - Sunny Day
@@ -18712,7 +18712,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Hitmonlee
 Level: 9
 Ability: Limber
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Blaze Kick
 - Bulk Up
 - Sunny Day
@@ -18721,7 +18721,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Hitmonchan
 Level: 9
 Ability: Iron Fist
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Fire Punch
 - Bulk Up
 - Sunny Day
@@ -18735,7 +18735,7 @@ Party Size: 1
 Ninetales
 Level: 9
 Ability: Flash Fire
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Roar
 - Flamethrower
 - Will O Wisp
@@ -18744,7 +18744,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Arcanine
 Level: 9
 Ability: Intimidate
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Flare Blitz
 - Extreme Speed
 - Will O Wisp
@@ -18753,7 +18753,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Rapidash
 Level: 9
 Ability: Flame Body
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Quick Attack
 - Flare Blitz
 - Will O Wisp
@@ -18762,7 +18762,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Magmar
 Level: 9
 Ability: Flame Body
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Fire Punch
 - Lava Plume
@@ -18772,7 +18772,7 @@ Tags: Set 2
 Magcargo
 Level: 9
 Ability: Flame Body
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ancient Power
 - Lava Plume
 - Body Slam
@@ -18781,7 +18781,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Torkoal
 Level: 9
 Ability: White Smoke
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Flame Wheel
 - Lava Plume
 - Iron Defense
@@ -18795,7 +18795,7 @@ Party Size: 1
 Ninetales @ Heat Rock
 Level: 10
 Ability: Drought
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Hex
 - Flamethrower
@@ -18805,7 +18805,7 @@ Tags: Lead
 Torkoal @ Heat Rock
 Level: 10
 Ability: Drought
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Flame Wheel
 - Lava Plume
@@ -18815,7 +18815,7 @@ Tags: Lead
 Arcanine @ White Herb
 Level: 10
 Ability: Intimidate
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Wild Charge
 - Flare Blitz
@@ -18825,7 +18825,7 @@ Tags: Set 2
 Rapidash @ White Herb
 Level: 10
 Ability: Flame Body
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Megahorn
 - Flame Charge
@@ -18835,7 +18835,7 @@ Tags: Set 2
 Magcargo @ White Herb
 Level: 10
 Ability: Flame Body
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Ancient Power
 - Lava Plume
@@ -18845,7 +18845,7 @@ Tags: Set 3
 Houndoom @ White Herb
 Level: 10
 Ability: Unnerve
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Nasty Plot
 - Solar Beam
@@ -18870,7 +18870,7 @@ Party Size: 1
 Stantler @ Sitrus Berry
 Level: 10
 Ability: Intimidate
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Confuse Ray
 - Zen Headbutt
@@ -18880,7 +18880,7 @@ Tags: Lead
 Spinda @ Sitrus Berry
 Level: 10
 Ability: Own Tempo
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Teeter Dance
 - Encore
@@ -18970,7 +18970,7 @@ Tags: Set 3
 Linoone @ Sitrus Berry
 Level: 10
 Ability: Gluttony
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Play Rough
 - Belly Drum
@@ -18995,7 +18995,7 @@ Party Size: 1
 Pidgeotto
 Level: 9
 Ability:
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Quick Attack
 - Steel Wing
 - Brave Bird
@@ -19004,7 +19004,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Golduck
 Level: 9
 Ability: Cloud Nine
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Disable
 - Hone Claws
 - Aerial Ace
@@ -19013,7 +19013,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Skiploom
 Level: 9
 Ability: Infiltrator
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Synthesis
 - Acrobatics
 - Giga Drain
@@ -19022,7 +19022,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Jumpluff
 Level: 9
 Ability: Infiltrator
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Synthesis
 - Acrobatics
 - Giga Drain
@@ -19030,7 +19030,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Taillow
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Quick Attack
 - Facade
 - Steel Wing
@@ -19039,7 +19039,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Swablu
 Level: 9
 Ability: Natural Cure
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Cotton Guard
 - Perish Song
 - Moonblast
@@ -19053,7 +19053,7 @@ Party Size: 1
 Fearow
 Level: 9
 Ability: Sniper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Drill Run
 - Drill Peck
 - Steel Wing
@@ -19062,7 +19062,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Golbat
 Level: 9
 Ability: Infiltrator
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Leech Life
 - Acrobatics
 - Steel Wing
@@ -19071,7 +19071,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Crobat
 Level: 9
 Ability: Infiltrator
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Leech Life
 - Acrobatics
 - Steel Wing
@@ -19080,7 +19080,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Golduck
 Level: 9
 Ability: Cloud Nine
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Disable
 - Hone Claws
 - Aerial Ace
@@ -19089,7 +19089,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Doduo
 Level: 9
 Ability: Tangled Feet
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Quick Attack
 - Drill Peck
 - Steel Wing
@@ -19098,7 +19098,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Skiploom
 Level: 9
 Ability: Infiltrator
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Synthesis
 - Acrobatics
 - Giga Drain
@@ -19107,7 +19107,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Swellow
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Brave Bird
 - Quick Attack
 - Facade
@@ -19121,7 +19121,7 @@ Party Size: 1
 Pidgeotto
 Level: 9
 Ability:
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Quick Attack
 - Steel Wing
 - Brave Bird
@@ -19130,7 +19130,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Fearow
 Level: 9
 Ability: Sniper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Drill Run
 - Drill Peck
 - Steel Wing
@@ -19139,7 +19139,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Farfetchd
 Level: 9
 Ability: Defiant
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Swords Dance
 - Acrobatics
 - Steel Wing
@@ -19148,7 +19148,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Dodrio
 Level: 9
 Ability: Tangled Feet
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Quick Attack
 - Drill Peck
 - Taunt
@@ -19157,7 +19157,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Noctowl
 Level: 9
 Ability: Tinted Lens
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Reflect
 - Echoed Voice
 - Air Slash
@@ -19166,7 +19166,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Murkrow
 Level: 9
 Ability: Prankster
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Taunt
 - Dark Pulse
 - Steel Wing
@@ -19175,7 +19175,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Delibird
 Level: 9
 Ability: Vital Spirit
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Present
 - Aerial Ace
 - Ice Beam
@@ -19184,7 +19184,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Swellow
 Level: 9
 Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Brave Bird
 - Quick Attack
 - Facade
@@ -19193,7 +19193,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Swablu
 Level: 9
 Ability: Natural Cure
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Cotton Guard
 - Perish Song
 - Moonblast
@@ -19207,7 +19207,7 @@ Party Size: 1
 Pidgeot @ Charti Berry
 Level: 10
 Ability: Tangled Feet
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Tailwind
 - Steel Wing
@@ -19217,7 +19217,7 @@ Tags: Lead
 Xatu @ Colbur Berry
 Level: 10
 Ability: Synchronize
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Tailwind
 - Psychic
@@ -19228,7 +19228,7 @@ Tags: Lead
 Pelipper @ Wacan Berry
 Level: 10
 Ability: Drizzle
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Hurricane
 - Hydro Pump
@@ -19239,7 +19239,7 @@ Tags: Lead
 Honchkrow @ Roseli Berry
 Level: 10
 Ability: Super Luck
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Tailwind
 - Night Slash
@@ -19249,7 +19249,7 @@ Tags: Set 2
 Skarmory @ Wacan Berry
 Level: 10
 Ability: Sturdy
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Steel Wing
 - Roost
@@ -19259,7 +19259,7 @@ Tags: Set 2
 Aerodactyl @ Babiri Berry
 Level: 10
 Ability: Unnerve
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Iron Head
 - Rock Slide
@@ -19269,7 +19269,7 @@ Tags: Set 3
 Togekiss @ Kebia Berry
 Level: 10
 Ability: Serene Grace
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Air Slash
 - Roost
@@ -19279,7 +19279,7 @@ Tags: Set 3
 Gliscor @ Passho Berry
 Level: 10
 Ability: Hyper Cutter
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Swords Dance
 - Roost
@@ -19304,7 +19304,7 @@ Party Size: 1
 Kadabra
 Level: 9
 Ability: Magic Guard
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Disable
 - Psychic
 - Shadow Ball
@@ -19313,25 +19313,25 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 /*
 Alakazam
 Level: 9
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Slowpoke
 Level: 9
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Drowzee
 Level: 9
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Hypno
 Level: 9
 Ability: Inner Focus
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Nasty Plot
 - Psyshock
 - Shadow Ball
@@ -19340,14 +19340,14 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 /*
 Exeggcute
 Level: 9
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Natu
 Level: 9
 Ability: Synchronize
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ominous Wind
 - Wish
 - Psychic
@@ -19357,7 +19357,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Xatu
 Level: 9
 Ability: Synchronize
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ominous Wind
 - Air Slash
 - Wish
@@ -19366,7 +19366,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Girafarig
 Level: 9
 Ability: Inner Focus
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Crunch
 - Nasty Plot
 - Psychic
@@ -19381,7 +19381,7 @@ Party Size: 1
 Vulpix
 Level: 9
 Ability: Flash Fire
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Will O Wisp
 - Hex
 - Extrasensory
@@ -19391,7 +19391,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Ninetales
 Level: 9
 Ability: Flash Fire
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Will O Wisp
 - Hex
 - Extrasensory
@@ -19400,7 +19400,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Kadabra
 Level: 9
 Ability: Magic Guard
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Disable
 - Psyshock
 - Shadow Ball
@@ -19410,7 +19410,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Natu
 Level: 9
 Ability: Synchronize
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ominous Wind
 - Wish
 - Psychic
@@ -19420,7 +19420,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Xatu
 Level: 9
 Ability: Synchronize
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ominous Wind
 - Air Slash
 - Wish
@@ -19435,7 +19435,7 @@ Party Size: 1
 Vulpix
 Level: 9
 Ability: Flash Fire
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Roar
 - Extrasensory
 - Safeguard
@@ -19445,7 +19445,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Ninetales
 Level: 9
 Ability: Flash Fire
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Roar
 - Extrasensory
 - Nasty Plot
@@ -19453,7 +19453,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Golduck
 Level: 9
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Aqua Jet
 - Disable
 - Zen Headbutt
@@ -19461,7 +19461,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Noctowl
 Level: 9
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Reflect
 - Air Slash
 - Extrasensory
@@ -19470,7 +19470,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Girafarig
 Level: 9
 Ability: Inner Focus
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Zen Headbutt
 - Crunch
 - Nasty Plot
@@ -19500,7 +19500,7 @@ Kee Berry raises Def, Maranga Berry raises SpD
 Slowbro @ Custap Berry
 Level: 10
 Ability: Regenerator
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 1
 - Psychic
 - Calm Mind
@@ -19517,7 +19517,7 @@ Tags: Set 1
 Slowking @ Custap Berry
 Level: 10
 Ability: Regenerator
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 1
 - Psyshock
 - Calm Mind
@@ -19534,7 +19534,7 @@ Tags: Set 1
 Starmie @ Custap Berry
 Level: 10
 Ability: Analytic
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Psychic
 - Ice Beam
@@ -19544,7 +19544,7 @@ Tags: Set 2
 Exeggutor @ Custap Berry
 Level: 10
 Ability: Harvest
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Leech Seed
 - Psyshock
@@ -19554,7 +19554,7 @@ Tags: Set 2
 Mr Mime (M) @ Light Clay
 Level: 10
 Ability: Filter
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Psychic
 - Shadow Ball
@@ -19564,7 +19564,7 @@ Tags: Set 3
 Jynx @ Light Clay
 Level: 10
 Ability: Oblivious
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Psyshock
 - Taunt
@@ -19575,7 +19575,7 @@ Tags: Set 3
 Alakazam @ Custap Berry
 Level: 10
 Ability: Magic Guard
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 4
 - Psyshock
 - Calm Mind
@@ -19587,7 +19587,7 @@ Tags: Set 4
 Hypno @ Custap Berry
 Level: 10
 Ability: Inner Focus
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 4
 - Psychic
 - Calm Mind
@@ -19599,7 +19599,7 @@ Tags: Set 4
 Xatu @ Custap Berry
 Level: 10
 Ability: Synchronize
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 4
 - Confuse Ray
 - Psychic
@@ -19611,7 +19611,7 @@ Tags: Set 4
 Girafarig @ Custap Berry
 Level: 10
 Ability: Sap Sipper
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 4
 - Psychic
 - Calm Mind
@@ -19629,7 +19629,7 @@ Party Size: 1
 Psyduck (F)
 Level: 9
 Ability: Cloud Nine
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Water Pulse
 - Aerial Ace
@@ -19639,7 +19639,7 @@ Tags: Set 1
 Psyduck (M)
 Level: 9
 Ability: Cloud Nine
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Water Pulse
 - Aerial Ace
@@ -19666,7 +19666,7 @@ Tags: Set 2
 Poliwag (F)
 Level: 9
 Ability: Damp
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Belly Drum
 - Dig
@@ -19676,7 +19676,7 @@ Tags: Set 1
 Poliwag (M)
 Level: 9
 Ability: Damp
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Belly Drum
 - Dig
@@ -19705,7 +19705,7 @@ Tags: Set 2
 Horsea (F)
 Level: 9
 Ability: Sniper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Brine
 - Agility
@@ -19715,7 +19715,7 @@ Tags: Set 1
 Horsea (M)
 Level: 9
 Ability: Sniper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Brine
 - Agility
@@ -19743,7 +19743,7 @@ Tags: Set 2
 Goldeen (F)
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Waterfall
 - Megahorn
@@ -19753,7 +19753,7 @@ Tags: Set 1
 Goldeen (M)
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Waterfall
 - Megahorn
@@ -19780,7 +19780,7 @@ Tags: Set 2
 Marill (F)
 Level: 9
 Ability: Huge Power
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Play Rough
 - Attract
@@ -19790,7 +19790,7 @@ Tags: Set 1
 Marill (M)
 Level: 9
 Ability: Sap Sipper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Aqua Tail
 - Play Rough
@@ -19830,7 +19830,7 @@ Tags: Set 2
 Lotad (F)
 Level: 9
 Ability: Own Tempo
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Giga Drain
 - Attract
@@ -19840,7 +19840,7 @@ Tags: Set 1
 Lotad (M)
 Level: 9
 Ability: Own Tempo
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Energy Ball
 - Ice Beam
@@ -19869,7 +19869,7 @@ Tags: Set 2
 Wailmer (F)
 Level: 9
 Ability: Oblivious
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Water Spout
 - Ice Beam
@@ -19879,7 +19879,7 @@ Tags: Set 1
 Wailmer (M)
 Level: 9
 Ability: Oblivious
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Water Spout
 - Ice Beam
@@ -19926,7 +19926,7 @@ Party Size: 1
 Goldeen (F) @ Nugget
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Waterfall
 - Megahorn
@@ -19936,7 +19936,7 @@ Tags: Set 1
 Goldeen (M) @ Nugget
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Waterfall
 - Megahorn
@@ -19946,7 +19946,7 @@ Tags: Set 2
 Seaking (F) @ Nugget
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Waterfall
 - Megahorn
@@ -19956,7 +19956,7 @@ Tags: Set 1
 Seaking (M) @ Nugget
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Waterfall
 - Megahorn
@@ -19966,7 +19966,7 @@ Tags: Set 2
 Corsola (F) @ Nugget
 Level: 9
 Ability: Regenerator
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Recover
 - Power Gem
@@ -19976,7 +19976,7 @@ Tags: Set 1
 Corsola (M) @ Nugget
 Level: 9
 Ability: Natural Cure
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Recover
 - Power Gem
@@ -20013,7 +20013,7 @@ Tags: Set 2
 Lotad (F)
 Level: 9
 Ability: Own Tempo
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Giga Drain
 - Attract
@@ -20023,7 +20023,7 @@ Tags: Set 1
 Lotad (M)
 Level: 9
 Ability: Own Tempo
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Energy Ball
 - Ice Beam
@@ -20040,7 +20040,7 @@ Party Size: 1
 Marill (F) @ Sitrus Berry
 Level: 9
 Ability: Sap Sipper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Charm
 - Aqua Jet
@@ -20050,7 +20050,7 @@ Tags: Set 1
 Marill (M) @ Sitrus Berry
 Level: 9
 Ability: Sap Sipper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Charm
 - Aqua Jet
@@ -20074,7 +20074,7 @@ Tags: Set 2
 Azumarill (F) @ Sitrus Berry
 Level: 9
 Ability: Huge Power
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Play Rough
 - Attract
@@ -20084,7 +20084,7 @@ Tags: Set 1
 Azumarill (M) @ Sitrus Berry
 Level: 9
 Ability: Huge Power
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Play Rough
 - Attract
@@ -20101,7 +20101,7 @@ Party Size: 1
 Psyduck (F)
 Level: 9
 Ability: Cloud Nine
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Water Pulse
 - Aerial Ace
@@ -20111,7 +20111,7 @@ Tags: Set 1
 Psyduck (M)
 Level: 9
 Ability: Cloud Nine
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Water Pulse
 - Aerial Ace
@@ -20121,7 +20121,7 @@ Tags: Set 2
 Golduck (F)
 Level: 9
 Ability: Cloud Nine
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Aqua Jet
 - Aerial Ace
@@ -20131,7 +20131,7 @@ Tags: Set 1
 Golduck (M)
 Level: 9
 Ability: Cloud Nine
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Aqua Jet
 - Aerial Ace
@@ -20141,7 +20141,7 @@ Tags: Set 2
 Poliwag (F)
 Level: 9
 Ability: Damp
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Belly Drum
 - Dig
@@ -20151,7 +20151,7 @@ Tags: Set 1
 Poliwag (M)
 Level: 9
 Ability: Damp
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Belly Drum
 - Dig
@@ -20161,7 +20161,7 @@ Tags: Set 2
 Slowpoke (F)
 Level: 9
 Ability: Regenerator
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Curse
 - Zen Headbutt
@@ -20171,7 +20171,7 @@ Tags: Set 1
 Slowbro (M)
 Level: 9
 Ability: Regenerator
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Slack Off
 - Psychic
@@ -20181,7 +20181,7 @@ Tags: Set 2
 Seel (F)
 Level: 9
 Ability: Thick Fat
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Encore
 - Aqua Jet
@@ -20191,7 +20191,7 @@ Tags: Set 1
 Seel (M)
 Level: 9
 Ability: Thick Fat
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Aqua Jet
 - Attract
@@ -20201,7 +20201,7 @@ Tags: Set 2
 Dewgong (F)
 Level: 9
 Ability: Thick Fat
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Encore
 - Aqua Jet
@@ -20211,7 +20211,7 @@ Tags: Set 1
 Dewgong (M)
 Level: 9
 Ability: Thick Fat
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Ice Shard
 - Surf
@@ -20221,7 +20221,7 @@ Tags: Set 2
 Shellder (F)
 Level: 9
 Ability: Skill Link
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Ice Shard
 - Razor Shell
@@ -20231,7 +20231,7 @@ Tags: Set 1
 Shellder (M)
 Level: 9
 Ability: Overcoat
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Ice Shard
 - Razor Shell
@@ -20241,7 +20241,7 @@ Tags: Set 2
 Cloyster (F)
 Level: 9
 Ability: Skill Link
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Icicle Spear
 - Ice Shard
@@ -20251,7 +20251,7 @@ Tags: Set 1
 Cloyster (M)
 Level: 9
 Ability: Overcoat
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Ice Shard
 - Razor Shell
@@ -20261,7 +20261,7 @@ Tags: Set 2
 Horsea (F)
 Level: 9
 Ability: Sniper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Brine
 - Agility
@@ -20271,7 +20271,7 @@ Tags: Set 1
 Horsea (M)
 Level: 9
 Ability: Sniper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Brine
 - Agility
@@ -20281,7 +20281,7 @@ Tags: Set 2
 Seadra (F)
 Level: 9
 Ability: Sniper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Brine
 - Agility
@@ -20291,7 +20291,7 @@ Tags: Set 1
 Seadra (M)
 Level: 9
 Ability: Sniper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Brine
 - Agility
@@ -20301,13 +20301,13 @@ Tags: Set 2
 /*
 Kingdra
 Level: 9
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Goldeen (F)
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Waterfall
 - Megahorn
@@ -20317,7 +20317,7 @@ Tags: Set 1
 Goldeen (M) @ Nugget
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Waterfall
 - Megahorn
@@ -20327,7 +20327,7 @@ Tags: Set 2
 Seaking (F) @ Nugget
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Waterfall
 - Megahorn
@@ -20337,7 +20337,7 @@ Tags: Set 1
 Seaking (M) @ Nugget
 Level: 9
 Ability: Lightning Rod
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Waterfall
 - Megahorn
@@ -20347,19 +20347,19 @@ Tags: Set 2
 /*
 Staryu
 Level: 9
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Starmie
 Level: 9
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Marill (F)
 Level: 9
 Ability: Huge Power
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Play Rough
 - Attract
@@ -20369,7 +20369,7 @@ Tags: Set 1
 Marill (M)
 Level: 9
 Ability: Sap Sipper
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Charm
 - Aqua Jet
@@ -20379,7 +20379,7 @@ Tags: Set 2
 Azumarill (F) @ Sitrus Berry
 Level: 9
 Ability: Huge Power
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Play Rough
 - Attract
@@ -20389,7 +20389,7 @@ Tags: Set 1
 Azumarill (M) @ Sitrus Berry
 Level: 9
 Ability: Huge Power
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Play Rough
 - Attract
@@ -20399,7 +20399,7 @@ Tags: Set 2
 Corsola (F) @ Nugget
 Level: 9
 Ability: Regenerator
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Recover
 - Power Gem
@@ -20409,7 +20409,7 @@ Tags: Set 1
 Corsola (M) @ Nugget
 Level: 9
 Ability: Natural Cure
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Recover
 - Power Gem
@@ -20419,7 +20419,7 @@ Tags: Set 2
 Lombre (F)
 Level: 9
 Ability: Own Tempo
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Giga Drain
 - Fake Out
@@ -20429,7 +20429,7 @@ Tags: Set 1
 Lombre (M)
 Level: 9
 Ability: Own Tempo
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Energy Ball
 - Knock Off
@@ -20439,7 +20439,7 @@ Tags: Set 2
 Wailmer (F)
 Level: 9
 Ability: Oblivious
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Water Spout
 - Ice Beam
@@ -20449,7 +20449,7 @@ Tags: Set 1
 Wailmer (M)
 Level: 9
 Ability: Oblivious
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Water Spout
 - Ice Beam
@@ -20459,7 +20459,7 @@ Tags: Set 2
 Wailord (F)
 Level: 9
 Ability: Oblivious
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 - Water Spout
 - Ice Beam
@@ -20469,7 +20469,7 @@ Tags: Set 1
 Wailord (M)
 Level: 9
 Ability: Oblivious
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 - Water Spout
 - Ice Beam
@@ -20484,7 +20484,7 @@ Party Size: 1
 Politoed @ Damp Rock
 Level: 10
 Ability: Drizzle
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Mud Bomb
 - Scald
@@ -20494,7 +20494,7 @@ Tags: Lead
 Pelipper @ Damp Rock
 Level: 10
 Ability: Drizzle
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Hurricane
 - Tailwind
@@ -20504,7 +20504,7 @@ Tags: Lead
 Poliwrath @ Salac Berry
 Level: 10
 Ability: Swift Swim
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Body Slam
 - Belly Drum
@@ -20514,7 +20514,7 @@ Tags: Set 2
 Tentacruel @ Petaya Berry
 Level: 10
 Ability: Swift Swim
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Hex
 - Sludge Wave
@@ -20524,7 +20524,7 @@ Tags: Set 2
 Slowbro @ Ganlon Berry
 Level: 10
 Ability: Regenerator
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Slack Off
 - Amnesia
@@ -20534,7 +20534,7 @@ Tags: Set 2
 Slowking @ Apicot Berry
 Level: 10
 Ability: Regenerator
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Slack Off
 - Nasty Plot
@@ -20544,7 +20544,7 @@ Tags: Set 2
 Dewgong @ Salac Berry
 Level: 10
 Ability: Hydration
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Encore
 - Aqua Jet
@@ -20554,7 +20554,7 @@ Tags: Set 2
 Dewgong @ Salac Berry
 Level: 10
 Ability: Hydration
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Encore
 - Ice Shard
@@ -20580,7 +20580,7 @@ Tags: Set 2
 Starmie @ Petaya Berry
 Level: 10
 Ability: Analytic
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Ice Beam
 - Thunderbolt
@@ -20590,7 +20590,7 @@ Tags: Set 2
 Starmie @ Petaya Berry
 Level: 10
 Ability: Natural Cure
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Power Gem
 - Recover
@@ -20600,7 +20600,7 @@ Tags: Set 2
 Azumarill @ Salac Berry
 Level: 10
 Ability: Huge Power
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Play Rough
 - Superpower
@@ -20610,7 +20610,7 @@ Tags: Set 2
 Quagsire @ Liechi Berry
 Level: 10
 Ability: Unaware
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Earthquake
 - Waterfall
@@ -20620,7 +20620,7 @@ Tags: Set 2
 Octillery @ Petaya Berry
 Level: 10
 Ability: Sniper
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Signal Beam
 - Scald
@@ -20630,7 +20630,7 @@ Tags: Set 2
 Qwilfish @ Liechi Berry
 Level: 10
 Ability: Intimidate
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Spikes
 - Aqua Tail
@@ -20640,7 +20640,7 @@ Tags: Set 2
 Mantine @ Petaya Berry
 Level: 10
 Ability: Swift Swim
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Air Slash
 - Scald
@@ -20650,7 +20650,7 @@ Tags: Set 2
 Ludicolo @ Petaya Berry
 Level: 10
 Ability: Swift Swim
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Giga Drain
 - Fake Out
@@ -20660,7 +20660,7 @@ Tags: Set 2
 Wailord @ Salac Berry
 Level: 10
 Ability: Oblivious
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Water Spout
 - Ice Beam
@@ -20670,7 +20670,7 @@ Tags: Set 2
 Whiscash @ Liechi Berry
 Level: 10
 Ability: Swift Swim
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Aqua Tail
 - Zen Headbutt
@@ -20680,7 +20680,7 @@ Tags: Set 2
 Whiscash @ Petaya Berry
 Level: 10
 Ability: Swift Swim
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Future Sight
 - Ice Beam
@@ -20690,7 +20690,7 @@ Tags: Set 2
 Walrein @ Petaya Berry
 Level: 10
 Ability: Oblivious
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Encore
 - Roar
@@ -20700,7 +20700,7 @@ Tags: Set 2
 Cloyster @ Salac Berry
 Level: 10
 Ability: Skill Link
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Icicle Spear
 - Ice Shard
@@ -20710,7 +20710,7 @@ Tags: Set 3
 Lanturn @ Salac Berry
 Level: 10
 Ability: Volt Absorb
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Signal Beam
 - Thunder
@@ -20720,7 +20720,7 @@ Tags: Set 3
 Huntail (M) @ Liechi Berry
 Level: 10
 Ability: Swift Swim
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Ice Fang
 - Sucker Punch
@@ -20730,7 +20730,7 @@ Tags: Set 3
 Gorebyss (F) @ Petaya Berry
 Level: 10
 Ability: Swift Swim
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Psychic
 - Shell Smash
@@ -20740,7 +20740,7 @@ Tags: Set 3
 Relicanth @ Liechi Berry
 Level: 10
 Ability: Swift Swim
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Head Smash
 - Earthquake
@@ -20846,7 +20846,7 @@ Party Size: 1
 Treecko @ Occa Berry
 Level: 5
 Ability: Overgrow
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Leer
 - Quick Attack
 - Pursuit
@@ -20855,7 +20855,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Torchic @ Passho Berry
 Level: 5
 Ability: Blaze
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Growl
 - Ember
 - Peck
@@ -20864,7 +20864,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Mudkip @ Rindo Berry
 Level: 5
 Ability: Torrent
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Growl
 - Water Gun
 - Mud Slap
@@ -20880,7 +20880,7 @@ Party Size: 1
 Fearow @ Chilan Berry
 Level: 10
 Ability: Keen Eye
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Drill Run
 - Pluck
@@ -20890,7 +20890,7 @@ Tags: Lead
 Dodrio @ Chilan Berry
 Level: 10
 Ability: Early Bird
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Pursuit
 - Pluck
@@ -20900,7 +20900,7 @@ Tags: Lead
 Nidorina @ Chilan Berry
 Level: 10
 Ability: Poison Point
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Tail Whip
 - Double Kick
@@ -20910,7 +20910,7 @@ Tags: Set 2
 Nidorino @ Chilan Berry
 Level: 10
 Ability: Poison Point
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Leer
 - Double Kick
@@ -20920,7 +20920,7 @@ Tags: Set 2
 Clefairy @ Chilan Berry
 Level: 10
 Ability: Magic Guard
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Disarming Voice
 - Encore
@@ -20930,7 +20930,7 @@ Tags: Set 3
 Munchlax @ Chilan Berry
 Level: 10
 Ability: Pickup
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Recycle
 - Lick
@@ -20977,7 +20977,7 @@ Party Size: 1
 Nidoqueen @ Chilan Berry
 Level: 10
 Ability: Poison Point
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Toxic Spikes
 - Body Slam
@@ -20987,7 +20987,7 @@ Tags: Lead
 Nidoking @ Chilan Berry
 Level: 10
 Ability: Poison Point
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Toxic Spikes
 - Thrash
@@ -20997,7 +20997,7 @@ Tags: Lead
 Fearow @ Chilan Berry
 Level: 10
 Ability: Keen Eye
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Drill Run
 - Pluck
@@ -21007,7 +21007,7 @@ Tags: Set 2
 Dodrio @ Chilan Berry
 Level: 10
 Ability: Early Bird
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Pursuit
 - Pluck
@@ -21017,7 +21017,7 @@ Tags: Set 2
 Clefairy @ Sitrus Berry
 Level: 10
 Ability: Magic Guard
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Encore
 - Cosmic Power
@@ -21027,7 +21027,7 @@ Tags: Set 3
 Munchlax @ Sitrus Berry
 Level: 10
 Ability: Pickup
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Recycle
 - Lick
@@ -21074,7 +21074,7 @@ Party Size: 1
 Nidoqueen @ Chilan Berry
 Level: 10
 Ability: Poison Point
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Toxic Spikes
 - Body Slam
@@ -21084,7 +21084,7 @@ Tags: Lead
 Nidoking @ Chilan Berry
 Level: 10
 Ability: Poison Point
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Toxic Spikes
 - Thrash
@@ -21094,7 +21094,7 @@ Tags: Lead
 Clefable @ Sitrus Berry
 Level: 10
 Ability: Magic Guard
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Encore
 - Moonblast
@@ -21104,7 +21104,7 @@ Tags: Set 2
 Snorlax @ Sitrus Berry
 Level: 10
 Ability: Immunity
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Recycle
 - Yawn
@@ -21151,7 +21151,7 @@ Party Size: 1
 Nidoqueen @ Chilan Berry
 Level: 10
 Ability: Poison Point
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Toxic Spikes
 - Superpower
@@ -21161,7 +21161,7 @@ Tags: Lead
 Nidoking @ Chilan Berry
 Level: 10
 Ability: Poison Point
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Toxic Spikes
 - Megahorn
@@ -21171,7 +21171,7 @@ Tags: Lead
 Clefable @ Sitrus Berry
 Level: 10
 Ability: Magic Guard
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Encore
 - Moonblast
@@ -21181,7 +21181,7 @@ Tags: Set 2
 Snorlax @ Sitrus Berry
 Level: 10
 Ability: Immunity
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Recycle
 - Body Slam
