@@ -823,12 +823,16 @@
 #define POOL_TRIATHLETE_ON_THE_LAND         807
 #define POOL_POKEMON_BREEDER_OF_BABIES      808
 #define POOL_COLLECTOR_OF_SETS              809
+#define POOL_BUG_CATCHER_OF_PESTS           810
+#define POOL_FISHERMAN_OF_SMALL_FRY         811
+#define POOL_HIKER_OF_FOOTHILLS             812
+#define POOL_SCHOOL_KID_THAT_EATS_PASTE     813
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      810
+#define TRAINERS_COUNT                      814
 #define MAX_TRAINERS_COUNT                  864
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 
