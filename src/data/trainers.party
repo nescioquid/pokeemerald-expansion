@@ -3598,7 +3598,7 @@ Music: Male
 Double Battle: No
 AI: School Kid
 Party Size: 1
-Copy Pool: POOL_SCHOOL_KID
+Copy Pool: POOL_SCHOOL_KID_THAT_EATS_PASTE
 Pool Pick Functions: Modes
 
 === TRAINER_TED ===
@@ -3658,7 +3658,7 @@ Music: Girl
 Double Battle: No
 AI: School Kid
 Party Size: 1
-Copy Pool: POOL_SCHOOL_KID
+Copy Pool: POOL_SCHOOL_KID_THAT_EATS_PASTE
 Pool Pick Functions: Modes
 
 === TRAINER_GEORGIA ===
@@ -4292,7 +4292,7 @@ Music: Hiker
 Double Battle: No
 AI: Fisherman
 Party Size: 3
-Copy Pool: POOL_FISHERMAN
+Copy Pool: POOL_FISHERMAN_OF_SMALL_FRY
 
 === TRAINER_IVAN ===
 Name: Ivan
@@ -4303,7 +4303,7 @@ Music: Hiker
 Double Battle: No
 AI: Fisherman
 Party Size: 3
-Copy Pool: POOL_FISHERMAN
+Copy Pool: POOL_FISHERMAN_OF_SMALL_FRY
 
 === TRAINER_CLAUDE ===
 Name: Claude
@@ -4325,7 +4325,7 @@ Music: Hiker
 Double Battle: No
 AI: Fisherman
 Party Size: 3
-Copy Pool: POOL_FISHERMAN
+Copy Pool: POOL_FISHERMAN_OF_SMALL_FRY
 
 === TRAINER_NED ===
 Name: Ned
@@ -4336,7 +4336,7 @@ Music: Hiker
 Double Battle: No
 AI: Fisherman
 Party Size: 1
-Copy Pool: POOL_FISHERMAN
+Copy Pool: POOL_FISHERMAN_OF_SMALL_FRY
 
 === TRAINER_DALE ===
 Name: Dale
@@ -4347,7 +4347,7 @@ Music: Hiker
 Double Battle: No
 AI: Fisherman
 Party Size: 4
-Copy Pool: POOL_FISHERMAN
+Copy Pool: POOL_FISHERMAN_OF_SMALL_FRY
 
 === TRAINER_NOLAN ===
 Name: Nolan
@@ -4380,7 +4380,7 @@ Music: Hiker
 Double Battle: No
 AI: Fisherman
 Party Size: 1
-Copy Pool: POOL_FISHERMAN
+Copy Pool: POOL_FISHERMAN_OF_SMALL_FRY
 
 === TRAINER_CARTER ===
 Name: Carter
@@ -4391,7 +4391,7 @@ Music: Hiker
 Double Battle: No
 AI: Fisherman
 Party Size: 2
-Copy Pool: POOL_FISHERMAN
+Copy Pool: POOL_FISHERMAN_OF_SMALL_FRY
 
 === TRAINER_ELLIOT_2 ===
 Name: Elliot
@@ -7103,7 +7103,7 @@ Music: Male
 Double Battle: No
 AI: Bug Catcher
 Party Size: 2
-Copy Pool: POOL_BUG_CATCHER
+Copy Pool: POOL_BUG_CATCHER_OF_PESTS
 
 === TRAINER_LYLE ===
 Name: Lyle
@@ -7114,7 +7114,7 @@ Music: Male
 Double Battle: No
 AI: Bug Catcher
 Party Size: 4
-Copy Pool: POOL_BUG_CATCHER
+Copy Pool: POOL_BUG_CATCHER_OF_PESTS
 
 === TRAINER_JOSE ===
 Name: Jose
@@ -7125,7 +7125,7 @@ Music: Male
 Double Battle: No
 AI: Bug Catcher
 Party Size: 2
-Copy Pool: POOL_BUG_CATCHER
+Copy Pool: POOL_BUG_CATCHER_OF_PESTS
 
 === TRAINER_DOUG ===
 Name: Doug
@@ -7169,7 +7169,7 @@ Music: Male
 Double Battle: No
 AI: Bug Catcher
 Party Size: 2
-Copy Pool: POOL_BUG_CATCHER
+Copy Pool: POOL_BUG_CATCHER_OF_PESTS
 
 === TRAINER_JAMES_2 ===
 Name: James
@@ -7257,7 +7257,7 @@ Music: Hiker
 Double Battle: No
 AI: Hiker
 Party Size: 1
-Copy Pool: POOL_HIKER
+Copy Pool: POOL_HIKER_OF_FOOTHILLS
 
 === TRAINER_ERIC ===
 Name: Eric
@@ -8055,7 +8055,7 @@ Music: Hiker
 Double Battle: No
 AI: Fisherman
 Party Size: 1
-Copy Pool: POOL_FISHERMAN
+Copy Pool: POOL_FISHERMAN_OF_SMALL_FRY
 
 === TRAINER_HAILEY ===
 Name: Hailey
@@ -8745,7 +8745,7 @@ Music: Hiker
 Double Battle: No
 AI: Hiker
 Party Size: 2
-Copy Pool: POOL_HIKER
+Copy Pool: POOL_HIKER_OF_FOOTHILLS
 
 === TRAINER_JOHNSON ===
 Name: Johnson
@@ -11977,22 +11977,32 @@ Name: Pool
 Pic: Bug Catcher
 Party Size: 1
 
+/* Floor <= 285 BST (Paras) */
+
 /* Pikachu is kept as a reference to the Viridian Forest in Kanto. Yes, there's a single Bug Catcher that uses one there in HGSS. Shuckle is left unadded to ensure no Rock types are encountered before the Rustboro Gym. */
 
+/*
 Caterpie
 Level: 5
+*/
 
+/*
 Metapod
 Level: 5
+*/
 
 Butterfree
 Level: 5
 
+/*
 Weedle
 Level: 5
+*/
 
+/*
 Kakuna
 Level: 5
+*/
 
 Beedrill
 Level: 5
@@ -12012,24 +12022,24 @@ Level: 5
 Venomoth
 Level: 5
 
-/*
-Scyther (LGPE)
+Scyther /* (LGPE) */
 Level: 5
-*/
 
-/*
 Pinsir
 Level: 5
-*/
 
+/*
 Ledyba
 Level: 5
+*/
 
 Ledian /* (rematches) */
 Level: 5
 
-Spinarak /* (added) */
+/*
+Spinarak (added)
 Level: 5
+*/
 
 Ariados
 Level: 5
@@ -12043,16 +12053,18 @@ Level: 5
 Forretress /* (added) */
 Level: 5
 
-/*
 Heracross
+Level: 5
+
+/*
+Wurmple
 Level: 5
 */
 
-Wurmple
-Level: 5
-
+/*
 Silcoon
 Level: 5
+*/
 
 Beautifly
 Level: 5
@@ -12060,14 +12072,18 @@ Level: 5
 Dustox /* (rematches) */
 Level: 5
 
-Surskit /* (rematches) */
+/*
+Surskit (rematches)
 Level: 5
+*/
 
 Masquerain /* (ORAS rematches) */
 Level: 5
 
+/*
 Nincada
 Level: 5
+*/
 
 Ninjask
 Level: 5
@@ -13725,8 +13741,10 @@ Level: 5
 Starmie /* (LGPE) */
 Level: 5
 
+/*
 Magikarp
 Level: 5
+*/
 
 Gyarados
 Level: 5
@@ -14090,8 +14108,12 @@ Name: Pool
 Pic: Hiker
 Party Size: 1
 
-Sandshrew /* (LGPE master trainer) */
+/* Floor <= 320 BST (Cubone) */
+
+/*
+Sandshrew (LGPE master trainer)
 Level: 5
+*/
 
 Sandslash
 Level: 5
@@ -14099,14 +14121,18 @@ Level: 5
 Clefairy
 Level: 5
 
+/*
 Diglett
 Level: 5
+*/
 
 Dugtrio
 Level: 5
 
+/*
 Machop
 Level: 5
+*/
 
 Machoke
 Level: 5
@@ -14114,8 +14140,10 @@ Level: 5
 Machamp
 Level: 5
 
+/*
 Geodude
 Level: 5
+*/
 
 Graveler
 Level: 5
@@ -14178,14 +14206,18 @@ Level: 5
 Dunsparce
 Level: 5
 
-Swinub /* (rematches) */
+/*
+Swinub (rematches)
 Level: 5
+*/
 
 Piloswine /* (rematches) */
 Level: 5
 
-Larvitar /* (added) */
+/*
+Larvitar (added)
 Level: 5
+*/
 
 Pupitar /* (added) */
 Level: 5
@@ -21484,3 +21516,513 @@ Tags: Set 8
 Shelgon
 Level: 5
 Tags: Set 8
+
+=== POOL_BUG_CATCHER_OF_PESTS ===
+Name: Pool
+Pic: Bug Catcher
+Party Size: 1
+
+/* Ceiling <= 405 BST (Parasect) */
+
+Caterpie
+Level: 5
+
+Metapod
+Level: 5
+
+Butterfree
+Level: 5
+
+Weedle
+Level: 5
+
+Kakuna
+Level: 5
+
+Beedrill
+Level: 5
+
+/*
+Pikachu
+Level: 5
+*/
+
+Paras
+Level: 5
+
+Parasect
+Level: 5
+
+Venonat
+Level: 5
+
+/*
+Venomoth
+Level: 5
+*/
+
+Ledyba
+Level: 5
+
+Ledian
+Level: 5
+
+Spinarak
+Level: 5
+
+Ariados
+Level: 5
+
+Yanma
+Level: 5
+
+Pineco
+Level: 5
+
+/*
+Forretress
+Level: 5
+*/
+
+Wurmple
+Level: 5
+
+Silcoon
+Level: 5
+
+Beautifly
+Level: 5
+
+Dustox
+Level: 5
+
+Surskit
+Level: 5
+
+/*
+Masquerain
+Level: 5
+*/
+
+Nincada
+Level: 5
+
+/*
+Ninjask
+Level: 5
+*/
+
+=== POOL_FISHERMAN_OF_SMALL_FRY ===
+Name: Pool
+Pic: Fisherman
+Party Size: 1
+
+/* Ceiling <= 450 BST (Seaking) */
+
+Poliwag
+Level: 5
+
+Poliwhirl
+Level: 5
+
+Tentacool
+Level: 5
+
+/*
+Tentacruel
+Level: 5
+*/
+
+Shellder
+Level: 5
+
+/*
+Cloyster
+Level: 5
+*/
+
+Krabby
+Level: 5
+
+/*
+Kingler
+Level: 5
+*/
+
+Horsea
+Level: 5
+
+Seadra
+Level: 5
+
+Goldeen
+Level: 5
+
+Seaking
+Level: 5
+
+Staryu
+Level: 5
+
+/*
+Starmie
+Level: 5
+*/
+
+Magikarp
+Level: 5
+
+/*
+Gyarados
+Level: 5
+*/
+
+Chinchou
+Level: 5
+
+/*
+Lanturn
+Level: 5
+*/
+
+Quagsire
+Level: 5
+
+Qwilfish
+Level: 5
+
+Corsola
+Level: 5
+
+Remoraid
+Level: 5
+
+/*
+Octillery
+Level: 5
+*/
+
+/*
+Mantine
+Level: 5
+*/
+
+Wailmer
+Level: 5
+
+Barboach
+Level: 5
+
+/*
+Whiscash
+Level: 5
+*/
+
+/*
+Relicanth
+Level: 5
+*/
+
+=== POOL_HIKER_OF_FOOTHILLS ===
+Name: Pool
+Pic: Hiker
+Party Size: 1
+
+/* Ceiling <= 450 BST (Sandslash) */
+
+Sandshrew
+Level: 5
+
+Sandslash
+Level: 5
+
+Clefairy
+Level: 5
+
+Diglett
+Level: 5
+
+Dugtrio
+Level: 5
+
+Machop
+Level: 5
+
+Machoke
+Level: 5
+
+/*
+Machamp
+Level: 5
+*/
+
+Geodude
+Level: 5
+
+Graveler
+Level: 5
+
+/*
+Golem
+Level: 5
+*/
+
+/*
+Magneton
+Level: 5
+*/
+
+Onix
+Level: 5
+
+/*
+Steelix
+Level: 5
+*/
+
+Cubone
+Level: 5
+
+Marowak
+Level: 5
+
+Rhyhorn
+Level: 5
+
+/*
+Rhydon
+Level: 5
+*/
+
+/*
+Rhyperior
+Level: 5
+*/
+
+Sudowoodo
+Level: 5
+
+Dunsparce
+Level: 5
+
+Swinub
+Level: 5
+
+Piloswine
+Level: 5
+
+Larvitar
+Level: 5
+
+Pupitar
+Level: 5
+
+/*
+Tyranitar
+Level: 5
+*/
+
+=== POOL_SCHOOL_KID_THAT_EATS_PASTE ===
+Name: Pool
+Pic: School Kid M
+Party Size: 1
+
+/* Ceiling <= 475 BST (Dewgong) */
+
+/*
+Pidgeot
+Level: 5
+Tags: Set 1
+*/
+
+Sandslash
+Level: 5
+Tags: Set 1
+
+Vulpix
+Level: 5
+Tags: Set 1
+
+Golbat
+Level: 5
+Tags: Set 1
+
+Oddish
+Level: 5
+Tags: Set 1
+
+Gloom
+Level: 5
+Tags: Set 1
+
+/*
+Vileplume
+Level: 5
+Tags: Set 1
+*/
+
+Paras
+Level: 5
+Tags: Set 1
+
+Parasect
+Level: 5
+Tags: Set 1
+
+Growlithe
+Level: 5
+Tags: Set 1
+
+Poliwhirl
+Level: 5
+Tags: Set 1
+
+/*
+Alakazam
+Level: 5
+Tags: Set 4
+*/
+
+Bellsprout
+Level: 5
+Tags: Set 1
+
+Weepinbell
+Level: 5
+Tags: Set 1
+
+/*
+Victreebel
+Level: 5
+Tags: Set 1
+*/
+
+Geodude
+Level: 5
+Tags: Set 1
+
+Magnemite
+Level: 5
+Tags: Set 1
+
+Magneton
+Level: 5
+Tags: Set 1
+
+Dewgong
+Level: 5
+Tags: Set 1
+
+Voltorb
+Level: 5
+Tags: Set 1
+
+/*
+Electrode
+Level: 5
+Tags: Set 1
+*/
+
+/*
+Exeggutor
+Level: 5
+Tags: Set 1
+*/
+
+Tangela
+Level: 5
+Tags: Set 4
+
+/*
+Tangrowth
+Level: 5
+Tags: Set 4
+*/
+
+Goldeen
+Level: 5
+Tags: Set 1
+
+Mr Mime
+Level: 5
+Tags: Set 4
+
+Jynx
+Level: 5
+Tags: Set 4
+
+/*
+Electabuzz
+Level: 5
+Tags: Set 4
+*/
+
+/*
+Magmar
+Level: 5
+Tags: Set 4
+*/
+
+Ditto
+Level: 5
+Tags: Set 4
+
+/*
+Vaporeon
+Level: 5
+Tags: Set 4
+*/
+
+Furret
+Level: 5
+Tags: Set 2
+
+Ledian
+Level: 5
+Tags: Set 2
+
+Xatu
+Level: 5
+Tags: Set 2
+
+Aipom
+Level: 5
+Tags: Set 2
+
+Yanma
+Level: 5
+Tags: Set 2
+
+/*
+Yanmega
+Level: 5
+Tags: Set 2
+*/
+
+Quagsire
+Level: 5
+Tags: Set 2
+
+Zigzagoon
+Level: 5
+Tags: Set 3
+
+Beautifly
+Level: 5
+Tags: Set 3
+
+Wingull
+Level: 5
+Tags: Set 3
+
+Shroomish
+Level: 5
+Tags: Set 3
+
+Breloom
+Level: 5
+Tags: Set 3
+
+Banette
+Level: 5
+Tags: Set 3
