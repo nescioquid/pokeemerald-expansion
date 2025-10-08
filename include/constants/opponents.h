@@ -810,29 +810,36 @@
 #define POOL_JUANS_SERENITY                 798
 #define POOL_JUAN_OF_SOOTOPOLIS             799
 
+// Villainous team pools
+#define POOL_TEAM_AQUA_GETS_THE_GOODS       800
+#define POOL_TEAM_AQUA_GOES_TO_THE_MUSEUM   801
+#define POOL_TEAM_AQUA_PAYS_THEIR_RESPECTS  802
+#define POOL_TEAM_AQUA_EMPLOYS_THE_BEST     803
+#define POOL_TEAM_MAGMA_DOESNT_PLAY_NICE    804
+
 // Rival pools
-#define POOL_RIVAL_ROUTE_103                800
-#define POOL_RIVAL_RUSTBORO                 801
-#define POOL_RIVAL_ROUTE_110                802
-#define POOL_RIVAL_ROUTE_119                803
-#define POOL_RIVAL_LILYCOVE                 804
+#define POOL_RIVAL_ROUTE_103                805
+#define POOL_RIVAL_RUSTBORO                 806
+#define POOL_RIVAL_ROUTE_110                807
+#define POOL_RIVAL_ROUTE_119                808
+#define POOL_RIVAL_LILYCOVE                 809
 
 // Utility pools
-#define POOL_CAMPER_IN_THE_SANDS            805
-#define POOL_PICNICKER_IN_THE_SANDS         806
-#define POOL_TRIATHLETE_ON_THE_LAND         807
-#define POOL_POKEMON_BREEDER_OF_BABIES      808
-#define POOL_COLLECTOR_OF_SETS              809
-#define POOL_BUG_CATCHER_OF_PESTS           810
-#define POOL_FISHERMAN_OF_SMALL_FRY         811
-#define POOL_HIKER_OF_FOOTHILLS             812
-#define POOL_SCHOOL_KID_THAT_EATS_PASTE     813
+#define POOL_CAMPER_IN_THE_SANDS            810
+#define POOL_PICNICKER_IN_THE_SANDS         811
+#define POOL_TRIATHLETE_ON_THE_LAND         812
+#define POOL_POKEMON_BREEDER_OF_BABIES      813
+#define POOL_COLLECTOR_OF_SETS              814
+#define POOL_BUG_CATCHER_OF_PESTS           815
+#define POOL_FISHERMAN_OF_SMALL_FRY         816
+#define POOL_HIKER_OF_FOOTHILLS             817
+#define POOL_SCHOOL_KID_THAT_EATS_PASTE     818
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      814
+#define TRAINERS_COUNT                      819
 #define MAX_TRAINERS_COUNT                  864
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 

@@ -190,35 +190,8 @@ Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Team Aqua
-
-/* #BadGuys #TeamAquaOne */
-
-Mightyena
-Level: 10
-Ability: Intimidate
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Bite
-- Snarl
-- Scary Face
-- Fire Fang
-
-Grimer
-Level: 10
-Ability: Stench
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Disable
-- Mud Bomb
-- Sludge Bomb
-- Shadow Punch
-
-Golbat
-Level: 10
-Ability: Inner Focus
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Bite
-- Wing Attack
-- Confuse Ray
-- Poison Fang
+Party Size: 4
+Copy Pool: POOL_TEAM_AQUA_GETS_THE_GOODS
 
 === TRAINER_MARCEL ===
 Name: Marcel
@@ -284,44 +257,8 @@ Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Team Aqua
-
-/* #BadGuys #TeamAquaTwo */
-
-Mightyena
-Level: 10
-Ability: Intimidate
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Bite
-- Snarl
-- Scary Face
-- Fire Fang
-
-Grimer
-Level: 10
-Ability: Stench
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Disable
-- Mud Bomb
-- Sludge Bomb
-- Shadow Punch
-
-Golbat
-Level: 10
-Ability: Inner Focus
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Bite
-- Wing Attack
-- Confuse Ray
-- Poison Fang
-
-Sharpedo
-Level: 10
-Ability: Rough Skin
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Bite
-- Screech
-- Ice Fang
-- Scary Face
+Party Size: 4
+Copy Pool: POOL_TEAM_AQUA_GETS_THE_GOODS
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: Grunt
@@ -364,35 +301,8 @@ Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Team Aqua
-
-/* #BadGuys #TeamAquaThreeA */
-
-Golbat
-Level: 10
-Ability: Inner Focus
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Confuse Ray
-- Air Cutter
-- Swift
-- Poison Fang
-
-Sharpedo
-Level: 10
-Ability: Rough Skin
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Bite
-- Aqua Jet
-- Screech
-- Poison Fang
-
-Grimer
-Level: 10
-Ability: Stench
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Poison Gas
-- Disable
-- Sludge
-- Mud Bomb
+Party Size: 4
+Copy Pool: POOL_TEAM_AQUA_GOES_TO_THE_MUSEUM
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: Grunt
@@ -402,44 +312,8 @@ Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Team Aqua
-
-/* #BadGuys #TeamAquaThreeB */
-
-Mightyena
-Level: 10
-Ability: Intimidate
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Bite
-- Snarl
-- Embargo
-- Fire Fang
-
-Kingler
-Level: 10
-Ability: Shell Armor
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Harden
-- Bubble Beam
-- Mud Shot
-- Metal Claw
-
-Shuppet
-Level: 10
-Ability: Insomnia
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Shadow Sneak
-- Will O Wisp
-- Hex
-- Embargo
-
-Sharpedo
-Level: 10
-Ability: Rough Skin
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Bite
-- Aqua Jet
-- Screech
-- Poison Fang
+Party Size: 4
+Copy Pool: POOL_TEAM_AQUA_GOES_TO_THE_MUSEUM
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: Grunt
@@ -461,7 +335,8 @@ Music: Aqua
 Double Battle: No
 AI: Team Aqua
 Party Size: 2
-Copy Pool: POOL_TEAM_AQUA
+Copy Pool: POOL_TEAM_AQUA_PAYS_THEIR_RESPECTS
+Pool Pick Functions: Selections
 
 === TRAINER_GRUNT_MT_PYRE_2 ===
 Name: Grunt
@@ -472,7 +347,8 @@ Music: Aqua
 Double Battle: No
 AI: Team Aqua
 Party Size: 2
-Copy Pool: POOL_TEAM_AQUA
+Copy Pool: POOL_TEAM_AQUA_PAYS_THEIR_RESPECTS
+Pool Pick Functions: Selections
 
 === TRAINER_GRUNT_MT_PYRE_3 ===
 Name: Grunt
@@ -483,7 +359,8 @@ Music: Aqua
 Double Battle: No
 AI: Team Aqua
 Party Size: 2
-Copy Pool: POOL_TEAM_AQUA
+Copy Pool: POOL_TEAM_AQUA_PAYS_THEIR_RESPECTS
+Pool Pick Functions: Selections
 
 === TRAINER_GRUNT_WEATHER_INST_4 ===
 Name: Grunt
@@ -538,44 +415,9 @@ Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Aqua Admin
-
-/* #BadGuys #TeamAquaFive */
-
-Kingler
-Level: 10
-Ability: Hyper Cutter
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Crabhammer
-- Dig
-- X Scissor
-- Swords Dance
-
-Muk
-Level: 10
-Ability: Stench
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Venom Drench
-- Gunk Shot
-- Acid Armor
-- Shadow Sneak
-
-Crobat
-Level: 10
-Ability: Inner Focus
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Cross Poison
-- Acrobatics
-- Confuse Ray
-- U Turn
-
-Machamp
-Level: 10
-Ability: No Guard
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Dynamic Punch
-- Knock Off
-- Stone Edge
-- Poison Jab
+Party Size: 4
+Copy Pool: POOL_TEAM_AQUA_EMPLOYS_THE_BEST
+Pool Pick Functions: Selections
 
 === TRAINER_ZANDER ===
 Name: Zander
@@ -596,44 +438,9 @@ Gender: Female
 Music: Aqua
 Double Battle: No
 AI: Aqua Admin
-
-/* #BadGuys #TeamAquaFour */
-
-Mightyena
-Level: 10
-Ability: Intimidate
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Howl
-- Crunch
-- Embargo
-- Fire Fang
-
-Golbat
-Level: 10
-Ability: Inner Focus
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Venoshock
-- Acrobatics
-- Mean Look
-- U Turn
-
-Banette
-Level: 10
-Ability: Insomnia
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Knock Off
-- Shadow Sneak
-- Embargo
-- Shadow Claw
-
-Machoke
-Level: 10
-Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Cross Chop
-- Knock Off
-- Rock Tomb
-- Poison Jab
+Party Size: 4
+Copy Pool: POOL_TEAM_AQUA_EMPLOYS_THE_BEST
+Pool Pick Functions: Selections
 
 === TRAINER_SHELLY_SEAFLOOR_CAVERN ===
 Name: Shelly
@@ -643,44 +450,9 @@ Gender: Female
 Music: Aqua
 Double Battle: No
 AI: Aqua Admin
-
-/* #BadGuys #TeamAquaSixA */
-
-Mightyena
-Level: 10
-Ability: Intimidate
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Howl
-- Crunch
-- Embargo
-- Fire Fang
-
-Crobat
-Level: 10
-Ability: Inner Focus
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Cross Poison
-- Acrobatics
-- Mean Look
-- U Turn
-
-Banette
-Level: 10
-Ability: Insomnia
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Knock Off
-- Shadow Sneak
-- Embargo
-- Shadow Claw
-
-Machamp
-Level: 10
-Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Cross Chop
-- Knock Off
-- Stone Edge
-- Poison Jab
+Party Size: 4
+Copy Pool: POOL_TEAM_AQUA_EMPLOYS_THE_BEST
+Pool Pick Functions: Selections
 
 === TRAINER_ARCHIE ===
 Name: Archie
@@ -691,40 +463,130 @@ Music: Aqua
 Double Battle: No
 AI: Aqua Leader
 
-/* #BadGuys #TeamAquaSixB */
+/* #BadGuys #TeamAquaFiveB */
 
+/*
 Pelipper @ Damp Rock
 Level: 10
 Ability: Drizzle
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
 - Hurricane
-- Tailwind
+- Hydro Pump
 - U Turn
-- Surf
+- Roost
+*/
+
+Crobat
+Level: 10
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Cross Poison
+- Acrobatics
+- U Turn
+- Taunt
+
+Crobat
+Level: 10
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Cross Poison
+- Confuse Ray
+- U Turn
+- Taunt
+
+Crobat
+Level: 10
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Confuse Ray
+- Acrobatics
+- U Turn
+- Taunt
+
+Crobat
+Level: 10
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Cross Poison
+- Confuse Ray
+- Acrobatics
+- U Turn
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Crunch
+- Embargo
+- Taunt
+- Sucker Punch
+
+Machamp
+Level: 10
+Ability: No Guard
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Knock Off
+- Dynamic Punch
+- Poison Jab
+- Stone Edge
 
 Muk
 Level: 10
-Ability: Stench
+Ability: Poison Touch
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
 - Gunk Shot
 - Acid Armor
-- Shadow Sneak
-- Dig
+- Payback
+
+Hypno
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Nasty Plot
+- Psychic
+- Dazzling Gleam
+- Shadow Ball
 
 Kingler
 Level: 10
 Ability: Hyper Cutter
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Crabhammer
-- Dig
 - X Scissor
+- Dig
 - Swords Dance
+
+Weavile
+Level: 10
+Ability: Pressure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Shard
+- Night Slash
+- Aerial Ace
+- Swords Dance
+
+Banette
+Level: 10
+Ability: Cursed Body
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Phantom Force
+- Knock Off
+- Shadow Sneak
+- Will O Wisp
 
 Sharpedo
 Level: 10
 Ability: Speed Boost
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Ice Fang
+Tags: Ace
+- Aqua Jet
 - Poison Fang
 - Crunch
 - Waterfall
@@ -5886,35 +5748,37 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Magma Admin
+Party Size: 2
 
-/* #BadGuys #TeamMagmaThreeA */
+/* #BadGuys #TeamMagmaThreeB */
 
-Mightyena
+Hypno
 Level: 10
-Ability: Intimidate
+Ability: Insomnia
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Nasty Plot
+- Psychic
+- Dazzling Gleam
+
+Weezing
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Gyro Ball
+- Sludge Bomb
+- Dark Pulse
 - Taunt
-- Sucker Punch
-- Crunch
-- Fire Fang
 
 Dusclops
 Level: 10
 Ability: Pressure
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 8
 - Pursuit
 - Will O Wisp
+- Confuse Ray
 - Curse
-- Hex
-
-Machamp
-Level: 10
-Ability: Guts
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Cross Chop
-- Knock Off
-- Rock Slide
-- Poison Jab
 
 === TRAINER_EDWIN_2 ===
 Name: Edwin
@@ -6476,7 +6340,8 @@ Music: Aqua
 Double Battle: No
 AI: Team Aqua
 Party Size: 2
-Copy Pool: POOL_TEAM_AQUA
+Copy Pool: POOL_TEAM_AQUA_PAYS_THEIR_RESPECTS
+Pool Pick Functions: Selections
 
 === TRAINER_GRUNT_JAGGED_PASS ===
 Name: Grunt
@@ -6685,8 +6550,9 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Team Magma
-Party Size: 2
-Copy Pool: POOL_TEAM_MAGMA
+Party Size: 4
+Copy Pool: POOL_TEAM_MAGMA_DOESNT_PLAY_NICE
+Pool Pick Functions: Selections
 
 === TRAINER_GRUNT_SPACE_CENTER_6 ===
 Name: Grunt
@@ -6696,8 +6562,9 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Team Magma
-Party Size: 2
-Copy Pool: POOL_TEAM_MAGMA
+Party Size: 4
+Copy Pool: POOL_TEAM_MAGMA_DOESNT_PLAY_NICE
+Pool Pick Functions: Selections
 
 === TRAINER_GRUNT_SPACE_CENTER_7 ===
 Name: Grunt
@@ -6707,8 +6574,9 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Team Magma
-Party Size: 2
-Copy Pool: POOL_TEAM_MAGMA
+Party Size: 4
+Copy Pool: POOL_TEAM_MAGMA_DOESNT_PLAY_NICE
+Pool Pick Functions: Selections
 
 === TRAINER_MACEY ===
 Name: Macey
@@ -6787,6 +6655,7 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Magma Admin
+Party Size: 4
 
 /* #BadGuys #TeamMagmaOneA */
 
@@ -6794,37 +6663,97 @@ Golbat
 Level: 10
 Ability: Inner Focus
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
 - Wing Attack
-- Confuse Ray
 - Poison Fang
 - U Turn
+- Taunt
 
 Mightyena
 Level: 10
 Ability: Intimidate
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Snarl
-- Scary Face
+Tags: Lead
 - Crunch
-- Fire Fang
+- Howl
+- Embargo
+- Taunt
 
-Dusclops
+Mightyena
 Level: 10
-Ability: Pressure
+Ability: Intimidate
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Pursuit
-- Will O Wisp
-- Curse
-- Hex
+Tags: Lead
+- Embargo
+- Taunt
+- Sucker Punch
+- Torment
+
+Drowzee
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Psybeam
+- Dazzling Gleam
+- Torment
+
+Cubone
+Level: 10
+Ability: Rock Head
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Bonemerang
+- Double Edge
+- Brick Break
+- Aerial Ace
+
+Koffing
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge
+- Gyro Ball
+- Explosion
+- Sleep Talk
+
+Numel
+Level: 10
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Lava Plume
+- Yawn
+- Earthquake
+- Sleep Talk
 
 Machoke
 Level: 10
 Ability: Guts
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Low Sweep
+Tags: Ace
 - Knock Off
-- Rock Slide
+- Wake Up Slap
+- Confide
 - Poison Jab
+
+Houndour
+Level: 10
+Ability: Unnerve
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Embargo
+- Foul Play
+- Flamethrower
+- Nasty Plot
+
+Dusclops
+Level: 10
+Ability: Pressure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Pursuit
+- Will O Wisp
+- Curse
+- Hex
 
 === TRAINER_JONATHAN ===
 Name: Jonathan
@@ -6869,9 +6798,11 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Magma Leader
+Party Size: 4
 
 /* #BadGuys #TeamMagmaTwoB */
 
+/*
 Torkoal @ Heat Rock
 Level: 10
 Ability: Drought
@@ -6880,33 +6811,121 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Eruption
 - Solar Beam
 - Explosion
+*/
 
-Weezing
+Crobat
 Level: 10
-Ability: Levitate
+Ability: Infiltrator
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sludge Bomb
-- Explosion
-- Thunderbolt
-- Dark Pulse
+Tags: Lead
+- Cross Poison
+- Acrobatics
+- U Turn
+- Taunt
+
+Crobat
+Level: 10
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Cross Poison
+- Confuse Ray
+- U Turn
+- Taunt
+
+Crobat
+Level: 10
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Confuse Ray
+- Acrobatics
+- U Turn
+- Taunt
+
+Crobat
+Level: 10
+Ability: Infiltrator
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Cross Poison
+- Confuse Ray
+- Acrobatics
+- U Turn
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Crunch
+- Embargo
+- Taunt
+- Sucker Punch
+
+Machamp
+Level: 10
+Ability: No Guard
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Knock Off
+- Dynamic Punch
+- Poison Jab
+- Stone Edge
+
+Hypno
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Nasty Plot
+- Psychic
+- Dazzling Gleam
+- Shadow Ball
 
 Marowak
 Level: 10
 Ability: Rock Head
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Double Edge
-- Belly Drum
+- Brick Break
 - Earthquake
-- Aerial Ace
+- Swords Dance
+
+Weezing
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Gyro Ball
+- Sludge Bomb
+- Explosion
+- Dark Pulse
+
+Houndoom
+Level: 10
+Ability: Unnerve
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Foul Play
+- Flamethrower
+- Nasty Plot
+- Dark Pulse
+
+Dusclops
+Level: 10
+Ability: Pressure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Sneak
+- Pursuit
+- Will O Wisp
+- Confuse Ray
 
 Camerupt
 Level: 10
-Ability: Solid Rock
+Ability: Anger Point
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Eruption
+Tags: Ace
 - Lava Plume
+- Rock Slide
+- Yawn
 - Earthquake
-- Solar Beam
 
 === TRAINER_MAXIE_MT_CHIMNEY ===
 Name: Maxie
@@ -6916,9 +6935,11 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Magma Leader
+Party Size: 4
 
 /* #BadGuys #TeamMagmaOneB */
 
+/*
 Torkoal
 Level: 10
 Ability: Drought
@@ -6927,33 +6948,111 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Lava Plume
 - Eruption
 - Gyro Ball
+*/
 
-Weezing
+Crobat
 Level: 10
-Ability: Levitate
+Ability: Infiltrator
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Smokescreen
-- Sludge Bomb
-- Explosion
-- Dark Pulse
+Tags: Lead
+- Cross Poison
+- Acrobatics
+- U Turn
+- Taunt
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Crunch
+- Howl
+- Embargo
+- Taunt
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Crunch
+- Howl
+- Taunt
+- Sucker Punch
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Embargo
+- Taunt
+- Sucker Punch
+- Torment
+
+Machoke
+Level: 10
+Ability: No Guard
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Knock Off
+- Cross Chop
+- Confide
+- Poison Jab
+
+Hypno
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Psybeam
+- Dazzling Gleam
+- Torment
 
 Marowak
 Level: 10
 Ability: Rock Head
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Headbutt
-- Bone Rush
+- Bonemerang
+- Brick Break
 - Aerial Ace
-- Thief
+
+Weezing
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Gyro Ball
+- Sludge Bomb
+- Explosion
+- Dark Pulse
+
+Houndour
+Level: 10
+Ability: Unnerve
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Embargo
+- Foul Play
+- Flamethrower
+- Dark Pulse
+
+Dusclops
+Level: 10
+Ability: Pressure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Sneak
+- Pursuit
+- Confuse Ray
+- Curse
 
 Camerupt
 Level: 10
-Ability: Solid Rock
+Ability: Anger Point
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
 - Eruption
 - Lava Plume
+- Earth Power
 - Yawn
-- Bulldoze
 
 === TRAINER_TIANA ===
 Name: Tiana
@@ -8450,6 +8549,8 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Magma Admin
+Party Size: 4
+Pool Pick Functions: Selections
 
 /* #BadGuys #TeamMagmaTwoA */
 
@@ -8457,37 +8558,131 @@ Crobat
 Level: 10
 Ability: Inner Focus
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Cross Poison
+Tags: Lead
 - Confuse Ray
 - Acrobatics
 - U Turn
+- Taunt
+
+Crobat
+Level: 10
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Cross Poison
+- Confuse Ray
+- U Turn
+- Taunt
 
 Mightyena
 Level: 10
 Ability: Intimidate
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Crunch
+- Howl
 - Taunt
 - Sucker Punch
-- Crunch
-- Fire Fang
 
-Dusclops
+Mightyena
 Level: 10
-Ability: Pressure
+Ability: Intimidate
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Pursuit
-- Will O Wisp
-- Curse
-- Hex
+Tags: Lead
+- Embargo
+- Taunt
+- Sucker Punch
+- Torment
+
+Machoke
+Level: 10
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Knock Off
+- Cross Chop
+- Poison Jab
+- Rock Slide
 
 Machamp
 Level: 10
 Ability: Guts
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Cross Chop
+Tags: Set 2
 - Knock Off
-- Rock Slide
+- Cross Chop
 - Poison Jab
+- Rock Slide
+
+Hypno
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Disable
+- Nasty Plot
+- Psychic
+- Dazzling Gleam
+
+Marowak
+Level: 10
+Ability: Rock Head
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 4
+- Bonemerang
+- Double Edge
+- Aerial Ace
+- Swords Dance
+
+Weezing
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 5
+- Gyro Ball
+- Sludge Bomb
+- Explosion
+- Dark Pulse
+
+Houndour
+Level: 10
+Ability: Unnerve
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 6
+- Embargo
+- Foul Play
+- Flamethrower
+- Nasty Plot
+
+Houndoom
+Level: 10
+Ability: Unnerve
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 6
+- Embargo
+- Flamethrower
+- Nasty Plot
+- Dark Pulse
+
+Camerupt
+Level: 10
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 7
+- Lava Plume
+- Rock Slide
+- Yawn
+- Earthquake
+
+Dusclops
+Level: 10
+Ability: Pressure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 8
+- Pursuit
+- Will O Wisp
+- Confuse Ray
+- Curse
 
 === TRAINER_DARCY ===
 Name: Darcy
@@ -8508,35 +8703,37 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Magma Leader
+Party Size: 2
 
-/* #BadGuys #TeamMagmaThreeB */
+/* #BadGuys #TeamMagmaThreeC */
 
-Torkoal @ Heat Rock
+Machamp
 Level: 10
-Ability: Drought
+Ability: No Guard
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Lava Plume
-- Eruption
-- Solar Beam
-- Explosion
+- Knock Off
+- Dynamic Punch
+- Poison Jab
+- Stone Edge
 
-Weezing
+Houndoom
 Level: 10
-Ability: Levitate
+Ability: Unnerve
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sludge Bomb
-- Explosion
-- Thunderbolt
+- Foul Play
+- Flamethrower
+- Nasty Plot
 - Dark Pulse
 
 Camerupt
 Level: 10
-Ability: Solid Rock
+Ability: Anger Point
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
 - Eruption
-- Lava Plume
-- Earthquake
-- Solar Beam
+- Earth Power
+- Rock Slide
+- Yawn
 
 === TRAINER_PETE ===
 Name: Pete
@@ -17592,9 +17789,11 @@ Name: Pool
 Pic: Aqua Grunt M
 Party Size: 1
 
+/*
 Zubat
 Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
 
 Golbat
 Level: 5
@@ -17610,18 +17809,22 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Grimer /* (ORAS) */
 Level: 5
+Ability: Stench
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Muk /* (ORAS) */
 Level: 5
+Ability: Stench
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Drowzee /* (added) */
 Level: 5
+Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Hypno /* (added) */
 Level: 5
+Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Krabby /* (added) */
@@ -17632,29 +17835,51 @@ Kingler /* (added) */
 Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Poochyena
+Sneasel /* (added) */
 Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+/*
+Weavile (added)
+Level: 5
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
+
+/*
+Poochyena
+Level: 5
+Ability: Quick Feet
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
 
 Mightyena
 Level: 5
+Ability: Intimidate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Wingull /* (added) */
+/*
+Wingull (added)
 Level: 5
+Ability: Keen Eye
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
 
-Pelipper /* (added) */
+/*
+Pelipper (added)
 Level: 5
+Ability: Keen Eye
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
 
 Carvanha
 Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Sharpedo /* (ORAS) */
+/*
+Sharpedo (ORAS)
 Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
 
 /*
 Wailmer
@@ -17664,10 +17889,12 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Shuppet /* (added) */
 Level: 5
+Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Banette /* (added) */
 Level: 5
+Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === POOL_TEAM_MAGMA ===
@@ -17675,9 +17902,11 @@ Name: Pool
 Pic: Magma Grunt M
 Party Size: 1
 
+/*
 Zubat
 Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
 
 Golbat /* (ORAS) */
 Level: 5
@@ -17693,43 +17922,65 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Drowzee /* (added) */
 Level: 5
+Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Hypno /* (added) */
 Level: 5
+Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Cubone /* (added) */
 Level: 5
+Ability: Rock Head
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Marowak /* (added) */
 Level: 5
+Ability: Rock Head
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Koffing /* (ORAS) */
 Level: 5
+Ability: Levitate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Weezing /* (ORAS) */
 Level: 5
+Ability: Levitate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Poochyena
+Houndour /* (added) */
 Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+/*
+Houndoom (added)
+Level: 5
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
+
+/*
+Poochyena
+Level: 5
+Ability: Quick Feet
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
 
 Mightyena
 Level: 5
+Ability: Intimidate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Numel
 Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Camerupt /* (ORAS) */
+/*
+Camerupt (ORAS)
 Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
 
 /*
 Baltoy
@@ -17737,9 +17988,12 @@ Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
-Torkoal /* (added) */
+/*
+Torkoal (added)
 Level: 5
+Ability: White Smoke
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+*/
 
 Duskull /* (added) */
 Level: 5
@@ -20819,6 +21073,541 @@ Tags: Ace
 - Rest
 - Waterfall
 - Outrage
+
+/* Villainous team pools */
+
+=== POOL_TEAM_AQUA_GETS_THE_GOODS ===
+Name: Pool
+Pic: Aqua Grunt M
+Party Size: 1
+
+/* #BadGuys #TeamAquaOneA #TeamAquaOneB */
+
+Zubat
+Level: 10
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wing Attack
+- U Turn
+- Taunt
+- Torment
+
+Poochyena
+Level: 10
+Ability: Quick Feet
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Bite
+- Snarl
+- Embargo
+- Taunt
+
+Machop
+Level: 10
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Seismic Toss
+- Knock Off
+- Wake Up Slap
+- Confide
+
+Grimer
+Level: 10
+Ability: Stench
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Mud Bomb
+- Poison Jab
+- Torment
+
+Drowzee
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Psybeam
+- Taunt
+- Torment
+
+Krabby
+Level: 10
+Ability: Hyper Cutter
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Harden
+- Bubble Beam
+- Metal Claw
+- X Scissor
+
+Carvanha
+Level: 10
+Ability: Rough Skin
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Bite
+- Aqua Jet
+- Taunt
+- Torment
+
+Shuppet
+Level: 10
+Ability: Cursed Body
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Sneak
+- Feint Attack
+- Embargo
+- Torment
+
+=== POOL_TEAM_AQUA_GOES_TO_THE_MUSEUM ===
+Name: Pool
+Pic: Aqua Grunt M
+Party Size: 1
+
+/* #BadGuys #TeamAquaTwoA #TeamAquaTwoB */
+
+Golbat
+Level: 10
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Wing Attack
+- Poison Fang
+- U Turn
+- Taunt
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Howl
+- Bite
+- Embargo
+- Taunt
+
+Grimer
+Level: 10
+Ability: Stench
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Mud Bomb
+- Poison Jab
+- Torment
+
+Drowzee
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Disable
+- Psybeam
+- Dazzling Gleam
+- Torment
+
+Krabby
+Level: 10
+Ability: Hyper Cutter
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Harden
+- Metal Claw
+- Brine
+- X Scissor
+
+Carvanha
+Level: 10
+Ability: Rough Skin
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Bite
+- Aqua Jet
+- Poison Fang
+- Taunt
+
+Machoke
+Level: 10
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Knock Off
+- Wake Up Slap
+- Confide
+- Poison Jab
+
+Sneasel
+Level: 10
+Ability: Keen Eye
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Taunt
+- Quick Attack
+- Feint Attack
+- Aerial Ace
+
+Banette
+Level: 10
+Ability: Cursed Body
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Will O Wisp
+- Sucker Punch
+- Embargo
+- Shadow Claw
+
+=== POOL_TEAM_AQUA_PAYS_THEIR_RESPECTS ===
+Name: Pool
+Pic: Aqua Grunt M
+Party Size: 1
+
+/* #BadGuys #TeamAquaTwoA #TeamAquaTwoB */
+
+Golbat
+Level: 10
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Confuse Ray
+- Acrobatics
+- U Turn
+- Taunt
+
+Golbat
+Level: 10
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Confuse Ray
+- Poison Fang
+- U Turn
+- Taunt
+
+Machoke
+Level: 10
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Knock Off
+- Cross Chop
+- Poison Jab
+- Rock Slide
+
+Sneasel
+Level: 10
+Ability: Keen Eye
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Feint Attack
+- Ice Shard
+- Aerial Ace
+- Swords Dance
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 4
+- Crunch
+- Howl
+- Taunt
+- Sucker Punch
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 4
+- Embargo
+- Taunt
+- Sucker Punch
+- Torment
+
+Carvanha
+Level: 10
+Ability: Rough Skin
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 5
+- Aqua Jet
+- Poison Fang
+- Crunch
+- Taunt
+
+Banette
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 6
+- Knock Off
+- Shadow Sneak
+- Embargo
+- Shadow Claw
+
+Muk
+Level: 10
+Ability: Stench
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Disable
+- Gunk Shot
+- Acid Armor
+- Payback
+
+Hypno
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Disable
+- Nasty Plot
+- Psychic
+- Dazzling Gleam
+
+Kingler
+Level: 10
+Ability: Hyper Cutter
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Crabhammer
+- X Scissor
+- Dig
+- Swords Dance
+
+=== POOL_TEAM_AQUA_EMPLOYS_THE_BEST ===
+Name: Pool
+Pic: Aqua Grunt M
+Party Size: 1
+
+/* #BadGuys #TeamAquaThree #TeamAquaFour #TeamAquaFiveA */
+
+Golbat
+Level: 10
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Confuse Ray
+- Acrobatics
+- U Turn
+- Taunt
+
+Crobat
+Level: 10
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Cross Poison
+- Acrobatics
+- U Turn
+- Taunt
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Crunch
+- Howl
+- Taunt
+- Sucker Punch
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Embargo
+- Taunt
+- Sucker Punch
+- Torment
+
+Machoke
+Level: 10
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Knock Off
+- Cross Chop
+- Poison Jab
+- Rock Slide
+
+Machamp
+Level: 10
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Knock Off
+- Cross Chop
+- Poison Jab
+- Rock Slide
+
+Muk
+Level: 10
+Ability: Stench
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Disable
+- Gunk Shot
+- Acid Armor
+- Payback
+
+Hypno
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 4
+- Disable
+- Nasty Plot
+- Psychic
+- Dazzling Gleam
+
+Kingler
+Level: 10
+Ability: Hyper Cutter
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 5
+- Crabhammer
+- X Scissor
+- Dig
+- Swords Dance
+
+Sneasel
+Level: 10
+Ability: Keen Eye
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 6
+- Feint Attack
+- Ice Shard
+- Aerial Ace
+- Swords Dance
+
+Weavile
+Level: 10
+Ability: Pressure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 6
+- Ice Shard
+- Night Slash
+- Aerial Ace
+- Swords Dance
+
+Sharpedo
+Level: 10
+Ability: Rough Skin
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 7
+- Aqua Jet
+- Poison Fang
+- Crunch
+- Taunt
+
+Banette
+Level: 10
+Ability: Cursed Body
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 8
+- Knock Off
+- Shadow Sneak
+- Embargo
+- Shadow Claw
+
+=== POOL_TEAM_MAGMA_DOESNT_PLAY_NICE ===
+Name: Pool
+Pic: Magma Grunt M
+Party Size: 1
+
+/* #TeamMagmaThreeA */
+
+Golbat
+Level: 10
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Wing Attack
+- Poison Fang
+- U Turn
+- Taunt
+
+Machoke
+Level: 10
+Ability: Guts
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Knock Off
+- Cross Chop
+- Poison Jab
+- Rock Slide
+
+Houndour
+Level: 10
+Ability: Unnerve
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 3
+- Embargo
+- Foul Play
+- Flamethrower
+- Nasty Plot
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 4
+- Crunch
+- Howl
+- Embargo
+- Taunt
+
+Mightyena
+Level: 10
+Ability: Intimidate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 4
+- Embargo
+- Taunt
+- Sucker Punch
+- Torment
+
+Numel
+Level: 10
+Ability: Oblivious
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 5
+- Lava Plume
+- Yawn
+- Earthquake
+- Sleep Talk
+
+Dusclops
+Level: 10
+Ability: Pressure
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 6
+- Pursuit
+- Will O Wisp
+- Curse
+- Hex
+
+Hypno
+Level: 10
+Ability: Insomnia
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Disable
+- Nasty Plot
+- Psychic
+- Dazzling Gleam
+
+Marowak
+Level: 10
+Ability: Rock Head
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Bonemerang
+- Double Edge
+- Brick Break
+- Aerial Ace
+
+Weezing
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Ace
+- Gyro Ball
+- Sludge Bomb
+- Dark Pulse
+- Torment
 
 /* Rival pools */
 
