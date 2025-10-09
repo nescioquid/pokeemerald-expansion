@@ -329,15 +329,12 @@ script _FortreeCity_Gym_EventScript_GymGuide {
     if (!flag(FLAG_RECEIVED_FRESH_WATER_FORTREE_GYM)) {
       call(_Common_EventScript_GymGuide_GiveFreshWater)
       setflag(FLAG_RECEIVED_FRESH_WATER_FORTREE_GYM)
-      msgbox(format("Okay, go for it!"))
     }
   } else {
     msgbox(FortreeCity_Gym_Text_GymGuidePostVictory)
     if (!flag(FLAG_RECEIVED_RARE_CANDY_FORTREE_GYM)) {
-      msgbox(format("Oh, and take these!"))
       call(_Common_EventScript_GymGuide_GiveRareCandy)
       setflag(FLAG_RECEIVED_RARE_CANDY_FORTREE_GYM)
-      msgbox(format("Congrats on the big win!"))
     }
   }
   release

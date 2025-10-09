@@ -409,15 +409,12 @@ script _LavaridgeTown_Gym_1F_EventScript_GymGuide {
     if (!flag(FLAG_RECEIVED_FRESH_WATER_LAVARIDGE_GYM)) {
       call(_Common_EventScript_GymGuide_GiveFreshWater)
       setflag(FLAG_RECEIVED_FRESH_WATER_LAVARIDGE_GYM)
-      msgbox(format("Good luck!"))
     }
   } else {
     msgbox(LavaridgeTown_Gym_1F_Text_GymGuidePostVictory)
     if (!flag(FLAG_RECEIVED_RARE_CANDY_LAVARIDGE_GYM)) {
-      msgbox(format("Oh, and take these!"))
       call(_Common_EventScript_GymGuide_GiveRareCandy)
       setflag(FLAG_RECEIVED_RARE_CANDY_LAVARIDGE_GYM)
-      msgbox(format("Congrats on the big win!"))
     }
   }
   release

@@ -1605,15 +1605,12 @@ script _PetalburgCity_Gym_EventScript_GymGuide {
     if (!flag(FLAG_RECEIVED_FRESH_WATER_PETALBURG_GYM)) {
       call(_Common_EventScript_GymGuide_GiveFreshWater)
       setflag(FLAG_RECEIVED_FRESH_WATER_PETALBURG_GYM)
-      msgbox(format("Well, hey, go for it!"))
     }
   } else {
     msgbox(PetalburgCity_Gym_Text_GymGuidePostVictory)
     if (!flag(FLAG_RECEIVED_RARE_CANDY_PETALBURG_GYM)) {
-      msgbox(format("Oh, and take these!"))
       call(_Common_EventScript_GymGuide_GiveRareCandy)
       setflag(FLAG_RECEIVED_RARE_CANDY_PETALBURG_GYM)
-      msgbox(format("Congrats on the big win!"))
     }
   }
   release
