@@ -1375,16 +1375,17 @@ script _SlateportCity_EventScript_TMClerk {
     case 4: message(format("Know what you want already?"))
   }
   waitmessage
-  if (!flag(FLAG_BADGE04_GET)) {
-    pokemart(_SlateportCity_Pokemart_TMs_Some)
-  } elif (!flag(FLAG_BADGE07_GET)) {
-    pokemart(_SlateportCity_Pokemart_TMs_Most)
-  } else {
-    pokemart(_SlateportCity_Pokemart_TMs_All)
-  }
-  if (!flag(FLAG_BADGE07_GET)) {
-    msgbox(format("Come back and check out what else's in stock later!"))
-  }
+  // if (!flag(FLAG_BADGE04_GET)) {
+  //   pokemart(_SlateportCity_Pokemart_TMs_Some)
+  // } elif (!flag(FLAG_BADGE07_GET)) {
+  //   pokemart(_SlateportCity_Pokemart_TMs_Most)
+  // } else {
+  //   pokemart(_SlateportCity_Pokemart_TMs_All)
+  // }
+  // if (!flag(FLAG_BADGE07_GET)) {
+  //   msgbox(format("Come back and check out what else's in stock later!"))
+  // }
+  pokemart(_SlateportCity_Pokemart_TMs_All)
   call(_Common_EventScript_Clerk_Goodbye)
   release
   end
