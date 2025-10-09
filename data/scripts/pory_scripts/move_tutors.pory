@@ -37,7 +37,7 @@ script _MauvilleCity_EventScript_RolloutTutor {
     }
     msgbox(MoveTutor_Text_RolloutWhichMon)
     setvar(VAR_0x8005, MOVE_ROLLOUT)
-    call(MoveTutor_EventScript_OpenPartyMenu)
+    call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_Text_RolloutDeclined)
       release
@@ -62,7 +62,7 @@ script _VerdanturfTown_PokemonCenter_1F_EventScript_FuryCutterTutor {
     }
     msgbox(MoveTutor_Text_FuryCutterWhichMon)
     setvar(VAR_0x8005, MOVE_FURY_CUTTER)
-    call(MoveTutor_EventScript_OpenPartyMenu)
+    call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_Text_FuryCutterDeclined)
       release
@@ -87,7 +87,7 @@ script _LavaridgeTown_House_EventScript_MimicTutor {
     }
     msgbox(MoveTutor_Text_MimicWhichMon)
     setvar(VAR_0x8005, MOVE_MIMIC)
-    call(MoveTutor_EventScript_OpenPartyMenu)
+    call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_MimicDeclined)
       release
@@ -112,7 +112,7 @@ script _FallarborTown_Mart_EventScript_MetronomeTutor {
     }
     msgbox(MoveTutor_Text_MetronomeWhichMon)
     setvar(VAR_0x8005, MOVE_METRONOME)
-    call(MoveTutor_EventScript_OpenPartyMenu)
+    call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_Text_MetronomeDeclined)
       release
@@ -191,7 +191,7 @@ script _MossdeepCity_EventScript_DynamicPunchTutor {
     }
     msgbox(MoveTutor_Text_DynamicPunchWhichMon)
     setvar(VAR_0x8005, MOVE_DYNAMIC_PUNCH)
-    call(MoveTutor_EventScript_OpenPartyMenu)
+    call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_Text_DynamicPunchDeclined)
       release
@@ -216,7 +216,7 @@ script _SootopolisCity_PokemonCenter_1F_EventScript_DoubleEdgeTutor {
     }
     msgbox(MoveTutor_Text_DoubleEdgeWhichMon)
     setvar(VAR_0x8005, MOVE_DOUBLE_EDGE)
-    call(MoveTutor_EventScript_OpenPartyMenu)
+    call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_Text_DoubleEdgeDeclined)
       release
@@ -269,7 +269,7 @@ script _SootopolisCity_House2_EventScript_DracoMeteorTutor {
   }
   msgbox(format("Which Pokémon should learn this move?"))
   setvar(VAR_0x8005, MOVE_DRACO_METEOR)
-  call(MoveTutor_EventScript_OpenPartyMenu)
+  call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("That is fine.\N Come back when you want them to wield true power."))
     release
@@ -293,7 +293,7 @@ script _Common_EventScript_WaterPulseTutor {
   }
   msgbox(format("Show me, then.\N Which Pokémon will learn the sea's beat?"))
   setvar(VAR_0x8005, MOVE_WATER_PULSE)
-  call(MoveTutor_EventScript_OpenPartyMenu)
+  call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("No?\N Then the ocean keeps its song to me."))
     release
@@ -315,7 +315,7 @@ script _Common_EventScript_BulletSeedTutor {
   }
   msgbox(format("All right!\N Which Pokémon wants to learn?"))
   setvar(VAR_0x8005, MOVE_BULLET_SEED)
-  call(MoveTutor_EventScript_OpenPartyMenu)
+  call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("Hmph!\N Maybe you just can't handle my seedy technique!"))
     release
@@ -337,7 +337,7 @@ script _Common_EventScript_GigaDrainTutor {
   }
   msgbox(format("Then who will learn it?\N Show me your Pokémon."))
   setvar(VAR_0x8005, MOVE_GIGA_DRAIN)
-  call(MoveTutor_EventScript_OpenPartyMenu)
+  call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("Oh, fine.\N I'll just nap and let the food win again…"))
     release
@@ -359,7 +359,7 @@ script _Common_EventScript_IronTailTutor {
   }
   msgbox(format("All right, then!\N Which Pokémon should I toughen up?"))
   setvar(VAR_0x8005, MOVE_IRON_TAIL)
-  call(MoveTutor_EventScript_OpenPartyMenu)
+  call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("Bah!\N Weak broom, weak answer!"))
     release
@@ -381,7 +381,7 @@ script _Common_EventScript_ShockWaveTutor {
   }
   msgbox(format("Heheh… Which Pokémon should I give the jolt to?"))
   setvar(VAR_0x8005, MOVE_SHOCK_WAVE)
-  call(MoveTutor_EventScript_OpenPartyMenu)
+  call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("Oh, scared of a little zap?\N Don't wear wool, then!"))
     release
@@ -403,7 +403,7 @@ script _Common_EventScript_SnatchTutor {
   }
   msgbox(format("All right, then!\N Which Pokémon's got the sticky fingers?"))
   setvar(VAR_0x8005, MOVE_SNATCH)
-  call(MoveTutor_EventScript_OpenPartyMenu)
+  call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("Hmph!\N Guess you've never been hungry."))
     release
@@ -469,4 +469,12 @@ script _Common_EventScript_RandomMoveTutorMoveGenerator {
   if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) {
     call(_Common_EventScript_RandomMoveTutorMoveGenerator)
   }
+}
+
+script _MoveTutor_EventScript_OpenPartyMenu {
+  special(ChooseMonForMoveTutor)
+  waitstate
+  lock
+  faceplayer
+  return
 }
