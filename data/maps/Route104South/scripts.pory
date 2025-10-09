@@ -89,12 +89,18 @@ script _Route104South_EventScript_MayEncounter {
   applymovement(LOCALID_ROUTE104SOUTH_RIVAL, Route104_Movement_RivalApproachPlayer)
   waitmovement(0)
   copyobjectxytoperm(LOCALID_ROUTE104SOUTH_RIVAL)
-  msgbox(format("Mine's looking pretty decent.\nSo…\lHow about a little battle?"))
+  msgbox(format("Mine's looking pretty decent.\N So…\N How about a little battle?"))
   switch(var(VAR_STARTER_MON)) {
-    case STARTER_GRASS: call(Route104_EventScript_BattleMayTreecko)
-    case STARTER_FIRE:  call(Route104_EventScript_BattleMayTorchic)
-    case STARTER_WATER: call(Route104_EventScript_BattleMayMudkip)
+    case STARTER_GRASS:
+      trainerbattle_no_intro(TRAINER_MAY_RUSTBORO_TREECKO, Route104_Text_MayDefeat)
+    case STARTER_FIRE:
+      trainerbattle_no_intro(TRAINER_MAY_RUSTBORO_TORCHIC, Route104_Text_MayDefeat)
+    case STARTER_WATER:
+      trainerbattle_no_intro(TRAINER_MAY_RUSTBORO_MUDKIP, Route104_Text_MayDefeat)
   }
+  setflag(FLAG_DEFEATED_RIVAL_ROUTE_104)
+  msgbox(Route104_Text_MayPostBattle)
+  call_if_eq( VAR_0x8008, 0, Route104_EventScript_RestoreMusic)
   releaseall
   end
 }
@@ -124,12 +130,18 @@ script _Route104South_EventScript_BrendanEncounter {
   applymovement(LOCALID_ROUTE104SOUTH_RIVAL, Route104_Movement_RivalApproachPlayer)
   waitmovement(0)
   copyobjectxytoperm(LOCALID_ROUTE104SOUTH_RIVAL)
-  msgbox(format("Me, I'm doing great!\pWanna check out how good I am with\na battle?"))
+  msgbox(format("Me, I'm doing great!\p Wanna check out how good I am with a battle?"))
   switch(var(VAR_STARTER_MON)) {
-    case STARTER_GRASS: call(Route104_EventScript_BattleBrendanTreecko)
-    case STARTER_FIRE:  call(Route104_EventScript_BattleBrendanTorchic)
-    case STARTER_WATER: call(Route104_EventScript_BattleBrendanMudkip)
+    case STARTER_GRASS:
+      trainerbattle_no_intro(TRAINER_BRENDAN_RUSTBORO_TREECKO, Route104_Text_BrendanDefeat)
+    case STARTER_FIRE:
+      trainerbattle_no_intro(TRAINER_BRENDAN_RUSTBORO_TORCHIC, Route104_Text_BrendanDefeat)
+    case STARTER_WATER:
+      trainerbattle_no_intro(TRAINER_BRENDAN_RUSTBORO_MUDKIP, Route104_Text_BrendanDefeat)
   }
+  setflag(FLAG_DEFEATED_RIVAL_ROUTE_104)
+  msgbox(Route104_Text_BrendanPostBattle)
+  call_if_eq( VAR_0x8008, 0, Route104_EventScript_RestoreMusic)
   releaseall
   end
 }
