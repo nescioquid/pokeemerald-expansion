@@ -28,6 +28,7 @@ FortreeCity_Gym_EventScript_Winona::
   end
 
 FortreeCity_Gym_EventScript_WinonaDefeated::
+  call _FortreeCity_Gym_EventScript_WinonaDefeatedRaiseLevelCap
   msgbox _FortreeCity_Gym_Text_WinonaDefeated
   message FortreeCity_Gym_Text_ReceivedFeatherBadge
   waitmessage

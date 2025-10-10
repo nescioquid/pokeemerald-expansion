@@ -54,6 +54,7 @@ LavaridgeTown_Gym_1F_EventScript_Flannery::
   end
 
 LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
+  call _LavaridgeTown_Gym_1F_EventScript_FlanneryDefeatedRaiseLevelCap
   msgbox _LavaridgeTown_Gym_1F_Text_FlanneryDefeated
   message LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge
   waitmessage

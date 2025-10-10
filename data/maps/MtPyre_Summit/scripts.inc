@@ -64,6 +64,7 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 	clearflag FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY
 	setvar VAR_SLATEPORT_CITY_STATE, 1
 	setvar VAR_SLATEPORT_HARBOR_STATE, 1
+	call _MtPyre_Summit_EventScript_GruntsDefeatedRaiseLevelCap
 	releaseall
 	end
 

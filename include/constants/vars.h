@@ -268,7 +268,7 @@
 #define VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2                 0x40F8
 #define VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3                 0x40F9
 #define VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4                 0x40FA
-#define VAR_UNUSED_0x40FB                                0x40FB // Unused Var
+#define VAR_LEVEL_CAP                                    0x40FB
 #define VAR_UNUSED_0x40FC                                0x40FC // Unused Var
 #define VAR_UNUSED_0x40FD                                0x40FD // Unused Var
 #define VAR_UNUSED_0x40FE                                0x40FE // Unused Var

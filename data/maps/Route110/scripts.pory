@@ -422,6 +422,7 @@ Route110_EventScript_MayBattleMudkip::
   end
 
 Route110_EventScript_MayDefeated::
+  call _Route110_EventScript_RivalDefeatedRaiseLevelCap
   msgbox Route110_Text_MayTakeThis, MSGBOX_DEFAULT
   call Route110_EventScript_GiveItemfinder
   msgbox _Route110_Text_MayExplainItemfinder, MSGBOX_DEFAULT
@@ -452,6 +453,7 @@ Route110_EventScript_BrendanBattleMudkip::
   end
 
 Route110_EventScript_BrendanDefeated::
+  call _Route110_EventScript_RivalDefeatedRaiseLevelCap
   msgbox Route110_Text_BrendanTakeThis, MSGBOX_DEFAULT
   call Route110_EventScript_GiveItemfinder
   msgbox _Route110_Text_BrendanExplainItemfinder, MSGBOX_DEFAULT
