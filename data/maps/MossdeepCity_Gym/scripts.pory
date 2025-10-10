@@ -64,6 +64,7 @@ MossdeepCity_Gym_EventScript_TateAndLiza::
   end
 
 MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
+  call _MossdeepCity_Gym_EventScript_TateAndLizaDefeatedRaiseLevelCap
   msgbox _MossdeepCity_Gym_Text_TateAndLizaDefeated
   message MossdeepCity_Gym_Text_ReceivedMindBadge
   waitmessage

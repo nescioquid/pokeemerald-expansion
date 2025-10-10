@@ -215,6 +215,7 @@ script _VictoryRoad_1F_EventScript_Wally {
   msgbox(VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore)
   trainerbattle_no_intro(TRAINER_WALLY_VR_1, VictoryRoad_1F_Text_WallyEntranceDefeat)
   msgbox(VictoryRoad_1F_Text_WallyPostEntranceBattle)
+  call(_VictoryRoad_1F_EventScript_WallyDefeatedRaiseLevelCap)
   clearflag(FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY)
   copyobjectxytoperm(LOCALID_VICTORY_ROAD_EXIT_WALLY)
   setflag(FLAG_DEFEATED_WALLY_VICTORY_ROAD)

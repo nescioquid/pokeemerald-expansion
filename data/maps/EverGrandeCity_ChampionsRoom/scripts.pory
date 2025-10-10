@@ -345,6 +345,7 @@ script _EverGrandeCity_ChampionsRoom_EventScript_Steven {
   playbgm(MUS_ENCOUNTER_CHAMPION, FALSE)
   msgbox(format("Welcome, {PLAYER}{KUN}.\pI was hoping I would get to see you make it here one day.\pTell me…\pWhat have you seen on your journey with your Pokémon?\pWhat have you felt, meeting so many other Trainers out there?\pTraveling this rich land of Hoenn… has it awoken something inside you?\pI want you to come at me with all that you've learned.\pMy Pokémon and I will respond in turn with all that we know!\pLet it begin!"))
   trainerbattle_no_intro(TRAINER_STEVEN, format("So I, the Champion, fall in defeat…"))
+  call(_EverGrandeCity_ChampionsRoom_EventScript_StevenDefeatedRaiseLevelCap)
   goto(EverGrandeCity_ChampionsRoom_EventScript_Defeated)
   end
 }

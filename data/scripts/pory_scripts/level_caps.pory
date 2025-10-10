@@ -1,0 +1,134 @@
+// Number of level cap variables: 25
+// Initial value of VAR_LEVEL_CAP:       20/**25**/30
+const LEVELS_ADDED                          =  2
+const LEVELS_ADDED_RIVAL_1                  = LEVELS_ADDED // += 22/27/32
+const LEVELS_ADDED_GRUNT_PETALBURG_WOODS    = LEVELS_ADDED // += 24/29/34
+const LEVELS_ADDED_ROXANNE                  = LEVELS_ADDED // += 26/31/36
+const LEVELS_ADDED_GRUNT_RUSTURF_TUNNEL     = LEVELS_ADDED // += 28/33/38
+const LEVELS_ADDED_RIVAL_2                  = LEVELS_ADDED // += 30/35/40
+const LEVELS_ADDED_BRAWLY                   = LEVELS_ADDED // += 32/37/42
+const LEVELS_ADDED_GRUNTS_OCEANIC_MUSEUM    = LEVELS_ADDED // += 34/39/44
+const LEVELS_ADDED_RIVAL_3                  = LEVELS_ADDED // += 36/41/46
+const LEVELS_ADDED_WALLY_1                  = LEVELS_ADDED // += 38/43/48
+const LEVELS_ADDED_WATTSON                  = LEVELS_ADDED // += 40/45/50
+const LEVELS_ADDED_MAXIE_MT_CHIMNEY         = LEVELS_ADDED // += 42/47/52
+const LEVELS_ADDED_FLANNERY                 = LEVELS_ADDED // += 44/49/54
+const LEVELS_ADDED_NORMAN                   = LEVELS_ADDED // += 46/51/56
+const LEVELS_ADDED_SHELLY_WEATHER_INSTITUTE = LEVELS_ADDED // += 48/53/58
+const LEVELS_ADDED_RIVAL_4                  = LEVELS_ADDED // += 50/55/60
+const LEVELS_ADDED_WINONA                   = LEVELS_ADDED // += 52/57/62
+const LEVELS_ADDED_GRUNTS_MT_PYRE           = LEVELS_ADDED // += 54/59/64
+const LEVELS_ADDED_RIVAL_5                  =  0
+const LEVELS_ADDED_MAXIE_MAGMA_HIDEOUT      = LEVELS_ADDED // += 56/61/66
+const LEVELS_ADDED_MATT_AQUA_HIDEOUT        = LEVELS_ADDED // += 58/63/68
+const LEVELS_ADDED_TATE_AND_LIZA            = LEVELS_ADDED // += 60/65/70
+const LEVELS_ADDED_MAXIE_SPACE_CENTER       = LEVELS_ADDED // += 62/67/72
+const LEVELS_ADDED_ARCHIE                   = LEVELS_ADDED // += 64/69/74
+const LEVELS_ADDED_JUAN                     = LEVELS_ADDED // += 66/71/76
+const LEVELS_ADDED_WALLY_2                  = LEVELS_ADDED // += 68/73/78
+const LEVELS_ADDED_STEVEN                   =  0
+// Number of levels added:                    48
+
+script _Route103_EventScript_RivalDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_RIVAL_1)
+}
+
+script _PetalburgWoods_EventScript_GruntDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_GRUNT_PETALBURG_WOODS)
+}
+
+script _RustboroCity_Gym_EventScript_RoxanneDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_ROXANNE)
+}
+
+script _RusturfTunnel_EventScript_GruntDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_GRUNT_RUSTURF_TUNNEL)
+}
+
+script _Route104South_EventScript_RivalDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_RIVAL_2)
+}
+
+script _DewfordTown_Gym_EventScript_BrawlyDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_BRAWLY)
+}
+
+script _SlateportCity_OceanicMuseum_2F_EventScript_GruntsDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_GRUNTS_OCEANIC_MUSEUM)
+}
+
+script _Route110_EventScript_RivalDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_RIVAL_3)
+}
+
+script _MauvilleCity_EventScript_WallyDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_WALLY_1)
+}
+
+script _MauvilleCity_Gym_EventScript_WattsonDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_WATTSON)
+}
+
+script _MtChimney_EventScript_MaxieDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_MAXIE_MT_CHIMNEY)
+}
+
+script _LavaridgeTown_Gym_1F_EventScript_FlanneryDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_FLANNERY)
+}
+
+script _PetalburgCity_Gym_EventScript_NormanDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_NORMAN)
+}
+
+script _Route119_WeatherInstitute_2F_EventScript_ShellyDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_SHELLY_WEATHER_INSTITUTE)
+}
+
+script _Route119_EventScript_RivalDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_RIVAL_4)
+}
+
+script _FortreeCity_Gym_EventScript_WinonaDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_WINONA)
+}
+
+script _MtPyre_Summit_EventScript_GruntsDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_GRUNTS_MT_PYRE)
+}
+
+script _LilycoveCity_EventScript_RivalDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_RIVAL_5)
+}
+
+script _MagmaHideout_4F_EventScript_MaxieDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_MAXIE_MAGMA_HIDEOUT)
+}
+
+script _AquaHideout_B2F_EventScript_MattDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_MATT_AQUA_HIDEOUT)
+}
+
+script _MossdeepCity_Gym_EventScript_TateAndLizaDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_TATE_AND_LIZA)
+}
+
+script _MossdeepCity_SpaceCenter_2F_EventScript_MaxieDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_MAXIE_SPACE_CENTER)
+}
+
+script _SeafloorCavern_Room9_EventScript_ArchieDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_ARCHIE)
+}
+
+script _SootopolisCity_Gym_1F_EventScript_JuanDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_JUAN)
+}
+
+script _VictoryRoad_1F_EventScript_WallyDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_WALLY_2)
+}
+
+script _EverGrandeCity_ChampionsRoom_EventScript_StevenDefeatedRaiseLevelCap {
+  addvar(VAR_LEVEL_CAP, LEVELS_ADDED_STEVEN)
+}

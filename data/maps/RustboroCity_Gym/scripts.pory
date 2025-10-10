@@ -12,6 +12,7 @@ RustboroCity_Gym_EventScript_Roxanne::
   end
 
 RustboroCity_Gym_EventScript_RoxanneDefeated::
+  call _RustboroCity_Gym_EventScript_RoxanneDefeatedRaiseLevelCap
   msgbox _RustboroCity_Gym_Text_RoxanneDefeated
   message RustboroCity_Gym_Text_ReceivedStoneBadge
   waitmessage

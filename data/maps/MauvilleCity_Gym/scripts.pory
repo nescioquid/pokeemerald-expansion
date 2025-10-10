@@ -85,6 +85,7 @@ MauvilleCity_Gym_EventScript_Wattson::
   end
 
 MauvilleCity_Gym_EventScript_WattsonDefeated::
+  call _MauvilleCity_Gym_EventScript_WattsonDefeatedRaiseLevelCap
   msgbox _MauvilleCity_Gym_Text_WattsonDefeated
   message MauvilleCity_Gym_Text_ReceivedDynamoBadge
   waitmessage

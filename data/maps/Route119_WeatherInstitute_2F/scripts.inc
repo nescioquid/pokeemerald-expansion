@@ -44,6 +44,7 @@ Route119_WeatherInstitute_2F_EventScript_Shelly::
 	end
 
 Route119_WeatherInstitute_2F_EventScript_ShellyDefeated::
+	call _Route119_WeatherInstitute_2F_EventScript_ShellyDefeatedRaiseLevelCap
 	msgbox Route119_WeatherInstitute_2F_Text_ShellyPostBattle, MSGBOX_DEFAULT
 	closemessage
 	addobject LOCALID_WEATHER_INSTITUTE_2F_GRUNT_3

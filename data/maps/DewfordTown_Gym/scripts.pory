@@ -143,6 +143,7 @@ DewfordTown_Gym_EventScript_Brawly::
   end
 
 DewfordTown_Gym_EventScript_BrawlyDefeated::
+  call _DewfordTown_Gym_EventScript_BrawlyDefeatedRaiseLevelCap
   call DewfordTown_Gym_EventScript_AnimateFlashFullBrightness
   msgbox _DewfordTown_Gym_Text_BrawlyDefeated
   message DewfordTown_Gym_Text_ReceivedKnuckleBadge

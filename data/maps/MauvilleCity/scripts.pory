@@ -152,6 +152,7 @@ MauvilleCity_EventScript_WallyAndUncleExitEast::
   end
 
 MauvilleCity_EventScript_DefeatedWally::
+  call _MauvilleCity_EventScript_WallyDefeatedRaiseLevelCap
   removeobject LOCALID_MAUVILLE_WALLY
   removeobject LOCALID_MAUVILLE_WALLYS_UNCLE
   clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY

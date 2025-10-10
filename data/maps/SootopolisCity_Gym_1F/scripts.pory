@@ -91,6 +91,7 @@ SootopolisCity_Gym_1F_EventScript_Juan::
   end
 
 SootopolisCity_Gym_1F_EventScript_JuanDefeated::
+  call _SootopolisCity_Gym_1F_EventScript_JuanDefeatedRaiseLevelCap
   msgbox _SootopolisCity_Gym_1F_Text_JuanDefeated
   message SootopolisCity_Gym_1F_Text_ReceivedRainBadge
   waitmessage
