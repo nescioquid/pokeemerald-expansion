@@ -3306,6 +3306,15 @@ Pool Pick Functions: Selections
 
 /* #EliteFour */
 
+/*
+#LevelCaps
+
+Lv. ??/??/??
+- Dragonite Dragon Rush, 47
+- Altaria   Perish Song, 46
+
+*/
+
 Flygon @ Dragon Fang
 Level: 10
 Ability: Levitate
@@ -7048,7 +7057,7 @@ Dusclops
 Level: 10
 Ability: Pressure
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Shadow Sneak
+- Shadow Punch
 - Pursuit
 - Confuse Ray
 - Curse
@@ -7581,14 +7590,14 @@ AI: Easy Wally
 
 /* #WallyOne */
 
-Eevee @ Sitrus Berry
+Eevee (M) @ Sitrus Berry
 Level: 10
 Ability: Adaptability
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Baby Doll Eyes
 - Quick Attack
 - Refresh
-- Charm
-- Double Edge
+- Last Resort
 
 === TRAINER_WALLY_VR_2 ===
 Name: Wally
@@ -10927,6 +10936,17 @@ Party Size: 4
 
 /* #EliteFour #Champion */
 
+/*
+#LevelCaps
+
+Lv. ??/??/??
+- Rhyperior Megahorn, 55
+- Tyranitar Crunch, 47
+- Aggron    Double Edge, 45
+- Metagross Hammer Arm, 45
+
+*/
+
 Forretress @ Metal Coat
 Level: 10
 Ability: Sturdy
@@ -10981,8 +11001,8 @@ Ability: Sturdy
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Spikes
 - Sandstorm
-- Roar
 - Drill Peck
+- Whirlwind
 
 /*
 Tyranitar @ Sitrus Berry
@@ -11417,8 +11437,8 @@ Level: 10
 Ability: Overgrow
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Storm
+- X Scissor
 - Focus Blast
-- Energy Ball
 - Rock Slide
 
 Blaziken @ Passho Berry
@@ -11427,7 +11447,7 @@ Ability: Blaze
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - High Jump Kick
 - Flare Blitz
-- Swords Dance
+- Brave Bird
 - Rock Slide
 
 Swampert @ Rindo Berry
@@ -11435,9 +11455,9 @@ Level: 10
 Ability: Torrent
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
-- Ice Beam
 - Earthquake
 - Waterfall
+- Sludge Wave
 
 === TRAINER_MAY_ROUTE_103_POSTGAME ===
 Name: May
@@ -18132,6 +18152,22 @@ Name: Pool
 Pic: Leader Roxanne
 Party Size: 1
 
+/*
+#LevelCaps
+
+Lv. 24/29/34
+- Graveler Stealth Rock, 30(28)
+- Omanyte  Ancient Power, 37
+           Brine, 28
+           Mud Shot, 25
+- Kabuto   Aqua Jet, 31
+- Lileep   Giga Drain, 26
+- Anorith  Bug Bite, 25
+- Magcargo Lava Plume, 34
+           Flame Burst, 27
+
+*/
+
 Graveler @ Oran Berry
 Level: 10
 Ability: Sturdy
@@ -18168,19 +18204,19 @@ Ability: Weak Armor
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Mud Shot
-- Ancient Power
 - Bubble Beam
 - Rock Polish
+- Knock Off
 
 Kabuto @ Oran Berry
 Level: 10
 Ability: Weak Armor
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
-- Aqua Jet
 - Rock Tomb
 - Aerial Ace
 - Rock Polish
+- Bubble Beam
 
 Lileep @ Oran Berry
 Level: 10
@@ -18197,7 +18233,7 @@ Level: 10
 Ability: Battle Armor
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
-- Bug Bite
+- Fury Cutter
 - Metal Claw
 - Rock Tomb
 - Rock Polish
@@ -18209,7 +18245,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
 - Wood Hammer
 - Low Kick
-- Sucker Punch
+- Feint Attack
 - Rock Tomb
 
 Magcargo @ Oran Berry
@@ -18217,9 +18253,9 @@ Level: 10
 Ability: Weak Armor
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
-- Yawn
+- Incinerate
+- Clear Smog
 - Ancient Power
-- Lava Plume
 - Rock Polish
 
 Corsola @ Oran Berry
@@ -18237,7 +18273,7 @@ Level: 10
 Ability: Shed Skin
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
-- Bite
+- Sandstorm
 - Taunt
 - Rock Tomb
 - Bulldoze
@@ -18247,10 +18283,10 @@ Level: 10
 Ability: Sturdy
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
+- Rock Tomb
 - Roar
 - Iron Head
-- Rock Tomb
-- Rock Polish
+- Aerial Ace
 
 /* #DewfordGym */
 
@@ -18419,7 +18455,7 @@ Ability: Poison Heal
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Growth
 - Headbutt
-- Sky Uppercut
+- Force Palm
 - Sleep Talk
 
 === POOL_BRAWLY_OF_DEWFORD ===
@@ -18427,23 +18463,35 @@ Name: Pool
 Pic: Leader Brawly
 Party Size: 1
 
+/*
+#LevelCaps
+
+Lv. 30/35/40
+- Primeape   Cross Chop, 41(37)
+- Poliwrath  Dynamic Punch, 32
+- Hitmonchan Ice Punch, 36
+- Breloom    Spore, (40)
+             Sky Uppercut, 39
+
+*/
+
 Primeape @ Lum Berry
 Level: 10
 Ability: Defiant
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
-- Cross Chop
-- Taunt
-- Thief
 - U Turn
+- Thief
+- Brick Break
+- Taunt
 
 Machoke @ Lum Berry
 Level: 10
 Ability: Guts
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
-- Wake Up Slap
 - Knock Off
+- Wake Up Slap
 - Bulk Up
 - Ice Punch
 
@@ -18457,6 +18505,7 @@ Tags: Set 2
 - Rock Slide
 - Drain Punch
 
+/*
 Breloom @ Lum Berry
 Level: 10
 Ability: Poison Heal
@@ -18466,6 +18515,7 @@ Tags: Set 2
 - Leech Seed
 - Focus Punch
 - Substitute
+*/
 
 Hitmonlee @ Lum Berry
 Level: 10
@@ -18473,7 +18523,7 @@ Ability: Unburden
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Fake Out
-- Hi Jump Kick
+- High Jump Kick
 - Bulk Up
 - Pursuit
 
@@ -18482,9 +18532,9 @@ Level: 10
 Ability: Iron Fist
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
+- Fake Out
 - Pursuit
 - Mach Punch
-- Ice Punch
 - Bulk Up
 
 Hitmontop @ Lum Berry
@@ -21092,6 +21142,17 @@ Party Size: 1
 
 /* #BadGuys #TeamAquaOneA #TeamAquaOneB */
 
+/*
+#LevelCaps
+
+Lv. 22/27/32; Lv. 26/31/36
+- Machop   Knock Off 21
+- Drowzee  Psybeam, 25
+- Carvanha Ice Fang, 25
+- Krabby   Metal Claw, 21
+
+*/
+
 Zubat
 Level: 10
 Ability: Inner Focus
@@ -21101,22 +21162,13 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Taunt
 - Torment
 
-Poochyena
-Level: 10
-Ability: Quick Feet
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Bite
-- Snarl
-- Embargo
-- Taunt
-
 Machop
 Level: 10
 Ability: Guts
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Low Sweep
 - Seismic Toss
 - Knock Off
-- Wake Up Slap
 - Confide
 
 Grimer
@@ -21141,10 +21193,19 @@ Krabby
 Level: 10
 Ability: Hyper Cutter
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Harden
 - Bubble Beam
+- Mud Shot
 - Metal Claw
 - X Scissor
+
+Poochyena
+Level: 10
+Ability: Quick Feet
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Howl
+- Bite
+- Embargo
+- Taunt
 
 Carvanha
 Level: 10
@@ -21152,12 +21213,12 @@ Ability: Rough Skin
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Bite
 - Aqua Jet
+- Ice Fang
 - Taunt
-- Torment
 
 Shuppet
 Level: 10
-Ability: Cursed Body
+Ability: Insomnia
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Shadow Sneak
 - Feint Attack
@@ -21213,7 +21274,7 @@ Krabby
 Level: 10
 Ability: Hyper Cutter
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Harden
+- Mud Shot
 - Metal Claw
 - Brine
 - X Scissor
@@ -21249,13 +21310,13 @@ Tags: Ace
 
 Banette
 Level: 10
-Ability: Cursed Body
+Ability: Insomnia
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Ace
+- Knock Off
+- Shadow Sneak
 - Will O Wisp
-- Sucker Punch
 - Embargo
-- Shadow Claw
 
 === POOL_TEAM_AQUA_PAYS_THEIR_RESPECTS ===
 Name: Pool
@@ -21503,7 +21564,7 @@ Tags: Set 7
 
 Banette
 Level: 10
-Ability: Cursed Body
+Ability: Insomnia
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 8
 - Knock Off
@@ -21703,20 +21764,20 @@ Level: 10
 Ability: Keen Eye
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
-- Drill Run
-- Pluck
 - Pursuit
-- Agility
+- Aerial Ace
+- U Turn
+- Sleep Talk
 
 Dodrio @ Chilan Berry
 Level: 10
 Ability: Early Bird
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
+- Quick Attack
 - Pursuit
 - Pluck
-- Tri Attack
-- Acupressure
+- Sleep Talk
 
 Nidorina @ Chilan Berry
 Level: 10
@@ -21725,8 +21786,8 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Tail Whip
 - Double Kick
-- Dig
-- Poison Jab
+- Bite
+- Poison Tail
 
 Nidorino @ Chilan Berry
 Level: 10
@@ -21735,7 +21796,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Leer
 - Double Kick
-- Dig
+- Horn Attack
 - Poison Jab
 
 Clefairy @ Chilan Berry
@@ -21765,8 +21826,8 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
 - Quick Attack
 - Pursuit
+- Fury Cutter
 - Leaf Blade
-- Rock Slide
 
 Combusken @ Passho Berry
 Level: 10
@@ -21776,7 +21837,7 @@ Tags: Ace
 - Double Kick
 - Flame Charge
 - Quick Attack
-- Rock Slide
+- Aerial Ace
 
 Marshtomp @ Rindo Berry
 Level: 10
@@ -21784,9 +21845,9 @@ Ability: Torrent
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
 - Water Gun
-- Mud Shot
 - Mud Bomb
 - Rock Slide
+- Sleep Talk
 
 === POOL_RIVAL_ROUTE_110 ===
 Name: Pool
@@ -21801,9 +21862,9 @@ Ability: Poison Point
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Toxic Spikes
-- Body Slam
+- Dragon Tail
 - Bulldoze
-- Poison Jab
+- Poison Tail
 
 Nidoking @ Chilan Berry
 Level: 10
@@ -21811,7 +21872,7 @@ Ability: Poison Point
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Toxic Spikes
-- Thrash
+- Dragon Tail
 - Bulldoze
 - Poison Jab
 
@@ -21820,9 +21881,9 @@ Level: 10
 Ability: Keen Eye
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
-- Drill Run
-- Pluck
 - Pursuit
+- Aerial Ace
+- U Turn
 - Steel Wing
 
 Dodrio @ Chilan Berry
@@ -21830,9 +21891,9 @@ Level: 10
 Ability: Early Bird
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
+- Quick Attack
 - Pursuit
 - Pluck
-- Tri Attack
 - Steel Wing
 
 Clefairy @ Sitrus Berry
@@ -21841,8 +21902,8 @@ Ability: Magic Guard
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 3
 - Encore
+- Wake Up Slap
 - Cosmic Power
-- Thunder Wave
 - Dazzling Gleam
 
 Munchlax @ Sitrus Berry
@@ -21870,8 +21931,8 @@ Level: 10
 Ability: Blaze
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
-- Double Kick
-- Bulk Up
+- High Jump Kick
+- Quick Attack
 - Blaze Kick
 - Rock Slide
 
@@ -21880,7 +21941,7 @@ Level: 10
 Ability: Torrent
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
-- Mud Shot
+- Hammer Arm
 - Mud Bomb
 - Rock Slide
 - Muddy Water
@@ -21898,7 +21959,7 @@ Ability: Poison Point
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Toxic Spikes
-- Body Slam
+- Dragon Tail
 - Earthquake
 - Shadow Claw
 
@@ -21908,7 +21969,7 @@ Ability: Poison Point
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Lead
 - Toxic Spikes
-- Thrash
+- Dragon Tail
 - Earthquake
 - Shadow Claw
 
@@ -21918,9 +21979,9 @@ Ability: Magic Guard
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Encore
+- Cosmic Power
 - Moonblast
 - Psychic
-- Thunder Wave
 
 Snorlax @ Sitrus Berry
 Level: 10
@@ -21938,8 +21999,8 @@ Ability: Overgrow
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
 - Night Slash
-- Leaf Blade
 - X Scissor
+- Energy Ball
 - Rock Slide
 
 Blaziken @ Passho Berry
@@ -21947,9 +22008,9 @@ Level: 10
 Ability: Blaze
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
-- Double Kick
-- Bulk Up
+- High Jump Kick
 - Blaze Kick
+- Brave Bird
 - Rock Slide
 
 Swampert @ Rindo Berry
@@ -21957,10 +22018,10 @@ Level: 10
 Ability: Torrent
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
-- Mud Bomb
 - Rock Slide
 - Muddy Water
-- Take Down
+- Earthquake
+- Sludge Wave
 
 === POOL_RIVAL_LILYCOVE ===
 Name: Pool
@@ -21995,8 +22056,8 @@ Ability: Magic Guard
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Tags: Set 2
 - Encore
+- Cosmic Power
 - Moonblast
-- Calm Mind
 - Psychic
 
 Snorlax @ Sitrus Berry
@@ -22015,8 +22076,8 @@ Ability: Overgrow
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
 - Night Slash
-- Leaf Blade
 - X Scissor
+- Energy Ball
 - Rock Slide
 
 Blaziken @ Passho Berry
@@ -22024,9 +22085,9 @@ Level: 10
 Ability: Blaze
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
+- High Jump Kick
 - Blaze Kick
-- Sky Uppercut
-- Swords Dance
+- Brave Bird
 - Rock Slide
 
 Swampert @ Rindo Berry
@@ -22036,7 +22097,7 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 Tags: Ace
 - Rock Slide
 - Muddy Water
-- Take Down
+- Sludge Wave
 - Earthquake
 
 /* Utility pools */
