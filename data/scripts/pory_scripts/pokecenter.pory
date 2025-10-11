@@ -1,5 +1,5 @@
 const LOCAL_ID_NURSE = VAR_0x800B
-const SERVICE_CHARGE_AMOUNT = 1000 // VAR_TEMP_1
+const SERVICE_CHARGE_AMOUNT = 10000 // VAR_TEMP_1
 
 script _Common_EventScript_PkmnCenterNurse {
   lock
