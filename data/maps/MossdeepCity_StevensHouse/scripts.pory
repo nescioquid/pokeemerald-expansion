@@ -134,7 +134,7 @@ MossdeepCity_StevensHouse_EventScript_RockDisplay::
   end
 
 MossdeepCity_StevensHouse_EventScript_Steven::
-  msgbox MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis, MSGBOX_NPC
+  msgbox _MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis, MSGBOX_NPC
   end
 
 MossdeepCity_StevensHouse_EventScript_Letter::
@@ -222,3 +222,7 @@ script _MossdeepCity_StevensHouse_EventScript_GiveThanksItem {
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
   msgbox(format("Steven: Those are Ability Patches. \pThey cause a Pokémon's hidden abilities to come out.\pI'm sure you can find the potential in them. And, thanks again."))
 }
+
+text _MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis {
+  format("Apparently, there's an underwater cavern between Mossdeep and Sootopolis.\p You know, the one that Capt. Stern found in his submarine.\p There's a diver living on a small island west of here, maybe he knows how you can get down there?")
+} 

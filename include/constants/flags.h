@@ -1252,7 +1252,7 @@
 #define FLAG_RECEIVED_ESCAPE_ROPE                                   0x4AE
 #define FLAG_SPOKE_TO_STEVEN_ROUTE_120                              0x4AF
 #define FLAG_HIDE_ROUTE_124_HOUSE_DIVING_TREASURE_HUNTER            0x4B0
-#define FLAG_UNUSED_0x4B1                                           0x4B1 // Unused Flag
+#define FLAG_HIDE_MOSSDEEP_CITY_MAGMA_GRUNT                         0x4B1
 #define FLAG_UNUSED_0x4B2                                           0x4B2 // Unused Flag
 #define FLAG_UNUSED_0x4B3                                           0x4B3 // Unused Flag
 #define FLAG_UNUSED_0x4B4                                           0x4B4 // Unused Flag

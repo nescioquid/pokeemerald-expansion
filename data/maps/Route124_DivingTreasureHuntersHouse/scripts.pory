@@ -350,7 +350,7 @@ script _Route124_DivingTreasureHuntersHouse_EventScript_TreasureHunter {
     giveitem(ITEM_HM_DIVE)
     setflag(FLAG_RECEIVED_HM_DIVE)
     setflag(FLAG_OMIT_DIVE_FROM_STEVEN_LETTER)
-    msgbox(format("That's the Hidden Machine Dive. While you're using Surf, you may notice darker patches of water.\p Use Dive in those places, and you'll drop to the seafloor. When you want to come back up, use Dive again. You won't be able to surface in some places, though.\p Hope you bring me back some sweet Pearls you find down there diving with your Pokémon.\p Remember, I pay cash!"))
+    msgbox(format("That's the Hidden Machine Dive. While you're using Surf, you may notice darker patches of water.\p Use Dive in those places, and you'll drop to the seafloor. When you want to come back up, use Dive again. You won't be able to surface in some places, though.\p Like, apparently there's an underwater cavern between here and Sootopolis.\p I saw a submarine enter it when I was out diving last.\p Anyway, hope you bring me back some sweet Pearls you find down there diving with your Pokémon.\p Remember, I pay cash!"))
     setflag(FLAG_MET_DIVING_TREASURE_HUNTER)
     release
     end
