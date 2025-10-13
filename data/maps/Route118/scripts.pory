@@ -302,8 +302,8 @@ Route118_Text_RouteSign119:
 `
 
 script _Route118_EventScript_ReceiveGoodRod {
-  msgbox(format("Hmm!\nWe're of identical minds!\pHmm!\nWell, I'm fresh out of Good Rods, but you can have these instead!"))
-  giveitem(ITEM_RARE_CANDY, 36)
+  msgbox(format("Hmm! We're of identical minds!\p Hmm! Well, I'm fresh out of Good Rods, but you can have this instead!"))
+  call(_Route118_EventScript_RandomizedHeldItems)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
   setflag(FLAG_RECEIVED_GOOD_ROD)
   msgbox(Route118_Text_TryYourLuckFishing)
@@ -313,4 +313,26 @@ script _Route118_EventScript_ReceiveGoodRod {
 
 text _Route118_Text_TryCatchingMonWithGoodRod {
   format("Try fishing to catch all sorts of Pokémon!")
+}
+
+script _Route118_EventScript_RandomizedHeldItems {
+  random(12)
+  switch (var(VAR_RESULT)) {
+    case  0: giveitem(ITEM_LUCKY_EGG)
+    // case  1: giveitem(ITEM_DESTINY_KNOT)
+    case  1: giveitem(ITEM_LEFTOVERS)
+    // case  3: giveitem(ITEM_DEEP_SEA_SCALE)
+    // case  4: giveitem(ITEM_DEEP_SEA_TOOTH)
+    case  2: giveitem(ITEM_DRAGON_SCALE)
+    case  3: giveitem(ITEM_ELECTIRIZER)
+    case  4: giveitem(ITEM_KINGS_ROCK)
+    case  5: giveitem(ITEM_MAGMARIZER)
+    case  6: giveitem(ITEM_METAL_COAT)
+    case  7: giveitem(ITEM_OVAL_STONE)
+    case  8: giveitem(ITEM_PROTECTOR)
+    case  9: giveitem(ITEM_RAZOR_CLAW)
+    case 10: giveitem(ITEM_RAZOR_FANG)
+    // case 14: giveitem(ITEM_PRISM_SCALE)
+    case 11: giveitem(ITEM_REAPER_CLOTH)
+  }
 }

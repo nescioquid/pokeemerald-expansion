@@ -56,19 +56,19 @@ script _MossdeepCity_House3_EventScript_SuperRodFisherman {
   lock
   faceplayer
   if(!flag(FLAG_RECEIVED_SUPER_ROD)) {
-    msgbox(format("Hey there, Trainer!\nA Super Rod really is super!\pSay all you want, but those babies can\ncatch Pokémon off the seafloor!\pWhat do you think?\nYou want one, don't you?"), MSGBOX_YESNO)
+    msgbox(format("Hey there, Trainer! A Super Rod really is super!\p Say all you want, but those babies can\ncatch Pokémon off the seafloor!\p What do you think?\N You want one, don't you?"), MSGBOX_YESNO)
     if (!var(VAR_RESULT)) {
       msgbox(format("Hunh?\nDon't you like to fish?"))
       release
       end
     }
     if(!flag(FLAG_RECEIVED_OLD_ROD)) {
-      msgbox(format("You bet, you bet!\nAfter all, a Super Rod is really super!\p…If only I had an extra one to give you. But here, take these instead!"))
+      msgbox(format("You bet, you bet!\N After all, a Super Rod is really super!\p …If only I had an extra one to give you. But here, take this instead!"))
     } else {
-      msgbox(format("You bet, you bet!\nAfter all, a Super Rod is really super!\p…Oh! You already have one!\nA kindred soul. Well then, take these instead!"))
+      msgbox(format("You bet, you bet!\N After all, a Super Rod is really super!\p …Oh! You already have one!\N A kindred soul. Well then, take this instead!"))
     }
-    giveitem(ITEM_RARE_CANDY, 36)
-    goto_if_eq (VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    call(_MossdeepCity_House3_EventScript_RandomizedHeldItems)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
     setflag(FLAG_RECEIVED_SUPER_ROD)
     msgbox(format("If there's any water, try dropping in\na Rod and see what bites!"))
     release
@@ -77,4 +77,26 @@ script _MossdeepCity_House3_EventScript_SuperRodFisherman {
   msgbox(format("Go after seafloor Pokémon by fishing!"))
   release
   end
+}
+
+script _MossdeepCity_House3_EventScript_RandomizedHeldItems {
+  random(12)
+  switch (var(VAR_RESULT)) {
+    case  0: giveitem(ITEM_LUCKY_EGG)
+    // case  1: giveitem(ITEM_DESTINY_KNOT)
+    case  1: giveitem(ITEM_LEFTOVERS)
+    // case  3: giveitem(ITEM_DEEP_SEA_SCALE)
+    // case  4: giveitem(ITEM_DEEP_SEA_TOOTH)
+    case  2: giveitem(ITEM_DRAGON_SCALE)
+    case  3: giveitem(ITEM_ELECTIRIZER)
+    case  4: giveitem(ITEM_KINGS_ROCK)
+    case  5: giveitem(ITEM_MAGMARIZER)
+    case  6: giveitem(ITEM_METAL_COAT)
+    case  7: giveitem(ITEM_OVAL_STONE)
+    case  8: giveitem(ITEM_PROTECTOR)
+    case  9: giveitem(ITEM_RAZOR_CLAW)
+    case 10: giveitem(ITEM_RAZOR_FANG)
+    // case 14: giveitem(ITEM_PRISM_SCALE)
+    case 11: giveitem(ITEM_REAPER_CLOTH)
+  }
 }
