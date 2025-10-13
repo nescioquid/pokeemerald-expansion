@@ -1016,7 +1016,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
   .string "Let's go to my Lab.$"
 
 `
-const RARE_CANDY_AMOUNT = 36
+const RARE_CANDY_AMOUNT = 24
 
 script _LittlerootTown_EventScript_GiveAdventureStartItems {
   msgbox(format("{PLAYER}! {PLAYER}! Did you introduce yourself to Prof. Birch?\p Oh! What an adorable Pokémon! You must have gotten it from him. How nice!\p You're your father's child, all right. You look good together with your Pokémon!\p Here, honey!\N If you're going out on an adventure, take these with you, just in case you or your new Pokémon get hungry!"))
