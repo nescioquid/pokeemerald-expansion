@@ -735,10 +735,10 @@ AI: Interviewer
 /* #Other */
 
 Magnemite
-Level: 5
+Level: 8
 
 Lickitung
-Level: 5
+Level: 8
 
 === TRAINER_GABBY_AND_TY_2 ===
 Name: Gabby & Ty
@@ -752,10 +752,10 @@ AI: Interviewer
 /* #Other */
 
 Magnemite
-Level: 5
+Level: 8
 
 Lickitung
-Level: 5
+Level: 8
 
 === TRAINER_GABBY_AND_TY_3 ===
 Name: Gabby & Ty
@@ -769,10 +769,10 @@ AI: Interviewer
 /* #Other */
 
 Magneton
-Level: 5
+Level: 8
 
 Lickitung
-Level: 5
+Level: 8
 
 === TRAINER_GABBY_AND_TY_4 ===
 Name: Gabby & Ty
@@ -786,10 +786,10 @@ AI: Interviewer
 /* #Other */
 
 Magneton
-Level: 5
+Level: 8
 
 Lickilicky
-Level: 5
+Level: 8
 
 === TRAINER_GABBY_AND_TY_5 ===
 Name: Gabby & Ty
@@ -803,10 +803,10 @@ AI: Interviewer
 /* #Other */
 
 Magnezone
-Level: 5
+Level: 8
 
 Lickilicky
-Level: 5
+Level: 8
 
 === TRAINER_GABBY_AND_TY_6 ===
 Name: Gabby & Ty
@@ -820,10 +820,10 @@ AI: Interviewer
 /* #Other */
 
 Magnezone
-Level: 5
+Level: 8
 
 Lickilicky
-Level: 5
+Level: 8
 
 === TRAINER_LOLA_1 ===
 Name: Lola
@@ -11044,7 +11044,7 @@ Double Battle: No
 AI: Salon Maiden
 
 Beldum
-Level: 5
+Level: 8
 
 === TRAINER_TUCKER ===
 Name: Tucker
@@ -11056,7 +11056,7 @@ Double Battle: No
 AI: Dome Ace
 
 Beldum
-Level: 5
+Level: 8
 
 === TRAINER_SPENSER ===
 Name: Spenser
@@ -11068,7 +11068,7 @@ Double Battle: No
 AI: Palace Maven
 
 Beldum
-Level: 5
+Level: 8
 
 === TRAINER_GRETA ===
 Name: Greta
@@ -11080,7 +11080,7 @@ Double Battle: No
 AI: Arena Tycoon
 
 Beldum
-Level: 5
+Level: 8
 
 === TRAINER_NOLAND ===
 Name: Noland
@@ -11092,7 +11092,7 @@ Double Battle: No
 AI: Factory Head
 
 Beldum
-Level: 5
+Level: 8
 
 === TRAINER_LUCY ===
 Name: Lucy
@@ -11104,7 +11104,7 @@ Double Battle: No
 AI: Pike Queen
 
 Beldum
-Level: 5
+Level: 8
 
 === TRAINER_BRANDON ===
 Name: Brandon
@@ -11116,7 +11116,7 @@ Double Battle: No
 AI: Pyramid King
 
 Beldum
-Level: 5
+Level: 8
 
 === TRAINER_ANDRES_2 ===
 Name: Andres
@@ -11359,7 +11359,7 @@ Double Battle: No
 AI: Rival
 
 Charmander
-Level: 5
+Level: 8
 
 === TRAINER_LEAF ===
 Name: Leaf
@@ -11371,7 +11371,7 @@ Double Battle: No
 AI: Rival
 
 Bulbasaur
-Level: 5
+Level: 8
 
 === TRAINER_BRENDAN_PLACEHOLDER ===
 Name: Brendan
@@ -11383,7 +11383,7 @@ Double Battle: No
 AI: RS Protag
 
 Groudon
-Level: 5
+Level: 8
 
 === TRAINER_MAY_PLACEHOLDER ===
 Name: May
@@ -11395,7 +11395,7 @@ Double Battle: No
 AI: RS Protag
 
 Kyogre
-Level: 5
+Level: 8
 
 /* Added trainers */
 
@@ -11610,125 +11610,125 @@ Party Size: 1
 
 /*
 Bulbasaur
-Level: 5
+Level: 8
 */
 
 /*
 Ivysaur
-Level: 5
+Level: 8
 */
 
 Vulpix /* (added) */
-Level: 5
+Level: 8
 Ability: Drought
 Tags: Lead
 
 Ninetales /* (added) */
-Level: 5
+Level: 8
 Ability: Drought
 Tags: Lead
 
 Oddish
-Level: 5
+Level: 8
 
 Gloom
-Level: 5
+Level: 8
 
 Vileplume
-Level: 5
+Level: 8
 
 Bellossom
-Level: 5
+Level: 8
 
 Bellsprout
-Level: 5
+Level: 8
 
 Weepinbell
-Level: 5
+Level: 8
 
 Victreebel /* (added) */
-Level: 5
+Level: 8
 
 Exeggcute /* (added) */
-Level: 5
+Level: 8
 
 Exeggutor /* (added) */
-Level: 5
+Level: 8
 
 Tangela /* (added) */
-Level: 5
+Level: 8
 
 Tangrowth /* (added) */
-Level: 5
+Level: 8
 
 Flareon /* (added) */
-Level: 5
+Level: 8
 
 Leafeon /* (added) */
-Level: 5
+Level: 8
 
 Hoppip /* (added) */
-Level: 5
+Level: 8
 
 Skiploom /* (added) */
-Level: 5
+Level: 8
 
 Jumpluff /* (added) */
-Level: 5
+Level: 8
 
 /*
 Sunkern
-Level: 5
+Level: 8
 */
 
 Sunflora
-Level: 5
+Level: 8
 
 Seedot /* (added) */
-Level: 5
+Level: 8
 Ability: Chlorophyll
 
 Nuzleaf /* (added) */
-Level: 5
+Level: 8
 Ability: Chlorophyll
 
 Shiftry /* (added) */
-Level: 5
+Level: 8
 Ability: Chlorophyll
 
 /*
 Shroomish
-Level: 5
+Level: 8
 */
 
 /*
 Breloom
-Level: 5
+Level: 8
 */
 
 /*
 Roselia
-Level: 5
+Level: 8
 */
 
 /*
 Roserade (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 Torkoal /* (added) */
-Level: 5
+Level: 8
 Ability: Drought
 Tags: Lead
 
 /*
 Gogoat (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Goodra (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 === POOL_BATTLE_GIRL ===
@@ -11737,52 +11737,52 @@ Pic: Battle Girl
 Party Size: 1
 
 Mankey
-Level: 5
+Level: 8
 
 Primeape
-Level: 5
+Level: 8
 
 Machoke
-Level: 5
+Level: 8
 
 Machamp /* (rematches) */
-Level: 5
+Level: 8
 
 Hitmonlee
-Level: 5
+Level: 8
 
 Hitmonchan
-Level: 5
+Level: 8
 
 Hitmontop
-Level: 5
+Level: 8
 
 Breloom
-Level: 5
+Level: 8
 
 /*
 Makuhita
-Level: 5
+Level: 8
 */
 
 /*
 Hariyama
-Level: 5
+Level: 8
 */
 
 /*
 Meditite
-Level: 5
+Level: 8
 */
 
 /*
 Medicham (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Mienshao (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_BEAUTY ===
@@ -11792,255 +11792,255 @@ Party Size: 1
 
 /*
 Bulbasaur
-Level: 5
+Level: 8
 */
 
 /*
 Ivysaur
-Level: 5
+Level: 8
 */
 
 /*
 Squirtle (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 /*
 Wartortle (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 /*
 Blastoise (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Rattata
-Level: 5
+Level: 8
 
 /*
 Caterpie
-Level: 5
+Level: 8
 */
 
 Butterfree
-Level: 5
+Level: 8
 
 Pidgey
-Level: 5
+Level: 8
 
 Pidgeotto
-Level: 5
+Level: 8
 
 Pidgeot /* (rematches) */
-Level: 5
+Level: 8
 
 Pikachu
-Level: 5
+Level: 8
 
 Nidoran F
-Level: 5
+Level: 8
 
 Paras
-Level: 5
+Level: 8
 
 Parasect
-Level: 5
+Level: 8
 
 Clefairy
-Level: 5
+Level: 8
 
 Clefable
-Level: 5
+Level: 8
 
 Vulpix
-Level: 5
+Level: 8
 
 Jigglypuff
-Level: 5
+Level: 8
 
 Wigglytuff
-Level: 5
+Level: 8
 
 Oddish
-Level: 5
+Level: 8
 
 Gloom /* (LGPE) */
-Level: 5
+Level: 8
 
 Vileplume
-Level: 5
+Level: 8
 
 Bellossom
-Level: 5
+Level: 8
 
 Meowth
-Level: 5
+Level: 8
 
 Persian /* (RSE rematches, LGPE) */
-Level: 5
+Level: 8
 
 Psyduck
-Level: 5
+Level: 8
 
 Golduck /* (ORAS) */
-Level: 5
+Level: 8
 
 Growlithe /* (LGPE) */
-Level: 5
+Level: 8
 
 Poliwag
-Level: 5
+Level: 8
 
 Bellsprout
-Level: 5
+Level: 8
 
 Slowpoke /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 Slowbro /* (LGPE) */
-Level: 5
+Level: 8
 
 Seel /* (LGPE) */
-Level: 5
+Level: 8
 
 Dewgong /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 Shellder
-Level: 5
+Level: 8
 
 Cloyster
-Level: 5
+Level: 8
 
 Exeggcute
-Level: 5
+Level: 8
 
 Chansey /* (LGPE) */
-Level: 5
+Level: 8
 
 Horsea
-Level: 5
+Level: 8
 
 Seadra
-Level: 5
+Level: 8
 
 Kingdra /* (rematches) */
-Level: 5
+Level: 8
 
 Goldeen
-Level: 5
+Level: 8
 
 Seaking
-Level: 5
+Level: 8
 
 Staryu
-Level: 5
+Level: 8
 
 Starmie /* (ORAS) */
-Level: 5
+Level: 8
 
 Eevee /* (LGPE) */
-Level: 5
+Level: 8
 
 Vaporeon /* (LGPE) */
-Level: 5
+Level: 8
 
 Jolteon /* (LGPE) */
-Level: 5
+Level: 8
 
 Jynx /* (LGPE) */
-Level: 5
+Level: 8
 
 Sentret
-Level: 5
+Level: 8
 
 Marill
-Level: 5
+Level: 8
 
 Azumarill
-Level: 5
+Level: 8
 
 Sudowoodo
-Level: 5
+Level: 8
 
 Hoppip
-Level: 5
+Level: 8
 
 Skiploom
-Level: 5
+Level: 8
 
 Corsola
-Level: 5
+Level: 8
 
 Lombre
-Level: 5
+Level: 8
 
 Shroomish
-Level: 5
+Level: 8
 
 /*
 Carvanha
-Level: 5
+Level: 8
 */
 
 /*
 Sharpedo
-Level: 5
+Level: 8
 */
 
 Wailmer
-Level: 5
+Level: 8
 
 Wailord /* (RSE rematches, ORAS) */
-Level: 5
+Level: 8
 
 /*
 Numel
-Level: 5
+Level: 8
 */
 
 /*
 Seviper
-Level: 5
+Level: 8
 */
 
 /*
 Corphish
-Level: 5
+Level: 8
 */
 
 Kecleon
-Level: 5
+Level: 8
 
 /*
 Clamperl
-Level: 5
+Level: 8
 */
 
 /*
 Huntail (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Gorebyss (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Luvdisc (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Carnivine
-Level: 5
+Level: 8
 */
 
 /*
 Krookodile (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_BIRD_KEEPER ===
@@ -12049,84 +12049,84 @@ Pic: Bird Keeper
 Party Size: 1
 
 Pidgey
-Level: 5
+Level: 8
 
 Pidgeotto
-Level: 5
+Level: 8
 
 Pidgeot
-Level: 5
+Level: 8
 
 Spearow
-Level: 5
+Level: 8
 
 Fearow
-Level: 5
+Level: 8
 
 Farfetchd
-Level: 5
+Level: 8
 
 Doduo
-Level: 5
+Level: 8
 
 Dodrio
-Level: 5
+Level: 8
 
 Hoothoot
-Level: 5
+Level: 8
 
 Noctowl
-Level: 5
+Level: 8
 
 Natu
-Level: 5
+Level: 8
 
 Xatu
-Level: 5
+Level: 8
 
 Murkrow /* (added) */
-Level: 5
+Level: 8
 
 Honchkrow /* (added) */
-Level: 5
+Level: 8
 
 Delibird /* (added) */
-Level: 5
+Level: 8
 
 Skarmory
-Level: 5
+Level: 8
 
 Taillow
-Level: 5
+Level: 8
 
 Swellow
-Level: 5
+Level: 8
 
 Wingull
-Level: 5
+Level: 8
 
 Pelipper
-Level: 5
+Level: 8
 
 Swablu
-Level: 5
+Level: 8
 
 Altaria /* (RSE rematches, ORAS) */
-Level: 5
+Level: 8
 
 /*
 Tropius
-Level: 5
+Level: 8
 */
 
 /*
 Starly
-Level: 5
+Level: 8
 */
 
 /*
 Staraptor (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_BLACK_BELT ===
@@ -12136,66 +12136,66 @@ Party Size: 1
 
 /*
 Nidoking (ORAS)
-Level: 5
+Level: 8
 */
 
 Mankey
-Level: 5
+Level: 8
 
 Primeape
-Level: 5
+Level: 8
 
 Poliwhirl /* (LGPE) */
-Level: 5
+Level: 8
 
 Poliwrath
-Level: 5
+Level: 8
 
 Machop
-Level: 5
+Level: 8
 
 Machoke
-Level: 5
+Level: 8
 
 Machamp /* (RSE rematches, ORAS) */
-Level: 5
+Level: 8
 
 Graveler
-Level: 5
+Level: 8
 
 Onix
-Level: 5
+Level: 8
 
 Hitmonlee
-Level: 5
+Level: 8
 
 Hitmonchan
-Level: 5
+Level: 8
 
 Heracross
-Level: 5
+Level: 8
 
 /*
 Makuhita
-Level: 5
+Level: 8
 */
 
 /*
 Hariyama
-Level: 5
+Level: 8
 */
 
 Aggron /* (ORAS) */
-Level: 5
+Level: 8
 
 /*
 Meditite
-Level: 5
+Level: 8
 */
 
 /*
 Rampardos (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_BUG_CATCHER ===
@@ -12209,124 +12209,124 @@ Party Size: 1
 
 /*
 Caterpie
-Level: 5
+Level: 8
 */
 
 /*
 Metapod
-Level: 5
+Level: 8
 */
 
 Butterfree
-Level: 5
+Level: 8
 
 /*
 Weedle
-Level: 5
+Level: 8
 */
 
 /*
 Kakuna
-Level: 5
+Level: 8
 */
 
 Beedrill
-Level: 5
+Level: 8
 
 Pikachu
-Level: 5
+Level: 8
 
 Paras
-Level: 5
+Level: 8
 
 Parasect /* (LGPE) */
-Level: 5
+Level: 8
 
 Venonat
-Level: 5
+Level: 8
 
 Venomoth
-Level: 5
+Level: 8
 
 Scyther /* (LGPE) */
-Level: 5
+Level: 8
 
 Pinsir
-Level: 5
+Level: 8
 
 /*
 Ledyba
-Level: 5
+Level: 8
 */
 
 Ledian /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Spinarak (added)
-Level: 5
+Level: 8
 */
 
 Ariados
-Level: 5
+Level: 8
 
 Yanma
-Level: 5
+Level: 8
 
 Pineco /* (added) */
-Level: 5
+Level: 8
 
 Forretress /* (added) */
-Level: 5
+Level: 8
 
 Heracross
-Level: 5
+Level: 8
 
 /*
 Wurmple
-Level: 5
+Level: 8
 */
 
 /*
 Silcoon
-Level: 5
+Level: 8
 */
 
 Beautifly
-Level: 5
+Level: 8
 
 Dustox /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Surskit (rematches)
-Level: 5
+Level: 8
 */
 
 Masquerain /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 /*
 Nincada
-Level: 5
+Level: 8
 */
 
 Ninjask
-Level: 5
+Level: 8
 
 /*
 Volbeat
-Level: 5
+Level: 8
 */
 
 /*
 Illumise
-Level: 5
+Level: 8
 */
 
 /*
 Burmy
-Level: 5
+Level: 8
 */
 
 === POOL_BUG_MANIAC ===
@@ -12335,108 +12335,108 @@ Pic: Bug Maniac
 Party Size: 1
 
 Butterfree /* (added) */
-Level: 5
+Level: 8
 
 Beedrill /* (added) */
-Level: 5
+Level: 8
 
 Parasect /* (added) */
-Level: 5
+Level: 8
 
 Venomoth /* (added) */
-Level: 5
+Level: 8
 
 Scyther /* (added) */
-Level: 5
+Level: 8
 
 Scizor /* (added) */
-Level: 5
+Level: 8
 
 Pinsir
-Level: 5
+Level: 8
 
 Ledian /* (added) */
-Level: 5
+Level: 8
 
 Ariados /* (added) */
-Level: 5
+Level: 8
 
 Yanmega /* (added) */
-Level: 5
+Level: 8
 
 Forretress /* (added) */
-Level: 5
+Level: 8
 
 Shuckle /* (added) */
-Level: 5
+Level: 8
 
 Heracross /* (added) */
-Level: 5
+Level: 8
 
 /*
 Wurmple
-Level: 5
+Level: 8
 */
 
 /*
 Silcoon
-Level: 5
+Level: 8
 */
 
 Beautifly
-Level: 5
+Level: 8
 
 /*
 Cascoon
-Level: 5
+Level: 8
 */
 
 Dustox
-Level: 5
+Level: 8
 
 /*
 Surskit
-Level: 5
+Level: 8
 */
 
 Masquerain /* (RSE remach only, ORAS) */
-Level: 5
+Level: 8
 
 /*
 Nincada
-Level: 5
+Level: 8
 */
 
 Ninjask /* (added) */
-Level: 5
+Level: 8
 
 Shedinja /* (added) */
-Level: 5
+Level: 8
 
 /*
 Volbeat
-Level: 5
+Level: 8
 */
 
 /*
 Illumise
-Level: 5
+Level: 8
 */
 
 Anorith /* (added) */
-Level: 5
+Level: 8
 
 Armaldo /* (added) */
-Level: 5
+Level: 8
 
 /*
 Kricketune (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Vespiqueen (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 === POOL_CAMPER ===
@@ -12446,197 +12446,197 @@ Party Size: 1
 
 /*
 Charmander
-Level: 5
+Level: 8
 */
 
 /*
 Squirtle
-Level: 5
+Level: 8
 */
 
 Rattata
-Level: 5
+Level: 8
 
 Raticate
-Level: 5
+Level: 8
 
 Spearow
-Level: 5
+Level: 8
 
 Fearow
-Level: 5
+Level: 8
 
 Ekans
-Level: 5
+Level: 8
 
 Sandshrew
-Level: 5
+Level: 8
 
 Sandslash
-Level: 5
+Level: 8
 
 Nidoran M
-Level: 5
+Level: 8
 
 Nidorino
-Level: 5
+Level: 8
 
 Nidoking
-Level: 5
+Level: 8
 
 Zubat
-Level: 5
+Level: 8
 
 Golbat /* (rematches) */
-Level: 5
+Level: 8
 
 Crobat /* (rematches) */
-Level: 5
+Level: 8
 
 Diglett
-Level: 5
+Level: 8
 
 Dugtrio
-Level: 5
+Level: 8
 
 Psyduck
-Level: 5
+Level: 8
 
 Golduck
-Level: 5
+Level: 8
 
 Mankey
-Level: 5
+Level: 8
 
 Primeape
-Level: 5
+Level: 8
 
 Growlithe
-Level: 5
+Level: 8
 
 Arcanine /* (rematches) */
-Level: 5
+Level: 8
 
 Poliwrath
-Level: 5
+Level: 8
 
 Bellsprout /* (LGPE) */
-Level: 5
+Level: 8
 
 Weepinbell
-Level: 5
+Level: 8
 
 Geodude
-Level: 5
+Level: 8
 
 Graveler /* (rematches) */
-Level: 5
+Level: 8
 
 Doduo /* (ORAS) */
-Level: 5
+Level: 8
 
 Krabby /* (LGPE) */
-Level: 5
+Level: 8
 
 Rhydon
-Level: 5
+Level: 8
 
 Pinsir
-Level: 5
+Level: 8
 
 Tauros
-Level: 5
+Level: 8
 
 Eevee /* (LGPE) */
-Level: 5
+Level: 8
 
 Flareon /* (LGPE) */
-Level: 5
+Level: 8
 
 Chinchou /* (rematches) */
-Level: 5
+Level: 8
 
 Lanturn /* (rematches) */
-Level: 5
+Level: 8
 
 Xatu
-Level: 5
+Level: 8
 
 Marill
-Level: 5
+Level: 8
 
 Sudowoodo
-Level: 5
+Level: 8
 
 Skiploom
-Level: 5
+Level: 8
 
 Heracross
-Level: 5
+Level: 8
 
 Slugma /* (rematches) */
-Level: 5
+Level: 8
 
 Magcargo /* (rematches) */
-Level: 5
+Level: 8
 
 Zigzagoon
-Level: 5
+Level: 8
 
 Linoone /* (rematches) */
-Level: 5
+Level: 8
 
 Nuzleaf
-Level: 5
+Level: 8
 
 Taillow
-Level: 5
+Level: 8
 
 Swellow
-Level: 5
+Level: 8
 
 Pelipper /* (ORAS) */
-Level: 5
+Level: 8
 
 Slakoth
-Level: 5
+Level: 8
 
 /*
 Minun (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Volbeat (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Gulpin (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Swalot (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Baltoy
-Level: 5
+Level: 8
 */
 
 Kecleon
-Level: 5
+Level: 8
 
 /*
 Buizel
-Level: 5
+Level: 8
 */
 
 /*
 Skuntank
-Level: 5
+Level: 8
 */
 
 === POOL_COLLECTOR ===
@@ -12645,25 +12645,25 @@ Pic: Collector
 Party Size: 1
 
 Lombre
-Level: 5
+Level: 8
 
 Ludicolo /* (rematches) */
-Level: 5
+Level: 8
 
 Nuzleaf
-Level: 5
+Level: 8
 
 Shiftry /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Zangoose
-Level: 5
+Level: 8
 */
 
 /*
 Seviper
-Level: 5
+Level: 8
 */
 
 === POOL_COOLTRAINER ===
@@ -12673,879 +12673,879 @@ Party Size: 1
 
 /*
 Bulbasaur
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Ivysaur
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Venusaur
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Charmander
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Charmeleon
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Charizard
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Squirtle
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Wartortle
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Blastoise
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Butterfree
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Beedrill /* (LGPE) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Pidgeot
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Rattata
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Pikachu
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Raichu /* (ORAS) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Sandslash
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Nidoran F
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Nidorina
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Nidoqueen
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Nidoran M
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Nidorino
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Nidoking
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Vulpix
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Ninetales
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Wigglytuff /* (LGPE) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Golbat /* (LGPE) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Crobat
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Oddish
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Gloom
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Bellossom
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Paras
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Parasect
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Diglett (LGPE)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Dugtrio
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Persian
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Golduck
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Primeape /* (LGPE) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Growlithe
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Arcanine
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Poliwhirl
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Kadabra
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Alakazam /* (ORAS) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Machoke
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Machamp /* (rematches) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Bellsprout
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Weepinbell
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Victreebel
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Tentacruel
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Graveler
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Golem /* (ORAS) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Ponyta
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Rapidash
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Slowbro
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Slowking
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Magneton
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dodrio
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dewgong
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Muk
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Shellder
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Cloyster
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Haunter /* (LGPE) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Onix
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Krabby (LGPE master trainer)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Kingler
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Electrode
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Exeggcute
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Exeggutor
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Marowak
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Hitmonchan /* (LGPE) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Lickilicky
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Weezing /* (LGPE) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Rhyhorn
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Rhydon
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Rhyperior /* (ORAS) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Chansey
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Tangela
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Kangaskhan
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Horsea
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Seadra
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Goldeen
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Seaking
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Staryu
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Starmie
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Scyther /* (LGPE) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Jynx /* (LGPE) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Electabuzz
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Magmar /* (LGPE master trainer) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Pinsir /* (ORAS) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Tauros
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Magikarp
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Lapras /* (ORAS rematches) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Eevee
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Vaporeon
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Jolteon
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Flareon
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Snorlax /* (LGPE master trainer) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Dratini
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Dragonair
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dragonite /* (LGPE master trainer) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Meganium
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Typhlosion
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Feraligatr
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Lanturn
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Flaaffy
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Ampharos /* (rematches) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Marill
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Azumarill
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Sudowoodo
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Skiploom
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Quagsire
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Girafarig
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Ursaring
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Magcargo
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Skarmory
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Stantler
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Larvitar
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Linoone
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Ludicolo
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Shiftry
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 Swellow
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Wingull
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Pelipper
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Gardevoir
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Masquerain /* (ORAS) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Breloom /* (ORAS) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Shedinja (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Slakoth
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Vigoroth
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Slaking
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Ace
 
 /*
 Whismur
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Loudred
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Exploud (rematches)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Makuhita
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Hariyama (rematches)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Nosepass
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Skitty
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Delcatty
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Sableye
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Mawile
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Lairon
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Medicham
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Manectric
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Roselia
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Roserade (ORAS rematches)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Swalot (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Sharpedo
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Wailmer
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Wailord
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Numel
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Camerupt
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Torkoal
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Spinda
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Vibrava /* (ORAS) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Cacturne
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Zangoose
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Seviper (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Lunatone
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Solrock
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Claydol
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Milotic
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Kecleon
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dusclops
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Tropius
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Absol
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Snorunt (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Froslass (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Bagon (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Purugly (ORAS rematches)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Darmanitan (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Sigilyph (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Vanillish (ORAS rematches)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Vanilluxe (ORAS rematches)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Chandelure (ORAS rematches)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Fraxure (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Haxorus (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Heatmor (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Talonflame (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
@@ -13557,66 +13557,66 @@ Party Size: 1
 /* Takes inspiration from notable dragon trainers like Lance and Iris. Ampharos may be based on "denryu" (electric dragons) and is included in Clair's parties in Pokémon Stadium 2. */
 
 Kingdra /* (ORAS) */
-Level: 5
+Level: 8
 
 Lapras /* (added) */
-Level: 5
+Level: 8
 
 Gyarados /* (added) */
-Level: 5
+Level: 8
 
 Aerodactyl /* (added) */
-Level: 5
+Level: 8
 
 Dragonair /* (added) */
-Level: 5
+Level: 8
 
 Dragonite /* (added) */
-Level: 5
+Level: 8
 Tags: Ace
 
 Ampharos /* (added) */
-Level: 5
+Level: 8
 
 Pupitar /* (added) */
-Level: 5
+Level: 8
 
 Tyranitar /* (added) */
-Level: 5
+Level: 8
 Tags: Ace
 
 Vibrava /* (added) */
-Level: 5
+Level: 8
 
 Flygon /* (ORAS) */
-Level: 5
+Level: 8
 
 Altaria
-Level: 5
+Level: 8
 
 Milotic /* (added) */
-Level: 5
+Level: 8
 
 /*
 Bagon
-Level: 5
+Level: 8
 */
 
 Shelgon
-Level: 5
+Level: 8
 
 Salamence /* (added) */
-Level: 5
+Level: 8
 Tags: Ace
 
 /*
 Druddigon (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Noivern (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_EXPERT ===
@@ -13627,296 +13627,296 @@ Party Size: 1
 /* Overhauled entirely, now exclusively use stage two evolutions that aren't early game bugs. */
 
 Pidgeot /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Raichu /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Nidoqueen /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Nidoking /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Crobat /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Vileplume /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Bellossom /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Poliwrath /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Politoed /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Alakazam /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 
 /*
 Machoke
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Machamp
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 
 Victreebel /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Golem /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 
 Gengar /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 3
 
 /*
 Hitmontop (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Rhyperior /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Blissey /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Kingdra /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Electivire /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Magmortar /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Porygon Z /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Dragonite /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 
 /*
 Chinchou
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Togekiss /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 2
 
 Ampharos /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Azumarill /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Jumpluff /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Mamoswine /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Tyranitar /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 
 /*
 Swellow
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Ludicolo /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Shiftry /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 /*
 Breloom
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Slaking /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Aggron /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 /*
 Makuhita
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Hariyama
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Meditite
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Medicham
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Manectric
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Roselia
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Flygon /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 /*
 Whiscash
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Dusknoir /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 4
 
 Walrein /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 1
 
 Salamence /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 
 Metagross /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Tags: Set 5
 
 /*
 Riolu (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Lucario (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Gurdurr (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Conkeldurr (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Throh (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Sawk (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Hawlucha (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
@@ -13926,119 +13926,119 @@ Pic: Fisherman
 Party Size: 1
 
 Poliwag
-Level: 5
+Level: 8
 
 Poliwhirl
-Level: 5
+Level: 8
 
 Tentacool
-Level: 5
+Level: 8
 
 Tentacruel
-Level: 5
+Level: 8
 
 Shellder
-Level: 5
+Level: 8
 
 Cloyster
-Level: 5
+Level: 8
 
 Krabby
-Level: 5
+Level: 8
 
 Kingler
-Level: 5
+Level: 8
 
 Horsea
-Level: 5
+Level: 8
 
 Seadra
-Level: 5
+Level: 8
 
 Goldeen
-Level: 5
+Level: 8
 
 Seaking
-Level: 5
+Level: 8
 
 Staryu
-Level: 5
+Level: 8
 
 Starmie /* (LGPE) */
-Level: 5
+Level: 8
 
 /*
 Magikarp
-Level: 5
+Level: 8
 */
 
 Gyarados
-Level: 5
+Level: 8
 
 Chinchou /* (added) */
-Level: 5
+Level: 8
 
 Lanturn
-Level: 5
+Level: 8
 
 Quagsire
-Level: 5
+Level: 8
 
 Qwilfish
-Level: 5
+Level: 8
 
 Corsola
-Level: 5
+Level: 8
 
 Remoraid
-Level: 5
+Level: 8
 
 Octillery
-Level: 5
+Level: 8
 
 Mantine
-Level: 5
+Level: 8
 
 /*
 Carvanha
-Level: 5
+Level: 8
 */
 
 /*
 Sharpedo
-Level: 5
+Level: 8
 */
 
 Wailmer
-Level: 5
+Level: 8
 
 Barboach
-Level: 5
+Level: 8
 
 Whiscash /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 /*
 Corphish (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Crawdaunt (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Feebas
-Level: 5
+Level: 8
 */
 
 Relicanth /* (ORAS) */
-Level: 5
+Level: 8
 
 /*
 Luvdisc (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_GENTLEMAN ===
@@ -14047,119 +14047,119 @@ Pic: Gentleman
 Party Size: 1
 
 Pikachu
-Level: 5
+Level: 8
 
 Raichu /* (added) */
-Level: 5
+Level: 8
 
 Sandshrew /* (LGPE) */
-Level: 5
+Level: 8
 
 Sandslash /* (added) */
-Level: 5
+Level: 8
 
 Nidoran F
-Level: 5
+Level: 8
 
 Nidorina /* (added) */
-Level: 5
+Level: 8
 
 Nidoran M
-Level: 5
+Level: 8
 
 Nidorino /* (added) */
-Level: 5
+Level: 8
 
 Vulpix /* (LGPE) */
-Level: 5
+Level: 8
 
 Ninetales /* (added) */
-Level: 5
+Level: 8
 
 Persian
-Level: 5
+Level: 8
 
 Golduck
-Level: 5
+Level: 8
 
 Growlithe
-Level: 5
+Level: 8
 
 Arcanine /* (added) */
-Level: 5
+Level: 8
 
 Ponyta
-Level: 5
+Level: 8
 
 Rapidash /* (ORAS) */
-Level: 5
+Level: 8
 
 Magnemite
-Level: 5
+Level: 8
 
 Magneton /* (added) */
-Level: 5
+Level: 8
 
 Voltorb
-Level: 5
+Level: 8
 
 Electrode /* (added) */
-Level: 5
+Level: 8
 
 Marowak
-Level: 5
+Level: 8
 
 Eevee /* (LGPE) */
-Level: 5
+Level: 8
 
 Noctowl
-Level: 5
+Level: 8
 
 Flaaffy
-Level: 5
+Level: 8
 
 Wobbuffet
-Level: 5
+Level: 8
 
 Girafarig
-Level: 5
+Level: 8
 
 Linoone
-Level: 5
+Level: 8
 
 /*
 Electrike
-Level: 5
+Level: 8
 */
 
 /*
 Manectric
-Level: 5
+Level: 8
 */
 
 /*
 Spoink
-Level: 5
+Level: 8
 */
 
 /*
 Zangoose
-Level: 5
+Level: 8
 */
 
 /*
 Stoutland (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Zebstrika (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Braviary (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_GUITARIST ===
@@ -14170,66 +14170,66 @@ Party Size: 1
 /* Jigglypuff is added as a reference to the anime */
 
 Pikachu /* (added) */
-Level: 5
+Level: 8
 
 Raichu /* (added) */
-Level: 5
+Level: 8
 
 Jigglypuff /* (added) */
-Level: 5
+Level: 8
 
 Wigglytuff /* (added) */
-Level: 5
+Level: 8
 
 Magnemite
-Level: 5
+Level: 8
 
 Magneton /* (rematches) */
-Level: 5
+Level: 8
 
 Magnezone /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 Voltorb
-Level: 5
+Level: 8
 
 Electrode /* (added) */
-Level: 5
+Level: 8
 
 Electabuzz
-Level: 5
+Level: 8
 
 Jolteon
-Level: 5
+Level: 8
 
 /*
 Electrike
-Level: 5
+Level: 8
 */
 
 /*
 Manectric
-Level: 5
+Level: 8
 */
 
 /*
 Whismur
-Level: 5
+Level: 8
 */
 
 /*
 Loudred (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Exploud (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Chatot (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_HEX_MANIAC ===
@@ -14238,95 +14238,95 @@ Pic: Hex Maniac
 Party Size: 1
 
 Vulpix /* (added) */
-Level: 5
+Level: 8
 
 Ninetales /* (added) */
-Level: 5
+Level: 8
 
 Kadabra
-Level: 5
+Level: 8
 
 Gastly /* (added) */
-Level: 5
+Level: 8
 
 Haunter /* (added) */
-Level: 5
+Level: 8
 
 Natu /* (added) */
-Level: 5
+Level: 8
 
 Xatu /* (ORAS) */
-Level: 5
+Level: 8
 
 Murkrow /* (added) */
-Level: 5
+Level: 8
 
 Honchkrow /* (added) */
-Level: 5
+Level: 8
 
 Misdreavus /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 Mismagius /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 Houndour /* (added) */
-Level: 5
+Level: 8
 
 Houndoom /* (added) */
-Level: 5
+Level: 8
 
 Shedinja /* (added) */
-Level: 5
+Level: 8
 
 /*
 Ralts
-Level: 5
+Level: 8
 */
 
 /*
 Kirlia (ORAS)
-Level: 5
+Level: 8
 */
 
 Sableye
-Level: 5
+Level: 8
 
 /*
 Meditite
-Level: 5
+Level: 8
 */
 
 /*
 Spoink
-Level: 5
+Level: 8
 */
 
 /*
 Grumpig (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Lunatone
-Level: 5
+Level: 8
 */
 
 Shuppet
-Level: 5
+Level: 8
 
 Banette
-Level: 5
+Level: 8
 
 Duskull
-Level: 5
+Level: 8
 
 Dusclops /* (added) */
-Level: 5
+Level: 8
 
 /*
 Chimecho (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_HIKER ===
@@ -14338,142 +14338,142 @@ Party Size: 1
 
 /*
 Sandshrew (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Sandslash
-Level: 5
+Level: 8
 
 Clefairy
-Level: 5
+Level: 8
 
 /*
 Diglett
-Level: 5
+Level: 8
 */
 
 Dugtrio
-Level: 5
+Level: 8
 
 /*
 Machop
-Level: 5
+Level: 8
 */
 
 Machoke
-Level: 5
+Level: 8
 
 Machamp
-Level: 5
+Level: 8
 
 /*
 Geodude
-Level: 5
+Level: 8
 */
 
 Graveler
-Level: 5
+Level: 8
 
 Golem
-Level: 5
+Level: 8
 
 Magneton
-Level: 5
+Level: 8
 
 Onix
-Level: 5
+Level: 8
 
 Steelix /* (rematches) */
-Level: 5
+Level: 8
 
 Cubone /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 Marowak /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 Rhyhorn /* (LGPE) */
-Level: 5
+Level: 8
 
 Rhydon
-Level: 5
+Level: 8
 
 Rhyperior /* (added) */
-Level: 5
+Level: 8
 
 /*
 Omanyte (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 /*
 Omastar (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 /*
 Kabuto (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 /*
 Kabutops (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 /*
 Aerodactyl (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Sudowoodo
-Level: 5
+Level: 8
 
 Dunsparce
-Level: 5
+Level: 8
 
 /*
 Swinub (rematches)
-Level: 5
+Level: 8
 */
 
 Piloswine /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Larvitar (added)
-Level: 5
+Level: 8
 */
 
 Pupitar /* (added) */
-Level: 5
+Level: 8
 
 Tyranitar /* (added) */
-Level: 5
+Level: 8
 
 /*
 Nosepass
-Level: 5
+Level: 8
 */
 
 /*
 Numel
-Level: 5
+Level: 8
 */
 
 /*
 Camerupt (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Baltoy
-Level: 5
+Level: 8
 */
 
 /*
 Bronzor
-Level: 5
+Level: 8
 */
 
 === POOL_KINDLER ===
@@ -14484,38 +14484,38 @@ Party Size: 1
 /* Farfetch'd is added as a reference to the Charcoal Kiln of Azalea Town in Johto, who use them to cut down trees in the Ilex Forest */
 
 Growlithe /* (added) */
-Level: 5
+Level: 8
 
 Arcanine /* (added) */
-Level: 5
+Level: 8
 
 Farfetchd /* (added) */
-Level: 5
+Level: 8
 
 Magmar /* (added) */
-Level: 5
+Level: 8
 
 Slugma
-Level: 5
+Level: 8
 
 Magcargo /* (rematches) */
-Level: 5
+Level: 8
 
 Houndour /* (added) */
-Level: 5
+Level: 8
 
 Houndoom /* (added) */
-Level: 5
+Level: 8
 
 Wingull
-Level: 5
+Level: 8
 
 Pelipper /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Numel
-Level: 5
+Level: 8
 */
 
 === POOL_LADY ===
@@ -14526,75 +14526,75 @@ Party Size: 1
 /* all or nearly all mons hold Nuggets */
 
 Meowth @ Nugget /* (added) */
-Level: 5
+Level: 8
 
 Persian @ Nugget
-Level: 5
+Level: 8
 
 Goldeen @ Nugget /* (added) */
-Level: 5
+Level: 8
 
 Seaking @ Nugget
-Level: 5
+Level: 8
 
 Mareep @ Nugget
-Level: 5
+Level: 8
 
 Flaaffy @ Nugget
-Level: 5
+Level: 8
 
 Hoppip @ Nugget
-Level: 5
+Level: 8
 
 Skiploom @ Nugget
-Level: 5
+Level: 8
 
 Snubbull @ Nugget /* (added) */
-Level: 5
+Level: 8
 
 Misdreavus @ Nugget /* (added) */
-Level: 5
+Level: 8
 
 /*
 Mismagius @ Nugget (ORAS)
-Level: 5
+Level: 8
 */
 
 Corsola @ Nugget
-Level: 5
+Level: 8
 
 Zigzagoon @ Nugget
-Level: 5
+Level: 8
 
 Linoone @ Nugget /* (rematches) */
-Level: 5
+Level: 8
 
 Lotad @ Nugget
-Level: 5
+Level: 8
 
 /*
 Roselia @ Nugget
-Level: 5
+Level: 8
 */
 
 /*
 Clamperl @ Nugget
-Level: 5
+Level: 8
 */
 
 /*
 Luvdisc @ Nugget
-Level: 5
+Level: 8
 */
 
 /*
 Carnivine @ Nugget (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Pyroar @ Nugget (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_LASS ===
@@ -14606,297 +14606,297 @@ Party Size: 1
 
 /*
 Bulbasaur
-Level: 5
+Level: 8
 */
 
 /*
 Ivysaur
-Level: 5
+Level: 8
 */
 
 /*
 Venusaur
-Level: 5
+Level: 8
 */
 
 Rattata
-Level: 5
+Level: 8
 
 /*
 Raticate (rematches)
-Level: 5
+Level: 8
 */
 
 Pidgey
-Level: 5
+Level: 8
 
 /*
 Pidgeotto
-Level: 5
+Level: 8
 */
 
 /*
 Pidgeot (rematches)
-Level: 5
+Level: 8
 */
 
 Ekans
-Level: 5
+Level: 8
 
 /*
 Arbok
-Level: 5
+Level: 8
 */
 
 Pikachu
-Level: 5
+Level: 8
 
 /*
 Raichu (FRLG rematches, LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Nidoran F
-Level: 5
+Level: 8
 
 /*
 Nidorina
-Level: 5
+Level: 8
 */
 
 Nidoran M
-Level: 5
+Level: 8
 
 /*
 Nidorino (rematches)
-Level: 5
+Level: 8
 */
 
 Clefairy
-Level: 5
+Level: 8
 
 /*
 Clefable (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Jigglypuff
-Level: 5
+Level: 8
 
 /*
 Wigglytuff
-Level: 5
+Level: 8
 */
 
 Oddish
-Level: 5
+Level: 8
 
 /*
 Gloom
-Level: 5
+Level: 8
 */
 
 /*
 Vileplume
-Level: 5
+Level: 8
 */
 
 /*
 Bellossom
-Level: 5
+Level: 8
 */
 
 Paras
-Level: 5
+Level: 8
 
 /*
 Parasect
-Level: 5
+Level: 8
 */
 
 Meowth
-Level: 5
+Level: 8
 
 /*
 Persian (rematches)
-Level: 5
+Level: 8
 */
 
 Psyduck
-Level: 5
+Level: 8
 
 /*
 Golduck (rematches)
-Level: 5
+Level: 8
 */
 
 Poliwag /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 /*
 Poliwhirl (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Bellsprout
-Level: 5
+Level: 8
 
 /*
 Weepinbell
-Level: 5
+Level: 8
 */
 
 /*
 Victreebel (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Exeggcute /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 /*
 Exeggutor (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Cubone
-Level: 5
+Level: 8
 
 /*
 Marowak (rematches)
-Level: 5
+Level: 8
 */
 
 Chansey /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 Tangela /* (LGPE) */
-Level: 5
+Level: 8
 
 Horsea /* (added) */
-Level: 5
+Level: 8
 
 /*
 Seadra (ORAS)
-Level: 5
+Level: 8
 */
 
 Goldeen
-Level: 5
+Level: 8
 
 /*
 Lapras (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Eevee /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 /*
 Vaporeon
-Level: 5
+Level: 8
 */
 
 /*
 Flareon (LGPE)
-Level: 5
+Level: 8
 */
 
 Mareep /* (added) */
-Level: 5
+Level: 8
 
 /*
 Flaaffy
-Level: 5
+Level: 8
 */
 
 /*
 Ampharos (rematches)
-Level: 5
+Level: 8
 */
 
 Marill
-Level: 5
+Level: 8
 
 Hoppip
-Level: 5
+Level: 8
 
 /*
 Skiploom
-Level: 5
+Level: 8
 */
 
 /*
 Jumpluff
-Level: 5
+Level: 8
 */
 
 Snubbull
-Level: 5
+Level: 8
 
 /*
 Granbull
-Level: 5
+Level: 8
 */
 
 Zigzagoon
-Level: 5
+Level: 8
 
 Lotad
-Level: 5
+Level: 8
 
 /*
 Lombre (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Ludicolo (ORAS)
-Level: 5
+Level: 8
 */
 
 Taillow /* (added) */
-Level: 5
+Level: 8
 
 /*
 Swellow (rematches)
-Level: 5
+Level: 8
 */
 
 Shroomish
-Level: 5
+Level: 8
 
 /*
 Breloom (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Skitty
-Level: 5
+Level: 8
 */
 
 /*
 Gulpin (ORAS)
-Level: 5
+Level: 8
 */
 
 Wailmer
-Level: 5
+Level: 8
 
 /*
 Luvdisc
-Level: 5
+Level: 8
 */
 
 /*
 Whimsicott (ORAS, rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Maractus (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_NINJA_BOY ===
@@ -14907,80 +14907,80 @@ Party Size: 1
 /* Inspiration was taken from Koga and Janine's parties */
 
 Ekans /* (added) */
-Level: 5
+Level: 8
 
 Arbok /* (added) */
-Level: 5
+Level: 8
 
 Gloom /* (added) */
-Level: 5
+Level: 8
 
 Vileplume /* (added) */
-Level: 5
+Level: 8
 
 Venomoth /* (added) */
-Level: 5
+Level: 8
 
 Mankey /* (added) */
-Level: 5
+Level: 8
 
 Koffing
-Level: 5
+Level: 8
 
 Weezing /* (rematches) */
-Level: 5
+Level: 8
 
 Ariados /* (added) */
-Level: 5
+Level: 8
 
 Umbreon /* (added) */
-Level: 5
+Level: 8
 
 Pineco /* (added) */
-Level: 5
+Level: 8
 
 Forretress /* (added) */
-Level: 5
+Level: 8
 
 Gligar /* (added) */
-Level: 5
+Level: 8
 
 Gliscor /* (added) */
-Level: 5
+Level: 8
 
 Sneasel /* (added) */
-Level: 5
+Level: 8
 
 Weavile /* (added) */
-Level: 5
+Level: 8
 
 Nuzleaf /* (added) */
-Level: 5
+Level: 8
 
 Shiftry /* (added) */
-Level: 5
+Level: 8
 
 Nincada
-Level: 5
+Level: 8
 
 Ninjask
-Level: 5
+Level: 8
 
 Shedinja /* (added) */
-Level: 5
+Level: 8
 
 Kecleon /* (added) */
-Level: 5
+Level: 8
 
 Shuppet /* (added) */
-Level: 5
+Level: 8
 
 Banette /* (added) */
-Level: 5
+Level: 8
 
 /*
 Gulpin
-Level: 5
+Level: 8
 */
 
 === POOL_OLD_COUPLE ===
@@ -14991,19 +14991,19 @@ Party Size: 1
 /* Ditto is placeholder here as Hariyama and Medicham, the only Pokémon used by the Old Couple, are not in this mod. */
 
 Ditto
-Level: 5
+Level: 8
 
 Ditto
-Level: 5
+Level: 8
 
 /*
 Hariyama
-Level: 5
+Level: 8
 */
 
 /*
 Medicham
-Level: 5
+Level: 8
 */
 
 === POOL_PARASOL_LADY ===
@@ -15014,139 +15014,139 @@ Party Size: 1
 /* Completely reworked into a rain team made with terrestrial species only. */
 
 Paras /* (added) */
-Level: 5
+Level: 8
 Ability: Dry Skin
 
 Parasect /* (added) */
-Level: 5
+Level: 8
 Ability: Dry Skin
 
 Psyduck /* (added) */
-Level: 5
+Level: 8
 Ability: Swift Swim
 
 Golduck /* (added) */
-Level: 5
+Level: 8
 Ability: Swift Swim
 
 Poliwag /* (added) */
-Level: 5
+Level: 8
 Ability: Swift Swim
 
 Poliwhirl /* (added) */
-Level: 5
+Level: 8
 Ability: Swift Swim
 
 Poliwrath /* (added) */
-Level: 5
+Level: 8
 Ability: Swift Swim
 
 Politoed /* (added) */
-Level: 5
+Level: 8
 Ability: Drizzle
 Tags: Lead
 
 Farfetchd /* (added) */
-Level: 5
+Level: 8
 
 /*
 Goldeen
-Level: 5
+Level: 8
 */
 
 /*
 Seaking (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Staryu (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Starmie (rematches)
-Level: 5
+Level: 8
 */
 
 Vaporeon /* (added) */
-Level: 5
+Level: 8
 Ability: Hydration
 
 Jolteon /* (added) */
-Level: 5
+Level: 8
 
 Quagsire /* (added) */
-Level: 5
+Level: 8
 
 Lotad /* (added) */
-Level: 5
+Level: 8
 
 Lombre /* (added) */
-Level: 5
+Level: 8
 
 Ludicolo /* (added) */
-Level: 5
+Level: 8
 
 Wingull
-Level: 5
+Level: 8
 Ability: Rain Dish
 
 Pelipper /* (added) */
-Level: 5
+Level: 8
 Ability: Drizzle
 Tags: Lead
 
 Surskit /* (added) */
-Level: 5
+Level: 8
 
 Masquerain /* (added) */
-Level: 5
+Level: 8
 
 Shroomish /* (added) */
-Level: 5
+Level: 8
 
 Breloom /* (added) */
-Level: 5
+Level: 8
 
 /*
 Roselia (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Numel
-Level: 5
+Level: 8
 */
 
 /*
 Camerupt (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Wailmer
-Level: 5
+Level: 8
 */
 
 /*
 Castform
-Level: 5
+Level: 8
 */
 
 /*
 Spheal (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Sealeo (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Walrein (rematches)
-Level: 5
+Level: 8
 */
 
 === POOL_PICNICKER ===
@@ -15156,258 +15156,258 @@ Party Size: 1
 
 /*
 Bulbasaur
-Level: 5
+Level: 8
 */
 
 /*
 Ivysaur
-Level: 5
+Level: 8
 */
 
 /*
 Venusaur
-Level: 5
+Level: 8
 */
 
 /*
 Charmander (LGPE)
-Level: 5
+Level: 8
 */
 
 Pidgey
-Level: 5
+Level: 8
 
 Pidgeotto
-Level: 5
+Level: 8
 
 Pidgeot /* (rematches) */
-Level: 5
+Level: 8
 
 Rattata
-Level: 5
+Level: 8
 
 Raticate /* (rematches) */
-Level: 5
+Level: 8
 
 Pikachu
-Level: 5
+Level: 8
 
 Raichu
-Level: 5
+Level: 8
 
 Sandshrew
-Level: 5
+Level: 8
 
 Sandslash
-Level: 5
+Level: 8
 
 Nidoran F
-Level: 5
+Level: 8
 
 Nidorina
-Level: 5
+Level: 8
 
 Nidoqueen
-Level: 5
+Level: 8
 
 Nidorino /* (rematches) */
-Level: 5
+Level: 8
 
 Nidoking /* (rematches) */
-Level: 5
+Level: 8
 
 Clefairy
-Level: 5
+Level: 8
 
 Clefable /* (rematches) */
-Level: 5
+Level: 8
 
 Vulpix
-Level: 5
+Level: 8
 
 Jigglypuff
-Level: 5
+Level: 8
 
 Wigglytuff /* (ORAS) */
-Level: 5
+Level: 8
 
 Oddish
-Level: 5
+Level: 8
 
 Gloom
-Level: 5
+Level: 8
 
 Vileplume /* (rematches) */
-Level: 5
+Level: 8
 
 Bellossom /* (rematches) */
-Level: 5
+Level: 8
 
 Paras
-Level: 5
+Level: 8
 
 Meowth
-Level: 5
+Level: 8
 
 Persian /* (rematches) */
-Level: 5
+Level: 8
 
 Psyduck /* (LGPE) */
-Level: 5
+Level: 8
 
 Golduck /* (LGPE) */
-Level: 5
+Level: 8
 
 Poliwag
-Level: 5
+Level: 8
 
 Bellsprout
-Level: 5
+Level: 8
 
 Weepinbell /* (GSC rematches, LGPE) */
-Level: 5
+Level: 8
 
 Victreebel /* (rematches) */
-Level: 5
+Level: 8
 
 Tentacool
-Level: 5
+Level: 8
 
 Geodude /* (LGPE) */
-Level: 5
+Level: 8
 
 Ponyta
-Level: 5
+Level: 8
 
 Rapidash
-Level: 5
+Level: 8
 
 Seel
-Level: 5
+Level: 8
 
 Exeggutor
-Level: 5
+Level: 8
 
 Cubone
-Level: 5
+Level: 8
 
 Marowak /* (LGPE) */
-Level: 5
+Level: 8
 
 Tangela
-Level: 5
+Level: 8
 
 Horsea
-Level: 5
+Level: 8
 
 Goldeen
-Level: 5
+Level: 8
 
 Seaking
-Level: 5
+Level: 8
 
 Eevee /* (LGPE) */
-Level: 5
+Level: 8
 
 Vaporeon /* (LGPE) */
-Level: 5
+Level: 8
 
 Jolteon /* (LGPE) */
-Level: 5
+Level: 8
 
 Furret
-Level: 5
+Level: 8
 
 Flaaffy
-Level: 5
+Level: 8
 
 Marill
-Level: 5
+Level: 8
 
 Hoppip
-Level: 5
+Level: 8
 
 Skiploom
-Level: 5
+Level: 8
 
 Jumpluff /* (rematches) */
-Level: 5
+Level: 8
 
 Sunflora /* (rematches) */
-Level: 5
+Level: 8
 
 Lombre
-Level: 5
+Level: 8
 
 Nuzleaf
-Level: 5
+Level: 8
 
 Taillow
-Level: 5
+Level: 8
 
 Shroomish
-Level: 5
+Level: 8
 
 Breloom /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Whismur
-Level: 5
+Level: 8
 */
 
 /*
 Skitty
-Level: 5
+Level: 8
 */
 
 /*
 Plusle (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Illumise (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Gulpin (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Spoink
-Level: 5
+Level: 8
 */
 
 Cacnea
-Level: 5
+Level: 8
 
 Swablu
-Level: 5
+Level: 8
 
 Altaria /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Baltoy
-Level: 5
+Level: 8
 */
 
 /*
 Shinx
-Level: 5
+Level: 8
 */
 
 /*
 Cherubi
-Level: 5
+Level: 8
 */
 
 /*
 Cherrim
-Level: 5
+Level: 8
 */
 
 === POOL_POKEMON_BREEDER ===
@@ -15416,146 +15416,146 @@ Pic: Pokemon Breeder M
 Party Size: 1
 
 Pikachu
-Level: 5
+Level: 8
 
 Sandshrew
-Level: 5
+Level: 8
 
 Clefairy
-Level: 5
+Level: 8
 
 Clefable
-Level: 5
+Level: 8
 
 Chansey
-Level: 5
+Level: 8
 
 Goldeen
-Level: 5
+Level: 8
 
 Seaking /* (rematches) */
-Level: 5
+Level: 8
 
 Azurill /* (ORAS) */
-Level: 5
+Level: 8
 
 Marill
-Level: 5
+Level: 8
 
 Azumarill /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Poochyena
-Level: 5
+Level: 8
 */
 
 Zigzagoon
-Level: 5
+Level: 8
 
 Linoone /* (rematches) */
-Level: 5
+Level: 8
 
 Lotad
-Level: 5
+Level: 8
 
 Lombre /* (rematches) */
-Level: 5
+Level: 8
 
 Ludicolo /* (rematches) */
-Level: 5
+Level: 8
 
 Seedot
-Level: 5
+Level: 8
 
 Nuzleaf /* (rematches) */
-Level: 5
+Level: 8
 
 Shiftry /* (rematches) */
-Level: 5
+Level: 8
 
 Taillow
-Level: 5
+Level: 8
 
 Swellow /* (rematches) */
-Level: 5
+Level: 8
 
 Wingull
-Level: 5
+Level: 8
 
 Pelipper /* (rematches) */
-Level: 5
+Level: 8
 
 Shroomish
-Level: 5
+Level: 8
 
 Breloom /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Whismur
-Level: 5
+Level: 8
 */
 
 /*
 Loudred (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Makuhita
-Level: 5
+Level: 8
 */
 
 /*
 Hariyama (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Skitty
-Level: 5
+Level: 8
 */
 
 /*
 Delcatty (rematches)
-Level: 5
+Level: 8
 */
 
 Aron
-Level: 5
+Level: 8
 
 Lairon /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Electrike
-Level: 5
+Level: 8
 */
 
 /*
 Budew (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Roselia
-Level: 5
+Level: 8
 */
 
 /*
 Gulpin
-Level: 5
+Level: 8
 */
 
 /*
 Numel
-Level: 5
+Level: 8
 */
 
 /*
 Tropius
-Level: 5
+Level: 8
 */
 
 === POOL_PKMN_RANGER ===
@@ -15564,254 +15564,254 @@ Pic: Pokemon Ranger M
 Party Size: 1
 
 Pikachu /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 Raichu /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 Gloom
-Level: 5
+Level: 8
 
 Vileplume
-Level: 5
+Level: 8
 
 Bellossom /* (rematches) */
-Level: 5
+Level: 8
 
 Mankey /* (added) */
-Level: 5
+Level: 8
 
 Primeape /* (added) */
-Level: 5
+Level: 8
 
 Politoed /* (added) */
-Level: 5
+Level: 8
 
 /*
 Bellsprout
-Level: 5
+Level: 8
 */
 
 Weepinbell
-Level: 5
+Level: 8
 
 Victreebel
-Level: 5
+Level: 8
 
 Dodrio
-Level: 5
+Level: 8
 
 Exeggcute
-Level: 5
+Level: 8
 
 Exeggutor
-Level: 5
+Level: 8
 
 Lickitung /* (added) */
-Level: 5
+Level: 8
 
 Lickilicky /* (added) */
-Level: 5
+Level: 8
 
 Rhyhorn /* (added) */
-Level: 5
+Level: 8
 
 Rhydon /* (added) */
-Level: 5
+Level: 8
 
 Rhyperior /* (added) */
-Level: 5
+Level: 8
 
 Chansey
-Level: 5
+Level: 8
 
 Blissey /* (added) */
-Level: 5
+Level: 8
 
 Tangela
-Level: 5
+Level: 8
 
 Tangrowth
-Level: 5
+Level: 8
 
 Kangaskhan /* (added) */
-Level: 5
+Level: 8
 
 Scyther /* (added) */
-Level: 5
+Level: 8
 
 Scizor /* (added) */
-Level: 5
+Level: 8
 
 Pinsir /* (added) */
-Level: 5
+Level: 8
 
 Tauros /* (added) */
-Level: 5
+Level: 8
 
 Eevee /* (added) */
-Level: 5
+Level: 8
 
 Vaporeon /* (added) */
-Level: 5
+Level: 8
 
 Flareon /* (added) */
-Level: 5
+Level: 8
 
 Leafeon /* (added) */
-Level: 5
+Level: 8
 
 Noctowl /* (added) */
-Level: 5
+Level: 8
 
 Azumarill /* (added) */
-Level: 5
+Level: 8
 
 Jumpluff /* (added) */
-Level: 5
+Level: 8
 
 Aipom /* (added) */
-Level: 5
+Level: 8
 
 Ambipom /* (added) */
-Level: 5
+Level: 8
 
 Yanma /* (added) */
-Level: 5
+Level: 8
 
 Yanmega /* (added) */
-Level: 5
+Level: 8
 
 Quagsire /* (added) */
-Level: 5
+Level: 8
 
 Girafarig /* (added) */
-Level: 5
+Level: 8
 
 Pineco /* (added) */
-Level: 5
+Level: 8
 
 Forretress /* (added) */
-Level: 5
+Level: 8
 
 Heracross /* (added) */
-Level: 5
+Level: 8
 
 Teddiursa /* (added) */
-Level: 5
+Level: 8
 
 Ursaring /* (added) */
-Level: 5
+Level: 8
 
 Phanpy /* (added) */
-Level: 5
+Level: 8
 
 Donphan /* (added) */
-Level: 5
+Level: 8
 
 Stantler /* (added) */
-Level: 5
+Level: 8
 
 Miltank /* (added) */
-Level: 5
+Level: 8
 
 Linoone /* (added) */
-Level: 5
+Level: 8
 
 Lotad
-Level: 5
+Level: 8
 
 Lombre
-Level: 5
+Level: 8
 
 Ludicolo /* (added) */
-Level: 5
+Level: 8
 
 Seedot
-Level: 5
+Level: 8
 
 Nuzleaf
-Level: 5
+Level: 8
 
 Shiftry /* (added) */
-Level: 5
+Level: 8
 
 Swellow /* (added) */
-Level: 5
+Level: 8
 
 Breloom
-Level: 5
+Level: 8
 
 Vigoroth /* (ORAS) */
-Level: 5
+Level: 8
 
 Slaking /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 Aron
-Level: 5
+Level: 8
 
 Lairon /* (added) */
-Level: 5
+Level: 8
 
 Aggron /* (added) */
-Level: 5
+Level: 8
 
 /*
 Manectric (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Roselia
-Level: 5
+Level: 8
 */
 
 /*
 Grumpig (ORAS)
-Level: 5
+Level: 8
 */
 
 Spinda /* (added) */
-Level: 5
+Level: 8
 
 Vibrava /* (added) */
-Level: 5
+Level: 8
 
 Flygon /* (added) */
-Level: 5
+Level: 8
 
 Cacnea /* (ORAS) */
-Level: 5
+Level: 8
 
 Cacturne
-Level: 5
+Level: 8
 
 Swablu
-Level: 5
+Level: 8
 
 Altaria /* (added) */
-Level: 5
+Level: 8
 
 /*
 Seviper (ORAS)
-Level: 5
+Level: 8
 */
 
 Whiscash /* (added) */
-Level: 5
+Level: 8
 
 Kecleon /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Unfezant (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Excadrill (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 === POOL_POKEFAN ===
@@ -15823,187 +15823,187 @@ Party Size: 1
 
 /*
 Bulbasaur @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Charmander @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Squirtle @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 Pikachu @ Sitrus Berry
-Level: 5
+Level: 8
 
 Raichu @ Sitrus Berry
-Level: 5
+Level: 8
 
 /*
 Nidoking @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 Clefairy @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 Clefable @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 Jigglypuff @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 Wigglytuff @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 Chansey @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 Blissey @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 /*
 Meowth @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Psyduck @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Slowking @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Magikarp @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Sentret @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Furret @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 Togetic @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 Togekiss @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 /*
 Mareep @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Azurill @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 Marill @ Sitrus Berry
-Level: 5
+Level: 8
 
 Azumarill @ Sitrus Berry
-Level: 5
+Level: 8
 
 Hoppip @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 Skiploom @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 Jumpluff @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 /*
 Quagsire @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 Snubbull @ Sitrus Berry
-Level: 5
+Level: 8
 
 Granbull @ Sitrus Berry /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Teddiursa @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Ursaring @ Sitrus Berry (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Delibird @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Phanpy @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 Shroomish @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 Breloom @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 /*
 Skitty @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Delcatty @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 Mawile @ Sitrus Berry /* (added) */
-Level: 5
+Level: 8
 
 /*
 Plusle @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Minun @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Volbeat @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Illumise @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Spinda @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 /*
 Feebas @ Sitrus Berry
-Level: 5
+Level: 8
 */
 
 === POOL_POKEMANIAC ===
@@ -16015,135 +16015,135 @@ Party Size: 1
 
 /*
 Ivysaur (LGPE)
-Level: 5
+Level: 8
 */
 
 /*
 Charmander
-Level: 5
+Level: 8
 */
 
 /*
 Charmeleon
-Level: 5
+Level: 8
 */
 
 /*
 Blastoise (LGPE)
-Level: 5
+Level: 8
 */
 
 /*
 Nidoran F (rematches)
-Level: 5
+Level: 8
 */
 
 Nidorina
-Level: 5
+Level: 8
 
 Nidoqueen
-Level: 5
+Level: 8
 Tags: Ace
 
 /*
 Nidoran M (rematches)
-Level: 5
+Level: 8
 */
 
 Nidorino
-Level: 5
+Level: 8
 
 Nidoking
-Level: 5
+Level: 8
 Tags: Ace
 
 /*
 Slowpoke
-Level: 5
+Level: 8
 */
 
 Slowbro
-Level: 5
+Level: 8
 
 Slowking /* (added) */
-Level: 5
+Level: 8
 
 /*
 Cubone
-Level: 5
+Level: 8
 */
 
 Marowak
-Level: 5
+Level: 8
 
 Lickitung
-Level: 5
+Level: 8
 
 Lickilicky /* (added) */
-Level: 5
+Level: 8
 
 Rhyhorn
-Level: 5
+Level: 8
 
 Rhydon
-Level: 5
+Level: 8
 
 Rhyperior /* (ORAS rematches) */
-Level: 5
+Level: 8
 Tags: Ace
 
 /*
 Chansey (rematches)
-Level: 5
+Level: 8
 */
 
 Kangaskhan
-Level: 5
+Level: 8
 
 /*
 Gyarados (rematches)
-Level: 5
+Level: 8
 */
 
 Lapras
-Level: 5
+Level: 8
 
 /*
 Porygon (rematches)
-Level: 5
+Level: 8
 */
 
 Snorlax /* (added) */
-Level: 5
+Level: 8
 Tags: Ace
 
 Flaaffy /* (added) */
-Level: 5
+Level: 8
 
 Ampharos /* (ORAS rematches) */
-Level: 5
+Level: 8
 Tags: Ace
 
 Larvitar /* (added) */
-Level: 5
+Level: 8
 
 Pupitar /* (added) */
-Level: 5
+Level: 8
 
 Tyranitar /* (added) */
-Level: 5
+Level: 8
 Tags: Ace
 
 /*
 Aron
-Level: 5
+Level: 8
 */
 
 Lairon
-Level: 5
+Level: 8
 
 Aggron /* (rematches) */
-Level: 5
+Level: 8
 
 === POOL_PSYCHIC ===
 Name: Pool
@@ -16151,129 +16151,129 @@ Pic: Psychic M
 Party Size: 1
 
 Abra
-Level: 5
+Level: 8
 - Hidden Power
 
 Kadabra
-Level: 5
+Level: 8
 
 Alakazam /* (rematches) */
-Level: 5
+Level: 8
 
 Slowpoke
-Level: 5
+Level: 8
 
 Slowbro
-Level: 5
+Level: 8
 
 Slowking /* (added) */
-Level: 5
+Level: 8
 
 Gastly /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 Haunter /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 /*
 Gengar (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Drowzee
-Level: 5
+Level: 8
 
 Hypno
-Level: 5
+Level: 8
 
 Exeggcute
-Level: 5
+Level: 8
 
 Exeggutor
-Level: 5
+Level: 8
 
 /*
 Staryu (ORAS)
-Level: 5
+Level: 8
 */
 
 Starmie
-Level: 5
+Level: 8
 
 Mr Mime
-Level: 5
+Level: 8
 
 Jynx /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 Espeon
-Level: 5
+Level: 8
 
 Natu
-Level: 5
+Level: 8
 
 Xatu
-Level: 5
+Level: 8
 
 Wobbuffet
-Level: 5
+Level: 8
 
 Girafarig
-Level: 5
+Level: 8
 
 /*
 Ralts
-Level: 5
+Level: 8
 */
 
 /*
 Kirlia
-Level: 5
+Level: 8
 */
 
 /*
 Meditite
-Level: 5
+Level: 8
 */
 
 /*
 Medicham (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Spoink
-Level: 5
+Level: 8
 */
 
 /*
 Grumpig (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Lunatone
-Level: 5
+Level: 8
 */
 
 /*
 Solrock
-Level: 5
+Level: 8
 */
 
 /*
 Claydol (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Banette
-Level: 5
+Level: 8
 */
 
 /*
 Chimecho
-Level: 5
+Level: 8
 */
 
 === POOL_RICH_BOY ===
@@ -16284,52 +16284,52 @@ Party Size: 1
 /* all or nearly all mons hold Nuggets */
 
 Meowth @ Nugget /* (added) */
-Level: 5
+Level: 8
 
 Goldeen @ Nugget /* (added) */
-Level: 5
+Level: 8
 
 Eevee @ Nugget /* (added) */
-Level: 5
+Level: 8
 
 /*
 Jolteon @ Nugget (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Lanturn @ Nugget (ORAS)
-Level: 5
+Level: 8
 */
 
 Marill @ Nugget /* (added) */
-Level: 5
+Level: 8
 
 Azumarill @ Nugget
-Level: 5
+Level: 8
 
 Snubbull @ Nugget /* (added) */
-Level: 5
+Level: 8
 
 /*
 Poochyena @ Nugget
-Level: 5
+Level: 8
 */
 
 Zigzagoon @ Nugget
-Level: 5
+Level: 8
 
 Linoone @ Nugget /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Pyroar @ Nugget (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Frufrou @ Nugget (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_RUIN_MANIAC ===
@@ -16340,90 +16340,90 @@ Party Size: 1
 /* Machoke is passed over to ensure the team is always viable in a sandstorm. */
 
 Sandshrew
-Level: 5
+Level: 8
 
 Sandslash
-Level: 5
+Level: 8
 
 /*
 Machoke
-Level: 5
+Level: 8
 */
 
 Geodude
-Level: 5
+Level: 8
 
 Graveler
-Level: 5
+Level: 8
 
 Onix
-Level: 5
+Level: 8
 
 Marowak
-Level: 5
+Level: 8
 
 Omanyte /* (added) */
-Level: 5
+Level: 8
 
 Omastar /* (added) */
-Level: 5
+Level: 8
 
 Kabuto /* (added) */
-Level: 5
+Level: 8
 
 Kabutops /* (added) */
-Level: 5
+Level: 8
 
 Aerodactyl /* (ORAS) */
-Level: 5
+Level: 8
 
 Gligar /* (added) */
-Level: 5
+Level: 8
 
 Gliscor /* (added) */
-Level: 5
+Level: 8
 
 /*
 Nosepass (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Baltoy
-Level: 5
+Level: 8
 */
 
 /*
 Claydol (ORAS)
-Level: 5
+Level: 8
 */
 
 Lileep /* (added) */
-Level: 5
+Level: 8
 
 Cradily /* (added) */
-Level: 5
+Level: 8
 
 Anorith /* (added) */
-Level: 5
+Level: 8
 
 Armaldo /* (added) */
-Level: 5
+Level: 8
 
 Duskull /* (added) */
-Level: 5
+Level: 8
 
 Dusclops /* (added) */
-Level: 5
+Level: 8
 
 /*
 Tyrantrum (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Aurorus (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_SAILOR ===
@@ -16432,133 +16432,133 @@ Pic: Sailor
 Party Size: 1
 
 Raticate
-Level: 5
+Level: 8
 
 Pikachu
-Level: 5
+Level: 8
 
 Psyduck
-Level: 5
+Level: 8
 
 Golduck /* (added) */
-Level: 5
+Level: 8
 
 Mankey
-Level: 5
+Level: 8
 
 Primeape /* (added) */
-Level: 5
+Level: 8
 
 Poliwag
-Level: 5
+Level: 8
 
 Poliwhirl
-Level: 5
+Level: 8
 
 Poliwrath /* (rematches) */
-Level: 5
+Level: 8
 
 Politoed /* (rematches) */
-Level: 5
+Level: 8
 
 Machop
-Level: 5
+Level: 8
 
 Machoke
-Level: 5
+Level: 8
 
 Machamp /* (ORAS) */
-Level: 5
+Level: 8
 
 Tentacool
-Level: 5
+Level: 8
 
 Tentacruel
-Level: 5
+Level: 8
 
 Slowpoke
-Level: 5
+Level: 8
 
 Slowbro /* (added) */
-Level: 5
+Level: 8
 
 Magnemite
-Level: 5
+Level: 8
 
 Seel
-Level: 5
+Level: 8
 
 Dewgong /* (added) */
-Level: 5
+Level: 8
 
 Shellder
-Level: 5
+Level: 8
 
 Cloyster /* (added) */
-Level: 5
+Level: 8
 
 Krabby
-Level: 5
+Level: 8
 
 Kingler
-Level: 5
+Level: 8
 
 Horsea
-Level: 5
+Level: 8
 
 Seadra
-Level: 5
+Level: 8
 
 Kingdra /* (added) */
-Level: 5
+Level: 8
 
 Staryu
-Level: 5
+Level: 8
 
 Starmie /* (added) */
-Level: 5
+Level: 8
 
 Marill /* (added) */
-Level: 5
+Level: 8
 
 Azumarill
-Level: 5
+Level: 8
 
 Wooper
-Level: 5
+Level: 8
 
 Quagsire /* (added) */
-Level: 5
+Level: 8
 
 Qwilfish
-Level: 5
+Level: 8
 
 Wingull
-Level: 5
+Level: 8
 
 Pelipper /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Makuhita
-Level: 5
+Level: 8
 */
 
 Wailmer
-Level: 5
+Level: 8
 
 Wailord /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 Spheal
-Level: 5
+Level: 8
 
 Sealeo /* (added) */
-Level: 5
+Level: 8
 
 /*
 Floatzel (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_SCHOOL_KID ===
@@ -16569,234 +16569,234 @@ Party Size: 1
 /* Reworked so that when facing any individual trainer, all mons are from the same generation, with Kanto having two distinct sets. */
 
 Pidgeot
-Level: 5
+Level: 8
 Tags: Set 1
 
 Sandslash
-Level: 5
+Level: 8
 Tags: Set 1
 
 Vulpix /* (rematches) */
-Level: 5
+Level: 8
 Tags: Set 1
 
 Golbat
-Level: 5
+Level: 8
 Tags: Set 1
 
 Oddish
-Level: 5
+Level: 8
 Tags: Set 1
 
 Gloom /* (rematches) */
-Level: 5
+Level: 8
 Tags: Set 1
 
 Vileplume /* (rematches) */
-Level: 5
+Level: 8
 Tags: Set 1
 
 Paras
-Level: 5
+Level: 8
 Tags: Set 1
 
 Parasect
-Level: 5
+Level: 8
 Tags: Set 1
 
 Growlithe /* (rematches) */
-Level: 5
+Level: 8
 Tags: Set 1
 
 Poliwhirl
-Level: 5
+Level: 8
 Tags: Set 1
 
 Alakazam
-Level: 5
+Level: 8
 Tags: Set 4
 
 Bellsprout
-Level: 5
+Level: 8
 Tags: Set 1
 
 Weepinbell
-Level: 5
+Level: 8
 Tags: Set 1
 
 Victreebel
-Level: 5
+Level: 8
 Tags: Set 1
 
 Geodude
-Level: 5
+Level: 8
 Tags: Set 1
 
 Magnemite
-Level: 5
+Level: 8
 Tags: Set 1
 
 Magneton
-Level: 5
+Level: 8
 Tags: Set 1
 
 Dewgong /* (ORAS rematches) */
-Level: 5
+Level: 8
 Tags: Set 1
 
 Voltorb
-Level: 5
+Level: 8
 Tags: Set 1
 
 Electrode /* (rematches) */
-Level: 5
+Level: 8
 Tags: Set 1
 
 Exeggutor
-Level: 5
+Level: 8
 Tags: Set 1
 
 Tangela
-Level: 5
+Level: 8
 Tags: Set 4
 
 Tangrowth /* (rematches) */
-Level: 5
+Level: 8
 Tags: Set 4
 
 Goldeen
-Level: 5
+Level: 8
 Tags: Set 1
 
 Mr Mime
-Level: 5
+Level: 8
 Tags: Set 4
 
 Jynx
-Level: 5
+Level: 8
 Tags: Set 4
 
 Electabuzz
-Level: 5
+Level: 8
 Tags: Set 4
 
 Magmar
-Level: 5
+Level: 8
 Tags: Set 4
 
 Ditto
-Level: 5
+Level: 8
 Tags: Set 4
 
 Vaporeon
-Level: 5
+Level: 8
 Tags: Set 4
 
 Furret
-Level: 5
+Level: 8
 Tags: Set 2
 
 Ledian
-Level: 5
+Level: 8
 Tags: Set 2
 
 Xatu
-Level: 5
+Level: 8
 Tags: Set 2
 
 Aipom
-Level: 5
+Level: 8
 Tags: Set 2
 
 Yanma
-Level: 5
+Level: 8
 Tags: Set 2
 
 Yanmega /* (rematches) */
-Level: 5
+Level: 8
 Tags: Set 2
 
 Quagsire /* (rematches) */
-Level: 5
+Level: 8
 Tags: Set 2
 
 Zigzagoon
-Level: 5
+Level: 8
 Tags: Set 3
 
 Beautifly
-Level: 5
+Level: 8
 Tags: Set 3
 
 Wingull
-Level: 5
+Level: 8
 Tags: Set 3
 
 /*
 Ralts
-Level: 5
+Level: 8
 */
 
 /*
 Kirlia (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Gardevoir (rematches)
-Level: 5
+Level: 8
 */
 
 Shroomish
-Level: 5
+Level: 8
 Tags: Set 3
 
 Breloom /* (rematches) */
-Level: 5
+Level: 8
 Tags: Set 3
 
 /*
 Whismur
-Level: 5
+Level: 8
 */
 
 /*
 Loudred (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Exploud (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Meditite (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Medicham (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Numel
-Level: 5
+Level: 8
 */
 
 Banette /* (rematches) */
-Level: 5
+Level: 8
 Tags: Set 3
 
 /*
 Budew
-Level: 5
+Level: 8
 */
 
 /*
 Bisharp (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_SIS_AND_BRO ===
@@ -16805,58 +16805,58 @@ Pic: Sis And Bro
 Party Size: 1
 
 Poliwhirl
-Level: 5
+Level: 8
 
 Tentacool
-Level: 5
+Level: 8
 
 Seadra
-Level: 5
+Level: 8
 
 Goldeen
-Level: 5
+Level: 8
 
 Seaking
-Level: 5
+Level: 8
 
 Starmie
-Level: 5
+Level: 8
 
 Chinchou
-Level: 5
+Level: 8
 
 Azumarill
-Level: 5
+Level: 8
 
 Corsola
-Level: 5
+Level: 8
 
 Wingull
-Level: 5
+Level: 8
 
 Pelipper /* (ORAS) */
-Level: 5
+Level: 8
 
 /*
 Carvanha
-Level: 5
+Level: 8
 */
 
 /*
 Sharpedo (rematches)
-Level: 5
+Level: 8
 */
 
 Whiscash /* (ORAS) */
-Level: 5
+Level: 8
 
 /*
 Corphish (ORAS)
-Level: 5
+Level: 8
 */
 
 Sealeo /* (ORAS) */
-Level: 5
+Level: 8
 
 === POOL_SR_AND_JR ===
 Name: Pool
@@ -16866,106 +16866,106 @@ Party Size: 1
 /* Totally overhauled, now use all Fairy types as well as a few Normal ones. */
 
 Clefairy /* (added) */
-Level: 5
+Level: 8
 Tags: Set 1
 
 Clefable /* (added) */
-Level: 5
+Level: 8
 Tags: Set 1
 
 Jigglypuff /* (added) */
-Level: 5
+Level: 8
 Tags: Set 2
 
 Wigglytuff /* (added) */
-Level: 5
+Level: 8
 Tags: Set 2
 
 /*
 Graveler
-Level: 5
+Level: 8
 */
 
 Mr Mime /* (added) */
-Level: 5
+Level: 8
 Tags: Set 3
 
 Togetic /* (added) */
-Level: 5
+Level: 8
 Tags: Set 4
 
 Togekiss /* (added) */
-Level: 5
+Level: 8
 Tags: Set 4
 
 Marill /* (added) */
-Level: 5
+Level: 8
 Tags: Set 5
 
 Azumarill /* (ORAS) */
-Level: 5
+Level: 8
 Tags: Set 5
 
 Snubbull /* (added) */
-Level: 5
+Level: 8
 Tags: Set 6
 
 Granbull /* (added) */
-Level: 5
+Level: 8
 Tags: Set 6
 
 /*
 Zigzagoon
-Level: 5
+Level: 8
 */
 
 /*
 Linoone (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Slaking
-Level: 5
+Level: 8
 */
 
 /*
 Makuhita
-Level: 5
+Level: 8
 */
 
 /*
 Hariyama (rematches)
-Level: 5
+Level: 8
 */
 
 Mawile /* (added) */
-Level: 5
+Level: 8
 Tags: Set 3
 
 /*
 Roselia
-Level: 5
+Level: 8
 */
 
 /*
 Numel
-Level: 5
+Level: 8
 */
 
 /*
 Camerupt (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Spinda
-Level: 5
+Level: 8
 */
 
 /*
 Altaria
-Level: 5
+Level: 8
 */
 
 === POOL_SWIMMER ===
@@ -16975,186 +16975,186 @@ Party Size: 1
 
 /*
 Wartortle
-Level: 5
+Level: 8
 */
 
 Psyduck
-Level: 5
+Level: 8
 
 Golduck
-Level: 5
+Level: 8
 
 Poliwag
-Level: 5
+Level: 8
 
 Poliwhirl
-Level: 5
+Level: 8
 
 Tentacool
-Level: 5
+Level: 8
 
 Tentacruel
-Level: 5
+Level: 8
 
 Slowpoke /* (added) */
-Level: 5
+Level: 8
 
 Slowbro /* (LGPE) */
-Level: 5
+Level: 8
 
 Slowking
-Level: 5
+Level: 8
 
 Seel
-Level: 5
+Level: 8
 
 Dewgong
-Level: 5
+Level: 8
 
 Shellder
-Level: 5
+Level: 8
 
 Cloyster
-Level: 5
+Level: 8
 
 Krabby
-Level: 5
+Level: 8
 
 Horsea
-Level: 5
+Level: 8
 
 Seadra
-Level: 5
+Level: 8
 
 Goldeen
-Level: 5
+Level: 8
 
 Seaking
-Level: 5
+Level: 8
 
 Staryu
-Level: 5
+Level: 8
 
 Starmie
-Level: 5
+Level: 8
 
 Magikarp
-Level: 5
+Level: 8
 
 Gyarados
-Level: 5
+Level: 8
 
 Lapras
-Level: 5
+Level: 8
 
 /*
 Kabutops
-Level: 5
+Level: 8
 */
 
 Dratini /* (LGPE) */
-Level: 5
+Level: 8
 
 Chinchou
-Level: 5
+Level: 8
 
 Lanturn
-Level: 5
+Level: 8
 
 Marill
-Level: 5
+Level: 8
 
 Azumarill
-Level: 5
+Level: 8
 
 Wooper
-Level: 5
+Level: 8
 
 Quagsire
-Level: 5
+Level: 8
 
 Qwilfish
-Level: 5
+Level: 8
 
 Remoraid
-Level: 5
+Level: 8
 
 Octillery
-Level: 5
+Level: 8
 
 Corsola /* (ORAS) */
-Level: 5
+Level: 8
 
 Lombre /* (ORAS) */
-Level: 5
+Level: 8
 
 Ludicolo /* (ORAS) */
-Level: 5
+Level: 8
 
 Wingull
-Level: 5
+Level: 8
 
 Pelipper
-Level: 5
+Level: 8
 
 /*
 Carvanha
-Level: 5
+Level: 8
 */
 
 /*
 Sharpedo
-Level: 5
+Level: 8
 */
 
 Wailmer
-Level: 5
+Level: 8
 
 Barboach /* (ORAS) */
-Level: 5
+Level: 8
 
 Whiscash /* (ORAS) */
-Level: 5
+Level: 8
 
 /*
 Corphish (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Crawdaunt (ORAS)
-Level: 5
+Level: 8
 */
 
 Spheal
-Level: 5
+Level: 8
 
 Sealeo
-Level: 5
+Level: 8
 
 /*
 Clamperl
-Level: 5
+Level: 8
 */
 
 /*
 Luvdisc
-Level: 5
+Level: 8
 */
 
 /*
 Bidoof
-Level: 5
+Level: 8
 */
 
 /*
 Jellicent
-Level: 5
+Level: 8
 */
 
 /*
 Alomomola
-Level: 5
+Level: 8
 */
 
 === POOL_TRIATHLETE_CYCLING ===
@@ -17163,35 +17163,35 @@ Pic: Cycling Triathlete M
 Party Size: 1
 
 Magnemite
-Level: 5
+Level: 8
 
 Magneton /* (rematches) */
-Level: 5
+Level: 8
 
 Voltorb
-Level: 5
+Level: 8
 
 Electrode /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 /*
 Plusle (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Minun (ORAS)
-Level: 5
+Level: 8
 */
 
 /*
 Klang (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Klinklang (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 === POOL_TRIATHLETE_RUNNING ===
@@ -17200,13 +17200,13 @@ Pic: Running Triathlete M
 Party Size: 1
 
 Arcanine /* (ORAS rematches) */
-Level: 5
+Level: 8
 
 Doduo
-Level: 5
+Level: 8
 
 Dodrio
-Level: 5
+Level: 8
 
 === POOL_TRIATHLETE_SWIMMING ===
 Name: Pool
@@ -17214,35 +17214,35 @@ Pic: Swimming Triathlete M
 Party Size: 1
 
 Golduck /* (ORAS) */
-Level: 5
+Level: 8
 
 Tentacruel /* (ORAS) */
-Level: 5
+Level: 8
 
 Seadra /* (ORAS) */
-Level: 5
+Level: 8
 
 Staryu
-Level: 5
+Level: 8
 
 Starmie /* (rematches) */
-Level: 5
+Level: 8
 
 Azumarill /* (ORAS) */
-Level: 5
+Level: 8
 
 Wingull
-Level: 5
+Level: 8
 
 Wailmer /* (ORAS) */
-Level: 5
+Level: 8
 
 Spheal
-Level: 5
+Level: 8
 
 /*
 Floatzel (ORAS)
-Level: 5
+Level: 8
 */
 
 === POOL_TUBER ===
@@ -17251,45 +17251,45 @@ Pic: Tuber F
 Party Size: 1
 
 Poliwag
-Level: 5
+Level: 8
 
 Poliwhirl
-Level: 5
+Level: 8
 
 Tentacool
-Level: 5
+Level: 8
 
 Krabby
-Level: 5
+Level: 8
 
 Staryu
-Level: 5
+Level: 8
 
 /*
 Azurill
-Level: 5
+Level: 8
 */
 
 Marill
-Level: 5
+Level: 8
 
 Azumarill /* (RES rematches, ORAS) */
-Level: 5
+Level: 8
 
 Zigzagoon
-Level: 5
+Level: 8
 
 Linoone /* (rematches) */
-Level: 5
+Level: 8
 
 /*
 Corphish
-Level: 5
+Level: 8
 */
 
 /*
 Luvdisc
-Level: 5
+Level: 8
 */
 
 === POOL_TWINS ===
@@ -17301,151 +17301,151 @@ Party Size: 1
 
 /*
 Charmander
-Level: 5
+Level: 8
 */
 
 /*
 Squirtle
-Level: 5
+Level: 8
 */
 
 Pikachu
-Level: 5
+Level: 8
 Tags: Set 1
 
 Nidoran F /* (added) */
-Level: 5
+Level: 8
 Tags: Set 2
 
 Nidoran M /* (added) */
-Level: 5
+Level: 8
 Tags: Set 2
 
 Clefairy
-Level: 5
+Level: 8
 Tags: Set 1
 
 Vulpix /* (added) */
-Level: 5
+Level: 8
 Tags: Set 3
 
 Jigglypuff
-Level: 5
+Level: 8
 Tags: Set 1
 
 Oddish /* (added) */
-Level: 5
+Level: 8
 Tags: Set 4
 
 /*
 Vileplume
-Level: 5
+Level: 8
 */
 
 Meowth /* (added) */
-Level: 5
+Level: 8
 Tags: Set 5
 
 Mankey /* (added) */
-Level: 5
+Level: 8
 Tags: Set 5
 
 Growlithe /* (added) */
-Level: 5
+Level: 8
 Tags: Set 3
 
 Bellsprout /* (added) */
-Level: 5
+Level: 8
 Tags: Set 4
 
 /*
 Victreebel
-Level: 5
+Level: 8
 */
 
 Dratini
-Level: 5
+Level: 8
 Tags: Set 6
 
 /*
 Ledyba
-Level: 5
+Level: 8
 */
 
 /*
 Spinarak
-Level: 5
+Level: 8
 */
 
 /*
 Mareep
-Level: 5
+Level: 8
 */
 
 Marill
-Level: 5
+Level: 8
 Tags: Set 1
 
 Hoppip /* (added) */
-Level: 5
+Level: 8
 Tags: Set 4
 
 Aipom /* (added) */
-Level: 5
+Level: 8
 Tags: Set 5
 
 /*
 Quagsire
-Level: 5
+Level: 8
 */
 
 Teddiursa
-Level: 5
+Level: 8
 Tags: Set 7
 
 Phanpy
-Level: 5
+Level: 8
 Tags: Set 7
 
 Larvitar /* (added) */
-Level: 5
+Level: 8
 Tags: Set 6
 
 /*
 Beautifly
-Level: 5
+Level: 8
 */
 
 /*
 Dustox
-Level: 5
+Level: 8
 */
 
 Lotad
-Level: 5
+Level: 8
 Tags: Set 4
 
 Seedot
-Level: 5
+Level: 8
 Tags: Set 4
 
 /*
 Plusle
-Level: 5
+Level: 8
 */
 
 /*
 Minun
-Level: 5
+Level: 8
 */
 
 /*
 Spinda
-Level: 5
+Level: 8
 */
 
 Bagon /* (added) */
-Level: 5
+Level: 8
 Tags: Set 6
 
 === POOL_YOUNG_COUPLE ===
@@ -17457,148 +17457,148 @@ Party Size: 1
 
 /*
 Nidoran F
-Level: 5
+Level: 8
 */
 
 Nidoqueen /* (added) */
-Level: 5
+Level: 8
 Tags: Set 1
 
 /*
 Nidoran M
-Level: 5
+Level: 8
 */
 
 Nidoking /* (added) */
-Level: 5
+Level: 8
 Tags: Set 1
 
 Ninetales (F)
-Level: 5
+Level: 8
 Tags: Set 2
 
 Persian (F) /* (added) */
-Level: 5
+Level: 8
 Tags: Set 3
 
 Primeape (M) /* (added) */
-Level: 5
+Level: 8
 Tags: Set 3
 
 /*
 Psyduck
-Level: 5
+Level: 8
 */
 
 /*
 Golduck
-Level: 5
+Level: 8
 */
 
 Arcanine (M) /* (added) */
-Level: 5
+Level: 8
 Tags: Set 2
 
 /*
 Kadabra
-Level: 5
+Level: 8
 */
 
 /*
 Rapidash
-Level: 5
+Level: 8
 */
 
 /*
 Cloyster
-Level: 5
+Level: 8
 */
 
 /*
 Onix
-Level: 5
+Level: 8
 */
 
 Mr Mime (M) /* (added) */
-Level: 5
+Level: 8
 Tags: Set 4
 
 Jynx /* (added) */
-Level: 5
+Level: 8
 Tags: Set 4
 
 Electabuzz (M) /* (added) */
-Level: 5
+Level: 8
 Tags: Set 5
 
 Magmar (F)
-Level: 5
+Level: 8
 Tags: Set 5
 
 Tauros
-Level: 5
+Level: 8
 Tags: Set 6
 
 /*
 Sunflora
-Level: 5
+Level: 8
 */
 
 Ursaring (F) /* (added) */
-Level: 5
+Level: 8
 Tags: Set 7
 
 Donphan (M) /* (added) */
-Level: 5
+Level: 8
 Tags: Set 7
 
 Miltank
-Level: 5
+Level: 8
 Tags: Set 6
 
 /*
 Beautifly
-Level: 5
+Level: 8
 */
 
 /*
 Dustox
-Level: 5
+Level: 8
 */
 
 /*
 Lotad
-Level: 5
+Level: 8
 */
 
 /*
 Seedot
-Level: 5
+Level: 8
 */
 
 /*
 Delcatty
-Level: 5
+Level: 8
 */
 
 /*
 Manectric
-Level: 5
+Level: 8
 */
 
 /*
 Volbeat
-Level: 5
+Level: 8
 */
 
 /*
 Illumise
-Level: 5
+Level: 8
 */
 
 /*
 Luvdisc
-Level: 5
+Level: 8
 */
 
 === POOL_YOUNGSTER ===
@@ -17609,147 +17609,147 @@ Party Size: 1
 /* Has been reworked to only use Basic Pokémon */
 
 Pidgey
-Level: 5
+Level: 8
 
 /*
 Pidgeotto
-Level: 5
+Level: 8
 */
 
 /*
 Pidgeot (rematches)
-Level: 5
+Level: 8
 */
 
 Rattata
-Level: 5
+Level: 8
 
 /*
 Raticate
-Level: 5
+Level: 8
 */
 
 Spearow
-Level: 5
+Level: 8
 
 /*
 Fearow
-Level: 5
+Level: 8
 */
 
 Ekans
-Level: 5
+Level: 8
 
 /*
 Arbok
-Level: 5
+Level: 8
 */
 
 Sandshrew
-Level: 5
+Level: 8
 
 /*
 Sandslash
-Level: 5
+Level: 8
 */
 
 Nidoran M
-Level: 5
+Level: 8
 
 /*
 Nidorino
-Level: 5
+Level: 8
 */
 
 Zubat
-Level: 5
+Level: 8
 
 /*
 Golbat (rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Crobat
-Level: 5
+Level: 8
 */
 
 Paras /* (added) */
-Level: 5
+Level: 8
 
 /*
 Parasect
-Level: 5
+Level: 8
 */
 
 Diglett /* (LGPE) */
-Level: 5
+Level: 8
 
 Meowth /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 /*
 Persian (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Mankey
-Level: 5
+Level: 8
 
 Growlithe
-Level: 5
+Level: 8
 
 Machop
-Level: 5
+Level: 8
 
 Bellsprout
-Level: 5
+Level: 8
 
 /*
 Weepinbell
-Level: 5
+Level: 8
 */
 
 /*
 Victreebel
-Level: 5
+Level: 8
 */
 
 Geodude
-Level: 5
+Level: 8
 
 Slowpoke
-Level: 5
+Level: 8
 
 Farfetchd
-Level: 5
+Level: 8
 
 Voltorb /* (added) */
-Level: 5
+Level: 8
 
 /*
 Electrode
-Level: 5
+Level: 8
 */
 
 Lickitung /* (LGPE master trainer) */
-Level: 5
+Level: 8
 
 /*
 Lickilicky (ORAS rematches)
-Level: 5
+Level: 8
 */
 
 /*
 Magikarp (LGPE master trainer)
-Level: 5
+Level: 8
 */
 
 Wooper
-Level: 5
+Level: 8
 
 Slugma /* (ORAS) */
-Level: 5
+Level: 8
 
 /*
 Poochyena
@@ -17762,43 +17762,43 @@ Level 5
 */
 
 Zigzagoon
-Level: 5
+Level: 8
 
 /*
 Linoone
-Level: 5
+Level: 8
 */
 
 Lotad
-Level: 5
+Level: 8
 
 Seedot
-Level: 5
+Level: 8
 
 Taillow
-Level: 5
+Level: 8
 
 /*
 Swellow (rematches)
-Level: 5
+Level: 8
 */
 
 Shroomish
-Level: 5
+Level: 8
 
 Slakoth
-Level: 5
+Level: 8
 
 /*
 Vigoroth (rematches)
-Level: 5
+Level: 8
 */
 
 Nincada
-Level: 5
+Level: 8
 
 Aron
-Level: 5
+Level: 8
 
 /*
 Electrike
@@ -17811,7 +17811,7 @@ Level 5
 */
 
 Trapinch
-Level: 5
+Level: 8
 
 === POOL_TEAM_AQUA ===
 Name: Pool
@@ -17820,109 +17820,109 @@ Party Size: 1
 
 /*
 Zubat
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Golbat
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Machop /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Machoke /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Grimer /* (ORAS) */
-Level: 5
+Level: 8
 Ability: Stench
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Muk /* (ORAS) */
-Level: 5
+Level: 8
 Ability: Stench
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Drowzee /* (added) */
-Level: 5
+Level: 8
 Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Hypno /* (added) */
-Level: 5
+Level: 8
 Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Krabby /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Kingler /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Sneasel /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Weavile (added)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Poochyena
-Level: 5
+Level: 8
 Ability: Quick Feet
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Mightyena
-Level: 5
+Level: 8
 Ability: Intimidate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Wingull (added)
-Level: 5
+Level: 8
 Ability: Keen Eye
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Pelipper (added)
-Level: 5
+Level: 8
 Ability: Keen Eye
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Carvanha
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Sharpedo (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Wailmer
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Shuppet /* (added) */
-Level: 5
+Level: 8
 Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Banette /* (added) */
-Level: 5
+Level: 8
 Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -17933,103 +17933,103 @@ Party Size: 1
 
 /*
 Zubat
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Golbat /* (ORAS) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Machop /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Machoke /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Drowzee /* (added) */
-Level: 5
+Level: 8
 Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Hypno /* (added) */
-Level: 5
+Level: 8
 Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Cubone /* (added) */
-Level: 5
+Level: 8
 Ability: Rock Head
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Marowak /* (added) */
-Level: 5
+Level: 8
 Ability: Rock Head
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Koffing /* (ORAS) */
-Level: 5
+Level: 8
 Ability: Levitate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Weezing /* (ORAS) */
-Level: 5
+Level: 8
 Ability: Levitate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Houndour /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Houndoom (added)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Poochyena
-Level: 5
+Level: 8
 Ability: Quick Feet
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Mightyena
-Level: 5
+Level: 8
 Ability: Intimidate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Numel
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /*
 Camerupt (ORAS)
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Baltoy
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 /*
 Torkoal (added)
-Level: 5
+Level: 8
 Ability: White Smoke
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 */
 
 Duskull /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dusclops /* (added) */
-Level: 5
+Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 /* Gym pools */
@@ -21726,7 +21726,7 @@ Party Size: 1
 */
 
 Treecko @ Occa Berry
-Level: 5
+Level: 8
 Ability: Overgrow
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Leer
@@ -21735,7 +21735,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Giga Drain
 
 Torchic @ Passho Berry
-Level: 5
+Level: 8
 Ability: Blaze
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Growl
@@ -21744,7 +21744,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Quick Attack
 
 Mudkip @ Rindo Berry
-Level: 5
+Level: 8
 Ability: Torrent
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Growl
@@ -22108,37 +22108,37 @@ Pic: Camper
 Party Size: 1
 
 Sandshrew
-Level: 5
+Level: 8
 
 Sandslash
-Level: 5
+Level: 8
 
 Nidoking
-Level: 5
+Level: 8
 
 Diglett
-Level: 5
+Level: 8
 
 Dugtrio
-Level: 5
+Level: 8
 
 Geodude
-Level: 5
+Level: 8
 
 Graveler
-Level: 5
+Level: 8
 
 Rhydon
-Level: 5
+Level: 8
 
 Sudowoodo
-Level: 5
+Level: 8
 
 Slugma
-Level: 5
+Level: 8
 
 Magcargo
-Level: 5
+Level: 8
 
 === POOL_PICNICKER_IN_THE_SANDS ===
 Name: Pool
@@ -22146,28 +22146,28 @@ Pic: Picnicker
 Party Size: 1
 
 Sandshrew
-Level: 5
+Level: 8
 
 Sandslash
-Level: 5
+Level: 8
 
 Nidoqueen
-Level: 5
+Level: 8
 
 Nidoking
-Level: 5
+Level: 8
 
 Geodude
-Level: 5
+Level: 8
 
 Cubone
-Level: 5
+Level: 8
 
 Marowak
-Level: 5
+Level: 8
 
 Cacnea
-Level: 5
+Level: 8
 
 === POOL_TRIATHLETE_ON_THE_LAND ===
 Name: Pool
@@ -22175,46 +22175,46 @@ Pic: Running Triathlete M
 Party Size: 1
 
 Diglett
-Level: 5
+Level: 8
 
 Dugtrio
-Level: 5
+Level: 8
 
 Growlithe
-Level: 5
+Level: 8
 
 Arcanine
-Level: 5
+Level: 8
 
 Ponyta
-Level: 5
+Level: 8
 
 Rapidash
-Level: 5
+Level: 8
 
 Magnemite
-Level: 5
+Level: 8
 
 Magneton
-Level: 5
+Level: 8
 
 Doduo
-Level: 5
+Level: 8
 
 Dodrio
-Level: 5
+Level: 8
 
 Voltorb
-Level: 5
+Level: 8
 
 Electrode
-Level: 5
+Level: 8
 
 Phanpy
-Level: 5
+Level: 8
 
 Donphan
-Level: 5
+Level: 8
 
 === POOL_POKEMON_BREEDER_OF_BABIES ===
 Name: Pool
@@ -22222,64 +22222,64 @@ Pic: Pokemon Breeder M
 Party Size: 1
 
 Pichu
-Level: 5
+Level: 8
 
 Cleffa
-Level: 5
+Level: 8
 
 Igglybuff
-Level: 5
+Level: 8
 
 Togepi
-Level: 5
+Level: 8
 
 Tyrogue
-Level: 5
+Level: 8
 
 Smoochum
-Level: 5
+Level: 8
 
 Elekid
-Level: 5
+Level: 8
 
 Magby
-Level: 5
+Level: 8
 
 Azurill
-Level: 5
+Level: 8
 
 Wynaut
-Level: 5
+Level: 8
 
 /*
 Budew
-Level: 5
+Level: 8
 */
 
 /*
 Chingling
-Level: 5
+Level: 8
 */
 
 Bonsly
-Level: 5
+Level: 8
 
 Mime Jr
-Level: 5
+Level: 8
 
 Happiny
-Level: 5
+Level: 8
 
 Munchlax
-Level: 5
+Level: 8
 
 /*
 Riolu
-Level: 5
+Level: 8
 */
 
 Mantyke
-Level: 5
+Level: 8
 
 === POOL_COLLECTOR_OF_SETS ===
 Name: Pool
@@ -22287,99 +22287,99 @@ Pic: Collector
 Party Size: 1
 
 Ivysaur
-Level: 5
+Level: 8
 Tags: Set 1
 
 Ivysaur
-Level: 5
+Level: 8
 Tags: Set 4
 
 Charmeleon
-Level: 5
+Level: 8
 Tags: Set 1
 
 Charmeleon
-Level: 5
+Level: 8
 Tags: Set 5
 
 Wartortle
-Level: 5
+Level: 8
 Tags: Set 1
 
 Wartortle
-Level: 5
+Level: 8
 Tags: Set 6
 
 Bayleef
-Level: 5
+Level: 8
 Tags: Set 2
 
 Bayleef
-Level: 5
+Level: 8
 Tags: Set 4
 
 Quilava
-Level: 5
+Level: 8
 Tags: Set 2
 
 Quilava
-Level: 5
+Level: 8
 Tags: Set 5
 
 Croconaw
-Level: 5
+Level: 8
 Tags: Set 2
 
 Croconaw
-Level: 5
+Level: 8
 Tags: Set 6
 
 Grovyle
-Level: 5
+Level: 8
 Tags: Set 3
 
 Grovyle
-Level: 5
+Level: 8
 Tags: Set 4
 
 Combusken
-Level: 5
+Level: 8
 Tags: Set 3
 
 Combusken
-Level: 5
+Level: 8
 Tags: Set 5
 
 Marshtomp
-Level: 5
+Level: 8
 Tags: Set 3
 
 Marshtomp
-Level: 5
+Level: 8
 Tags: Set 6
 
 Porygon
-Level: 5
+Level: 8
 Tags: Set 7
 
 Porygon2
-Level: 5
+Level: 8
 Tags: Set 7
 
 Porygon Z
-Level: 5
+Level: 8
 Tags: Set 7
 
 Dragonair
-Level: 5
+Level: 8
 Tags: Set 8
 
 Pupitar
-Level: 5
+Level: 8
 Tags: Set 8
 
 Shelgon
-Level: 5
+Level: 8
 Tags: Set 8
 
 === POOL_BUG_CATCHER_OF_PESTS ===
@@ -22390,91 +22390,91 @@ Party Size: 1
 /* Ceiling <= 405 BST (Parasect) */
 
 Caterpie
-Level: 5
+Level: 8
 
 Metapod
-Level: 5
+Level: 8
 
 Butterfree
-Level: 5
+Level: 8
 
 Weedle
-Level: 5
+Level: 8
 
 Kakuna
-Level: 5
+Level: 8
 
 Beedrill
-Level: 5
+Level: 8
 
 /*
 Pikachu
-Level: 5
+Level: 8
 */
 
 Paras
-Level: 5
+Level: 8
 
 Parasect
-Level: 5
+Level: 8
 
 Venonat
-Level: 5
+Level: 8
 
 /*
 Venomoth
-Level: 5
+Level: 8
 */
 
 Ledyba
-Level: 5
+Level: 8
 
 Ledian
-Level: 5
+Level: 8
 
 Spinarak
-Level: 5
+Level: 8
 
 Ariados
-Level: 5
+Level: 8
 
 Yanma
-Level: 5
+Level: 8
 
 Pineco
-Level: 5
+Level: 8
 
 /*
 Forretress
-Level: 5
+Level: 8
 */
 
 Wurmple
-Level: 5
+Level: 8
 
 Silcoon
-Level: 5
+Level: 8
 
 Beautifly
-Level: 5
+Level: 8
 
 Dustox
-Level: 5
+Level: 8
 
 Surskit
-Level: 5
+Level: 8
 
 /*
 Masquerain
-Level: 5
+Level: 8
 */
 
 Nincada
-Level: 5
+Level: 8
 
 /*
 Ninjask
-Level: 5
+Level: 8
 */
 
 === POOL_FISHERMAN_OF_SMALL_FRY ===
@@ -22485,107 +22485,107 @@ Party Size: 1
 /* Ceiling <= 450 BST (Seaking) */
 
 Poliwag
-Level: 5
+Level: 8
 
 Poliwhirl
-Level: 5
+Level: 8
 
 Tentacool
-Level: 5
+Level: 8
 
 /*
 Tentacruel
-Level: 5
+Level: 8
 */
 
 Shellder
-Level: 5
+Level: 8
 
 /*
 Cloyster
-Level: 5
+Level: 8
 */
 
 Krabby
-Level: 5
+Level: 8
 
 /*
 Kingler
-Level: 5
+Level: 8
 */
 
 Horsea
-Level: 5
+Level: 8
 
 Seadra
-Level: 5
+Level: 8
 
 Goldeen
-Level: 5
+Level: 8
 
 Seaking
-Level: 5
+Level: 8
 
 Staryu
-Level: 5
+Level: 8
 
 /*
 Starmie
-Level: 5
+Level: 8
 */
 
 Magikarp
-Level: 5
+Level: 8
 
 /*
 Gyarados
-Level: 5
+Level: 8
 */
 
 Chinchou
-Level: 5
+Level: 8
 
 /*
 Lanturn
-Level: 5
+Level: 8
 */
 
 Quagsire
-Level: 5
+Level: 8
 
 Qwilfish
-Level: 5
+Level: 8
 
 Corsola
-Level: 5
+Level: 8
 
 Remoraid
-Level: 5
+Level: 8
 
 /*
 Octillery
-Level: 5
+Level: 8
 */
 
 /*
 Mantine
-Level: 5
+Level: 8
 */
 
 Wailmer
-Level: 5
+Level: 8
 
 Barboach
-Level: 5
+Level: 8
 
 /*
 Whiscash
-Level: 5
+Level: 8
 */
 
 /*
 Relicanth
-Level: 5
+Level: 8
 */
 
 === POOL_HIKER_OF_FOOTHILLS ===
@@ -22596,95 +22596,95 @@ Party Size: 1
 /* Ceiling <= 450 BST (Sandslash) */
 
 Sandshrew
-Level: 5
+Level: 8
 
 Sandslash
-Level: 5
+Level: 8
 
 Clefairy
-Level: 5
+Level: 8
 
 Diglett
-Level: 5
+Level: 8
 
 Dugtrio
-Level: 5
+Level: 8
 
 Machop
-Level: 5
+Level: 8
 
 Machoke
-Level: 5
+Level: 8
 
 /*
 Machamp
-Level: 5
+Level: 8
 */
 
 Geodude
-Level: 5
+Level: 8
 
 Graveler
-Level: 5
+Level: 8
 
 /*
 Golem
-Level: 5
+Level: 8
 */
 
 /*
 Magneton
-Level: 5
+Level: 8
 */
 
 Onix
-Level: 5
+Level: 8
 
 /*
 Steelix
-Level: 5
+Level: 8
 */
 
 Cubone
-Level: 5
+Level: 8
 
 Marowak
-Level: 5
+Level: 8
 
 Rhyhorn
-Level: 5
+Level: 8
 
 /*
 Rhydon
-Level: 5
+Level: 8
 */
 
 /*
 Rhyperior
-Level: 5
+Level: 8
 */
 
 Sudowoodo
-Level: 5
+Level: 8
 
 Dunsparce
-Level: 5
+Level: 8
 
 Swinub
-Level: 5
+Level: 8
 
 Piloswine
-Level: 5
+Level: 8
 
 Larvitar
-Level: 5
+Level: 8
 
 Pupitar
-Level: 5
+Level: 8
 
 /*
 Tyranitar
-Level: 5
+Level: 8
 */
 
 === POOL_SCHOOL_KID_THAT_EATS_PASTE ===
@@ -22696,198 +22696,198 @@ Party Size: 1
 
 /*
 Pidgeot
-Level: 5
+Level: 8
 Tags: Set 1
 */
 
 Sandslash
-Level: 5
+Level: 8
 Tags: Set 1
 
 Vulpix
-Level: 5
+Level: 8
 Tags: Set 1
 
 Golbat
-Level: 5
+Level: 8
 Tags: Set 1
 
 Oddish
-Level: 5
+Level: 8
 Tags: Set 1
 
 Gloom
-Level: 5
+Level: 8
 Tags: Set 1
 
 /*
 Vileplume
-Level: 5
+Level: 8
 Tags: Set 1
 */
 
 Paras
-Level: 5
+Level: 8
 Tags: Set 1
 
 Parasect
-Level: 5
+Level: 8
 Tags: Set 1
 
 Growlithe
-Level: 5
+Level: 8
 Tags: Set 1
 
 Poliwhirl
-Level: 5
+Level: 8
 Tags: Set 1
 
 /*
 Alakazam
-Level: 5
+Level: 8
 Tags: Set 4
 */
 
 Bellsprout
-Level: 5
+Level: 8
 Tags: Set 1
 
 Weepinbell
-Level: 5
+Level: 8
 Tags: Set 1
 
 /*
 Victreebel
-Level: 5
+Level: 8
 Tags: Set 1
 */
 
 Geodude
-Level: 5
+Level: 8
 Tags: Set 1
 
 Magnemite
-Level: 5
+Level: 8
 Tags: Set 1
 
 Magneton
-Level: 5
+Level: 8
 Tags: Set 1
 
 Dewgong
-Level: 5
+Level: 8
 Tags: Set 1
 
 Voltorb
-Level: 5
+Level: 8
 Tags: Set 1
 
 /*
 Electrode
-Level: 5
+Level: 8
 Tags: Set 1
 */
 
 /*
 Exeggutor
-Level: 5
+Level: 8
 Tags: Set 1
 */
 
 Tangela
-Level: 5
+Level: 8
 Tags: Set 4
 
 /*
 Tangrowth
-Level: 5
+Level: 8
 Tags: Set 4
 */
 
 Goldeen
-Level: 5
+Level: 8
 Tags: Set 1
 
 Mr Mime
-Level: 5
+Level: 8
 Tags: Set 4
 
 Jynx
-Level: 5
+Level: 8
 Tags: Set 4
 
 /*
 Electabuzz
-Level: 5
+Level: 8
 Tags: Set 4
 */
 
 /*
 Magmar
-Level: 5
+Level: 8
 Tags: Set 4
 */
 
 Ditto
-Level: 5
+Level: 8
 Tags: Set 4
 
 /*
 Vaporeon
-Level: 5
+Level: 8
 Tags: Set 4
 */
 
 Furret
-Level: 5
+Level: 8
 Tags: Set 2
 
 Ledian
-Level: 5
+Level: 8
 Tags: Set 2
 
 Xatu
-Level: 5
+Level: 8
 Tags: Set 2
 
 Aipom
-Level: 5
+Level: 8
 Tags: Set 2
 
 Yanma
-Level: 5
+Level: 8
 Tags: Set 2
 
 /*
 Yanmega
-Level: 5
+Level: 8
 Tags: Set 2
 */
 
 Quagsire
-Level: 5
+Level: 8
 Tags: Set 2
 
 Zigzagoon
-Level: 5
+Level: 8
 Tags: Set 3
 
 Beautifly
-Level: 5
+Level: 8
 Tags: Set 3
 
 Wingull
-Level: 5
+Level: 8
 Tags: Set 3
 
 Shroomish
-Level: 5
+Level: 8
 Tags: Set 3
 
 Breloom
-Level: 5
+Level: 8
 Tags: Set 3
 
 Banette
-Level: 5
+Level: 8
 Tags: Set 3
