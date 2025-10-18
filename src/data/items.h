@@ -12943,7 +12943,7 @@ const struct Item gItemsInfo[] =
         .price = 0,
         .description = COMPOUND_STRING(
             "A case that holds\n"
-            "up to 9,999 Coins."),
+            "up to 30,000 Coins."), //Ttime100 updated from 9,999 to 30,000
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
