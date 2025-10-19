@@ -259,9 +259,9 @@ static const struct MenuAction MultichoiceList_UnusedAshVendor[] =
 
 static const struct MenuAction MultichoiceList_GameCornerDolls[] =
 {
-    {COMPOUND_STRING("Treecko Doll 1,000 Coins")},
-    {COMPOUND_STRING("Torchic Doll 1,000 Coins")},
-    {COMPOUND_STRING("Mudkip Doll   1,000 Coins")},
+    {COMPOUND_STRING("Treecko Doll{CLEAR_TO 0x48}1,000 Coins")},
+    {COMPOUND_STRING("Torchic Doll{CLEAR_TO 0x48}1,000 Coins")},
+    {COMPOUND_STRING("Mudkip Doll{CLEAR_TO 0x48}1,000 Coins")},
     {gText_Exit},
 };
 
@@ -277,9 +277,9 @@ static const struct MenuAction MultichoiceList_GameCornerTMs[] =
 
 static const struct MenuAction MultichoiceList_GameCornerCoins[] =
 {
-    {COMPOUND_STRING("50 Coins       ¥100")}, //Ttime100 Changed from 1,000
-    {COMPOUND_STRING("500 Coins    ¥1,000")}, //Ttime100 Changed from 10,000
-    {COMPOUND_STRING("5,000 Coins ¥10,000")}, //Ttime100 Added Extra Option
+    {COMPOUND_STRING("50 Coins{CLEAR_TO 0x48}¥100")}, //Ttime100 Changed from 1,000
+    {COMPOUND_STRING("500 Coins{CLEAR_TO 0x48}¥1,000")}, //Ttime100 Changed from 10,000
+    {COMPOUND_STRING("5,000 Coins{CLEAR_TO 0x48}¥10,000")}, //Ttime100 Added Extra Option
     {gText_Exit},
 };
 
