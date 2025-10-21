@@ -677,7 +677,7 @@ MauvilleCity_GameCorner_Text_DontNeedCoinsThen:
 MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes:
 	.string "Welcome.\p"
 	.string "You can exchange your Coins for\n"
-	.string "prizes here.$"
+	.string "prizes here.\p"
 
 MauvilleCity_GameCorner_Text_WhichPrize:
 	.string "Which prize would you like?$"
@@ -795,3 +795,91 @@ MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase:
 	.string "a Coin Case.$"
 
 `
+const PRIZE_CHOSEN = VAR_TEMP_1
+const COINS_OWNED = VAR_TEMP_2
+const COINS_REQUIRED = VAR_TEMP_3
+
+script _MauvilleCity_GameCorner_EventScript_PrizeCornerTMs {
+  lock
+  faceplayer
+  msgbox(MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes)
+  checkitem(ITEM_COIN_CASE)
+  if (!var(VAR_RESULT)) {
+    release
+    end
+  }
+  message(MauvilleCity_GameCorner_Text_WhichPrize)
+  closemessage
+  showcoinsbox(1, 1)
+  checkitem(ITEM_TM_DOUBLE_TEAM)
+  if (var(VAR_RESULT)){
+  	dynmultipush("{FONT_NARROW}TM32 Double Team{CLEAR_TO 0x58}{FONT_NORMAL}SOLD OUT", 0)
+  	} else {dynmultipush("{FONT_NARROW}TM32 Double Team{CLEAR_TO 0x58}{FONT_NORMAL}1,500 Coins", ITEM_TM_DOUBLE_TEAM)
+  	}
+  checkitem(ITEM_TM_PSYCHIC)
+  if (var(VAR_RESULT)){
+  	dynmultipush("{FONT_NARROW}TM29 Psychic{CLEAR_TO 0x58}{FONT_NORMAL}SOLD OUT", 0)
+  	} else {dynmultipush("{FONT_NARROW}TM29 Psychic{CLEAR_TO 0x58}{FONT_NORMAL}3,500 Coins", ITEM_TM_PSYCHIC)
+  	}
+  checkitem(ITEM_TM_ICE_BEAM)
+  if (var(VAR_RESULT)){
+  	dynmultipush("{FONT_NARROW}TM13 Ice Beam{CLEAR_TO 0x58}{FONT_NORMAL}SOLD OUT", 0)
+  	} else {dynmultipush("{FONT_NARROW}TM13 Ice Beam{CLEAR_TO 0x58}{FONT_NORMAL}4,000 Coins", ITEM_TM_ICE_BEAM)
+  	}
+  checkitem(ITEM_TM_THUNDERBOLT)
+  if (var(VAR_RESULT)){
+  	dynmultipush("{FONT_NARROW}TM24 Thunderbolt{CLEAR_TO 0x58}{FONT_NORMAL}SOLD OUT", 0)
+  	} else {dynmultipush("{FONT_NARROW}TM24 Thunderbolt{CLEAR_TO 0x58}{FONT_NORMAL}4,000 Coins", ITEM_TM_THUNDERBOLT)
+  	}
+  checkitem(ITEM_TM_FLAMETHROWER)
+  if (var(VAR_RESULT)){
+  	dynmultipush("{FONT_NARROW}TM35 Flamethrower{CLEAR_TO 0x58}{FONT_NORMAL}SOLD OUT", 0)
+	} else {dynmultipush("{FONT_NARROW}TM35 Flamethrower{CLEAR_TO 0x58}{FONT_NORMAL}4,000 Coins", ITEM_TM_FLAMETHROWER)
+	}
+  dynmultistack(0, 4, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_SHOW_ITEM)
+  if (var(VAR_RESULT) == MULTI_B_PRESSED) {
+    msgbox(MauvilleCity_GameCorner_Text_OhIsThatSo)
+    hidecoinsbox(0, 0)
+    release
+    end
+  }
+  copyvar(PRIZE_CHOSEN, VAR_RESULT)
+  if (var(PRIZE_CHOSEN) == 0) {
+ 	msgbox(format("Sorry, that item is no longer available."))
+	hidecoinsbox(0, 0)
+	release
+	end
+	}
+  bufferitemname(STR_VAR_1, PRIZE_CHOSEN)
+  msgbox(format("So your choice is {STR_VAR_1}?"), MSGBOX_YESNO)
+  if (!var(VAR_RESULT)) {
+    msgbox(MauvilleCity_GameCorner_Text_OhIsThatSo)
+    hidecoinsbox(0, 0)
+    release
+    end
+  }
+  checkcoins(COINS_OWNED)
+  switch (var(PRIZE_CHOSEN)) {
+	case ITEM_TM_DOUBLE_TEAM:	setvar(COINS_REQUIRED, 1500)
+	case ITEM_TM_PSYCHIC:		setvar(COINS_REQUIRED, 3500)
+	case ITEM_TM_ICE_BEAM:		setvar(COINS_REQUIRED, 4000)
+	case ITEM_TM_THUNDERBOLT:	setvar(COINS_REQUIRED, 4000)
+	case ITEM_TM_FLAMETHROWER:	setvar(COINS_REQUIRED, 4000)
+  	}
+  if (var(COINS_OWNED) < VAR_TEMP_3) {
+    msgbox(MauvilleCity_GameCorner_Text_NotEnoughCoins)
+    hidecoinsbox(0, 0)
+    release
+    end
+  }
+  checkitemspace(PRIZE_CHOSEN)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_BagIsFull)
+  removecoins(COINS_REQUIRED)
+  additem(PRIZE_CHOSEN)
+  updatecoinsbox(1, 1)
+  playse(SE_SHOP)
+  msgbox(MauvilleCity_GameCorner_Text_HereYouGo)
+  hidecoinsbox(0, 0)
+  release
+  end
+}
