@@ -384,28 +384,17 @@ RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
 `
 
 const GIVEMON_HELPER_ARTICLE = VAR_TEMP_9
-const PUSH_TO_DYNMULTISTACK_IF_OWNED = VAR_TEMP_8
+const PUSH_TO_DYNMULTISTACK_IF_IN_BAG = VAR_TEMP_8
+// VAR_WHICH_FOSSIL_REVIVED is repurposed from the original script.
 
 script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist {
   lock
   faceplayer
   msgbox(format("I've been trying to develop a device that resurrects Pokémon from fossils…\pAnd, it's working!"))
-  checkitem(ITEM_HELIX_FOSSIL)
+  call(_RustboroCity_DevonCorp_2F_EventScript_FossilScientist_CheckFossilsInBag)
   if (!var(VAR_RESULT)) {
-    checkitem(ITEM_DOME_FOSSIL)
-    if (!var(VAR_RESULT)) {
-      checkitem(ITEM_OLD_AMBER)
-      if (!var(VAR_RESULT)) {
-        checkitem(ITEM_ROOT_FOSSIL)
-        if (!var(VAR_RESULT)) {
-          checkitem(ITEM_CLAW_FOSSIL)
-          if (!var(VAR_RESULT)) {
-            release
-            end
-          }
-        }
-      }
-    }
+    release
+    end
   }
   if (!flag(FLAG_TEMP_1)) {
     message(format("Do you happen to have any? I can bring them back to life with my regenerator!"))
@@ -413,17 +402,7 @@ script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist {
     message(format("Do you have another fossil for me?"))
   }
   waitmessage
-  setvar(PUSH_TO_DYNMULTISTACK_IF_OWNED, ITEM_HELIX_FOSSIL)
-  call(_Common_EventScript_PushItemToDynmultistackIfOwned)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_OWNED, ITEM_DOME_FOSSIL)
-  call(_Common_EventScript_PushItemToDynmultistackIfOwned)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_OWNED, ITEM_OLD_AMBER)
-  call(_Common_EventScript_PushItemToDynmultistackIfOwned)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_OWNED, ITEM_ROOT_FOSSIL)
-  call(_Common_EventScript_PushItemToDynmultistackIfOwned)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_OWNED, ITEM_CLAW_FOSSIL)
-  call(_Common_EventScript_PushItemToDynmultistackIfOwned)
-  dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_SHOW_ITEM)
+  call(_RustboroCity_DevonCorp_2F_EventScript_FossilScientist_DynMultichoice)
   if (var(VAR_RESULT) == MULTI_B_PRESSED) {
     msgbox(format("Oh, is that so?\pOur technological expertise here at Devon is outstanding, I tell you."))
     release
@@ -438,6 +417,45 @@ script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist {
   }
   removeitem(VAR_WHICH_FOSSIL_REVIVED)
   msgbox(format("… … … … … … … …\n… … … … … … … …\p… … … … … … … …\n… … … … … … … …\pThanks for waiting! Your fossil came back to life!"))
+  call(_RustboroCity_DevonCorp_2F_EventScript_FossilScientist_Givemon)
+  setflag(FLAG_RECEIVED_REVIVED_FOSSIL_MON)
+  setflag(FLAG_TEMP_1)
+  msgbox(format("Come back with more fossils!"))
+  release
+  end
+}
+
+script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist_CheckFossilsInBag {
+  checkitem(ITEM_HELIX_FOSSIL)
+  if (!var(VAR_RESULT)) {
+    checkitem(ITEM_DOME_FOSSIL)
+    if (!var(VAR_RESULT)) {
+      checkitem(ITEM_OLD_AMBER)
+      if (!var(VAR_RESULT)) {
+        checkitem(ITEM_ROOT_FOSSIL)
+        if (!var(VAR_RESULT)) {
+          checkitem(ITEM_CLAW_FOSSIL)
+        }
+      }
+    }
+  }
+}
+
+script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist_DynMultichoice {
+  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_HELIX_FOSSIL)
+  call(_Common_EventScript_PushItemToDynmultistackIfInBag)
+  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_DOME_FOSSIL)
+  call(_Common_EventScript_PushItemToDynmultistackIfInBag)
+  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_OLD_AMBER)
+  call(_Common_EventScript_PushItemToDynmultistackIfInBag)
+  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_ROOT_FOSSIL)
+  call(_Common_EventScript_PushItemToDynmultistackIfInBag)
+  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_CLAW_FOSSIL)
+  call(_Common_EventScript_PushItemToDynmultistackIfInBag)
+  dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_SHOW_ITEM)
+}
+
+script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist_Givemon {
   switch (var(VAR_WHICH_FOSSIL_REVIVED)) {
     case ITEM_HELIX_FOSSIL:
       setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_OMANYTE)
@@ -461,9 +479,4 @@ script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist {
       givemon(SPECIES_ANORITH, 25)
   }
   call(_Common_EventScript_GivemonHelper)
-  setflag(FLAG_RECEIVED_REVIVED_FOSSIL_MON)
-  setflag(FLAG_TEMP_1)
-  msgbox(format("Come back with more fossils!"))
-  release
-  end
 }
