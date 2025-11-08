@@ -11724,6 +11724,7 @@ static const u16 sSunkernTeachableLearnset[] = {
 static const u16 sSunfloraTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BULLET_SEED,
+    MOVE_BURNING_JEALOUSY, //Ttime100 added
     MOVE_CUT,
     MOVE_DAZZLING_GLEAM,
     MOVE_DOUBLE_EDGE,
@@ -11731,10 +11732,12 @@ static const u16 sSunfloraTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_ENERGY_BALL,
     MOVE_FACADE,
+    MOVE_FIRE_BLAST, //Ttime100 added
     MOVE_FLASH,
     MOVE_GIGA_DRAIN,
     MOVE_GIGA_IMPACT,
     MOVE_GRASS_KNOT,
+    MOVE_HEAT_WAVE, //Ttime100 added
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
@@ -11749,6 +11752,7 @@ static const u16 sSunfloraTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_TOXIC,
+    MOVE_WILL_O_WISP, //Ttime100 added
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SUNKERN
