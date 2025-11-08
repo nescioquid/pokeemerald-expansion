@@ -1039,20 +1039,6 @@ static u32 GetCurrentTotalMinutes(struct Time *time)
     return time->days * 24 * 60 + time->hours * 60 + time->minutes;
 }
 
-static bool32 UpdateMatchCallMinutesCounter(void)
-{
-    int curMinutes;
-    RtcCalcLocalTime();
-    curMinutes = GetCurrentTotalMinutes(&gLocalTime);
-    if (sMatchCallState.minutes > curMinutes || curMinutes - sMatchCallState.minutes > 9)
-    {
-        sMatchCallState.minutes = curMinutes;
-        return TRUE;
-    }
-
-    return FALSE;
-}
-
 static bool32 CheckMatchCallChance(void)
 {
     int callChance = 1;
@@ -1085,7 +1071,7 @@ static bool32 MapAllowsMatchCall(void)
 
 static bool32 UpdateMatchCallStepCounter(void)
 {
-    if (++sMatchCallState.stepCounter >= 10)
+    if (++sMatchCallState.stepCounter >= 1000)
     {
         sMatchCallState.stepCounter = 0;
         return TRUE;
@@ -1158,7 +1144,6 @@ bool32 TryStartMatchCall(void)
 {
     if (FlagGet(FLAG_HAS_MATCH_CALL)
         && UpdateMatchCallStepCounter()
-        && UpdateMatchCallMinutesCounter()
         && CheckMatchCallChance()
         && MapAllowsMatchCall()
         && SelectMatchCallTrainer())
