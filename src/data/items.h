@@ -11834,14 +11834,14 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_EXPLOSION] =
+    [ITEM_TM_SCORCHING_SANDS] =
     {
         .name = ITEM_NAME("TM64"),
-        .price = 5000,
+        .price = 4000,
         .description = COMPOUND_STRING(
-            "Inflicts severe\n"
-            "damage but makes\n"
-            "the user faint."),
+            "Throws scorching sand\n"
+            "at the target.\n"
+            "May burn the foe."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,

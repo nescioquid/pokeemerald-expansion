@@ -65,7 +65,7 @@
     F(WILL_O_WISP)\
     F(BUG_BUZZ)\
     F(STEEL_BEAM)\
-    F(EXPLOSION)\
+    F(SCORCHING_SANDS)\
     F(SHADOW_CLAW)\
     F(PAYBACK)\
     F(RECYCLE)\
