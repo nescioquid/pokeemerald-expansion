@@ -823,23 +823,24 @@
 #define POOL_RIVAL_ROUTE_110                807
 #define POOL_RIVAL_ROUTE_119                808
 #define POOL_RIVAL_LILYCOVE                 809
+#define POOL_RIVAL_POSTGAME                 810
 
 // Utility pools
-#define POOL_CAMPER_IN_THE_SANDS            810
-#define POOL_PICNICKER_IN_THE_SANDS         811
-#define POOL_TRIATHLETE_ON_THE_LAND         812
-#define POOL_POKEMON_BREEDER_OF_BABIES      813
-#define POOL_COLLECTOR_OF_SETS              814
-#define POOL_BUG_CATCHER_OF_PESTS           815
-#define POOL_FISHERMAN_OF_SMALL_FRY         816
-#define POOL_HIKER_OF_FOOTHILLS             817
-#define POOL_SCHOOL_KID_THAT_EATS_PASTE     818
+#define POOL_CAMPER_IN_THE_SANDS            811
+#define POOL_PICNICKER_IN_THE_SANDS         812
+#define POOL_TRIATHLETE_ON_THE_LAND         813
+#define POOL_POKEMON_BREEDER_OF_BABIES      814
+#define POOL_COLLECTOR_OF_SETS              815
+#define POOL_BUG_CATCHER_OF_PESTS           816
+#define POOL_FISHERMAN_OF_SMALL_FRY         817
+#define POOL_HIKER_OF_FOOTHILLS             818
+#define POOL_SCHOOL_KID_THAT_EATS_PASTE     819
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      819
+#define TRAINERS_COUNT                      820
 #define MAX_TRAINERS_COUNT                  864
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 

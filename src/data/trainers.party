@@ -11409,55 +11409,8 @@ Double Battle: No
 AI: Hard Rival
 Mugshot: Green
 Party Size: 4
-
-/* #RivalSix #Postgame */
-
-Clefable @ Sitrus Berry
-Level: 10
-Ability: Magic Guard
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Tags: Lead
-- Encore
-- Moonblast
-- Calm Mind
-- Psychic
-
-Snorlax @ Sitrus Berry
-Level: 10
-Ability: Immunity
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Tags: Lead
-- Recycle
-- Body Slam
-- Belly Drum
-- Crunch
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Leaf Storm
-- X Scissor
-- Focus Blast
-- Rock Slide
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- High Jump Kick
-- Flare Blitz
-- Brave Bird
-- Rock Slide
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Slide
-- Earthquake
-- Waterfall
-- Sludge Wave
+Copy Pool: POOL_RIVAL_POSTGAME
+Pool Pick Functions: Selections
 
 === TRAINER_MAY_ROUTE_103_POSTGAME ===
 Name: May
@@ -11469,55 +11422,8 @@ Double Battle: No
 AI: Hard Rival
 Mugshot: Green
 Party Size: 4
-
-/* #RivalSix #Postgame */
-
-Clefable @ Sitrus Berry
-Level: 10
-Ability: Magic Guard
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Tags: Lead
-- Encore
-- Moonblast
-- Calm Mind
-- Psychic
-
-Snorlax @ Sitrus Berry
-Level: 10
-Ability: Immunity
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Tags: Lead
-- Recycle
-- Body Slam
-- Belly Drum
-- Crunch
-
-Sceptile @ Occa Berry
-Level: 10
-Ability: Overgrow
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Leaf Storm
-- Focus Blast
-- Energy Ball
-- Rock Slide
-
-Blaziken @ Passho Berry
-Level: 10
-Ability: Blaze
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- High Jump Kick
-- Flare Blitz
-- Swords Dance
-- Rock Slide
-
-Swampert @ Rindo Berry
-Level: 10
-Ability: Torrent
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Slide
-- Ice Beam
-- Earthquake
-- Waterfall
+Copy Pool: POOL_RIVAL_POSTGAME
+Pool Pick Functions: Selections
 
 === TRAINER_META_BOY ===
 Name: Meta Boy
@@ -21799,6 +21705,16 @@ Tags: Set 2
 - Horn Attack
 - Poison Jab
 
+Vibrava @ Chilan Berry
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Rock Slide
+- Earth Power
+- Bug Buzz
+- Dragon Breath
+
 Clefairy @ Chilan Berry
 Level: 10
 Ability: Magic Guard
@@ -21808,16 +21724,6 @@ Tags: Set 3
 - Encore
 - Sing
 - Wake Up Slap
-
-Munchlax @ Chilan Berry
-Level: 10
-Ability: Pickup
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-Tags: Set 3
-- Recycle
-- Lick
-- Body Slam
-- Belch
 
 Grovyle @ Occa Berry
 Level: 10
@@ -21876,6 +21782,16 @@ Tags: Lead
 - Bulldoze
 - Poison Jab
 
+Vibrava @ Chilan Berry
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Lead
+- Rock Slide
+- Earthquake
+- Dragon Breath
+- U Turn
+
 Fearow @ Chilan Berry
 Level: 10
 Ability: Keen Eye
@@ -21905,16 +21821,6 @@ Tags: Set 3
 - Wake Up Slap
 - Cosmic Power
 - Dazzling Gleam
-
-Munchlax @ Sitrus Berry
-Level: 10
-Ability: Pickup
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-Tags: Set 3
-- Recycle
-- Lick
-- Body Slam
-- Belch
 
 Sceptile @ Occa Berry
 Level: 10
@@ -21973,25 +21879,25 @@ Tags: Lead
 - Earthquake
 - Shadow Claw
 
+Flygon @ Chilan Berry
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Rock Slide
+- Earthquake
+- Dragon Claw
+- U Turn
+
 Clefable @ Sitrus Berry
 Level: 10
 Ability: Magic Guard
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-Tags: Set 2
+Tags: Set 3
 - Encore
 - Cosmic Power
 - Moonblast
 - Psychic
-
-Snorlax @ Sitrus Berry
-Level: 10
-Ability: Immunity
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-Tags: Set 3
-- Recycle
-- Yawn
-- Body Slam
-- Belch
 
 Sceptile @ Occa Berry
 Level: 10
@@ -22050,25 +21956,25 @@ Tags: Lead
 - Earthquake
 - Shadow Claw
 
+Flygon @ Chilan Berry
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 2
+- Rock Slide
+- Earthquake
+- Dragon Rush
+- U Turn
+
 Clefable @ Sitrus Berry
 Level: 10
 Ability: Magic Guard
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-Tags: Set 2
+Tags: Set 3
 - Encore
 - Cosmic Power
 - Moonblast
 - Psychic
-
-Snorlax @ Sitrus Berry
-Level: 10
-Ability: Immunity
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-Tags: Set 3
-- Recycle
-- Body Slam
-- Belly Drum
-- Crunch
 
 Sceptile @ Occa Berry
 Level: 10
@@ -22099,6 +22005,93 @@ Tags: Ace
 - Muddy Water
 - Sludge Wave
 - Earthquake
+
+=== POOL_RIVAL_POSTGAME ===
+Name: Pool
+Pic: Brendan
+Party Size: 1
+
+/* #RivalSix #Postgame */
+
+Clefable @ Sitrus Berry
+Level: 10
+Ability: Magic Guard
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 1
+- Encore
+- Moonblast
+- Calm Mind
+- Psychic
+
+Flygon @ Sitrus Berry
+Level: 10
+Ability: Levitate
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+Tags: Set 1
+- Rock Slide
+- Earthquake
+- Dragon Rush
+- U Turn
+
+Sceptile @ Occa Berry
+Level: 10
+Ability: Overgrow
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 2
+- Leaf Storm
+- X Scissor
+- Focus Blast
+- Rock Slide
+
+Sceptile @ Occa Berry
+Level: 10
+Ability: Overgrow
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 2
+- Leaf Storm
+- Focus Blast
+- Energy Ball
+- Rock Slide
+
+Blaziken @ Passho Berry
+Level: 10
+Ability: Blaze
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 3
+- High Jump Kick
+- Flare Blitz
+- Brave Bird
+- Rock Slide
+
+Blaziken @ Passho Berry
+Level: 10
+Ability: Blaze
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 3
+- High Jump Kick
+- Flare Blitz
+- Swords Dance
+- Rock Slide
+
+Swampert @ Rindo Berry
+Level: 10
+Ability: Torrent
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 4
+- Rock Slide
+- Earthquake
+- Waterfall
+- Sludge Wave
+
+Swampert @ Rindo Berry
+Level: 10
+Ability: Torrent
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tags: Set 4
+- Rock Slide
+- Ice Beam
+- Earthquake
+- Waterfall
 
 /* Utility pools */
 
