@@ -1375,17 +1375,16 @@ script _SlateportCity_EventScript_TMClerk {
     case 4: message(format("Know what you want already?"))
   }
   waitmessage
-  // if (!flag(FLAG_BADGE04_GET)) {
-  //   pokemart(_SlateportCity_Pokemart_TMs_Some)
-  // } elif (!flag(FLAG_BADGE07_GET)) {
-  //   pokemart(_SlateportCity_Pokemart_TMs_Most)
-  // } else {
-  //   pokemart(_SlateportCity_Pokemart_TMs_All)
-  // }
-  // if (!flag(FLAG_BADGE07_GET)) {
-  //   msgbox(format("Come back and check out what else's in stock later!"))
-  // }
-  pokemart(_SlateportCity_Pokemart_TMs_All)
+  if (!flag(FLAG_BADGE03_GET)) {
+    pokemart(_SlateportCity_Pokemart_TMs_Some)
+  } elif (!flag(FLAG_BADGE06_GET)) {
+    pokemart(_SlateportCity_Pokemart_TMs_Most)
+  } else {
+    pokemart(_SlateportCity_Pokemart_TMs_All)
+  }
+  if (!flag(FLAG_BADGE06_GET)) {
+    msgbox(format("Come back and check out what else's in stock later!"))
+  }
   call(_Common_EventScript_Clerk_Goodbye)
   release
   end
@@ -1393,8 +1392,22 @@ script _SlateportCity_EventScript_TMClerk {
 
 mart _SlateportCity_Pokemart_TMs_Some {
   ITEM_TM_HONE_CLAWS     // TM01
+  // ITEM_TM_VENOSHOCK      // TM09  // ORAS Mauville Pokemart
+  // ITEM_TM_AERIAL_ACE     // TM40  // ORAS Mauville Pokemart
+  // ITEM_TM_FACADE         // TM42  // ORAS Mauville Pokemart
+  // ITEM_TM_LOW_SWEEP      // TM47  // ORAS Mauville Pokemart
+  // ITEM_TM_ROUND          // TM48  // ORAS Mirage
+  // ITEM_TM_CHARGE_BEAM    // TM57  // ORAS Mauville Pokemart
+  // ITEM_TM_FOCUS_PUNCH    // TM70  // ORAS TM70 Flash
   ITEM_TM_THUNDER_WAVE   // TM73
   ITEM_TM_STRUGGLE_BUG   // TM76
+  // ITEM_TM_BULLDOZE       // TM78  // ORAS Mauville Pokemart
+  // ITEM_TM_DRAGON_TAIL    // TM82  // ORAS Mauville Pokemart
+  // ITEM_TM_POISON_JAB     // TM84  // ORAS Mirage
+  // ITEM_TM_SUBSTITUTE     // TM90  // ORAS Mirage
+  // ITEM_TM_FLASH_CANNON   // TM91  // ORAS Mirage
+  // ITEM_TM_SNARL          // TM95  // ORAS Mirage
+  // ITEM_TM_POWER_UP_PUNCH // TM98  // ORAS Mauville Pokemart
   ITEM_TM_CONFIDE        // TM100
 }
 
@@ -1404,33 +1417,39 @@ mart _SlateportCity_Pokemart_TMs_Most {
   ITEM_TM_AERIAL_ACE     // TM40  // ORAS Mauville Pokemart
   ITEM_TM_FACADE         // TM42  // ORAS Mauville Pokemart
   ITEM_TM_LOW_SWEEP      // TM47  // ORAS Mauville Pokemart
+  // ITEM_TM_ROUND          // TM48  // ORAS Mirage
   ITEM_TM_CHARGE_BEAM    // TM57  // ORAS Mauville Pokemart
+  // ITEM_TM_FOCUS_PUNCH    // TM70  // ORAS TM70 Flash
   ITEM_TM_THUNDER_WAVE   // TM73
   ITEM_TM_STRUGGLE_BUG   // TM76
   ITEM_TM_BULLDOZE       // TM78  // ORAS Mauville Pokemart
   ITEM_TM_DRAGON_TAIL    // TM82  // ORAS Mauville Pokemart
+  // ITEM_TM_POISON_JAB     // TM84  // ORAS Mirage
+  // ITEM_TM_SUBSTITUTE     // TM90  // ORAS Mirage
+  // ITEM_TM_FLASH_CANNON   // TM91  // ORAS Mirage
+  // ITEM_TM_SNARL          // TM95  // ORAS Mirage
   ITEM_TM_POWER_UP_PUNCH // TM98  // ORAS Mauville Pokemart
   ITEM_TM_CONFIDE        // TM100
 }
 
 mart _SlateportCity_Pokemart_TMs_All {
   ITEM_TM_HONE_CLAWS     // TM01
-  ITEM_TM_VENOSHOCK      // TM09
-  ITEM_TM_AERIAL_ACE     // TM40
-  ITEM_TM_FACADE         // TM42
-  ITEM_TM_LOW_SWEEP      // TM47
+  ITEM_TM_VENOSHOCK      // TM09  // ORAS Mauville Pokemart
+  ITEM_TM_AERIAL_ACE     // TM40  // ORAS Mauville Pokemart
+  ITEM_TM_FACADE         // TM42  // ORAS Mauville Pokemart
+  ITEM_TM_LOW_SWEEP      // TM47  // ORAS Mauville Pokemart
   ITEM_TM_ROUND          // TM48  // ORAS Mirage
-  ITEM_TM_CHARGE_BEAM    // TM57
+  ITEM_TM_CHARGE_BEAM    // TM57  // ORAS Mauville Pokemart
   ITEM_TM_FOCUS_PUNCH    // TM70  // ORAS TM70 Flash
   ITEM_TM_THUNDER_WAVE   // TM73
   ITEM_TM_STRUGGLE_BUG   // TM76
-  ITEM_TM_BULLDOZE       // TM78
-  ITEM_TM_DRAGON_TAIL    // TM82
+  ITEM_TM_BULLDOZE       // TM78  // ORAS Mauville Pokemart
+  ITEM_TM_DRAGON_TAIL    // TM82  // ORAS Mauville Pokemart
   ITEM_TM_POISON_JAB     // TM84  // ORAS Mirage
   ITEM_TM_SUBSTITUTE     // TM90  // ORAS Mirage
   ITEM_TM_FLASH_CANNON   // TM91  // ORAS Mirage
   ITEM_TM_SNARL          // TM95  // ORAS Mirage
-  ITEM_TM_POWER_UP_PUNCH // TM98
+  ITEM_TM_POWER_UP_PUNCH // TM98  // ORAS Mauville Pokemart
   ITEM_TM_CONFIDE        // TM100
 }
 
