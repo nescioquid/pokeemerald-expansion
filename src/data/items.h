@@ -8697,7 +8697,7 @@ const struct Item gItemsInfo[] =
                 "gets Exp. points\n"
                 "from battles."),
         #endif
-        .pocket = I_EXP_SHARE_ITEM >= GEN_6 ? POCKET_KEY_ITEMS : POCKET_ITEMS,
+        .pocket = I_EXP_SHARE_ITEM >= GEN_6 ? POCKET_KEY_ITEMS : POCKET_HELD_ITEMS,
         .sortType = ITEM_TYPE_HELD_ITEM,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_ExpShare,
