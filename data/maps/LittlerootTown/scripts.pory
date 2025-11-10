@@ -1020,6 +1020,16 @@ const RARE_CANDY_AMOUNT = 48
 
 script _LittlerootTown_EventScript_GiveAdventureStartItems {
   msgbox(format("{PLAYER}! {PLAYER}! Did you introduce yourself to Prof. Birch?\p Oh! What an adorable Pokémon! You must have gotten it from him. How nice!\p You're your father's child, all right. You look good together with your Pokémon!\p Here, honey!\N If you're going out on an adventure, take these with you, just in case you or your new Pokémon get hungry!"))
+  call(_LittlerootTown_EventScript_RandomizeAdventureStartItems)
+  msgbox(format("Oh! And I almost forgot!\p I found this fancy new video game thing at the store too.\p I thought you might have fun playing with it? Take it!"))
+  giveitem(ITEM_POKEMON_BOX_LINK)
+  msgbox(LittlerootTown_Text_ComeHomeIfAnythingHappens)
+  closemessage
+  delay(30)
+  return
+}
+
+script _LittlerootTown_EventScript_RandomizeAdventureStartItems {
   additem(ITEM_RARE_CANDY, RARE_CANDY_AMOUNT)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
   random(5)
@@ -1067,16 +1077,9 @@ script _LittlerootTown_EventScript_GiveAdventureStartItems {
     case 7: additem(ITEM_LAVA_COOKIE)
   }
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-  // call(_EventScript_ObtainItemMessage)
   playfanfare(MUS_OBTAIN_ITEM)
   message(format("Obtained assorted snacks from Mom!"))
   delay(10)
   waitfanfare
   msgbox(format("{PLAYER} put away the assorted snacks in the Bag."))
-  msgbox(format("Oh! And I almost forgot!\p I found this fancy new video game thing at the store too.\p I thought you might have fun playing with it? Take it!"))
-  giveitem(ITEM_POKEMON_BOX_LINK)
-  msgbox(LittlerootTown_Text_ComeHomeIfAnythingHappens)
-  closemessage
-  delay(30)
-  return
 }
