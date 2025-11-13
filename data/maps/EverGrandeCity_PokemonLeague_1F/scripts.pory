@@ -152,8 +152,7 @@ script _EverGrandeCity_PokemonLeague_1F_EventScript_Clerk {
   if (!flag(FLAG_SYS_GAME_CLEAR)) {
     call(_Common_EventScript_Clerk_Goodbye)
   } else {
-    random(2)
-    switch (var(VAR_RESULT)) {
+    switch (random(2)) {
       case 0: msgbox(format("See you later!\n{FONT_SMALL}…Hopefully much later…"))
       case 1: msgbox(format("Good luck!\n{FONT_SMALL}…Like you need it anyway…"))
     }

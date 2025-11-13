@@ -162,7 +162,7 @@ script _VictoryRoad_1F_EventScript_WallyTriggerLeft {
   faceplayer
   applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight)
   waitmovement(0)
-  setvar(VAR_VICTORY_ROAD_1F_STATE, 1)
+  setorcopyvar(VAR_VICTORY_ROAD_1F_STATE, 1)
   goto(_VictoryRoad_1F_EventScript_Wally)
   release
   end
@@ -176,7 +176,7 @@ script _VictoryRoad_1F_EventScript_WallyTriggerCenter {
   faceplayer
   applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown)
   waitmovement(0)
-  setvar(VAR_VICTORY_ROAD_1F_STATE, 1)
+  setorcopyvar(VAR_VICTORY_ROAD_1F_STATE, 1)
   goto(_VictoryRoad_1F_EventScript_Wally)
   release
   end
@@ -190,7 +190,7 @@ script _VictoryRoad_1F_EventScript_WallyTriggerRight {
   faceplayer
   applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft)
   waitmovement(0)
-  setvar(VAR_VICTORY_ROAD_1F_STATE, 1)
+  setorcopyvar(VAR_VICTORY_ROAD_1F_STATE, 1)
   goto(_VictoryRoad_1F_EventScript_Wally)
   release
   end

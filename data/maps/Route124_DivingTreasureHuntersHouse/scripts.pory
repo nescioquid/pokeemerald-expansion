@@ -355,10 +355,8 @@ script _Route124_DivingTreasureHuntersHouse_EventScript_TreasureHunter {
     release
     end
   }
-  checkitem(ITEM_PEARL)
-  if (!var(VAR_RESULT)) {
-    checkitem(ITEM_BIG_PEARL)
-    if (!var(VAR_RESULT)) {
+  if (!checkitem(ITEM_PEARL)) {
+    if (!checkitem(ITEM_BIG_PEARL)) {
       msgbox(format("Hope you bring me back some sweet Pearls you find down there diving with your Pokémon, dude!"))
       release
       end
@@ -367,9 +365,9 @@ script _Route124_DivingTreasureHuntersHouse_EventScript_TreasureHunter {
   showmoneybox(0, 0)
   message(format("Hey, you got any Pearls you wanna sell? I pay cash!"))
   waitmessage
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_PEARL)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_PEARL)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_BIG_PEARL)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_BIG_PEARL)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
   dynmultistack(0, 4, FALSE, 4, FALSE, 0, DYN_MULTICHOICE_CB_SHOW_ITEM)
   if (var(VAR_RESULT) == MULTI_B_PRESSED) {
@@ -422,7 +420,7 @@ script _Route110_TrickHouseEntrance_EventScript_NoteSparkle {
     // .macro dofieldeffectsparkle x:req, y:req, priority:req
     dofieldeffectsparkle(4, 4, 0)
     waitfieldeffect(FLDEFF_SPARKLE)
-    setvar(VAR_TEMP_0, 1)
+    setorcopyvar(VAR_TEMP_0, 1)
   }
   releaseall
   end

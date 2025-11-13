@@ -11,22 +11,19 @@ script _Common_EventScript_Clerk {
 
 script _Common_EventScript_Clerk_Hello {
   if (flag(FLAG_SYS_GAME_CLEAR)) {
-    random(8)
-    switch (var(VAR_RESULT)) {
+    switch (random(8)) {
       case 0: msgbox(format("{FONT_SMALL}…Is …Is that the league champion?!"))
       case 1: msgbox(format("{FONT_SMALL}…I'm pretty sure that's the champion!"))
     }
   }
   if (!flag(FLAG_BADGE01_GET)) {
-    random(3)
-    switch (var(VAR_RESULT)) {
+    switch (random(3)) {
       case 0: message(format("Welcome! How may I serve you?"))
       case 1: message(format("Hello! What can I do for you?"))
       case 2: message(format("Hi! How can I help you?"))
     }
   } else {
-    random(16)
-    switch (var(VAR_RESULT)) {
+    switch (random(16)) {
       case  0: message(format("Welcome! How may I serve you?"))
       case  1: message(format("Welcome! How may I serve you?"))
       case  2: message(format("Welcome! How may I serve you?"))
@@ -49,16 +46,14 @@ script _Common_EventScript_Clerk_Hello {
 
 script _Common_EventScript_Clerk_Goodbye {
   if (!flag(FLAG_BADGE01_GET)) {
-    random(4)
-    switch (var(VAR_RESULT)) {
+    switch (random(4)) {
       case 0: msgbox(format("Please come again!"))
       case 1: msgbox(format("Until next time!"))
       case 2: msgbox(format("See you later!"))
       case 3: msgbox(format("Goodbye!"))
     }
   } else {
-    random(11)
-    switch (var(VAR_RESULT)) {
+    switch (random(11)) {
       case  0: msgbox(format("Please come again!"))
       case  1: msgbox(format("Until next time!"))
       case  2: msgbox(format("See you later!"))

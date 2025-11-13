@@ -1358,16 +1358,14 @@ SlateportCity_Text_TakingBattleTentChallenge:
 script _SlateportCity_EventScript_TMClerk {
   lock
   faceplayer
-  random(5)
-  switch (var(VAR_RESULT)) {
+  switch (random(5)) {
     case 0: msgbox(format("You interested in some TMs, kid? Well then, do I have the selection for you!"))
     case 1: msgbox(format("You interested in some TMs, kid? Well then, do I have the selection for you!"))
     case 2: msgbox(format("Technical Machines! Technical Maaaaaaachines! Get your TMs here! Get 'em while you can!"))
     case 3: msgbox(format("Technical Machines! Technical Maaaaaaachines! Get your TMs here! Get 'em while you can!"))
     case 4: msgbox(format("Beautiful day today isn't it? It's always perfect here… Almost as if it were programmed that way… Hmm…"))
   }
-  random(5)
-  switch (var(VAR_RESULT)) {
+  switch (random(5)) {
     case 0: message(format("How may I serve you?"))
     case 1: message(format("What can I do for you?"))
     case 2: message(format("How can I help you?"))
@@ -1509,14 +1507,10 @@ script _SlateportCity_EventScript_RockCollector {
 }
 
 script _SlateportCity_EventScript_RockCollector_CheckFossilsInBag {
-  checkitem(ITEM_HELIX_FOSSIL)
-  if (!var(VAR_RESULT)) {
-    checkitem(ITEM_DOME_FOSSIL)
-    if (!var(VAR_RESULT)) {
-      checkitem(ITEM_OLD_AMBER)
-      if (!var(VAR_RESULT)) {
-        checkitem(ITEM_ROOT_FOSSIL)
-        if (!var(VAR_RESULT)) {
+  if (!checkitem(ITEM_HELIX_FOSSIL)) {
+    if (!checkitem(ITEM_DOME_FOSSIL)) {
+      if (!checkitem(ITEM_OLD_AMBER)) {
+        if (!checkitem(ITEM_ROOT_FOSSIL)) {
           checkitem(ITEM_CLAW_FOSSIL)
         }
       }
@@ -1525,15 +1519,15 @@ script _SlateportCity_EventScript_RockCollector_CheckFossilsInBag {
 }
 
 script _SlateportCity_EventScript_RockCollector_DynMultichoiceFossils {
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_HELIX_FOSSIL)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_HELIX_FOSSIL)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_DOME_FOSSIL)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_DOME_FOSSIL)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_OLD_AMBER)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_OLD_AMBER)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_ROOT_FOSSIL)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_ROOT_FOSSIL)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_CLAW_FOSSIL)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_CLAW_FOSSIL)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
   dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_SHOW_ITEM)
 }
@@ -1569,14 +1563,12 @@ script _SlateportCity_EventScript_ShadySeller {
   lock
   faceplayer
   if (!flag(FLAG_TEMP_1)) {
-    random(2)
-    switch (var(VAR_RESULT)) {
+    switch (random(2)) {
       case 0: msgbox(format("Hey… psst, kid.\p You look like the type who appreciates rare stuff.\p Straight off the docks, no questions asked.\N Pokémon accessories you can't find in stores."))
       case 1: msgbox(format("Hey, kid…\p You look like you carry little treasures.\N Nuggets, baubles, shiny things…\N Perfect for a quiet trade.\N No paper trail."))
     }
   } else {
-    random(2)
-    switch (var(VAR_RESULT)) {
+    switch (random(2)) {
       case 0: msgbox(format("Back again, huh?\N Got your eye on more gear?"))
       case 1: msgbox(format("Back so soon?\N You got another shiny for me?\p I only take valuables. Nuggets, not receipts."))
     }
@@ -1594,15 +1586,13 @@ script _SlateportCity_EventScript_ShadySeller {
     applymovement(LOCALID_SLATEPORT_SHADY_SELLER, Common_Movement_Delay48)
     waitmovement(0)
     setflag(FLAG_TEMP_1)
-    random(3)
-    switch (var(VAR_RESULT)) {
+    switch (random(3)) {
       case 0: message(format("What can I take off you?"))
       case 1: message(format("How much lighter you want to be?"))
       case 2: message(format("Is that something you want to let go of?"))
     }
   } else {
-    random(3)
-    switch (var(VAR_RESULT)) {
+    switch (random(3)) {
       case 0: message(format("What else can I take off you?"))
       case 1: message(format("How much lighter you want to be?"))
       case 2: message(format("Is that something you want to let go of?"))
@@ -1610,8 +1600,7 @@ script _SlateportCity_EventScript_ShadySeller {
   }
   call(_SlateportCity_EventScript_ShadySeller_DynMultichoiceValuableItems)
   if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    random(2)
-    switch (var(VAR_RESULT)) {
+    switch (random(2)) {
       case 0: msgbox(format("What, cold feet?\N Relax, nobody's watching us…"))
       case 1: msgbox(format("Cold feet, huh?\N All right, don't worry. Our secret stays safe."))
     }
@@ -1620,8 +1609,7 @@ script _SlateportCity_EventScript_ShadySeller {
   }
   copyvar(ITEM_TO_TRADE, VAR_RESULT)
   bufferitemname(STR_VAR_1, ITEM_TO_TRADE)
-  random(4)
-  switch (var(VAR_RESULT)) {
+  switch (random(4)) {
     case 0: message(format("Oooh, nice. That'll fetch a price.\N All right, I'll make you a deal.\p Which accessory do you want in exchange?"))
     case 1: message(format("Oho! A shiny, is it?\N Nice and quiet. I can put that to good use.\p What do you want in return?"))
     case 2: message(format("Perfect. See, a man in my line of work doesn't touch paper money.\N Too easy to trace. Gold, pieces of the stars… Those are the real currency.\p And what catches your eye of mine?"))
@@ -1639,8 +1627,7 @@ script _SlateportCity_EventScript_ShadySeller {
   removeitem(ITEM_TO_TRADE)
   giveitem(SHADY_ITEM_CHOSEN)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-  random(4)
-  switch (var(VAR_RESULT)) {
+  switch (random(4)) {
     case 0: msgbox(format("Pleasure doing business.\N And keep it quiet. Nobody needs to know where that item came from."))
     case 1: msgbox(format("Keep your mouth shut about our little deal.\N If you shout about it, folks will start asking where you got your luck.\N And that's bad."))
     case 2: msgbox(format("I'll always have new stock off the boats.\N Bring more shine when you want another toy.\p Remember: quiet, quick, no paper trail."))
@@ -1651,12 +1638,9 @@ script _SlateportCity_EventScript_ShadySeller {
 }
 
 script _SlateportCity_EventScript_ShadySeller_CheckValuableItemsInBag {
-  checkitem(ITEM_NUGGET)
-  if (!var(VAR_RESULT)) {
-    checkitem(ITEM_BIG_NUGGET)
-    if (!var(VAR_RESULT)) {
-      checkitem(ITEM_STAR_PIECE)
-      if (!var(VAR_RESULT)) {
+  if (!checkitem(ITEM_NUGGET)) {
+    if (!checkitem(ITEM_BIG_NUGGET)) {
+      if (!checkitem(ITEM_STAR_PIECE)) {
         checkitem(ITEM_COMET_SHARD)
       }
     }
@@ -1665,13 +1649,13 @@ script _SlateportCity_EventScript_ShadySeller_CheckValuableItemsInBag {
 
 script _SlateportCity_EventScript_ShadySeller_DynMultichoiceValuableItems {
   waitmessage
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_NUGGET)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_NUGGET)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_BIG_NUGGET)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_BIG_NUGGET)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_STAR_PIECE)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_STAR_PIECE)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_COMET_SHARD)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_COMET_SHARD)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
   dynmultistack(0, 0, FALSE, 6, TRUE, 0, DYN_MULTICHOICE_CB_SHOW_ITEM)
 }

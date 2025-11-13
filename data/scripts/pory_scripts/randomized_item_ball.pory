@@ -1,15 +1,17 @@
+const ITEM_AMOUNT = VAR_0x8009
+
 script _Common_EventScript_RandomizedItemBall {
-  if (var(VAR_RESULT) == ITEM_POKE_BALL   ||
-      var(VAR_RESULT) == ITEM_GREAT_BALL  ||
-      var(VAR_RESULT) == ITEM_ULTRA_BALL  ||
-      var(VAR_RESULT) == ITEM_MASTER_BALL ||
-      var(VAR_RESULT) == ITEM_DIVE_BALL   ||
-      var(VAR_RESULT) == ITEM_LUXURY_BALL ||
-      var(VAR_RESULT) == ITEM_NET_BALL    ||
-      var(VAR_RESULT) == ITEM_NEST_BALL   ||
-      var(VAR_RESULT) == ITEM_REPEAT_BALL ||
+  if (var(VAR_RESULT) == ITEM_POKE_BALL     ||
+      var(VAR_RESULT) == ITEM_GREAT_BALL    ||
+      var(VAR_RESULT) == ITEM_ULTRA_BALL    ||
+      var(VAR_RESULT) == ITEM_MASTER_BALL   ||
+      var(VAR_RESULT) == ITEM_DIVE_BALL     ||
+      var(VAR_RESULT) == ITEM_LUXURY_BALL   ||
+      var(VAR_RESULT) == ITEM_NET_BALL      ||
+      var(VAR_RESULT) == ITEM_NEST_BALL     ||
+      var(VAR_RESULT) == ITEM_REPEAT_BALL   ||
       var(VAR_RESULT) == ITEM_TIMER_BALL) {
-    call(_Common_EventScript_RandomizedItemBall_PokeBall)
+    call(_Common_EventScript_RandomizedItemBall_PokeBalls)
   }
   if (var(VAR_RESULT) == ITEM_POTION        ||
       var(VAR_RESULT) == ITEM_SUPER_POTION  ||
@@ -18,7 +20,7 @@ script _Common_EventScript_RandomizedItemBall {
       var(VAR_RESULT) == ITEM_FULL_RESTORE  ||
       var(VAR_RESULT) == ITEM_ENERGY_POWDER ||
       var(VAR_RESULT) == ITEM_ENERGY_ROOT) {
-    call(_Common_EventScript_RandomizedItemBall_Generic)
+    call(_Common_EventScript_RandomizedItemBall_Drinks)
   }
   if (var(VAR_RESULT) == ITEM_ANTIDOTE      ||
       var(VAR_RESULT) == ITEM_AWAKENING     ||
@@ -27,45 +29,45 @@ script _Common_EventScript_RandomizedItemBall {
       var(VAR_RESULT) == ITEM_PARALYZE_HEAL ||
       var(VAR_RESULT) == ITEM_FULL_HEAL     ||
       var(VAR_RESULT) == ITEM_HEAL_POWDER) {
-    call(_Common_EventScript_RandomizedItemBall_Repel)
+    call(_Common_EventScript_RandomizedItemBall_Snacks)
   }
-  if (var(VAR_RESULT) == ITEM_REVIVE     ||
-      var(VAR_RESULT) == ITEM_MAX_REVIVE ||
+  if (var(VAR_RESULT) == ITEM_REVIVE        ||
+      var(VAR_RESULT) == ITEM_MAX_REVIVE    ||
       var(VAR_RESULT) == ITEM_REVIVAL_HERB) {
     call(_Common_EventScript_RandomizedItemBall_Generic)
   }
-  if (var(VAR_RESULT) == ITEM_ETHER     ||
-      var(VAR_RESULT) == ITEM_ELIXIR    ||
-      var(VAR_RESULT) == ITEM_MAX_ETHER ||
+  if (var(VAR_RESULT) == ITEM_ETHER         ||
+      var(VAR_RESULT) == ITEM_ELIXIR        ||
+      var(VAR_RESULT) == ITEM_MAX_ETHER     ||
       var(VAR_RESULT) == ITEM_MAX_ELIXIR) {
-    call(_Common_EventScript_RandomizedItemBall_Generic)
+    call(_Common_EventScript_RandomizedItemBall_Ethers)
   }
-  if (var(VAR_RESULT) == ITEM_PROTEIN ||
-      var(VAR_RESULT) == ITEM_IRON    ||
-      var(VAR_RESULT) == ITEM_CALCIUM ||
-      var(VAR_RESULT) == ITEM_ZINC    ||
-      var(VAR_RESULT) == ITEM_CARBOS  ||
-      var(VAR_RESULT) == ITEM_HP_UP   ||
-      var(VAR_RESULT) == ITEM_PP_UP   ||
+  if (var(VAR_RESULT) == ITEM_PROTEIN       ||
+      var(VAR_RESULT) == ITEM_IRON          ||
+      var(VAR_RESULT) == ITEM_CALCIUM       ||
+      var(VAR_RESULT) == ITEM_ZINC          ||
+      var(VAR_RESULT) == ITEM_CARBOS        ||
+      var(VAR_RESULT) == ITEM_HP_UP         ||
+      var(VAR_RESULT) == ITEM_PP_UP         ||
       var(VAR_RESULT) == ITEM_PP_MAX) {
     call(_Common_EventScript_RandomizedItemBall_Generic)
   }
-  if (var(VAR_RESULT) == ITEM_X_ATTACK   ||
-      var(VAR_RESULT) == ITEM_X_DEFENSE  ||
-      var(VAR_RESULT) == ITEM_X_SP_ATK   ||
-      var(VAR_RESULT) == ITEM_X_SP_DEF   ||
-      var(VAR_RESULT) == ITEM_X_SPEED    ||
-      var(VAR_RESULT) == ITEM_X_ACCURACY ||
-      var(VAR_RESULT) == ITEM_GUARD_SPEC ||
+  if (var(VAR_RESULT) == ITEM_X_ATTACK      ||
+      var(VAR_RESULT) == ITEM_X_DEFENSE     ||
+      var(VAR_RESULT) == ITEM_X_SP_ATK      ||
+      var(VAR_RESULT) == ITEM_X_SP_DEF      ||
+      var(VAR_RESULT) == ITEM_X_SPEED       ||
+      var(VAR_RESULT) == ITEM_X_ACCURACY    ||
+      var(VAR_RESULT) == ITEM_GUARD_SPEC    ||
       var(VAR_RESULT) == ITEM_DIRE_HIT) {
-    call(_Common_EventScript_RandomizedItemBall_Generic)
+    call(_Common_EventScript_RandomizedItemBall_XItems)
   }
-  if (var(VAR_RESULT) == ITEM_RED_SHARD    ||
-      var(VAR_RESULT) == ITEM_BLUE_SHARD   ||
-      var(VAR_RESULT) == ITEM_GREEN_SHARD  ||
-      var(VAR_RESULT) == ITEM_YELLOW_SHARD ||
-      var(VAR_RESULT) == ITEM_HEART_SCALE  ||
-      var(VAR_RESULT) == ITEM_PEARL        ||
+  if (var(VAR_RESULT) == ITEM_RED_SHARD     ||
+      var(VAR_RESULT) == ITEM_BLUE_SHARD    ||
+      var(VAR_RESULT) == ITEM_GREEN_SHARD   ||
+      var(VAR_RESULT) == ITEM_YELLOW_SHARD  ||
+      var(VAR_RESULT) == ITEM_HEART_SCALE   ||
+      var(VAR_RESULT) == ITEM_PEARL         ||
       var(VAR_RESULT) == ITEM_BIG_PEARL) {
     call(_Common_EventScript_RandomizedItemBall_Generic)
   }
@@ -73,18 +75,18 @@ script _Common_EventScript_RandomizedItemBall {
       var(VAR_RESULT) == ITEM_BIG_MUSHROOM) {
     call(_Common_EventScript_RandomizedItemBall_Generic)
   }
-  if (var(VAR_RESULT) == ITEM_NUGGET ||
+  if (var(VAR_RESULT) == ITEM_NUGGET        ||
       var(VAR_RESULT) == ITEM_BIG_NUGGET) {
     call(_Common_EventScript_RandomizedItemBall_Generic)
   }
-  if (var(VAR_RESULT) == ITEM_STARDUST   ||
+  if (var(VAR_RESULT) == ITEM_STARDUST      ||
       var(VAR_RESULT) == ITEM_STAR_PIECE) {
     call(_Common_EventScript_RandomizedItemBall_Generic)
   }
-  if (var(VAR_RESULT) == ITEM_REPEL       ||
-      var(VAR_RESULT) == ITEM_SUPER_REPEL ||
+  if (var(VAR_RESULT) == ITEM_REPEL         ||
+      var(VAR_RESULT) == ITEM_SUPER_REPEL   ||
       var(VAR_RESULT) == ITEM_MAX_REPEL) {
-    call(_Common_EventScript_RandomizedItemBall_Generic)
+    call(_Common_EventScript_RandomizedItemBall_Repels)
   }
   if (var(VAR_RESULT) == ITEM_FIRE_STONE    ||
       var(VAR_RESULT) == ITEM_WATER_STONE   ||
@@ -94,153 +96,125 @@ script _Common_EventScript_RandomizedItemBall {
       var(VAR_RESULT) == ITEM_MOON_STONE) {
     call(_Common_EventScript_RandomizedItemBall_Generic)
   }
-  if (var(VAR_RESULT) == ITEM_ORANGE_MAIL  ||
-      var(VAR_RESULT) == ITEM_HARBOR_MAIL  ||
-      var(VAR_RESULT) == ITEM_GLITTER_MAIL ||
-      var(VAR_RESULT) == ITEM_MECH_MAIL    ||
-      var(VAR_RESULT) == ITEM_WOOD_MAIL    ||
-      var(VAR_RESULT) == ITEM_WAVE_MAIL    ||
-      var(VAR_RESULT) == ITEM_BEAD_MAIL    ||
-      var(VAR_RESULT) == ITEM_SHADOW_MAIL  ||
+  if (var(VAR_RESULT) == ITEM_ORANGE_MAIL   ||
+      var(VAR_RESULT) == ITEM_HARBOR_MAIL   ||
+      var(VAR_RESULT) == ITEM_GLITTER_MAIL  ||
+      var(VAR_RESULT) == ITEM_MECH_MAIL     ||
+      var(VAR_RESULT) == ITEM_WOOD_MAIL     ||
+      var(VAR_RESULT) == ITEM_WAVE_MAIL     ||
+      var(VAR_RESULT) == ITEM_BEAD_MAIL     ||
+      var(VAR_RESULT) == ITEM_SHADOW_MAIL   ||
       var(VAR_RESULT) == ITEM_TROPIC_MAIL) {
     call(_Common_EventScript_RandomizedItemBall_Generic)
   }
-  if (var(VAR_RESULT) == ITEM_ESCAPE_ROPE ||
-      var(VAR_RESULT) == ITEM_RARE_CANDY  ||
-      var(VAR_RESULT) == ITEM_SEA_INCENSE ||
+  if (var(VAR_RESULT) == ITEM_ESCAPE_ROPE   ||
+      var(VAR_RESULT) == ITEM_RARE_CANDY    ||
+      var(VAR_RESULT) == ITEM_SEA_INCENSE   ||
       var(VAR_RESULT) == ITEM_LAX_INCENSE) {
     call(_Common_EventScript_RandomizedItemBall_Generic)
   }
 }
 
 script _Common_EventScript_RandomizedItemBall_Generic {
-  random(10)
-  switch (var(VAR_RESULT)) {
-    case 0: call(_Common_EventScript_RandomizedItemBall_Snacks)
-    case 1: call(_Common_EventScript_RandomizedItemBall_Snacks)
+  switch (random(4)) {
+    case 0: call(_Common_EventScript_RandomizedItemBall_Drinks)
+    case 1: call(_Common_EventScript_RandomizedItemBall_Ethers)
     case 2: call(_Common_EventScript_RandomizedItemBall_Snacks)
-    case 3: call(_Common_EventScript_RandomizedItemBall_Snacks)
-    case 4: call(_Common_EventScript_RandomizedItemBall_XItem)
-    case 5: call(_Common_EventScript_RandomizedItemBall_XItem)
-    case 6: call(_Common_EventScript_RandomizedItemBall_XItem)
-    case 7: call(_Common_EventScript_RandomizedItemBall_Ether)
-    case 8: call(_Common_EventScript_RandomizedItemBall_Ether)
-    case 9: call(_Common_EventScript_RandomizedItemBall_Vitamins)
+    case 3: call(_Common_EventScript_RandomizedItemBall_Vitamins)
   }
-  // not reached unless a plain item is found instead of a call
-  finditem(VAR_RESULT, VAR_0x8009)
-  end
 }
 
-script _Common_EventScript_RandomizedItemBall_PokeBall {
-  random(8)
-  switch (var(VAR_RESULT)) {
-    case 0: setvar(VAR_RESULT, ITEM_DIVE_BALL)
-    case 1: setvar(VAR_RESULT, ITEM_DUSK_BALL)
-    case 2: setvar(VAR_RESULT, ITEM_HEAL_BALL)
-    case 3: setvar(VAR_RESULT, ITEM_LUXURY_BALL)
-    case 4: setvar(VAR_RESULT, ITEM_NET_BALL)
-    case 5: setvar(VAR_RESULT, ITEM_NEST_BALL)
-    case 6: setvar(VAR_RESULT, ITEM_REPEAT_BALL)
-    case 7: setvar(VAR_RESULT, ITEM_TIMER_BALL)
-  }
-  finditem(VAR_RESULT, VAR_0x8009)
-  end
+script _Common_EventScript_RandomizedItemBall_Drinks {
+  randomelement(6, 4, 2, 1)
+  setorcopyvar(ITEM_AMOUNT, VAR_RESULT)
+  randomelement(
+    ITEM_FRESH_WATER,
+    ITEM_SODA_POP,
+    ITEM_LEMONADE,
+    ITEM_MOOMOO_MILK
+  )
 }
 
-script _Common_EventScript_RandomizedItemBall_Repel {
+script _Common_EventScript_RandomizedItemBall_Ethers {
+  randomelement(3, 2, 1, 1)
+  setorcopyvar(ITEM_AMOUNT, VAR_RESULT)
+  randomelement(
+    ITEM_ETHER,
+    ITEM_MAX_ETHER,
+    ITEM_ELIXIR,
+    ITEM_MAX_ELIXIR
+  )
+}
+
+script _Common_EventScript_RandomizedItemBall_PokeBalls {
+  randomelement(4, 3, 2, 1)
+  setorcopyvar(ITEM_AMOUNT, VAR_RESULT)
+  randomelement(
+    ITEM_DIVE_BALL,
+    ITEM_DUSK_BALL,
+    ITEM_HEAL_BALL,
+    ITEM_LUXURY_BALL,
+    ITEM_NET_BALL,
+    ITEM_NEST_BALL,
+    ITEM_REPEAT_BALL,
+    ITEM_TIMER_BALL
+  )
+}
+
+script _Common_EventScript_RandomizedItemBall_Repels {
+  randomelement(6, 4, 3, 2)
+  setorcopyvar(ITEM_AMOUNT, VAR_RESULT)
   if (flag(FLAG_BADGE05_GET)) {
-    setvar(VAR_RESULT, ITEM_MAX_REPEL)
+    setorcopyvar(VAR_RESULT, ITEM_MAX_REPEL)
   } elif (flag(FLAG_BADGE03_GET)) {
-    setvar(VAR_RESULT, ITEM_SUPER_REPEL)
+    setorcopyvar(VAR_RESULT, ITEM_SUPER_REPEL)
   } else {
-    setvar(VAR_RESULT, ITEM_REPEL)
+    setorcopyvar(VAR_RESULT, ITEM_REPEL)
   }
-  finditem(VAR_RESULT, VAR_0x8009)
-  end
-}
-
-script _Common_EventScript_RandomizedItemBall_XItem {
-  random(13)
-  switch (var(VAR_RESULT)) {
-    case  0: setvar(VAR_RESULT, ITEM_X_ATTACK)
-    case  1: setvar(VAR_RESULT, ITEM_X_ATTACK)
-    case  2: setvar(VAR_RESULT, ITEM_X_DEFENSE)
-    case  3: setvar(VAR_RESULT, ITEM_X_DEFENSE)
-    case  4: setvar(VAR_RESULT, ITEM_X_SP_ATK)
-    case  5: setvar(VAR_RESULT, ITEM_X_SP_ATK)
-    case  6: setvar(VAR_RESULT, ITEM_X_SP_DEF)
-    case  7: setvar(VAR_RESULT, ITEM_X_SP_DEF)
-    case  8: setvar(VAR_RESULT, ITEM_X_SPEED)
-    case  9: setvar(VAR_RESULT, ITEM_X_SPEED)
-    case 10: setvar(VAR_RESULT, ITEM_X_ACCURACY)
-    case 11: setvar(VAR_RESULT, ITEM_GUARD_SPEC)
-    case 12: setvar(VAR_RESULT, ITEM_DIRE_HIT)
-  }
-  finditem(VAR_RESULT, VAR_0x8009)
-  end
-}
-
-script _Common_EventScript_RandomizedItemBall_Ether {
-  random(10)
-  switch (var(VAR_RESULT)) {
-    case 0: setvar(VAR_RESULT, ITEM_ETHER)
-    case 1: setvar(VAR_RESULT, ITEM_ETHER)
-    case 2: setvar(VAR_RESULT, ITEM_ETHER)
-    case 3: setvar(VAR_RESULT, ITEM_ETHER)
-    case 4: setvar(VAR_RESULT, ITEM_MAX_ETHER)
-    case 5: setvar(VAR_RESULT, ITEM_MAX_ETHER)
-    case 6: setvar(VAR_RESULT, ITEM_MAX_ETHER)
-    case 7: setvar(VAR_RESULT, ITEM_ELIXIR)
-    case 8: setvar(VAR_RESULT, ITEM_ELIXIR)
-    case 9: setvar(VAR_RESULT, ITEM_MAX_ELIXIR)
-  }
-  finditem(VAR_RESULT, VAR_0x8009)
-  end
-}
-
-script _Common_EventScript_RandomizedItemBall_Vitamins {
-  random(6)
-  switch (var(VAR_RESULT)) {
-    // case 0: setvar(VAR_RESULT, ITEM_PROTEIN)
-    // case 1: setvar(VAR_RESULT, ITEM_IRON)
-    // case 2: setvar(VAR_RESULT, ITEM_CALCIUM)
-    // case 3: setvar(VAR_RESULT, ITEM_ZINC)
-    // case 4: setvar(VAR_RESULT, ITEM_CARBOS)
-    // case 5: setvar(VAR_RESULT, ITEM_HP_UP)
-    case 0: setvar(VAR_RESULT, ITEM_PP_UP)
-    case 1: setvar(VAR_RESULT, ITEM_PP_UP)
-    case 2: setvar(VAR_RESULT, ITEM_PP_UP)
-    case 3: setvar(VAR_RESULT, ITEM_PP_UP)
-    case 4: setvar(VAR_RESULT, ITEM_PP_UP)
-    case 5: setvar(VAR_RESULT, ITEM_PP_MAX)
-  }
-  finditem(VAR_RESULT, VAR_0x8009)
-  end
 }
 
 script _Common_EventScript_RandomizedItemBall_Snacks {
-  random(12)
-  switch (var(VAR_RESULT)) {
-    case  0: setvar(VAR_RESULT, ITEM_RARE_CANDY)
-    case  1: setvar(VAR_RESULT, ITEM_RARE_CANDY)
-    case  2: setvar(VAR_RESULT, ITEM_FRESH_WATER)
-    case  3: setvar(VAR_RESULT, ITEM_FRESH_WATER)
-    case  4: setvar(VAR_RESULT, ITEM_SODA_POP)
-    case  5: setvar(VAR_RESULT, ITEM_SODA_POP)
-    case  6: setvar(VAR_RESULT, ITEM_LEMONADE)
-    case  7: setvar(VAR_RESULT, ITEM_LEMONADE)
-    case  8: setvar(VAR_RESULT, ITEM_MOOMOO_MILK)
-    case  9: setvar(VAR_RESULT, ITEM_MOOMOO_MILK)
-    case 10: setvar(VAR_RESULT, ITEM_LAVA_COOKIE)
-    case 11:
-      random(3)
-      switch (var(VAR_RESULT)) {
-        case 0: setvar(VAR_RESULT, ITEM_PEWTER_CRUNCHIES)
-        case 1: setvar(VAR_RESULT, ITEM_RAGE_CANDY_BAR)
-        case 2: setvar(VAR_RESULT, ITEM_LAVA_COOKIE)
-      }
+  if (randompercentage(67)) {
+    randomelement(3, 2, 1, 1)
+    setorcopyvar(ITEM_AMOUNT, VAR_RESULT)
+    setorcopyvar(VAR_RESULT, ITEM_LAVA_COOKIE)
+  } else {
+    randomelement(
+      ITEM_PEWTER_CRUNCHIES,
+      ITEM_RAGE_CANDY_BAR,
+    )
   }
-  finditem(VAR_RESULT, VAR_0x8009)
-  end
+}
+
+script _Common_EventScript_RandomizedItemBall_Vitamins {
+  randomelement(
+    // ITEM_PROTEIN,
+    // ITEM_IRON,
+    // ITEM_CALCIUM,
+    // ITEM_ZINC,
+    // ITEM_CARBOS,
+    // ITEM_HP_UP,
+    ITEM_PP_UP,
+    ITEM_PP_MAX
+  )
+}
+
+script _Common_EventScript_RandomizedItemBall_XItems {
+  randomelement(2, 1, 1, 1)
+  setorcopyvar(ITEM_AMOUNT, VAR_RESULT)
+  if (randompercentage(75)) {
+    randomelement(
+      ITEM_X_ATTACK,
+      ITEM_X_DEFENSE,
+      ITEM_X_SP_ATK,
+      ITEM_X_SP_DEF,
+      ITEM_X_SPEED
+    )
+  } else {
+    randomelement(
+      ITEM_X_ACCURACY,
+      ITEM_GUARD_SPEC,
+      ITEM_DIRE_HIT
+    )
+  }
 }

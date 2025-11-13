@@ -787,8 +787,7 @@ script _MauvilleCity_GameCorner_EventScript_PrizeCornerItems {
   lock
   faceplayer
   msgbox(MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes)
-  checkitem(ITEM_COIN_CASE)
-  if (!var(VAR_RESULT)) {
+  if (!checkitem(ITEM_COIN_CASE)) {
     release
     end
   }
@@ -808,15 +807,13 @@ script _MauvilleCity_GameCorner_EventScript_PrizeCornerItems {
   }
   copyvar(PRIZE_CHOSEN, VAR_RESULT)
   bufferitemname(STR_VAR_1, PRIZE_CHOSEN)
-  msgbox(format("You'd like the {STR_VAR_1}?"), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("You'd like the {STR_VAR_1}?"), MSGBOX_YESNO)) {
     msgbox(MauvilleCity_GameCorner_Text_OhIsThatSo)
     hidecoinsbox(0, 0)
     release
     end
   }
-  checkcoins(COINS_OWNED)
-  if (var(COINS_OWNED) < COINS_REQUIRED) {
+  if (checkcoins(COINS_OWNED) < COINS_REQUIRED) {
     msgbox(MauvilleCity_GameCorner_Text_NotEnoughCoins)
     hidecoinsbox(0, 0)
     release

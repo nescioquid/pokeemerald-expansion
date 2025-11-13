@@ -1,0 +1,117 @@
+const BERRY_AMOUNT = VAR_TEMP_0
+
+script _Common_EventScript_GiveBerry_Generic {
+  if (randompercentage(25)) {
+    randomelement(3, 2, 1, 1)
+    setorcopyvar(BERRY_AMOUNT, VAR_RESULT)
+    giveitem(ITEM_LEPPA_BERRY, BERRY_AMOUNT)
+    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  } else {
+    switch (random(5)) {
+      case 0: call(_Common_EventScript_GiveBerry_Confuse)
+      case 1: call(_Common_EventScript_GiveBerry_HP)
+      case 2: call(_Common_EventScript_GiveBerry_RaiseStats)
+      case 3: call(_Common_EventScript_GiveBerry_Resistance)
+      case 4: call(_Common_EventScript_GiveBerry_Retaliatory)
+    }
+  }
+}
+
+script _Common_EventScript_GiveBerry_Confuse {
+  randomelement(4, 3, 2, 1)
+  setorcopyvar(BERRY_AMOUNT, VAR_RESULT)
+  randomelement(
+    ITEM_FIGY_BERRY,
+    ITEM_WIKI_BERRY,
+    ITEM_MAGO_BERRY,
+    ITEM_AGUAV_BERRY,
+    ITEM_IAPAPA_BERRY
+  )
+  giveitem(VAR_RESULT, BERRY_AMOUNT)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+}
+
+script _Common_EventScript_GiveBerry_HP {
+  randomelement(4, 3, 2, 1)
+  setorcopyvar(BERRY_AMOUNT, VAR_RESULT)
+  randomelement(
+    ITEM_ORAN_BERRY,
+    ITEM_SITRUS_BERRY
+  )
+  giveitem(VAR_RESULT, BERRY_AMOUNT)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+}
+
+script _Common_EventScript_GiveBerry_RaiseStats {
+  randomelement(4, 3, 2, 1)
+  setorcopyvar(BERRY_AMOUNT, VAR_RESULT)
+  randomelement(
+    ITEM_LIECHI_BERRY,
+    ITEM_GANLON_BERRY,
+    ITEM_SALAC_BERRY, 
+    ITEM_PETAYA_BERRY,
+    ITEM_APICOT_BERRY
+  )
+  giveitem(VAR_RESULT, BERRY_AMOUNT)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+}
+
+script _Common_EventScript_GiveBerry_Resistance {
+  randomelement(4, 3, 2, 1)
+  setorcopyvar(BERRY_AMOUNT, VAR_RESULT)
+  randomelement(
+    ITEM_OCCA_BERRY,
+    ITEM_PASSHO_BERRY,
+    ITEM_WACAN_BERRY,
+    ITEM_RINDO_BERRY,
+    ITEM_YACHE_BERRY,
+    ITEM_CHOPLE_BERRY,
+    ITEM_KEBIA_BERRY,
+    ITEM_SHUCA_BERRY,
+    ITEM_COBA_BERRY,
+    ITEM_PAYAPA_BERRY,
+    ITEM_TANGA_BERRY,
+    ITEM_CHARTI_BERRY,
+    ITEM_KASIB_BERRY,
+    ITEM_HABAN_BERRY,
+    ITEM_COLBUR_BERRY,
+    ITEM_BABIRI_BERRY,
+    ITEM_CHILAN_BERRY,
+    ITEM_ROSELI_BERRY,
+  )
+  giveitem(VAR_RESULT, BERRY_AMOUNT)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+}
+
+script _Common_EventScript_GiveBerry_Retaliatory {
+  randomelement(4, 3, 2, 1)
+  setorcopyvar(BERRY_AMOUNT, VAR_RESULT)
+  randomelement(
+    ITEM_CUSTAP_BERRY,
+    // ITEM_JABOCA_BERRY,
+    // ITEM_ROWAP_BERRY, 
+    ITEM_KEE_BERRY,
+    ITEM_MARANGA_BERRY
+  )
+  giveitem(VAR_RESULT, BERRY_AMOUNT)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+}
+
+script _Common_EventScript_GiveBerry_Status {
+  randomelement(4, 3, 2, 1)
+  setorcopyvar(BERRY_AMOUNT, VAR_RESULT)
+  if (randompercentage(67)) {
+    randomelement(
+      ITEM_CHERI_BERRY,
+      ITEM_CHESTO_BERRY,
+      ITEM_PECHA_BERRY,
+      ITEM_RAWST_BERRY,
+      ITEM_ASPEAR_BERRY,
+      ITEM_PERSIM_BERRY
+    )
+  } else {
+    setorcopyvar(VAR_RESULT, ITEM_LUM_BERRY)
+  }
+  giveitem(VAR_RESULT, BERRY_AMOUNT)
+  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+}

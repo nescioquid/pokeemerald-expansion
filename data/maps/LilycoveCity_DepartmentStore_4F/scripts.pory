@@ -75,14 +75,10 @@ script _LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft {
   call(_Common_EventScript_Clerk_Hello)
   waitmessage
   pokemart(_LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs)
-  checkitem(ITEM_TM_FIRE_BLAST) // TM38
-  if (var(VAR_RESULT)) {
-    checkitem(ITEM_TM_THUNDER) // TM25
-    if (var(VAR_RESULT)) {
-      checkitem(ITEM_TM_BLIZZARD) // TM14
-      if (var(VAR_RESULT)) {
-      checkitem(ITEM_TM_HYPER_BEAM) // TM15
-        if (var(VAR_RESULT)) {
+  if (checkitem(ITEM_TM_FIRE_BLAST)) {       // TM38
+    if (checkitem(ITEM_TM_THUNDER)) {        // TM25
+      if (checkitem(ITEM_TM_BLIZZARD)) {     // TM14
+        if (checkitem(ITEM_TM_HYPER_BEAM)) { // TM15
           msgbox(format("Dang, you bought them all? Nice!"))
         }
       }
@@ -105,15 +101,11 @@ script _LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight {
   faceplayer
   call(_Common_EventScript_Clerk_Hello)
   waitmessage
-  pokemart(_LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs)
-  checkitem(ITEM_TM_PROTECT) // TM17
-  if (var(VAR_RESULT)) {
-    checkitem(ITEM_TM_SAFEGUARD) // TM20
-    if (var(VAR_RESULT)) {
-      checkitem(ITEM_TM_REFLECT) // TM33
-      if (var(VAR_RESULT)) {
-        checkitem(ITEM_TM_LIGHT_SCREEN) // TM16
-        if (var(VAR_RESULT)) {
+  pokemart(_LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs)  
+  if (checkitem(ITEM_TM_PROTECT)) {            // TM17    
+    if (checkitem(ITEM_TM_SAFEGUARD)) {        // TM20      
+      if (checkitem(ITEM_TM_REFLECT)) {        // TM33        
+        if (checkitem(ITEM_TM_LIGHT_SCREEN)) { // TM16
           msgbox(format("Wow! You have all of them! That's so cool!"))
         }
       }
@@ -137,20 +129,13 @@ script _LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft_ORAS {
   call(_Common_EventScript_Clerk_Hello)
   waitmessage
   pokemart(_LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs_ORAS)
-  checkitem(ITEM_TM_FIRE_BLAST) // TM38
-  if (var(VAR_RESULT)) {
-    checkitem(ITEM_TM_THUNDER) // TM25
-    if (var(VAR_RESULT)) {
-      checkitem(ITEM_TM_BLIZZARD) // TM14
-      if (var(VAR_RESULT)) {
-        checkitem(ITEM_TM_FOCUS_BLAST) // TM52
-        if (var(VAR_RESULT)) {
-          checkitem(ITEM_TM_STONE_EDGE) // TM71
-          if (var(VAR_RESULT)) {
-            checkitem(ITEM_TM_HYPER_BEAM) // TM15
-            if (var(VAR_RESULT)) {
-              checkitem(ITEM_TM_GIGA_IMPACT) // TM68
-              if (var(VAR_RESULT)) {
+  if (checkitem(ITEM_TM_FIRE_BLAST)) {              // TM38
+    if (checkitem(ITEM_TM_THUNDER)) {               // TM25
+      if (checkitem(ITEM_TM_BLIZZARD)) {            // TM14
+        if (checkitem(ITEM_TM_FOCUS_BLAST)) {       // TM52
+          if (checkitem(ITEM_TM_STONE_EDGE)) {      // TM71
+            if (checkitem(ITEM_TM_HYPER_BEAM)) {    // TM15
+              if (checkitem(ITEM_TM_GIGA_IMPACT)) { // TM68
                 msgbox(format("Dang, you bought them all? Nice!"))
               }
             }

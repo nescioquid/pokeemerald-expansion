@@ -124,7 +124,7 @@ script _Route104_PrettyPetalFlowerShop_EventScript_RandomBerryGirl {
   faceplayer
   dotimebasedevents
   if (!flag(FLAG_DAILY_FLOWER_SHOP_RECEIVED_BERRY)) {
-    msgbox(format("I'm trying to be like my big sisters. I'm growing flowers, too!\pHere you go! They're for you!"))
+    msgbox(format("I'm trying to be like my big sisters. I'm growing flowers, too!\p Here you go! They're for you!"))
     if (!flag(FLAG_BADGE01_GET)) {
       giveitem(ITEM_CHILAN_BERRY, 3)
       goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
@@ -133,7 +133,7 @@ script _Route104_PrettyPetalFlowerShop_EventScript_RandomBerryGirl {
     }
     setflag(FLAG_DAILY_FLOWER_SHOP_RECEIVED_BERRY)
   }
-  msgbox(format("You can plant a Berry and grow it big, or you can make a Pokémon hold it.\pBut now they have a machine that mixes up different Berries and makes candies for Pokémon.\pI want some candy, too."))
+  msgbox(format("You can plant a Berry and grow it big, or you can make a Pokémon hold it.\p But now they have a machine that mixes up different Berries and makes candies for Pokémon.\p I want some candy, too."))
   release
   end
 }
@@ -144,8 +144,7 @@ script _Route104_PrettyPetalFlowerShop_EventScript_ShopOwner {
   if (flag(FLAG_TEMP_1)) {
     if (!flag(FLAG_MET_PRETTY_PETAL_SHOP_OWNER)) {
       msgbox(Route104_PrettyPetalFlowerShop_Text_ThisIsPrettyPetalFlowerShop)
-      msgbox(Route104_PrettyPetalFlowerShop_Text_IntroLearnAboutBerries, MSGBOX_YESNO)
-      if (var(VAR_RESULT)) {
+      if (msgbox(Route104_PrettyPetalFlowerShop_Text_IntroLearnAboutBerries, MSGBOX_YESNO)) {
         call(Route104_PrettyPetalFlowerShop_EventScript_ExplainBerries)
       } else {
         call(Route104_PrettyPetalFlowerShop_EventScript_DontExplainBerries)

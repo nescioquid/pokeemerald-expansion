@@ -548,8 +548,7 @@ script _SlateportCity_Harbor_EventScript_CaptStern {
   faceplayer
   if (flag(FLAG_BADGE07_GET)) {
     goto_if_eq(VAR_TEMP_1, 1, SlateportCity_Harbor_EventScript_TradedScanner)
-    checkitem(ITEM_SCANNER)
-    if (var(VAR_RESULT)) {
+    if (checkitem(ITEM_SCANNER)) {
       goto(_SlateportCity_Harbor_EventScript_AskToTradeScanner)
     }
     goto_if_set(FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_FerryFinished)
@@ -569,15 +568,14 @@ script _SlateportCity_Harbor_EventScript_CaptStern {
 }
 
 script _SlateportCity_Harbor_EventScript_AskToTradeScanner {
-  msgbox(format("Capt. Stern: Oh?\n{PLAYER}{KUN}, that item you have…\pThat's a Scanner! That would sure help us on our explorations.\p{PLAYER}{KUN}, would you trade that Scanner for something?\pLike, say, this Porygon I have? A researcher friend at Devon gave it to me, but I'm not much of a Trainer."), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("Capt. Stern: Oh?\n{PLAYER}{KUN}, that item you have…\p That's a Scanner! That would sure help us on our explorations.\p{PLAYER}{KUN}, would you trade that Scanner for something?\p Like, say, this Porygon I have? A researcher friend at Devon gave it to me, but I'm not much of a Trainer."), MSGBOX_YESNO)) {
     msgbox(SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow)
     release
     end
   }
   msgbox(format("Capt. Stern: Really? Thank you so much!"))
-  setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_PORYGON)
-  setvar(GIVEMON_HELPER_ARTICLE, 3)
+  setorcopyvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_PORYGON)
+  setorcopyvar(GIVEMON_HELPER_ARTICLE, 3)
   givemon(SPECIES_PORYGON, 25)
   call(_Common_EventScript_GivemonHelper)
   removeitem(ITEM_SCANNER)

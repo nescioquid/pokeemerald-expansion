@@ -56,9 +56,8 @@ script _MossdeepCity_House3_EventScript_SuperRodFisherman {
   lock
   faceplayer
   if(!flag(FLAG_RECEIVED_SUPER_ROD)) {
-    msgbox(format("Hey there, Trainer! A Super Rod really is super!\p Say all you want, but those babies can\ncatch Pokémon off the seafloor!\p What do you think?\N You want one, don't you?"), MSGBOX_YESNO)
-    if (!var(VAR_RESULT)) {
-      msgbox(format("Hunh?\nDon't you like to fish?"))
+    if (!msgbox(format("Hey there, Trainer! A Super Rod really is super!\p Say all you want, but those babies can\N catch Pokémon off the seafloor!\p What do you think?\N You want one, don't you?"), MSGBOX_YESNO)) {
+      msgbox(format("Hunh?\N Don't you like to fish?"))
       release
       end
     }
@@ -67,10 +66,10 @@ script _MossdeepCity_House3_EventScript_SuperRodFisherman {
     } else {
       msgbox(format("You bet, you bet!\N After all, a Super Rod is really super!\p …Oh! You already have one!\N A kindred soul. Well then, take this instead!"))
     }
-    call(_MossdeepCity_House3_EventScript_RandomizedHeldItems)
+    call(_MossdeepCity_House3_EventScript_RandomizedHeldItemsFancy)
     goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
     setflag(FLAG_RECEIVED_SUPER_ROD)
-    msgbox(format("If there's any water, try dropping in\na Rod and see what bites!"))
+    msgbox(format("If there's any water, try dropping in\N a Rod and see what bites!"))
     release
     end
   }
@@ -79,24 +78,24 @@ script _MossdeepCity_House3_EventScript_SuperRodFisherman {
   end
 }
 
-script _MossdeepCity_House3_EventScript_RandomizedHeldItems {
-  random(12)
-  switch (var(VAR_RESULT)) {
-    case  0: giveitem(ITEM_LUCKY_EGG)
-    // case  1: giveitem(ITEM_DESTINY_KNOT)
-    case  1: giveitem(ITEM_LEFTOVERS)
-    // case  3: giveitem(ITEM_DEEP_SEA_SCALE)
-    // case  4: giveitem(ITEM_DEEP_SEA_TOOTH)
-    case  2: giveitem(ITEM_DRAGON_SCALE)
-    case  3: giveitem(ITEM_ELECTIRIZER)
-    case  4: giveitem(ITEM_KINGS_ROCK)
-    case  5: giveitem(ITEM_MAGMARIZER)
-    case  6: giveitem(ITEM_METAL_COAT)
-    case  7: giveitem(ITEM_OVAL_STONE)
-    case  8: giveitem(ITEM_PROTECTOR)
-    case  9: giveitem(ITEM_RAZOR_CLAW)
-    case 10: giveitem(ITEM_RAZOR_FANG)
-    // case 14: giveitem(ITEM_PRISM_SCALE)
-    case 11: giveitem(ITEM_REAPER_CLOTH)
-  }
+script _MossdeepCity_House3_EventScript_RandomizedHeldItemsFancy {
+  randomelement(
+    ITEM_LUCKY_EGG,
+    // ITEM_DESTINY_KNOT,
+    ITEM_LEFTOVERS,
+    // ITEM_DEEP_SEA_SCALE,
+    // ITEM_DEEP_SEA_TOOTH,
+    ITEM_DRAGON_SCALE,
+    ITEM_ELECTIRIZER,
+    ITEM_KINGS_ROCK,
+    ITEM_MAGMARIZER,
+    ITEM_METAL_COAT,
+    ITEM_OVAL_STONE,
+    ITEM_PROTECTOR,
+    ITEM_RAZOR_CLAW,
+    ITEM_RAZOR_FANG,
+    // ITEM_PRISM_SCALE,
+    ITEM_REAPER_CLOTH
+  )
+  giveitem(VAR_RESULT)
 }

@@ -998,7 +998,7 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 script _LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival {
   msgbox(format("Prof. Birch: If you work at Pokémon and gain experience, I think you'll make an extremely good Trainer.\p My kid, {RIVAL}, is also studying Pokémon while helping me out.\p {PLAYER}, I think it might be a good idea to go find {RIVAL}.\p They should be happy to teach you what it means to be a Trainer."))
   clearflag(FLAG_HIDE_ROUTE_101_BOY)
-  setvar(VAR_BIRCH_LAB_STATE, 3)
+  setorcopyvar(VAR_BIRCH_LAB_STATE, 3)
   releaseall
   end
 }

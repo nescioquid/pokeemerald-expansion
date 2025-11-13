@@ -136,7 +136,7 @@ script _Route121_SafariZoneEntrance_EventScript_GiveTMDreamEater {
   lock
   faceplayer
   if (!flag(FLAG_RECEIVED_TM_DREAM_EATER)) {
-    msgbox(format("That look in your eyes…\nThat aura floating about you…\pYou're one of my kind, make all kinds of mischief, right? You'll get a kick out of this then!"))
+    msgbox(format("That look in your eyes…\N That aura floating about you…\p You're one of my kind, make all kinds of mischief, right? You'll get a kick out of this then!"))
     giveitem(ITEM_TM_DREAM_EATER)
     goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
     setflag(FLAG_RECEIVED_TM_DREAM_EATER)

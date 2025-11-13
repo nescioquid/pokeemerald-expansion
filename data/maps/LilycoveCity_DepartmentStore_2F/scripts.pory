@@ -77,32 +77,29 @@ LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems:
 
 `
 
+const FUNNY_MESSAGES = FLAG_TEMP_1
+
 script _LilycoveCity_DepartmentStore_2F_EventScript_ClerkLeft {
   lock
   faceplayer
-  random(2)
-  if (var(VAR_RESULT) == 0) {
-    switch (var(VAR_RESULT)) {
-      case 0: message(format("We got some awesome new snacks in! The crunchies are my favorite!"))
-    }
+  if (randompercentage(33)) {
+    message(format("We got some awesome new snacks in! The crunchies are my favorite!"))
+    setflag(FUNNY_MESSAGES)
   } else {
     call(_Common_EventScript_Clerk_Hello)
   }
   waitmessage
   call(_Common_EventScript_GetBadgeCount)
-  switch(var(VAR_RESULT)) {
-    case 0: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Some)
-    case 1: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Some)
-    case 2: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Some)
-    case 3: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Some)
-    case 4: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Some)
-    case 5: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Some)
-    case 6: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Most)
-    case 7: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Most)
-    case 8: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_All)
+  if (var(VAR_RESULT) <= 5) {
+    pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Some)
+  } elif (var(VAR_RESULT) >= 6 && var(VAR_RESULT) < 8) {
+    pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Most)
+  } else {
+    pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_Items_Most)
   }
-  if (var(VAR_RESULT) == 0) {
+  if (flag(FUNNY_MESSAGES)) {
     msgbox(format("{FONT_SHORT}…munch… …munch…"))
+    clearflag(FUNNY_MESSAGES)
   } else {
     call(_Common_EventScript_Clerk_Goodbye)
   }
@@ -179,29 +176,22 @@ mart _LilycoveCity_DepartmentStore_2F_Pokemart_Items_All {
 script _LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight {
   lock
   faceplayer
-  random(3)
-  if (var(VAR_RESULT) == 0) {
-    switch (var(VAR_RESULT)) {
-      case 0: message(format("Sure, I'll let you touch my balls… But only if you ask nicely! Haha!"))
-    }
+  if (randompercentage(33)) {
+    message(format("Sure, I'll let you touch my balls… But only if you ask nicely! Haha!"))
+    setflag(FUNNY_MESSAGES)
   } else {
     call(_Common_EventScript_Clerk_Hello)
   }
   waitmessage
   call(_Common_EventScript_GetBadgeCount)
-  switch(var(VAR_RESULT)) {
-    case 0: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_Some)
-    case 1: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_Some)
-    case 2: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_Some)
-    case 3: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_Some)
-    case 4: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_Some)
-    case 5: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_Some)
-    case 6: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_All)
-    case 7: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_All)
-    case 8: pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_All)
+  if (var(VAR_RESULT) <= 5) {
+    pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_Some)
+  } else {
+    pokemart(_LilycoveCity_DepartmentStore_2F_Pokemart_PokeBalls_All)
   }
-  if (var(VAR_RESULT) == 0) {
+  if (flag(FUNNY_MESSAGES)) {
     msgbox(format("Seriously though, you're not gonna tell my boss I said that, are you?"))
+    clearflag(FUNNY_MESSAGES)
   } else {
     call(_Common_EventScript_Clerk_Goodbye)
   }

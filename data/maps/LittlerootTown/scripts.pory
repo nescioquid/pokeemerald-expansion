@@ -1032,49 +1032,27 @@ script _LittlerootTown_EventScript_GiveAdventureStartItems {
 script _LittlerootTown_EventScript_RandomizeAdventureStartItems {
   additem(ITEM_RARE_CANDY, RARE_CANDY_AMOUNT)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-  random(5)
-  switch (var(VAR_RESULT)) {
-    case 0: additem(ITEM_FRESH_WATER, 12)
-    case 1: additem(ITEM_FRESH_WATER, 6)
-    case 2: additem(ITEM_FRESH_WATER, 4)
-    case 3: additem(ITEM_FRESH_WATER, 2)
-    case 4: additem(ITEM_FRESH_WATER)
-  }
+  randomelement(12, 6, 4, 2, 1)
+  additem(ITEM_FRESH_WATER, VAR_RESULT)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-  random(6)
-  switch (var(VAR_RESULT)) {
-    case 0: additem(ITEM_SODA_POP, 12)
-    case 1: additem(ITEM_SODA_POP, 6)
-    case 2: additem(ITEM_SODA_POP, 4)
-    case 3: additem(ITEM_SODA_POP, 2)
-    case 4: additem(ITEM_SODA_POP)
-  }
+  randomelement(12, 6, 4, 2, 1, 0)
+  additem(ITEM_SODA_POP, VAR_RESULT)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-  random(5)
-  switch (var(VAR_RESULT)) {
-    case 0: additem(ITEM_LEMONADE, 6)
-    case 1: additem(ITEM_LEMONADE, 4)
-    case 2: additem(ITEM_LEMONADE, 2)
-    case 3: additem(ITEM_LEMONADE)
-  }
+  randomelement(6, 4, 2, 1, 0)
+  additem(ITEM_LEMONADE, VAR_RESULT)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-  random(6)
-  switch (var(VAR_RESULT)) {
-    case 0: additem(ITEM_MOOMOO_MILK, 6)
-    case 1: additem(ITEM_MOOMOO_MILK, 4)
-    case 2: additem(ITEM_MOOMOO_MILK, 2)
-    case 3: additem(ITEM_MOOMOO_MILK)
-  }
+  randomelement(6, 4, 2, 1, 0, 0)
+  additem(ITEM_MOOMOO_MILK, VAR_RESULT)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-  random(8)
-  switch (var(VAR_RESULT)) {
-    case 0: additem(ITEM_PEWTER_CRUNCHIES)
-    case 1: additem(ITEM_RAGE_CANDY_BAR)
-    case 2: additem(ITEM_LAVA_COOKIE, 12)
-    case 4: additem(ITEM_LAVA_COOKIE, 6)
-    case 5: additem(ITEM_LAVA_COOKIE, 4)
-    case 6: additem(ITEM_LAVA_COOKIE, 2)
-    case 7: additem(ITEM_LAVA_COOKIE)
+  if (randompercentage(67)) {
+    randomelement(12, 6, 4, 2, 1)
+    additem(ITEM_LAVA_COOKIE, VAR_RESULT)
+  } else {
+    randomelement(
+      ITEM_PEWTER_CRUNCHIES,
+      ITEM_RAGE_CANDY_BAR,
+    )
+    additem(VAR_RESULT)
   }
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
   playfanfare(MUS_OBTAIN_ITEM)

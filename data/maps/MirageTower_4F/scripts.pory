@@ -88,8 +88,7 @@ script _MirageTower_4F_EventScript_LeftFossil {
     setflag(FLAG_MIRAGE_TOWER_FOSSILS_RANDOMIZED)
   }
   bufferitemname(STR_VAR_1, VAR_LEFT_FOSSIL)
-  msgbox(format("You found the {STR_VAR_1}.\p If this Fossil is taken, the ground around it will likely crumble away…\p Take the {STR_VAR_1} anyway?"), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("You found the {STR_VAR_1}.\p If this Fossil is taken, the ground around it will likely crumble away…\p Take the {STR_VAR_1} anyway?"), MSGBOX_YESNO)) {
     msgbox(format("{PLAYER} chose to leave the {STR_VAR_1} alone."))
     release
     end
@@ -114,8 +113,7 @@ script _MirageTower_4F_EventScript_RightFossil {
     setflag(FLAG_MIRAGE_TOWER_FOSSILS_RANDOMIZED)
   }
   bufferitemname(STR_VAR_1, VAR_RIGHT_FOSSIL)
-  msgbox(format("You found the {STR_VAR_1}.\p If this Fossil is taken, the ground around it will likely crumble away…\p Take the {STR_VAR_1} anyway?"), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("You found the {STR_VAR_1}.\p If this Fossil is taken, the ground around it will likely crumble away…\p Take the {STR_VAR_1} anyway?"), MSGBOX_YESNO)) {
     msgbox(format("{PLAYER} chose to leave the {STR_VAR_1} alone."))
     release
     end
@@ -133,30 +131,22 @@ script _MirageTower_4F_EventScript_RightFossil {
 }
 
 script _MirageTower_4F_EventScript_RandomFossilGenerator {
-  random(9)
-  switch (var(VAR_RESULT)) {
-    case 0: setvar(VAR_LEFT_FOSSIL, ITEM_HELIX_FOSSIL)
-    case 1: setvar(VAR_LEFT_FOSSIL, ITEM_HELIX_FOSSIL)
-    case 2: setvar(VAR_LEFT_FOSSIL, ITEM_DOME_FOSSIL)
-    case 3: setvar(VAR_LEFT_FOSSIL, ITEM_DOME_FOSSIL)
-    case 4: setvar(VAR_LEFT_FOSSIL, ITEM_OLD_AMBER)
-    case 5: setvar(VAR_LEFT_FOSSIL, ITEM_ROOT_FOSSIL)
-    case 6: setvar(VAR_LEFT_FOSSIL, ITEM_ROOT_FOSSIL)
-    case 7: setvar(VAR_LEFT_FOSSIL, ITEM_CLAW_FOSSIL)
-    case 8: setvar(VAR_LEFT_FOSSIL, ITEM_CLAW_FOSSIL)
-  }
-  random(9)
-  switch (var(VAR_RESULT)) {
-    case 0: setvar(VAR_RIGHT_FOSSIL, ITEM_HELIX_FOSSIL)
-    case 1: setvar(VAR_RIGHT_FOSSIL, ITEM_HELIX_FOSSIL)
-    case 2: setvar(VAR_RIGHT_FOSSIL, ITEM_DOME_FOSSIL)
-    case 3: setvar(VAR_RIGHT_FOSSIL, ITEM_DOME_FOSSIL)
-    case 4: setvar(VAR_RIGHT_FOSSIL, ITEM_OLD_AMBER)
-    case 5: setvar(VAR_RIGHT_FOSSIL, ITEM_ROOT_FOSSIL)
-    case 6: setvar(VAR_RIGHT_FOSSIL, ITEM_ROOT_FOSSIL)
-    case 7: setvar(VAR_RIGHT_FOSSIL, ITEM_CLAW_FOSSIL)
-    case 8: setvar(VAR_RIGHT_FOSSIL, ITEM_CLAW_FOSSIL)
-  }
+  randomelement(
+    ITEM_HELIX_FOSSIL,
+    ITEM_DOME_FOSSIL,
+    ITEM_OLD_AMBER,
+    ITEM_ROOT_FOSSIL,
+    ITEM_CLAW_FOSSIL
+  )
+  copyvar(VAR_LEFT_FOSSIL, VAR_RESULT)
+  randomelement(
+    ITEM_HELIX_FOSSIL,
+    ITEM_DOME_FOSSIL,
+    ITEM_OLD_AMBER,
+    ITEM_ROOT_FOSSIL,
+    ITEM_CLAW_FOSSIL
+  )
+  copyvar(VAR_RIGHT_FOSSIL, VAR_RESULT)
   if (var(VAR_LEFT_FOSSIL) == VAR_RIGHT_FOSSIL) {
     call(_MirageTower_4F_EventScript_RandomFossilGenerator)
   }

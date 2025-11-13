@@ -5,8 +5,7 @@ script _Common_EventScript_GymGuide_GiveFreshWater {
   msgbox(format("Oh, and take these!"))
   giveitem(ITEM_FRESH_WATER, FRESH_WATER_AMOUNT)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-  random(7)
-  switch (var(VAR_RESULT)) {
+  switch (random(7)) {
     case 0: msgbox(format("Well, go for it!"))
     case 1: msgbox(format("Hey, okay, go for it!"))
     case 2: msgbox(format("Hey, go for it!"))
@@ -21,8 +20,7 @@ script _Common_EventScript_GymGuide_GiveRareCandy {
   msgbox(format("Oh, and take these!"))
   giveitem(ITEM_RARE_CANDY, RARE_CANDY_AMOUNT)
   goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-  random(3)
-  switch (var(VAR_RESULT)) {
+  switch (random(3)) {
     case 0: msgbox(format("Congrats on the big win!"))
     case 1: msgbox(format("Congrats!"))
     case 2: msgbox(format("Nice win!"))

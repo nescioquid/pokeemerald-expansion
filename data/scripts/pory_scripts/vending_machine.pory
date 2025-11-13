@@ -18,8 +18,8 @@ script _Common_EventScript_VendingMachine {
   copyvar(DRINK_CHOSEN, VAR_RESULT)
   switch (var(DRINK_CHOSEN)) {
     case ITEM_FRESH_WATER: checkmoney(200)
-    case ITEM_SODA_POP: checkmoney(300)
-    case ITEM_LEMONADE: checkmoney(400)
+    case    ITEM_SODA_POP: checkmoney(300)
+    case    ITEM_LEMONADE: checkmoney(400)
   }
   if (!var(VAR_RESULT)) {
     msgbox(format("Not enough money…"))
@@ -36,16 +36,16 @@ script _Common_EventScript_VendingMachine {
   }
   switch (var(DRINK_CHOSEN)) {
     case ITEM_FRESH_WATER: removemoney(200)
-    case ITEM_SODA_POP: removemoney(300)
-    case ITEM_LEMONADE: removemoney(400)
+    case    ITEM_SODA_POP: removemoney(300)
+    case    ITEM_LEMONADE: removemoney(400)
   }
   updatemoneybox
   bufferitemname(STR_VAR_1, DRINK_CHOSEN)
   playse(SE_VEND)
   switch (var(DRINK_CHOSEN)) {
-    case ITEM_FRESH_WATER: msgbox(format("Clang!\pA bottle of {STR_VAR_1} dropped down."))
-    case ITEM_SODA_POP: msgbox(format("Clang!\pA bottle of {STR_VAR_1} dropped down."))
-    case ITEM_LEMONADE: msgbox(format("Clang!\pA can of {STR_VAR_1} dropped down."))
+    case ITEM_FRESH_WATER: msgbox(format("Clang!\p A bottle of {STR_VAR_1} dropped down."))
+    case    ITEM_SODA_POP: msgbox(format("Clang!\p A bottle of {STR_VAR_1} dropped down."))
+    case    ITEM_LEMONADE: msgbox(format("Clang!\p A can of {STR_VAR_1} dropped down."))
   }
   additem(DRINK_CHOSEN)
   msgbox(format("{PLAYER} put away the {STR_VAR_1} in the Bag."))
@@ -57,14 +57,13 @@ script _Common_EventScript_VendingMachine {
 
 script _Common_EventScript_VendingMachine_ExtraCanOfDrinkDroppedDown {
   // 1/50 chance of an additional drink dropping
-  random(50)
-  switch (var(VAR_RESULT)) {
+  switch (random(50)) {
     case 0:
       playse(SE_VEND)
       switch (var(DRINK_CHOSEN)) {
-        case ITEM_FRESH_WATER: msgbox(format("Clang!\pScore! Another bottle of {STR_VAR_1} dropped down!"))
-        case ITEM_SODA_POP: msgbox(format("Clang!\pScore! Another bottle of {STR_VAR_1} dropped down!"))
-        case ITEM_LEMONADE: msgbox(format("Clang!\pScore! Another can of {STR_VAR_1} dropped down!"))
+        case ITEM_FRESH_WATER: msgbox(format("Clang!\p Score! Another bottle of {STR_VAR_1} dropped down!"))
+        case ITEM_SODA_POP: msgbox(format("Clang!\p Score! Another bottle of {STR_VAR_1} dropped down!"))
+        case ITEM_LEMONADE: msgbox(format("Clang!\p Score! Another can of {STR_VAR_1} dropped down!"))
       }
       additem(DRINK_CHOSEN)
       msgbox(format("{PLAYER} put away the {STR_VAR_1} in the Bag."))

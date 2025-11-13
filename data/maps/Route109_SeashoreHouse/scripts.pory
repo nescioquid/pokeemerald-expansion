@@ -207,22 +207,19 @@ script _Route109_SeashoreHouse_EventScript_Owner {
     setflag(FLAG_RECEIVED_6_SODA_POP)
   } else {
     showmoneybox(0, 0)
-    msgbox(format("Wanna buy some Soda Pop? Pokémon love it!\pJust ¥1800 for a six pack! Buy some!"), MSGBOX_YESNO)
-    if (!var(VAR_RESULT)) {
+    if (!msgbox(format("Wanna buy some Soda Pop? Pokémon love it!\pJust ¥1800 for a six pack! Buy some!"), MSGBOX_YESNO)) {
       msgbox(Route109_SeashoreHouse_Text_ThatsTooBad)
       hidemoneybox
       release
       end
     }
-    checkmoney(1800)
-    if (!var(VAR_RESULT)) {
+    if (!checkmoney(1800)) {
       msgbox(Route109_SeashoreHouse_Text_NotEnoughMoney)
       hidemoneybox
       release
       end
     }
-    checkitemspace(ITEM_SODA_POP, 6)
-    if (!var(VAR_RESULT)) {
+    if (!checkitemspace(ITEM_SODA_POP, 6)) {
       msgbox(gText_TooBadBagIsFull)
       hidemoneybox
       release

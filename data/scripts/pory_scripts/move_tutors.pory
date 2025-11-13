@@ -8,18 +8,21 @@ script _SlateportCity_PokemonFanClub_EventScript_MoveTutor {
   }
   if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_WATER_PULSE) {
     call(_Common_EventScript_WaterPulseTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_BULLET_SEED) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_BULLET_SEED) {
     call(_Common_EventScript_BulletSeedTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_GIGA_DRAIN) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_GIGA_DRAIN) {
     call(_Common_EventScript_GigaDrainTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_IRON_TAIL) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_IRON_TAIL) {
     call(_Common_EventScript_IronTailTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_SHOCK_WAVE) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_SHOCK_WAVE) {
     call(_Common_EventScript_ShockWaveTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_SNATCH) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == MOVE_SNATCH) {
     call(_Common_EventScript_SnatchTutor)
-  } else {
-    return
   }
   release
   end
@@ -29,14 +32,13 @@ script _MauvilleCity_EventScript_RolloutTutor {
   lock
   faceplayer
   if (!flag(FLAG_TEMP_1)) {
-    msgbox(MoveTutor_Text_RolloutTeach, MSGBOX_YESNO)
-    if (!var(VAR_RESULT)) {
+    if (!msgbox(MoveTutor_Text_RolloutTeach, MSGBOX_YESNO)) {
       msgbox(MoveTutor_Text_RolloutDeclined)
       release
       end
     }
     msgbox(MoveTutor_Text_RolloutWhichMon)
-    setvar(VAR_0x8005, MOVE_ROLLOUT)
+    setorcopyvar(VAR_0x8005, MOVE_ROLLOUT)
     call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_Text_RolloutDeclined)
@@ -54,14 +56,13 @@ script _VerdanturfTown_PokemonCenter_1F_EventScript_FuryCutterTutor {
   lock
   faceplayer
   if (!flag(FLAG_TEMP_1)) {
-    msgbox(MoveTutor_Text_FuryCutterTeach, MSGBOX_YESNO)
-    if (!var(VAR_RESULT)) {
+    if (!msgbox(MoveTutor_Text_FuryCutterTeach, MSGBOX_YESNO)) {
       msgbox(MoveTutor_Text_FuryCutterDeclined)
       release
       end
     }
     msgbox(MoveTutor_Text_FuryCutterWhichMon)
-    setvar(VAR_0x8005, MOVE_FURY_CUTTER)
+    setorcopyvar(VAR_0x8005, MOVE_FURY_CUTTER)
     call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_Text_FuryCutterDeclined)
@@ -79,14 +80,13 @@ script _LavaridgeTown_House_EventScript_MimicTutor {
   lock
   faceplayer
   if (!flag(FLAG_TEMP_1)) {
-    msgbox(MoveTutor_MimicTeach, MSGBOX_YESNO)
-    if (!var(VAR_RESULT)) {
+    if (!msgbox(MoveTutor_MimicTeach, MSGBOX_YESNO)) {
       msgbox(MoveTutor_MimicDeclined)
       release
       end
     }
     msgbox(MoveTutor_Text_MimicWhichMon)
-    setvar(VAR_0x8005, MOVE_MIMIC)
+    setorcopyvar(VAR_0x8005, MOVE_MIMIC)
     call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_MimicDeclined)
@@ -104,14 +104,13 @@ script _FallarborTown_Mart_EventScript_MetronomeTutor {
   lock
   faceplayer
   if (!flag(FLAG_TEMP_1)) {
-    msgbox(MoveTutor_Text_MetronomeTeach, MSGBOX_YESNO)
-    if (!var(VAR_RESULT)) {
+    if (!msgbox(MoveTutor_Text_MetronomeTeach, MSGBOX_YESNO)) {
       msgbox(MoveTutor_Text_MetronomeDeclined)
       release
       end
     }
     msgbox(MoveTutor_Text_MetronomeWhichMon)
-    setvar(VAR_0x8005, MOVE_METRONOME)
+    setorcopyvar(VAR_0x8005, MOVE_METRONOME)
     call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_Text_MetronomeDeclined)
@@ -135,18 +134,21 @@ script _FortreeCity_House2_EventScript_MoveTutor {
   }
   if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_WATER_PULSE) {
     call(_Common_EventScript_WaterPulseTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_BULLET_SEED) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_BULLET_SEED) {
     call(_Common_EventScript_BulletSeedTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_GIGA_DRAIN) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_GIGA_DRAIN) {
     call(_Common_EventScript_GigaDrainTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_IRON_TAIL) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_IRON_TAIL) {
     call(_Common_EventScript_IronTailTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_SHOCK_WAVE) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_SHOCK_WAVE) {
     call(_Common_EventScript_ShockWaveTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_SNATCH) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) == MOVE_SNATCH) {
     call(_Common_EventScript_SnatchTutor)
-  } else {
-    return
   }
   release
   end
@@ -162,18 +164,21 @@ script _LilycoveCity_DepartmentStoreRooftop_EventScript_MoveTutor {
   }
   if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_WATER_PULSE) {
     call(_Common_EventScript_WaterPulseTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_BULLET_SEED) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_BULLET_SEED) {
     call(_Common_EventScript_BulletSeedTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_GIGA_DRAIN) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_GIGA_DRAIN) {
     call(_Common_EventScript_GigaDrainTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_IRON_TAIL) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_IRON_TAIL) {
     call(_Common_EventScript_IronTailTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_SHOCK_WAVE) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_SHOCK_WAVE) {
     call(_Common_EventScript_ShockWaveTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_SNATCH) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3) == MOVE_SNATCH) {
     call(_Common_EventScript_SnatchTutor)
-  } else {
-    return
   }
   release
   end
@@ -183,14 +188,13 @@ script _MossdeepCity_EventScript_DynamicPunchTutor {
   lock
   faceplayer
   if (!flag(FLAG_TEMP_1)) {
-    msgbox(MoveTutor_Text_DynamicPunchTeach, MSGBOX_YESNO)
-    if (!var(VAR_RESULT)) {
+    if (!msgbox(MoveTutor_Text_DynamicPunchTeach, MSGBOX_YESNO)) {
       msgbox(MoveTutor_Text_DynamicPunchDeclined)
       release
       end
     }
     msgbox(MoveTutor_Text_DynamicPunchWhichMon)
-    setvar(VAR_0x8005, MOVE_DYNAMIC_PUNCH)
+    setorcopyvar(VAR_0x8005, MOVE_DYNAMIC_PUNCH)
     call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_Text_DynamicPunchDeclined)
@@ -208,14 +212,14 @@ script _SootopolisCity_PokemonCenter_1F_EventScript_DoubleEdgeTutor {
   lock
   faceplayer
   if (!flag(FLAG_TEMP_1)) {
-    msgbox(MoveTutor_Text_DoubleEdgeTeach, MSGBOX_YESNO)
-    if (!var(VAR_RESULT)) {
+    if (!
+    msgbox(MoveTutor_Text_DoubleEdgeTeach, MSGBOX_YESNO)) {
       msgbox(MoveTutor_Text_DoubleEdgeDeclined)
       release
       end
     }
     msgbox(MoveTutor_Text_DoubleEdgeWhichMon)
-    setvar(VAR_0x8005, MOVE_DOUBLE_EDGE)
+    setorcopyvar(VAR_0x8005, MOVE_DOUBLE_EDGE)
     call(_MoveTutor_EventScript_OpenPartyMenu)
     if (var(VAR_RESULT) == 0) {
       msgbox(MoveTutor_Text_DoubleEdgeDeclined)
@@ -239,18 +243,21 @@ script _PacifidlogTown_PokemonCenter_1F_EventScript_MoveTutor {
   }
   if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_WATER_PULSE) {
     call(_Common_EventScript_WaterPulseTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_BULLET_SEED) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_BULLET_SEED) {
     call(_Common_EventScript_BulletSeedTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_GIGA_DRAIN) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_GIGA_DRAIN) {
     call(_Common_EventScript_GigaDrainTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_IRON_TAIL) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_IRON_TAIL) {
     call(_Common_EventScript_IronTailTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_SHOCK_WAVE) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_SHOCK_WAVE) {
     call(_Common_EventScript_ShockWaveTutor)
-  } elif (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_SNATCH) {
+  }
+  if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4) == MOVE_SNATCH) {
     call(_Common_EventScript_SnatchTutor)
-  } else {
-    return
   }
   release
   end
@@ -261,14 +268,13 @@ script _SootopolisCity_House2_EventScript_DracoMeteorTutor {
   lock
   faceplayer
   if (!flag(FLAG_TEMP_1)) {
-  msgbox(format("If you wish, I can teach your Pokémon the strongest Dragon type move.\p Would you like your Pokémon to learn that move?"), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("If you wish, I can teach your Pokémon the strongest Dragon type move.\p Would you like your Pokémon to learn that move?"), MSGBOX_YESNO)) {
     msgbox(format("That is fine.\N Come back when you want them to wield true power."))
     release
     end
   }
   msgbox(format("Which Pokémon should learn this move?"))
-  setvar(VAR_0x8005, MOVE_DRACO_METEOR)
+  setorcopyvar(VAR_0x8005, MOVE_DRACO_METEOR)
   call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("That is fine.\N Come back when you want them to wield true power."))
@@ -285,14 +291,13 @@ script _SootopolisCity_House2_EventScript_DracoMeteorTutor {
 // Originally TM03
 script _Common_EventScript_WaterPulseTutor {
   if (!flag(FLAG_TEMP_1)) {
-  msgbox(format("The sound of the sea… It calms me.\p But sometimes, the crashing waves pound like a drum in my head.\p I call it a Water Pulse. Would your Pokémon like to hear it?"), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("The sound of the sea… It calms me.\p But sometimes, the crashing waves pound like a drum in my head.\p I call it a Water Pulse. Would your Pokémon like to hear it?"), MSGBOX_YESNO)) {
     msgbox(format("No?\N Then the ocean keeps its song to me."))
     release
     end
   }
   msgbox(format("Show me, then.\N Which Pokémon will learn the sea's beat?"))
-  setvar(VAR_0x8005, MOVE_WATER_PULSE)
+  setorcopyvar(VAR_0x8005, MOVE_WATER_PULSE)
   call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("No?\N Then the ocean keeps its song to me."))
@@ -307,14 +312,13 @@ script _Common_EventScript_WaterPulseTutor {
 // Originally TM09 
 script _Common_EventScript_BulletSeedTutor {
   if (!flag(FLAG_TEMP_1)) {
-  msgbox(format("I like filling my mouth with watermelon seeds, then spitting them out really fast!\p I call it my secret move, Bullet Seed!\p Want me to pass it to your Pokémon?"), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("I like filling my mouth with watermelon seeds, then spitting them out really fast!\p I call it my secret move, Bullet Seed!\p Want me to pass it to your Pokémon?"), MSGBOX_YESNO)) {
     msgbox(format("Hmph!\N Maybe you just can't handle my seedy technique!"))
     release
     end
   }
   msgbox(format("All right!\N Which Pokémon wants to learn?"))
-  setvar(VAR_0x8005, MOVE_BULLET_SEED)
+  setorcopyvar(VAR_0x8005, MOVE_BULLET_SEED)
   call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("Hmph!\N Maybe you just can't handle my seedy technique!"))
@@ -329,14 +333,13 @@ script _Common_EventScript_BulletSeedTutor {
 // Originally TM19
 script _Common_EventScript_GigaDrainTutor {
   if (!flag(FLAG_TEMP_1)) {
-  msgbox(format("I always get sleepy after lunch.\p It feels like the food just drains the strength out of me.\p Would you like me to teach your Pokémon Giga Drain, a move that drains energy instead?"), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("I always get sleepy after lunch.\p It feels like the food just drains the strength out of me.\p Would you like me to teach your Pokémon Giga Drain, a move that drains energy instead?"), MSGBOX_YESNO)) {
     msgbox(format("Oh, fine.\N I'll just nap and let the food win again…"))
     release
     end
   }
   msgbox(format("Then who will learn it?\N Show me your Pokémon."))
-  setvar(VAR_0x8005, MOVE_GIGA_DRAIN)
+  setorcopyvar(VAR_0x8005, MOVE_GIGA_DRAIN)
   call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("Oh, fine.\N I'll just nap and let the food win again…"))
@@ -351,14 +354,13 @@ script _Common_EventScript_GigaDrainTutor {
 // Originally TM23
 script _Common_EventScript_IronTailTutor {
   if (!flag(FLAG_TEMP_1)) {
-  msgbox(format("I broke my broom sweeping my room.\p If only I had a tail made of iron, I could smash rocks instead!\p Want me to teach your Pokémon the move Iron Tail?"), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("I broke my broom sweeping my room.\p If only I had a tail made of iron, I could smash rocks instead!\p Want me to teach your Pokémon the move Iron Tail?"), MSGBOX_YESNO)) {
     msgbox(format("Bah!\N Weak broom, weak answer!"))
     release
     end
   }
   msgbox(format("All right, then!\N Which Pokémon should I toughen up?"))
-  setvar(VAR_0x8005, MOVE_IRON_TAIL)
+  setorcopyvar(VAR_0x8005, MOVE_IRON_TAIL)
   call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("Bah!\N Weak broom, weak answer!"))
@@ -373,14 +375,13 @@ script _Common_EventScript_IronTailTutor {
 // Originally TM34
 script _Common_EventScript_ShockWaveTutor {
   if (!flag(FLAG_TEMP_1)) {
-  msgbox(format("Do you ever get a static shock when you touch a doorknob?\p I practiced until I could make that zap happen whenever I want!\p It's a Shock Wave. Want your Pokémon to learn it?"), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("Do you ever get a static shock when you touch a doorknob?\p I practiced until I could make that zap happen whenever I want!\p It's a Shock Wave. Want your Pokémon to learn it?"), MSGBOX_YESNO)) {
     msgbox(format("Oh, scared of a little zap?\N Don't wear wool, then!"))
     release
     end
   }
   msgbox(format("Heheh… Which Pokémon should I give the jolt to?"))
-  setvar(VAR_0x8005, MOVE_SHOCK_WAVE)
+  setorcopyvar(VAR_0x8005, MOVE_SHOCK_WAVE)
   call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("Oh, scared of a little zap?\N Don't wear wool, then!"))
@@ -395,14 +396,13 @@ script _Common_EventScript_ShockWaveTutor {
 // Originally TM49
 script _Common_EventScript_SnatchTutor {
   if (!flag(FLAG_TEMP_1)) {
-  msgbox(format("You ever seen a snack you wanted so badly, you just… took it?\p That's the art of the Snatch. No shame, just speed!\p Want your Pokémon to learn it?"), MSGBOX_YESNO)
-  if (!var(VAR_RESULT)) {
+  if (!msgbox(format("You ever seen a snack you wanted so badly, you just… took it?\p That's the art of the Snatch. No shame, just speed!\p Want your Pokémon to learn it?"), MSGBOX_YESNO)) {
     msgbox(format("Hmph!\N Guess you've never been hungry."))
     release
     end
   }
   msgbox(format("All right, then!\N Which Pokémon's got the sticky fingers?"))
-  setvar(VAR_0x8005, MOVE_SNATCH)
+  setorcopyvar(VAR_0x8005, MOVE_SNATCH)
   call(_MoveTutor_EventScript_OpenPartyMenu)
   if (var(VAR_RESULT) == 0) {
     msgbox(format("Hmph!\N Guess you've never been hungry."))
@@ -415,41 +415,37 @@ script _Common_EventScript_SnatchTutor {
 }
 
 script _Common_EventScript_RandomMoveTutorMoveGenerator {
-  random(6)
-  switch (var(VAR_RESULT)) {
-    case 0: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_WATER_PULSE)
-    case 1: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_BULLET_SEED)
-    case 2: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_GIGA_DRAIN)
-    case 3: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_IRON_TAIL)
-    case 4: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_SHOCK_WAVE)
-    case 5: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_SNATCH)
+  switch (random(6)) {
+    case 0: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_WATER_PULSE)
+    case 1: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_BULLET_SEED)
+    case 2: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_GIGA_DRAIN)
+    case 3: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_IRON_TAIL)
+    case 4: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_SHOCK_WAVE)
+    case 5: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1, MOVE_SNATCH)
   }
-  random(6)
-  switch (var(VAR_RESULT)) {
-    case 0: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_WATER_PULSE)
-    case 1: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_BULLET_SEED)
-    case 2: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_GIGA_DRAIN)
-    case 3: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_IRON_TAIL)
-    case 4: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_SHOCK_WAVE)
-    case 5: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_SNATCH)
+  switch (random(6)) {
+    case 0: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_WATER_PULSE)
+    case 1: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_BULLET_SEED)
+    case 2: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_GIGA_DRAIN)
+    case 3: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_IRON_TAIL)
+    case 4: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_SHOCK_WAVE)
+    case 5: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2, MOVE_SNATCH)
   }
-  random(6)
-  switch (var(VAR_RESULT)) {
-    case 0: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_WATER_PULSE)
-    case 1: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_BULLET_SEED)
-    case 2: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_GIGA_DRAIN)
-    case 3: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_IRON_TAIL)
-    case 4: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_SHOCK_WAVE)
-    case 5: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_SNATCH)
+  switch (random(6)) {
+    case 0: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_WATER_PULSE)
+    case 1: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_BULLET_SEED)
+    case 2: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_GIGA_DRAIN)
+    case 3: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_IRON_TAIL)
+    case 4: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_SHOCK_WAVE)
+    case 5: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_3, MOVE_SNATCH)
   }
-  random(6)
-  switch (var(VAR_RESULT)) {
-    case 0: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_WATER_PULSE)
-    case 1: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_BULLET_SEED)
-    case 2: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_GIGA_DRAIN)
-    case 3: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_IRON_TAIL)
-    case 4: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_SHOCK_WAVE)
-    case 5: setvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_SNATCH)
+  switch (random(6)) {
+    case 0: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_WATER_PULSE)
+    case 1: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_BULLET_SEED)
+    case 2: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_GIGA_DRAIN)
+    case 3: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_IRON_TAIL)
+    case 4: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_SHOCK_WAVE)
+    case 5: setorcopyvar(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_4, MOVE_SNATCH)
   }
   if (var(VAR_RANDOMIZED_MOVE_TUTOR_MOVE_1) == VAR_RANDOMIZED_MOVE_TUTOR_MOVE_2) {
     call(_Common_EventScript_RandomMoveTutorMoveGenerator)

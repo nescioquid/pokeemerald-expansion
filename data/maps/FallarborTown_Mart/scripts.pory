@@ -78,8 +78,7 @@ script _FallarborTown_Mart_EventScript_Pikachu {
   faceplayer
   waitse
   playmoncry(SPECIES_PIKACHU, CRY_MODE_NORMAL)
-  random(2)
-  switch (var(VAR_RESULT)) {
+  switch (random(2)) {
     case 0: msgbox(format("Pikachu: Pikaaaa!"))
     case 1: msgbox(format("Pikachu: Pika pika!"))
   }

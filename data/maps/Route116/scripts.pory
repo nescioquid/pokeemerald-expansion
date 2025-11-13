@@ -498,12 +498,10 @@ script _Route116_EventScript_DevonEmployee {
 script _Route116_EventScript_GlassesMan {
   lock
   faceplayer
-  checkitem(ITEM_WISE_GLASSES)
-  if (var(VAR_RESULT)) {
+  if (checkitem(ITEM_WISE_GLASSES)) {
     msgbox(Route116_Text_CanYouHelpMeFindGlasses)
     msgbox(Route116_Text_MayISeeThoseGlasses)
-    specialvar(VAR_RESULT, FoundWiseGlasses)
-    if (var(VAR_RESULT)) {
+    if (specialvar(VAR_RESULT, FoundWiseGlasses)) {
       msgbox(format("Hmm…\nThese are Wise Glasses.\lThey're not what I'm looking for…\pMaybe my glasses aren't around here…\p… … … … … …\n… … … … … …\pWait… They're still on my face! Haha, oops!"))
       closemessage
       goto(Route116_EventScript_GlassesManExit)
@@ -512,8 +510,7 @@ script _Route116_EventScript_GlassesMan {
     release
     end
   }
-  specialvar(VAR_RESULT, FoundWiseGlasses)
-  if (var(VAR_RESULT)) {
+  if (specialvar(VAR_RESULT, FoundWiseGlasses)) {
     msgbox(format("Hmm…\nI can't find my glasses anywhere…\lMaybe they're not around here…\p… … … … … …\n… … … … … …\pWait… They're still on my face! Haha, oops!"))
     closemessage
     goto(Route116_EventScript_GlassesManExit)

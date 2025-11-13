@@ -426,14 +426,10 @@ script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist {
 }
 
 script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist_CheckFossilsInBag {
-  checkitem(ITEM_HELIX_FOSSIL)
-  if (!var(VAR_RESULT)) {
-    checkitem(ITEM_DOME_FOSSIL)
-    if (!var(VAR_RESULT)) {
-      checkitem(ITEM_OLD_AMBER)
-      if (!var(VAR_RESULT)) {
-        checkitem(ITEM_ROOT_FOSSIL)
-        if (!var(VAR_RESULT)) {
+  if (!checkitem(ITEM_HELIX_FOSSIL)) {
+    if (!checkitem(ITEM_DOME_FOSSIL)) {
+      if (!checkitem(ITEM_OLD_AMBER)) {
+        if (!checkitem(ITEM_ROOT_FOSSIL)) {
           checkitem(ITEM_CLAW_FOSSIL)
         }
       }
@@ -442,15 +438,15 @@ script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist_CheckFossilsInBag 
 }
 
 script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist_DynMultichoice {
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_HELIX_FOSSIL)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_HELIX_FOSSIL)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_DOME_FOSSIL)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_DOME_FOSSIL)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_OLD_AMBER)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_OLD_AMBER)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_ROOT_FOSSIL)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_ROOT_FOSSIL)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
-  setvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_CLAW_FOSSIL)
+  setorcopyvar(PUSH_TO_DYNMULTISTACK_IF_IN_BAG, ITEM_CLAW_FOSSIL)
   call(_Common_EventScript_PushItemToDynmultistackIfInBag)
   dynmultistack(0, 0, FALSE, 6, FALSE, 0, DYN_MULTICHOICE_CB_SHOW_ITEM)
 }
@@ -458,24 +454,24 @@ script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist_DynMultichoice {
 script _RustboroCity_DevonCorp_2F_EventScript_FossilScientist_Givemon {
   switch (var(VAR_WHICH_FOSSIL_REVIVED)) {
     case ITEM_HELIX_FOSSIL:
-      setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_OMANYTE)
-      setvar(GIVEMON_HELPER_ARTICLE, 2)
+      setorcopyvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_OMANYTE)
+      setorcopyvar(GIVEMON_HELPER_ARTICLE, 2)
       givemon(SPECIES_OMANYTE, 25)
     case ITEM_DOME_FOSSIL:
-      setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_KABUTO)
-      setvar(GIVEMON_HELPER_ARTICLE, 1)
+      setorcopyvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_KABUTO)
+      setorcopyvar(GIVEMON_HELPER_ARTICLE, 1)
       givemon(SPECIES_KABUTO, 25)
     case ITEM_OLD_AMBER:
-      setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_AERODACTYL)
-      setvar(GIVEMON_HELPER_ARTICLE, 2)
+      setorcopyvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_AERODACTYL)
+      setorcopyvar(GIVEMON_HELPER_ARTICLE, 2)
       givemon(SPECIES_AERODACTYL, 25)
     case ITEM_ROOT_FOSSIL:
-      setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_LILEEP)
-      setvar(GIVEMON_HELPER_ARTICLE, 1)
+      setorcopyvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_LILEEP)
+      setorcopyvar(GIVEMON_HELPER_ARTICLE, 1)
       givemon(SPECIES_LILEEP, 25)
     case ITEM_CLAW_FOSSIL:
-      setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_ANORITH)
-      setvar(GIVEMON_HELPER_ARTICLE, 2)
+      setorcopyvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_ANORITH)
+      setorcopyvar(GIVEMON_HELPER_ARTICLE, 2)
       givemon(SPECIES_ANORITH, 25)
   }
   call(_Common_EventScript_GivemonHelper)

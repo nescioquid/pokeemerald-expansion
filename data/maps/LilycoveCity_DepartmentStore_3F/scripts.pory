@@ -109,31 +109,28 @@ mart _LilycoveCity_DepartmentStore_3F_Pokemart_Mail {
   ITEM_RETRO_MAIL
 }
 
+
+const FUNNY_MESSAGES = FLAG_TEMP_1
+
 script _LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight {
   lock
   faceplayer
-  random(3)
-  if (var(VAR_RESULT) == 0) {
-    switch (var(VAR_RESULT)) {
-      case 0: message(format("Hey kid, you wanna buy some drugs? Haha! Of course you do.\p{FONT_SMALL}It's the only reason anyone ever talks to me here…"))
-    }
+  if (randompercentage(33)) {
+    message(format("Hey kid, you wanna buy some drugs? Haha! Of course you do.\p {FONT_SMALL}It's the only reason anyone ever talks to me here…"))
+    setflag(FUNNY_MESSAGES)
   } else {
     call(_Common_EventScript_Clerk_Hello)
   }
   waitmessage
-  switch(var(VAR_RESULT)) {
-    case 0: pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_Some)
-    case 1: pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_Some)
-    case 2: pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_Some)
-    case 3: pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_Some)
-    case 4: pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_Some)
-    case 5: pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_Some)
-    case 6: pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_Some)
-    case 7: pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_All)
-    case 8: pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_All)
+  call(_Common_EventScript_GetBadgeCount)
+  if (var(VAR_RESULT) <= 6) {
+    pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_Some)
+  } else {
+    pokemart(_LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters_All)
   }
-  if (var(VAR_RESULT) == 0) {
+  if (flag(FUNNY_MESSAGES)) {
     msgbox(format("{FONT_SMALL}…I'm so lonely… Maybe I should get a hobby or something…"))
+    clearflag(FUNNY_MESSAGES)
   } else {
     call(_Common_EventScript_Clerk_Goodbye)
   }
