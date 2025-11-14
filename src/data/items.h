@@ -11839,8 +11839,8 @@ const struct Item gItemsInfo[] =
         .name = ITEM_NAME("TM64"),
         .price = 4000,
         .description = COMPOUND_STRING(
-            "Throws scorching sand\n"
-            "at the target.\n"
+            "Throws scorching\n"
+            "sand at the target.\n"
             "May burn the foe."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
