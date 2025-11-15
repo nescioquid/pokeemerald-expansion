@@ -25,7 +25,7 @@ script _Common_EventScript_Clerk_Hello {
       case 2: message(format("Hi! How can I help you?"))
     }
   } else {
-    random(16)
+    random(15)
     switch (var(VAR_RESULT)) {
       case  0: message(format("Welcome! How may I serve you?"))
       case  1: message(format("Welcome! How may I serve you?"))
@@ -42,7 +42,6 @@ script _Common_EventScript_Clerk_Hello {
       case 12: message(format("How's it going? Know what you want already?"))
       case 13: message(format("Hello, hello! What did you need?"))
       case 14: message(format("Hello, hello! What did you need?"))
-      case 15: message(format("{FONT_SMALL}Man, X items are so busted now, it's a joke…\p{FONT_NORMAL}Hey, what's up?"))
     }
   }
 }
@@ -212,6 +211,7 @@ mart _Common_Pokemart_Postgame {
   ITEM_FULL_RESTORE
   ITEM_FULL_HEAL
   ITEM_REVIVE
+  ITEM_MAX_REVIVE    // new
   ITEM_PP_MAX        // new
   ITEM_REPEL
   ITEM_SUPER_REPEL
