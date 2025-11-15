@@ -6114,7 +6114,6 @@ static const u16 sElectrodeTeachableLearnset[] = {
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
     MOVE_ENDURE,
-    MOVE_ENERGY_BALL, // Ttime100 added
     MOVE_EXPLOSION,
     MOVE_FACADE,
     MOVE_FLASH,
