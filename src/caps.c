@@ -18,6 +18,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, 42},
         {FLAG_BADGE04_GET, 45},
         {FLAG_BADGE05_GET, 48},
+        {FLAG_HIDE_ROUTE_119_TEAM_AQUA, 53}, // Triggers after defeating Shelly in Weather Institute
         {FLAG_BADGE06_GET, 56},
         {FLAG_BADGE07_GET, 65},
         {FLAG_BADGE08_GET, 72},
