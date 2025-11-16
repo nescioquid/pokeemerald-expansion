@@ -5803,7 +5803,7 @@ static s32 AI_ForceSetupFirstTurn(u32 battlerAtk, u32 battlerDef, u32 move, s32 
     case EFFECT_VICTORY_DANCE:
     case EFFECT_CEASELESS_EDGE:
     case EFFECT_STONE_AXE:
-        ADJUST_SCORE(DECENT_EFFECT);
+        ADJUST_SCORE(PERFECT_EFFECT); // Ttime100 changed from DECENT_EFFECT
         break;
     default:
         break;
