@@ -1,105 +1,93 @@
-# Instructions for macOS
-1. If the Xcode Command Line Tools are not installed, download the tools [here](https://developer.apple.com/xcode/resources/), open your Terminal, and run the following command:
+# Setting up on MacOS
 
-    ```bash
-    xcode-select --install
-    ```
+Before setting up **pokeemerald-expansion** itself, we need to ensure that our programming environment is configured correctly, and that all dependencies (the software that our software in turn relies on) are installed.
 
-2.  - If libpng is **not installed**, then go to [Installing libpng (macOS)](#installing-libpng-macos).
-    - If pkg-config is **not installed**, then go to [Installing pkg-config (macos)](#installing-pkg-config-macos).
-    - If devkitARM is **not installed**, then go to [Installing devkitARM (macOS)](#installing-devkitarm-macos).
-    - Otherwise, **open the Terminal** and go to [Choosing where to store pokeemerald-expansion (macOS)](#choosing-where-to-store-pokeemerald-expansion-macos)
+Installing dependencies on MacOS often involves both downloading an application from a web browser and running commands in the terminal.
 
-3. **Optional: To run tests**, if the homebrew environment is not installed, install the package manager using [this reference](https://brew.sh). Open your terminal and run the following commands:
+### Dependencies
 
-    ```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    brew install coreutils
-    ```
+The required dependencies that you can download right from the browser are as follows. **Make sure to open the newly downloaded installers and run them** as you would any other downloaded software:
 
-4. **Optional: To run tests via Rosetta**
-    - You probably don't want to do this as it's much slower. Most users can use native tools, but some may have other reasons to use this setup such as working with Intel-only custom tooling.
-    - You will need an Intel-compatible homebrew installation. Understanding how to get one can be found [here](https://github.com/Homebrew/brew/issues/9173#issuecomment-729206868).
-    - Install `coreutils` like in step 3, but using your Intel-compatible installation of homebrew.
+- **Xcode**: The main programming software suite for MacOS. Download it [here](https://developer.apple.com/xcode/resources/).
+- **python3**: A programming language the project uses to process files and automate tasks. Get the 
+latest version [here](https://www.python.org/downloads/macos/).
+- **dkp-pacman**: Used to manage dependencies for software like devkitARM (see below). Find the latest release of `devkitpro-pacman-installer.pkg` [here](https://github.com/devkitPro/pacman/releases).
 
-### Installing libpng (macOS)
-<details>
-    <summary><i>Note for advanced users...</i></summary>
+Those we'll install using the terminal are:
 
->   This guide installs libpng via Homebrew as it is the easiest method, however advanced users can install libpng through other means if they so desire.
-</details>
+- **Xcode CLT**: The _Command Line Interface (CLI) Tools_ for Xcode. It's how you'll interact with Xcode in your terminal.
+- **homebrew**: A package manager for MacOS. Software that installs other software, even more dependencies in this case!
+- **devkitARM**: A cross-compiler toolchain for building software for devices like the _Game Boy Advance_.
 
-1. Open the Terminal.
-2. If Homebrew is not installed, then install [Homebrew](https://brew.sh/) by following the instructions on the website.
-3. Run the following command to install libpng.
+### Xcode
 
-    ```bash
-    brew install libpng
-    ```
-    libpng is now installed.
+First, [download the Xcode application](#dependencies). Then run the following command in your terminal to also install its CLI tools:
 
-    Continue to [Installing pkg-config (macOS)](#installing-pkg-config-macos) if **pkg-config is not installed**. Otherwise, continue to [Installing devkitARM (macOS)](#installing-devkitarm-macos) if **devkitARM is not installed**.
+```console
+xcode-select --install
+```
 
-    If both pkg-config and devkitARM are already installed, go to [Choosing where to store pokeemerald-expansion (macOS)](#choosing-where-to-store-pokeemerald-expansion-macos).
+### Homebrew
 
-### Installing pkg-config (macOS)
-<details>
-    <summary><i>Note for advanced users...</i></summary>
+> 📣 _Got some Intel-only custom tooling going on? Need to run tests using Rosetta? You may want to [check out our notes](run_tests_with_rosetta.md) on the topic._
 
->   This guide installs pkg-config via Homebrew as it is the easiest method, however advanced users can install pkg-config through other means if they so desire.
-</details>
+If you haven't already, install the Homebrew package manager. The process involves copying the command provided on [Homebrew's website](https://brew.sh/) and running it:
 
-1. Open the Terminal.
-2. If Homebrew is not installed, then install [Homebrew](https://brew.sh/) by following the instructions on the website.
-3. Run the following command to install libpng.
+```console
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
-    ```bash
-    brew install pkg-config
-    ```
-    pkg-config is now installed.
+Certain packages are (more software is) required to manage the pokeemerald-expansion project and build its ROM. You can and should install these packages with Homebrew by running the following command:
 
-    Continue to [Installing devkitARM (macOS)](#installing-devkitarm-macos) if **devkitARM is not installed**, otherwise, go to [Choosing where to store pokeemerald-expansion (macOS)](#choosing-where-to-store-pokeemerald-expansion-macos).
+```console
+brew install libpng pkg-config coreutils
+```
 
-### Installing devkitARM (macOS)
-1. Download the `devkitpro-pacman-installer.pkg` package from [here](https://github.com/devkitPro/pacman/releases).
-2. Open the package to install devkitPro pacman.
-3. In the Terminal, run the following commands to install devkitARM:
+> 📝 Advanced users can, of course, install the depedencies by means other than Homebrew as desired.
 
-    ```bash
-    sudo dkp-pacman -Sy
-    sudo dkp-pacman -S gba-dev
-    sudo dkp-pacman -S devkitarm-rules
-    ```
+### devkitARM
 
-    The command with gba-dev will ask for the selection of packages to install. Just press Enter to install all of them, followed by entering Y to proceed with the installation.
+Ensure that you've [downloaded the devkitpro-pacman installer](#dependencies) and ran it successfully.
 
-4. After the tools are installed, devkitARM must now be made accessible from anywhere by the system. To do so, run the following commands:
+<!-- Queggs: Confirm my suspicion that you do, in fact, have to run these commands separately. -->
 
-    ```bash
-    export DEVKITPRO=/opt/devkitpro
-    echo "export DEVKITPRO=$DEVKITPRO" >> ~/.zshrc
-    export DEVKITARM=$DEVKITPRO/devkitARM
-    echo "export DEVKITARM=$DEVKITARM" >> ~/.zshrc
+In the terminal, run these commands in order. First:
 
-    echo "if [ -f ~/.zshrc ]; then . ~/.zshrc; fi" >> ~/.zprofile
-    ```
-    *Note: Starting with macOS 10.15, the default Unix shell is now zsh. If you migrated from an older version of macOS, you might still be using bash. You can check my running `echo $0` in the terminal.*
-    <details>
-        <summary><i>If your terminal is using bash instead of zsh...</i></summary>
+<!-- Queggs: Give an explanation for each? -->
 
-    ```bash
-    export DEVKITPRO=/opt/devkitpro
-    echo "export DEVKITPRO=$DEVKITPRO" >> ~/.bashrc
-    export DEVKITARM=$DEVKITPRO/devkitARM
-    echo "export DEVKITARM=$DEVKITARM" >> ~/.bashrc
+```console
+sudo dkp-pacman -Sy
+```
 
-    echo "if [ -f ~/.bashrc ]; then . ~/.bashrc; fi" >> ~/.bash_profile
-    ```
-    </details>
+<!-- Queggs: Shouldn't there be a flag like `-y` that we can pass in? -->
 
-### Installing Python (macOS)
-1. Download the latest Python package from [here](https://www.python.org/downloads/).
-2. Open the package to install Python.
+The following command will ask you about which packages to install. Just press `enter` to install all of them, then `y` (as in "yes") to continue the installation.
 
-Python is now installed.
+```console
+sudo dkp-pacman -S gba-dev
+```
 
+Then finally:
+
+```console
+sudo dkp-pacman -S devkitarm-rules
+```
+
+<!-- Queggs: Why is this only necessary for MacOS? -->
+
+<!-- Queggs: We could do this instead as a shell script called by the user that would also handle the Bash case? -->
+
+Afterwards, devkitARM now needs to be made accessible from anywhere by your system. To do so, run the following script (yes, the entire thing):
+
+> 📣 _Migrated from an older version of MacOS? Still running Bash? You probably want to [use this script](still_running_bash.md) instead!_
+
+```console
+export DEVKITPRO=/opt/devkitpro
+echo "export DEVKITPRO=$DEVKITPRO" >> ~/.zshrc
+export DEVKITARM=$DEVKITPRO/devkitARM
+echo "export DEVKITARM=$DEVKITARM" >> ~/.zshrc
+
+echo "if [ -f ~/.zshrc ]; then . ~/.zshrc; fi" >> ~/.zprofile
+```
+
+And that's it! Now you're ready to [set up pokeemerald-expansion](../set_up_guide.md)!
