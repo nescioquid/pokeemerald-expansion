@@ -1,142 +1,102 @@
-# Contributing to pokeemerald-expansion
+# Make a Contribution
 
-First off, thanks for helping improve `pokeemerald-expansion`! ❤️
+> 📣 _Did you know? this guide was based on [CONTRIBUTING.md's generator](https://contributing.md/generator)!_
 
-All contributions are encouraged and valued. Please make sure to read the relevant section before making your contribution! It will make it a lot easier for you and the maintainers. We're excited to see your contributions. 🎉
+First off, thanks for wanting to help improve **pokeemerald-expansion**!
 
-## Bug Reports
+All contributions are encouraged and valued. Please take a moment to read the relevant section here before making yours, it makes everything easier for all of us. We're excited to see your contributions! 🎉
 
-We use [GitHub](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen+label%3Abug) issues to track bugs. 
+Take a look at the sections below to learn about [reporting bugs](#reporting-a-bug), [requesting features](#requesting-a-feature), or [submitting pull requests](#submitting-a-pull-request).
 
-### What should I do before making a bug report?
+### Reporting a bug
 
-- Does your bug occur on the latest unmodified (clean) version of the [`upcoming`](https://github.com/rh-hideout/pokeemerald-expansion/tree/upcoming) or [`master`](https://github.com/rh-hideout/pokeemerald-expansion/tree/master) branch? If not, please do not submit a report - the issue is most likely one introduced by your game.
-- Has somebody else already found this issue? This is best done by searching the [bug tracker](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=label%3Abug) to see if anybody else reported it. If there is already an issue, replying to the exsting issue with more information can help solve the problem.
+Found a bug? We use [GitHub Issues](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen+label%3Abug) to keep track of them.
 
-### How do I submit a bug report?
+#### What should I do before reporting a bug?
 
-If you run into an issue with the project, open an [issue](https://github.com/rh-hideout/pokeemerald-expansion/issues/new). 
+<!-- Queggs: What should you do if you have a bug in your own hack? We shouldn't tell the user what _not_ to do and then leave them hanging. -->
 
-The best bug reports have enough information that we won't have to contact you for more information. We welcome all efforts to improve pokeemerald-expansion, but would be very grateful if you completed as much of the checklist as possible in your bug report. This will help other contributiors fix your issue.
+First **confirm that your bug occurs** on the latest clean (unmodified) version of the `upcoming` or `master` branch. If not, please do _not_ open an issue --you most likely introduced the bug yourself in your local changes.
 
-### What happens after I submit a bug report?
+Then **you should look through** the [bugs already being tracked](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=label%3Abug) on GitHub Issues to see if anybody else has the same problem. If there already is an issue open, replying to it with more information about the bug can help solve it.
 
-- A maintainer will [label](https://github.com/rh-hideout/pokeemerald-expansion/labels) the bug report.
-- A maintainer will try to reproduce the bug with your provided steps.
-    - If there are no reproduction steps or no obvious way to reproduce the issue, somebody will ask you for those steps. Until the bug can be reproduced, the bug will retain the `bug:unconfirmed` label. Unconfirmed bugs are less likely get fixed.
-- If the team is able to reproduce the bug, it will be labeled `bug:confirmed`, and the bug will be left to be [fixed by someone](#Pull-Requests).
-    - If the issue is particularly game-breaking, a maintainer will add it to a future version's [milestone](), meaning that version will not be released until the problem is solved.
+#### How do I report a bug?
 
-## Feature Requests
+If you do find a bug that's not already being tracked, [open a new issue](https://github.com/rh-hideout/pokeemerald-expansion/issues/new) for it on GitHub. 
 
-This section guides you through submitting a feature request for pokeemerald-expansion, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
+Please try to report as much information about how to reproduce the bug as possible, it saves everyone a lot of time not having to track down more information from you later. We welcome all efforts to improve the project, but please complete as much of the checklist as possible when opening your issue.
 
-- We use [GitHub](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen+label%3Afeature-request) issues to track feature requests. 
+#### What happens after I report a bug?
 
-### What should I do before making a feature request?
+One of the maintainers will [label the issue](https://github.com/rh-hideout/pokeemerald-expansion/labels) that you've opened.
 
-- Make sure your request is in [pokeemerald-expansion's scope](docs/team_procedures/scope.md) - if it is not clear if something is in scope, you can start a discussion thread in the [#pr-discussions](https://discord.com/channels/419213663107416084/1102784418369785948) channel of the [the RHH Discord Server](https://discord.gg/6CzjAG6GZk).
+Then they'll try to reproduce the bug with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, **we'll ask you for those steps**. Until the bug can be reproduced, the bug will stay labed as `bug:unconfirmed`.
 
-### What should I do before making a feature request?
+> 💡 Unconfirmed bugs are less likely get fixed, so please include steps to reproduce yours as much as you can.
 
-- Read the [documentation](https://rh-hideout.github.io/pokeemerald-expansion/) to find out if the functionality is already covered, maybe by an individual configuration.
-- Perform a [search](https://github.com/rh-hideout/pokeemerald-expansion/issues) to see if the feature has already been requested. If it has, add a comment to the existing issue instead of opening a new one.
+If we're able to reproduce the bug, we'll labeel it `bug:confirmed`, and your reported bug is ready to be fixed by any contributor (like you!) with a [pull request](#submitting-a-pull-request).
 
-### How do I submit a feature request?
+### Requesting a feature
 
-To request a feature to be added to the project, open a [feature request](https://github.com/rh-hideout/pokeemerald-expansion/issues/new). 
+We use [GitHub Issues](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen+label%3Afeature-request) to keep track of requested features. 
 
-### What happens after I submit a feature request?
+#### What should I do before requesting a feature?
 
-- A maintainer will [label](https://github.com/rh-hideout/pokeemerald-expansion/labels) the issue.
-- If the feature request is out of [scope](docs/team_procedures/scope.md), it will be closed.
-- if the request is in scope, any other contributor can volunteer to [fufill it via a pull request](#Pull-Requests). When the request is filled, the request will be closed.
+You should **confirm if the functionality already exists** or not by [reading the documentation](https://rh-hideout.github.io/pokeemerald-expansion/).
 
-## Pull Requests
+Also **make sure that it's within the project's scope** by [reading this document](docs/team_procedures/scope.md) that defines ours.
 
-If you have read all of this and still need help, feel free to start a thread in #pr-discussions of the Discord server or ask questions in #expansion-dev.
+> 💡 If you're still not sure whether something is in scope or not after doing your reading, you can start a discussion thread in the [#pr-discussions](https://discord.com/channels/419213663107416084/1102784418369785948) channel of our Discord server.
 
-### What should I do before starting a pull request?
+Then **you should search** through the [new features we're implementing](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=state%3Aopen%20label%3Anew-feature) and the [features others have already requested](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=state%3Aopen%20label%3Afeature-request), and see if others have already opened an issue requesting the same feature. If someone already has, add a comment with your ideas.
 
-- If you're new to git and GitHub, [Team Aqua's Asset Repo](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/) has a [guide on forking and cloning the repository](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub). Make sure you have a [local copy](INSTALL.md) of `pokeemerald-expansion`.
-- Make sure your contribution is in [scope](docs/team_procedures/scope.md) - if it is not clear if something is in scope, you can start a discussion thread in the [#pr-discussions](https://discord.com/channels/419213663107416084/1102784418369785948) channel of the [the RHH Discord Server!](https://discord.gg/6CzjAG6GZk).
-- Choose a branch to contribute your PR to:
-    - **`master`**: Fixes for bugs that are currently present in the `master` branch.
-    - **`upcoming`**: All other pull requests.
-- Create a new branch from the most recent version of the branch you've chosen.
-- If your contribution introduces, removes, or changes a lot of existing code, we reccomend getting a maintainer to agree to review it before you start on the work! We have a table that lists all [current maintainers and their areas of expertise](#maintainers).
+#### How do I request a feature?
 
-### How do I submit a pull request?
+If you have a feature in mind that hasn't already been requested, [open a new issue](https://github.com/rh-hideout/pokeemerald-expansion/issues/new) for it on GitHub. 
 
-#### 1. Get a working local copy
-If you haven't already, follow [INSTALL.md](INSTALL.md) to get a working local copy of `pokeemerald-expansion`.
+#### What happens after I request a feature?
 
-#### 2. Set RHH as a remote
-This will designate the main `pokeemerald-expansion` repository as a remote.
-```bash
-git remote add RHH https://github.com/rh-hideout/pokeemerald-expansion # You can replace RHH with anything you want. This tutorial assumes you used RHH.
-```
+One of the maintainers will [label the issue](https://github.com/rh-hideout/pokeemerald-expansion/labels) that you've opened.
 
-#### 3. Create a new branch
-This will create a new branch and switch to it.
-```bash
-git switch -c newFeature # the name newFeature can be anything you want. This tutorial assumes you used newFeature.
-```
+If the feature requested already exists or is out of the scope, it will be closed.
 
-#### 4. Copy your target branch to your new branch
-This will change your new branch to match the latest version of your chosen target branch.
-```bash
-git reset --hard upcoming # If your PR is going to target master, replace upcoming with master.
-```
+If the request is in scope, any contributor (like you!) can volunteer to implement the requested feature with a [pull request](#submitting-a-pull-request).
 
-#### 5. Implement your code
-All of your work should go on this new, clean branch. If you already started work on a different branch, you can [cherry-pick](https://git-scm.com/docs/git-cherry-pick) you old commits onto this new branch, or just copy and paste the changes from the original files.
+### Submitting a pull request
 
-##### Popular Features / Feature Branches
+The primary way a change to the pokeemerald-expansion project is submitted, discussed, and adopted is with a **pull request** (PR) on GitHub. They're a major reason why GitHub is so popular among programmers to store and manage their code.
 
-If you are implementing functionality from a known community feature branch, it is **strongly** recommended that you open a discussion thread _before_ starting. There are some situations where maintainers would ask you to use the existing feature branch as a base, and others where maintainers would want a feature to be written from scratch.
+#### What should I do before creating a pull request?
 
-This changes on a case by case basis.
+Start by **making sure that your idea is within the project's scope** by [reading this document](docs/team_procedures/scope.md) that defines ours. If you're planning on fixing a bug, your idea is within scope.
 
-#### 6. Push your changes
-When you push your first commit, you'll need to push the new branch to the remote repo.
-```bash
-git push --set-upstream origin newFeature
-```
+> 💡 If you're still not sure whether something is in scope or not after doing your reading, you can start a discussion thread in the [#pr-discussions](https://discord.com/channels/419213663107416084/1102784418369785948) channel of our Discord server.
 
-#### 7. Open Pull Request
-Once your work is complete and pushed to the branch on Github, you can open a [pull request from your branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork), targeting the branch you've chosen from `pokeemerald-expansion`. Please fill out the pull request description as completely as possible. 
+Then, **create a new branch** from the most recent version of one of the following:
 
-### What happens after I submit a pull request?
+- **master**: If you're submitting a fix for a bug currently present in the `master` branch.
+- **upcoming**: If you're submitting anything else.
 
-A maintainer will then assign themselves as a reviewer of your pull request, and may provide feedback in the form of a PR review. 
+Then, **write the code**. Create your solution, solve your problem, fix that bug!
 
-Contributors are responsible for responding to and updating their branch by addressing the feedback in the review. Contributors are also responsible for making sure the branch passes the checklist at all times.
+> 📝 If your contribution's going to introduce, remove, or change a lot of existing code, we recommend getting [one of the maintainers](docs/other_pages/maintainers.md) to agree to review it before you start hacking.
 
-Once a maintainer has begun reviewing your PR, **please** do not force-push new changes - normal pushes are fine. Do not worry about git history - we squash most incoming changes.
+> 💡 You can check out this short guide on how to [use Git for your first pull request](docs/other_pages/git_for_pull_requests.md) if you need help getting started with Git, and you can take a look at the guide to [The Basics of Git and GitHub](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub) kindly provided by our friends at [Team Aqua's Hideout](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/) to learn more.
 
-Maintainers will measure the submitted pull request against a [merge checklist](docs/team_procedures/merge_checklist.md).
+#### How do I submit a pull request?
+
+<!-- Queggs: The current install flow does NOT assume that you've connected your project to GitHub unless the user has happened to have followed along with TAAR's BoGG guide. -->
+
+Once your work is complete and pushed to a branch on GitHub, you can [open a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) from your branch, targeting RHH's `master` or `upcoming` branches. Please fill out the pull request description as completely as possible.
+
+#### What happens after I submit a pull request?
+
+One of the maintainers will assign themselves as a reviewer of your pull request, and may provide feedback in the form of a pull request review. 
+
+> ⚠️ **Do not force-push** new changes once a maintainer has begun reviewing your pull request, please: normal pushes are fine. And don't worry about the git history --we squash most incoming changes anyway.
+
+Contributors (you) are responsible for responding to and updating their branch by addressing the feedback in the review. It's also your responsibility to make sure the branch passes the checklist at all times.
+
+The maintainers then measure the submitted pull request against a [merge checklist](docs/team_procedures/merge_checklist.md).
 
 Once all items on the merge checklist are true, the branch will be merged in.
-
-
-## Maintainers
-
-This list was last updated 2025 April 1.
-
-| Name | Discord | Currently Active | Areas of Expertise |
-| --- | --- | --- | --- |
-| [Alex](https://github.com/AlexOn1ine) | rainonline | ✅ | Battle Engine, Battle AI
-| [Egg](https://github.com/DizzyEggg) | egg9255 | ✅ | Battle Engine, Battle AI
-| [ghoulslash](https://github.com/ghoulslash) | ghoulslash | ✅ | Dexnav, Overworld, Battle Engine
-| [Jasper](https://github.com/Bassoonian) | bassoonian | ✅ | Berries, Day / Night System, Followers, Feature Branches
-| [MGriffin](https://github.com/mrgriffin) | mgriffin | ✅ | Tests, Trainer Control
-| [psf](https://github.com/pkmnsnfrn) | pkmnsnfrn | ✅ | Rematches, Difficulty, Trainer Slides, Fake RTC, Fishing Minigames, Imperial / Metric, OW Item Balls, Sky Battles
-| [Hedara](https://github.com/hedara90) | hedara | ✅ | Compression, Sprites
-| [Pawkkie](https://github.com/Pawkkie) | pawkkie | ✅ | Battle AI
-| [SBird](https://github.com/SBird1337) | karathan | ✅ | Dynamic Multichoice, Damage Calculation, Animations, Trainer Control, Tests
-| [Agustin](https://github.com/AgustinGDLV) | agustingdlv | Inactive | Gimmicks, Battle Engine, Tests, Items
-| [tertu](https://github.com/tertu-m) | tertu | Inactive | Randomizer
-
-## Attribution
-This guide is based on the [contributing.md](https://contributing.md/generator)!
