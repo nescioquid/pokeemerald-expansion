@@ -25,8 +25,6 @@ wsl --install -d Ubuntu --enable-wsl1
 
 > 💡 In Both Powershell and WSL, you can paste text with a `Right-click`.
 
-<!-- Queggs: Test to see if this is still true. On my machine, it opens a Bash session directly in Powershell. -->
-
 WSL may variously open automatically in a new window, open a session directly in the Powershell window, or prompt you to restart your machine before continuing.
 
 Regardless, restart your machine once the process finishes.
@@ -60,8 +58,6 @@ sudo apt install build-essential binutils-arm-none-eabi gcc-arm-none-eabi libnew
 ```
 
 ### Where to set up pokeemerald-expansion with WSL1?
-
-<!-- Queggs: If I'm not mistaken, this isn't the reason why the project is stored on the Windows file system with this approach? -->
 
 WSL1 has its own file system that's not natively accessible from Windows, but Windows files _are_ accessible from WSL1. For that reasion, we're going to store pokeemerald-expansion within the Windows file system, but we still need to interact with them using WSL1's command line.
 

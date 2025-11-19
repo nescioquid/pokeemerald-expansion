@@ -1,13 +1,9 @@
 # Using Git for your first pull request
 
-<!-- Queggs: The current install flow does NOT assume that you've connected your project to GitHub or have any kind of repo at `origin` unless the user has happened to have followed along with TAAR's BoGG guide. -->
-
 > 📣 _Heads up! This guide assumes you've already successfully [set up a local copy](../install/set_up_guide.md) of the pokeemerald-expansion project._
 
 
 Ready to share your changes with us and be a ROM Hacking Hideout contributor, but are stil shaky with Git commands? You're in the right place!
-
-<!-- Queggs: Wouldn't RHH already be designated as the upstream? Why not ensure that? -->
 
 You'll need to make sure you've **set RHH as a remote** first. You can do that by running:
 
@@ -17,13 +13,9 @@ git remote add RHH https://github.com/rh-hideout/pokeemerald-expansion
 
 Then, **create a new branch**. This command creates a new branch and switches to it. You need to pass in a name the new branch as well. For instance, if you were working on a feature that implements a new minigame called the Corsola Cup, you might call your new branch:
 
-<!-- Queggs: Do we care if the incoming feature branch is always in camelCase? -->
-
 ```console
 git switch -c corsolaCupMiniGame
 ```
-
-<!-- Queggs: Why aren't we having them just checkout the upstream branch? That would give the expectation that we're having them build on top of the main branches? -->
 
 Make sure to **copy your target branch to your new branch**. This will change your new branch to match the latest version of your chosen target branch.
 

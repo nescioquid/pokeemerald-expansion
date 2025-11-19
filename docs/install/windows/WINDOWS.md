@@ -29,8 +29,6 @@ wsl --install -d Ubuntu
 
 > 💡 In Both Powershell and WSL, you can paste text with a `Right-click`.
 
-<!-- Queggs: Test to see if this is still true. On my machine, it opens a Bash session directly in Powershell. -->
-
 WSL may variously open automatically in a new window, open a session directly in the Powershell window, or prompt you to restart your machine before continuing.
 
 > 💡 You can search for WSL under either "WSL" or "Ubuntu" if and as needed. They're functionally the same program listed under two different names.

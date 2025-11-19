@@ -6,8 +6,6 @@ Well, most of them. _We've already done a lot of the work for you!_
 
 ### Upgraded Battle Engine
 
-<!-- Queggs: This source link is broken. -->
-
 <!-- - **Every item, ability and move effect up to Generation IX**: Includes contest data up to SwSh ([source](https://pokemonurpg.com/info/contests/rse-move-list/)). -->
 
 - **Battle gimmicks**: Mega Evolution, Primal Reversion, Ultra Burst, Z-Moves, Dynamax, Gigantamax and Terastallization.

@@ -26,8 +26,6 @@ Then, we'll **set up your repository**. We'll learn about tools like Git and web
 
 ### Got it! What's next?
 
-<!-- Queggs: Titles for these pages could be "Setup on Windows"? "Setting up on MacOS"?  -->
-
 Great question! The next thing you'll do is find your way to the setup guide appropriate for your operating system. We provide guides for [Windows](install/windows/WINDOWS.md), [MacOS](install/mac_os/MAC_OS.md), [Linux](install/linux/LINUX.md), and [ChromeOS](install/chrome_os/CHROME_OS.md).
 
 > 💡 If you run into trouble, you can always ask for help on our [Discord server](https://discord.gg/6CzjAG6GZk).

@@ -18,10 +18,6 @@ Where `<output-of-nproc>` is the value that the `nproc` command returned. So, if
 
 And that's it! Happy (even faster) hacking!
 
-<!-- Queggs: Confirm capitalization of MacOS everywhere. -->
-
-<!-- Queggs: Make this note for Mac users into a separate page with a callout link above? -->
-
 > 📝 The `nproc` command is _not_ available on MacOS, and the alternative is `sysctl -n hw.ncpu`. See this [Stack Overflow thread](https://stackoverflow.com/questions/1715580) for more information.
 
 > 📝 See the [GNU docs](https://www.gnu.org/software/make/manual/html_node/Parallel.html) and this [Stack Exchange thread](https://unix.stackexchange.com/questions/208568) for more information on parallel builds.

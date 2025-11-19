@@ -6,8 +6,6 @@ Now that we've got our programming environment set up, we're ready get our own c
 
 > 💡 If you're new to Git and GitHub or unsure of the differences, we politely (but firmly) suggest that you take a look at this guide to [The Basics of Git and GitHub](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub) kindly provided by our friends at [Team Aqua's Hideout](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/) to learn about how to fork and clone the Git repository (get your own copy of the project both online and on your machine).
 
-<!-- Queggs: Which of the two is the user supposed to do? Are they supposed to make their own fork and clone their own repository, like in the TAAR guide? or are they supposed to just clone the base project? -->
-
 ### Cloning the repository from GitHub
 
 > ⚠️ **Do not use** GitHub's "Download Zip" option. It doesn't include commit history, which you need to get future updates or merge any feature branches. Follow the instructions below instead.
@@ -63,8 +61,6 @@ tools/gbafix/gbafix pokeemerald.gba -p --silent
 Finally, the newly built ROM will be in the base directory (the project folder) as `pokeemerald.gba`.
 
 **Congratulations on successfully building your ROM**. _Happy hacking!_ 🎉
-
-<!-- Queggs: Add a call to action to next steps, like a guide to making your first commit. -->
 
 Feel free to brag about your achievement in our [Discord server](https://discord.gg/6CzjAG6GZk)!
 

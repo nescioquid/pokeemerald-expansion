@@ -1,7 +1,5 @@
 # Credits
 
-<!-- Queggs: Is this a zombie comment? Let's remove it? -->
-
 <!-- ## Old List of Credits -->
 <!-- - **mvit**: ability pop up and mega evo gfx -->
 <!-- - **Doesnt**: berries gfx, pokeball particles -->

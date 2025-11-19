@@ -14,8 +14,6 @@ Found a bug? We use [GitHub Issues](https://github.com/rh-hideout/pokeemerald-ex
 
 #### What should I do before reporting a bug?
 
-<!-- Queggs: What should you do if you have a bug in your own hack? We shouldn't tell the user what _not_ to do and then leave them hanging. -->
-
 First **confirm that your bug occurs** on the latest clean (unmodified) version of the `upcoming` or `master` branch. If not, please do _not_ open an issue --you most likely introduced the bug yourself in your local changes.
 
 Then **you should look through** the [bugs already being tracked](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=label%3Abug) on GitHub Issues to see if anybody else has the same problem. If there already is an issue open, replying to it with more information about the bug can help solve it.
@@ -84,8 +82,6 @@ Then, **write the code**. Create your solution, solve your problem, fix that bug
 > 💡 You can check out this short guide on how to [use Git for your first pull request](docs/other_pages/git_for_pull_requests.md) if you need help getting started with Git, and you can take a look at the guide to [The Basics of Git and GitHub](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub) kindly provided by our friends at [Team Aqua's Hideout](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/) to learn more.
 
 #### How do I submit a pull request?
-
-<!-- Queggs: The current install flow does NOT assume that you've connected your project to GitHub unless the user has happened to have followed along with TAAR's BoGG guide. -->
 
 Once your work is complete and pushed to a branch on GitHub, you can [open a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) from your branch, targeting RHH's `master` or `upcoming` branches. Please fill out the pull request description as completely as possible.
 

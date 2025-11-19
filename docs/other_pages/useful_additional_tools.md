@@ -1,7 +1,5 @@
 # Useful additional tools
 
-<!-- Queggs: This could be reworked into its own dedicated page, footer/coda, or perhaps a sitemap base in the wiki. -->
-
 - [porymap](https://github.com/huderlem/porymap) for viewing and editing maps
 - [porytiles](https://github.com/grunt-lucas/porytiles) for add new metatiles for maps
 - [poryscript](https://github.com/huderlem/poryscript) for scripting ([VS Code extension](https://marketplace.visualstudio.com/items?itemName=karathan.poryscript))

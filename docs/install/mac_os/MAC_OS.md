@@ -49,17 +49,11 @@ brew install libpng pkg-config coreutils
 
 Ensure that you've [downloaded the devkitpro-pacman installer](#dependencies) and ran it successfully.
 
-<!-- Queggs: Confirm my suspicion that you do, in fact, have to run these commands separately. -->
-
 In the terminal, run these commands in order. First:
-
-<!-- Queggs: Give an explanation for each? -->
 
 ```console
 sudo dkp-pacman -Sy
 ```
-
-<!-- Queggs: Shouldn't there be a flag like `-y` that we can pass in? -->
 
 The following command will ask you about which packages to install. Just press `enter` to install all of them, then `y` (as in "yes") to continue the installation.
 
@@ -72,10 +66,6 @@ Then finally:
 ```console
 sudo dkp-pacman -S devkitarm-rules
 ```
-
-<!-- Queggs: Why is this only necessary for MacOS? -->
-
-<!-- Queggs: We could do this instead as a shell script called by the user that would also handle the Bash case? -->
 
 Afterwards, devkitARM now needs to be made accessible from anywhere by your system. To do so, run the following script (yes, the entire thing):
 

@@ -16,8 +16,6 @@ This project was originally made by ROM hackers who wanted to add cool new featu
 
 <!-- Adapted from docs/misc/from_the_wiki/About-the-Project.md. -->
 
-<!-- Queggs: Can we add some hyperlinks to pages that show off the code that powers these features? -->
-
 - Added all the new Pokémon and made them available in the National Dex
 - Updated their base stats and other data through the latest games
 - Added in all the new moves and abilities

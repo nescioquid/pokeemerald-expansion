@@ -17,8 +17,6 @@
 ## 📋 Refactors
  -->
 
-<!-- Queggs: I suggest ordering them Important Changes >> New Contributors >> Refactors. -->
-
 <!-- Should be alphabetized. -->
 <!-- New Contributors has been made a major category to encourage would-be doers of good deeds. -->
 <!-- A scroll emoji should be included only if a migration script has been implemented: -->
@@ -42,10 +40,6 @@
 - N/A
 
 <!-- Should be alphabetized. -->
-
-<!-- Queggs: What makes the difference between General and Other Cleanup? -->
-
-<!-- Queggs: Why not Battle AI >> AI and Battle General >> Battle? -->
 
 <!-- Commonly updated minor categories: -->
 <!-- 

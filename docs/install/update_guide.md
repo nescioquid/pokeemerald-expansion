@@ -1,9 +1,5 @@
 # Updating pokeemerald-expansion
 
-<!-- Queggs: See if we can implement release tags like expansion/1.8.x for this updating flow. -->
-
-<!-- Queggs: Ask why the version number doesn't get spat out with the final ROM output? -->
-
 1. Set RHH as a git remote:
 
     ```console

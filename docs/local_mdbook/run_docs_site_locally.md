@@ -79,8 +79,6 @@ The navigation menu on the left is handled by `docs/SUMMARY.md`. Every file adde
 
 Any Markdown files (those with an `.md` file extension) added to the `docs/` directory will automatically be read by mdBook.
 
-<!-- Queggs: Is this done this way to make sure the line doesn't get interpreted? mdBook doesn't see that it's inside a code block? -->
-
 To add pages that are not in the `docs/` directory, you can create an empty Markdown file and add the following **without the** `<---->` to reference them:
 
 ```console
