@@ -1,4 +1,5 @@
-# cygwin
-Don't, just don't.
-Currently doesn't work on current Expansion versions.
-This is a bug from upstream pret `pokeemerald`.
+# Cygwin
+
+Currently doesn't work with **pokeemerald-expansion** because of an upstream bug on pokeemerald.
+
+Try [WSL](setting_up_windows.md) instead?
