@@ -1,4 +1,23 @@
-# Pokeemerald-Expansion Changelogs
+# pokeemerald-expansion Changelogs
+
+## 1.13.x
+- **[Version 1.13.3](docs/changelogs/1.13.x/1.13.3.md) - 🧹 Bugfix Release**
+- **[Version 1.13.2](docs/changelogs/1.13.x/1.13.2.md) - 🧹 Bugfix Release**
+- **[Version 1.13.1](docs/changelogs/1.13.x/1.13.1.md) - 🔥 HOTFIX Release**
+- **[Version 1.13.0](docs/changelogs/1.13.x/1.13.0.md) - ✨ Feature Release**
+
+## 1.12.x
+- **[Version 1.12.3](docs/changelogs/1.12.x/1.12.3.md) - 🧹 Bugfix Release**
+- **[Version 1.12.2](docs/changelogs/1.12.x/1.12.2.md) - 🧹 Bugfix Release**
+- **[Version 1.12.1](docs/changelogs/1.12.x/1.12.1.md) - 🧹 Bugfix Release**
+- **[Version 1.12.0](docs/changelogs/1.12.x/1.12.0.md) - ✨ Feature Release**
+
+## 1.11.x
+- **[Version 1.11.4](docs/changelogs/1.11.x/1.11.4.md) - 🧹 Bugfix Release**
+- **[Version 1.11.3](docs/changelogs/1.11.x/1.11.3.md) - 🧹 Bugfix Release**
+- **[Version 1.11.2](docs/changelogs/1.11.x/1.11.2.md) - 🧹 Bugfix Release**
+- **[Version 1.11.1](docs/changelogs/1.11.x/1.11.1.md) - 🧹 Bugfix Release**
+- **[Version 1.11.0](docs/changelogs/1.11.x/1.11.0.md) - ✨ Feature Release**
 
 ## 1.10.x
 - **[Version 1.10.2](docs/changelogs/1.10.x/1.10.2.md) - 🧹 Bugfix Release**
