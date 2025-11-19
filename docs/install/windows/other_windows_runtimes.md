@@ -10,10 +10,10 @@ On Windows, the project can be built with the following systems:
 
 <!-- Queggs: Where did these figures come from exactly? Sauce please! -->
 
-- **WSL2**: The fastest. Find the install instructions [here](windows.md).
-- **WSL1**: 7x slower than WSL2. Find the install instructions [here](wsl1.md) and legacy instructions [here](legacy_WSL1_INSTALL.md).
-- **MSYS2**: 20x slower than WSL2. Find the install instructions [here](msys2.md).
-- **Cygwin**: 30x slower than WSL2. Find the install instructions [here](cygwin.md).
+- **WSL2**: The fastest. Find the install instructions [here](WINDOWS.md).
+- **WSL1**: 7x slower than WSL2. Find the install instructions [here](WSL1.md) and legacy instructions [here](WSL1_legacy.md).
+- **MSYS2**: 20x slower than WSL2. Find the install instructions [here](MSYS2.md).
+- **Cygwin**: 30x slower than WSL2. Find the install instructions [here](CYGWIN.md).
 
 > ⚠️ **Cygwin and MSYS2 don't currently work** with pokeemerald-expansion because of an upstream bug on pret/pokeeemerald.
 

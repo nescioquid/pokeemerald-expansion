@@ -2,7 +2,7 @@
 
 <!-- Queggs: The current install flow does NOT assume that you've connected your project to GitHub or have any kind of repo at `origin` unless the user has happened to have followed along with TAAR's BoGG guide. -->
 
-> 📣 _Heads up! This guide assumes you've already successfully [set up a local copy](../install/set_up_pokeemerald_expansion.md) of the pokeemerald-expansion project._
+> 📣 _Heads up! This guide assumes you've already successfully [set up a local copy](../install/set_up_guide.md) of the pokeemerald-expansion project._
 
 
 Ready to share your changes with us and be a ROM Hacking Hideout contributor, but are stil shaky with Git commands? You're in the right place!
@@ -44,4 +44,4 @@ You'll need to **push your changes**. When you push your first commit, you'll ne
 ```console
 git push --set-upstream origin corsolaCupMiniGame
 ```
-When you're happy with your edits and have pushed all your commits to the remote repo, you're ready to [asdf](../../CONTRIBUTING.md#how-do-i-submit-a-pull-request).
+When you're happy with your edits and have pushed all your commits to the remote repo, you're ready to [asdf](../CONTRIBUTING.md#how-do-i-submit-a-pull-request).

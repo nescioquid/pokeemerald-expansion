@@ -6,9 +6,9 @@
 
 **pokeemerald-expansion** is the GBA ROM-hacking framework that equips developers with a comprehensive toolkit for creating Pokémon ROM hacks, built on top of pret's pokeemerald [decompilation project](https://github.com/pret/pokeemerald). **It is not a playable game on its own**.
 
-It comes with [hundreds of features](FEATURES.md) out of the box from the various core series Pokémon games, along with [documentation](https://rh-hideout.github.io/pokeemerald-expansion/) and popular quality of life enhancements designed to streamline development and improve player experience. Check out the full list of features [here](FEATURES.md).
+It comes with [hundreds of features](docs/FEATURES.md) out of the box from the various core series Pokémon games, along with [documentation](https://rh-hideout.github.io/pokeemerald-expansion/) and popular quality of life enhancements designed to streamline development and improve player experience. Check out the full list of features [here](docs/FEATURES.md).
 
-**Ready to** [get started](INSTALL.md)?
+**Ready to** [get started](docs/INSTALL.md)?
 
 ---
 
@@ -28,13 +28,13 @@ If you do use pokeemerald-expansion, **please credit us** here at Rom Hacking Hi
 Based off RHH's pokeemerald-expansion 1.13.3 https://github.com/rh-hideout/pokeemerald-expansion/
 ```
 
-Please also consider [crediting all contributors](CREDITS.md) involved in the project!
+Please also consider [crediting all contributors](docs/CREDITS.md) involved in the project!
 
 ### Community & Contributions
 
-[![](https://img.shields.io/github/all-contributors/rh-hideout/pokeemerald-expansion/upcoming)](CREDITS.md)
+[![](https://img.shields.io/github/all-contributors/rh-hideout/pokeemerald-expansion/upcoming)](docs/CREDITS.md)
 
-If you are looking to report a bug, open a pull request, or request a feature, check out our [guide for contributors](CONTRIBUTING.md).
+If you are looking to report a bug, open a pull request, or request a feature, check out our [guide for contributors](docs/CONTRIBUTING.md).
 
 [![](https://dcbadge.limes.pink/api/server/6CzjAG6GZk)](https://discord.gg/6CzjAG6GZk)
 
