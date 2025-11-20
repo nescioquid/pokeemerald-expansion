@@ -69,7 +69,7 @@ script _MossdeepCity_Mart_EventScript_GiveTMQuash {
       end
     }
     giveitem(ITEM_TM_QUASH)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_QUASH)
   }
   msgbox(format("That's the TM that my sweetie gave me when I proposed.\p But I'm not a Trainer, so I don't know how to use those things. Hahaha!"))

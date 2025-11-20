@@ -87,7 +87,7 @@ script _SootopolisCity_Mart_EventScript_GiveTMInfestation {
     }
     msgbox(format("What?! How dare you sound so unsure!\p But at least you answered the question right. I'll give you this as a reward for having such great taste!"))
     giveitem(ITEM_TM_INFESTATION)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_INFESTATION)
   }
   msgbox(format("You know, this game took longer to make than you think. Make sure to thank those behind it all!"))

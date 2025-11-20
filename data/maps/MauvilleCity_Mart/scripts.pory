@@ -63,7 +63,7 @@ script _MauvilleCity_Mart_EventScript_GiveTMSkyDrop {
     }
     msgbox(format("…Hey, you're cool.\N Like, we are so totally BFFs now.\p And like as proof or whatever, I'm gonna give you my favorite TM."))
     giveitem(ITEM_TM_SKY_DROP)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_SKY_DROP)
   }
   msgbox(format("Sky Drop is seriously sick.\N It totally like, messes with your inner ear and everything!"))

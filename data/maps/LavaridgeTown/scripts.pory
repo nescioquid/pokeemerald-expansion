@@ -416,7 +416,7 @@ script _LavaridgeTown_EventScript_GiveTMSwordsDance {
     } else {
       msgbox(format("Oh…\N I so sad and wretched…\p You take this and you understand way of karate of me, fool Trainer!"))
       giveitem(ITEM_TM_SWORDS_DANCE)
-      goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+      if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
       setflag(FLAG_RECEIVED_TM_SWORDS_DANCE)
     }
     release

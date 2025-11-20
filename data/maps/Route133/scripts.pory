@@ -45,7 +45,7 @@ script _Route133_EventScript_GiveTMPsychUp {
   if (!flag(FLAG_RECEIVED_TM_PSYCH_UP)) {
     msgbox(format("Why hello, hellooo, little visiting Trainer! Greetings to you out here in the big blue!\p Now, I know you know that a Psychic Trainer like me can see riiiiiight through any foe.\p I can tell exactly how strong you are and how a battle between us would go…\p Just by lookin' at you! It's eerie, right?\p Now stand back and watch as I battle you within my mind!\p … … … … … … … …\N … … … … … … … …\p Yowza! You did me right in!\N Take this, and have mercy!"))
     giveitem(ITEM_TM_PSYCH_UP)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_PSYCH_UP)
 
   } else {

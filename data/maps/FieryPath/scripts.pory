@@ -26,7 +26,7 @@ script _FieryPath_EventScript_GiveTMNaturePower {
     waitmovement(0)
     msgbox(format("Oh?!"))
     giveitem(ITEM_TM_NATURE_POWER)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_NATURE_POWER)
     msgbox(format("That move there will change its effect based on where you are. Pretty neat, huh?\p …Also, speaking of where we are, where are we exactly? I'm a little lost here."))
   } else {

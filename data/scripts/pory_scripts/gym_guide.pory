@@ -4,7 +4,7 @@ const RARE_CANDY_AMOUNT = 36
 script _Common_EventScript_GymGuide_GiveFreshWater {
   msgbox(format("Oh, and take these!"))
   giveitem(ITEM_FRESH_WATER, FRESH_WATER_AMOUNT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   switch (random(7)) {
     case 0: msgbox(format("Well, go for it!"))
     case 1: msgbox(format("Hey, okay, go for it!"))
@@ -19,7 +19,7 @@ script _Common_EventScript_GymGuide_GiveFreshWater {
 script _Common_EventScript_GymGuide_GiveRareCandy {
   msgbox(format("Oh, and take these!"))
   giveitem(ITEM_RARE_CANDY, RARE_CANDY_AMOUNT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   switch (random(3)) {
     case 0: msgbox(format("Congrats on the big win!"))
     case 1: msgbox(format("Congrats!"))

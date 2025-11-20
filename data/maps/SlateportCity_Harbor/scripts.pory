@@ -547,18 +547,16 @@ script _SlateportCity_Harbor_EventScript_CaptStern {
   lock
   faceplayer
   if (flag(FLAG_BADGE07_GET)) {
-    goto_if_eq(VAR_TEMP_1, 1, SlateportCity_Harbor_EventScript_TradedScanner)
-    if (checkitem(ITEM_SCANNER)) {
-      goto(_SlateportCity_Harbor_EventScript_AskToTradeScanner)
-    }
-    goto_if_set(FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_FerryFinished)
+    if (var(VAR_TEMP_1) == 1) { goto(SlateportCity_Harbor_EventScript_TradedScanner) }
+    if (checkitem(ITEM_SCANNER)) { goto(_SlateportCity_Harbor_EventScript_AskToTradeScanner) }
+    if (flag(FLAG_SYS_GAME_CLEAR)) { goto(SlateportCity_Harbor_EventScript_FerryFinished) }
     msgbox(SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry)
     release
     end
   }
-  goto_if_set(FLAG_EVIL_TEAM_ESCAPED_STERN_SPOKE, SlateportCity_Harbor_EventScript_NeedDive)
-  goto_if_set(FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, SlateportCity_Harbor_EventScript_TeamAquaLeftNeedDive)
-  goto_if_eq(VAR_SLATEPORT_HARBOR_STATE, 2, SlateportCity_Harbor_EventScript_WhyStealSubmarine)
+  if (flag(FLAG_EVIL_TEAM_ESCAPED_STERN_SPOKE)) { goto(SlateportCity_Harbor_EventScript_NeedDive) }
+  if (flag(FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE)) { goto(SlateportCity_Harbor_EventScript_TeamAquaLeftNeedDive) }
+  if (var(VAR_SLATEPORT_HARBOR_STATE) == 2) { goto(SlateportCity_Harbor_EventScript_WhyStealSubmarine) }
   msgbox(SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum)
   closemessage
   applymovement(VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection)

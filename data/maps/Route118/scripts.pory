@@ -304,7 +304,7 @@ Route118_Text_RouteSign119:
 script _Route118_EventScript_ReceiveGoodRod {
   msgbox(format("Hmm! We're of identical minds!\p Hmm! Well, I'm fresh out of Good Rods, but you can have this instead!"))
   call(_Route118_EventScript_RandomizedHeldItemsFancy)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   setflag(FLAG_RECEIVED_GOOD_ROD)
   msgbox(Route118_Text_TryYourLuckFishing)
   release

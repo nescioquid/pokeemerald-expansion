@@ -13,7 +13,7 @@ script _Route104North_EventScript_ExpertF {
   if (!flag(FLAG_RECEIVED_BERRY_ROUTE_104)) {
     msgbox(format("If you see Berries growing in loamy soil, feel free to take them.\p But, make sure you plant a Berry in the same spot. That's common courtesy.\p Here, I'll share these with you."))
     giveitem(ITEM_CHARTI_BERRY, 3)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_BERRY_ROUTE_104)
   }
   msgbox(format("The way you look, you must be a Trainer, no?\p Trainers often make Pokémon hold Berries.\p It's up to you whether to grow Berries or use them."))
@@ -27,7 +27,7 @@ script _Route104North_EventScript_GiveTMEchoedVoice {
   if(!flag(FLAG_RECEIVED_TM_ECHOED_VOICE)) {
     msgbox(format("Wassup!\nI like to shout my lungs out!\N It feels so good!\p You can have this, so you try it out!\p Use it on a Pokémon, and it will learn a move that attacks with its voice.\p If the move is used several times in a row, it becomes more powerful!"))
     giveitem(ITEM_TM_ECHOED_VOICE)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_ECHOED_VOICE)
   }
   msgbox(format("A word of advice!\N A TM, or Technical Machine, can be used many times.\p It won't go away.\N So try it out as many times as you want!"))

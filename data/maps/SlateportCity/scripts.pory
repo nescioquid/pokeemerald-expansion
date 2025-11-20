@@ -1500,7 +1500,7 @@ script _SlateportCity_EventScript_RockCollector {
   msgbox(format("{PLAYER} handed the {STR_VAR_1} to the strange rock enthusiast."))
   removeitem(FOSSIL_TO_TRADE)
   giveitem(EVO_STONE_CHOSEN)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   msgbox(format("There you go! Bring me more of your rocks whenever you think you have something cool!"))
   release
   end
@@ -1626,7 +1626,7 @@ script _SlateportCity_EventScript_ShadySeller {
   msgbox(format("{PLAYER} handed the {STR_VAR_1} to the shady man."))
   removeitem(ITEM_TO_TRADE)
   giveitem(SHADY_ITEM_CHOSEN)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   switch (random(4)) {
     case 0: msgbox(format("Pleasure doing business.\N And keep it quiet. Nobody needs to know where that item came from."))
     case 1: msgbox(format("Keep your mouth shut about our little deal.\N If you shout about it, folks will start asking where you got your luck.\N And that's bad."))

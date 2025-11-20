@@ -182,7 +182,7 @@ script _SSTidalRooms_EventScript_GiveTMEmbargo {
   if(!flag(FLAG_RECEIVED_TM_EMBARGO)) {
     msgbox(format("Uh… Hi! I… I'm not acting suspicious!\N Uh… You can have this! For free!\p It… Honestly, it's not an unlicensed item that's been embargoed or anything.\N It's totally legal! You can use it!"))
     giveitem(ITEM_TM_EMBARGO)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_EMBARGO)
   }
   msgbox(format("Embargo prevents the target from\N using its held item!"))

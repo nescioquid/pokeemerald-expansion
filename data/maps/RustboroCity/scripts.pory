@@ -1297,7 +1297,7 @@ RustboroCity_Text_YouCanHave2On2Battle:
 script _RustboroCity_EventScript_YouGotItThankYou {
   msgbox(format("Oh! How did it go? The Devon Parts?\pYou did!\nYou got them back!\pYou really are a great Trainer!\pI know! As my thanks, I'll give you this!"))
   giveitem(ITEM_EXP_SHARE)
-  goto_if_eq(VAR_RESULT, FALSE, RustboroCity_EventScript_BagFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   msgbox(format("A Pokémon holding that will be given some of the Exp Points from battle, even if it didn't actually participate.\pI'd say it's quite useful for raising weak Pokémon. Anyway…"))
 }
 

@@ -1031,19 +1031,19 @@ script _LittlerootTown_EventScript_GiveAdventureStartItems {
 
 script _LittlerootTown_EventScript_RandomizeAdventureStartItems {
   additem(ITEM_RARE_CANDY, RARE_CANDY_AMOUNT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   randomelement(12, 6, 4, 2, 1)
   additem(ITEM_FRESH_WATER, VAR_RESULT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   randomelement(12, 6, 4, 2, 1, 0)
   additem(ITEM_SODA_POP, VAR_RESULT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   randomelement(6, 4, 2, 1, 0)
   additem(ITEM_LEMONADE, VAR_RESULT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   randomelement(6, 4, 2, 1, 0, 0)
   additem(ITEM_MOOMOO_MILK, VAR_RESULT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   if (randompercentage(67)) {
     randomelement(12, 6, 4, 2, 1)
     additem(ITEM_LAVA_COOKIE, VAR_RESULT)
@@ -1054,7 +1054,7 @@ script _LittlerootTown_EventScript_RandomizeAdventureStartItems {
     )
     additem(VAR_RESULT)
   }
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   playfanfare(MUS_OBTAIN_ITEM)
   message(format("Obtained assorted snacks from Mom!"))
   delay(10)

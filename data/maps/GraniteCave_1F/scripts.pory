@@ -52,7 +52,7 @@ script _GraniteCave_1F_EventScript_Hiker {
     waitmovement(0)
     msgbox(format("You beat Brawly!\N Nice work, kid.\p Have fun exploring down there, and take this too."))
     giveitem(ITEM_ESCAPE_ROPE)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_ESCAPE_ROPE)
   }
   msgbox(format("That Escape Rope, you can use it anywhere you feel like you've gotten lost.\N Take care!"))

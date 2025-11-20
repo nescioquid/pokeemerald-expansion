@@ -481,13 +481,17 @@ script _Route116_EventScript_DevonEmployee {
   }
   setflag(FLAG_MET_DEVON_EMPLOYEE)
   giveitem(ITEM_MASTER_BALL)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   msgbox(format("That Poké Ball will capture any and all Pokémon without fail.\pDon't go and waste it, but please do try it out!\nThank you and bye-bye!"))
   closemessage
-  call_if_eq(VAR_FACING, DIR_NORTH, Route116_EventScript_DevonEmployeeExit)
-  call_if_eq(VAR_FACING, DIR_SOUTH, Route116_EventScript_DevonEmployeeExit)
-  call_if_eq(VAR_FACING, DIR_WEST, Route116_EventScript_DevonEmployeeExit)
-  call_if_eq(VAR_FACING, DIR_EAST, Route116_EventScript_DevonEmployeeExitEast)
+  switch (var(VAR_FACING)) {
+    case DIR_NORTH:
+    case DIR_SOUTH:
+    case DIR_WEST:
+      call(Route116_EventScript_DevonEmployeeExit)
+    case DIR_EAST:
+      call(Route116_EventScript_DevonEmployeeExitEast)
+  }
   removeobject(VAR_LAST_TALKED)
   clearflag(FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE)
   setflag(FLAG_RECEIVED_MASTER_BALL)

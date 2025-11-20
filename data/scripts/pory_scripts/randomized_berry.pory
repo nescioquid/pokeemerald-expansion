@@ -5,7 +5,7 @@ script _Common_EventScript_GiveBerry_Generic {
     randomelement(3, 2, 1, 1)
     setorcopyvar(BERRY_AMOUNT, VAR_RESULT)
     giveitem(ITEM_LEPPA_BERRY, BERRY_AMOUNT)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   } else {
     switch (random(5)) {
       case 0: call(_Common_EventScript_GiveBerry_Confuse)
@@ -28,7 +28,7 @@ script _Common_EventScript_GiveBerry_Confuse {
     ITEM_IAPAPA_BERRY
   )
   giveitem(VAR_RESULT, BERRY_AMOUNT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
 }
 
 script _Common_EventScript_GiveBerry_HP {
@@ -39,7 +39,7 @@ script _Common_EventScript_GiveBerry_HP {
     ITEM_SITRUS_BERRY
   )
   giveitem(VAR_RESULT, BERRY_AMOUNT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
 }
 
 script _Common_EventScript_GiveBerry_RaiseStats {
@@ -53,7 +53,7 @@ script _Common_EventScript_GiveBerry_RaiseStats {
     ITEM_APICOT_BERRY
   )
   giveitem(VAR_RESULT, BERRY_AMOUNT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
 }
 
 script _Common_EventScript_GiveBerry_Resistance {
@@ -80,7 +80,7 @@ script _Common_EventScript_GiveBerry_Resistance {
     ITEM_ROSELI_BERRY,
   )
   giveitem(VAR_RESULT, BERRY_AMOUNT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
 }
 
 script _Common_EventScript_GiveBerry_Retaliatory {
@@ -94,7 +94,7 @@ script _Common_EventScript_GiveBerry_Retaliatory {
     ITEM_MARANGA_BERRY
   )
   giveitem(VAR_RESULT, BERRY_AMOUNT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
 }
 
 script _Common_EventScript_GiveBerry_Status {
@@ -113,5 +113,5 @@ script _Common_EventScript_GiveBerry_Status {
     setorcopyvar(VAR_RESULT, ITEM_LUM_BERRY)
   }
   giveitem(VAR_RESULT, BERRY_AMOUNT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
 }

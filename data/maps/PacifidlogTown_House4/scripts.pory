@@ -60,7 +60,7 @@ script _PacifidlogTown_House4_EventScript_GiveTMFling {
   if (!flag(FLAG_RECEIVED_TM_FLING)) {
     msgbox(format("…Would you take this from me?\N I no longer have any use for it."))
     giveitem(ITEM_TM_FLING)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_FLING)
   }
   msgbox(format("That Big Stadium over in the Unova region… I always dreamed of standing on the mound there…\p But no matter how much I struggled, my abilities couldn't keep up with my ambitions.\p My dream wouldn't die, but before I knew it, I was a family man in my 50s.\p Not just for me, but for my family, too, it's time for me to wake up from my dream."))

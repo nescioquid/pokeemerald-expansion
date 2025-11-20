@@ -36,12 +36,12 @@ script _LilycoveCity_House2_EventScript_GiveTMRestTMSleepTalk {
   if(!flag(FLAG_RECEIVED_TM_REST)) {
     msgbox(format("Huh? What? What's that?\p I'm not near awake yet…\N You can have this…"))
     giveitem(ITEM_TM_REST)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_REST)
   } elif(!flag(FLAG_RECEIVED_TM_SLEEP_TALK)) {
     msgbox(format("Zzz… Hm?\N Lemme be… I'm still half-asleep…\N Here… take this, too…"))
     giveitem(ITEM_TM_SLEEP_TALK)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_SLEEP_TALK)
   }
   msgbox(format("Yawn…\p Sleep is essential for good health…\N Sleep and regain health…"))

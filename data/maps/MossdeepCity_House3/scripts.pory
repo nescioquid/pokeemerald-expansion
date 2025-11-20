@@ -67,7 +67,7 @@ script _MossdeepCity_House3_EventScript_SuperRodFisherman {
       msgbox(format("You bet, you bet!\N After all, a Super Rod is really super!\p …Oh! You already have one!\N A kindred soul. Well then, take this instead!"))
     }
     call(_MossdeepCity_House3_EventScript_RandomizedHeldItemsFancy)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_SUPER_ROD)
     msgbox(format("If there's any water, try dropping in\N a Rod and see what bites!"))
     release

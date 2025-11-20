@@ -743,7 +743,7 @@ script _Route111_EventScript_Maniac {
   if(!flag(FLAG_RECEIVED_SAFETY_GOGGLES)) {
     msgbox(format("I get it, OK?!\p You're trying to show me how much you like goggles, right?!\N I get it, OK?!"))
     giveitem(ITEM_SAFETY_GOGGLES)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_SAFETY_GOGGLES)
   }
   msgbox(format("You can protect yourself from all kinds of stuff with Safety Goggles!\p Even though these things that I'm wearing look like glasses, they're actually goggles, too!"))

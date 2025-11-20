@@ -205,7 +205,7 @@ script _Route123_EventScript_GiveTMDazzlingGleam {
   if (!flag(FLAG_RECEIVED_TM_DAZZLING_GLEAM)) {
     msgbox(format("Hey, hey!\p Fairy types sure are cute, but they can be strong, too! I bet you already knew that, eh?"))
     giveitem(ITEM_TM_DAZZLING_GLEAM)
-    goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
     setflag(FLAG_RECEIVED_TM_DAZZLING_GLEAM)
   }
   msgbox(format("There's no Fairy-type Gym in Hoenn, eh?\p Maybe I'll go ahead and start one! Before anyone else even gets a chance!"))
@@ -216,15 +216,19 @@ script _Route123_EventScript_GiveTMDazzlingGleam {
 script _Route123_EventScript_GiveBigRoot {
   lock
   faceplayer
-  goto_if_set(FLAG_RECEIVED_BIG_ROOT, Route123_EventScript_ReceivedGigaDrain)
-  msgbox(Route123_Text_LoveGrassMonsHaveAny, MSGBOX_DEFAULT)
-  special(IsGrassTypeInParty)
-  goto_if_eq(VAR_RESULT, FALSE, Route123_EventScript_NoGrassMons)
-  msgbox(Route123_Text_YouLikeGrassMonsTooHaveThis, MSGBOX_DEFAULT)
-  giveitem(ITEM_BIG_ROOT)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull)
-  setflag(FLAG_RECEIVED_BIG_ROOT)
-  msgbox(Route123_Text_CheckTreesWithMyGrassMon, MSGBOX_DEFAULT)
+  if (!flag(FLAG_RECEIVED_BIG_ROOT)) {
+    msgbox(Route123_Text_LoveGrassMonsHaveAny)
+    special(IsGrassTypeInParty)
+    if (!var(VAR_RESULT)) {
+      release
+      end
+    }
+    msgbox(Route123_Text_YouLikeGrassMonsTooHaveThis)
+    giveitem(ITEM_BIG_ROOT)
+    if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
+    setflag(FLAG_RECEIVED_BIG_ROOT)
+  }
+  msgbox(Route123_Text_CheckTreesWithMyGrassMon)
   release
   end
 }

@@ -820,7 +820,7 @@ script _MauvilleCity_GameCorner_EventScript_PrizeCornerItems {
     end
   }
   checkitemspace(PRIZE_CHOSEN)
-  goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_BagIsFull)
+  if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }
   removecoins(COINS_REQUIRED)
   additem(PRIZE_CHOSEN)
   updatecoinsbox(1, 1)
