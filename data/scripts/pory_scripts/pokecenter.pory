@@ -1,4 +1,5 @@
-const LOCAL_ID_NURSE = VAR_0x800B
+const LOCALID_NURSE         = VAR_0x800B
+const EXCLAMATION_MARKED    = VAR_TEMP_7
 const SERVICE_CHARGE_AMOUNT = 10000 // VAR_TEMP_1
 
 script _Common_EventScript_PkmnCenterNurse {
@@ -21,11 +22,8 @@ script _Common_EventScript_PkmnCenterNurse_CheckGoldCard {
   if (!flag(FLAG_NURSE_MENTIONS_GOLD_CARD)) {
     if (specialvar(VAR_RESULT, CountPlayerTrainerStars) == 4) {
       msgbox(gText_WelcomeCutShort)
-      playse(SE_PIN)
-      applymovement(LOCAL_ID_NURSE, Common_Movement_ExclamationMark)
-      waitmovement(0)
-      applymovement(LOCAL_ID_NURSE, Common_Movement_Delay48)
-      waitmovement(0)
+      setorcopyvar(EXCLAMATION_MARKED, LOCALID_NURSE)
+      call(_Common_EventScript_ExclamationMark)
       setflag(FLAG_NURSE_MENTIONS_GOLD_CARD)
       msgbox(gText_NoticesGoldCard, MSGBOX_YESNO)
       if (!var(VAR_RESULT)) {
@@ -48,17 +46,17 @@ script _Common_EventScript_PkmnCenterNurse_HealPkmn {
   incrementgamestat(GAME_STAT_USED_POKECENTER)
   call(_Common_EventScript_PkmnCenterNurse_IllTakeYourPkmn)
   waitmessage
-  applymovement(LOCAL_ID_NURSE, Common_Movement_WalkInPlaceFasterLeft)
+  applymovement(LOCALID_NURSE, Common_Movement_WalkInPlaceFasterLeft)
   waitmovement(0)
   dofieldeffect(FLDEFF_POKECENTER_HEAL)
   waitfieldeffect(FLDEFF_POKECENTER_HEAL)
-  applymovement(LOCAL_ID_NURSE, Common_Movement_WalkInPlaceFasterDown)
+  applymovement(LOCALID_NURSE, Common_Movement_WalkInPlaceFasterDown)
   waitmovement(0)
   special(HealPlayerParty)
   call(_Common_EventScript_PkmnCenterNurse_CheckPokerus)
   call(_Common_EventScript_PkmnCenterNurse_RestoredPkmnToFullHealth)
   waitmessage
-  applymovement(LOCAL_ID_NURSE, Movement_PkmnCenterNurse_Bow)
+  applymovement(LOCALID_NURSE, Movement_PkmnCenterNurse_Bow)
   waitmovement(0)
   call(_Common_EventScript_PkmnCenterNurse_CheckPlayerWaitingInUnionRoom)
 }

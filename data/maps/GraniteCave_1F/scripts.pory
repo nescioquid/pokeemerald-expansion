@@ -40,16 +40,15 @@ GraniteCave_1F_Text_ExplainFlash:
 
 `
 
+const EXCLAMATION_MARKED = VAR_TEMP_7
+
 script _GraniteCave_1F_EventScript_Hiker {
   lock
   faceplayer
   if(!flag(FLAG_RECEIVED_ESCAPE_ROPE)) {
     msgbox(format("Hey, you.\N It gets awfully dark ahead…"))
-    playse(SE_PIN)
-    applymovement(LOCALID_GRANITE_CAVE_HIKER, Common_Movement_ExclamationMark)
-    waitmovement(0)
-    applymovement(LOCALID_GRANITE_CAVE_HIKER, Common_Movement_Delay48)
-    waitmovement(0)
+    setorcopyvar(EXCLAMATION_MARKED, LOCALID_GRANITE_CAVE_HIKER)
+    call(_Common_EventScript_ExclamationMark)
     msgbox(format("You beat Brawly!\N Nice work, kid.\p Have fun exploring down there, and take this too."))
     giveitem(ITEM_ESCAPE_ROPE)
     if (!var(VAR_RESULT)) { goto(Common_EventScript_ShowBagIsFull) }

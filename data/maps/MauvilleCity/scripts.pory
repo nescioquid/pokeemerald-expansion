@@ -666,6 +666,8 @@ MauvilleCity_Text_BeenCheckingOutTV:
   .string "Hi, have you been checking out TVs?$"
 `
 
+const EXCLAMATION_MARKED = VAR_TEMP_7
+
 script _MauvilleCity_EventScript_Wally {
   lockall
   if (flag(FLAG_DECLINED_WALLY_BATTLE_MAUVILLE)) {
@@ -678,11 +680,8 @@ script _MauvilleCity_EventScript_Wally {
   msgbox(format("Wally: I'm not pushing it.\pIf I combine forces with my Pokémon, we can beat anyone!"))
   applymovement(LOCALID_MAUVILLE_WALLY, Common_Movement_FacePlayer)
   waitmovement(0)
-  playse(SE_PIN)
-  applymovement(LOCALID_MAUVILLE_WALLY, Common_Movement_ExclamationMark)
-  waitmovement(0)
-  applymovement(LOCALID_MAUVILLE_WALLY, Common_Movement_Delay48)
-  waitmovement(0)
+  setorcopyvar(EXCLAMATION_MARKED, LOCALID_MAUVILLE_WALLY)
+  call(_Common_EventScript_ExclamationMark)
   msgbox(MauvilleCity_Text_WallyWillYouBattleMe, MSGBOX_YESNO)
   goto(MauvilleCity_EventScript_BattleWallyPrompt)
   end

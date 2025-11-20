@@ -13,3 +13,4 @@
 .include "data/scripts/pory_scripts/tv.inc"
 .include "data/scripts/pory_scripts/vending_machine.inc"
 .include "data/scripts/pory_scripts/level_caps.inc"
+.include "data/scripts/pory_scripts/exclamation_mark.inc"

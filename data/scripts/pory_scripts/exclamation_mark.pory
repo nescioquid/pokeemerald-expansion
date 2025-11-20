@@ -1,0 +1,9 @@
+const EXCLAMATION_MARKED = VAR_TEMP_7
+
+script _Common_EventScript_ExclamationMark {
+  playse(SE_PIN)
+  applymovement(EXCLAMATION_MARKED, Common_Movement_ExclamationMark)
+  waitmovement(0)
+  applymovement(EXCLAMATION_MARKED, Common_Movement_Delay48)
+  waitmovement(0)
+}

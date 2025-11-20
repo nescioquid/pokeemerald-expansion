@@ -31,6 +31,8 @@ script _Route104South_EventScript_TrySetRivalPos {
   return
 }
 
+const EXCLAMATION_MARKED = VAR_TEMP_7
+
 script _Route104South_EventScript_RivalTrigger {
   lockall
   setflag(FLAG_HIDE_RUSTBORO_CITY_RIVAL)
@@ -48,11 +50,8 @@ script _Route104South_EventScript_RivalTrigger {
   delay(20)
   setorcopyvar(VAR_0x8008, 0)
   call(RustboroCity_EventScript_PlayRivalMusic)
-  playse(SE_PIN)
-  applymovement(LOCALID_ROUTE104SOUTH_RIVAL, Common_Movement_ExclamationMark)
-  waitmovement(0)
-  applymovement(LOCALID_ROUTE104SOUTH_RIVAL, Common_Movement_Delay48)
-  waitmovement(0)
+  setorcopyvar(EXCLAMATION_MARKED, LOCALID_ROUTE104SOUTH_RIVAL)
+  call(_Common_EventScript_ExclamationMark)
   checkplayergender
   switch (var(VAR_RESULT)) {
     case   MALE: goto(_Route104South_EventScript_MayEncounter)
