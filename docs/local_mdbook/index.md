@@ -1,2 +1,2 @@
-## Running documentation website locally
-- [Ubuntu WSL1/WSL2](ubuntu_WSL.md)
+## Running the documentation website locally
+- [WSL/Ubuntu](run_docs_site_locally.md)

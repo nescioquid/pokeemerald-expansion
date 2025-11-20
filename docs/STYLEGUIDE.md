@@ -1,6 +1,6 @@
 # Styleguide and Principles
 
-## Naming Conventions
+### Naming Conventions
 
 Function names and struct names should be formatted in `PascalCase`.
 
@@ -21,8 +21,7 @@ Variables and struct fields should be formatted in `camelCase`.
 int thisIsCorrect = 0;
 ```
 
-Global variables should be prefixed with `g`, and static variables should be
-prefixed with `s`.
+Global variables should be prefixed with `g`, and static variables should be prefixed with `s`.
 
 ```c
 extern s32 gMyGlobalVariable;
@@ -45,9 +44,9 @@ enum
 #define ADD_FIVE(x) ((x) + 5)
 ```
 
-## Coding Style
+### Coding Style
 
-### Comments
+#### Comments
 
 Ideally, contributions have descriptive variable, function and constant names so as to explain functionality without comments. When a comment is used, the content of the comment should explain _WHY_ a specific system or component works the way it does.
 
@@ -63,23 +62,21 @@ When describing a system/component in-depth, use block comment syntax.
  */
 ```
 
-When briefly describing a function or block of code, use a single-line comments
-placed on its own line. 
-There should be a single space directly to the right of `//`.
+When briefly describing a function or block of code, use a single-line comments placed on its own line. There should be a single space directly to the right of `//`.
 
 ```c
 // This is supplemental information for the function. If there is a bunch of info, it should
 // carry on to the next line.
 void ProcessSingleTask(void)
 {
-   // Short comment describing some noteworthy aspect of the code immediately following.
-   ...
-   // Comments should be capitalized and end in a period.
+// Short comment describing some noteworthy aspect of the code immediately following.
+...
+// Comments should be capitalized and end in a period.
 }
 ```
 
-When tagging a data structure that corresponds to an `enum` or some noteworthy
-value, place the comment on the same line as the code.
+When tagging a data structure that corresponds to an `enum` or some noteworthy value, place the comment on the same line as the code.
+
 ```c
 const u8 gPlantlikeMons[] =
 {
@@ -91,29 +88,27 @@ const u8 gPlantlikeMons[] =
 };
 ```
 
-### Whitespace
+#### Whitespace
 
-All `.c` and `.h` files should use 4 spaces--not tabs.
-Assembler files (`.s)` use tabs.
-Script files (`.inc)` use tabs.
+All `.c` and `.h` files should use 4 spaces --not tabs. Assembler files `(.s)` and script files `(.inc)` use tabs.
 
-### Operators
+#### Operators
 
 Assignments and comparison operators should have one space on both sides of `=`.
 
 ```c
-int i = 0; // correct
-int i=0;   // incorrect
+int i = 0; // Correct
+int i=0;   // Incorrect
 
-a > b // correct
-a>b   // incorrect
+a > b // Correct
+a>b   // Incorrect
 ```
 
 The incrementor and decrementor operators should NOT have a space.
 
 ```c
-i++;  // correct
-i ++; // incorrect
+i++;  // Correct
+i ++; // Incorrect
 ```
 
 A control statement should have a space between them and their expressions, and the opening bracket should be on the next line.
@@ -121,11 +116,11 @@ A control statement should have a space between them and their expressions, and 
 ```c
 for (...)
 {
-    // correct
+    // Correct
 }
 
 for(...) {
-    // incorrect
+    // Incorrect
 }
 ```
 
@@ -134,14 +129,14 @@ A `switch` statement's cases should left-align with the `switch`'s block.
 ```c
 switch (foo)
 {
-case 0: // correct
+case 0: // Correct
     ...
     break;
 }
 
 switch (foo)
 {
-    case 0: // incorrect
+    case 0: // Incorrect
         ...
         break;
 }
@@ -156,7 +151,7 @@ int MyFunction(int bar)
     if (bar)
         foo++;
 
-    return foo; // correct
+    return foo; // Correct
 }
 
 int MyFunction(int bar)
@@ -164,15 +159,14 @@ int MyFunction(int bar)
     int foo = 0;
     if (bar)
         foo++;
-    return foo; // incorrect
+    return foo; // Incorrect
 }
 ```
 
-A chain of `if-else` statements in which any block is more than one line of
-code should use braces. If all blocks are single-line, then no braces are necessary.
+A chain of `if-else` statements in which any block is more than one line of code should use braces. If all blocks are single-line, then no braces are necessary.
 
 ```c
-if (foo) // correct
+if (foo) // Correct
 {
     return 1;
 }
@@ -182,7 +176,7 @@ else
     return 0;
 }
 
-if (foo) // incorrect
+if (foo) // Incorrect
     return 1;
 else
 {
@@ -191,37 +185,37 @@ else
 }
 ```
 
-### Control Structures
+#### Control Structures
 
-When comparing whether or not a value equals `0`, don't be explicit unless the
-situation calls for it.
+When comparing whether or not a value equals `0`, don't be explicit unless the situation calls for it.
 
 ```c
-if (runTasks) // correct
+if (runTasks) // Correct
     RunTasks();
 
-if (runTasks != 0) // incorrect
+if (runTasks != 0) // Incorrect
     RunTasks();
 
-if (!PlayerIsOutside()) // correct
+if (!PlayerIsOutside()) // Correct
     RemoveSunglasses();
 
-if (PlayerIsOutside() == 0) // incorrect
+if (PlayerIsOutside() == 0) // Incorrect
     RemoveSunglasses();
 ```
 
-When writing a `for` or `while` loop with no body, use a semicolon `;` on the
-same line, rather than empty braces.
+When writing a `for` or `while` loop with no body, use a semicolon `;` on the same line, rather than empty braces.
 
 ```c
-for (i = 0; gParty[i].species != SPECIES_NONE; i++); // correct
+for (i = 0; gParty[i].species != SPECIES_NONE; i++); // Correct
 
-for (i = 0; gParty[i].species != SPECIES_NONE; i++) // incorrect
+for (i = 0; gParty[i].species != SPECIES_NONE; i++) // Incorrect
 { }
 ```
-### Inline Configs
+
+#### Inline Configs
 
 When adding functionality that is controlled by a config, defines should be checked within the normal control flow of the function unless a data structure requires a change at runtime.
+
 ```c
 void SetCurrentDifficultyLevel(enum DifficultyLevel desiredDifficulty)
 {
@@ -235,6 +229,7 @@ void SetCurrentDifficultyLevel(enum DifficultyLevel desiredDifficulty)
     VarSet(B_VAR_DIFFICULTY, desiredDifficulty);
 }
 ```
+
 ```c
 void SetCurrentDifficultyLevel(enum DifficultyLevel desiredDifficulty)
 {
@@ -247,48 +242,56 @@ void SetCurrentDifficultyLevel(enum DifficultyLevel desiredDifficulty)
     VarSet(B_VAR_DIFFICULTY, desiredDifficulty);
 }
 ```
+
 ```c
-    [MOVE_VINE_WHIP] =
-    {
-        .name = COMPOUND_STRING("Vine Whip"),
-        .description = COMPOUND_STRING(
-            "Strikes the foe with\n"
-            "slender, whiplike vines."),
-        #if B_UPDATED_MOVE_DATA >= GEN_6 // Correct
-            .pp = 25,
-        #elif B_UPDATED_MOVE_DATA >= GEN_4
-            .pp = 15,
-        #else
-            .pp = 10,
-        #endif
-        .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 45 : 35,
-    },
+[MOVE_VINE_WHIP] =
+{
+    .name = COMPOUND_STRING("Vine Whip"),
+    .description = COMPOUND_STRING(
+        "Strikes the foe with\n"
+        "slender, whiplike vines."),
+    #if B_UPDATED_MOVE_DATA >= GEN_6 // Correct
+        .pp = 25,
+    #elif B_UPDATED_MOVE_DATA >= GEN_4
+        .pp = 15,
+    #else
+        .pp = 10,
+    #endif
+    .effect = EFFECT_HIT,
+    .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 45 : 35,
+},
 ```
-### Variable Declarations
+
+#### Variable Declarations
+
 Loop iterators should be declared as part of the loop unless there's a very good reason not to.
-```C
+
+```c
 for (u32 i = 0; i < LOOP_ITERATIONS; i++)
 {
     dst1[i] = i;
     dst2[i] = i;
 }
 ```
-## Data Type Sizes
-When a variable number is used, the data type should generally `u32` (unsigned) or `s32` (signed). There are a few exceptions to this rule, such as:
-* Values stored in the saveblock should use the smallest data type possible.
-* `EWRAM` variables should use the smallest data type possible.
-* Global variables / global struct members use the smallest data type possible.
 
-## Constants, Enums and Type Checking
+### Data Type Sizes
+
+When a variable number is used, the data type should generally `u32` (unsigned) or `s32` (signed). There are a few exceptions to this rule, such as:
+
+- Values stored in the saveblock should use the smallest data type possible.
+- `EWRAM` variables should use the smallest data type possible.
+- Global variables / global struct members use the smallest data type possible.
+
+### Constants, Enums and Type Checking
+
 Avoid using magic numbers when possible - constants help to make clear why a specific value is used.
 
 ```c
 // Incorrect
-        if (gimmick == 5 && mon->teraType != 0)
-            return TRUE;
-        if (gimmick == 4 && mon->shouldUseDynamax)
-            return TRUE;
+    if (gimmick == 5 && mon->teraType != 0)
+        return TRUE;
+    if (gimmick == 4 && mon->shouldUseDynamax)
+        return TRUE;
 ```
 
 ```c
@@ -297,16 +300,16 @@ Avoid using magic numbers when possible - constants help to make clear why a spe
 #define GIMMICK_DYNAMAX 4
 #define GIMMICK_TERA 5
 
-        if (gimmick == GIMMICK_TERA && mon->teraType != TYPE_NONE)
-            return TRUE;
-        if (gimmick == GIMMICK_DYNAMAX && mon->shouldUseDynamax)
-            return TRUE;
+    if (gimmick == GIMMICK_TERA && mon->teraType != TYPE_NONE)
+        return TRUE;
+    if (gimmick == GIMMICK_DYNAMAX && mon->shouldUseDynamax)
+        return TRUE;
 ```
 
 When several numbers in sequence are used AND those values are not utilized in the saveblock, an enum is used instead.
 
 ```c
-//Correct
+// Correct
 enum Gimmick
 {
     GIMMICK_NONE,
@@ -318,10 +321,10 @@ enum Gimmick
     GIMMICKS_COUNT,
 };
 
-        if (gimmick == GIMMICK_TERA && mon->teraType != TYPE_NONE)
-            return TRUE;
-        if (gimmick == GIMMICK_DYNAMAX && mon->shouldUseDynamax)
-            return TRUE;
+    if (gimmick == GIMMICK_TERA && mon->teraType != TYPE_NONE)
+        return TRUE;
+    if (gimmick == GIMMICK_DYNAMAX && mon->shouldUseDynamax)
+        return TRUE;
 ```
 
 When an enum is used, the enum type is used instead of a regular number type to prevent incorrectly set values.
@@ -343,7 +346,7 @@ u32 GetCurrentDifficultyLevel(void)
 ```
 
 ```c
-//Correct
+// Correct
 
 bool32 CanActivateGimmick(u32 battler, enum Gimmick gimmick)
 {
@@ -359,19 +362,19 @@ enum DifficultyLevel GetCurrentDifficultyLevel(void)
 }
 ```
 
-## Data file format
+### Data file format
 
 External data files should use JSON.
 
-## Principles
+### Principles
 
-### Minimally Invasive
+#### Minimally Invasive
 
 New functionality must be as minimally invasive to existing files as possible. When a large amount of new code is introduced, it is best to isolate it in its own file.
 
 The [`B_VAR_DIFFICULTY`](https://patch-diff.githubusercontent.com/raw/rh-hideout/pokeemerald-expansion/pull/5337.diff) pull request is a good example of lots of new code being introduced in minimally invasive ways.
 
-### `UNUSED`
+#### UNUSED Designation
 
 If a function or data is introduced but is never called, it is designated as `UNUSED`. `UNUSED` functions should not be introduced unless neccesary.
 
@@ -390,23 +393,25 @@ static void UNUSED PadString(const u8 *src, u8 *dst)
 }
 ```
 
-### Config Philosophy
+#### Config Philosophy
 
 If a branch can modifies saves, the functionality that does so must be gated behind a config, and off by default.
 
 If a branch has a config that performs either of the following, it should be on by default:
-*  improves the backend / developer quality of life
-*  emulates present day, modern day Pokémon
+
+- improves the backend / developer quality of life
+- emulates present day, modern day Pokémon
 
 If a branch's behavior is one that Game Freak does not have a consistent stance on, the default behavior of the config should be disussed by the maintainers.
 
 All other configs should be off.
 
-### Save Philosophy
+#### Save Philosophy
 
-Until [save migration](https://discord.com/channels/419213663107416084/1108733346864963746) is implemented, branches will only merged in if they do not forcefully break existing game saves. 
+Until [save migration](https://discord.com/channels/419213663107416084/1108733346864963746) is implemented, branches will only merged in if they do not forcefully break existing game saves.
 
 When `pokemeerald-expansion` gets to a point where new functionality will require that we break saves, we will merge as many [save-breaking features](https://discord.com/channels/419213663107416084/1202774957776441427) together as possible, and increment the major version number of the project.
 
-# Attribution
-* The majority of the styleguide was written by [garakmon](https://github.com/garakmon) as part of their [PR to pokefirered](<https://github.com/pret/pokefirered/pull/63>).
+### Attribution
+
+The majority of the styleguide was written by [garakmon](https://github.com/garakmon) as part of their [PR to pokefirered](https://github.com/pret/pokefirered/pull/63).
