@@ -1,4 +1,4 @@
-raw`
+raw `
 Route104_PrettyPetalFlowerShop_MapScripts::
   map_script MAP_SCRIPT_ON_TRANSITION, _Route104_PrettyPetalFlowerShop_OnTransition
   .byte 0

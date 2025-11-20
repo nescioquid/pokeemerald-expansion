@@ -1,4 +1,4 @@
-raw`
+raw `
 MossdeepCity_StevensHouse_MapScripts::
   map_script MAP_SCRIPT_ON_LOAD, MossdeepCity_StevensHouse_OnLoad
   map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_StevensHouse_OnTransition

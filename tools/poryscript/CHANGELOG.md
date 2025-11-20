@@ -75,7 +75,7 @@ Nothing, yet.
 
 ## [2.13.0] - 2022-06-16
 ### Added
-- Add `mart` statement, which is a convenient way to define a list of items used with the decomp's `pokemart` script command. Prior to this addition, the mart data had to be encoded using Poryscript's `raw` statement.
+- Add `mart` statement, which is a convenient way to define a list of items used with the decomp's `pokemart` script command. Prior to this addition, the mart data had to be encoded using Poryscript's `raw ` statement.
 
 ## [2.12.0] - 2021-12-27
 ### Added
@@ -136,11 +136,11 @@ Nothing, yet.
 - Add support for text auto-formatting with the `format()` operator. Font widths are loaded from a config JSON file. Specify config file with `-fw <config filepath>`. If `-fw` is omitted, Poryscript will try to load `font_widths.json` by default.
 
 ### Changed
-- Text is now automatically terminated with a `$` character, so the user doesn't have to manually type it for all pieces of text. Of course, this does not apply to text within `raw` statements.
+- Text is now automatically terminated with a `$` character, so the user doesn't have to manually type it for all pieces of text. Of course, this does not apply to text within `raw ` statements.
 
 ## [2.3.0] - 2019-10-12
 ## Added
-- Add `defeated()` operator, which is used to check if a trainer has been defeated. Without this new `defeated()` operator, it was impossible to write scripts that checked trainer flags without using `raw`.
+- Add `defeated()` operator, which is used to check if a trainer has been defeated. Without this new `defeated()` operator, it was impossible to write scripts that checked trainer flags without using `raw `.
 - Add `text` statements.
 
 ## [2.2.0] - 2019-10-07
@@ -178,8 +178,8 @@ Nothing, yet.
 - Add `switch` statements.
 
 ### Changed
-- `raw` no longer takes a label name.
-- Removed `raw_global`, since there is no longer a concept of being global or local for `raw`.
+- `raw ` no longer takes a label name.
+- Removed `raw_global`, since there is no longer a concept of being global or local for `raw `.
 
 ### Fixed
 - Inline texts are now generated with labels that are prefixed to their parent script's name. Otherwise, they would easily clash with external scripts because they were all simply named `Text_<num>`.

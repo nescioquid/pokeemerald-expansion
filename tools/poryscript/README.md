@@ -31,7 +31,7 @@ View the [Changelog](https://github.com/huderlem/poryscript/blob/master/CHANGELO
   * [`movement` Statement](#movement-statement)
   * [`mart` Statement](#mart-statement)
   * [`mapscripts` Statement](#mapscripts-statement)
-  * [`raw` Statement](#raw-statement)
+  * [`raw ` Statement](#raw-statement)
   * [Comments](#comments)
   * [Constants](#constants)
   * [Scope Modifiers](#scope-modifiers)
@@ -147,12 +147,12 @@ If you're working on a large project, you may want to convert all of the existin
   
   2. Run `chmod 777 convert_inc.sh` to ensure the script executable. 
 
-  Finally you can execute it in your `pokeemerald/` directory by running `./convert_inc.sh` or `bash convert_inc.sh` in the console. This script will iterate through all your `data/map/` directories and convert the `scripts.inc` files into `scripts.pory` files by adding a `raw` tag around the old scripts. `convert_inc.sh` will skip over any directories that already have `scripts.pory` files in them, so that it will not overwrite any maps that you have already switched over to Poryscript.
+  Finally you can execute it in your `pokeemerald/` directory by running `./convert_inc.sh` or `bash convert_inc.sh` in the console. This script will iterate through all your `data/map/` directories and convert the `scripts.inc` files into `scripts.pory` files by adding a `raw ` tag around the old scripts. `convert_inc.sh` will skip over any directories that already have `scripts.pory` files in them, so that it will not overwrite any maps that you have already switched over to Poryscript.
 </details>
 
 # Poryscript Syntax (How to Write Scripts)
 
-A single `.pory` file is composed of many top-level statements. The valid top-level statements are `script`, `text`, `movement`, `mart`, `mapscripts`, and `raw`.
+A single `.pory` file is composed of many top-level statements. The valid top-level statements are `script`, `text`, `movement`, `mart`, `mapscripts`, and `raw `.
 ```
 mapscripts MyMap_MapScripts {
     ...
@@ -629,8 +629,8 @@ For maps with no map scripts, simply make an empty `mapscripts` statement:
 mapscripts MyNewCity_MapScripts {}
 ```
 
-## `raw` Statement
-Use `raw` to include raw bytecode script. Anything in a `raw` statement will be directly included into the compiled script. This is useful for defining custom data, or data types not supported in regular Poryscript.
+## `raw ` Statement
+Use `raw ` to include raw bytecode script. Anything in a `raw ` statement will be directly included into the compiled script. This is useful for defining custom data, or data types not supported in regular Poryscript.
 ```
 raw `
 TestMap_MapScripts::
@@ -668,7 +668,7 @@ MyScript_LongText:
 ```
 
 ## Comments
-Use single-line comments with `#` or `//`. Everything after the `#` or `//` will be ignored. Comments cannot be placed in a `raw` statement. (Users who wish to run the C preprocessor on Poryscript files should use `//` comments to avoid conflict with C preprocessor directives that use the `#` character.)
+Use single-line comments with `#` or `//`. Everything after the `#` or `//` will be ignored. Comments cannot be placed in a `raw ` statement. (Users who wish to run the C preprocessor on Poryscript files should use `//` comments to avoid conflict with C preprocessor directives that use the `#` character.)
 ```
 # This script does some cool things.
 script MyScript {
