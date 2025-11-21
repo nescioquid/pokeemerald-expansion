@@ -1,12 +1,13 @@
 # How to make an Expansion version
 
-> 📣 _Heads up! This process requires write access to the repo._
+_If you need instructions on how to release a new Expansion version, check out the enclosed instruction book. --@**AsparagusEduardo**_
 
-_If you need instructions on how to release a new Expansion version, check out the enclosed instruction book. --AsparagusEduardo_
+> [!NOTE]
+> _This process requires write access to the repo._
 
 ### Autogenerating a changelog for the `master` branch
 
-> 📝 If the changelog you're making is for a minor version (such as 1.13.0), make sure to sync the `upcoming` branch with `master` before starting. Keep in mind that if there are unreleased changes in `master`, they should be made into a patch version released alongside the minor version.
+If the changelog you're making is for a minor version (such as 1.13.0), make sure to sync the `upcoming` branch with `master` before starting. Keep in mind that if there are unreleased changes in `master`, they should be made into a patch version released alongside the minor version.
 
 1. Go to https://github.com/rh-hideout/pokeemerald-expansion/releases.
 
@@ -40,21 +41,24 @@ _If you need instructions on how to release a new Expansion version, check out t
 
 5. You should now have a text that only contains pull requests made to `upcoming`.
 
-> 💡 You can check out [WinMerge](https://winmerge.org/) to make comparing these files easier on Windows.
+> [!TIP]
+> _You can check out [WinMerge](https://winmerge.org/) to make comparing these files easier on Windows._
 
 ### Sorting pull requests in the changelog
 
 1. Copy the `docs/changelogs/template.md` file into a new file with the corresponding version for file and folder (so for version 1.2.3, you'd copy the file into `docs/changelogs/1.2.x/1.2.3.md`).
 
+<!-- TODO: This step is vaguely defined. We're meant to search and replace what, where? This is done in your text editor? WinMerge? -->
+
 2. Use the following Regex to adapt all pull request links into the format currently used:
 
-   - First search for:
+   - Search
 
      ```console
      in https://github\.com/rh-hideout/pokeemerald-expansion/pull/(\d+)
      ```
 
-   - And replace it with:
+   - Replace
 
      ```console
      in [#$1](https://github.com/rh-hideout/pokeemerald-expansion/pull/$1)

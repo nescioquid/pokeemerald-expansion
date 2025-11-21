@@ -2,7 +2,8 @@
 
 Well, most of them. _We've already done a lot of the work for you!_
 
-> 💡 Many of the features here can be toggled or tuned to your needs just by changing their settings in our [configuration files](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/).
+>[!TIP]
+> _Many of the features here can be toggled or tuned to your needs just by changing their settings in our [configuration files](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/config/)._
 
 ### Upgraded Battle Engine
 

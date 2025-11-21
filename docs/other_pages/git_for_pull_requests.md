@@ -1,6 +1,7 @@
 # Using Git for your first pull request
 
-> 📣 _Heads up! This guide assumes you've already successfully [set up a local copy](../install/set_up_guide.md) of the pokeemerald-expansion project._
+>[!NOTE]
+> _This guide assumes you've already successfully [set up a local copy](../install/set_up_guide.md) of the pokeemerald-expansion project._
 
 
 Ready to share your changes with us and be a ROM Hacking Hideout contributor, but are stil shaky with Git commands? You're in the right place!
@@ -27,9 +28,11 @@ If your pull request is going to target the master branch, replace `upcoming` wi
 
 Now for the fun part: **write your code**. Create your solution, solve your problem, fix that bug!
 
-> 💡 If you already started work on a different branch, you can [cherry-pick](https://git-scm.com/docs/git-cherry-pick) your old commits onto this new branch, or just copy and paste the changes from the original files.
+>[!TIP]
+> _If you already started work on a different branch, you can [cherry-pick](https://git-scm.com/docs/git-cherry-pick) your old commits onto this new branch, or just copy and paste the changes from the original files._
 
-> ⚠️ **Open a discussion thread** in the [#pr-discussions](https://discord.com/channels/419213663107416084/1102784418369785948) channel of our Discord server before implementing functionality from community feature branches. Depending on the situation, we may ask you to use the existing feature branch as a base, or to rewrite parts of the feature from scratch.
+>[!WARNING]
+> **Open a discussion thread** _in the [#pr-discussions](https://discord.com/channels/419213663107416084/1102784418369785948) channel of our Discord server before implementing functionality from community feature branches. Depending on the situation, we may ask you to use the existing feature branch as a base, or to rewrite parts of the feature from scratch._
 
 You'll need to **push your changes**. When you push your first commit, you'll need to push the new branch to the remote repo. For our hypothetical Corsola-based minigame feature branch, the command would look like:
 

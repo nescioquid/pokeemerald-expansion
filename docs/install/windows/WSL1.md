@@ -22,8 +22,8 @@ Open Powershell and make sure to **run as administrator** ([example image](https
 ```console
 wsl --install -d Ubuntu --enable-wsl1
 ```
-
-> 💡 In Both Powershell and WSL, you can paste text with a `Right-click`.
+> [!TIP]
+> _In Both Powershell and WSL, you can paste text with a `Right-click`._
 
 WSL may variously open automatically in a new window, open a session directly in the Powershell window, or prompt you to restart your machine before continuing.
 
@@ -37,7 +37,8 @@ wsl --set-version Ubuntu 1
 
 Then, open WSL1.
 
-> 💡 You can search for WSL under either "WSL" or "Ubuntu" if and as needed. They're functionally the same program listed under two different names.
+> [!TIP]
+> _You can search for WSL under either "WSL" or "Ubuntu" if and as needed. They're functionally the same program listed under two different names._
 
 ### WSL
 
@@ -48,8 +49,8 @@ Update WSL1 before continuing by running the following command. It may take a so
 ```console
 sudo apt update && sudo apt upgrade
 ```
-
-> 📝 These commands may ask for your password specific to WSL or a confirmation to perform a given action. Just enter your password or confirm with `y` (as in "yes") as necessary.
+> [!NOTE]
+> _These commands may ask for your password specific to WSL or a confirmation to perform a given action. Just enter your password or confirm with `y` (as in "yes") as necessary._
 
 Certain packages are (more software is) required to manage the pokeemerald-expansion project and build its ROM. You can and should install these packages by running the following command:
 
@@ -69,6 +70,7 @@ And the same path to that folder is `/mnt/c/Users/leethaxor/Desktop/decomps` in 
 cd /mnt/c/Users/leethaxor/Desktop/decomps
 ```
 
-> 📝 In WSL, if the path to your directory has spaces in it, the whole path needs to be put in quotes, like `cd "/mnt/c/users/Leet Haxor/Downloads/decomps"` if your username was `Leet Haxor` instead.
+> [!NOTE]
+> _In WSL, if the path to your directory has spaces in it, the whole path needs to be put in quotes, like `cd "/mnt/c/users/Leet Haxor/Downloads/decomps"` if your username was `Leet Haxor` instead._
 
 And that's it! Now you're ready to [set up pokeemerald-expansion](../set_up_guide.md)!

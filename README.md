@@ -12,7 +12,7 @@ It comes with [hundreds of features](docs/FEATURES.md) out of the box from the v
 
 ---
 
-> 🤔 _Deciding between pokeemerald or pokeemerald-expansion for your next ROM hack?_
+_Deciding between pokeemerald or pokeemerald-expansion for your next ROM hack?_ 🤔
 
 pokeemerald-expansion **already incorporates regular updates** from pokeemerald, including bugfixes and documentation improvements!
 
@@ -24,7 +24,7 @@ Still stuck? Check out our [comparision guide](docs/other_pages/comparison_guide
 
 If you do use pokeemerald-expansion, **please credit us** here at Rom Hacking Hideout (RHH)! Optionally, include the version number for clarity:
 
-```console
+```
 Based off RHH's pokeemerald-expansion 1.13.3 https://github.com/rh-hideout/pokeemerald-expansion/
 ```
 

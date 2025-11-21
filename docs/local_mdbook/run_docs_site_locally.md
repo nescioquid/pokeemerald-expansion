@@ -1,6 +1,7 @@
 # Running the documentation website locally (WSL/Ubuntu)
 
-> 📣 _Looking for more information on mdBook? Visit their [official documentation](https://rust-lang.github.io/mdBook/)._
+> [!NOTE]
+> _Looking for more information on mdBook? Visit their [official documentation](https://rust-lang.github.io/mdBook/)._
 
 We hope that this guide will make it easier for everyone to contribute to the docs site. Once you've set everyting up, you'll be able to check your changes locally before pushing them to your repo! :D
 
@@ -50,8 +51,8 @@ fi
 +     PATH="/home/<username>/.cargo/bin:$PATH"
 + fi
 ```
-
-> 💡 To save and exit `nano`, press `Ctrl+S` to save and `Ctrl+X` to exit.
+>[!TIP]
+> _To save and exit `nano`, press `Ctrl+S` to save and `Ctrl+X` to exit._
 
 Finally, run this command to refresh the `PATH` in your current terminal session:
 
@@ -71,7 +72,8 @@ Once started, you should now be able to open a local version of the website in y
 
 Every change to the `docs/` directory should now be reflected there automatically.
 
-> 💡 To stop the server and go back to your terminal session, press `Ctrl+C`.
+>[!TIP]
+> _To stop the server and go back to your terminal session, press `Ctrl+C`._
 
 ### Modifying the documentation site
 
@@ -81,7 +83,7 @@ Any Markdown files (those with an `.md` file extension) added to the `docs/` dir
 
 To add pages that are not in the `docs/` directory, you can create an empty Markdown file and add the following **without the** `<---->` to reference them:
 
-```console
+```
 {{<---->#include ../README.md}}`
 ```
 

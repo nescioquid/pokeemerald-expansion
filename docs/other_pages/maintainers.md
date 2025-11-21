@@ -1,7 +1,5 @@
 # Maintainers
 
-Please only contact maintainers listed as active. Thanks!
-
 <!-- This list was last updated 2025 April 1. -->
 
 | Name | Discord | Active? | Areas of Expertise |

@@ -1,14 +1,17 @@
 # Setting up pokeemerald-expansion
 
-> 📣 _Got a reason to build with a toolchain other than devkitARM? Check out our notes on [building with other toolchains](build_with_other_toolchains.md)._
+> [!NOTE]
+> _Got a reason to build with a toolchain other than devkitARM? Check out our notes on [building with other toolchains](build_with_other_toolchains.md)._
 
 Now that we've got our programming environment set up, we're ready get our own copy of the **pokeemerald-expansion** project on our machine.
 
-> 💡 If you're new to Git and GitHub or unsure of the differences, we politely (but firmly) suggest that you take a look at this guide to [The Basics of Git and GitHub](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub) kindly provided by our friends at [Team Aqua's Hideout](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/) to learn about how to fork and clone the Git repository (get your own copy of the project both online and on your machine).
+> [!NOTE]
+> _If you're new to Git and GitHub or unsure of the differences, we politely (but firmly) suggest that you take a look at this guide to [The Basics of Git and GitHub](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub) kindly provided by our friends at [Team Aqua's Hideout](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/) to learn about how to fork and clone the Git repository (get your own copy of the project both online and on your machine)._
 
 ### Cloning the repository from GitHub
 
-> ⚠️ **Do not use** GitHub's "Download Zip" option. It doesn't include commit history, which you need to get future updates or merge any feature branches. Follow the instructions below instead.
+> [!WARNING]
+> **Do not use** _GitHub's "Download Zip" option. It doesn't include commit history, which you need to get future updates or merge any feature branches. Follow the instructions below instead._
 
 First, make sure you've navigated to the directory you want to keep your project in (like your `decomps` directory, for instance).
 
@@ -34,19 +37,14 @@ If everything's been set up right, to build the ROM we should just have to run:
 make
 ```
 
----
-
-> 📝 To build `pokeemerald.elf`, a version of the ROM with debug symbols and debug-compatible optimizations, run:
-
-```console
-make debug
-```
-
----
+<!-- 
+> [!TIP]
+> To build `pokeemerald.elf`, a version of the ROM with debug symbols and debug-compatible optimizations, run `make debug` instead.
+ -->
 
 When it's done, something very similar to to the following should be at the end of your terminal's output:
 
-```console
+```
 arm-none-eabi-ld: warning: ../../pokeemerald.elf has a LOAD segment with RWX permissions
 Memory region         Used Size  Region Size  %age Used
             EWRAM:      243354 B       256 KB     92.83%
@@ -64,4 +62,5 @@ Finally, the newly built ROM will be in the base directory (the project folder) 
 
 Feel free to brag about your achievement in our [Discord server](https://discord.gg/6CzjAG6GZk)!
 
-> 💡 You can spend less time waiting for your ROM to compile by learning how to [make builds go faster](../other_pages/faster_builds.md). It's easy!
+> [!TIP]
+> _You can spend less time waiting for your ROM to build by learning how to [make builds go faster](../other_pages/faster_builds.md). It's easy!_

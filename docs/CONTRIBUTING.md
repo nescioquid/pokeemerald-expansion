@@ -1,6 +1,7 @@
 # Make a Contribution
 
-> 📣 _Did you know? this guide was based on [CONTRIBUTING.md's generator](https://contributing.md/generator)!_
+>[!NOTE]
+> _Did you know? this guide was based on [CONTRIBUTING.md's generator](https://contributing.md/generator)!_
 
 First off, thanks for wanting to help improve **pokeemerald-expansion**!
 
@@ -30,7 +31,8 @@ One of the maintainers will [label the issue](https://github.com/rh-hideout/poke
 
 Then they'll try to reproduce the bug with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, **we'll ask you for those steps**. Until the bug can be reproduced, the bug will stay labed as `bug:unconfirmed`.
 
-> 💡 Unconfirmed bugs are less likely get fixed, so please include steps to reproduce yours as much as you can.
+>[!TIP]
+> _Unconfirmed bugs are less likely get fixed, so please include steps to reproduce yours as much as you can._
 
 If we're able to reproduce the bug, we'll labeel it `bug:confirmed`, and your reported bug is ready to be fixed by any contributor (like you!) with a [pull request](#submitting-a-pull-request).
 
@@ -44,7 +46,8 @@ You should **confirm if the functionality already exists** or not by [reading th
 
 Also **make sure that it's within the project's scope** by [reading this document](docs/team_procedures/scope.md) that defines ours.
 
-> 💡 If you're still not sure whether something is in scope or not after doing your reading, you can start a discussion thread in the [#pr-discussions](https://discord.com/channels/419213663107416084/1102784418369785948) channel of our Discord server.
+>[!TIP]
+> _If you're still not sure whether something is in scope or not after doing your reading, you can start a discussion thread in the [#pr-discussions](https://discord.com/channels/419213663107416084/1102784418369785948) channel of our Discord server._
 
 Then **you should search** through the [new features we're implementing](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=state%3Aopen%20label%3Anew-feature) and the [features others have already requested](https://github.com/rh-hideout/pokeemerald-expansion/issues?q=state%3Aopen%20label%3Afeature-request), and see if others have already opened an issue requesting the same feature. If someone already has, add a comment with your ideas.
 
@@ -68,7 +71,8 @@ The primary way a change to the pokeemerald-expansion project is submitted, disc
 
 Start by **making sure that your idea is within the project's scope** by [reading this document](docs/team_procedures/scope.md) that defines ours. If you're planning on fixing a bug, your idea is within scope.
 
-> 💡 If you're still not sure whether something is in scope or not after doing your reading, you can start a discussion thread in the [#pr-discussions](https://discord.com/channels/419213663107416084/1102784418369785948) channel of our Discord server.
+>[!TIP]
+> _If you're still not sure whether something is in scope or not after doing your reading, you can start a discussion thread in the [#pr-discussions](https://discord.com/channels/419213663107416084/1102784418369785948) channel of our Discord server._
 
 Then, **create a new branch** from the most recent version of one of the following:
 
@@ -77,9 +81,11 @@ Then, **create a new branch** from the most recent version of one of the followi
 
 Then, **write the code**. Create your solution, solve your problem, fix that bug!
 
-> 📝 If your contribution's going to introduce, remove, or change a lot of existing code, we recommend getting [one of the maintainers](docs/other_pages/maintainers.md) to agree to review it before you start hacking.
+>[!NOTE]
+> _If your contribution's going to introduce, remove, or change a lot of existing code, we recommend getting [one of the maintainers](other_pages/maintainers.md) to agree to review it before you start hacking._
 
-> 💡 You can check out this short guide on how to [use Git for your first pull request](docs/other_pages/git_for_pull_requests.md) if you need help getting started with Git, and you can take a look at the guide to [The Basics of Git and GitHub](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub) kindly provided by our friends at [Team Aqua's Hideout](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/) to learn more.
+>[!TIP]
+> _You can check out this short guide on how to [use Git for your first pull request](other_pages/git_for_pull_requests.md) if you need help getting started with Git, and you can take a look at the guide to [The Basics of Git and GitHub](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/wiki/The-Basics-of-GitHub) kindly provided by our friends at [Team Aqua's Hideout](https://github.com/TeamAquasHideout/Team-Aquas-Asset-Repo/) to learn more._
 
 #### How do I submit a pull request?
 
@@ -89,7 +95,8 @@ Once your work is complete and pushed to a branch on GitHub, you can [open a pul
 
 One of the maintainers will assign themselves as a reviewer of your pull request, and may provide feedback in the form of a pull request review. 
 
-> ⚠️ **Do not force-push** new changes once a maintainer has begun reviewing your pull request, please: normal pushes are fine. And don't worry about the git history --we squash most incoming changes anyway.
+>[!WARNING]
+> **Do not force-push** _new changes once a maintainer has begun reviewing your pull request, please: normal pushes are fine. And don't worry about the git history --we squash most incoming changes anyway._
 
 Contributors (you) are responsible for responding to and updating their branch by addressing the feedback in the review. It's also your responsibility to make sure the branch passes the checklist at all times.
 

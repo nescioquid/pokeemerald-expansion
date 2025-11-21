@@ -29,7 +29,8 @@ xcode-select --install
 
 ### Homebrew
 
-> 📣 _Got some Intel-only custom tooling going on? Need to run tests using Rosetta? You may want to [check out our notes](run_tests_with_rosetta.md) on the topic._
+>[!NOTE]
+> _Got some Intel-only custom tooling going on? Need to run tests using Rosetta? You may want to [check out our notes](run_tests_with_rosetta.md) on the topic._
 
 If you haven't already, install the Homebrew package manager. The process involves copying the command provided on [Homebrew's website](https://brew.sh/) and running it:
 
@@ -42,8 +43,6 @@ Certain packages are (more software is) required to manage the pokeemerald-expan
 ```console
 brew install libpng pkg-config coreutils
 ```
-
-> 📝 Advanced users can, of course, install the depedencies by means other than Homebrew as desired.
 
 ### devkitARM
 
@@ -69,7 +68,8 @@ sudo dkp-pacman -S devkitarm-rules
 
 Afterwards, devkitARM now needs to be made accessible from anywhere by your system. To do so, run the following script (yes, the entire thing):
 
-> 📣 _Migrated from an older version of MacOS? Still running Bash? You probably want to [use this script](still_running_bash.md) instead!_
+> [!NOTE]
+> _Migrated from an older version of MacOS? Still running Bash? You probably want to [use this script](still_running_bash.md) instead!_
 
 ```console
 export DEVKITPRO=/opt/devkitpro

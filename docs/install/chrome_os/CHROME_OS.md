@@ -13,7 +13,7 @@ Then install all dependencies by running the following command:
 ```console
 sudo apt install build-essential binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi git libpng-dev python3
 ```
-
-> 📝 The project must be kept in a directory inside the Linux filesystem, for example under `~/decomps/pokeemerald-expansion`.
+> [!NOTE]
+> _The project must be kept in a directory inside the Linux filesystem, such as `~/decomps/pokeemerald-expansion`._
 
 And that's it! Now you're ready to [set up pokeemerald-expansion](../set_up_guide.md).

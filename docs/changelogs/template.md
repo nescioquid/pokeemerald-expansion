@@ -1,6 +1,7 @@
 # Template
 
-> 📣 _Unsure how to update? See below to [learn how](#how-to-update)!_
+>[!TIP]
+> _Unsure how to update? See below to [learn how](#how-to-update)!_
 
 <!-- Standard categories take the form: -->
 

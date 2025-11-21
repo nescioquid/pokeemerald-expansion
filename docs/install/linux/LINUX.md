@@ -6,7 +6,8 @@ Afterwards, you'll be ready to [set up pokeemerald-expansion](../set_up_guide.md
 
 ### Ubuntu
 
-> ⚠️ **This is not** the correct installation path for Windows users running the Windows Subsystem for Linux (WSL). The page you're looking for is [here](../windows/WINDOWS.md).
+>[!WARNING]
+> **This is not** _the correct installation path for Windows users running the Windows Subsystem for Linux (WSL). The page you're looking for is [here](../windows/WINDOWS.md)._
 
 Open a terminal and run the following command:
 

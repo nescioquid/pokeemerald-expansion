@@ -1,6 +1,7 @@
 # Setting up on Windows
 
-> 📣 _Gotta have your Cygwin or MSYS2? Don't have admin privileges? Take a look at the [install guides for other Windows runtimes](other_windows_runtimes.md)!_
+> [!NOTE]
+> _Gotta have your Cygwin or MSYS2? Don't have admin privileges? Take a look at the [install guides for other Windows runtimes](other_windows_runtimes.md)!_
 
 Before setting up **pokeemerald-expansion** itself, we need to ensure that our programming environment is configured correctly, and that all dependencies (the software that our software in turn relies on) are installed.
 
@@ -17,7 +18,8 @@ Because of how WSL is integrated with Microsoft Windows, some concepts and conve
 
 To install the dependencies we need, we'll be working with two different command-line interfaces. First we'll use Powershell, a native Windows CLI, to interact with Windows, then Bash to interact with Ubuntu running on WSL.
 
-> 📝 This guide assumes WSL2, which is the approach we recommended. If you're especially opinionated or unsure of which version of WSL to use, check out our [discussion on the topic](which_wsl.md) for more information.
+> [!NOTE]
+> _This guide assumes WSL2, which is the approach we recommended. If you're especially opinionated or unsure of which version of WSL to use, check out our [discussion on the topic](which_wsl.md) for more information._
 
 ### Powershell
 
@@ -26,12 +28,13 @@ Open Powershell and make sure to **run as administrator** ([example image](https
 ```console
 wsl --install -d Ubuntu
 ```
-
-> 💡 In Both Powershell and WSL, you can paste text with a `Right-click`.
+> [!TIP]
+> _In Both Powershell and WSL, you can paste text with a `Right-click`._
 
 WSL may variously open automatically in a new window, open a session directly in the Powershell window, or prompt you to restart your machine before continuing.
 
-> 💡 You can search for WSL under either "WSL" or "Ubuntu" if and as needed. They're functionally the same program listed under two different names.
+> [!TIP]
+> _You can search for WSL under either "WSL" or "Ubuntu" if and as needed. They're functionally the same program listed under two different names._
 
 ### WSL
 
@@ -42,8 +45,8 @@ Update WSL before continuing by running the following command. It may take a som
 ```console
 sudo apt update && sudo apt upgrade
 ```
-
-> 📝 These commands may ask for your password specific to WSL or a confirmation to perform a given action. Just enter your password or confirm with `y` (as in "yes") as necessary.
+> [!NOTE]
+> _These commands may ask for your password specific to WSL or a confirmation to perform a given action. Just enter your password or confirm with `y` (as in "yes") as necessary._
 
 Certain packages are (more software is) required to manage the pokeemerald-expansion project and build its ROM. You can and should install these packages by running the following command:
 
@@ -55,7 +58,8 @@ sudo apt install build-essential binutils-arm-none-eabi gcc-arm-none-eabi libnew
 
 Take note that **WSL has its own separate file system**. We'll be setting up our pokeemerald-expansion project entirely within the separate WSL file system.
 
-> 📝 Accessing files on the Windows file system with WSL can be painfully slow when considering the amount of operations needed to build the project's ROM. That's why keeping your project in the Windows file system is highly discouraged.
+> [!NOTE]
+> _Accessing files on the Windows file system with WSL can be painfully slow when considering the amount of operations needed to build the project's ROM. That's why keeping your project in the Windows file system is highly discouraged._
 
 We're going to create a directory (a folder) for our decompilation projects, but first, change to the home directory (referred to with `~`) of the WSL file system by running:
 
