@@ -1,14 +1,15 @@
-## How to use the code entry system
+# How to use the code entry system
 
 This system involves using the `EnterCode` special to prompt the player to enter a text string, and then the `GetCodeFeedback` special to perform some function based on the string entered. Using this system to make your own cheat codes or mystery gifts will involve both scripting and editing the `GetCodeFeedback` function itself to include your new functionality, and may involve further changes to the codebase if you want to implement something more far reaching (ie. a grindrunning mode).
 
-This tutorial will use the example of entering the string "CaughtEmAll" to flag every Pokemon as caught
+This tutorial will use the example of entering the string "CaughtEmAll" to flag every Pokemon as caught.
 
-### 1. Choose where to initiaze your event scripting
+### Choose where to initiaze your event scripting
 
 This can be anywhere or anything, pre-existing or added by you in porymap. I usually like using signs for testing things but this can be anything. I'm going to give the main script a more generic name, and you can attach it to whatever object you like.
 
 In that object's event script, add the following:
+
 ```diff
 EventScript_CodeEntry::
     special EnterCode
@@ -19,9 +20,10 @@ EventScript_CodeEntry::
 
 This will prompt text entry from the object and prepare it to handle reading the entered text after it's been entered, but it won't do anything yet. Next we need to add our functionality to `GetCodeFeedback`.
 
-### 2. Add code string and code function to `GetCodeFeedback`
+### Add code string and code function to `GetCodeFeedback`
 
 You can find `GetCodeFeedback` in `src/field_specials.c`. Let's start by taking a look at the function:
+
 ```
 void GetCodeFeedback(void)
 {
@@ -79,9 +81,9 @@ void GetCodeFeedback(void)
 
 Awesome! Now our `GetCodeFeedback` function performs the task we want it to, and returns a 2 to our event script so it can handle the situation appropriately. That's our next and final step!
 
-### 3. Handle new `GetCodeFeedback` case in event script
+### Handle new `GetCodeFeedback` case in event script
 
-To clarify, this step is *optional*. You don't need to do anything else after `GetCodeFeedback` has run if you don't want to, as all the functionality is there; once that function finishes, everything in the Pokedex will be marked as caught.
+To clarify, this step is _optional_. You don't need to do anything else after `GetCodeFeedback` has run if you don't want to, as all the functionality is there; once that function finishes, everything in the Pokedex will be marked as caught.
 
 The reason we might want to do this step, and the reason we pass results back to the event script in the first place, is so we can handle providing the player with some dialogue based on what they're doing.
 
@@ -228,7 +230,7 @@ CodeCaughtEmAll_Text
 
 And that's it! Feel free to expand this in whatever way you wish, the pattern can just be repeated as much as you like, and you can made the code called from `GetCodeFeedback` do whatever you like.
 
-## Can I change the icon on the name entry screen?
+### Can I change the icon on the name entry screen?
 
 Absolutely! In `naming_screen.c`, look for the `NamingScreen_CreateCodeIcon` function. It's very short. There's one relevant line that needs to be changed:
 
@@ -240,9 +242,11 @@ Just swap out `OBJ_EVENT_GFX_MYSTERY_GIFT_MAN` for whatever event object sprite 
 
 ## What about a mystery gift setup?
 
+<!-- TODO: Add a link to the referenced implementation. -->
+
 I'd like to cover this separately because it's best handled via `givemon` script commands, which means we don't do much in `GetCodeFeedback` other than return a unique identifier. I'm gonna reference @PCG06's mystery gift implementation which is based on this code entry system for a clean and really thorough example.
 
-### 3. Mystery Gift `GetCodeFeedback`
+### Mystery Gift `GetCodeFeedback`
 
 Let's say you have two mystery gift mons and no other cases you want to handle, one for Celebi and one for Jirachi. Your `GetCodeFeedback` function will look something like this:
 
@@ -258,9 +262,10 @@ Let's say you have two mystery gift mons and no other cases you want to handle, 
         gSpecialVar_Result = 0;
 }
 ```
+
 and that's it, super simple. All of the other handling will have to be done on the scripting end, as we'll be leaning on `givemon` and its associated handling.
 
-### 2. Mystery Gift Scripting
+### Mystery Gift Scripting
 
 Let's return back to our EventScript_CodeEntry pattern from before, but instead use our new codes.
 
@@ -293,7 +298,7 @@ MysteryGift_EventScript_Celebi::
 	end
 ```
 
-Walking through this, it's clear we'll need some more scripting. We first check if Celebi's corresponding Mystery Gift flag has been set, and if it has, we need to tell the player they've already redeemed it and can't again. If they haven't though, we get ourselves setup for the givemon, do the givemon, and set the mystery gift flag. Then we need soem more generic handling to prompt nicknaming and some fanfare. 
+Walking through this, it's clear we'll need some more scripting. We first check if Celebi's corresponding Mystery Gift flag has been set, and if it has, we need to tell the player they've already redeemed it and can't again. If they haven't though, we get ourselves setup for the givemon, do the givemon, and set the mystery gift flag. Then we need soem more generic handling to prompt nicknaming and some fanfare.
 
 Two things, then; an event script to handle the case where a mystery gift mon has already been redeemed, and an event script to handle when a mystery gift mon has successfully been received.
 
@@ -327,13 +332,13 @@ Almost done! Just need to handle the specific nicknaming scripts, and then add a
 MysteryGift_EventScript_NicknamePartyMon::
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, MysteryGift_EventScript_Exit
-	call Common_EventScript_GetGiftMonPartySlot 
-	call Common_EventScript_NameReceivedPartyMon 
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
 	goto MysteryGift_EventScript_Exit
 	end
 
 MysteryGift_EventScript_NicknamePCMon::
-	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO 
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, MysteryGift_EventScript_TransferredToPC
 	call Common_EventScript_NameReceivedBoxMon
 	call Common_EventScript_TransferredToPC

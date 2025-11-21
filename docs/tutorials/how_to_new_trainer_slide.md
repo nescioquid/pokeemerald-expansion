@@ -1,9 +1,11 @@
 # Adding New Trainer Slides
-## Define Slides Per Trainer
+
+### Define Slides Per Trainer
 
 We are going to add a Trainer Slide to Wally's first Victory Road battle, before he Mega Evolves his Gallade. This battle takes place outside a Battle Facility, so `sTrainerSlides` must be edited.
 
-### `src/trainer_slide.c`
+#### `src/trainer_slide.c`
+
 ```diff
 + const u8 gText_ThatsTheWay[] = _("That's the way, Gallade! Go!{PAUSE_UNTIL_PRESS}");
 
@@ -22,7 +24,8 @@ static const u8* const sTrainerSlides[DIFFICULTY_COUNT][TRAINERS_COUNT][TRAINER_
 
 If we were to edit a Trainer that appears in a Battle Facility, `sFrontierTrainerSlides` would be edited instead. Here, we'll give Anabel a line before she uses a Z-Move.
 
-### `src/trainer_slide.c`
+#### `src/trainer_slide.c`
+
 ```diff
 static const u8* const sFrontierTrainerSlides[DIFFICULTY_COUNT][FRONTIER_TRAINERS_COUNT][TRAINER_SLIDE_COUNT] =
 {
@@ -36,18 +39,20 @@ static const u8* const sFrontierTrainerSlides[DIFFICULTY_COUNT][FRONTIER_TRAINER
 };
 ```
 
-## Add New Slides
-* [Example Commit](<https://github.com/rh-hideout/pokeemerald-expansion/commit/d6424688007cbd923c861cfd35272e5ebfaa4016>)
-* [Patch](<https://github.com/rh-hideout/pokeemerald-expansion/commit/d6424688007cbd923c861cfd35272e5ebfaa4016.patch>)
-* [Diff](<https://github.com/rh-hideout/pokeemerald-expansion/commit/d6424688007cbd923c861cfd35272e5ebfaa4016.diff>)
+### Add New Slides
 
-### `include/constants/trainer_slide.h`
+- [Example Commit](https://github.com/rh-hideout/pokeemerald-expansion/commit/d6424688007cbd923c861cfd35272e5ebfaa4016)
+- [Patch](https://github.com/rh-hideout/pokeemerald-expansion/commit/d6424688007cbd923c861cfd35272e5ebfaa4016.patch)
+- [Diff](https://github.com/rh-hideout/pokeemerald-expansion/commit/d6424688007cbd923c861cfd35272e5ebfaa4016.diff)
+
+#### `include/constants/trainer_slide.h`
+
 ```diff
 enum TrainerSlideType
 {
     TRAINER_SLIDE_BEFORE_FIRST_TURN,
     TRAINER_SLIDE_PLAYER_LANDS_FIRST_CRITICAL_HIT,
-+   TRAINER_SLIDE_ENEMY_LANDS_FIRST_CRITICAL_HIT, // Each Trainer Slide has a unqiue id. 
++   TRAINER_SLIDE_ENEMY_LANDS_FIRST_CRITICAL_HIT, // Each Trainer Slide has a unqiue id.
     TRAINER_SLIDE_PLAYER_LANDS_FIRST_SUPER_EFFECTIVE_HIT,
     TRAINER_SLIDE_PLAYER_LANDS_FIRST_STAB_MOVE,
     TRAINER_SLIDE_PLAYER_LANDS_FIRST_DOWN,
@@ -64,7 +69,7 @@ enum TrainerSlideType
 
 Each Trainer Slide has a unique id and needs to be added to this list.
 
-### `include/trainer_slide.h`
+#### `include/trainer_slide.h`
 
 If your new Trainer Slide needs to check for beforen initalized, a function is declared here to be used externally. Critical hits are used to initalize this Trainer Slide but the slide doesn't play instantly, so we will create an function to initialize it.
 
@@ -77,12 +82,13 @@ void TryInitializeTrainerSlidePlayerLandsFirstSuperEffectiveHit(u32);
 void TryInitializeTrainerSlideEnemyMonUnaffected(u32);
 bool32 IsTrainerSlideInitialized(enum TrainerSlideType);
 ```
-### `src/trainer_slide.c`
+
+#### `src/trainer_slide.c`
 
 ```diff
      return IsTrainerSlideInitialized(slideId);
  }
- 
+
 +static bool32 ShouldRunTrainerSlideEnemyLandsFirstCriticalHit(enum TrainerSlideType slideId)
 +{
 +    return IsTrainerSlideInitialized(slideId);
@@ -110,7 +116,7 @@ The function that determines if a Slide should play has different function for m
 ```diff
      InitalizeTrainerSlide(slideId);
  }
- 
+
 +void TryInitializeTrainerSlideEnemyLandsFirstCriticalHit(u32 target)
 +{
 +    enum TrainerSlideType slideId = TRAINER_SLIDE_ENEMY_LANDS_FIRST_CRITICAL_HIT;
@@ -128,7 +134,7 @@ The function that determines if a Slide should play has different function for m
 
 The function to check if this slide SHOULD be initalized is added to the bottom of this file.
 
-### `src/battle_main.c`
+#### `src/battle_main.c`
 
 ```diff
          BattleScriptExecute(i == 1 ? BattleScript_TrainerASlideMsgEnd2 : BattleScript_TrainerBSlideMsgEnd2);
@@ -144,25 +150,26 @@ diff --git a/src/battle_script_commands.c b/src/battle_script_commands.c
 
 In `BattleTurnPassed`, most Trainer Slides are checked to see if they should run, so our new call is added here.
 
-### `src/battle_script_commands.c`
+#### `src/battle_script_commands.c`
 
 ```diff
          {
              PrepareStringBattle(STRINGID_CRITICALHIT, gBattlerAttacker);
- 
+
 +            TryInitializeTrainerSlideEnemyLandsFirstCriticalHit(gBattlerTarget);
              TryInitializeTrainerSlidePlayerLandsFirstCriticalHit(gBattlerTarget);
- 
+
              gBattleCommunication[MSG_DISPLAY] = 1;
 ```
 
 The actual usage of `TryInitializeTrainerSlideEnemyLandsFirstCriticalHit` is added and is checked whenever a critical hit is scored.
 
-### `test/battle/trainer_slides.c`
+#### `test/battle/trainer_slides.c`
+
 ```diff
      }
  }
- 
+
 +SINGLE_BATTLE_TEST("Trainer Slide: Enemy Lands First Critical Hit")
 +{
 +    gBattleTestRunnerState->data.recordedBattle.opponentA = TRAINER_SLIDE_ENEMY_LANDS_FIRST_CRITICAL_HIT;
@@ -188,7 +195,8 @@ The actual usage of `TryInitializeTrainerSlideEnemyLandsFirstCriticalHit` is add
 diff --git a/test/battle/trainer_slides.h b/test/battle/trainer_slides.h
 ```
 
-### `test/battle/trainer_slides.h`
+#### `test/battle/trainer_slides.h`
+
 ```diff
 
          [TRAINER_SLIDE_PLAYER_LANDS_FIRST_CRITICAL_HIT] = COMPOUND_STRING("This message plays after the player lands their first critical hit.{PAUSE_UNTIL_PRESS}"),

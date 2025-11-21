@@ -1,28 +1,27 @@
 # How to add a new trainer front pic
 
-## Content
-* [Quick Summary](#quick-summary)
-* [The Graphics](#the-graphics)
-  * [1. Edit the sprites](#2-edit-the-sprites)
-  * [2. Register the sprites](#2-register-the-sprites)
-  * [3. Connecting pictures to the data](#2-connecting-pictures-to-the-data)
-* [The Data](#the-data)
-  * [4. Defining the trainer pic](#2-defining-the-trainer-pic)
-* [Usage](#usage)
+### Quick Summary
 
-## Quick Summary
 If you've done this before and just need a quick lookup, here's what files you need:
+
 1. Place graphics into [`graphics/trainers/front_pics`](./graphics/trainers/front_pics).
 2. Point game to where graphic files are found: [`src/data/graphics/trainers`](./src/data/graphics/trainers.h).
 3. Add trainer to [`include/constants/trainers.h`](./include/constants/trainers.h).
 
 ## The Graphics
 
-### 1. Edit the sprites
-We will start with a graphic that we want to use for our new trainer pic. Unlike with adding Pokémon, the trainer sprites aren't sorted in individual folders, but rather in one folder: [`graphics/trainers/front_pics`](./graphics/trainers/front_pics).  **Trainers sprites cannot have more than 16 colors - this includes the color that will be transparent, which is the first slot of the palette.**
+### Edit the sprites
 
-### 2. Register the sprites
+We will start with a graphic that we want to use for our new trainer pic. Unlike with adding Pokémon, the trainer sprites aren't sorted in individual folders, but rather in one folder: [`graphics/trainers/front_pics`](./graphics/trainers/front_pics).
+
+<!-- TODO: Confirm it's meant to say more than 16 _colors_? -->
+
+Trainers sprites **cannot be more than 16** --this includes the color that will be transparent, which is the first slot of the palette.
+
+### Register the sprites
+
 Sadly, just putting the image files into the graphics folder is not enough. To use the sprites we have to register them by linking the graphic files in [`src/data/graphics/trainers`](./data/graphics/trainers.h):
+
 ```diff
  const u16 gTrainerPalette_RubySapphireBrendan[] = INCBIN_U16("graphics/trainers/palettes/brendan_rs.gbapal");
 
@@ -35,10 +34,12 @@ Sadly, just putting the image files into the graphics folder is not enough. To u
  const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan.4bpp");
 ```
 
-### 3. Connecting the Pictures to the Data
+### Connecting the Pictures to the Data
+
 The last few things we have to do is prepare the graphics for usage. In [`src/data/graphics/trainers.h`](./src/data/graphics/trainers.h) you'll find the `gTrainerSprites` struct, we need to add the trainer to this. You can just copy the last trainer type defined and edit it, but this is what it does: Connects the new trainer with the image we defined earlier.
 
 So, finally, it needs to look like this:
+
 ```diff
  #define TRAINER_SPRITE(trainerPic, picFile, paletteFile, ...)                  \
      [trainerPic] =                                                             \
@@ -58,8 +59,11 @@ So, finally, it needs to look like this:
 +    TRAINER_SPRITE(TRAINER_PIC_NEW_ONE, gTrainerFrontPic_NewOne, gTrainerPalette_NewOne),
  };
 ```
+
 ### The Data
-#### 4. Defining the trainer pic
+
+#### Defining the trainer front pic
+
 Finally, let's bring it all together by defining our new trainer pic in [`include/constants/trainers.h`](./include/constants/trainers.h):
 
 ```diff
@@ -69,10 +73,13 @@ Finally, let's bring it all together by defining our new trainer pic in [`includ
  #define TRAINER_BACK_PIC_BRENDAN                0
  #define TRAINER_BACK_PIC_MAY                    1
 ```
+
 Remember to count the number next to the trainer pic up by one!
 
 ## Usage
+
 You can test your trainer type by going to [`src/data/trainers.party`](./src/data/trainers.party) and change the `Pic` field. The syntax should match the constant (`TRAINER_PIC_NEW_ONE`) with the underscore replaced by spaces. For example:
+
 ```diff
  === TRAINER_BRENDAN_PLACEHOLDER ===
  Name: BRENDAN
@@ -85,6 +92,7 @@ You can test your trainer type by going to [`src/data/trainers.party`](./src/dat
 ```
 
 Otherwise if you use [`src/data/trainers.h`](./src/data/trainers.h), change the `.trainerPic` field instead. For example:
+
 ```diff
      [DIFFICULTY_NORMAL][TRAINER_BRENDAN_PLACEHOLDER] =
      {

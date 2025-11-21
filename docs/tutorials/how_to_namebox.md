@@ -1,14 +1,13 @@
 # How to Use Namebox
 
-_New implementation made by mudskipper13, originally made by Tustin2121._
-
-## Overview
+_New implementation made by @**mudskipper13**, original by @**Tustin2121**._
 
 ![Npc Trainers](/docs/tutorials/img/namebox/npc_trainers.gif)
 ![Pokenav](/docs/tutorials/img/namebox/pokenav.gif)
 ![Messagebox](/docs/tutorials/img/namebox/msgbox.gif)
 
 This is a broad and self-contained implementation of Tustin2121's namebox feature branch [here](https://github.com/tustin2121/pokeemerald/tree/feature/namebox), which includes the following:
+
 - Cleaner implementation of namebox onto both the field message box _and_ the field PokéNav textbox.
 - New configs:
   - `OW_NAME_BOX_USE_DYNAMIC_WIDTH` lets the namebox use dynamic window width depending on the speaker's string length.
@@ -28,17 +27,19 @@ This is a broad and self-contained implementation of Tustin2121's namebox featur
   - Feed it `SP_NAME_NONE` to remove the namebox manually.
   - Similarly, `release`, `releaseall`, and `closemessage` will automatically remove the namebox, together with the message box.
 
-## Usage
-
 ### `setspeaker`
+
 #### Using a text pointer
+
 First, define your speaker's string.
+
 ```
 Speaker_Jeremy:
     .string "Jeremy$"
 ```
 
 And then in your script, add the `setspeaker` with the speaker's name earlier.
+
 ```
 ...
     setspeaker Speaker_Jeremy
@@ -46,27 +47,37 @@ And then in your script, add the `setspeaker` with the speaker's name earlier.
 ```
 
 If you are using poryscript, you can also include the string right there with the `setspeaker` aka inline.
+
 ```
 ...
     setspeaker("Jeremy")
 ...
 ```
+
 #### Using a `SP_NAME_*` constant
+
 Add the `setspeaker` with your constant.
+
 ```
     setspeaker SP_NAME_JEREMY
 ```
+
 For instruction on how to add a new Speaker Name, continue [here](#adding-a-new-speaker-name).
 
 ### `SPEAKER` inline
+
 The usage is identical to using `setspeaker` with `SP_NAME_*` constant, but instead it's within your _text_ script and uses the constant you added to `charmap.txt`.
+
 ```
     "{SPEAKER NAME_JEREMY}Yo wassup!"
 ```
+
 For instruction on how to add a new Speaker Name, continue [here](#adding-a-new-speaker-name).
 
 ### Adding a new Speaker Name
+
 1. Add a new constant to [`include/constants/speaker_names.h`](/include/constants/speaker_names.h) just after `SP_NAME_NONE` _and_ before `SP_NAME_COUNT`.
+
 ```diff
  enum SpeakerNames {
      SP_NAME_NONE = 0,
@@ -79,6 +90,7 @@ For instruction on how to add a new Speaker Name, continue [here](#adding-a-new-
 ```
 
 2. Add an entry to `gSpeakerNamesTable` in [`src/data/speaker_names.h`](/src/data/speaker_names.h) with your newly added constant as the array index.
+
 ```diff
  const u8 *const gSpeakerNamesTable[SP_NAME_COUNT] =
  {
@@ -88,7 +100,8 @@ For instruction on how to add a new Speaker Name, continue [here](#adding-a-new-
  };
 ```
 
-3. In order for this constant to be usable for `{SPEAKER}` inline, you'll need to add your constant onto [`charmap.txt`](/charmap.txt). **Do note that the order here MUST match with the one in [`include/constants/speaker_names.h`](/include/constants/speaker_names.h)!**
+3. In order for this constant to be usable for `{SPEAKER}` inline, you'll need to add your constant onto [`charmap.txt`](/charmap.txt). **Do note that the order here MUST match with the one in [`include/constants/speaker_names.h`](/include/constants/speaker_names.h)**!
+
 ```diff
  @ Speaker names, the order must be matching with include/constants/speaker_names.h
  NAME_NONE = 00

@@ -1,55 +1,47 @@
-This is a modified version of [the original tutorial about adding new Pokémon species available in Pokeemerald's wiki](https://github.com/pret/pokeemerald/wiki/How-to-add-a-new-Pokémon-species).
+# How to add new Pokémon (1.6.2 and lower)
+
+_This is a modified version of the [original tutorial](https://github.com/pret/pokeemerald/wiki/How-to-add-a-new-Pokémon-species) in Pokeemerald's wiki._
+
+>[!NOTE]
+> _This tutorial applies to version 1.6.2 and lower. for Version 1.7.x onwards, [use this one instead](how_to_new_pokemon.md)_.
 
 Despite the persistent rumors about an incredibly strong third form of Mew hiding somewhere, it actually wasn't possible to catch it... OR WAS IT?
+
 In this tutorial, we will add a new Pokémon species to the game.
 
-## IMPORTANT: This tutorial applies to Version 1.6.2 and lower.
-- [Version 1.7.x onwards](how_to_new_pokemon.md)
+### Changes compared to vanilla
 
-# Changes compared to vanilla
 The main things that the Expansion changes are listed here.
-* Still Front Pics *(`gMonStillFrontPic_YourPokemon`)* and by extension `src/anim_mon_front_pics.c` have been removed.
-* `src/data/pokemon/cry_ids.h` doesn't exist anymore.
 
-# Content
-* [The Graphics](#the-graphics)
-  * [1. Edit the sprites](#1-edit-the-sprites)
-  * [2. Register the sprites](#2-register-the-sprites)
-  * [3. Animate the sprites](#3-animate-the-sprites)
-  * [4. Update the tables](#4-update-the-tables)
-* [The Data](#the-data)
-  * [1. Declare a species constant](#1-declare-a-species-constant)
-  * [2. Devise a name](#2-devise-a-name)
-  * [3. Define its Pokédex entry](#3-define-its-pokédex-entry)
-  * [4. Define its species information](#4-define-its-species-information)
-  * [5. Delimit the moveset](#5-delimit-the-moveset)
-  * [6. Define its cry](#6-define-its-cry)
-  * [7. Define the Evolutions](#7-define-the-evolutions)
-  * [8. Easy Chat about your Pokémon](#8-easy-chat-about-your-pokémon)
-  * [9. Make it appear!](#9-make-it-appear)
-* [Appendix](#appendix)
-  * [Available Front Animations](#available-front-animations)
-  * [Available Back Animations](#available-back-animations)
-  * [Pokémon ordered by height](#pokémon-ordered-by-height)
-  * [Pokémon ordered by weight](#pokémon-ordered-by-weight)
-  * [Making this easier](#making-this-easier)
+- Still Front Pics _(`gMonStillFrontPic_YourPokemon`)_ and by extension `src/anim_mon_front_pics.c` have been removed.
+- `src/data/pokemon/cry_ids.h` doesn't exist anymore.
 
+## The Graphics
 
-# The Graphics
 We will start by copying the folder containing the sprites for Mewtwo and rename it to `mewthree` (pretty meta huh?):
+
 ```sh
 cp -r graphics/pokemon/mewtwo graphics/pokemon/mewthree
 ```
-## 1. Edit the sprites
+
+### Edit the sprites
+
 Let's edit the sprites. Start your favourite image editor (I have used GIMP) and change `anim_front.png`, `front.png` and `back.png` to meet your expectations.
-__Make sure that you are using the indexed mode and you have limited yourself to 15 colors!__
+
+Make sure that you are **using the indexed mode** and you have **limited yourself to 15 colors**!
+
 Put the RGB values of your colors into `normal.pal` between the first and the last color and the RGB values for the shiny version into `shiny.pal`.
+
 Edit `footprint.png` using two colors in indexed mode, black and white.
+
 Finally, edit `icon.png`. Notice, that the icon will use one of three predefined palettes instead of `normal.pal`.
 
-## 2. Register the sprites
+### Register the sprites
+
 Sadly, just putting the image files into the graphics folder is not enough. To use the sprites we have to register them, which is kind of tedious.
+
 First, create constants for the file paths. You'll want to add the constants for your species after the constants for the last valid species.
+
 Edit [include/graphics.h](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/include/graphics.h):
 
 ```diff
@@ -120,7 +112,7 @@ Please note that Calyrex, the Pokémon that should be above your insertion for t
 
 It is also worth to mention that Calyrex's icon sprite is commented out simply because it's currently missing. If you do have an icon sprite sheet present inside your species' folder at `graphics/pokemon`, by all means do not comment entries involving the `gMonIcon` constants.
 
-## 3. Animate the sprites
+### Animate the sprites
 
 You can define the animation order, in which the sprites will be shown. The first number is the sprite index (so 0 or 1) and the second number is the number of frames the sprite will be visible.
 
@@ -164,6 +156,7 @@ SINGLE_ANIMATION(Enamorus);
 Because you are limited to two frames, there are already [predefined front sprite animations](#available-front-animations), describing translations, rotations, scalings or color changes.
 
 Edit [src/pokemon.c](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/src/pokemon.c):
+
 ```diff
  static const u8 sMonFrontAnimIdsTable[] =
  {
@@ -217,7 +210,7 @@ Edit [src/data/pokemon_graphics/enemy_mon_elevation.h](https://github.com/rh-hid
  };
 ```
 
-## 4. Update the tables
+### Update the tables
 
 Edit [src/data/pokemon_graphics/front_pic_table.h](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/src/data/pokemon_graphics/front_pic_table.h):
 
@@ -350,11 +343,11 @@ Here, you can choose between the six icon palettes; 0, 1, 2, 3, 4 and 5. All of 
 
 Open an icon sprite and load one of the palettes to find out which palette suits your icon sprite best.
 
-# The Data
+## The Data
 
 Our plan is as simple as it is brilliant: clone Mewtwo... and make it even stronger!
 
-## 1. Declare a species constant
+### Declare a species constant
 
 Our first step towards creating a new digital lifeform is to define its own species constant.
 
@@ -371,8 +364,7 @@ Edit [include/constants/species.h](https://github.com/rh-hideout/pokeemerald-exp
 +#define FORMS_START SPECIES_MEWTHREE
 ```
 
-## 2. Devise a name
-
+### Devise a name
 
 This name will be displayed in the game. It may be different than the identifier of the species constant, especially when there are special characters involved.
 
@@ -390,7 +382,7 @@ Edit [src/data/text/species_names.h](https://github.com/rh-hideout/pokeemerald-e
 
 The `_()` underscore function doesn't really exist - it's a convention borrowed from GNU gettext to let `preproc` know this is text to be converted to the custom encoding used by the Gen 3 Pokemon games.
 
-## 3. Define its Pokédex entry
+### Define its Pokédex entry
 
 First, we will need to add new index constants for its Pokédex entry. The index constants are divided into the Hoenn Pokédex, which contains all Pokémon native to the Hoenn region, and the National Pokédex containing all known Pokémon, which can be received after entering the hall of fame for the first time.
 
@@ -436,7 +428,6 @@ enum {
 ```
 
 Edit [src/pokemon.c](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/src/pokemon.c):
-
 
 ```diff
  // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -564,8 +555,10 @@ Edit [src/data/pokemon/pokedex_orders.h](https://github.com/rh-hideout/pokeemera
  };
 ```
 
-## 4. Define its species information
+### Define its species information
+
 Edit [src/data/pokemon/species_info.h](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/src/data/pokemon/species_info.h):
+
 ```diff
  const struct SpeciesInfo gSpeciesInfo[] =
  {
@@ -627,7 +620,7 @@ Notice how I also set the ability to `ABILITY_INSOMNIA`, so our little monster d
 
 You can also incorporate a 3rd ability to your species, which is intended to be a [Hidden Ability](https://bulbapedia.bulbagarden.net/wiki/Ability#Hidden_Abilities)!
 
-## 5. Delimit the moveset
+### Delimit the moveset
 
 Let's begin with the moves that can be learned by leveling up.
 
@@ -777,8 +770,10 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
 
 If you want to create a Pokémon which can breed, you will need to edit [src/data/pokemon/egg_moves.h](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/src/data/pokemon/egg_moves.h).
 
-## 6. Define its cry
+### Define its cry
+
 First run these command to copy the Mewtwo sound files:
+
 ```sh
 cp -r sound/direct_sound_samples/cries/mewtwo.bin sound/direct_sound_samples/cries/mewthree.bin
 cp -r sound/direct_sound_samples/cries/mewtwo.aif sound/direct_sound_samples/cries/mewthree.aif
@@ -817,7 +812,7 @@ Mon cries are 10512Hz. Make sure to put the aif file in the directory [sound/dir
 
 Higher frequencies may be ruined by compression. To have the cries uncompressed, follow [this](https://github.com/ShinyDragonHunter/pokefirereddx/commit/71ba1c193082817afbed9a8a0ba1d123fffb6f36#diff-e1823f56db7c2344fb9ee843e3c42797f72fa1e108e13a7080018e1db545322eR116) , then clear out the old sound bins
 
-## 7. Define the Evolutions
+### Define the Evolutions
 
 We want Mewthree to evolve from Mewtwo by reaching level 100.
 
@@ -830,8 +825,7 @@ Edit [src/data/pokemon/evolution.h](https://github.com/rh-hideout/pokeemerald-ex
 #endif
 ```
 
-## 8. Easy Chat about your Pokémon
-
+### Easy Chat about your Pokémon
 
 Edit [src/data/easy_chat/easy_chat_words_by_letter.h](https://github.com/rh-hideout/pokeemerald-expansion/blob/master/src/data/easy_chat/easy_chat_words_by_letter.h):
 
@@ -847,8 +841,7 @@ Edit [src/data/easy_chat/easy_chat_words_by_letter.h](https://github.com/rh-hide
  };
 ```
 
-## 9. Make it appear!
-
+### Make it appear!
 
 Now Mewthree really does slumber in the games code - but we won't know until we make him appear somewhere! The legend tells that Mewthree is hiding somewhere in Petalburg Woods...
 
@@ -890,9 +883,15 @@ Edit [src/data/wild_encounters.json](https://github.com/rh-hideout/pokeemerald-e
 
 Congratulations, you have created your own personal pocket monster! You may call yourself a mad scientist now.
 
-# Appendix
-## Available Front Animations
+## Appendix
+
+>[!TIP]
+> If you have multiple species that you want to add to pokeemerald but don't want to copy and paste or type everything out multiple times, just use this [handy program](https://github.com/smithk200/making-a-new-pokemon-species-in-pokeemerald) by @**smithk200** to generate text with the species name in there! 
+
+### Available Front Animations
+
 _Only 65 are used in-game, but you can use any animation from this list._
+
 1. ANIM_V_SQUISH_AND_BOUNCE
 2. ANIM_CIRCULAR_STRETCH_TWICE
 3. ANIM_H_VIBRATE
@@ -1045,7 +1044,8 @@ _Only 65 are used in-game, but you can use any animation from this list._
 150. ANIM_SHAKE_GLOW_BLUE
 151. ANIM_SHAKE_GLOW_BLUE_SLOW
 
-## Available Back Animations
+### Available Back Animations
+
 1. BACK_ANIM_NONE
 2. BACK_ANIM_H_VIBRATE
 3. BACK_ANIM_H_SLIDE
@@ -1073,786 +1073,784 @@ _Only 65 are used in-game, but you can use any animation from this list._
 25. BACK_ANIM_SHAKE_GLOW_GREEN
 26. BACK_ANIM_SHAKE_GLOW_BLUE
 
-## Pokémon ordered by height
-| Pokemon | height (m) |
-| :------ | ---------: |
-| Diglett | 0.2 |
-| Natu | 0.2 |
-| Azurill | 0.2 |
-| Caterpie | 0.3 |
-| Weedle | 0.3 |
-| Pidgey | 0.3 |
-| Rattata | 0.3 |
-| Spearow | 0.3 |
-| Paras | 0.3 |
-| Magnemite | 0.3 |
-| Shellder | 0.3 |
-| Ditto | 0.3 |
-| Eevee | 0.3 |
-| Pichu | 0.3 |
-| Cleffa | 0.3 |
-| Igglybuff | 0.3 |
-| Togepi | 0.3 |
-| Sunkern | 0.3 |
-| Wurmple | 0.3 |
-| Taillow | 0.3 |
-| Roselia | 0.3 |
-| Castform | 0.3 |
-| Jirachi | 0.3 |
-| Pikachu | 0.4 |
-| Nidoran_f | 0.4 |
-| Meowth | 0.4 |
-| Geodude | 0.4 |
-| Krabby | 0.4 |
-| Exeggcute | 0.4 |
-| Cubone | 0.4 |
-| Horsea | 0.4 |
-| Omanyte | 0.4 |
-| Mew | 0.4 |
-| Bellossom | 0.4 |
-| Marill | 0.4 |
-| Hoppip | 0.4 |
-| Wooper | 0.4 |
-| Swinub | 0.4 |
-| Smoochum | 0.4 |
-| Torchic | 0.4 |
-| Mudkip | 0.4 |
-| Zigzagoon | 0.4 |
-| Ralts | 0.4 |
-| Shroomish | 0.4 |
-| Aron | 0.4 |
-| Plusle | 0.4 |
-| Minun | 0.4 |
-| Gulpin | 0.4 |
-| Cacnea | 0.4 |
-| Swablu | 0.4 |
-| Barboach | 0.4 |
-| Clamperl | 0.4 |
-| Squirtle | 0.5 |
-| Nidoran_m | 0.5 |
-| Jigglypuff | 0.5 |
-| Oddish | 0.5 |
-| Mankey | 0.5 |
-| Voltorb | 0.5 |
-| Kabuto | 0.5 |
-| Cyndaquil | 0.5 |
-| Spinarak | 0.5 |
-| Chinchou | 0.5 |
-| Murkrow | 0.5 |
-| Unown | 0.5 |
-| Qwilfish | 0.5 |
-| Phanpy | 0.5 |
-| Treecko | 0.5 |
-| Poochyena | 0.5 |
-| Linoone | 0.5 |
-| Lotad | 0.5 |
-| Seedot | 0.5 |
-| Surskit | 0.5 |
-| Nincada | 0.5 |
-| Sableye | 0.5 |
-| Torkoal | 0.5 |
-| Baltoy | 0.5 |
-| Charmander | 0.6 |
-| Kakuna | 0.6 |
-| Sandshrew | 0.6 |
-| Clefairy | 0.6 |
-| Vulpix | 0.6 |
-| Poliwag | 0.6 |
-| Koffing | 0.6 |
-| Goldeen | 0.6 |
-| Totodile | 0.6 |
-| Togetic | 0.6 |
-| Mareep | 0.6 |
-| Skiploom | 0.6 |
-| Pineco | 0.6 |
-| Snubbull | 0.6 |
-| Shuckle | 0.6 |
-| Teddiursa | 0.6 |
-| Corsola | 0.6 |
-| Remoraid | 0.6 |
-| Houndour | 0.6 |
-| Porygon2 | 0.6 |
-| Elekid | 0.6 |
-| Larvitar | 0.6 |
-| Celebi | 0.6 |
-| Silcoon | 0.6 |
-| Wingull | 0.6 |
-| Whismur | 0.6 |
-| Skitty | 0.6 |
-| Mawile | 0.6 |
-| Meditite | 0.6 |
-| Electrike | 0.6 |
-| Illumise | 0.6 |
-| Corphish | 0.6 |
-| Feebas | 0.6 |
-| Shuppet | 0.6 |
-| Chimecho | 0.6 |
-| Wynaut | 0.6 |
-| Luvdisc | 0.6 |
-| Bagon | 0.6 |
-| Beldum | 0.6 |
-| Bulbasaur | 0.7 |
-| Metapod | 0.7 |
-| Raticate | 0.7 |
-| Dugtrio | 0.7 |
-| Growlithe | 0.7 |
-| Bellsprout | 0.7 |
-| Hoothoot | 0.7 |
-| Misdreavus | 0.7 |
-| Slugma | 0.7 |
-| Tyrogue | 0.7 |
-| Magby | 0.7 |
-| Marshtomp | 0.7 |
-| Cascoon | 0.7 |
-| Swellow | 0.7 |
-| Volbeat | 0.7 |
-| Numel | 0.7 |
-| Spoink | 0.7 |
-| Trapinch | 0.7 |
-| Anorith | 0.7 |
-| Snorunt | 0.7 |
-| Raichu | 0.8 |
-| Nidorina | 0.8 |
-| Zubat | 0.8 |
-| Gloom | 0.8 |
-| Psyduck | 0.8 |
-| Machop | 0.8 |
-| Farfetchd | 0.8 |
-| Staryu | 0.8 |
-| Jolteon | 0.8 |
-| Porygon | 0.8 |
-| Sentret | 0.8 |
-| Flaaffy | 0.8 |
-| Azumarill | 0.8 |
-| Jumpluff | 0.8 |
-| Aipom | 0.8 |
-| Sunflora | 0.8 |
-| Magcargo | 0.8 |
-| Kirlia | 0.8 |
-| Masquerain | 0.8 |
-| Slakoth | 0.8 |
-| Ninjask | 0.8 |
-| Shedinja | 0.8 |
-| Carvanha | 0.8 |
-| Duskull | 0.8 |
-| Spheal | 0.8 |
-| Nidorino | 0.9 |
-| Abra | 0.9 |
-| Tentacool | 0.9 |
-| Grimer | 0.9 |
-| Magikarp | 0.9 |
-| Flareon | 0.9 |
-| Chikorita | 0.9 |
-| Quilava | 0.9 |
-| Espeon | 0.9 |
-| Sneasel | 0.9 |
-| Octillery | 0.9 |
-| Delibird | 0.9 |
-| Grovyle | 0.9 |
-| Combusken | 0.9 |
-| Lairon | 0.9 |
-| Grumpig | 0.9 |
-| Whiscash | 0.9 |
-| Ivysaur | 1.0 |
-| Wartortle | 1.0 |
-| Beedrill | 1.0 |
-| Sandslash | 1.0 |
-| Wigglytuff | 1.0 |
-| Parasect | 1.0 |
-| Venonat | 1.0 |
-| Persian | 1.0 |
-| Primeape | 1.0 |
-| Poliwhirl | 1.0 |
-| Weepinbell | 1.0 |
-| Graveler | 1.0 |
-| Ponyta | 1.0 |
-| Magneton | 1.0 |
-| Drowzee | 1.0 |
-| Marowak | 1.0 |
-| Rhyhorn | 1.0 |
-| Tangela | 1.0 |
-| Vaporeon | 1.0 |
-| Omastar | 1.0 |
-| Ledyba | 1.0 |
-| Umbreon | 1.0 |
-| Mightyena | 1.0 |
-| Beautifly | 1.0 |
-| Nuzleaf | 1.0 |
-| Loudred | 1.0 |
-| Makuhita | 1.0 |
-| Nosepass | 1.0 |
-| Lunatone | 1.0 |
-| Lileep | 1.0 |
-| Kecleon | 1.0 |
-| Relicanth | 1.0 |
-| Charmeleon | 1.1 |
-| Butterfree | 1.1 |
-| Pidgeotto | 1.1 |
-| Ninetales | 1.1 |
-| Seel | 1.1 |
-| Chansey | 1.1 |
-| Starmie | 1.1 |
-| Electabuzz | 1.1 |
-| Croconaw | 1.1 |
-| Ariados | 1.1 |
-| Politoed | 1.1 |
-| Gligar | 1.1 |
-| Piloswine | 1.1 |
-| Donphan | 1.1 |
-| Delcatty | 1.1 |
-| Spinda | 1.1 |
-| Vibrava | 1.1 |
-| Altaria | 1.1 |
-| Crawdaunt | 1.1 |
-| Banette | 1.1 |
-| Sealeo | 1.1 |
-| Shelgon | 1.1 |
-| Fearow | 1.2 |
-| Vileplume | 1.2 |
-| Slowpoke | 1.2 |
-| Muk | 1.2 |
-| Electrode | 1.2 |
-| Lickitung | 1.2 |
-| Weezing | 1.2 |
-| Seadra | 1.2 |
-| Bayleef | 1.2 |
-| Lanturn | 1.2 |
-| Sudowoodo | 1.2 |
-| Yanma | 1.2 |
-| Forretress | 1.2 |
-| Smeargle | 1.2 |
-| Miltank | 1.2 |
-| Pupitar | 1.2 |
-| Dustox | 1.2 |
-| Lombre | 1.2 |
-| Pelipper | 1.2 |
-| Breloom | 1.2 |
-| Solrock | 1.2 |
-| Absol | 1.2 |
-| Metang | 1.2 |
-| Nidoqueen | 1.3 |
-| Clefable | 1.3 |
-| Poliwrath | 1.3 |
-| Kadabra | 1.3 |
-| Gastly | 1.3 |
-| Kingler | 1.3 |
-| Seaking | 1.3 |
-| Mr_mime | 1.3 |
-| Magmar | 1.3 |
-| Kabutops | 1.3 |
-| Wobbuffet | 1.3 |
-| Shiftry | 1.3 |
-| Medicham | 1.3 |
-| Cacturne | 1.3 |
-| Zangoose | 1.3 |
-| Nidoking | 1.4 |
-| Golem | 1.4 |
-| Doduo | 1.4 |
-| Hitmonchan | 1.4 |
-| Jynx | 1.4 |
-| Tauros | 1.4 |
-| Ledian | 1.4 |
-| Ampharos | 1.4 |
-| Quagsire | 1.4 |
-| Granbull | 1.4 |
-| Houndoom | 1.4 |
-| Stantler | 1.4 |
-| Hitmontop | 1.4 |
-| Vigoroth | 1.4 |
-| Walrein | 1.4 |
-| Latias | 1.4 |
-| Pidgeot | 1.5 |
-| Venomoth | 1.5 |
-| Alakazam | 1.5 |
-| Machoke | 1.5 |
-| Cloyster | 1.5 |
-| Gengar | 1.5 |
-| Hitmonlee | 1.5 |
-| Scyther | 1.5 |
-| Pinsir | 1.5 |
-| Xatu | 1.5 |
-| Girafarig | 1.5 |
-| Dunsparce | 1.5 |
-| Heracross | 1.5 |
-| Blissey | 1.5 |
-| Swampert | 1.5 |
-| Ludicolo | 1.5 |
-| Exploud | 1.5 |
-| Manectric | 1.5 |
-| Claydol | 1.5 |
-| Cradily | 1.5 |
-| Armaldo | 1.5 |
-| Glalie | 1.5 |
-| Salamence | 1.5 |
-| Blastoise | 1.6 |
-| Golbat | 1.6 |
-| Machamp | 1.6 |
-| Tentacruel | 1.6 |
-| Slowbro | 1.6 |
-| Haunter | 1.6 |
-| Hypno | 1.6 |
-| Zapdos | 1.6 |
-| Noctowl | 1.6 |
-| Gardevoir | 1.6 |
-| Dusclops | 1.6 |
-| Metagross | 1.6 |
-| Charizard | 1.7 |
-| Golduck | 1.7 |
-| Victreebel | 1.7 |
-| Rapidash | 1.7 |
-| Dewgong | 1.7 |
-| Articuno | 1.7 |
-| Typhlosion | 1.7 |
-| Skarmory | 1.7 |
-| Sceptile | 1.7 |
-| Swalot | 1.7 |
-| Huntail | 1.7 |
-| Regirock | 1.7 |
-| Deoxys | 1.7 |
-| Dodrio | 1.8 |
-| Aerodactyl | 1.8 |
-| Dratini | 1.8 |
-| Meganium | 1.8 |
-| Furret | 1.8 |
-| Crobat | 1.8 |
-| Scizor | 1.8 |
-| Ursaring | 1.8 |
-| Kingdra | 1.8 |
-| Sharpedo | 1.8 |
-| Gorebyss | 1.8 |
-| Regice | 1.8 |
-| Arcanine | 1.9 |
-| Rhydon | 1.9 |
-| Raikou | 1.9 |
-| Blaziken | 1.9 |
-| Camerupt | 1.9 |
-| Registeel | 1.9 |
-| Venusaur | 2.0 |
-| Ekans | 2.0 |
-| Exeggutor | 2.0 |
-| Moltres | 2.0 |
-| Mewtwo | 2.0 |
-| Slowking | 2.0 |
-| Suicune | 2.0 |
-| Tyranitar | 2.0 |
-| Slaking | 2.0 |
-| Wailmer | 2.0 |
-| Flygon | 2.0 |
-| Tropius | 2.0 |
-| Latios | 2.0 |
-| Snorlax | 2.1 |
-| Mantine | 2.1 |
-| Entei | 2.1 |
-| Aggron | 2.1 |
-| Kangaskhan | 2.2 |
-| Dragonite | 2.2 |
-| Feraligatr | 2.3 |
-| Hariyama | 2.3 |
-| Lapras | 2.5 |
-| Seviper | 2.7 |
-| Arbok | 3.5 |
-| Groudon | 3.5 |
-| Ho_oh | 3.8 |
-| Dragonair | 4.0 |
-| Kyogre | 4.5 |
-| Lugia | 5.2 |
-| Milotic | 6.2 |
-| Gyarados | 6.5 |
-| Rayquaza | 7.0 |
-| Onix | 8.8 |
-| Steelix | 9.2 |
-| Wailord | 14.5 |
+### Pokémon ordered by height
 
-## Pokémon ordered by weight
-| Pokemon | weight (kg) |
-| :------ | ----------: |
-| Gastly | 0.1 |
-| Haunter | 0.1 |
-| Hoppip | 0.5 |
-| Diglett | 0.8 |
-| Castform | 0.8 |
-| Igglybuff | 1.0 |
-| Koffing | 1.0 |
-| Skiploom | 1.0 |
-| Chimecho | 1.0 |
-| Misdreavus | 1.0 |
-| Jirachi | 1.1 |
-| Swablu | 1.2 |
-| Shedinja | 1.2 |
-| Togepi | 1.5 |
-| Surskit | 1.7 |
-| Pidgey | 1.8 |
-| Sunkern | 1.8 |
-| Barboach | 1.9 |
-| Natu | 2.0 |
-| Azurill | 2.0 |
-| Spearow | 2.0 |
-| Pichu | 2.0 |
-| Roselia | 2.0 |
-| Murkrow | 2.1 |
-| Taillow | 2.3 |
-| Shuppet | 2.3 |
-| Exeggcute | 2.5 |
-| Torchic | 2.5 |
-| Lotad | 2.6 |
-| Caterpie | 2.9 |
-| Cleffa | 3.0 |
-| Jumpluff | 3.0 |
-| Weedle | 3.2 |
-| Togetic | 3.2 |
-| Dratini | 3.3 |
-| Rattata | 3.5 |
-| Wurmple | 3.6 |
-| Masquerain | 3.6 |
-| Qwilfish | 3.9 |
-| Shellder | 4.0 |
-| Ditto | 4.0 |
-| Mew | 4.0 |
-| Seedot | 4.0 |
-| Bellsprout | 4.0 |
-| Meowth | 4.2 |
-| Plusle | 4.2 |
-| Minun | 4.2 |
-| Shroomish | 4.5 |
-| Unown | 5.0 |
-| Treecko | 5.0 |
-| Corsola | 5.0 |
-| Celebi | 5.0 |
-| Spinda | 5.0 |
-| Paras | 5.4 |
-| Oddish | 5.4 |
-| Jigglypuff | 5.5 |
-| Nincada | 5.5 |
-| Bellossom | 5.8 |
-| Magnemite | 6.0 |
-| Pikachu | 6.0 |
-| Smoochum | 6.0 |
-| Sentret | 6.0 |
-| Chikorita | 6.4 |
-| Weepinbell | 6.4 |
-| Eevee | 6.5 |
-| Krabby | 6.5 |
-| Cubone | 6.5 |
-| Swinub | 6.5 |
-| Ralts | 6.6 |
-| Bulbasaur | 6.9 |
-| Ekans | 6.9 |
-| Nidoran_f | 7.0 |
-| Pineco | 7.2 |
-| Feebas | 7.4 |
-| Omanyte | 7.5 |
-| Clefairy | 7.5 |
-| Zubat | 7.5 |
-| Mudkip | 7.6 |
-| Mareep | 7.8 |
-| Snubbull | 7.8 |
-| Cyndaquil | 7.9 |
-| Horsea | 8.0 |
-| Marill | 8.5 |
-| Wooper | 8.5 |
-| Spinarak | 8.5 |
-| Charmander | 8.5 |
-| Sunflora | 8.5 |
-| Gloom | 8.6 |
-| Luvdisc | 8.7 |
-| Teddiursa | 8.8 |
-| Squirtle | 9.0 |
-| Nidoran_m | 9.0 |
-| Totodile | 9.5 |
-| Wingull | 9.5 |
-| Weezing | 9.5 |
-| Vulpix | 9.9 |
-| Metapod | 9.9 |
-| Kakuna | 10.0 |
-| Silcoon | 10.0 |
-| Magikarp | 10.0 |
-| Gulpin | 10.3 |
-| Voltorb | 10.4 |
-| Houndour | 10.8 |
-| Ledyba | 10.8 |
-| Sableye | 11.0 |
-| Skitty | 11.0 |
-| Meditite | 11.2 |
-| Kabuto | 11.5 |
-| Mawile | 11.5 |
-| Corphish | 11.5 |
-| Cascoon | 11.5 |
-| Aipom | 11.5 |
-| Chinchou | 12.0 |
-| Sandshrew | 12.0 |
-| Remoraid | 12.0 |
-| Ninjask | 12.0 |
-| Wigglytuff | 12.0 |
-| Poliwag | 12.4 |
-| Anorith | 12.5 |
-| Banette | 12.5 |
-| Venomoth | 12.5 |
-| Ivysaur | 13.0 |
-| Flaaffy | 13.3 |
-| Poochyena | 13.6 |
-| Wynaut | 14.0 |
-| Dunsparce | 14.0 |
-| Goldeen | 15.0 |
-| Trapinch | 15.0 |
-| Farfetchd | 15.0 |
-| Duskull | 15.0 |
-| Xatu | 15.0 |
-| Electrike | 15.2 |
-| Vibrava | 15.3 |
-| Victreebel | 15.5 |
-| Bayleef | 15.8 |
-| Delibird | 16.0 |
-| Whismur | 16.3 |
-| Dragonair | 16.5 |
-| Snorunt | 16.8 |
-| Zigzagoon | 17.5 |
-| Illumise | 17.7 |
-| Volbeat | 17.7 |
-| Raticate | 18.5 |
-| Vileplume | 18.6 |
-| Growlithe | 19.0 |
-| Quilava | 19.0 |
-| Charmeleon | 19.0 |
-| Machop | 19.5 |
-| Nidorino | 19.5 |
-| Abra | 19.5 |
-| Combusken | 19.5 |
-| Psyduck | 19.6 |
-| Swellow | 19.8 |
-| Ninetales | 19.9 |
-| Geodude | 20.0 |
-| Nidorina | 20.0 |
-| Poliwhirl | 20.0 |
-| Kirlia | 20.2 |
-| Shuckle | 20.5 |
-| Altaria | 20.6 |
-| Carvanha | 20.8 |
-| Tyrogue | 21.0 |
-| Hoothoot | 21.2 |
-| Magby | 21.4 |
-| Baltoy | 21.5 |
-| Grovyle | 21.6 |
-| Kecleon | 22.0 |
-| Wartortle | 22.5 |
-| Lanturn | 22.5 |
-| Gorebyss | 22.6 |
-| Relicanth | 23.4 |
-| Elekid | 23.5 |
-| Whiscash | 23.6 |
-| Lileep | 23.8 |
-| Numel | 24.0 |
-| Slakoth | 24.0 |
-| Jolteon | 24.5 |
-| Flareon | 25.0 |
-| Croconaw | 25.0 |
-| Seadra | 25.0 |
-| Espeon | 26.5 |
-| Umbreon | 27.0 |
-| Huntail | 27.0 |
-| Mankey | 28.0 |
-| Marshtomp | 28.0 |
-| Sneasel | 28.0 |
-| Nuzleaf | 28.0 |
-| Pelipper | 28.0 |
-| Beautifly | 28.4 |
-| Azumarill | 28.5 |
-| Octillery | 28.5 |
-| Wobbuffet | 28.5 |
-| Vaporeon | 29.0 |
-| Beedrill | 29.5 |
-| Sandslash | 29.5 |
-| Parasect | 29.5 |
-| Raichu | 30.0 |
-| Grimer | 30.0 |
-| Venonat | 30.0 |
-| Ponyta | 30.0 |
-| Pidgeotto | 30.0 |
-| Electabuzz | 30.0 |
-| Muk | 30.0 |
-| Spoink | 30.6 |
-| Dusclops | 30.6 |
-| Medicham | 31.5 |
-| Dustox | 31.6 |
-| Persian | 32.0 |
-| Primeape | 32.0 |
-| Butterfree | 32.0 |
-| Drowzee | 32.4 |
-| Linoone | 32.5 |
-| Porygon2 | 32.5 |
-| Lombre | 32.5 |
-| Furret | 32.5 |
-| Delcatty | 32.6 |
-| Crawdaunt | 32.8 |
-| Dugtrio | 33.3 |
-| Phanpy | 33.5 |
-| Ariados | 33.5 |
-| Politoed | 33.9 |
-| Staryu | 34.5 |
-| Chansey | 34.6 |
-| Slugma | 35.0 |
-| Tangela | 35.0 |
-| Omastar | 35.0 |
-| Houndoom | 35.0 |
-| Ledian | 35.6 |
-| Slowpoke | 36.0 |
-| Porygon | 36.5 |
-| Mightyena | 37.0 |
-| Fearow | 38.0 |
-| Sudowoodo | 38.0 |
-| Yanma | 38.0 |
-| Seaking | 39.0 |
-| Breloom | 39.2 |
-| Doduo | 39.2 |
-| Spheal | 39.5 |
-| Pidgeot | 39.5 |
-| Clefable | 40.0 |
-| Latias | 40.0 |
-| Manectric | 40.2 |
-| Zangoose | 40.3 |
-| Loudred | 40.5 |
-| Kabutops | 40.5 |
-| Gengar | 40.5 |
-| Jynx | 40.6 |
-| Noctowl | 40.8 |
-| Girafarig | 41.5 |
-| Bagon | 42.1 |
-| Magmar | 44.5 |
-| Marowak | 45.0 |
-| Tentacool | 45.5 |
-| Vigoroth | 46.5 |
-| Blissey | 46.8 |
-| Absol | 47.0 |
-| Hitmontop | 48.0 |
-| Alakazam | 48.0 |
-| Gardevoir | 48.4 |
-| Granbull | 48.7 |
-| Hitmonlee | 49.8 |
-| Hitmonchan | 50.2 |
-| Skarmory | 50.5 |
-| Cacnea | 51.3 |
-| Blaziken | 52.0 |
-| Sceptile | 52.2 |
-| Clamperl | 52.5 |
-| Seviper | 52.5 |
-| Zapdos | 52.6 |
-| Poliwrath | 54.0 |
-| Heracross | 54.0 |
-| Mr_mime | 54.5 |
-| Magcargo | 55.0 |
-| Pinsir | 55.0 |
-| Ludicolo | 55.0 |
-| Golbat | 55.0 |
-| Tentacruel | 55.0 |
-| Articuno | 55.4 |
-| Piloswine | 55.8 |
-| Scyther | 56.0 |
-| Kadabra | 56.5 |
-| Smeargle | 58.0 |
-| Aerodactyl | 59.0 |
-| Shiftry | 59.6 |
-| Aron | 60.0 |
-| Magneton | 60.0 |
-| Nidoqueen | 60.0 |
-| Kingler | 60.0 |
-| Moltres | 60.0 |
-| Latios | 60.0 |
-| Cradily | 60.4 |
-| Deoxys | 60.8 |
-| Ampharos | 61.5 |
-| Nidoking | 62.0 |
-| Gligar | 64.8 |
-| Arbok | 65.0 |
-| Lickitung | 65.5 |
-| Electrode | 66.6 |
-| Armaldo | 68.2 |
-| Machoke | 70.5 |
-| Stantler | 71.2 |
-| Grumpig | 71.5 |
-| Larvitar | 72.0 |
-| Quagsire | 75.0 |
-| Crobat | 75.0 |
-| Miltank | 75.5 |
-| Hypno | 75.6 |
-| Golduck | 76.6 |
-| Cacturne | 77.4 |
-| Slowbro | 78.5 |
-| Typhlosion | 79.5 |
-| Slowking | 79.5 |
-| Starmie | 80.0 |
-| Swalot | 80.0 |
-| Kangaskhan | 80.0 |
-| Torkoal | 80.4 |
-| Swampert | 81.9 |
-| Flygon | 82.0 |
-| Exploud | 84.0 |
-| Dodrio | 85.2 |
-| Blastoise | 85.5 |
-| Makuhita | 86.4 |
-| Sealeo | 87.6 |
-| Tauros | 88.4 |
-| Sharpedo | 88.8 |
-| Feraligatr | 88.8 |
-| Seel | 90.0 |
-| Charizard | 90.5 |
-| Rapidash | 95.0 |
-| Beldum | 95.2 |
-| Nosepass | 97.0 |
-| Venusaur | 100.0 |
-| Tropius | 100.0 |
-| Meganium | 100.5 |
-| Salamence | 102.6 |
-| Graveler | 105.0 |
-| Claydol | 108.0 |
-| Shelgon | 110.5 |
-| Rhyhorn | 115.0 |
-| Scizor | 118.0 |
-| Lairon | 120.0 |
-| Donphan | 120.0 |
-| Dewgong | 120.0 |
-| Rhydon | 120.0 |
-| Exeggutor | 120.0 |
-| Mewtwo | 122.0 |
-| Forretress | 125.8 |
-| Ursaring | 125.8 |
-| Machamp | 130.0 |
-| Wailmer | 130.0 |
-| Slaking | 130.5 |
-| Cloyster | 132.5 |
-| Walrein | 150.6 |
-| Pupitar | 152.0 |
-| Kingdra | 152.0 |
-| Solrock | 154.0 |
-| Arcanine | 155.0 |
-| Milotic | 162.0 |
-| Lunatone | 168.0 |
-| Regice | 175.0 |
-| Raikou | 178.0 |
-| Suicune | 187.0 |
-| Entei | 198.0 |
-| Ho_oh | 199.0 |
-| Tyranitar | 202.0 |
-| Metang | 202.5 |
-| Registeel | 205.0 |
-| Rayquaza | 206.5 |
-| Dragonite | 210.0 |
-| Onix | 210.0 |
-| Lugia | 216.0 |
-| Camerupt | 220.0 |
-| Mantine | 220.0 |
-| Lapras | 220.0 |
-| Regirock | 230.0 |
-| Gyarados | 235.0 |
-| Hariyama | 253.8 |
-| Glalie | 256.5 |
-| Golem | 300.0 |
-| Kyogre | 352.0 |
-| Aggron | 360.0 |
-| Wailord | 398.0 |
-| Steelix | 400.0 |
-| Snorlax | 460.0 |
-| Metagross | 550.0 |
-| Groudon | 950.0 |
+| Pokemon    | height (m) |
+| :--------- | ---------: |
+| Diglett    |        0.2 |
+| Natu       |        0.2 |
+| Azurill    |        0.2 |
+| Caterpie   |        0.3 |
+| Weedle     |        0.3 |
+| Pidgey     |        0.3 |
+| Rattata    |        0.3 |
+| Spearow    |        0.3 |
+| Paras      |        0.3 |
+| Magnemite  |        0.3 |
+| Shellder   |        0.3 |
+| Ditto      |        0.3 |
+| Eevee      |        0.3 |
+| Pichu      |        0.3 |
+| Cleffa     |        0.3 |
+| Igglybuff  |        0.3 |
+| Togepi     |        0.3 |
+| Sunkern    |        0.3 |
+| Wurmple    |        0.3 |
+| Taillow    |        0.3 |
+| Roselia    |        0.3 |
+| Castform   |        0.3 |
+| Jirachi    |        0.3 |
+| Pikachu    |        0.4 |
+| Nidoran_f  |        0.4 |
+| Meowth     |        0.4 |
+| Geodude    |        0.4 |
+| Krabby     |        0.4 |
+| Exeggcute  |        0.4 |
+| Cubone     |        0.4 |
+| Horsea     |        0.4 |
+| Omanyte    |        0.4 |
+| Mew        |        0.4 |
+| Bellossom  |        0.4 |
+| Marill     |        0.4 |
+| Hoppip     |        0.4 |
+| Wooper     |        0.4 |
+| Swinub     |        0.4 |
+| Smoochum   |        0.4 |
+| Torchic    |        0.4 |
+| Mudkip     |        0.4 |
+| Zigzagoon  |        0.4 |
+| Ralts      |        0.4 |
+| Shroomish  |        0.4 |
+| Aron       |        0.4 |
+| Plusle     |        0.4 |
+| Minun      |        0.4 |
+| Gulpin     |        0.4 |
+| Cacnea     |        0.4 |
+| Swablu     |        0.4 |
+| Barboach   |        0.4 |
+| Clamperl   |        0.4 |
+| Squirtle   |        0.5 |
+| Nidoran_m  |        0.5 |
+| Jigglypuff |        0.5 |
+| Oddish     |        0.5 |
+| Mankey     |        0.5 |
+| Voltorb    |        0.5 |
+| Kabuto     |        0.5 |
+| Cyndaquil  |        0.5 |
+| Spinarak   |        0.5 |
+| Chinchou   |        0.5 |
+| Murkrow    |        0.5 |
+| Unown      |        0.5 |
+| Qwilfish   |        0.5 |
+| Phanpy     |        0.5 |
+| Treecko    |        0.5 |
+| Poochyena  |        0.5 |
+| Linoone    |        0.5 |
+| Lotad      |        0.5 |
+| Seedot     |        0.5 |
+| Surskit    |        0.5 |
+| Nincada    |        0.5 |
+| Sableye    |        0.5 |
+| Torkoal    |        0.5 |
+| Baltoy     |        0.5 |
+| Charmander |        0.6 |
+| Kakuna     |        0.6 |
+| Sandshrew  |        0.6 |
+| Clefairy   |        0.6 |
+| Vulpix     |        0.6 |
+| Poliwag    |        0.6 |
+| Koffing    |        0.6 |
+| Goldeen    |        0.6 |
+| Totodile   |        0.6 |
+| Togetic    |        0.6 |
+| Mareep     |        0.6 |
+| Skiploom   |        0.6 |
+| Pineco     |        0.6 |
+| Snubbull   |        0.6 |
+| Shuckle    |        0.6 |
+| Teddiursa  |        0.6 |
+| Corsola    |        0.6 |
+| Remoraid   |        0.6 |
+| Houndour   |        0.6 |
+| Porygon2   |        0.6 |
+| Elekid     |        0.6 |
+| Larvitar   |        0.6 |
+| Celebi     |        0.6 |
+| Silcoon    |        0.6 |
+| Wingull    |        0.6 |
+| Whismur    |        0.6 |
+| Skitty     |        0.6 |
+| Mawile     |        0.6 |
+| Meditite   |        0.6 |
+| Electrike  |        0.6 |
+| Illumise   |        0.6 |
+| Corphish   |        0.6 |
+| Feebas     |        0.6 |
+| Shuppet    |        0.6 |
+| Chimecho   |        0.6 |
+| Wynaut     |        0.6 |
+| Luvdisc    |        0.6 |
+| Bagon      |        0.6 |
+| Beldum     |        0.6 |
+| Bulbasaur  |        0.7 |
+| Metapod    |        0.7 |
+| Raticate   |        0.7 |
+| Dugtrio    |        0.7 |
+| Growlithe  |        0.7 |
+| Bellsprout |        0.7 |
+| Hoothoot   |        0.7 |
+| Misdreavus |        0.7 |
+| Slugma     |        0.7 |
+| Tyrogue    |        0.7 |
+| Magby      |        0.7 |
+| Marshtomp  |        0.7 |
+| Cascoon    |        0.7 |
+| Swellow    |        0.7 |
+| Volbeat    |        0.7 |
+| Numel      |        0.7 |
+| Spoink     |        0.7 |
+| Trapinch   |        0.7 |
+| Anorith    |        0.7 |
+| Snorunt    |        0.7 |
+| Raichu     |        0.8 |
+| Nidorina   |        0.8 |
+| Zubat      |        0.8 |
+| Gloom      |        0.8 |
+| Psyduck    |        0.8 |
+| Machop     |        0.8 |
+| Farfetchd  |        0.8 |
+| Staryu     |        0.8 |
+| Jolteon    |        0.8 |
+| Porygon    |        0.8 |
+| Sentret    |        0.8 |
+| Flaaffy    |        0.8 |
+| Azumarill  |        0.8 |
+| Jumpluff   |        0.8 |
+| Aipom      |        0.8 |
+| Sunflora   |        0.8 |
+| Magcargo   |        0.8 |
+| Kirlia     |        0.8 |
+| Masquerain |        0.8 |
+| Slakoth    |        0.8 |
+| Ninjask    |        0.8 |
+| Shedinja   |        0.8 |
+| Carvanha   |        0.8 |
+| Duskull    |        0.8 |
+| Spheal     |        0.8 |
+| Nidorino   |        0.9 |
+| Abra       |        0.9 |
+| Tentacool  |        0.9 |
+| Grimer     |        0.9 |
+| Magikarp   |        0.9 |
+| Flareon    |        0.9 |
+| Chikorita  |        0.9 |
+| Quilava    |        0.9 |
+| Espeon     |        0.9 |
+| Sneasel    |        0.9 |
+| Octillery  |        0.9 |
+| Delibird   |        0.9 |
+| Grovyle    |        0.9 |
+| Combusken  |        0.9 |
+| Lairon     |        0.9 |
+| Grumpig    |        0.9 |
+| Whiscash   |        0.9 |
+| Ivysaur    |        1.0 |
+| Wartortle  |        1.0 |
+| Beedrill   |        1.0 |
+| Sandslash  |        1.0 |
+| Wigglytuff |        1.0 |
+| Parasect   |        1.0 |
+| Venonat    |        1.0 |
+| Persian    |        1.0 |
+| Primeape   |        1.0 |
+| Poliwhirl  |        1.0 |
+| Weepinbell |        1.0 |
+| Graveler   |        1.0 |
+| Ponyta     |        1.0 |
+| Magneton   |        1.0 |
+| Drowzee    |        1.0 |
+| Marowak    |        1.0 |
+| Rhyhorn    |        1.0 |
+| Tangela    |        1.0 |
+| Vaporeon   |        1.0 |
+| Omastar    |        1.0 |
+| Ledyba     |        1.0 |
+| Umbreon    |        1.0 |
+| Mightyena  |        1.0 |
+| Beautifly  |        1.0 |
+| Nuzleaf    |        1.0 |
+| Loudred    |        1.0 |
+| Makuhita   |        1.0 |
+| Nosepass   |        1.0 |
+| Lunatone   |        1.0 |
+| Lileep     |        1.0 |
+| Kecleon    |        1.0 |
+| Relicanth  |        1.0 |
+| Charmeleon |        1.1 |
+| Butterfree |        1.1 |
+| Pidgeotto  |        1.1 |
+| Ninetales  |        1.1 |
+| Seel       |        1.1 |
+| Chansey    |        1.1 |
+| Starmie    |        1.1 |
+| Electabuzz |        1.1 |
+| Croconaw   |        1.1 |
+| Ariados    |        1.1 |
+| Politoed   |        1.1 |
+| Gligar     |        1.1 |
+| Piloswine  |        1.1 |
+| Donphan    |        1.1 |
+| Delcatty   |        1.1 |
+| Spinda     |        1.1 |
+| Vibrava    |        1.1 |
+| Altaria    |        1.1 |
+| Crawdaunt  |        1.1 |
+| Banette    |        1.1 |
+| Sealeo     |        1.1 |
+| Shelgon    |        1.1 |
+| Fearow     |        1.2 |
+| Vileplume  |        1.2 |
+| Slowpoke   |        1.2 |
+| Muk        |        1.2 |
+| Electrode  |        1.2 |
+| Lickitung  |        1.2 |
+| Weezing    |        1.2 |
+| Seadra     |        1.2 |
+| Bayleef    |        1.2 |
+| Lanturn    |        1.2 |
+| Sudowoodo  |        1.2 |
+| Yanma      |        1.2 |
+| Forretress |        1.2 |
+| Smeargle   |        1.2 |
+| Miltank    |        1.2 |
+| Pupitar    |        1.2 |
+| Dustox     |        1.2 |
+| Lombre     |        1.2 |
+| Pelipper   |        1.2 |
+| Breloom    |        1.2 |
+| Solrock    |        1.2 |
+| Absol      |        1.2 |
+| Metang     |        1.2 |
+| Nidoqueen  |        1.3 |
+| Clefable   |        1.3 |
+| Poliwrath  |        1.3 |
+| Kadabra    |        1.3 |
+| Gastly     |        1.3 |
+| Kingler    |        1.3 |
+| Seaking    |        1.3 |
+| Mr_mime    |        1.3 |
+| Magmar     |        1.3 |
+| Kabutops   |        1.3 |
+| Wobbuffet  |        1.3 |
+| Shiftry    |        1.3 |
+| Medicham   |        1.3 |
+| Cacturne   |        1.3 |
+| Zangoose   |        1.3 |
+| Nidoking   |        1.4 |
+| Golem      |        1.4 |
+| Doduo      |        1.4 |
+| Hitmonchan |        1.4 |
+| Jynx       |        1.4 |
+| Tauros     |        1.4 |
+| Ledian     |        1.4 |
+| Ampharos   |        1.4 |
+| Quagsire   |        1.4 |
+| Granbull   |        1.4 |
+| Houndoom   |        1.4 |
+| Stantler   |        1.4 |
+| Hitmontop  |        1.4 |
+| Vigoroth   |        1.4 |
+| Walrein    |        1.4 |
+| Latias     |        1.4 |
+| Pidgeot    |        1.5 |
+| Venomoth   |        1.5 |
+| Alakazam   |        1.5 |
+| Machoke    |        1.5 |
+| Cloyster   |        1.5 |
+| Gengar     |        1.5 |
+| Hitmonlee  |        1.5 |
+| Scyther    |        1.5 |
+| Pinsir     |        1.5 |
+| Xatu       |        1.5 |
+| Girafarig  |        1.5 |
+| Dunsparce  |        1.5 |
+| Heracross  |        1.5 |
+| Blissey    |        1.5 |
+| Swampert   |        1.5 |
+| Ludicolo   |        1.5 |
+| Exploud    |        1.5 |
+| Manectric  |        1.5 |
+| Claydol    |        1.5 |
+| Cradily    |        1.5 |
+| Armaldo    |        1.5 |
+| Glalie     |        1.5 |
+| Salamence  |        1.5 |
+| Blastoise  |        1.6 |
+| Golbat     |        1.6 |
+| Machamp    |        1.6 |
+| Tentacruel |        1.6 |
+| Slowbro    |        1.6 |
+| Haunter    |        1.6 |
+| Hypno      |        1.6 |
+| Zapdos     |        1.6 |
+| Noctowl    |        1.6 |
+| Gardevoir  |        1.6 |
+| Dusclops   |        1.6 |
+| Metagross  |        1.6 |
+| Charizard  |        1.7 |
+| Golduck    |        1.7 |
+| Victreebel |        1.7 |
+| Rapidash   |        1.7 |
+| Dewgong    |        1.7 |
+| Articuno   |        1.7 |
+| Typhlosion |        1.7 |
+| Skarmory   |        1.7 |
+| Sceptile   |        1.7 |
+| Swalot     |        1.7 |
+| Huntail    |        1.7 |
+| Regirock   |        1.7 |
+| Deoxys     |        1.7 |
+| Dodrio     |        1.8 |
+| Aerodactyl |        1.8 |
+| Dratini    |        1.8 |
+| Meganium   |        1.8 |
+| Furret     |        1.8 |
+| Crobat     |        1.8 |
+| Scizor     |        1.8 |
+| Ursaring   |        1.8 |
+| Kingdra    |        1.8 |
+| Sharpedo   |        1.8 |
+| Gorebyss   |        1.8 |
+| Regice     |        1.8 |
+| Arcanine   |        1.9 |
+| Rhydon     |        1.9 |
+| Raikou     |        1.9 |
+| Blaziken   |        1.9 |
+| Camerupt   |        1.9 |
+| Registeel  |        1.9 |
+| Venusaur   |        2.0 |
+| Ekans      |        2.0 |
+| Exeggutor  |        2.0 |
+| Moltres    |        2.0 |
+| Mewtwo     |        2.0 |
+| Slowking   |        2.0 |
+| Suicune    |        2.0 |
+| Tyranitar  |        2.0 |
+| Slaking    |        2.0 |
+| Wailmer    |        2.0 |
+| Flygon     |        2.0 |
+| Tropius    |        2.0 |
+| Latios     |        2.0 |
+| Snorlax    |        2.1 |
+| Mantine    |        2.1 |
+| Entei      |        2.1 |
+| Aggron     |        2.1 |
+| Kangaskhan |        2.2 |
+| Dragonite  |        2.2 |
+| Feraligatr |        2.3 |
+| Hariyama   |        2.3 |
+| Lapras     |        2.5 |
+| Seviper    |        2.7 |
+| Arbok      |        3.5 |
+| Groudon    |        3.5 |
+| Ho_oh      |        3.8 |
+| Dragonair  |        4.0 |
+| Kyogre     |        4.5 |
+| Lugia      |        5.2 |
+| Milotic    |        6.2 |
+| Gyarados   |        6.5 |
+| Rayquaza   |        7.0 |
+| Onix       |        8.8 |
+| Steelix    |        9.2 |
+| Wailord    |       14.5 |
 
-## Making this easier
-If you have multiple species that you want to add to pokeemerald but don't want to copy and paste or type everything out multiple times, just use this handy program to generate text with the species name in there!
-https://github.com/smithk200/making-a-new-pokemon-species-in-pokeemerald
+### Pokémon ordered by weight
+
+| Pokemon    | weight (kg) |
+| :--------- | ----------: |
+| Gastly     |         0.1 |
+| Haunter    |         0.1 |
+| Hoppip     |         0.5 |
+| Diglett    |         0.8 |
+| Castform   |         0.8 |
+| Igglybuff  |         1.0 |
+| Koffing    |         1.0 |
+| Skiploom   |         1.0 |
+| Chimecho   |         1.0 |
+| Misdreavus |         1.0 |
+| Jirachi    |         1.1 |
+| Swablu     |         1.2 |
+| Shedinja   |         1.2 |
+| Togepi     |         1.5 |
+| Surskit    |         1.7 |
+| Pidgey     |         1.8 |
+| Sunkern    |         1.8 |
+| Barboach   |         1.9 |
+| Natu       |         2.0 |
+| Azurill    |         2.0 |
+| Spearow    |         2.0 |
+| Pichu      |         2.0 |
+| Roselia    |         2.0 |
+| Murkrow    |         2.1 |
+| Taillow    |         2.3 |
+| Shuppet    |         2.3 |
+| Exeggcute  |         2.5 |
+| Torchic    |         2.5 |
+| Lotad      |         2.6 |
+| Caterpie   |         2.9 |
+| Cleffa     |         3.0 |
+| Jumpluff   |         3.0 |
+| Weedle     |         3.2 |
+| Togetic    |         3.2 |
+| Dratini    |         3.3 |
+| Rattata    |         3.5 |
+| Wurmple    |         3.6 |
+| Masquerain |         3.6 |
+| Qwilfish   |         3.9 |
+| Shellder   |         4.0 |
+| Ditto      |         4.0 |
+| Mew        |         4.0 |
+| Seedot     |         4.0 |
+| Bellsprout |         4.0 |
+| Meowth     |         4.2 |
+| Plusle     |         4.2 |
+| Minun      |         4.2 |
+| Shroomish  |         4.5 |
+| Unown      |         5.0 |
+| Treecko    |         5.0 |
+| Corsola    |         5.0 |
+| Celebi     |         5.0 |
+| Spinda     |         5.0 |
+| Paras      |         5.4 |
+| Oddish     |         5.4 |
+| Jigglypuff |         5.5 |
+| Nincada    |         5.5 |
+| Bellossom  |         5.8 |
+| Magnemite  |         6.0 |
+| Pikachu    |         6.0 |
+| Smoochum   |         6.0 |
+| Sentret    |         6.0 |
+| Chikorita  |         6.4 |
+| Weepinbell |         6.4 |
+| Eevee      |         6.5 |
+| Krabby     |         6.5 |
+| Cubone     |         6.5 |
+| Swinub     |         6.5 |
+| Ralts      |         6.6 |
+| Bulbasaur  |         6.9 |
+| Ekans      |         6.9 |
+| Nidoran_f  |         7.0 |
+| Pineco     |         7.2 |
+| Feebas     |         7.4 |
+| Omanyte    |         7.5 |
+| Clefairy   |         7.5 |
+| Zubat      |         7.5 |
+| Mudkip     |         7.6 |
+| Mareep     |         7.8 |
+| Snubbull   |         7.8 |
+| Cyndaquil  |         7.9 |
+| Horsea     |         8.0 |
+| Marill     |         8.5 |
+| Wooper     |         8.5 |
+| Spinarak   |         8.5 |
+| Charmander |         8.5 |
+| Sunflora   |         8.5 |
+| Gloom      |         8.6 |
+| Luvdisc    |         8.7 |
+| Teddiursa  |         8.8 |
+| Squirtle   |         9.0 |
+| Nidoran_m  |         9.0 |
+| Totodile   |         9.5 |
+| Wingull    |         9.5 |
+| Weezing    |         9.5 |
+| Vulpix     |         9.9 |
+| Metapod    |         9.9 |
+| Kakuna     |        10.0 |
+| Silcoon    |        10.0 |
+| Magikarp   |        10.0 |
+| Gulpin     |        10.3 |
+| Voltorb    |        10.4 |
+| Houndour   |        10.8 |
+| Ledyba     |        10.8 |
+| Sableye    |        11.0 |
+| Skitty     |        11.0 |
+| Meditite   |        11.2 |
+| Kabuto     |        11.5 |
+| Mawile     |        11.5 |
+| Corphish   |        11.5 |
+| Cascoon    |        11.5 |
+| Aipom      |        11.5 |
+| Chinchou   |        12.0 |
+| Sandshrew  |        12.0 |
+| Remoraid   |        12.0 |
+| Ninjask    |        12.0 |
+| Wigglytuff |        12.0 |
+| Poliwag    |        12.4 |
+| Anorith    |        12.5 |
+| Banette    |        12.5 |
+| Venomoth   |        12.5 |
+| Ivysaur    |        13.0 |
+| Flaaffy    |        13.3 |
+| Poochyena  |        13.6 |
+| Wynaut     |        14.0 |
+| Dunsparce  |        14.0 |
+| Goldeen    |        15.0 |
+| Trapinch   |        15.0 |
+| Farfetchd  |        15.0 |
+| Duskull    |        15.0 |
+| Xatu       |        15.0 |
+| Electrike  |        15.2 |
+| Vibrava    |        15.3 |
+| Victreebel |        15.5 |
+| Bayleef    |        15.8 |
+| Delibird   |        16.0 |
+| Whismur    |        16.3 |
+| Dragonair  |        16.5 |
+| Snorunt    |        16.8 |
+| Zigzagoon  |        17.5 |
+| Illumise   |        17.7 |
+| Volbeat    |        17.7 |
+| Raticate   |        18.5 |
+| Vileplume  |        18.6 |
+| Growlithe  |        19.0 |
+| Quilava    |        19.0 |
+| Charmeleon |        19.0 |
+| Machop     |        19.5 |
+| Nidorino   |        19.5 |
+| Abra       |        19.5 |
+| Combusken  |        19.5 |
+| Psyduck    |        19.6 |
+| Swellow    |        19.8 |
+| Ninetales  |        19.9 |
+| Geodude    |        20.0 |
+| Nidorina   |        20.0 |
+| Poliwhirl  |        20.0 |
+| Kirlia     |        20.2 |
+| Shuckle    |        20.5 |
+| Altaria    |        20.6 |
+| Carvanha   |        20.8 |
+| Tyrogue    |        21.0 |
+| Hoothoot   |        21.2 |
+| Magby      |        21.4 |
+| Baltoy     |        21.5 |
+| Grovyle    |        21.6 |
+| Kecleon    |        22.0 |
+| Wartortle  |        22.5 |
+| Lanturn    |        22.5 |
+| Gorebyss   |        22.6 |
+| Relicanth  |        23.4 |
+| Elekid     |        23.5 |
+| Whiscash   |        23.6 |
+| Lileep     |        23.8 |
+| Numel      |        24.0 |
+| Slakoth    |        24.0 |
+| Jolteon    |        24.5 |
+| Flareon    |        25.0 |
+| Croconaw   |        25.0 |
+| Seadra     |        25.0 |
+| Espeon     |        26.5 |
+| Umbreon    |        27.0 |
+| Huntail    |        27.0 |
+| Mankey     |        28.0 |
+| Marshtomp  |        28.0 |
+| Sneasel    |        28.0 |
+| Nuzleaf    |        28.0 |
+| Pelipper   |        28.0 |
+| Beautifly  |        28.4 |
+| Azumarill  |        28.5 |
+| Octillery  |        28.5 |
+| Wobbuffet  |        28.5 |
+| Vaporeon   |        29.0 |
+| Beedrill   |        29.5 |
+| Sandslash  |        29.5 |
+| Parasect   |        29.5 |
+| Raichu     |        30.0 |
+| Grimer     |        30.0 |
+| Venonat    |        30.0 |
+| Ponyta     |        30.0 |
+| Pidgeotto  |        30.0 |
+| Electabuzz |        30.0 |
+| Muk        |        30.0 |
+| Spoink     |        30.6 |
+| Dusclops   |        30.6 |
+| Medicham   |        31.5 |
+| Dustox     |        31.6 |
+| Persian    |        32.0 |
+| Primeape   |        32.0 |
+| Butterfree |        32.0 |
+| Drowzee    |        32.4 |
+| Linoone    |        32.5 |
+| Porygon2   |        32.5 |
+| Lombre     |        32.5 |
+| Furret     |        32.5 |
+| Delcatty   |        32.6 |
+| Crawdaunt  |        32.8 |
+| Dugtrio    |        33.3 |
+| Phanpy     |        33.5 |
+| Ariados    |        33.5 |
+| Politoed   |        33.9 |
+| Staryu     |        34.5 |
+| Chansey    |        34.6 |
+| Slugma     |        35.0 |
+| Tangela    |        35.0 |
+| Omastar    |        35.0 |
+| Houndoom   |        35.0 |
+| Ledian     |        35.6 |
+| Slowpoke   |        36.0 |
+| Porygon    |        36.5 |
+| Mightyena  |        37.0 |
+| Fearow     |        38.0 |
+| Sudowoodo  |        38.0 |
+| Yanma      |        38.0 |
+| Seaking    |        39.0 |
+| Breloom    |        39.2 |
+| Doduo      |        39.2 |
+| Spheal     |        39.5 |
+| Pidgeot    |        39.5 |
+| Clefable   |        40.0 |
+| Latias     |        40.0 |
+| Manectric  |        40.2 |
+| Zangoose   |        40.3 |
+| Loudred    |        40.5 |
+| Kabutops   |        40.5 |
+| Gengar     |        40.5 |
+| Jynx       |        40.6 |
+| Noctowl    |        40.8 |
+| Girafarig  |        41.5 |
+| Bagon      |        42.1 |
+| Magmar     |        44.5 |
+| Marowak    |        45.0 |
+| Tentacool  |        45.5 |
+| Vigoroth   |        46.5 |
+| Blissey    |        46.8 |
+| Absol      |        47.0 |
+| Hitmontop  |        48.0 |
+| Alakazam   |        48.0 |
+| Gardevoir  |        48.4 |
+| Granbull   |        48.7 |
+| Hitmonlee  |        49.8 |
+| Hitmonchan |        50.2 |
+| Skarmory   |        50.5 |
+| Cacnea     |        51.3 |
+| Blaziken   |        52.0 |
+| Sceptile   |        52.2 |
+| Clamperl   |        52.5 |
+| Seviper    |        52.5 |
+| Zapdos     |        52.6 |
+| Poliwrath  |        54.0 |
+| Heracross  |        54.0 |
+| Mr_mime    |        54.5 |
+| Magcargo   |        55.0 |
+| Pinsir     |        55.0 |
+| Ludicolo   |        55.0 |
+| Golbat     |        55.0 |
+| Tentacruel |        55.0 |
+| Articuno   |        55.4 |
+| Piloswine  |        55.8 |
+| Scyther    |        56.0 |
+| Kadabra    |        56.5 |
+| Smeargle   |        58.0 |
+| Aerodactyl |        59.0 |
+| Shiftry    |        59.6 |
+| Aron       |        60.0 |
+| Magneton   |        60.0 |
+| Nidoqueen  |        60.0 |
+| Kingler    |        60.0 |
+| Moltres    |        60.0 |
+| Latios     |        60.0 |
+| Cradily    |        60.4 |
+| Deoxys     |        60.8 |
+| Ampharos   |        61.5 |
+| Nidoking   |        62.0 |
+| Gligar     |        64.8 |
+| Arbok      |        65.0 |
+| Lickitung  |        65.5 |
+| Electrode  |        66.6 |
+| Armaldo    |        68.2 |
+| Machoke    |        70.5 |
+| Stantler   |        71.2 |
+| Grumpig    |        71.5 |
+| Larvitar   |        72.0 |
+| Quagsire   |        75.0 |
+| Crobat     |        75.0 |
+| Miltank    |        75.5 |
+| Hypno      |        75.6 |
+| Golduck    |        76.6 |
+| Cacturne   |        77.4 |
+| Slowbro    |        78.5 |
+| Typhlosion |        79.5 |
+| Slowking   |        79.5 |
+| Starmie    |        80.0 |
+| Swalot     |        80.0 |
+| Kangaskhan |        80.0 |
+| Torkoal    |        80.4 |
+| Swampert   |        81.9 |
+| Flygon     |        82.0 |
+| Exploud    |        84.0 |
+| Dodrio     |        85.2 |
+| Blastoise  |        85.5 |
+| Makuhita   |        86.4 |
+| Sealeo     |        87.6 |
+| Tauros     |        88.4 |
+| Sharpedo   |        88.8 |
+| Feraligatr |        88.8 |
+| Seel       |        90.0 |
+| Charizard  |        90.5 |
+| Rapidash   |        95.0 |
+| Beldum     |        95.2 |
+| Nosepass   |        97.0 |
+| Venusaur   |       100.0 |
+| Tropius    |       100.0 |
+| Meganium   |       100.5 |
+| Salamence  |       102.6 |
+| Graveler   |       105.0 |
+| Claydol    |       108.0 |
+| Shelgon    |       110.5 |
+| Rhyhorn    |       115.0 |
+| Scizor     |       118.0 |
+| Lairon     |       120.0 |
+| Donphan    |       120.0 |
+| Dewgong    |       120.0 |
+| Rhydon     |       120.0 |
+| Exeggutor  |       120.0 |
+| Mewtwo     |       122.0 |
+| Forretress |       125.8 |
+| Ursaring   |       125.8 |
+| Machamp    |       130.0 |
+| Wailmer    |       130.0 |
+| Slaking    |       130.5 |
+| Cloyster   |       132.5 |
+| Walrein    |       150.6 |
+| Pupitar    |       152.0 |
+| Kingdra    |       152.0 |
+| Solrock    |       154.0 |
+| Arcanine   |       155.0 |
+| Milotic    |       162.0 |
+| Lunatone   |       168.0 |
+| Regice     |       175.0 |
+| Raikou     |       178.0 |
+| Suicune    |       187.0 |
+| Entei      |       198.0 |
+| Ho_oh      |       199.0 |
+| Tyranitar  |       202.0 |
+| Metang     |       202.5 |
+| Registeel  |       205.0 |
+| Rayquaza   |       206.5 |
+| Dragonite  |       210.0 |
+| Onix       |       210.0 |
+| Lugia      |       216.0 |
+| Camerupt   |       220.0 |
+| Mantine    |       220.0 |
+| Lapras     |       220.0 |
+| Regirock   |       230.0 |
+| Gyarados   |       235.0 |
+| Hariyama   |       253.8 |
+| Glalie     |       256.5 |
+| Golem      |       300.0 |
+| Kyogre     |       352.0 |
+| Aggron     |       360.0 |
+| Wailord    |       398.0 |
+| Steelix    |       400.0 |
+| Snorlax    |       460.0 |
+| Metagross  |       550.0 |
+| Groudon    |       950.0 |
