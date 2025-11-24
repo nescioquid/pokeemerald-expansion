@@ -3647,7 +3647,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BELLSPROUT"
+                "species": "SPECIES_MANKEY"
               },
               {
                 "min_level": 5,
@@ -3677,7 +3677,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_MANKEY"
+                "species": "SPECIES_YANMA"
               },
               {
                 "min_level": 6,
@@ -3692,12 +3692,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_AIPOM"
+                "species": "SPECIES_PINECO"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_PINECO"
+                "species": "SPECIES_NINJASK"
               },
               {
                 "min_level": 6,
@@ -3721,7 +3721,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ODDISH"
+                "species": "SPECIES_AIPOM"
               },
               {
                 "min_level": 5,
@@ -3746,7 +3746,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_AIPOM"
+                "species": "SPECIES_VENONAT"
               },
               {
                 "min_level": 6,
@@ -3756,17 +3756,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MANKEY"
+                "species": "SPECIES_SPINARAK"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SPINARAK"
+                "species": "SPECIES_PINECO"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_PINECO"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 6,
@@ -5460,22 +5460,22 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_AIPOM"
+                "species": "SPECIES_GIRAFARIG"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_GIRAFARIG"
+                "species": "SPECIES_LOTAD"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_YANMA"
+                "species": "SPECIES_AIPOM"
               },
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_LOTAD"
+                "species": "SPECIES_YANMA"
               },
               {
                 "min_level": 27,
@@ -5495,7 +5495,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_LOTAD"
+                "species": "SPECIES_FORRETRESS"
               },
               {
                 "min_level": 27,
@@ -5614,12 +5614,12 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_AIPOM"
+                "species": "SPECIES_GIRAFARIG"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_GIRAFARIG"
+                "species": "SPECIES_LOTAD"
               },
               {
                 "min_level": 27,
@@ -5629,12 +5629,12 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_LOTAD"
+                "species": "SPECIES_AIPOM"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_NINJASK"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 24,
@@ -5649,12 +5649,12 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_LOTAD"
+                "species": "SPECIES_FORRETRESS"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_NINJASK"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 25,
@@ -5768,22 +5768,22 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_AIPOM"
-              },
-              {
-                "min_level": 25,
-                "max_level": 25,
                 "species": "SPECIES_GIRAFARIG"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_YANMA"
+                "species": "SPECIES_LOTAD"
+              },
+              {
+                "min_level": 25,
+                "max_level": 25,
+                "species": "SPECIES_AIPOM"
               },
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_LOTAD"
+                "species": "SPECIES_YANMA"
               },
               {
                 "min_level": 27,
@@ -5803,7 +5803,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_LOTAD"
+                "species": "SPECIES_FORRETRESS"
               },
               {
                 "min_level": 25,
@@ -5922,12 +5922,12 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_AIPOM"
+                "species": "SPECIES_GIRAFARIG"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_GIRAFARIG"
+                "species": "SPECIES_LOTAD"
               },
               {
                 "min_level": 25,
@@ -5937,12 +5937,12 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_LOTAD"
+                "species": "SPECIES_AIPOM"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_NINJASK"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 27,
@@ -5957,12 +5957,12 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_LOTAD"
+                "species": "SPECIES_FORRETRESS"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_NINJASK"
+                "species": "SPECIES_SHEDINJA"
               },
               {
                 "min_level": 25,
