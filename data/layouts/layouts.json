@@ -4430,6 +4430,26 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/DewfordTown_House3/border.bin",
       "blockdata_filepath": "data/layouts/DewfordTown_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE104NORTH",
+      "name": "Route104North_Layout",
+      "width": 40,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Route104North/border.bin",
+      "blockdata_filepath": "data/layouts/Route104North/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE104SOUTH",
+      "name": "Route104South_Layout",
+      "width": 40,
+      "height": 48,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Route104South/border.bin",
+      "blockdata_filepath": "data/layouts/Route104South/map.bin"
     }
   ]
 }
