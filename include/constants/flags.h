@@ -662,10 +662,10 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_111_STONE_PLATE               0x268 // Ttime100 added hidden Stone Plate
 #define FLAG_HIDDEN_ITEM_ROUTE_111_BIG_NUGGET                0x269 // Ttime100 added hidden Big Nugget
 #define FLAG_HIDDEN_ITEM_STARFALL_GLACIER_ICY_ROCK           0x26A // Ttime100 added hidden Icy Rock
-#define FLAG_UNUSED_0x26B  0x26B // Unused Flag
-#define FLAG_UNUSED_0x26C  0x26C // Unused Flag
-#define FLAG_UNUSED_0x26D  0x26D // Unused Flag
-#define FLAG_UNUSED_0x26E  0x26E // Unused Flag
+#define FLAG_HIDDEN_ITEM_STARFALL_GLACIER_STAR_PIECE         0x26B // Ttime100 added hidden Star Piece
+#define FLAG_HIDDEN_ITEM_STARFALL_GLACIER_ICE_STONE          0x26C // Ttime100 added hidden Ice Stone
+#define FLAG_HIDDEN_ITEM_STARFALL_GLACIER_SNOWBALL           0x26D // Ttime100 added hidden Snowball
+#define FLAG_HIDDEN_ITEM_STARFALL_COMET_SHART                0x26E // Ttime100 added hidden Comet Shard
 #define FLAG_UNUSED_0x26F  0x26F // Unused Flag
 #define FLAG_UNUSED_0x270  0x270 // Unused Flag
 #define FLAG_UNUSED_0x271  0x271 // Unused Flag
