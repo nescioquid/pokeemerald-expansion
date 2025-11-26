@@ -705,6 +705,18 @@
       "name": "Secret Base"
     },
     {
+      "id": "MAPSEC_STARFALL_GLACIER",
+      "name": "Starfall Glacier",
+      "x": 37,
+      "y": 40,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_WEATHER_INST",
+      "name": "Weather Institute"
+    },
+    {
       "id": "MAPSEC_DYNAMIC"
     },
     {
