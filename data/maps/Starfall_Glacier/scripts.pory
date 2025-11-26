@@ -5,14 +5,20 @@ Starfall_Glacier_MapScripts::
 script Starfall_Glacier_EventScript_Glacia {
     lock
 	faceplayer
-	trainerbattle_single (TRAINER_GLACIA, Starfall_Glacier_Text_IntroSpeech, Starfall_Glacier_Text_Defeat)
-	msgbox (Starfall_Glacier_Text_PostBattleSpeech, MSGBOX_AUTOCLOSE)
+	trainerbattle_single (TRAINER_GLACIA, Glacia_Text_IntroSpeech, Glacia_Text_Defeat, Glacia_EventScript_PostbattleSpeech)
+	msgbox (Glacia_Text_PostBattleSpeech, MSGBOX_AUTOCLOSE)
 	end
 }
 
-text Starfall_Glacier_Text_IntroSpeech {
-	format("Welcome, my name is Glacia\n"
-    "of the Elite Four.\p"
+script Glacia_EventScript_PostbattleSpeech {
+	call (Glacia_Text_PostBattleSpeech)
+	release
+	end
+}
+
+text Glacia_Text_IntroSpeech {
+	format("Welcome, my name is Glacia,\n"
+    "formerly of the Elite Four.\p"
 	"I've traveled from afar to Hoenn\n"
 	"so that I may hone my ice skills.\p"
     "But all I have seen are challenges by\n"
@@ -22,7 +28,7 @@ text Starfall_Glacier_Text_IntroSpeech {
 	"go all out against you!$")
 }
 
-text Starfall_Glacier_Text_Defeat{
+text Glacia_Text_Defeat{
 format("You and your Pokémon…\n"
     "How hot your spirits burn!\p"
 	"The all-consuming heat overwhelms.\p"
@@ -30,8 +36,10 @@ format("You and your Pokémon…\n"
 	"failed to harm you.$")
 }
 
-text Starfall_Glacier_Text_PostBattleSpeech {
-	format("Advance to the next room.\p"
-	"And there, confirm the truly fearsome\n"
-	"side of the Pokémon League.$")
+text Glacia_Text_PostBattleSpeech {
+	format("You are truly a formidable opponent.\n"
+	"It would serve you well to challenge the new Pokémon League.\p"
+	"But be warned,\n"
+	"the new Elite Four is much more powerful than before.\p"
+	"Even I could not best them.$")
 }
