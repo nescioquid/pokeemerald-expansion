@@ -4450,6 +4450,16 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route104South/border.bin",
       "blockdata_filepath": "data/layouts/Route104South/map.bin"
+    },
+    {
+      "id": "LAYOUT_STARFALL_GLACIER",
+      "name": "Starfall_Glacier_Layout",
+      "width": 37,
+      "height": 43,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Starfall_Glacier/border.bin",
+      "blockdata_filepath": "data/layouts/Starfall_Glacier/map.bin"
     }
   ]
 }

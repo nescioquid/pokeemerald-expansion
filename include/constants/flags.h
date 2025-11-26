@@ -661,7 +661,7 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_111_BOTTLE_CAP                0x267 // Ttime100 added hidden Bottle Cap
 #define FLAG_HIDDEN_ITEM_ROUTE_111_STONE_PLATE               0x268 // Ttime100 added hidden Stone Plate
 #define FLAG_HIDDEN_ITEM_ROUTE_111_BIG_NUGGET                0x269 // Ttime100 added hidden Big Nugget
-#define FLAG_UNUSED_0x26A  0x26A // Unused Flag
+#define FLAG_HIDDEN_ITEM_STARFALL_GLACIER_ICY_ROCK           0x26A // Ttime100 added hidden Icy Rock
 #define FLAG_UNUSED_0x26B  0x26B // Unused Flag
 #define FLAG_UNUSED_0x26C  0x26C // Unused Flag
 #define FLAG_UNUSED_0x26D  0x26D // Unused Flag
@@ -1220,9 +1220,9 @@
 #define FLAG_ITEM_MAGMA_HIDEOUT_4F_MAX_REVIVE                       0x490
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET                     0x491
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492
+#define FLAG_ITEM_STARFALL_GLACIER_ICICLE_PLATE                     0x493 // Ttime100 added Icicle Plate
+#define FLAG_ITEM_STARFALL_GLACIER_SAFETY_GOGGLES                   0x494 // Ttime100 added Safety Goggles
 
-#define FLAG_UNUSED_0x493                                           0x493 // Unused Flag
-#define FLAG_UNUSED_0x494                                           0x494 // Unused Flag
 #define FLAG_UNUSED_0x495                                           0x495 // Unused Flag
 #define FLAG_UNUSED_0x496                                           0x496 // Unused Flag
 #define FLAG_UNUSED_0x497                                           0x497 // Unused Flag

@@ -433,7 +433,8 @@
     "TerraCave_End",
     "AlteringCave",
     "MeteorFalls_StevensCave",
-    "ScorchedSlab_HiddenRoom"
+    "ScorchedSlab_HiddenRoom",
+    "Starfall_Glacier"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
