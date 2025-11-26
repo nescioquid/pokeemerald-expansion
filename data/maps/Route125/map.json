@@ -27,6 +27,11 @@
       "map": "MAP_UNDERWATER_ROUTE125",
       "offset": 0,
       "direction": "dive"
+    },
+    {
+      "map": "MAP_STARFALL_GLACIER",
+      "offset": -1,
+      "direction": "up"
     }
   ],
   "object_events": [
