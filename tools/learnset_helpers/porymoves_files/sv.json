@@ -17048,6 +17048,10 @@
       {
         "Level": 50,
         "Move": "MOVE_PETAL_BLIZZARD"
+      },
+      {
+        "Level": 59,
+        "Move": "MOVE_BURNING_JEALOUSY"
       }
     ],
     "PreEvoMoves": [],
@@ -17086,7 +17090,11 @@
       "MOVE_DOUBLE_EDGE",
       "MOVE_ENDEAVOR",
       "MOVE_PETAL_BLIZZARD",
-      "MOVE_CURSE"
+      "MOVE_CURSE",
+      "MOVE_FIRE_BLAST",
+      "MOVE_HEAT_WAVE",
+      "MOVE_WILL_O_WISP",
+      "MOVE_BURNING_JEALOUSY"
     ],
     "EggMoves": [
       "MOVE_CURSE",
