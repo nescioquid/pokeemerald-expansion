@@ -8595,7 +8595,8 @@
       "MOVE_SUPERCELL_SLAM",
       "MOVE_ELECTROWEB",
       "MOVE_METAL_SOUND",
-      "MOVE_CURSE"
+      "MOVE_CURSE",
+      "MOVE_ENERGY_BALL"
     ],
     "EggMoves": [
       "MOVE_METAL_SOUND",
