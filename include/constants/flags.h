@@ -97,8 +97,8 @@
 #define FLAG_SET_WALL_CLOCK                      0x51
 #define FLAG_RESCUED_BIRCH                       0x52
 #define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53
-#define FLAG_GIVEN_GEN4_STARTER              0x54  // Added to give a Gen 4 starter
-#define FLAG_UNUSED_0x055                    0x55  // Unused Flag
+#define FLAG_GIVEN_GEN4_STARTER                  0x54  // Added to give a Gen 4 starter
+#define FLAG_EXP_SHARE                           0x55  // Unused Flag
 
 #define FLAG_HIDE_CONTEST_POKE_BALL          0x56  // Always set after new game, object it hides is added directly
 #define FLAG_MET_RIVAL_MOM                   0x57
@@ -1198,7 +1198,7 @@
 #define FLAG_ITEM_ROUTE_116_ABILITY_CAPSULE                         0x47A // Changed from Potion
 #define FLAG_ITEM_ROUTE_119_ELIXIR_2                                0x47B
 #define FLAG_ITEM_ROUTE_120_REVIVE                                  0x47C
-#define FLAG_ITEM_ROUTE_121_REVIVE                                  0x47D
+#define FLAG_ITEM_ROUTE_121_ABILITY_PATCH                           0x47D // Ttime100 changed from Revive
 #define FLAG_ITEM_ROUTE_121_ZINC                                    0x47E
 #define FLAG_ITEM_MAGMA_HIDEOUT_1F_RARE_CANDY                       0x47F
 #define FLAG_ITEM_ROUTE_123_ABILITY_CAPSULE                         0x480 // Changed from PP Up
