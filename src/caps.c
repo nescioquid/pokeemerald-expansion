@@ -20,8 +20,11 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE05_GET, 48},
         {FLAG_HIDE_ROUTE_119_TEAM_AQUA, 53}, // Triggers after defeating Shelly in Weather Institute
         {FLAG_BADGE06_GET, 56},
-        {FLAG_BADGE07_GET, 65},
-        {FLAG_BADGE08_GET, 72},
+        {FLAG_RECEIVED_RED_OR_BLUE_ORB, 63}, // Triggers after defeating Aqua at Mt Pyre
+        {FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 68}, // Triggers after defeating Magma Hideout
+        {FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 72}, // Triggers after defeating Aqua Hideout
+        {FLAG_BADGE07_GET, 77},
+        {FLAG_BADGE08_GET, 85},
         {FLAG_IS_CHAMPION, 95},
     };
 
