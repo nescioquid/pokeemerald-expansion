@@ -57,7 +57,6 @@ static const u8 LandmarkName_MirageTower[] = _("Mirage Tower");
 static const u8 LandmarkName_AlteringCave[] = _("Altering Cave");
 static const u8 LandmarkName_DesertUnderpass[] = _("Desert Underpass");
 static const u8 LandmarkName_TrainerHill[] = _("Trainer Hill");
-static const u8 LandmarkName_MagmaHideout[] = _("MAGMA HIDEOUT"); //Unused
 
 static const struct Landmark Landmark_FlowerShop = {COMPOUND_STRING("FLOWER SHOP"), FLAG_LANDMARK_FLOWER_SHOP};
 static const struct Landmark Landmark_PetalburgWoods = {COMPOUND_STRING("PETALBURG WOODS"), -1};
