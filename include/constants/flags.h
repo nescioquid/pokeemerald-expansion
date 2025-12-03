@@ -1222,8 +1222,8 @@
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492
 #define FLAG_ITEM_STARFALL_GLACIER_ICICLE_PLATE                     0x493 // Ttime100 added Icicle Plate
 #define FLAG_ITEM_STARFALL_GLACIER_SAFETY_GOGGLES                   0x494 // Ttime100 added Safety Goggles
+#define FLAG_ITEM_MAGMA_HIDEOUT_2F_2R_ASSAULT_VEST                  0x495 // Ttime100 added Assault Vest
 
-#define FLAG_UNUSED_0x495                                           0x495 // Unused Flag
 #define FLAG_UNUSED_0x496                                           0x496 // Unused Flag
 #define FLAG_UNUSED_0x497                                           0x497 // Unused Flag
 #define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
