@@ -1181,7 +1181,7 @@
       "y": 80,
       "elevation": 0,
       "item": "ITEM_BOTTLE_CAP",
-      "flag": "FLAG_TEMP_1"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_111_BOTTLE_CAP"
     },
     {
       "type": "hidden_item",

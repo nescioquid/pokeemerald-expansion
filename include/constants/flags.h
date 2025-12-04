@@ -666,7 +666,7 @@
 #define FLAG_HIDDEN_ITEM_STARFALL_GLACIER_ICE_STONE          0x26C // Ttime100 added hidden Ice Stone
 #define FLAG_HIDDEN_ITEM_STARFALL_GLACIER_SNOWBALL           0x26D // Ttime100 added hidden Snowball
 #define FLAG_HIDDEN_ITEM_STARFALL_COMET_SHART                0x26E // Ttime100 added hidden Comet Shard
-#define FLAG_UNUSED_0x26F  0x26F // Unused Flag
+#define FLAG_HIDDEN_ITEM_SLATEPORT_CITY_BOTTLE_CAP           0x26F // Ttime100 added hidden Bottle Cap
 #define FLAG_UNUSED_0x270  0x270 // Unused Flag
 #define FLAG_UNUSED_0x271  0x271 // Unused Flag
 #define FLAG_UNUSED_0x272  0x272 // Unused Flag
