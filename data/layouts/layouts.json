@@ -495,7 +495,7 @@
       "id": "LAYOUT_ROUTE134",
       "name": "Route134_Layout",
       "width": 80,
-      "height": 40,
+      "height": 44,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route134/border.bin",
@@ -4460,6 +4460,36 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/Starfall_Glacier/border.bin",
       "blockdata_filepath": "data/layouts/Starfall_Glacier/map.bin"
+    },
+    {
+      "id": "LAYOUT_OBSIDIAN_SHORES",
+      "name": "ObsidianShores_Layout",
+      "width": 40,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MeteorFalls",
+      "border_filepath": "data/layouts/ObsidianShores/border.bin",
+      "blockdata_filepath": "data/layouts/ObsidianShores/map.bin"
+    },
+    {
+      "id": "LAYOUT_SHADESPUR_ISLE",
+      "name": "Shadespur_Isle_Layout",
+      "width": 58,
+      "height": 23,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MeteorFalls",
+      "border_filepath": "data/layouts/Shadespur_Isle/border.bin",
+      "blockdata_filepath": "data/layouts/Shadespur_Isle/map.bin"
+    },
+    {
+      "id": "LAYOUT_UMBRA_INLET",
+      "name": "Umbra_Inlet_Layout",
+      "width": 35,
+      "height": 22,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MeteorFalls",
+      "border_filepath": "data/layouts/Umbra_Inlet/border.bin",
+      "blockdata_filepath": "data/layouts/Umbra_Inlet/map.bin"
     }
   ]
 }

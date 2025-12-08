@@ -1168,3 +1168,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Starfall_Glacier/scripts.inc"
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
+
+	.include "data/maps/ObsidianShores/scripts.inc"
+
+	.include "data/maps/Shadespur_Isle/scripts.inc"
+
+	.include "data/maps/Umbra_Inlet/scripts.inc"
