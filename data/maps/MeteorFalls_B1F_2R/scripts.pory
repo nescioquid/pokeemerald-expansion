@@ -1,0 +1,50 @@
+raw `
+MeteorFalls_B1F_2R_MapScripts::
+	.byte 0
+
+`
+script MeteorFalls_B1F_2R_EventScript_Drake {
+    lock
+	faceplayer
+	trainerbattle_single (TRAINER_DRAKE, Drake_Text_IntroSpeech, Drake_Text_Defeat, Drake_EventScript_PostbattleSpeech)
+	msgbox (Drake_Text_PostBattleSpeech, MSGBOX_AUTOCLOSE)
+	end
+}
+
+script Drake_EventScript_PostbattleSpeech {
+	call (Drake_Text_PostBattleSpeech)
+	release
+	end
+}
+
+text Drake_Text_IntroSpeech {
+	format ("I am formerly the last of the Pokémon League
+	Elite Four, Drake the Dragon master!\p
+	In their natural state, Pokémon are\n
+	wild living things. They are free.\p
+	At times, they hinder us.\n
+	At times, they help us.\p
+	For us to battle with Pokémon as\n
+	partners, do you know what it takes?\p
+	Do you know what is needed?\p
+	If you don't, then you will never\n
+	prevail over me!$")
+}
+
+text Drake_Text_Defeat {
+format ("Superb, it should be said.$")
+}
+
+text Drake_Text_PostBattleSpeech {
+	format ("You deserve every credit for coming\n
+	this far as a Trainer of Pokémon.\p
+	You do seem to know what is needed.\p
+	Yes, what a Trainer needs is a\n
+	virtuous heart.\p
+	Pokémon touch the good hearts of\n
+	Trainers and learn good from wrong.\p
+	They touch the good hearts of\n
+	Trainers and grow strong.\p
+	Go! Go onwards!\n
+	The Pokémon League is waiting!$")
+}
