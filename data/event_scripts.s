@@ -1174,3 +1174,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Shadespur_Isle/scripts.inc"
 
 	.include "data/maps/Umbra_Inlet/scripts.inc"
+
+	.include "data/maps/ObsidianShores_House1/scripts.inc"

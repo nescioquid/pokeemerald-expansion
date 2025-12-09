@@ -4490,6 +4490,16 @@
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/Umbra_Inlet/border.bin",
       "blockdata_filepath": "data/layouts/Umbra_Inlet/map.bin"
+    },
+    {
+      "id": "LAYOUT_OBSIDIAN_SHORES_HOUSE1",
+      "name": "ObsidianShores_House1_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/ObsidianShores_House1/border.bin",
+      "blockdata_filepath": "data/layouts/ObsidianShores_House1/map.bin"
     }
   ]
 }

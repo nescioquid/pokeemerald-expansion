@@ -632,5 +632,7 @@
     "Route124_DivingTreasureHuntersHouse"
   ],
   "gMapGroup_IndoorShadespur": [],
-  "gMapGroup_IndoorObsidianShores": []
+  "gMapGroup_IndoorObsidianShores": [
+    "ObsidianShores_House1"
+  ]
 }
