@@ -11,7 +11,7 @@ script Starfall_Glacier_EventScript_Glacia {
 }
 
 script Glacia_EventScript_PostbattleSpeech {
-	call (Glacia_Text_PostBattleSpeech)
+	msgbox (Glacia_Text_PostBattleSpeech)
 	release
 	end
 }

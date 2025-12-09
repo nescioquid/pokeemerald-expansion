@@ -19,7 +19,7 @@ Umbra_Inlet_EventScript_Sidney::
 
 Sidney_EventScript_PostbattleSpeech::
 # 14 "data/maps/Umbra_Inlet/scripts.pory"
-	call Sidney_Text_PostBattleSpeech
+	msgbox Sidney_Text_PostBattleSpeech
 # 15 "data/maps/Umbra_Inlet/scripts.pory"
 	release
 	end
@@ -47,5 +47,4 @@ Sidney_Text_PostBattleSpeech::
 	.string "to say.\p"
 	.string "You've got what it takes to go far.\n"
 	.string "Now, go on to the Pokémon League and\l"
-	.string "show\l"
-	.string "them what a real trainer can do!$"
+	.string "show them what a real trainer can do!$"

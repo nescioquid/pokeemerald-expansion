@@ -79,7 +79,7 @@ script Mt_Pyre_6F_EventScript_Phoebe {
 }
 
 script Phoebe_EventScript_PostbattleSpeech {
-	call (Phoebe_Text_PostBattleSpeech)
+	msgbox (Phoebe_Text_PostBattleSpeech)
 	release
 	end
 }

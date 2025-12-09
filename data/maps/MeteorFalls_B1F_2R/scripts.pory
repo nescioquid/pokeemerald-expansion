@@ -12,7 +12,7 @@ script MeteorFalls_B1F_2R_EventScript_Drake {
 }
 
 script Drake_EventScript_PostbattleSpeech {
-	call (Drake_Text_PostBattleSpeech)
+	msgbox (Drake_Text_PostBattleSpeech)
 	release
 	end
 }

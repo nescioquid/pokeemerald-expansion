@@ -19,7 +19,7 @@ MeteorFalls_B1F_2R_EventScript_Drake::
 
 Drake_EventScript_PostbattleSpeech::
 # 15 "data/maps/MeteorFalls_B1F_2R/scripts.pory"
-	call Drake_Text_PostBattleSpeech
+	msgbox Drake_Text_PostBattleSpeech
 # 16 "data/maps/MeteorFalls_B1F_2R/scripts.pory"
 	release
 	end

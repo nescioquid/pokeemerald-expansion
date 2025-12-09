@@ -151,7 +151,7 @@ Mt_Pyre_6F_EventScript_Phoebe::
 
 Phoebe_EventScript_PostbattleSpeech::
 # 82 "data/maps/MtPyre_6F/scripts.pory"
-	call Phoebe_Text_PostBattleSpeech
+	msgbox Phoebe_Text_PostBattleSpeech
 # 83 "data/maps/MtPyre_6F/scripts.pory"
 	release
 	end

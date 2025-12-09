@@ -11,7 +11,7 @@ script Umbra_Inlet_EventScript_Sidney {
 }
 
 script Sidney_EventScript_PostbattleSpeech {
-	call (Sidney_Text_PostBattleSpeech)
+	msgbox (Sidney_Text_PostBattleSpeech)
 	release
 	end
 }
@@ -36,6 +36,6 @@ text Sidney_Text_PostBattleSpeech {
 	format("Well, listen to what this loser has\n
 	to say.\p
 	You've got what it takes to go far.\n
-	Now, go on to the Pokémon League and show\l
+	Now, go on to the Pokémon League and show
 	them what a real trainer can do!$")
 }
