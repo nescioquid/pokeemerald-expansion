@@ -1,0 +1,75 @@
+raw`ShadespurPokemonCenter_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, ShadespurPokemonCenter_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+ShadespurPokemonCenter_OnTransition:
+	setrespawn HEAL_LOCATION_SHADESPUR_ISLE
+	end
+
+ShadespurPokemonCenter_EventScript_Nurse::
+	setvar VAR_0x800B, LOCALID_SHADESPUR_NURSE
+	call Common_EventScript_PkmnCenterNurse
+	waitmessage
+	waitbuttonpress
+	release
+	end
+`
+script Aqua_Grunt_Chats {
+    lock
+    faceplayer
+    random (3)
+    switch (var(VAR_RESULT)){
+    case 0: msgbox (format("Well look what the tide dragged in. A fresh face.
+        Don't worry, kid, we won't steal your Pokémon.
+        We're done with all that. We just...
+        ran out of oceans to conquer."))
+    case 1: msgbox (format("The hardest part of leaving? The quiet.
+        No more yelling, no more rushed orders,
+        no more bosses treating you like a spare anchor.
+        This island is cold, but at least the cold is honest."))
+    case 2: msgbox (format("I heard the boss is still out there,
+        pushing for the Eternal Tide. Good luck to him.
+        I just needed a place where I didn't have
+        to choose between a life jacket and a jail cell.
+        This place, Shadespur Isle, it's far enough from everyone."))
+    }
+    release
+    end
+}
+
+script Magma_Grunt_Chats {
+    lock
+    faceplayer
+    random (3)
+    switch (var(VAR_RESULT)){
+    case 0: msgbox (format("You startled me.
+        Yeah, I’m Magma. He's Aqua.
+        We found this spot and called a truce.
+        Out here, we're not teams, we're just... outcasts.
+        Nothing worse than being a grunt without a team to back you up."))
+    case 1: msgbox (format("The boss always talked about
+        the perfect land, the perfect world.
+        But the only perfect thing I ever found
+        was a cot that didn't smell like volcanic sulfur.
+        We’re all refugees from our own bad decisions, kid."))
+    case 2: msgbox (format("You see that computer?
+        It's rigged for basic healing and storage.
+        No network. No calls back to headquarters.
+        We made sure of that. This isn't just a hideout;
+        it's a dead zone. If you want peace,
+        this is where you go when the fighting gets too loud."))
+    }
+    release
+    end
+}
+
+script OldManWarning {
+    lock
+    faceplayer
+    msgbox (format("They call this place a refuge.
+    But the shore is where you bury your debts, not pay them.
+    Be careful who you owe, young one."))
+    release
+    end
+}
