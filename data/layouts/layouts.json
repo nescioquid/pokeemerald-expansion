@@ -4500,6 +4500,36 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/ObsidianShores_House1/border.bin",
       "blockdata_filepath": "data/layouts/ObsidianShores_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SHADESPUR_POKEMON_CENTER",
+      "name": "ShadespurPokemonCenter_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/ShadespurPokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/ShadespurPokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_SHADESPUR_HOUSE1",
+      "name": "ShadespurHouse1_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_SecretBase",
+      "secondary_tileset": "gTileset_SecretBaseBlueCave",
+      "border_filepath": "data/layouts/ShadespurHouse1/border.bin",
+      "blockdata_filepath": "data/layouts/ShadespurHouse1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SHADESPUR_HOUSE2",
+      "name": "ShadespurHouse2_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/ShadespurHouse2/border.bin",
+      "blockdata_filepath": "data/layouts/ShadespurHouse2/map.bin"
     }
   ]
 }

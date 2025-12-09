@@ -631,7 +631,11 @@
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
   ],
-  "gMapGroup_IndoorShadespur": [],
+  "gMapGroup_IndoorShadespur": [
+    "ShadespurPokemonCenter",
+    "ShadespurHouse1",
+    "ShadespurHouse2"
+  ],
   "gMapGroup_IndoorObsidianShores": [
     "ObsidianShores_House1"
   ]
