@@ -717,6 +717,30 @@
       "name": "Weather Institute"
     },
     {
+      "id": "MAPSEC_OBSIDIAN_SHORES",
+      "name": "Obsidian Shores",
+      "x": 11,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SHADESPUR_ISLE",
+      "name": "Shadespur Isle",
+      "x": 11,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_UMBRA_INLET",
+      "name": "Umbra Inlet",
+      "x": 12,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
       "id": "MAPSEC_DYNAMIC"
     },
     {
