@@ -1,0 +1,41 @@
+raw`
+Umbra_Inlet_MapScripts::
+	.byte 0
+`
+script Umbra_Inlet_EventScript_Sidney {
+    lock
+	faceplayer
+	trainerbattle_single (TRAINER_SIDNEY, Sidney_Text_IntroSpeech, Sidney_Text_Defeat, Sidney_EventScript_PostbattleSpeech)
+	msgbox (Sidney_Text_PostBattleSpeech, MSGBOX_AUTOCLOSE)
+	end
+}
+
+script Sidney_EventScript_PostbattleSpeech {
+	call (Sidney_Text_PostBattleSpeech)
+	release
+	end
+}
+
+text Sidney_Text_IntroSpeech {
+	format("Welcome... I'm Sidney,\n
+	formerly of the Elite Four.\p
+	I like that look you're giving me.\n
+	I guess you'll give me a good match.\l
+	That's good! Looking real good!\p
+	All right! You and me, let's enjoy\n
+	a battle that could rival\l
+	the Pokémon League!$")
+}
+
+text Sidney_Text_Defeat {
+format("Well, how do you like that? I lost!\n
+	Eh, it was fun, so it doesn't matter.$")
+}
+
+text Sidney_Text_PostBattleSpeech {
+	format("Well, listen to what this loser has\n
+	to say.\p
+	You've got what it takes to go far.\n
+	Now, go on to the Pokémon League and show\l
+	them what a real trainer can do!$")
+}
