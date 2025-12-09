@@ -4484,7 +4484,7 @@
     {
       "id": "LAYOUT_UMBRA_INLET",
       "name": "Umbra_Inlet_Layout",
-      "width": 35,
+      "width": 36,
       "height": 22,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_MeteorFalls",
