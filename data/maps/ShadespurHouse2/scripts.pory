@@ -1,0 +1,25 @@
+raw`
+ShadespurHouse2_MapScripts::
+	.byte 0
+`
+script StrugglingArtist{
+    lock
+    faceplayer
+    random (3)
+    switch (var(VAR_RESULT)) {
+    case 0: msgbox (format ("Ah, a visitor.\N
+    I haven't seen a fresh face in...\N
+    well, a long time."))
+    case 1: msgbox (format ("Shadespur Isle...\N
+    it's ugly, lonely, and raw.\N
+    Nobody here cares about aesthetics.\N
+    They only care about profit and power.\p It’s perfect."))
+    case 2: msgbox (format ("I'm painting the truth of the Isle.\p
+    The desperation, the sharp edges,\N
+    the shadows.\p
+    It's ugly, messy work, and I'll likely never sell a single piece.
+    But at least... at least it's mine. It feels real."))
+    }
+    release
+    end
+}
