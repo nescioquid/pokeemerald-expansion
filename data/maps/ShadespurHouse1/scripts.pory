@@ -1,0 +1,112 @@
+raw`
+ShadespurHouse1_MapScripts::
+	.byte 0
+`
+script MysteryMan {
+    lock
+    faceplayer
+    if (!flag(FLAG_RECEIVED_POLICIES)) {
+        if (!flag(FLAG_TEMP_1)) {
+            msgbox (MysteryManIntro)
+            setflag (FLAG_TEMP_1)
+        }
+        showmoneybox (0,0)
+        msgbox (ShadyDealings, MSGBOX_YESNO)
+        if (var(VAR_RESULT) == TRUE) {
+            checkmoney (50000)
+            if (var(VAR_RESULT) == TRUE){
+            checkitemspace (ITEM_WEAKNESS_POLICY)
+            goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_BagIsFull)
+            checkitemspace (ITEM_BLUNDER_POLICY)
+            goto_if_eq(VAR_RESULT, FALSE, Common_EventScript_BagIsFull)
+            call (MaketheDeal)
+            }
+            else {
+            call (NotEnoughMoney)    
+            }
+        }
+        else {
+        hidemoneybox
+        msgbox (YouWillBeBack)
+        release
+        end
+        }
+    }
+    else {
+        msgbox (PostScamIMeanSale)
+    }
+    hidemoneybox
+    release
+    end
+}
+
+script MaketheDeal {
+    removemoney (50000)
+    updatemoneybox
+    giveitem (ITEM_WEAKNESS_POLICY)
+    giveitem (ITEM_BLUNDER_POLICY)
+    hidemoneybox
+    msgbox (WiseChoice)
+    setflag (FLAG_RECEIVED_POLICIES)
+    release
+    end
+}
+
+script NotEnoughMoney {
+    hidemoneybox
+    msgbox (TooPoor)
+    release
+    end
+}
+
+text MysteryManIntro {
+    format ("Welcome, welcome! \N
+    Come closer. \p
+    I run a very exclusive market\N
+    here on Shadespur Isle.\p
+    You see, I sell...\N
+    promises.\p
+    Would hate for something... \n
+    bad...\N
+    to happen to your Pokémon, right? \p
+    I have two exquisite pieces for a daring trainer like yourself.\p
+    Think of them as advanced \n
+    insurance policies.\p
+    You pay the premium of failure, \N
+    but the payout...\N
+    the payout is incredible.$")
+}
+
+text ShadyDealings {
+    format ("I'll sell you both policies for ¥50,000. \p
+    What do you say? \N
+    Ready to invest in some beautiful risk?")
+}
+
+text YouWillBeBack {
+    format ("I see... \p
+    You prefer the certainty of weakness, then. A shame.\N
+    But don't worry. \N
+    This Isle has a way of showing trainers what they need.\N
+    You will find your way back to me.\p
+    Everyone does...")
+}
+
+text WiseChoice {
+    format ("Use them wisely. \N Don't fear the risk, embrace it. \p
+    Show them that a little bit of failure is just a setup for success.")
+}
+
+text TooPoor {
+    format ("It looks like you are \N
+    too poor for my polices.\p
+    Come back when you can afford them.")
+}
+
+text PostScamIMeanSale {
+    format ("The Weakness Policy is for those who welcome pain.\p
+    It multiplies your strength the moment you should have fallen.\p
+    The Blunder Policy is for the clumsy.\N
+    It turns an embarrassing miss into lightning speed.\p
+    Remember, success is just the exploitation of risk. Don't forget that.")
+}
