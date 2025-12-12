@@ -668,8 +668,8 @@
 #define FLAG_HIDDEN_ITEM_STARFALL_COMET_SHART                0x26E // Ttime100 added hidden Comet Shard
 #define FLAG_HIDDEN_ITEM_SLATEPORT_CITY_BOTTLE_CAP           0x26F // Ttime100 added hidden Bottle Cap
 #define FLAG_HIDDEN_ITEM_LILYCOVE_CITY_COVERT_CLOAK          0x270 // Ttime100 added hidden Covert Cloak
-#define FLAG_UNUSED_0x271  0x271 // Unused Flag
-#define FLAG_UNUSED_0x272  0x272 // Unused Flag
+#define FLAG_HIDDEN_ITEM_UMBRA_INLET_DREAD_PLATE             0x271 // Ttime100 added hidden Dread Plate
+#define FLAG_HIDDEN_ITEM_UMBRA_INLET_COMET_SHARD             0x272 // Ttime100 added hidden Comet Shard
 #define FLAG_UNUSED_0x273  0x273 // Unused Flag
 #define FLAG_UNUSED_0x274  0x274 // Unused Flag
 #define FLAG_UNUSED_0x275  0x275 // Unused Flag

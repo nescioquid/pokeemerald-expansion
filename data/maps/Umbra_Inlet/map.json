@@ -36,5 +36,22 @@
   ],
   "warp_events": [],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "item": "ITEM_DREAD_PLATE",
+      "flag": "FLAG_HIDDEN_ITEM_UMBRA_INLET_DREAD_PLATE"
+    },
+    {
+      "type": "hidden_item",
+      "x": 29,
+      "y": 8,
+      "elevation": 0,
+      "item": "ITEM_COMET_SHARD",
+      "flag": "FLAG_HIDDEN_ITEM_UMBRA_INLET_COMET_SHARD"
+    }
+  ]
 }

@@ -13257,6 +13257,170 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_UMBRA_INLET",
+          "base_label": "gUmbra_Inlet",
+          "water_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 30,
+                "max_level": 45,
+                "species": "SPECIES_CARVANHA"
+              },
+              {
+                "min_level": 37,
+                "max_level": 45,
+                "species": "SPECIES_SHARPEDO"
+              },
+              {
+                "min_level": 37,
+                "max_level": 45,
+                "species": "SPECIES_CRAWDAUNT"
+              },
+              {
+                "min_level": 30,
+                "max_level": 45,
+                "species": "SPECIES_CARVANHA"
+              },
+              {
+                "min_level": 40,
+                "max_level": 45,
+                "species": "SPECIES_SHARPEDO"
+              },
+              {
+                "min_level": 40,
+                "max_level": 45,
+                "species": "SPECIES_CRAWDAUNT"
+              },
+              {
+                "min_level": 40,
+                "max_level": 45,
+                "species": "SPECIES_CRAWDAUNT"
+              }
+            ]
+          },
+          "fishing_mons": {
+            "encounter_rate": 30,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 35,
+                "species": "SPECIES_MAGIKARP"
+              },
+              {
+                "min_level": 5,
+                "max_level": 35,
+                "species": "SPECIES_TENTACOOL"
+              },
+              {
+                "min_level": 25,
+                "max_level": 35,
+                "species": "SPECIES_CARVANHA"
+              },
+              {
+                "min_level": 25,
+                "max_level": 35,
+                "species": "SPECIES_REMORAID"
+              },
+              {
+                "min_level": 25,
+                "max_level": 35,
+                "species": "SPECIES_BARBOACH"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 35,
+                "max_level": 45,
+                "species": "SPECIES_SHARPEDO"
+              },
+              {
+                "min_level": 30,
+                "max_level": 45,
+                "species": "SPECIES_BASCULIN_WHITE_STRIPED"
+              },
+              {
+                "min_level": 30,
+                "max_level": 40,
+                "species": "SPECIES_FEEBAS"
+              },
+              {
+                "min_level": 35,
+                "max_level": 45,
+                "species": "SPECIES_FEEBAS"
+              }
+            ]
+          },
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_VULLABY"
+              },
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_SABLEYE"
+              },
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_HOUNDOOM"
+              },
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_MANDIBUZZ"
+              },
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_SKUNTANK"
+              },
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_ABSOL"
+              },
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_SCRAFTY"
+              },
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_BISHARP"
+              },
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_DRAPION"
+              },
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_ZOROARK"
+              },
+              {
+                "min_level": 55,
+                "max_level": 56,
+                "species": "SPECIES_TYRANITAR"
+              },
+              {
+                "min_level": 54,
+                "max_level": 56,
+                "species": "SPECIES_ZWEILOUS"
+              }
+            ]
+          }
         }
       ]
     },
