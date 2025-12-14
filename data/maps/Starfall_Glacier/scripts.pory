@@ -1,6 +1,12 @@
 raw`
 Starfall_Glacier_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Starfall_Glacier_OnTransition
 	.byte 0
+
+Starfall_Glacier_OnTransition:
+	setflag FLAG_LANDMARK_STARFALL_GLACIER
+	end
+
 `
 script Starfall_Glacier_EventScript_Glacia {
     lock
