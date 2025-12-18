@@ -28,7 +28,7 @@
   "warp_events": [
     {
       "x": 9,
-      "y": 3,
+      "y": 4,
       "elevation": 0,
       "dest_map": "MAP_OBSIDIAN_SHORES_HOUSE1",
       "dest_warp_id": "0"
