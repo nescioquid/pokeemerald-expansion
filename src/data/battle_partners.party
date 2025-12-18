@@ -13,34 +13,35 @@ Pic: Steven
 Gender: Male
 Music: Male
 Back Pic: Steven
-AI: Basic Trainer
+AI: Basic Trainer / Smart Switching / Assume Stab
 
-Metang
+Metagross @ Occa Berry
 Brave Nature
-Level: 42
+Level: 80
+Shiny: Yes
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Def / 6 SpA
 - Light Screen
-- Psychic
+- Zen Headbutt
 - Reflect
-- Metal Claw
+- Meteor Mash
 
-Skarmory
+Skarmory (M) @ Sitrus Berry
 Impish Nature
-Level: 43
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 6 SpA / 252 SpD
+EVs: 252 HP / 6 Atk / 252 SpD
 - Toxic
-- Aerial Ace
+- Brave Bird
 - Protect
 - Steel Wing
 
-Aggron
+Aggron (M) @ Sitrus Berry
 Adamant Nature
-Level: 44
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 SpA / 6 SpD
-- Thunder
+EVs: 252 Atk / 252 Def / 6 SpD
+- Brick Break
 - Protect
-- Solar Beam
+- Iron Head
 - Dragon Claw
