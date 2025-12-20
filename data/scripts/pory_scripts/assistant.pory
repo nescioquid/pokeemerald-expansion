@@ -1,8 +1,8 @@
-const LEVEL_CAP = VAR_TEMP_1
-const VERSION   = VAR_TEMP_2
-const PRE_LVLCAP= VAR_TEMP_3
-const PARTY_MON = VAR_TEMP_4
-const MON_STAT  = VAR_TEMP_5
+const LEVEL_CAP  = VAR_TEMP_1
+const VERSION    = VAR_TEMP_2
+const PRE_LVLCAP = VAR_TEMP_3
+const PARTY_MON  = VAR_TEMP_4
+const MON_STAT   = VAR_TEMP_5
 
 script Pokemon_Center_Assistant {
     lock
@@ -18,11 +18,11 @@ script Pokemon_Center_Assistant {
 script Assistant_Hello {
     if (!flag(FLAG_MET_ASSISTANT)) {
         msgbox(format("Hello!\n
-        I am here to assist you as you progress in your Pokémon journey!\n
-        Forgive me, but I too am just starting my journey as an assistant, \n
-        so I might not be able to help you much right now,\n
-        but I promise I will learn as I go!\n
-        How may I help you today?\$"))
+            I am here to assist you as you progress in your Pokémon journey!\n
+            Forgive me, but I too am just starting my journey as an assistant, \n
+            so I might not be able to help you much right now,\n
+            but I promise I will learn as I go!\n
+            How may I help you today?\$"))
         setflag(FLAG_MET_ASSISTANT)
     }
     else {
@@ -34,15 +34,15 @@ script Assistant_CheckBadges {
     if (!flag(FLAG_SYS_GAME_CLEAR)) {
         call(_Common_EventScript_GetBadgeCount)
         switch(var(VAR_RESULT)) {
-          case 0: call(Assistant_ZeroBadges)
-          case 1: call(Assistant_OneBadge)
-          case 2: call(Assistant_TwoBadges)
-          case 3: call(Assistant_ThreeBadges)
-          case 4: call(Assistant_FourBadges)
-          case 5: call(Assistant_FiveBadges)
-          case 6: call(Assistant_SixBadges)
-          case 7: call(Assistant_SevenBadges)
-          case 8: call(Assistant_EightBadges)
+            case 0: call(Assistant_ZeroBadges)
+            case 1: call(Assistant_OneBadge)
+            case 2: call(Assistant_TwoBadges)
+            case 3: call(Assistant_ThreeBadges)
+            case 4: call(Assistant_FourBadges)
+            case 5: call(Assistant_FiveBadges)
+            case 6: call(Assistant_SixBadges)
+            case 7: call(Assistant_SevenBadges)
+            case 8: call(Assistant_EightBadges)
         }
     }
     else {
@@ -53,15 +53,15 @@ script Assistant_CheckBadges {
 script Assistant_Goodbye {
     random(9)
     switch (var(VAR_RESULT)) {
-      case  0: msgbox(format("See you later!"))
-      case  1: msgbox(format("Goodbye!"))
-      case  2: msgbox(format("Bye bye!"))
-      case  3: msgbox(format("Bye now!"))
-      case  4: msgbox(format("Bye!"))
-      case  5: msgbox(format("Ciao!"))
-      case  6: msgbox(format("Have fun out there!"))
-      case  7: msgbox(format("Good luck!"))
-      case  8: msgbox(format("You'll do great!"))
+        case  0: msgbox(format("See you later!"))
+        case  1: msgbox(format("Goodbye!"))
+        case  2: msgbox(format("Bye bye!"))
+        case  3: msgbox(format("Bye now!"))
+        case  4: msgbox(format("Bye!"))
+        case  5: msgbox(format("Ciao!"))
+        case  6: msgbox(format("Have fun out there!"))
+        case  7: msgbox(format("Good luck!"))
+        case  8: msgbox(format("You'll do great!"))
     }
 }
 
@@ -70,7 +70,7 @@ script Assistant_ZeroBadges {
     dynmultipush("Version Info",1)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     switch (var(VAR_RESULT)){
         case 0: call(CurrentLevelCap)
@@ -79,12 +79,12 @@ script Assistant_ZeroBadges {
 }
 
 script Assistant_OneBadge {
-// Same as zero
+    // Same as zero
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     switch (var(VAR_RESULT)){
         case 0: call(CurrentLevelCap)
@@ -93,13 +93,13 @@ script Assistant_OneBadge {
 }
 
 script Assistant_TwoBadges {
-// Adds ability to set pokemon to previous level cap
+    // Adds ability to set pokemon to previous level cap
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     switch (var(VAR_RESULT)){
         case 0: call(CurrentLevelCap)
@@ -109,14 +109,14 @@ script Assistant_TwoBadges {
 }
 
 script Assistant_ThreeBadges {
-// set friendship level
+    // set friendship level
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
     dynmultipush("Maxize Friendship",3)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     switch (var(VAR_RESULT)){
         case 0: call(CurrentLevelCap)
@@ -127,14 +127,14 @@ script Assistant_ThreeBadges {
 }
 
 script Assistant_FourBadges {
-// Same as three
+    // Same as three
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
     dynmultipush("Maxize Friendship",3)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     switch (var(VAR_RESULT)){
         case 0: call(CurrentLevelCap)
@@ -145,14 +145,14 @@ script Assistant_FourBadges {
 }
 
 script Assistant_FiveBadges {
-// Same as three
+    // Same as three
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
     dynmultipush("Maxize Friendship",3)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     switch (var(VAR_RESULT)){
         case 0: call(CurrentLevelCap)
@@ -163,7 +163,7 @@ script Assistant_FiveBadges {
 }
 
 script Assistant_SixBadges {
-// Adds Nature Change
+    // Adds Nature Change
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
@@ -171,7 +171,7 @@ script Assistant_SixBadges {
     dynmultipush("Change Nature", 4)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     switch (var(VAR_RESULT)){
         case 0: call(CurrentLevelCap)
@@ -183,7 +183,7 @@ script Assistant_SixBadges {
 }
 
 script Assistant_SevenBadges {
-// Adds ability to reset EVs
+    // Adds ability to reset EVs
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
@@ -192,7 +192,7 @@ script Assistant_SevenBadges {
     dynmultipush("Reset EVs", 5)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     switch (var(VAR_RESULT)){
         case 0: call(CurrentLevelCap)
@@ -205,8 +205,8 @@ script Assistant_SevenBadges {
 }
 
 script Assistant_EightBadges {
-// Adds Gender Swap
-// Can lower IV to 0 (for things like Trick Room)
+    // Adds Gender Swap
+    // Can lower IV to 0 (for things like Trick Room)
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
@@ -217,7 +217,7 @@ script Assistant_EightBadges {
     dynmultipush("Lower IVs", 7)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     switch (var(VAR_RESULT)){
         case 0: call(CurrentLevelCap)
@@ -242,7 +242,7 @@ script Assistant_Postgame {
     dynmultipush("Lower IVs", 7)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     switch (var(VAR_RESULT)){
         case 0: call(CurrentLevelCap)
@@ -277,8 +277,8 @@ script SetMontoPrevLvlCap {
     special(ChoosePartyMon)
     waitstate
     if (var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
-    release
-    end
+        release
+        end
     }
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1, PARTY_MON)
@@ -296,8 +296,8 @@ script MaxFriendship {
     special(ChoosePartyMon)
     waitstate
     if (var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
-    release
-    end
+        release
+        end
     }
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1, PARTY_MON)
@@ -347,7 +347,7 @@ script NatureChange {
     dynmultipush("Timid  {CLEAR_TO 0x48}{FONT_RED}+Speed{FONT_NORMAL}/{FONT_BLUE}-Atk",10)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     special (SetHiddenNature)
     msgbox(NatureChange_Text)
@@ -360,8 +360,8 @@ script ResetEVs {
     special(ChoosePartyMon)
     waitstate
     if (var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
-    release
-    end
+        release
+        end
     }
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1, PARTY_MON)
@@ -376,35 +376,35 @@ script SwapGender {
     special(ChoosePartyMon)
     waitstate
     if (var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
-    release
-    end
+        release
+        end
     }
-    if (var(VAR_0x8004) == SPECIES_COMBEE || var(VAR_0x8004) == SPECIES_SALANDIT ||
-    var(VAR_0x8004) == SPECIES_KIRLIA || var(VAR_0x8004) == SPECIES_BURMY ||
-    var(VAR_0x8004) == SPECIES_ESPURR || var(VAR_0x8004) == SPECIES_LECHONK ||
-    var(VAR_0x8004) == SPECIES_BASCULIN_WHITE_STRIPED) {
-    copyvar(PARTY_MON, VAR_0x8004)
-    bufferpartymonnick(STR_VAR_1, PARTY_MON)
-    // TODO set gender to opposite
-    msgbox(SwapGender_Text)
-    closemessage
-    release
-    end
+    if (var(VAR_0x8004) == SPECIES_COMBEE   ||
+        var(VAR_0x8004) == SPECIES_SALANDIT ||
+        var(VAR_0x8004) == SPECIES_KIRLIA   ||
+        var(VAR_0x8004) == SPECIES_BURMY    ||
+        var(VAR_0x8004) == SPECIES_ESPURR   ||
+        var(VAR_0x8004) == SPECIES_LECHONK  ||
+        var(VAR_0x8004) == SPECIES_BASCULIN_WHITE_STRIPED) {
+        copyvar(PARTY_MON, VAR_0x8004)
+        bufferpartymonnick(STR_VAR_1, PARTY_MON)
+        // TODO set gender to opposite
+        msgbox(format("{STR_VAR_1}'s gender has been changed!"))
     }
     else {
-    msgbox(CantSwapGender_Text)
+        msgbox(format("I'm sorry, I cannot change this Pokémon."))
+    }
     closemessage
     release
     end
-    }
 }
 
 script LowerIVs {
     special(ChoosePartyMon)
     waitstate
     if (var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
-    release
-    end
+        release
+        end
     }
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1, PARTY_MON)
@@ -416,7 +416,7 @@ script LowerIVs {
     dynmultipush("Speed", STAT_SPEED)
     dynmultistack(0, 0, FALSE, 6, FALSE, 0, 0)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-    return
+        return
     }
     copyvar(MON_STAT, VAR_RESULT)
     // TODO set chosen stat IV to 0
