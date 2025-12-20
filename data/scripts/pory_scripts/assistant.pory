@@ -9,7 +9,7 @@ script Pokemon_Center_Assistant {
     faceplayer
     call(Assistant_Hello)
     waitmessage
-    call(Assistant_CheckBadges)
+    call(Assistant_DoAssistantThings)
     call(Assistant_Goodbye)
     release
     end
@@ -30,26 +30,6 @@ script Assistant_Hello {
     }
 }
 
-script Assistant_CheckBadges {
-    if (!flag(FLAG_SYS_GAME_CLEAR)) {
-        call(_Common_EventScript_GetBadgeCount)
-        switch(var(VAR_RESULT)) {
-            case 0: call(Assistant_ZeroBadges)
-            case 1: call(Assistant_OneBadge)
-            case 2: call(Assistant_TwoBadges)
-            case 3: call(Assistant_ThreeBadges)
-            case 4: call(Assistant_FourBadges)
-            case 5: call(Assistant_FiveBadges)
-            case 6: call(Assistant_SixBadges)
-            case 7: call(Assistant_SevenBadges)
-            case 8: call(Assistant_EightBadges)
-        }
-    }
-    else {
-        call(Assistant_Postgame)
-    }
-}
-
 script Assistant_Goodbye {
     switch (random(9)) {
         case 0: msgbox(format("See you later!"))
@@ -64,118 +44,59 @@ script Assistant_Goodbye {
     }
 }
 
-script Assistant_ZeroBadges {
-    dynmultipush("Current Level Cap", 0)
-    dynmultipush("Version Info", 1)
-    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
-    if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-        return
+script Assistant_DoAssistantThings {
+    if (!flag(FLAG_SYS_GAME_CLEAR)) {
+        call(_Common_EventScript_GetBadgeCount)
+        switch(var(VAR_RESULT)) {
+            case 0:
+            case 1:
+                dynmultipush("Current Level Cap", 0)
+                dynmultipush("Version Info", 1)
+            case 2:
+                dynmultipush("Current Level Cap", 0)
+                dynmultipush("Version Info", 1)
+                dynmultipush("Set Mon to Prev Lvl Cap", 2)
+            case 3:
+            case 4:
+            case 5:
+                dynmultipush("Current Level Cap", 0)
+                dynmultipush("Version Info", 1)
+                dynmultipush("Set Mon to Prev Lvl Cap", 2)
+                dynmultipush("Maximize Friendship", 3)
+            case 6:
+                dynmultipush("Current Level Cap", 0)
+                dynmultipush("Version Info", 1)
+                dynmultipush("Set Mon to Prev Lvl Cap", 2)
+                dynmultipush("Maximize Friendship", 3)
+                dynmultipush("Change Nature", 4)
+            case 7:
+                dynmultipush("Current Level Cap", 0)
+                dynmultipush("Version Info", 1)
+                dynmultipush("Set Mon to Prev Lvl Cap", 2)
+                dynmultipush("Maximize Friendship", 3)
+                dynmultipush("Change Nature", 4)
+                dynmultipush("Reset EVs", 5)
+            case 8:
+                dynmultipush("Current Level Cap", 0)
+                dynmultipush("Version Info", 1)
+                dynmultipush("Set Mon to Prev Lvl Cap", 2)
+                dynmultipush("Maximize Friendship", 3)
+                dynmultipush("Change Nature", 4)
+                dynmultipush("Reset EVs", 5)
+                dynmultipush("Swap Gender", 6)
+                dynmultipush("Lower IVs", 7)
+        }
     }
-    switch (var(VAR_RESULT)){
-        case 0: call(CurrentLevelCap)
-        case 1: call(VersionInfo)
+    else {
+        dynmultipush("Current Level Cap", 0)
+        dynmultipush("Version Info", 1)
+        dynmultipush("Set Mon to Prev Lvl Cap", 2)
+        dynmultipush("Maximize Friendship",3)
+        dynmultipush("Change Nature", 4)
+        dynmultipush("Reset EVs", 5)
+        dynmultipush("Swap Gender", 6)
+        dynmultipush("Lower IVs", 7)
     }
-}
-
-script Assistant_OneBadge {
-    call(Assistant_ZeroBadges)
-}
-
-// Adds ability to set pokemon to previous level cap.
-script Assistant_TwoBadges {
-    dynmultipush("Current Level Cap", 0)
-    dynmultipush("Version Info", 1)
-    dynmultipush("Set Mon to Prev Lvl Cap", 2)
-    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
-    if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-        return
-    }
-    switch (var(VAR_RESULT)){
-        case 0: call(CurrentLevelCap)
-        case 1: call(VersionInfo)
-        case 2: call(SetMontoPrevLvlCap)
-    }
-}
-
-// Sets friendship level.
-script Assistant_ThreeBadges {
-    dynmultipush("Current Level Cap", 0)
-    dynmultipush("Version Info", 1)
-    dynmultipush("Set Mon to Prev Lvl Cap", 2)
-    dynmultipush("Maximize Friendship", 3)
-    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
-    if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-        return
-    }
-    switch (var(VAR_RESULT)){
-        case 0: call(CurrentLevelCap)
-        case 1: call(VersionInfo)
-        case 2: call(SetMontoPrevLvlCap)
-        case 3: call(MaxFriendship)
-    }
-}
-
-script Assistant_FourBadges {
-    call(Assistant_ThreeBadges)
-}
-
-script Assistant_FiveBadges {
-    call(Assistant_ThreeBadges)
-}
-
-// Adds Nature Change.
-script Assistant_SixBadges {
-    dynmultipush("Current Level Cap", 0)
-    dynmultipush("Version Info", 1)
-    dynmultipush("Set Mon to Prev Lvl Cap", 2)
-    dynmultipush("Maximize Friendship", 3)
-    dynmultipush("Change Nature", 4)
-    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
-    if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-        return
-    }
-    switch (var(VAR_RESULT)){
-        case 0: call(CurrentLevelCap)
-        case 1: call(VersionInfo)
-        case 2: call(SetMontoPrevLvlCap)
-        case 3: call(MaxFriendship)
-        case 4: call(NatureChange)
-    }
-}
-
-// Adds ability to reset EVs.
-script Assistant_SevenBadges {
-    dynmultipush("Current Level Cap", 0)
-    dynmultipush("Version Info", 1)
-    dynmultipush("Set Mon to Prev Lvl Cap", 2)
-    dynmultipush("Maximize Friendship", 3)
-    dynmultipush("Change Nature", 4)
-    dynmultipush("Reset EVs", 5)
-    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
-    if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-        return
-    }
-    switch (var(VAR_RESULT)){
-        case 0: call(CurrentLevelCap)
-        case 1: call(VersionInfo)
-        case 2: call(SetMontoPrevLvlCap)
-        case 3: call(MaxFriendship)
-        case 4: call(NatureChange)
-        case 5: call(ResetEVs)
-    }
-}
-
-// Adds Gender Swap.
-// Can lower IV to 0 (for things like Trick Room).
-script Assistant_EightBadges {
-    dynmultipush("Current Level Cap", 0)
-    dynmultipush("Version Info", 1)
-    dynmultipush("Set Mon to Prev Lvl Cap", 2)
-    dynmultipush("Maximize Friendship", 3)
-    dynmultipush("Change Nature", 4)
-    dynmultipush("Reset EVs", 5)
-    dynmultipush("Swap Gender", 6)
-    dynmultipush("Lower IVs", 7)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
         return
@@ -190,10 +111,6 @@ script Assistant_EightBadges {
         case 6: call(SwapGender)
         case 7: call(LowerIVs)
     }
-}
-
-script Assistant_Postgame {
-    call(Assistant_EightBadges)
 }
 
 script CurrentLevelCap {
