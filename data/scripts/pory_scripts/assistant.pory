@@ -51,17 +51,16 @@ script Assistant_CheckBadges {
 }
 
 script Assistant_Goodbye {
-    random(9)
-    switch (var(VAR_RESULT)) {
-        case  0: msgbox(format("See you later!"))
-        case  1: msgbox(format("Goodbye!"))
-        case  2: msgbox(format("Bye bye!"))
-        case  3: msgbox(format("Bye now!"))
-        case  4: msgbox(format("Bye!"))
-        case  5: msgbox(format("Ciao!"))
-        case  6: msgbox(format("Have fun out there!"))
-        case  7: msgbox(format("Good luck!"))
-        case  8: msgbox(format("You'll do great!"))
+    switch (random(9)) {
+        case 0: msgbox(format("See you later!"))
+        case 1: msgbox(format("Goodbye!"))
+        case 2: msgbox(format("Bye bye!"))
+        case 3: msgbox(format("Bye now!"))
+        case 4: msgbox(format("Bye!"))
+        case 5: msgbox(format("Ciao!"))
+        case 6: msgbox(format("Have fun out there!"))
+        case 7: msgbox(format("Good luck!"))
+        case 8: msgbox(format("You'll do great!"))
     }
 }
 
