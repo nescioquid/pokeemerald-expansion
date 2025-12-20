@@ -200,7 +200,7 @@ script CurrentLevelCap {
     // TODO call var that represents lvl cap
     copyvar(LEVEL_CAP, VAR_0x8004)
     buffernumberstring (STR_VAR_1, LEVEL_CAP)
-    msgbox(Level_Cap_Text)
+    msgbox(format("The current level cap is {STR_VAR_1}."))
     release
     end
 }
@@ -209,7 +209,7 @@ script VersionInfo {
     // TODO call var that represents version info
     copyvar(VERSION, VAR_0x8004)
     bufferstdstring (STR_VAR_1, VERSION)
-    msgbox(Version_Info_Text)
+    msgbox(format("Version: {STR_VAR_1}"))
     release
     end
 }
@@ -227,7 +227,7 @@ script SetMontoPrevLvlCap {
     copyvar(PRE_LVLCAP, VAR_0x8004)
     buffernumberstring (STR_VAR_2, PRE_LVLCAP)
     // TODO change mon level
-    msgbox(SetMonLvlCap_Text)
+    msgbox(format("I have set {STR_VAR_1} to level {STR_VAR_2}!"))
     closemessage
     release
     end
@@ -243,7 +243,7 @@ script MaxFriendship {
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1, PARTY_MON)
     // TODO set Friendship to FRIENDSHIP_MAX
-    msgbox(SetMaxFriendship_Text)
+    msgbox(format("{STR_VAR_1} is the happiest they will ever be!"))
     closemessage
     release
     end
@@ -291,7 +291,7 @@ script NatureChange {
         return
     }
     special (SetHiddenNature)
-    msgbox(NatureChange_Text)
+    msgbox(format("{STR_VAR-1}'s nature has been changed!"))
     closemessage
     release
     end
@@ -307,7 +307,7 @@ script ResetEVs {
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1, PARTY_MON)
     // TODO reset EVs
-    msgbox(ResetEVs_Text)
+    msgbox(format("I have reset all of {STR_VAR_1}'s EVs!"))
     closemessage
     release
     end
@@ -361,44 +361,8 @@ script LowerIVs {
     }
     copyvar(MON_STAT, VAR_RESULT)
     // TODO set chosen stat IV to 0
-    msgbox(LowerIVs_Text)
+    msgbox(format("{STR_VAR_1}'s {STR_VAR_2} IV has been lowered!"))
     closemessage
     release
     end
-}
-
-text Level_Cap_Text {
-    format("The current level cap is {STR_VAR_1}.")
-}
-
-text Version_Info_Text {
-    format("Version: {STR_VAR_1}")
-}
-
-text SetMonLvlCap_Text {
-    format("I have set {STR_VAR_1} to level {STR_VAR_2}!")
-}
-
-text SetMaxFriendship_Text {
-    format("{STR_VAR_1} is the happiest they will ever be!")
-}
-
-text NatureChange_Text {
-    format("{STR_VAR-1}'s nature has been changed!")
-}
-
-text ResetEVs_Text {
-    format("I have reset all of {STR_VAR_1}'s EVs!")
-}
-
-text SwapGender_Text {
-    format("{STR_VAR_1}'s gender has been changed!")
-}
-
-text CantSwapGender_Text {
-    format("I'm sorry, I cannot change this Pokémon.")
-}
-
-text LowerIVs_Text {
-    format("{STR_VAR_1}'s {STR_VAR_2} IV has been lowered!")
 }
