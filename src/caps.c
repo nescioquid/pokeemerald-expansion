@@ -22,8 +22,9 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE06_GET, 56},
         {FLAG_RECEIVED_RED_OR_BLUE_ORB, 63}, // Triggers after defeating Aqua at Mt Pyre
         {FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 68}, // Triggers after defeating Magma Hideout
-        {FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 72}, // Triggers after defeating Aqua Hideout
+        {FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 71}, // Triggers after defeating Aqua Admin Matt
         {FLAG_BADGE07_GET, 77},
+        {FLAG_DEFEATED_MAGMA_SPACE_CENTER, 80},
         {FLAG_BADGE08_GET, 85},
         {FLAG_IS_CHAMPION, 95},
     };
