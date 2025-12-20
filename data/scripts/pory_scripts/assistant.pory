@@ -79,21 +79,11 @@ script Assistant_ZeroBadges {
 }
 
 script Assistant_OneBadge {
-    // Same as zero
-    dynmultipush("Current Level Cap",0)
-    dynmultipush("Version Info",1)
-    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
-    if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-        return
-    }
-    switch (var(VAR_RESULT)){
-        case 0: call(CurrentLevelCap)
-        case 1: call(VersionInfo)
-    }
+    call(Assistant_ZeroBadges)
 }
 
+// Adds ability to set pokemon to previous level cap.
 script Assistant_TwoBadges {
-    // Adds ability to set pokemon to previous level cap
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
@@ -108,8 +98,8 @@ script Assistant_TwoBadges {
     }
 }
 
+// Sets friendship level.
 script Assistant_ThreeBadges {
-    // set friendship level
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
@@ -127,43 +117,15 @@ script Assistant_ThreeBadges {
 }
 
 script Assistant_FourBadges {
-    // Same as three
-    dynmultipush("Current Level Cap",0)
-    dynmultipush("Version Info",1)
-    dynmultipush("Set Mon to Prev Lvl Cap",2)
-    dynmultipush("Maxize Friendship",3)
-    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
-    if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-        return
-    }
-    switch (var(VAR_RESULT)){
-        case 0: call(CurrentLevelCap)
-        case 1: call(VersionInfo)
-        case 2: call(SetMontoPrevLvlCap)
-        case 3: call(MaxFriendship)
-    }
+    call(Assistant_ThreeBadges)
 }
 
 script Assistant_FiveBadges {
-    // Same as three
-    dynmultipush("Current Level Cap",0)
-    dynmultipush("Version Info",1)
-    dynmultipush("Set Mon to Prev Lvl Cap",2)
-    dynmultipush("Maxize Friendship",3)
-    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
-    if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-        return
-    }
-    switch (var(VAR_RESULT)){
-        case 0: call(CurrentLevelCap)
-        case 1: call(VersionInfo)
-        case 2: call(SetMontoPrevLvlCap)
-        case 3: call(MaxFriendship)
-    }
+    call(Assistant_ThreeBadges)
 }
 
+// Adds Nature Change.
 script Assistant_SixBadges {
-    // Adds Nature Change
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
@@ -182,8 +144,8 @@ script Assistant_SixBadges {
     }
 }
 
+// Adds ability to reset EVs.
 script Assistant_SevenBadges {
-    // Adds ability to reset EVs
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
@@ -204,9 +166,9 @@ script Assistant_SevenBadges {
     }
 }
 
+// Adds Gender Swap.
+// Can lower IV to 0 (for things like Trick Room).
 script Assistant_EightBadges {
-    // Adds Gender Swap
-    // Can lower IV to 0 (for things like Trick Room)
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
@@ -232,31 +194,11 @@ script Assistant_EightBadges {
 }
 
 script Assistant_Postgame {
-    dynmultipush("Current Level Cap",0)
-    dynmultipush("Version Info",1)
-    dynmultipush("Set Mon to Prev Lvl Cap",2)
-    dynmultipush("Maxize Friendship",3)
-    dynmultipush("Change Nature", 4)
-    dynmultipush("Reset EVs", 5)
-    dynmultipush("Swap Gender", 6)
-    dynmultipush("Lower IVs", 7)
-    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
-    if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-        return
-    }
-    switch (var(VAR_RESULT)){
-        case 0: call(CurrentLevelCap)
-        case 1: call(VersionInfo)
-        case 2: call(SetMontoPrevLvlCap)
-        case 3: call(MaxFriendship)
-        case 4: call(NatureChange)
-        case 5: call(ResetEVs)
-        case 6: call(SwapGender)
-        case 7: call(LowerIVs)
-    }
+    call(Assistant_EightBadges)
 }
+
 script CurrentLevelCap {
-    // TODO Call Var that represents lvl cap
+    // TODO call var that represents lvl cap
     copyvar(LEVEL_CAP, VAR_0x8004)
     buffernumberstring (STR_VAR_1, LEVEL_CAP)
     msgbox(Level_Cap_Text)
@@ -265,7 +207,7 @@ script CurrentLevelCap {
 }
 
 script VersionInfo {
-    // TODO Call Var that represents version info
+    // TODO call var that represents version info
     copyvar(VERSION, VAR_0x8004)
     bufferstdstring (STR_VAR_1, VERSION)
     msgbox(Version_Info_Text)
@@ -319,7 +261,7 @@ script NatureChange {
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1,PARTY_MON)
     msgbox(format("Which new nature best serves {STR-VAR_1}?"))
-    // Numbered based on pokemon.h file that numbers natures
+    // Numbered based on pokemon.h file that numbers natures.
     dynmultipush("Adamant{CLEAR_TO 0x48}{FONT_RED}+Atk{FONT_NORMAL}/{FONT_BLUE}-SpAtk",3)
     dynmultipush("Bashful{CLEAR_TO 0x48}Neutral",18)
     dynmultipush("Bold   {CLEAR_TO 0x48}{FONT_RED}+Def{FONT_NORMAL}/{FONT_BLUE}-Atk",5)
