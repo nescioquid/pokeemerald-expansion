@@ -259,7 +259,7 @@ script NatureChange {
     }
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1,PARTY_MON)
-    msgbox(format("Which new nature best serves {STR-VAR_1}?"))
+    msgbox(format("Which new nature best serves {STR_VAR_1}?"))
     // Numbered based on pokemon.h file that numbers natures.
     dynmultipush("Adamant{CLEAR_TO 0x48}{FONT_RED}+Atk{FONT_NORMAL}/{FONT_BLUE}-SpAtk", 3)
     dynmultipush("Bashful{CLEAR_TO 0x48}Neutral", 18)
@@ -291,7 +291,7 @@ script NatureChange {
         return
     }
     special (SetHiddenNature)
-    msgbox(format("{STR_VAR-1}'s nature has been changed!"))
+    msgbox(format("{STR_VAR_1}'s nature has been changed!"))
     closemessage
     release
     end
