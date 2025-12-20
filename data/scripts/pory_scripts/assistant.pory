@@ -102,7 +102,7 @@ script Assistant_ThreeBadges {
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
-    dynmultipush("Maxize Friendship",3)
+    dynmultipush("Maximize Friendship",3)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
         return
@@ -128,7 +128,7 @@ script Assistant_SixBadges {
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
-    dynmultipush("Maxize Friendship",3)
+    dynmultipush("Maximize Friendship",3)
     dynmultipush("Change Nature", 4)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
     if (var(VAR_RESULT) == MULTI_B_PRESSED) {
@@ -148,7 +148,7 @@ script Assistant_SevenBadges {
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
-    dynmultipush("Maxize Friendship",3)
+    dynmultipush("Maximize Friendship",3)
     dynmultipush("Change Nature", 4)
     dynmultipush("Reset EVs", 5)
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
@@ -171,7 +171,7 @@ script Assistant_EightBadges {
     dynmultipush("Current Level Cap",0)
     dynmultipush("Version Info",1)
     dynmultipush("Set Mon to Prev Lvl Cap",2)
-    dynmultipush("Maxize Friendship",3)
+    dynmultipush("Maximize Friendship",3)
     dynmultipush("Change Nature", 4)
     dynmultipush("Reset EVs", 5)
     dynmultipush("Swap Gender", 6)
