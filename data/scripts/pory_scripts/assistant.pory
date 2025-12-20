@@ -256,7 +256,7 @@ script Assistant_Postgame {
     }
 }
 script CurrentLevelCap {
-    //TODO Call Var that represents lvl cap
+    // TODO Call Var that represents lvl cap
     copyvar(LEVEL_CAP, VAR_0x8004)
     buffernumberstring (STR_VAR_1, LEVEL_CAP)
     msgbox(Level_Cap_Text)
@@ -265,7 +265,7 @@ script CurrentLevelCap {
 }
 
 script VersionInfo {
-    //TODO Call Var that represents version info
+    // TODO Call Var that represents version info
     copyvar(VERSION, VAR_0x8004)
     bufferstdstring (STR_VAR_1, VERSION)
     msgbox(Version_Info_Text)
@@ -282,10 +282,10 @@ script SetMontoPrevLvlCap {
     }
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1, PARTY_MON)
-    //TODO call var representing lvl cap minus 1
+    // TODO call var representing lvl cap minus 1
     copyvar(PRE_LVLCAP, VAR_0x8004)
     buffernumberstring (STR_VAR_2, PRE_LVLCAP)
-    //TODO change mon level
+    // TODO change mon level
     msgbox(SetMonLvlCap_Text)
     closemessage
     release
@@ -301,7 +301,7 @@ script MaxFriendship {
     }
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1, PARTY_MON)
-    //TODO set Friendship to FRIENDSHIP_MAX
+    // TODO set Friendship to FRIENDSHIP_MAX
     msgbox(SetMaxFriendship_Text)
     closemessage
     release
@@ -319,7 +319,8 @@ script NatureChange {
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1,PARTY_MON)
     msgbox(format("Which new nature best serves {STR-VAR_1}?"))
-    dynmultipush("Adamant{CLEAR_TO 0x48}{FONT_RED}+Atk{FONT_NORMAL}/{FONT_BLUE}-SpAtk",3) //Numbered based on pokemon.h file that numbers natures
+    // Numbered based on pokemon.h file that numbers natures
+    dynmultipush("Adamant{CLEAR_TO 0x48}{FONT_RED}+Atk{FONT_NORMAL}/{FONT_BLUE}-SpAtk",3)
     dynmultipush("Bashful{CLEAR_TO 0x48}Neutral",18)
     dynmultipush("Bold   {CLEAR_TO 0x48}{FONT_RED}+Def{FONT_NORMAL}/{FONT_BLUE}-Atk",5)
     dynmultipush("Brave  {CLEAR_TO 0x48}{FONT_RED}+Atk{FONT_NORMAL}/{FONT_BLUE}-Speed",2)
@@ -364,7 +365,7 @@ script ResetEVs {
     }
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1, PARTY_MON)
-    //TODO reset EVs
+    // TODO reset EVs
     msgbox(ResetEVs_Text)
     closemessage
     release
@@ -384,7 +385,7 @@ script SwapGender {
     var(VAR_0x8004) == SPECIES_BASCULIN_WHITE_STRIPED) {
     copyvar(PARTY_MON, VAR_0x8004)
     bufferpartymonnick(STR_VAR_1, PARTY_MON)
-    //TODO set gender to opposite
+    // TODO set gender to opposite
     msgbox(SwapGender_Text)
     closemessage
     release
@@ -418,7 +419,7 @@ script LowerIVs {
     return
     }
     copyvar(MON_STAT, VAR_RESULT)
-    //TODO set chosen stat IV to 0
+    // TODO set chosen stat IV to 0
     msgbox(LowerIVs_Text)
     closemessage
     release
