@@ -17,16 +17,16 @@ script Pokemon_Center_Assistant {
 
 script Assistant_Hello {
     if (!flag(FLAG_MET_ASSISTANT)) {
-        msgbox(format("Hello!\n
-            I am here to assist you as you progress in your Pokémon journey!\n
-            Forgive me, but I too am just starting my journey as an assistant, \n
-            so I might not be able to help you much right now,\n
-            but I promise I will learn as I go!\n
+        msgbox(format("Hello!\N
+            I am here to assist you as you progress in your Pokémon journey!\N
+            Forgive me, but I too am just starting my journey as an assistant,\N
+            so I might not be able to help you much right now,\N
+            but I promise I will learn as I go!\N
             How may I help you today?"))
         setflag(FLAG_MET_ASSISTANT)
     }
     else {
-        msgbox(format("Hello again!\n How may I help you today?"))
+        msgbox(format("Hello again!\N How may I help you today?"))
     }
 }
 
