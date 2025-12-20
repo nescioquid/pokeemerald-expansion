@@ -59,18 +59,17 @@ script Assistant_DoAssistantThings {
         // Add postgame-enabled logic here.
     }
     dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
-    if (var(VAR_RESULT) == MULTI_B_PRESSED) {
-        return
-    }
-    switch (var(VAR_RESULT)){
-        case 0: call(CurrentLevelCap)
-        case 1: call(VersionInfo)
-        case 2: call(SetMontoPrevLvlCap)
-        case 3: call(MaxFriendship)
-        case 4: call(NatureChange)
-        case 5: call(ResetEVs)
-        case 6: call(SwapGender)
-        case 7: call(LowerIVs)
+    if (var(VAR_RESULT) != MULTI_B_PRESSED) {
+        switch (var(VAR_RESULT)){
+            case 0: call(CurrentLevelCap)
+            case 1: call(VersionInfo)
+            case 2: call(SetMontoPrevLvlCap)
+            case 3: call(MaxFriendship)
+            case 4: call(NatureChange)
+            case 5: call(ResetEVs)
+            case 6: call(SwapGender)
+            case 7: call(LowerIVs)
+        }
     }
 }
 
@@ -95,17 +94,15 @@ script VersionInfo {
 script SetMontoPrevLvlCap {
     special(ChoosePartyMon)
     waitstate
-    if (var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
-        release
-        end
+    if (var(VAR_0x8004) != PARTY_NOTHING_CHOSEN) {
+        copyvar(PARTY_MON, VAR_0x8004)
+        bufferpartymonnick(STR_VAR_1, PARTY_MON)
+        // TODO call var representing lvl cap minus 1
+        copyvar(PRE_LVLCAP, VAR_0x8004)
+        buffernumberstring (STR_VAR_2, PRE_LVLCAP)
+        // TODO change mon level
+        msgbox(format("I have set {STR_VAR_1} to level {STR_VAR_2}!"))
     }
-    copyvar(PARTY_MON, VAR_0x8004)
-    bufferpartymonnick(STR_VAR_1, PARTY_MON)
-    // TODO call var representing lvl cap minus 1
-    copyvar(PRE_LVLCAP, VAR_0x8004)
-    buffernumberstring (STR_VAR_2, PRE_LVLCAP)
-    // TODO change mon level
-    msgbox(format("I have set {STR_VAR_1} to level {STR_VAR_2}!"))
     closemessage
     release
     end
